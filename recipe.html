@@ -76,13 +76,6 @@ h1{
   font-size:12px;
 }
 
-/* SECTIONS */
-h3{
-  margin-top:20px;
-  margin-bottom:10px;
-  font-size:16px;
-}
-
 /* INGREDIENTS */
 .ingredients{
   display:flex;
@@ -106,7 +99,7 @@ h3{
   border-left:3px solid #2b6fff;
 }
 
-/* BLOCKS */
+/* BLOCK */
 .block{
   background:#1b2430;
   padding:12px;
@@ -115,16 +108,22 @@ h3{
 }
 
 /* BUTTON */
-button.save{
+.save{
   width:100%;
   margin-top:15px;
   padding:12px;
   border:none;
   border-radius:10px;
-  background:#2b6fff;
+  background:linear-gradient(135deg,#2b6fff,#00c6ff);
   color:#fff;
   cursor:pointer;
   font-size:14px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.save:hover{
+  transform:scale(1.03);
 }
 </style>
 </head>
@@ -137,72 +136,76 @@ button.save{
 </div>
 
 <div class="container">
-  <div class="card" id="content">Loading...</div>
+  <div class="card" id="content">Loading recipe...</div>
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
 
-const id = new URLSearchParams(location.search).get("id");
-const box = document.getElementById("content");
-const hero = document.getElementById("hero");
+  const id = new URLSearchParams(location.search).get("id");
+  const box = document.getElementById("content");
+  const hero = document.getElementById("hero");
 
-try {
-  const res = await fetch("./data/arabic-recipes.json");
-  const data = await res.json();
+  try {
+    const res = await fetch("./data/arabic-recipes.json");
 
-  const recipe = data.find(r => r.id == id);
+    if (!res.ok) throw new Error("JSON not found");
 
-  if(!recipe){
-    box.innerHTML = "Recipe not found";
-    return;
-  }
+    const data = await res.json();
 
-  hero.style.backgroundImage = `url('${recipe.image}')`;
+    const recipe = data.find(r => String(r.id) === String(id));
 
-  box.innerHTML = `
-    <h1>${recipe.title}</h1>
+    if (!recipe) {
+      box.innerHTML = "❌ Recipe not found";
+      return;
+    }
 
-    <div class="meta">
-      <span>⏱ ${recipe.time}</span>
-      <span>🔥 ${recipe.difficulty}</span>
-      <span>🍽 ${recipe.category}</span>
-    </div>
+    /* HERO IMAGE */
+    hero.style.backgroundImage = `url('${recipe.image}')`;
 
-    <button class="save">❤️ Save Recipe</button>
+    /* SAFE RENDER */
+    box.innerHTML = `
+      <h1>${recipe.title}</h1>
 
-    <h3>Ingredients</h3>
-    <div class="ingredients">
-      ${recipe.ingredients.map(i => `<span>${i}</span>`).join("")}
-    </div>
-
-    <h3>Steps</h3>
-    ${recipe.steps.map((s,i) => `
-      <div class="step">
-        <b>Step ${i+1}</b><br>
-        ${s}
+      <div class="meta">
+        <span>⏱ ${recipe.time}</span>
+        <span>🔥 ${recipe.difficulty}</span>
+        <span>🍽 ${recipe.category}</span>
       </div>
-    `).join("")}
 
-    ${recipe.servingSuggestions ? `
-      <h3>Serving Suggestions</h3>
-      ${recipe.servingSuggestions.map(s => `
-        <div class="block">${s}</div>
+      <button class="save">❤️ Save Recipe</button>
+
+      <h3>Ingredients</h3>
+      <div class="ingredients">
+        ${(recipe.ingredients || []).map(i => `<span>${i}</span>`).join("")}
+      </div>
+
+      <h3>Steps</h3>
+      ${(recipe.steps || []).map((s,i) => `
+        <div class="step">
+          <b>Step ${i+1}</b><br>${s}
+        </div>
       `).join("")}
-    ` : ""}
 
-    ${recipe.chefTips ? `
-      <h3>Chef Tips</h3>
-      ${recipe.chefTips.map(t => `
-        <div class="block">${t}</div>
-      `).join("")}
-    ` : ""}
-  `;
+      ${recipe.servingSuggestions ? `
+        <h3>Serving Suggestions</h3>
+        ${recipe.servingSuggestions.map(s => `
+          <div class="block">${s}</div>
+        `).join("")}
+      ` : ""}
 
-} catch (err) {
-  console.log(err);
-  box.innerHTML = "❌ Failed to load recipe";
-}
+      ${recipe.chefTips ? `
+        <h3>Chef Tips</h3>
+        ${recipe.chefTips.map(t => `
+          <div class="block">${t}</div>
+        `).join("")}
+      ` : ""}
+    `;
+
+  } catch (err) {
+    console.error(err);
+    box.innerHTML = "❌ Failed to load recipe data";
+  }
 
 });
 </script>
