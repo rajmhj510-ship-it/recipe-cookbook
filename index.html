@@ -1,24 +1,21 @@
 <script>
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
 
+const grid = document.getElementById("recipeGrid");
 let recipes = [];
 let currentList = [];
 let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
-const grid = document.getElementById("recipeGrid");
-
-/* LOAD JSON */
-fetch("./data/arabic-recipes.json")
-  .then(res => res.json())
-  .then(data => {
-    recipes = data;
-    currentList = data;
-    render(data);
-  })
-  .catch(err => {
-    console.log("ERROR:", err);
-    grid.innerHTML = "<div class='loading'>❌ Failed to load recipes</div>";
-  });
+/* LOAD DATA */
+try {
+  const res = await fetch("./data/arabic-recipes.json");
+  recipes = await res.json();
+  currentList = recipes;
+  render(recipes);
+} catch (err) {
+  console.error(err);
+  grid.innerHTML = "<div class='loading'>❌ Failed to load recipes</div>";
+}
 
 /* RENDER */
 function render(list){
@@ -44,7 +41,7 @@ function render(list){
   });
 }
 
-/* GLOBAL FUNCTIONS (IMPORTANT FOR GITHUB) */
+/* GLOBAL FUNCTIONS */
 window.openRecipe = (id) => {
   window.location.href = "recipe.html?id=" + id;
 };
