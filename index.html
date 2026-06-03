@@ -1,27 +1,31 @@
 <script>
+document.addEventListener("DOMContentLoaded", () => {
+
 let recipes = [];
 let currentList = [];
 let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
+const grid = document.getElementById("recipeGrid");
+
 /* LOAD DATA */
 fetch("./data/arabic-recipes.json")
-  .then(res => res.json())
+  .then(res => {
+    if (!res.ok) throw new Error("JSON file not found");
+    return res.json();
+  })
   .then(data => {
     recipes = data;
     currentList = data;
-    renderRecipes(recipes);
+    render(recipes);
   })
   .catch(err => {
-    console.log("Error loading JSON:", err);
-    document.getElementById("recipeGrid").innerHTML =
-      "<div class='loading'>Failed to load recipes</div>";
+    console.log(err);
+    grid.innerHTML = "<div class='loading'>❌ Failed to load recipes</div>";
   });
 
 /* RENDER */
-function renderRecipes(list){
+function render(list){
   currentList = list;
-
-  const grid = document.getElementById("recipeGrid");
   grid.innerHTML = "";
 
   list.forEach(r => {
@@ -44,47 +48,36 @@ function renderRecipes(list){
 }
 
 /* NAV */
-function openRecipe(id){
+window.openRecipe = function(id){
   window.location.href = "recipe.html?id=" + id;
-}
+};
+
+/* FILTER */
+window.filterCategory = function(cat){
+  if(cat === "All") return render(recipes);
+  render(recipes.filter(r => r.category === cat));
+};
 
 /* SEARCH */
 document.getElementById("searchBox").addEventListener("input", e => {
-  let val = e.target.value.toLowerCase();
-
-  const filtered = recipes.filter(r =>
-    r.title.toLowerCase().includes(val)
-  );
-
-  renderRecipes(filtered);
+  const val = e.target.value.toLowerCase();
+  render(recipes.filter(r => r.title.toLowerCase().includes(val)));
 });
 
-/* FILTER FIXED */
-function filterCategory(cat){
-  if(cat === "All"){
-    renderRecipes(recipes);
-    return;
-  }
-
-  const filtered = recipes.filter(r => r.category === cat);
-  renderRecipes(filtered);
-}
-
 /* FAVORITES */
-function toggleFav(id){
+window.toggleFav = function(id){
   if(favorites.includes(id)){
     favorites = favorites.filter(f => f !== id);
   } else {
     favorites.push(id);
   }
-
   localStorage.setItem("favorites", JSON.stringify(favorites));
-  renderRecipes(currentList);
-}
+  render(currentList);
+};
 
-/* FAVORITES VIEW */
-function showFavorites(){
-  const filtered = recipes.filter(r => favorites.includes(r.id));
-  renderRecipes(filtered);
-}
+window.showFavorites = function(){
+  render(recipes.filter(r => favorites.includes(r.id)));
+};
+
+});
 </script>
