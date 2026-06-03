@@ -44,7 +44,7 @@ input{
 .card{
   background:#151c25;
   border-radius:14px;
-  overflow:hidden;
+  padding:12px;
   cursor:pointer;
   transition:0.25s;
   border:1px solid rgba(255,255,255,0.05);
@@ -55,25 +55,19 @@ input{
   background:#1b2430;
 }
 
-.card h3{
-  margin:0;
-  padding:12px;
-  font-size:16px;
-}
-
-.meta{
-  padding:0 12px 12px;
-  font-size:12px;
-  opacity:0.7;
-}
-
 .badge{
   display:inline-block;
-  margin:0 12px 12px;
+  margin-top:8px;
   padding:4px 10px;
   font-size:11px;
   background:#2b6fff;
   border-radius:20px;
+}
+
+.meta{
+  font-size:12px;
+  opacity:0.7;
+  margin-top:5px;
 }
 </style>
 </head>
@@ -97,7 +91,7 @@ const grid = document.getElementById("recipeGrid");
 
 let recipes = [];
 
-/* LOAD JSON */
+/* LOAD DATA */
 try {
   const res = await fetch("./data/arabic-recipes.json");
   recipes = await res.json();
@@ -107,7 +101,7 @@ try {
   grid.innerHTML = "❌ Failed to load JSON";
 }
 
-/* RENDER */
+/* RENDER FUNCTION */
 function render(list){
   grid.innerHTML = "";
 
@@ -115,25 +109,23 @@ function render(list){
     grid.innerHTML += `
       <div class="card">
         <h3>${r.title}</h3>
+        <div class="meta">${r.time} • ${r.difficulty}</div>
         <div class="badge">${r.category}</div>
-        <p>${r.time} • ${r.difficulty}</p>
       </div>
     `;
   });
 }
 
-/* SEARCH */
+/* SEARCH FIXED */
 document.getElementById("searchBox").addEventListener("input", (e) => {
   const val = e.target.value.toLowerCase();
 
-  render(
-   grid.innerHTML += `
-  <div class="card">
-    <h3>${r.title}</h3>
-    <div class="meta">${r.time} • ${r.difficulty}</div>
-    <div class="badge">${r.category}</div>
-  </div>
-`;
+  const filtered = recipes.filter(r =>
+    r.title.toLowerCase().includes(val)
+  );
+
+  render(filtered);
+});
 
 });
 </script>
