@@ -7,19 +7,16 @@ let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
 const grid = document.getElementById("recipeGrid");
 
-/* LOAD DATA */
+/* LOAD JSON */
 fetch("./data/arabic-recipes.json")
-  .then(res => {
-    if (!res.ok) throw new Error("JSON file not found");
-    return res.json();
-  })
+  .then(res => res.json())
   .then(data => {
     recipes = data;
     currentList = data;
-    render(recipes);
+    render(data);
   })
   .catch(err => {
-    console.log(err);
+    console.log("ERROR:", err);
     grid.innerHTML = "<div class='loading'>❌ Failed to load recipes</div>";
   });
 
@@ -47,25 +44,21 @@ function render(list){
   });
 }
 
-/* NAV */
-window.openRecipe = function(id){
+/* GLOBAL FUNCTIONS (IMPORTANT FOR GITHUB) */
+window.openRecipe = (id) => {
   window.location.href = "recipe.html?id=" + id;
 };
 
-/* FILTER */
-window.filterCategory = function(cat){
+window.filterCategory = (cat) => {
   if(cat === "All") return render(recipes);
   render(recipes.filter(r => r.category === cat));
 };
 
-/* SEARCH */
-document.getElementById("searchBox").addEventListener("input", e => {
-  const val = e.target.value.toLowerCase();
-  render(recipes.filter(r => r.title.toLowerCase().includes(val)));
-});
+window.showFavorites = () => {
+  render(recipes.filter(r => favorites.includes(r.id)));
+};
 
-/* FAVORITES */
-window.toggleFav = function(id){
+window.toggleFav = (id) => {
   if(favorites.includes(id)){
     favorites = favorites.filter(f => f !== id);
   } else {
@@ -73,10 +66,6 @@ window.toggleFav = function(id){
   }
   localStorage.setItem("favorites", JSON.stringify(favorites));
   render(currentList);
-};
-
-window.showFavorites = function(){
-  render(recipes.filter(r => favorites.includes(r.id)));
 };
 
 });
