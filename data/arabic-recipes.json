@@ -1,1 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Falafel",
+    "category": "Arabic",
+    "time": "45 min",
+    "difficulty": "Medium",
+    "image": "images/Falafel.png",
 
+    "ingredients": [
+      "250 g dry chickpeas, soaked overnight",
+      "1 medium onion",
+      "4–5 cloves garlic",
+      "1 cup parsley",
+      "1 cup cilantro",
+      "½ cup dill (optional)",
+      "1 tsp baking soda",
+      "2 tsp cumin",
+      "2 tsp coriander",
+      "1 tsp black pepper",
+      "½ tsp Aleppo pepper",
+      "1½ tsp salt",
+      "2 tbsp sesame seeds",
+      "Oil for frying"
+    ],
+
+    "steps": [
+      "Soak chickpeas overnight.",
+      "Drain thoroughly.",
+      "Blend chickpeas with herbs and onion.",
+      "Add spices and mix well.",
+      "Chill mixture.",
+      "Form balls.",
+      "Fry at 170–180°C until golden.",
+      "Drain and serve hot."
+    ],
+
+    "servingSuggestions": [
+      "Serve in pita bread with vegetables.",
+      "Add tahini sauce and pickles."
+    ],
+
+    "chefTips": [
+      "Never use canned chickpeas.",
+      "Keep mixture chilled before frying.",
+      "Maintain oil temperature for crisp texture."
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Hummus",
+    "category": "Arabic",
+    "time": "90 min",
+    "difficulty": "Easy",
+    "image": "images/Hummus.png",
+
+    "ingredients": [
+      "250 g dried chickpeas",
+      "1 tsp baking soda",
+      "120 g tahini",
+      "80 ml lemon juice",
+      "1 garlic clove",
+      "80–100 ml ice water",
+      "Salt",
+      "Olive oil"
+    ],
+
+    "steps": [
+      "Soak chickpeas overnight.",
+      "Cook until soft.",
+      "Blend tahini and lemon juice.",
+      "Add chickpeas and blend smooth.",
+      "Add ice water gradually.",
+      "Adjust seasoning.",
+      "Serve with olive oil."
+    ],
+
+    "servingSuggestions": [
+      "Serve with warm pita bread.",
+      "Garnish with olive oil and paprika."
+    ],
+
+    "chefTips": [
+      "Use warm chickpeas for smoother texture.",
+      "Ice water makes it creamy.",
+      "Use high-quality tahini."
+    ]
+  }
+]
