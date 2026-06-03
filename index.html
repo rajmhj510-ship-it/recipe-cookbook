@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Cookbook</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Poppins;}
+
+.bg{
+position:fixed;inset:0;
+background:url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+z-index:-2;
+}
+
+.overlay{
+position:fixed;inset:0;
+background:rgba(0,0,0,0.55);
+z-index:-1;
+}
+
+.paper{
+width:95%;
+max-width:1100px;
+margin:20px auto;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(18px);
+border-radius:18px;
+padding:14px;
+color:#fff;
+}
+
+.brand{display:flex;gap:10px;align-items:center;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.1);}
+.logo{width:40px;height:40px;}
+
+.search input{
+width:100%;padding:10px;border-radius:10px;border:none;margin-top:10px;
+}
+
+.filters{display:flex;gap:8px;overflow-x:auto;margin-top:10px;}
+.filters button{padding:6px 10px;border:none;border-radius:20px;background:#333;color:#fff;cursor:pointer;}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:10px;
+margin-top:15px;
+}
+
+@media(min-width:700px){.grid{grid-template-columns:repeat(3,1fr);}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(4,1fr);}}
+
+.card{background:#111;border-radius:10px;overflow:hidden;cursor:pointer;}
+.card img{width:100%;height:120px;object-fit:cover;}
+
+.card-body{padding:8px;}
+.title{font-size:13px;font-weight:600;}
+.meta{font-size:11px;opacity:0.7;}
+.badge{font-size:10px;background:#4da3ff;padding:3px 6px;border-radius:10px;}
+.fav{margin-top:5px;width:100%;font-size:11px;}
+</style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+<div class="overlay"></div>
+
+<div class="paper">
+
+<div class="brand">
+<img src="logo.png" class="logo">
+<div>
+<h1>Digital Cookbook</h1>
+<p>300+ Recipes</p>
+</div>
+</div>
+
+<div class="search">
+<input id="searchBox" placeholder="Search recipes...">
+</div>
+
+<div class="filters">
+<button onclick="setFilter('All')">All</button>
+<button onclick="setFilter('Arabic')">Arabic</button>
+<button onclick="showFav()">Favorites</button>
+</div>
+
+<div class="grid" id="grid"></div>
+
+</div>
+
+<script>
+
+let recipes = [];
+let filtered = [];
+let favorites = JSON.parse(localStorage.getItem("fav")) || [];
+
+fetch("data/arabic-recipes.json")
+.then(r=>r.json())
+.then(data=>{
+recipes = data;
+filtered = data;
+render(data);
+});
+
+function render(list){
+filtered = list;
+const grid = document.getElementById("grid");
+grid.innerHTML="";
+
+list.forEach(r=>{
+grid.innerHTML += `
+<div class="card" onclick="openRecipe(${r.id})">
+<img src="${r.image}">
+<div class="card-body">
+<div class="title">${r.title}</div>
+<div class="meta">${r.time} • ${r.difficulty}</div>
+<div class="badge">${r.category}</div>
+<button class="fav" onclick="event.stopPropagation();toggleFav(${r.id})">
+${favorites.includes(r.id)?"♥ Saved":"♡ Save"}
+</button>
+</div>
+</div>`;
+});
+}
+
+function openRecipe(id){
+window.location.href=`recipe.html?id=${id}`;
+}
+
+document.getElementById("searchBox").addEventListener("input",e=>{
+render(recipes.filter(r=>r.title.toLowerCase().includes(e.target.value.toLowerCase())));
+});
+
+function setFilter(cat){
+if(cat==="All") return render(recipes);
+render(recipes.filter(r=>r.category===cat));
+}
+
+function showFav(){
+render(recipes.filter(r=>favorites.includes(r.id)));
+}
+
+function toggleFav(id){
+if(favorites.includes(id)){
+favorites=favorites.filter(x=>x!==id);
+}else{
+favorites.push(id);
+}
+localStorage.setItem("fav",JSON.stringify(favorites));
+render(filtered);
+}
+
+</script>
+
+</body>
+</html>
