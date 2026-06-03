@@ -24,6 +24,30 @@ h1{
   margin-bottom:20px;
 }
 
+/* FILTERS */
+#filters{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:15px;
+}
+
+#filters button{
+  padding:8px 12px;
+  border:none;
+  border-radius:20px;
+  cursor:pointer;
+  background:#1b2430;
+  color:#fff;
+  font-size:12px;
+  transition:0.2s;
+}
+
+#filters button:hover{
+  background:#2b6fff;
+}
+
+/* SEARCH */
 input{
   width:100%;
   padding:12px;
@@ -55,6 +79,17 @@ input{
   background:#1b2430;
 }
 
+.card h3{
+  margin:0;
+  font-size:16px;
+}
+
+.meta{
+  font-size:12px;
+  opacity:0.7;
+  margin-top:6px;
+}
+
 .badge{
   display:inline-block;
   margin-top:8px;
@@ -62,12 +97,6 @@ input{
   font-size:11px;
   background:#2b6fff;
   border-radius:20px;
-}
-
-.meta{
-  font-size:12px;
-  opacity:0.7;
-  margin-top:5px;
 }
 </style>
 </head>
@@ -78,8 +107,23 @@ input{
 
 <h1>🍲 Digital Cookbook</h1>
 
+<!-- FILTERS -->
+<div id="filters">
+  <button onclick="setFilter('All')">🌍 All</button>
+  <button onclick="setFilter('Arabic')">🇸🇦 Arabic</button>
+  <button onclick="setFilter('Chinese')">🇨🇳 Chinese</button>
+  <button onclick="setFilter('Continental')">🍽 Continental</button>
+  <button onclick="setFilter('Indian')">🇮🇳 Indian</button>
+  <button onclick="setFilter('Mexican')">🇲🇽 Mexican</button>
+  <button onclick="setFilter('Thai')">🇹🇭 Thai</button>
+  <button onclick="setFilter('Italian')">🇮🇹 Italian</button>
+  <button onclick="setFilter('Nepali')">🇳🇵 Nepali</button>
+</div>
+
+<!-- SEARCH -->
 <input id="searchBox" placeholder="Search recipes..." />
 
+<!-- GRID -->
 <div id="recipeGrid">Loading...</div>
 
 </div>
@@ -90,6 +134,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 const grid = document.getElementById("recipeGrid");
 
 let recipes = [];
+let activeFilter = "All";
 
 /* LOAD DATA */
 try {
@@ -97,13 +142,32 @@ try {
   recipes = await res.json();
   render(recipes);
 } catch (err) {
-  console.log(err);
   grid.innerHTML = "❌ Failed to load JSON";
 }
 
-/* RENDER FUNCTION */
+/* FILTER FUNCTION */
+function setFilter(cat){
+  activeFilter = cat;
+
+  let filtered = recipes;
+
+  if(cat !== "All"){
+    filtered = recipes.filter(r => r.category === cat);
+  }
+
+  render(filtered);
+}
+
+window.setFilter = setFilter;
+
+/* RENDER */
 function render(list){
   grid.innerHTML = "";
+
+  if(list.length === 0){
+    grid.innerHTML = "No recipes found";
+    return;
+  }
 
   list.forEach(r => {
     grid.innerHTML += `
@@ -116,11 +180,20 @@ function render(list){
   });
 }
 
-/* SEARCH FIXED */
+/* SEARCH */
 document.getElementById("searchBox").addEventListener("input", (e) => {
+
   const val = e.target.value.toLowerCase();
 
-  const filtered = recipes.filter(r =>
+  let filtered = recipes;
+
+  /* apply category first */
+  if(activeFilter !== "All"){
+    filtered = filtered.filter(r => r.category === activeFilter);
+  }
+
+  /* then search */
+  filtered = filtered.filter(r =>
     r.title.toLowerCase().includes(val)
   );
 
