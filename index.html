@@ -7,50 +7,73 @@
 
 <style>
 body{
-  font-family: Arial, sans-serif;
+  font-family: Arial;
   margin:0;
-  padding:20px;
-  background:#111;
+  background:#0b0f14;
   color:#fff;
+  padding:20px;
 }
 
 .paper{
-  max-width:1000px;
+  max-width:1100px;
   margin:auto;
 }
 
 h1{
   text-align:center;
+  margin-bottom:20px;
 }
 
 input{
   width:100%;
-  padding:10px;
-  margin:10px 0;
-  border-radius:8px;
+  padding:12px;
+  border-radius:10px;
   border:none;
+  outline:none;
+  margin-bottom:20px;
 }
 
+/* GRID */
 .grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-  gap:10px;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:16px;
 }
 
+/* CARD */
 .card{
-  background:#222;
-  padding:10px;
-  border-radius:10px;
+  background:#151c25;
+  border-radius:14px;
+  overflow:hidden;
   cursor:pointer;
+  transition:0.25s;
+  border:1px solid rgba(255,255,255,0.05);
 }
 
 .card:hover{
-  background:#333;
+  transform:translateY(-6px);
+  background:#1b2430;
+}
+
+.card h3{
+  margin:0;
+  padding:12px;
+  font-size:16px;
+}
+
+.meta{
+  padding:0 12px 12px;
+  font-size:12px;
+  opacity:0.7;
 }
 
 .badge{
-  font-size:12px;
-  color:#aaa;
+  display:inline-block;
+  margin:0 12px 12px;
+  padding:4px 10px;
+  font-size:11px;
+  background:#2b6fff;
+  border-radius:20px;
 }
 </style>
 </head>
@@ -104,11 +127,13 @@ document.getElementById("searchBox").addEventListener("input", (e) => {
   const val = e.target.value.toLowerCase();
 
   render(
-    recipes.filter(r =>
-      r.title.toLowerCase().includes(val)
-    )
-  );
-});
+   grid.innerHTML += `
+  <div class="card">
+    <h3>${r.title}</h3>
+    <div class="meta">${r.time} • ${r.difficulty}</div>
+    <div class="badge">${r.category}</div>
+  </div>
+`;
 
 });
 </script>
