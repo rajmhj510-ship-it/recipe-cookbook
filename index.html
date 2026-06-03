@@ -1,117 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Digital Cookbook</title>
-
-<style>
-body{
-  font-family: Arial, sans-serif;
-  margin:0;
-  padding:20px;
-  background:#111;
-  color:#fff;
-}
-
-.paper{
-  max-width:1000px;
-  margin:auto;
-}
-
-h1{
-  text-align:center;
-}
-
-input{
-  width:100%;
-  padding:10px;
-  margin:10px 0;
-  border-radius:8px;
-  border:none;
-}
-
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-  gap:10px;
-}
-
-.card{
-  background:#222;
-  padding:10px;
-  border-radius:10px;
-  cursor:pointer;
-}
-
-.card:hover{
-  background:#333;
-}
-
-.badge{
-  font-size:12px;
-  color:#aaa;
-}
-</style>
-</head>
-
-<body>
-
-<div class="paper">
-
-<h1>🍲 Digital Cookbook</h1>
-
-<input id="searchBox" placeholder="Search recipes..." />
-
-<div id="recipeGrid">Loading...</div>
-
-</div>
-
 <script>
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", () => {
+
+let recipes = [];
+let currentList = [];
+let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
 const grid = document.getElementById("recipeGrid");
 
-let recipes = [];
-
 /* LOAD JSON */
-try {
-  const res = await fetch("./data/arabic-recipes.json");
-  recipes = await res.json();
-  render(recipes);
-} catch (err) {
-  console.log(err);
-  grid.innerHTML = "❌ Failed to load JSON";
-}
+fetch("./data/arabic-recipes.json")
+  .then(res => res.json())
+  .then(data => {
+    recipes = data;
+    currentList = data;
+    render(data);
+  })
+  .catch(err => {
+    console.log("ERROR:", err);
+    grid.innerHTML = "<div class='loading'>❌ Failed to load recipes</div>";
+  });
 
 /* RENDER */
 function render(list){
+  currentList = list;
   grid.innerHTML = "";
 
   list.forEach(r => {
     grid.innerHTML += `
-      <div class="card">
-        <h3>${r.title}</h3>
-        <div class="badge">${r.category}</div>
-        <p>${r.time} • ${r.difficulty}</p>
+      <div class="card" onclick="openRecipe(${r.id})">
+        <img src="${r.image}">
+        <div class="card-body">
+          <div class="title">${r.title}</div>
+          <div class="meta">${r.time} • ${r.difficulty}</div>
+          <span class="badge">${r.category}</span>
+
+          <button class="fav-btn"
+            onclick="event.stopPropagation();toggleFav(${r.id})">
+            ${favorites.includes(r.id) ? "❤️ Saved" : "🤍 Save"}
+          </button>
+        </div>
       </div>
     `;
   });
 }
 
-/* SEARCH */
-document.getElementById("searchBox").addEventListener("input", (e) => {
-  const val = e.target.value.toLowerCase();
+/* GLOBAL FUNCTIONS (IMPORTANT FOR GITHUB) */
+window.openRecipe = (id) => {
+  window.location.href = "recipe.html?id=" + id;
+};
 
-  render(
-    recipes.filter(r =>
-      r.title.toLowerCase().includes(val)
-    )
-  );
-});
+window.filterCategory = (cat) => {
+  if(cat === "All") return render(recipes);
+  render(recipes.filter(r => r.category === cat));
+};
+
+window.showFavorites = () => {
+  render(recipes.filter(r => favorites.includes(r.id)));
+};
+
+window.toggleFav = (id) => {
+  if(favorites.includes(id)){
+    favorites = favorites.filter(f => f !== id);
+  } else {
+    favorites.push(id);
+  }
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+  render(currentList);
+};
 
 });
 </script>
-
-</body>
-</html>
