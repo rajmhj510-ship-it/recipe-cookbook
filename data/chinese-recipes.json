@@ -1,63 +1,127 @@
-{
-  "id": 101,
-  "title": "Fish Szechuan Sauce",
-  "image": "Fish Szechuan Sauce.png",
-  "time": "30 min",
-  "difficulty": "Medium",
-  "category": "Chinese",
+[
+  {
+    "id": 101,
+    "title": "Fish Szechuan Sauce",
+    "category": "Chinese",
+    "time": "40 min",
+    "difficulty": "Medium",
+    "image": "fish-szechuan.jpg",
+    "ingredients": [
+      "500g white fish fillets (cod, seabass, or tilapia)",
+      "1 tsp salt",
+      "1/2 tsp white pepper",
+      "1 tsp Shaoxing wine",
+      "2 tbsp cornstarch",
+      "3 tbsp vegetable oil",
+      "2 tbsp vegetable oil (sauce)",
+      "5–6 dried red chilies",
+      "1 tbsp Szechuan peppercorns",
+      "3 garlic cloves",
+      "1-inch ginger",
+      "2 scallions",
+      "1/4 cup chicken or fish stock",
+      "2 tbsp soy sauce",
+      "1 tbsp black vinegar",
+      "1 tbsp Doubanjiang",
+      "1 tsp sugar",
+      "1/2 tsp sesame oil"
+    ],
+    "steps": [
+      "Pat fish dry and season with salt, pepper, and Shaoxing wine.",
+      "Coat fish with cornstarch.",
+      "Pan-fry until golden and crisp, then set aside.",
+      "Heat oil and fry chilies and Szechuan peppercorns.",
+      "Add garlic, ginger, and Doubanjiang and stir-fry.",
+      "Add stock, soy sauce, vinegar, sugar, and scallions.",
+      "Simmer sauce until slightly thick.",
+      "Pour sauce over fish and serve hot."
+    ]
+  },
 
-  "ingredients": [
-    {
-      "group": "For the Fish",
-      "items": [
-        "500g white fish fillets",
-        "1 tsp salt"
-      ]
-    },
-    {
-      "group": "For the Szechuan Sauce",
-      "items": [
-        "2 tbsp vegetable oil",
-        "3 garlic cloves, minced"
-      ]
-    },
-    {
-      "group": "Garnish",
-      "items": [
-        "Fresh cilantro",
-        "Toasted sesame seeds"
-      ]
-    }
-  ],
+  {
+    "id": 102,
+    "title": "Sichuan Chicken Chili",
+    "category": "Chinese",
+    "time": "30 min",
+    "difficulty": "Medium",
+    "image": "sichuan-chicken.jpg",
+    "ingredients": [
+      "250g chicken thigh cubes",
+      "1/2 tbsp Shaoxing wine",
+      "1/2 tsp soy sauce",
+      "1/4 tsp salt",
+      "1/4 tsp white pepper",
+      "1 egg white",
+      "1 tsp cornstarch",
+      "Dried red chilies",
+      "Sichuan peppercorns",
+      "Garlic",
+      "Ginger",
+      "Scallions"
+    ],
+    "steps": [
+      "Marinate chicken with wine, soy sauce, egg white, and cornstarch.",
+      "Fry chicken until golden and crispy.",
+      "Stir-fry chilies and peppercorns until fragrant.",
+      "Add garlic, ginger, and scallions.",
+      "Return chicken and toss on high heat.",
+      "Serve hot with rice."
+    ]
+  },
 
-  "instructions": [
-    {
-      "group": "Prepare the Fish",
-      "steps": [
-        "Pat fish dry and season",
-        "Coat with cornstarch",
-        "Pan fry until golden"
-      ]
-    },
-    {
-      "group": "Make Sauce",
-      "steps": [
-        "Heat oil and aromatics",
-        "Add soy sauce and vinegar",
-        "Simmer until thick"
-      ]
-    },
-    {
-      "group": "Combine & Serve",
-      "steps": [
-        "Pour sauce over fish",
-        "Garnish and serve hot"
-      ]
-    }
-  ],
+  {
+    "id": 103,
+    "title": "Chili Oil",
+    "category": "Sauces",
+    "time": "30 min",
+    "difficulty": "Easy",
+    "image": "chili-oil.jpg",
+    "ingredients": [
+      "1 cup neutral oil",
+      "1/4 cup chili flakes",
+      "1 tsp Sichuan peppercorns",
+      "2 star anise",
+      "1 cinnamon stick",
+      "3 garlic cloves",
+      "1-inch ginger",
+      "1 shallot",
+      "1 tsp sugar",
+      "1 tsp salt",
+      "1 tsp sesame seeds"
+    ],
+    "steps": [
+      "Heat oil with garlic, ginger, and spices slowly.",
+      "Infuse for 10–15 minutes.",
+      "Mix chili flakes with salt and sugar.",
+      "Pour hot oil over chili mixture.",
+      "Cool and store in jar."
+    ]
+  },
 
-  "tips": [
-    "Keep pan hot for crispy fish",
-    "Balance salt and soy sauce carefully"
-  ]
-}
+  {
+    "id": 104,
+    "title": "Hot Garlic Sauce",
+    "category": "Sauces",
+    "time": "20 min",
+    "difficulty": "Easy",
+    "image": "hot-garlic-sauce.jpg",
+    "ingredients": [
+      "6–8 garlic cloves",
+      "3 tbsp oil",
+      "2 chili paste",
+      "2 tbsp soy sauce",
+      "1 tbsp vinegar",
+      "1 tsp sugar",
+      "1/4 cup stock",
+      "cornstarch slurry",
+      "sesame oil"
+    ],
+    "steps": [
+      "Sauté garlic and chilies in oil.",
+      "Add soy sauce, vinegar, and stock.",
+      "Simmer mixture.",
+      "Add slurry to thicken.",
+      "Finish with sesame oil."
+    ]
+  }
+]
