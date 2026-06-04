@@ -25,5 +25,14 @@
     "image": "assets/images/chinese/fish-szechuan-sauce.png",
     "time": "40 min",
     "difficulty": "Medium"
+  },
+    {
+    "id": 301,
+    "title": "Fried Fish with Tartar Sauce",
+    "category": "Chinese",
+    "file": "data/chinese/continental/fried-fish-with-tartar-sauce.json",
+    "image": "assets/images/continental/fried-fish-with-tartar-sauce.png",
+    "time": "40 min",
+    "difficulty": "Medium"
   }
 ]
