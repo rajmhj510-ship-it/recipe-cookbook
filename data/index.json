@@ -34,6 +34,24 @@
     "image": "assets/images/chinese/fish-szechuan-sauce.png",
     "time": "40 min",
     "difficulty": "Medium"
+    },
+  {
+    "id": 202,
+    "title": "Kung Pao Chicken",
+    "category": "Chinese",
+    "file": "data/chinese/kung-pao-chicken.json",
+    "image": "assets/images/chinese/kung-pao-chicken.png",
+    "time": "40 min",
+    "difficulty": "Medium"
+     },
+  {
+    "id": 203,
+    "title": "Chili Oil",
+    "category": "Chinese",
+    "file": "data/chinese/chili-oil.json",
+    "image": "assets/images/chinese/chili-oil.png",
+    "time": "40 min",
+    "difficulty": "Medium"
   },
     {
     "id": 301,
