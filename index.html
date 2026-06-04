@@ -43,7 +43,7 @@ transition:0.2s;
 }
 
 .card:hover{
-transform:scale(1.02);
+transform:scale(1.03);
 }
 
 .card img{
@@ -67,29 +67,32 @@ opacity:0.7;
 <body>
 
 <header>
-<img src="./logo.png" alt="logo">
+<img src="./logo.png">
 <h2>Recipe Cookbook</h2>
 </header>
 
-<div class="container" id="list">
-Loading...
-</div>
+<div class="container" id="list">Loading...</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
 
+try {
 const res = await fetch("./data/index.json");
 const recipes = await res.json();
 
-const list = document.getElementById("list");
-
-list.innerHTML = recipes.map(r => `
+document.getElementById("list").innerHTML =
+recipes.map(r => `
 <div class="card" onclick="openRecipe('${r.file}')">
-<img src="${r.image}" alt="">
+<img src="${r.image}">
 <h3>${r.title}</h3>
 <small>${r.category}</small>
 </div>
 `).join("");
+
+} catch(err){
+console.error(err);
+document.getElementById("list").innerHTML = "Failed to load recipes";
+}
 
 });
 
