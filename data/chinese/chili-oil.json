@@ -1,1 +1,61 @@
+[
+  {
+    "id": 203,
+    "title": "Chili Oil",
+    "category": "Chinese",
+    "time": "45 min",
+    "difficulty": "Medium",
+    "image": "/assets/images/chinese/chili-oil.png",
 
+    "ingredients": [
+      "500g white fish fillets (cod, seabass, or tilapia)",
+      "1 tsp salt",
+      "1/2 tsp white pepper",
+      "1 tsp Shaoxing wine (optional)",
+      "2 tbsp cornstarch",
+      "3 tbsp vegetable oil",
+
+      "2 tbsp vegetable oil (sauce)",
+      "5–6 dried red chilies",
+      "1 tbsp Szechuan peppercorns",
+      "3 garlic cloves, minced",
+      "1-inch ginger, minced",
+      "2 scallions",
+
+      "1/4 cup chicken or fish stock",
+      "2 tbsp soy sauce",
+      "1 tbsp black vinegar",
+      "1 tbsp Doubanjiang",
+      "1 tsp sugar",
+      "1/2 tsp sesame oil",
+      "1 tsp cornstarch slurry (optional)",
+
+      "Cilantro or scallions (garnish)",
+      "Sesame seeds (optional)"
+    ],
+
+    "steps": [
+      "Pat fish dry and season with salt, pepper, and Shaoxing wine.",
+      "Coat fish lightly with cornstarch.",
+      "Pan-fry fish until golden and crisp on both sides. Set aside.",
+
+      "Heat oil in wok and fry dried chilies and Szechuan peppercorns briefly.",
+      "Add garlic and ginger and sauté until fragrant.",
+      "Add Doubanjiang and cook briefly.",
+      "Add soy sauce, vinegar, sugar, and stock. Bring to simmer.",
+      "Add scallions and cook 1–2 minutes.",
+      "Add slurry if thicker sauce is needed.",
+      "Finish with sesame oil.",
+
+      "Pour sauce over fish and garnish with cilantro or sesame seeds.",
+      "Serve with rice or vegetables."
+    ],
+
+    "chefTips": [
+      "Keep fish dry for crisp texture.",
+      "Do not burn Szechuan peppercorns.",
+      "Balance spice with sugar and vinegar.",
+      "Serve immediately for best taste."
+    ]
+  }
+]
