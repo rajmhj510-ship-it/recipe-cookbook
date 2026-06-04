@@ -84,13 +84,6 @@ border-radius:20px;
 font-size:12px;
 }
 
-/* SECTIONS */
-h3{
-margin-top:18px;
-margin-bottom:10px;
-font-size:16px;
-}
-
 /* INGREDIENTS */
 .ingredients{
 display:flex;
@@ -132,6 +125,7 @@ font-weight:bold;
 min-width:20px;
 }
 
+/* ONLY VISUAL CHANGE = NO STRIKE */
 .step-item.done{
 opacity:0.7;
 border-left:3px solid #00c853;
@@ -139,10 +133,6 @@ border-left:3px solid #00c853;
 
 .step-item.done .tick{
 display:inline-block;
-}
-
-.step-item.done .text{
-text-decoration:line-through;
 }
 
 /* BLOCK */
@@ -197,7 +187,6 @@ const hero = document.getElementById("hero");
 
 try {
 
-/* LOAD DATA */
 const [arabicRes, chineseRes] = await Promise.all([
 fetch("./data/arabic-recipes.json"),
 fetch("./data/chinese-recipes.json")
@@ -206,10 +195,8 @@ fetch("./data/chinese-recipes.json")
 const arabic = await arabicRes.json();
 const chinese = await chineseRes.json();
 
-/* MERGE */
 const allRecipes = [...arabic, ...chinese];
 
-/* FIND RECIPE */
 const recipe = allRecipes.find(r => r.id === id);
 
 if(!recipe){
@@ -217,7 +204,6 @@ content.innerHTML = '<div class="loading">Recipe not found</div>';
 return;
 }
 
-/* HERO IMAGE */
 hero.style.backgroundImage = `url('${recipe.image}')`;
 
 content.innerHTML = `
