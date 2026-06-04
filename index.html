@@ -6,7 +6,6 @@
 <title>Digital Cookbook</title>
 
 <style>
-
 *{
 margin:0;
 padding:0;
@@ -115,7 +114,7 @@ background:#2b6fff;
 border-radius:20px;
 }
 
-/* ❤️ FAVORITE BUTTON */
+/* FAVORITE */
 .fav-btn{
 position:absolute;
 top:10px;
@@ -127,26 +126,13 @@ font-size:16px;
 padding:6px 8px;
 border-radius:50%;
 cursor:pointer;
-transition:0.2s;
 }
 
-.fav-btn:hover{
-background:#2b6fff;
-}
-
-.loading{
+.loading, .error{
 text-align:center;
 padding:30px;
 grid-column:1/-1;
 }
-
-.error{
-text-align:center;
-padding:30px;
-color:#ff6b6b;
-grid-column:1/-1;
-}
-
 </style>
 </head>
 
@@ -156,6 +142,7 @@ grid-column:1/-1;
 
 <h1>🍲 Digital Cookbook</h1>
 
+<!-- FILTERS -->
 <div id="filters">
 <button onclick="setFilter('All')">🌍 All</button>
 <button onclick="setFilter('Arabic')">🇸🇦 Arabic</button>
@@ -185,12 +172,12 @@ let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
 const grid = document.getElementById("recipeGrid");
 
-/* OPEN RECIPE */
+/* NAV */
 window.openRecipe = function(id){
 window.location.href = "recipe.html?id=" + id;
 };
 
-/* TOGGLE FAVORITE */
+/* FAVORITES */
 window.toggleFav = function(id){
 
 if(favorites.includes(id)){
@@ -204,12 +191,12 @@ render(getFiltered());
 };
 
 /* FILTER */
-window.setFilter = function(category){
-activeFilter = category;
+window.setFilter = function(cat){
+activeFilter = cat;
 render(getFiltered());
 };
 
-/* SHOW FAVORITES */
+/* FAVORITES VIEW */
 window.showFavorites = function(){
 activeFilter = "FAV";
 render(getFiltered());
@@ -217,7 +204,6 @@ render(getFiltered());
 
 /* GET FILTERED DATA */
 function getFiltered(){
-
 let list = recipes;
 
 if(activeFilter === "FAV"){
@@ -241,32 +227,31 @@ grid.innerHTML = "<div class='loading'>No recipes found</div>";
 return;
 }
 
-list.forEach(recipe => {
+list.forEach(r => {
 
-const isFav = favorites.includes(recipe.id);
+const isFav = favorites.includes(r.id);
 
 grid.innerHTML += `
-<div class="card" onclick="openRecipe(${recipe.id})">
+<div class="card" onclick="openRecipe(${r.id})">
 
-<img src="${recipe.image}" alt="${recipe.title}">
+<img src="${r.image}" alt="${r.title}">
 
-<button class="fav-btn" onclick="event.stopPropagation();toggleFav(${recipe.id})">
+<button class="fav-btn" onclick="event.stopPropagation();toggleFav(${r.id})">
 ${isFav ? "❤️" : "🤍"}
 </button>
 
-<h3>${recipe.title}</h3>
+<h3>${r.title}</h3>
 
 <div class="meta">
-⏱ ${recipe.time} • 🔥 ${recipe.difficulty}
+⏱ ${r.time} • 🔥 ${r.difficulty}
 </div>
 
 <div class="badge">
-${recipe.category}
+${r.category}
 </div>
 
 </div>
 `;
-
 });
 }
 
@@ -282,17 +267,23 @@ r.title.toLowerCase().includes(value)
 );
 
 render(list);
-
 });
 
-/* LOAD DATA */
+/* LOAD BOTH JSON FILES */
 document.addEventListener("DOMContentLoaded", async function(){
 
 try{
 
-const res = await fetch("./data/arabic-recipes.json");
+const [arabicRes, chineseRes] = await Promise.all([
+fetch("./data/arabic-recipes.json"),
+fetch("./data/chinese-recipes.json")
+]);
 
-recipes = await res.json();
+const arabic = await arabicRes.json();
+const chinese = await chineseRes.json();
+
+/* MERGE DATA */
+recipes = [...arabic, ...chinese];
 
 render(recipes);
 
