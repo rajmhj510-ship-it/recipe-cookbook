@@ -166,10 +166,20 @@ const hero = document.getElementById("hero");
 
 try {
 
-const res = await fetch("./data/arabic-recipes.json");
-const data = await res.json();
+/* LOAD BOTH JSON FILES */
+const [arabicRes, chineseRes] = await Promise.all([
+fetch("./data/arabic-recipes.json"),
+fetch("./data/chinese-recipes.json")
+]);
 
-const recipe = data.find(r => r.id === id);
+const arabic = await arabicRes.json();
+const chinese = await chineseRes.json();
+
+/* MERGE */
+const allRecipes = [...arabic, ...chinese];
+
+/* FIND RECIPE */
+const recipe = allRecipes.find(r => r.id === id);
 
 if(!recipe){
 content.innerHTML = "<div class='loading'>Recipe not found</div>";
@@ -191,12 +201,12 @@ content.innerHTML = `
 
 <button class="save">❤️ Save Recipe</button>
 
-<h3>🥕 Ingredients</h3>
+<h3>Ingredients</h3>
 <div class="ingredients">
 ${(recipe.ingredients || []).map(i => `<span>${i}</span>`).join("")}
 </div>
 
-<h3>👨‍🍳 Steps</h3>
+<h3>Steps</h3>
 ${(recipe.steps || []).map((s,i) => `
 <div class="step">
 <b>Step ${i+1}</b><br>${s}
@@ -204,14 +214,14 @@ ${(recipe.steps || []).map((s,i) => `
 `).join("")}
 
 ${recipe.servingSuggestions ? `
-<h3>🍽 Serving Suggestions</h3>
+<h3>Serving Suggestions</h3>
 ${recipe.servingSuggestions.map(s => `
 <div class="block">${s}</div>
 `).join("")}
 ` : ""}
 
 ${recipe.chefTips ? `
-<h3>💡 Chef Tips</h3>
+<h3>Chef Tips</h3>
 ${recipe.chefTips.map(t => `
 <div class="block">${t}</div>
 `).join("")}
