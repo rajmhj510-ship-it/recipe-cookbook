@@ -105,7 +105,10 @@ border-radius:20px;
 font-size:12px;
 }
 
-/* INSTRUCTIONS (CHECKLIST) */
+/* =========================
+   INSTRUCTIONS (TICK STYLE)
+========================= */
+
 .instructions .step-item{
 background:#1b2430;
 padding:12px;
@@ -113,8 +116,10 @@ border-radius:12px;
 margin-bottom:10px;
 border-left:3px solid #2b6fff;
 cursor:pointer;
+display:flex;
+align-items:flex-start;
+gap:10px;
 font-size:13px;
-line-height:1.4;
 transition:0.2s;
 }
 
@@ -122,10 +127,25 @@ transition:0.2s;
 background:#222c3a;
 }
 
-.instructions .step-item.done{
-text-decoration:line-through;
-opacity:0.6;
+.tick{
+display:none;
+color:#00c853;
+font-size:16px;
+font-weight:bold;
+min-width:20px;
+}
+
+.step-item.done{
+opacity:0.7;
 border-left:3px solid #00c853;
+}
+
+.step-item.done .tick{
+display:inline-block;
+}
+
+.step-item.done .text{
+text-decoration:line-through;
 }
 
 /* BLOCK (tips etc.) */
@@ -189,7 +209,7 @@ fetch("./data/chinese-recipes.json")
 const arabic = await arabicRes.json();
 const chinese = await chineseRes.json();
 
-/* MERGE DATA */
+/* MERGE */
 const allRecipes = [...arabic, ...chinese];
 
 /* FIND RECIPE */
@@ -223,8 +243,9 @@ ${(recipe.ingredients || []).map(i => `<span>${i}</span>`).join("")}
 <h3>Instructions</h3>
 <div class="instructions">
 ${(recipe.steps || []).map(s => `
-  <div class="step-item" onclick="toggleStep(this)">
-    ${s}
+  <div class="step-item" onclick="markStep(this)">
+    <span class="tick">✔</span>
+    <span class="text">${s}</span>
   </div>
 `).join("")}
 </div>
@@ -247,14 +268,14 @@ ${recipe.chefTips.map(t => `
 
 } catch (err) {
 console.error(err);
-content.innerHTML = "<div class='loading'>Failed to load recipe</div>";
+content.innerHTML = "<div class="loading">Failed to load recipe</div>";
 }
 
 });
 
-/* TOGGLE CHECKLIST STEP */
-window.toggleStep = function(el){
-el.classList.toggle("done");
+/* MARK STEP DONE */
+window.markStep = function(el){
+el.classList.add("done");
 };
 
 </script>
