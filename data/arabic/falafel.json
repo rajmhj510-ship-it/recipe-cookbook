@@ -5,48 +5,57 @@
     "category": "Arabic",
     "time": "45 min",
     "difficulty": "Medium",
-    "image": "assets/images/arabic/falafel.png",
+    "image": "/assets/images/arabic/falafel.png",
 
     "ingredients": [
-      "250 g dry chickpeas, soaked overnight",
-      "1 medium onion",
-      "4–5 cloves garlic",
-      "1 cup parsley",
-      "1 cup cilantro",
-      "½ cup dill (optional)",
-      "1 tsp baking soda",
-      "2 tsp cumin",
-      "2 tsp coriander",
-      "1 tsp black pepper",
-      "½ tsp Aleppo pepper",
-      "1½ tsp salt",
-      "2 tbsp sesame seeds",
-      "Oil for frying"
+      "500g white fish fillets (cod, seabass, or tilapia)",
+      "1 tsp salt",
+      "1/2 tsp white pepper",
+      "1 tsp Shaoxing wine (optional)",
+      "2 tbsp cornstarch",
+      "3 tbsp vegetable oil",
+
+      "2 tbsp vegetable oil (sauce)",
+      "5–6 dried red chilies",
+      "1 tbsp Szechuan peppercorns",
+      "3 garlic cloves, minced",
+      "1-inch ginger, minced",
+      "2 scallions",
+
+      "1/4 cup chicken or fish stock",
+      "2 tbsp soy sauce",
+      "1 tbsp black vinegar",
+      "1 tbsp Doubanjiang",
+      "1 tsp sugar",
+      "1/2 tsp sesame oil",
+      "1 tsp cornstarch slurry (optional)",
+
+      "Cilantro or scallions (garnish)",
+      "Sesame seeds (optional)"
     ],
 
     "steps": [
-      "Soak chickpeas overnight in plenty of water.",
-      "Drain completely and pat dry.",
-      "Add chickpeas, onion, garlic, parsley, cilantro, and dill into a food processor.",
-      "Pulse until coarse grain texture (NOT paste).",
-      "Add spices and mix evenly.",
-      "Refrigerate mixture for 30–60 minutes.",
-      "Shape into small balls or patties.",
-      "Heat oil to 170–180°C and deep fry until golden brown.",
-      "Drain on paper towels and serve hot."
-    ],
+      "Pat fish dry and season with salt, pepper, and Shaoxing wine.",
+      "Coat fish lightly with cornstarch.",
+      "Pan-fry fish until golden and crisp on both sides. Set aside.",
 
-    "servingSuggestions": [
-      "Serve in warm pita bread with lettuce, tomato, and cucumber.",
-      "Add tahini sauce and pickled vegetables.",
-      "Serve as part of a mezze platter."
+      "Heat oil in wok and fry dried chilies and Szechuan peppercorns briefly.",
+      "Add garlic and ginger and sauté until fragrant.",
+      "Add Doubanjiang and cook briefly.",
+      "Add soy sauce, vinegar, sugar, and stock. Bring to simmer.",
+      "Add scallions and cook 1–2 minutes.",
+      "Add slurry if thicker sauce is needed.",
+      "Finish with sesame oil.",
+
+      "Pour sauce over fish and garnish with cilantro or sesame seeds.",
+      "Serve with rice or vegetables."
     ],
 
     "chefTips": [
-      "Never use canned chickpeas — texture will be wrong.",
-      "Keep mixture cold before frying for better binding.",
-      "Do not over-blend; texture should remain grainy.",
-      "Maintain steady oil temperature for crispy exterior."
+      "Keep fish dry for crisp texture.",
+      "Do not burn Szechuan peppercorns.",
+      "Balance spice with sugar and vinegar.",
+      "Serve immediately for best taste."
     ]
   }
 ]
