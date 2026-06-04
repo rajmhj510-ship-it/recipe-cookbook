@@ -6,6 +6,7 @@
 <title>Digital Cookbook</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -24,9 +25,28 @@ max-width:1100px;
 margin:auto;
 }
 
-h1{
-text-align:center;
+/* =========================
+   HEADER / LOGO
+========================= */
+
+.header{
+display:flex;
+justify-content:center;
+align-items:center;
 margin-bottom:20px;
+}
+
+.logo{
+width:120px;
+height:auto;
+object-fit:contain;
+}
+
+/* MOBILE LOGO */
+@media (max-width:600px){
+.logo{
+width:90px;
+}
 }
 
 /* FILTERS */
@@ -114,7 +134,7 @@ background:#2b6fff;
 border-radius:20px;
 }
 
-/* FAVORITE */
+/* FAVORITE BUTTON */
 .fav-btn{
 position:absolute;
 top:10px;
@@ -126,13 +146,26 @@ font-size:16px;
 padding:6px 8px;
 border-radius:50%;
 cursor:pointer;
+transition:0.2s;
 }
 
-.loading, .error{
+.fav-btn:hover{
+background:#2b6fff;
+}
+
+.loading{
 text-align:center;
 padding:30px;
 grid-column:1/-1;
 }
+
+.error{
+text-align:center;
+padding:30px;
+color:#ff6b6b;
+grid-column:1/-1;
+}
+
 </style>
 </head>
 
@@ -140,9 +173,11 @@ grid-column:1/-1;
 
 <div class="paper">
 
-<h1>🍲 Digital Cookbook</h1>
+<!-- LOGO HEADER -->
+<div class="header">
+  <img src="./images/logo.png" class="logo" alt="Logo">
+</div>
 
-<!-- FILTERS -->
 <div id="filters">
 <button onclick="setFilter('All')">🌍 All</button>
 <button onclick="setFilter('Arabic')">🇸🇦 Arabic</button>
@@ -172,12 +207,12 @@ let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
 const grid = document.getElementById("recipeGrid");
 
-/* NAV */
+/* OPEN RECIPE */
 window.openRecipe = function(id){
 window.location.href = "recipe.html?id=" + id;
 };
 
-/* FAVORITES */
+/* TOGGLE FAVORITE */
 window.toggleFav = function(id){
 
 if(favorites.includes(id)){
@@ -191,19 +226,20 @@ render(getFiltered());
 };
 
 /* FILTER */
-window.setFilter = function(cat){
-activeFilter = cat;
+window.setFilter = function(category){
+activeFilter = category;
 render(getFiltered());
 };
 
-/* FAVORITES VIEW */
+/* SHOW FAVORITES */
 window.showFavorites = function(){
 activeFilter = "FAV";
 render(getFiltered());
 };
 
-/* GET FILTERED DATA */
+/* FILTER LOGIC */
 function getFiltered(){
+
 let list = recipes;
 
 if(activeFilter === "FAV"){
@@ -227,31 +263,32 @@ grid.innerHTML = "<div class='loading'>No recipes found</div>";
 return;
 }
 
-list.forEach(r => {
+list.forEach(recipe => {
 
-const isFav = favorites.includes(r.id);
+const isFav = favorites.includes(recipe.id);
 
 grid.innerHTML += `
-<div class="card" onclick="openRecipe(${r.id})">
+<div class="card" onclick="openRecipe(${recipe.id})">
 
-<img src="${r.image}" alt="${r.title}">
+<img src="${recipe.image}" alt="${recipe.title}">
 
-<button class="fav-btn" onclick="event.stopPropagation();toggleFav(${r.id})">
+<button class="fav-btn" onclick="event.stopPropagation();toggleFav(${recipe.id})">
 ${isFav ? "❤️" : "🤍"}
 </button>
 
-<h3>${r.title}</h3>
+<h3>${recipe.title}</h3>
 
 <div class="meta">
-⏱ ${r.time} • 🔥 ${r.difficulty}
+⏱ ${recipe.time} • 🔥 ${recipe.difficulty}
 </div>
 
 <div class="badge">
-${r.category}
+${recipe.category}
 </div>
 
 </div>
 `;
+
 });
 }
 
@@ -267,30 +304,21 @@ r.title.toLowerCase().includes(value)
 );
 
 render(list);
+
 });
 
-/* LOAD BOTH JSON FILES */
+/* LOAD DATA */
 document.addEventListener("DOMContentLoaded", async function(){
 
 try{
 
-const [arabicRes, chineseRes] = await Promise.all([
-fetch("./data/arabic-recipes.json"),
-fetch("./data/chinese-recipes.json")
-]);
-
-const arabic = await arabicRes.json();
-const chinese = await chineseRes.json();
-
-/* MERGE DATA */
-recipes = [...arabic, ...chinese];
-
+const res = await fetch("./data/arabic-recipes.json");
+recipes = await res.json();
 render(recipes);
 
 }catch(err){
 
 console.error(err);
-
 grid.innerHTML = `
 <div class="error">
 ❌ Failed to load recipes
