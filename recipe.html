@@ -17,7 +17,6 @@ body{
 font-family:Arial;
 background:#0b0f14;
 color:#fff;
-transition:0.3s;
 }
 
 /* HERO */
@@ -108,8 +107,8 @@ margin-bottom:10px;
 border-left:3px solid #2b6fff;
 cursor:pointer;
 display:flex;
-gap:10px;
 align-items:flex-start;
+gap:10px;
 font-size:13px;
 transition:0.2s;
 }
@@ -126,6 +125,7 @@ font-weight:bold;
 min-width:20px;
 }
 
+/* ONLY VISUAL CHANGE = NO STRIKE */
 .step-item.done{
 opacity:0.7;
 border-left:3px solid #00c853;
@@ -143,72 +143,23 @@ border-radius:12px;
 margin-bottom:10px;
 }
 
-/* BUTTONS */
-button.save,
-button.cook-mode-btn{
+/* BUTTON */
+button.save{
 width:100%;
-margin-top:10px;
+margin-top:15px;
 padding:12px;
 border:none;
 border-radius:10px;
+background:#2b6fff;
 color:#fff;
 cursor:pointer;
 font-size:14px;
 }
 
-button.save{
-background:#2b6fff;
-}
-
-button.cook-mode-btn{
-background:#00c853;
-}
-
-/* LOADING */
 .loading{
 text-align:center;
 padding:30px;
 opacity:0.7;
-}
-
-/* =========================
-   COOKING MODE
-========================= */
-
-body.cooking{
-background:#000;
-}
-
-body.cooking .hero{
-display:none;
-}
-
-body.cooking .container{
-margin-top:0;
-max-width:100%;
-padding:10px;
-}
-
-body.cooking .card{
-background:#000;
-border:none;
-box-shadow:none;
-}
-
-body.cooking .meta,
-body.cooking .ingredients,
-body.cooking .block,
-body.cooking .save{
-display:none;
-}
-
-body.cooking h3{
-color:#00c853;
-}
-
-body.cooking .step-item{
-font-size:16px;
-padding:16px;
 }
 
 </style>
@@ -267,10 +218,6 @@ content.innerHTML = `
 
 <button class="save">❤️ Save Recipe</button>
 
-<button class="cook-mode-btn" onclick="toggleCookingMode()">
-🍳 Cooking Mode
-</button>
-
 <h3>Ingredients</h3>
 <div class="ingredients">
 ${(recipe.ingredients || []).map(i => `<span>${i}</span>`).join("")}
@@ -281,7 +228,7 @@ ${(recipe.ingredients || []).map(i => `<span>${i}</span>`).join("")}
 ${(recipe.steps || []).map(s => `
   <div class="step-item" onclick="markStep(this)">
     <span class="tick">✔</span>
-    <span>${s}</span>
+    <span class="text">${s}</span>
   </div>
 `).join("")}
 </div>
@@ -303,26 +250,15 @@ ${recipe.chefTips.map(t => `
 `;
 
 } catch (err) {
-console.error(err);
+console.error("Recipe load error:", err);
 content.innerHTML = '<div class="loading">Failed to load recipe ❌</div>';
 }
 
 });
 
-/* STEP COMPLETE */
+/* MARK STEP */
 window.markStep = function(el){
 el.classList.add("done");
-};
-
-/* COOKING MODE */
-window.toggleCookingMode = function(){
-document.body.classList.toggle("cooking");
-
-if(document.body.classList.contains("cooking")){
-document.documentElement.requestFullscreen?.();
-}else{
-document.exitFullscreen?.();
-}
 };
 
 </script>
