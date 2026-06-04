@@ -27,33 +27,24 @@ height:40px;
 border-radius:8px;
 }
 
-/* CATEGORY BAR */
-.categories{
-display:flex;
-gap:8px;
+/* SEARCH BAR */
+.search-box{
 padding:10px 15px;
-overflow-x:auto;
 background:#0f1722;
 position:sticky;
 top:0;
-z-index:5;
+z-index:10;
 }
 
-.cat-btn{
-padding:6px 12px;
-border-radius:20px;
+.search-box input{
+width:100%;
+padding:10px 12px;
+border-radius:8px;
 border:none;
-cursor:pointer;
+outline:none;
 background:#1b2430;
 color:#fff;
-white-space:nowrap;
-font-size:13px;
-transition:0.2s;
-}
-
-.cat-btn.active{
-background:#ffcc70;
-color:#000;
+font-size:14px;
 }
 
 /* GRID */
@@ -101,33 +92,21 @@ opacity:0.7;
 <h2>Recipe Cookbook</h2>
 </header>
 
-<!-- CATEGORY FILTERS -->
-<div class="categories" id="cats"></div>
+<!-- SEARCH -->
+<div class="search-box">
+<input type="text" id="search" placeholder="Search recipes... (e.g. Falafel, Chinese, Chicken)">
+</div>
 
 <div class="container" id="list">Loading...</div>
 
 <script>
 
 let ALL_RECIPES = [];
-let ACTIVE_CATEGORY = "All";
-
-/* CATEGORY LIST */
-const CATEGORIES = [
-"All",
-"Arabic",
-"Chinese",
-"Continental",
-"Indian",
-"Italian",
-"Mexican",
-"Thai",
-"Nepali"
-];
 
 document.addEventListener("DOMContentLoaded", async () => {
 
 const list = document.getElementById("list");
-const catBox = document.getElementById("cats");
+const search = document.getElementById("search");
 
 try {
 const res = await fetch("./data/index.json");
@@ -135,14 +114,21 @@ if(!res.ok) throw new Error("Index load failed");
 
 ALL_RECIPES = await res.json();
 
-/* render categories */
-catBox.innerHTML = CATEGORIES.map(c => `
-<button class="cat-btn ${c==="All"?"active":""}" onclick="setCategory('${c}', this)">
-${c}
-</button>
-`).join("");
+render(ALL_RECIPES);
 
-renderRecipes();
+/* LIVE SEARCH */
+search.addEventListener("input", (e) => {
+const value = e.target.value.toLowerCase().trim();
+
+const filtered = ALL_RECIPES.filter(r => {
+return (
+r.title.toLowerCase().includes(value) ||
+r.category.toLowerCase().includes(value)
+);
+});
+
+render(filtered);
+});
 
 } catch(err){
 console.error(err);
@@ -151,33 +137,17 @@ list.innerHTML = "❌ Failed to load recipes";
 
 });
 
-/* FILTER FUNCTION */
-function setCategory(cat, el){
-ACTIVE_CATEGORY = cat;
-
-document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
-el.classList.add("active");
-
-renderRecipes();
-}
-
-/* RENDER GRID */
-function renderRecipes(){
+/* RENDER FUNCTION */
+function render(data){
 
 const list = document.getElementById("list");
 
-let filtered = ALL_RECIPES;
-
-if(ACTIVE_CATEGORY !== "All"){
-filtered = ALL_RECIPES.filter(r => r.category === ACTIVE_CATEGORY);
-}
-
-if(filtered.length === 0){
+if(!data.length){
 list.innerHTML = "No recipes found";
 return;
 }
 
-list.innerHTML = filtered.map(r => `
+list.innerHTML = data.map(r => `
 <div class="card" onclick="openRecipe('${r.file}')">
 <img src="${r.image}">
 <h3>${r.title}</h3>
