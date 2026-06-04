@@ -27,6 +27,36 @@ height:40px;
 border-radius:8px;
 }
 
+/* CATEGORY BAR */
+.categories{
+display:flex;
+gap:8px;
+padding:10px 15px;
+overflow-x:auto;
+background:#0f1722;
+position:sticky;
+top:0;
+z-index:5;
+}
+
+.cat-btn{
+padding:6px 12px;
+border-radius:20px;
+border:none;
+cursor:pointer;
+background:#1b2430;
+color:#fff;
+white-space:nowrap;
+font-size:13px;
+transition:0.2s;
+}
+
+.cat-btn.active{
+background:#ffcc70;
+color:#000;
+}
+
+/* GRID */
 .container{
 padding:15px;
 display:grid;
@@ -67,40 +97,99 @@ opacity:0.7;
 <body>
 
 <header>
-<img src="./logo.png" alt="logo">
+<img src="./logo.png">
 <h2>Recipe Cookbook</h2>
 </header>
+
+<!-- CATEGORY FILTERS -->
+<div class="categories" id="cats"></div>
 
 <div class="container" id="list">Loading...</div>
 
 <script>
+
+let ALL_RECIPES = [];
+let ACTIVE_CATEGORY = "All";
+
+/* CATEGORY LIST */
+const CATEGORIES = [
+"All",
+"Arabic",
+"Chinese",
+"Continental",
+"Indian",
+"Italian",
+"Mexican",
+"Thai",
+"Nepali"
+];
+
 document.addEventListener("DOMContentLoaded", async () => {
 
-const container = document.getElementById("list");
+const list = document.getElementById("list");
+const catBox = document.getElementById("cats");
 
 try {
 const res = await fetch("./data/index.json");
 if(!res.ok) throw new Error("Index load failed");
 
-const recipes = await res.json();
+ALL_RECIPES = await res.json();
 
-container.innerHTML = recipes.map(r => `
+/* render categories */
+catBox.innerHTML = CATEGORIES.map(c => `
+<button class="cat-btn ${c==="All"?"active":""}" onclick="setCategory('${c}', this)">
+${c}
+</button>
+`).join("");
+
+renderRecipes();
+
+} catch(err){
+console.error(err);
+list.innerHTML = "❌ Failed to load recipes";
+}
+
+});
+
+/* FILTER FUNCTION */
+function setCategory(cat, el){
+ACTIVE_CATEGORY = cat;
+
+document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
+el.classList.add("active");
+
+renderRecipes();
+}
+
+/* RENDER GRID */
+function renderRecipes(){
+
+const list = document.getElementById("list");
+
+let filtered = ALL_RECIPES;
+
+if(ACTIVE_CATEGORY !== "All"){
+filtered = ALL_RECIPES.filter(r => r.category === ACTIVE_CATEGORY);
+}
+
+if(filtered.length === 0){
+list.innerHTML = "No recipes found";
+return;
+}
+
+list.innerHTML = filtered.map(r => `
 <div class="card" onclick="openRecipe('${r.file}')">
-<img src="${r.image}" alt="">
+<img src="${r.image}">
 <h3>${r.title}</h3>
 <small>${r.category}</small>
 </div>
 `).join("");
-
-} catch (err) {
-console.error(err);
-container.innerHTML = "❌ Failed to load recipes";
 }
-});
 
 function openRecipe(file){
 window.location.href = "recipe.html?file=" + encodeURIComponent(file);
 }
+
 </script>
 
 </body>
