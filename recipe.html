@@ -160,7 +160,8 @@ return;
 
 try {
 
-const res = await fetch(file);
+const basePath = location.pathname.replace("recipe.html", "");
+const res = await fetch(basePath + cleanFile);
 if(!res.ok) throw new Error("Cannot load file");
 
 const recipe = await res.json();
