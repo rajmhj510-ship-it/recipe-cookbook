@@ -160,6 +160,9 @@ function setFilter(cat){
 
 window.setFilter = setFilter;
 
+  window.openRecipe = function(id){
+  window.location.href = "recipe.html?id=" + id;
+}
 /* RENDER */
 function render(list){
   grid.innerHTML = "";
