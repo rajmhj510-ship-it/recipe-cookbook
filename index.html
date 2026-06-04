@@ -78,6 +78,7 @@ overflow:hidden;
 cursor:pointer;
 transition:0.25s;
 border:1px solid rgba(255,255,255,0.05);
+position:relative;
 }
 
 .card:hover{
@@ -85,7 +86,6 @@ transform:translateY(-5px);
 background:#1b2430;
 }
 
-/* IMAGE */
 .card img{
 width:100%;
 height:160px;
@@ -93,7 +93,6 @@ object-fit:cover;
 display:block;
 }
 
-/* TEXT */
 .card h3{
 margin:0;
 padding:10px 12px 0;
@@ -114,6 +113,25 @@ padding:4px 10px;
 font-size:11px;
 background:#2b6fff;
 border-radius:20px;
+}
+
+/* ❤️ FAVORITE BUTTON */
+.fav-btn{
+position:absolute;
+top:10px;
+right:10px;
+background:rgba(0,0,0,0.6);
+border:none;
+color:#fff;
+font-size:16px;
+padding:6px 8px;
+border-radius:50%;
+cursor:pointer;
+transition:0.2s;
+}
+
+.fav-btn:hover{
+background:#2b6fff;
 }
 
 .loading{
@@ -148,6 +166,7 @@ grid-column:1/-1;
 <button onclick="setFilter('Thai')">🇹🇭 Thai</button>
 <button onclick="setFilter('Italian')">🇮🇹 Italian</button>
 <button onclick="setFilter('Nepali')">🇳🇵 Nepali</button>
+<button onclick="showFavorites()">❤️ Favorites</button>
 </div>
 
 <input id="searchBox" placeholder="Search recipes..." />
@@ -162,6 +181,7 @@ grid-column:1/-1;
 
 let recipes = [];
 let activeFilter = "All";
+let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
 const grid = document.getElementById("recipeGrid");
 
@@ -170,18 +190,46 @@ window.openRecipe = function(id){
 window.location.href = "recipe.html?id=" + id;
 };
 
+/* TOGGLE FAVORITE */
+window.toggleFav = function(id){
+
+if(favorites.includes(id)){
+favorites = favorites.filter(f => f !== id);
+}else{
+favorites.push(id);
+}
+
+localStorage.setItem("favorites", JSON.stringify(favorites));
+render(getFiltered());
+};
+
 /* FILTER */
 window.setFilter = function(category){
 activeFilter = category;
+render(getFiltered());
+};
 
-let filtered = recipes;
+/* SHOW FAVORITES */
+window.showFavorites = function(){
+activeFilter = "FAV";
+render(getFiltered());
+};
 
-if(category !== "All"){
-filtered = recipes.filter(r => r.category === category);
+/* GET FILTERED DATA */
+function getFiltered(){
+
+let list = recipes;
+
+if(activeFilter === "FAV"){
+return recipes.filter(r => favorites.includes(r.id));
 }
 
-render(filtered);
-};
+if(activeFilter !== "All"){
+list = list.filter(r => r.category === activeFilter);
+}
+
+return list;
+}
 
 /* RENDER */
 function render(list){
@@ -195,10 +243,16 @@ return;
 
 list.forEach(recipe => {
 
+const isFav = favorites.includes(recipe.id);
+
 grid.innerHTML += `
 <div class="card" onclick="openRecipe(${recipe.id})">
 
 <img src="${recipe.image}" alt="${recipe.title}">
+
+<button class="fav-btn" onclick="event.stopPropagation();toggleFav(${recipe.id})">
+${isFav ? "❤️" : "🤍"}
+</button>
 
 <h3>${recipe.title}</h3>
 
@@ -221,17 +275,13 @@ document.getElementById("searchBox").addEventListener("input", function(e){
 
 const value = e.target.value.toLowerCase();
 
-let filtered = recipes;
+let list = getFiltered();
 
-if(activeFilter !== "All"){
-filtered = filtered.filter(r => r.category === activeFilter);
-}
-
-filtered = filtered.filter(r =>
+list = list.filter(r =>
 r.title.toLowerCase().includes(value)
 );
 
-render(filtered);
+render(list);
 
 });
 
@@ -241,10 +291,6 @@ document.addEventListener("DOMContentLoaded", async function(){
 try{
 
 const res = await fetch("./data/arabic-recipes.json");
-
-if(!res.ok){
-throw new Error("JSON not found");
-}
 
 recipes = await res.json();
 
