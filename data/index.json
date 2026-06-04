@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Falafel",
+    "category": "Arabic",
+    "file": "./data/arabic/falafel.json",
+    "image": "./assets/images/arabic/falafel.png",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "title": "Szechuan Fish",
+    "category": "Chinese",
+    "file": "./data/chinese/szechuan-fish.json",
+    "image": "./assets/images/chinese/szechuan-fish.png",
+    "time": "40 min",
+    "difficulty": "Medium"
+  }
+]
