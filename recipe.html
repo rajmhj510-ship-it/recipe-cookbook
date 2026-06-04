@@ -6,6 +6,7 @@
 <title>Recipe</title>
 
 <style>
+
 body{
 margin:0;
 font-family:Arial;
@@ -13,17 +14,41 @@ background:#0b0f14;
 color:#fff;
 }
 
+header{
+display:flex;
+align-items:center;
+gap:10px;
+padding:12px;
+background:#111827;
+position:sticky;
+top:0;
+z-index:10;
+}
+
+header img{
+width:35px;
+height:35px;
+border-radius:8px;
+}
+
 .hero{
-height:260px;
+height:250px;
 background-size:cover;
 background-position:center;
 position:relative;
 }
 
+.hero::after{
+content:"";
+position:absolute;
+inset:0;
+background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.2));
+}
+
 .back{
 position:absolute;
-top:15px;
-left:15px;
+top:12px;
+left:12px;
 padding:8px 12px;
 border:none;
 border-radius:20px;
@@ -33,20 +58,21 @@ cursor:pointer;
 }
 
 .container{
-max-width:900px;
-margin:auto;
 padding:15px;
-margin-top:-40px;
 }
 
 .card{
 background:#151c25;
-border-radius:16px;
-padding:16px;
+padding:15px;
+border-radius:14px;
 }
 
-h1{
-font-size:20px;
+h1{font-size:20px;margin-bottom:10px;}
+
+.meta{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
 margin-bottom:10px;
 }
 
@@ -55,54 +81,45 @@ background:#222c3a;
 padding:5px 10px;
 border-radius:20px;
 font-size:12px;
-margin-right:6px;
 }
 
 h3{
-margin-top:18px;
+margin-top:15px;
 }
 
-.group{
-margin-bottom:12px;
-}
-
-.group h4{
+.ingredients label{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:8px;
+background:#1b2430;
+border-radius:8px;
 margin-bottom:6px;
-opacity:0.8;
-}
-
-ul{
-padding-left:18px;
+font-size:13px;
 }
 
 .instructions .step{
 background:#1b2430;
 padding:10px;
-border-radius:10px;
+border-radius:8px;
 margin-bottom:8px;
 cursor:pointer;
-display:flex;
-gap:8px;
-align-items:flex-start;
 }
 
 .step.done{
-background:#223a2a;
-opacity:0.8;
+opacity:0.6;
+border-left:3px solid #00c853;
 }
 
-.tick{
-display:none;
-color:#00c853;
-}
-
-.step.done .tick{
-display:inline;
-}
 </style>
 </head>
 
 <body>
+
+<header>
+<img src="./logo.png">
+<strong>Recipe</strong>
+</header>
 
 <div class="hero" id="hero">
 <button class="back" onclick="history.back()">← Back</button>
@@ -113,67 +130,67 @@ display:inline;
 </div>
 
 <script>
+
 document.addEventListener("DOMContentLoaded", async () => {
 
-const id = new URLSearchParams(location.search).get("id");
+const file = new URLSearchParams(location.search).get("file");
 
-/* LOAD INDEX */
-const indexRes = await fetch("./data/index.json");
-const index = await indexRes.json();
+const content = document.getElementById("content");
+const hero = document.getElementById("hero");
 
-/* FIND META */
-const meta = index.find(r => r.id == id);
-
-if(!meta){
-document.getElementById("content").innerHTML = "Recipe not found";
+if(!file){
+content.innerHTML = "Recipe not found";
 return;
 }
 
-/* LOAD RECIPE FILE */
-const res = await fetch(meta.file);
+try {
+
+const res = await fetch("./data/" + file);
 const recipe = await res.json();
 
 /* HERO IMAGE */
-document.getElementById("hero").style.backgroundImage =
-`url('${meta.image}')`;
+hero.style.backgroundImage = `url('${recipe.image}')`;
 
-/* RENDER */
-document.getElementById("content").innerHTML = `
+content.innerHTML = `
 <h1>${recipe.title}</h1>
 
 <div class="meta">
-<span>${recipe.time || ""}</span>
-<span>${recipe.difficulty || ""}</span>
-<span>${recipe.category || ""}</span>
+<span>⏱ ${recipe.time || ""}</span>
+<span>🔥 ${recipe.difficulty || ""}</span>
+<span>🍽 ${recipe.category || ""}</span>
 </div>
 
 <h3>Ingredients</h3>
-${recipe.ingredients.map(group => `
-<div class="group">
-<h4>${group.group}</h4>
-<ul>
-${group.items.map(i => `<li>${i}</li>`).join("")}
-</ul>
-</div>
+<div class="ingredients">
+${recipe.ingredients.map(i => `
+<label>
+<span>${i}</span>
+<input type="checkbox">
+</label>
 `).join("")}
+</div>
 
 <h3>Instructions</h3>
 <div class="instructions">
-${recipe.instructions.map(group => `
-<div class="group">
-<h4>${group.group}</h4>
-${group.steps.map(step => `
-<div class="step" onclick="this.classList.toggle('done')">
-<span class="tick">✔</span>
-<span>${step}</span>
-</div>
-`).join("")}
+${recipe.instructions.map(s => `
+<div class="step" onclick="toggleStep(this)">
+${s}
 </div>
 `).join("")}
 </div>
 `;
 
+} catch(err){
+console.error(err);
+content.innerHTML = "Failed to load recipe";
+}
+
 });
+
+function toggleStep(el){
+el.classList.toggle("done");
+}
+
 </script>
 
 </body>
