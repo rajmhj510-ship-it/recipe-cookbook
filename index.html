@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +14,7 @@ box-sizing:border-box;
 }
 
 body{
-font-family:Arial,sans-serif;
+font-family:Arial;
 background:#0b0f14;
 color:#fff;
 padding:20px;
@@ -47,7 +46,7 @@ cursor:pointer;
 background:#1b2430;
 color:#fff;
 font-size:12px;
-transition:.25s;
+transition:0.2s;
 }
 
 #filters button:hover{
@@ -58,8 +57,8 @@ background:#2b6fff;
 #searchBox{
 width:100%;
 padding:12px;
-border:none;
 border-radius:10px;
+border:none;
 outline:none;
 margin-bottom:20px;
 }
@@ -75,10 +74,10 @@ gap:16px;
 .card{
 background:#151c25;
 border-radius:14px;
-padding:14px;
+overflow:hidden;
 cursor:pointer;
-transition:.25s;
-border:1px solid rgba(255,255,255,.05);
+transition:0.25s;
+border:1px solid rgba(255,255,255,0.05);
 }
 
 .card:hover{
@@ -86,19 +85,31 @@ transform:translateY(-5px);
 background:#1b2430;
 }
 
+/* IMAGE */
+.card img{
+width:100%;
+height:160px;
+object-fit:cover;
+display:block;
+}
+
+/* TEXT */
 .card h3{
-margin-bottom:8px;
+margin:0;
+padding:10px 12px 0;
 font-size:16px;
 }
 
 .meta{
+padding:0 12px;
 font-size:12px;
-opacity:.7;
-margin-bottom:8px;
+opacity:0.7;
+margin-top:5px;
 }
 
 .badge{
 display:inline-block;
+margin:10px 12px 12px;
 padding:4px 10px;
 font-size:11px;
 background:#2b6fff;
@@ -114,7 +125,7 @@ grid-column:1/-1;
 .error{
 text-align:center;
 padding:30px;
-color:#ff8080;
+color:#ff6b6b;
 grid-column:1/-1;
 }
 
@@ -139,11 +150,7 @@ grid-column:1/-1;
 <button onclick="setFilter('Nepali')">🇳🇵 Nepali</button>
 </div>
 
-<input
-id="searchBox"
-type="text"
-placeholder="Search recipes..."
->
+<input id="searchBox" placeholder="Search recipes..." />
 
 <div id="recipeGrid">
 <div class="loading">Loading recipes...</div>
@@ -160,28 +167,20 @@ const grid = document.getElementById("recipeGrid");
 
 /* OPEN RECIPE */
 window.openRecipe = function(id){
-
-window.location.href =
-"recipe.html?id=" + id;
-
+window.location.href = "recipe.html?id=" + id;
 };
 
 /* FILTER */
 window.setFilter = function(category){
-
 activeFilter = category;
 
 let filtered = recipes;
 
 if(category !== "All"){
-filtered =
-recipes.filter(r =>
-r.category === category
-);
+filtered = recipes.filter(r => r.category === category);
 }
 
 render(filtered);
-
 };
 
 /* RENDER */
@@ -190,21 +189,16 @@ function render(list){
 grid.innerHTML = "";
 
 if(list.length === 0){
-
-grid.innerHTML =
-"<div class='loading'>No recipes found</div>";
-
+grid.innerHTML = "<div class='loading'>No recipes found</div>";
 return;
-
 }
 
 list.forEach(recipe => {
 
 grid.innerHTML += `
-<div
-class="card"
-onclick="openRecipe(${recipe.id})"
->
+<div class="card" onclick="openRecipe(${recipe.id})">
+
+<img src="${recipe.image}" alt="${recipe.title}">
 
 <h3>${recipe.title}</h3>
 
@@ -220,30 +214,20 @@ ${recipe.category}
 `;
 
 });
-
 }
 
 /* SEARCH */
-document
-.getElementById("searchBox")
-.addEventListener("input", function(e){
+document.getElementById("searchBox").addEventListener("input", function(e){
 
-const value =
-e.target.value.toLowerCase();
+const value = e.target.value.toLowerCase();
 
 let filtered = recipes;
 
 if(activeFilter !== "All"){
-
-filtered =
-filtered.filter(r =>
-r.category === activeFilter
-);
-
+filtered = filtered.filter(r => r.category === activeFilter);
 }
 
-filtered =
-filtered.filter(r =>
+filtered = filtered.filter(r =>
 r.title.toLowerCase().includes(value)
 );
 
@@ -252,27 +236,23 @@ render(filtered);
 });
 
 /* LOAD DATA */
-document.addEventListener(
-"DOMContentLoaded",
-async function(){
+document.addEventListener("DOMContentLoaded", async function(){
 
 try{
 
-const response =
-await fetch("./data/arabic-recipes.json");
+const res = await fetch("./data/arabic-recipes.json");
 
-if(!response.ok){
-throw new Error("JSON load failed");
+if(!res.ok){
+throw new Error("JSON not found");
 }
 
-recipes =
-await response.json();
+recipes = await res.json();
 
 render(recipes);
 
-}catch(error){
+}catch(err){
 
-console.error(error);
+console.error(err);
 
 grid.innerHTML = `
 <div class="error">
@@ -282,11 +262,9 @@ grid.innerHTML = `
 
 }
 
-}
-);
+});
 
 </script>
 
 </body>
 </html>
-```
