@@ -40,7 +40,7 @@
     "title": "Chili Oil",
     "category": "Sauces",
     "file": "./data/sauces/chili-oil.json",
-    "image": "./assets/images/sauces/chili-oil.png",
+    "image": "./assets/images/chinese/chili-oil.png",
     "time": "20 min",
     "difficulty": "Easy"
   }
