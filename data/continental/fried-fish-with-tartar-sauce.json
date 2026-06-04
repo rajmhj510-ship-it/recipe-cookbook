@@ -1,1 +1,49 @@
+{
+  "id": 301,
+  "title": "Fried Fish with Tartar Sauce",
+  "category": "Continental",
+  "time": "50 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/fried-fish-with-tartar-sauce.png",
 
+  "ingredients": [
+    "800 g white fish fillets (cod, haddock, or halibut)",
+    "100 g all-purpose flour",
+    "50 g cornstarch",
+    "1/2 tsp baking powder",
+    "200 ml cold sparkling water (or beer)",
+    "1 egg",
+    "Salt to taste",
+    "Black pepper to taste",
+    "Oil for deep frying",
+
+    "200 g mayonnaise",
+    "30 g cornichons, finely chopped",
+    "20 g capers, chopped",
+    "1 small shallot, minced",
+    "1 tbsp fresh parsley, chopped",
+    "1 tsp fresh dill, chopped",
+    "1 tbsp lemon juice",
+    "1 tsp Dijon mustard"
+  ],
+
+  "steps": [
+    "Mix mayonnaise, cornichons, capers, shallot, herbs, lemon juice, and mustard to make tartar sauce.",
+    "Refrigerate sauce for at least 30 minutes.",
+    "Whisk flour, cornstarch, baking powder, and salt.",
+    "Add egg and cold sparkling water to form smooth batter.",
+    "Pat fish dry and season with salt and pepper.",
+    "Lightly coat fish with flour.",
+    "Heat oil to 180°C and dip fish into batter.",
+    "Deep fry for 4–6 minutes until golden and crisp.",
+    "Drain on rack or paper towels.",
+    "Serve with tartar sauce and lemon wedges."
+  ],
+
+  "chefTips": [
+    "Keep batter ice cold for crisp texture.",
+    "Do not overcrowd fryer while cooking.",
+    "Use rack instead of paper towels for crispiness.",
+    "Add lemon zest to tartar sauce for freshness."
+  ]
+}
