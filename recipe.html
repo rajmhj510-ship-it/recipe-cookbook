@@ -6,208 +6,226 @@
 <title>Recipe Details</title>
 
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
-  margin:0;
-  font-family: Arial;
-  background:#0b0f14;
-  color:#fff;
+font-family:Arial;
+background:#0b0f14;
+color:#fff;
 }
 
 /* HERO */
 .hero{
-  height:260px;
-  background-size:cover;
-  background-position:center;
-  position:relative;
+height:280px;
+background-size:cover;
+background-position:center;
+position:relative;
 }
 
-.overlay{
-  position:absolute;
-  inset:0;
-  background:linear-gradient(to top,#0b0f14,transparent);
+.hero::after{
+content:"";
+position:absolute;
+inset:0;
+background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.2));
 }
 
 .back{
-  position:absolute;
-  top:15px;
-  left:15px;
-  padding:8px 12px;
-  border:none;
-  border-radius:20px;
-  background:rgba(0,0,0,0.6);
-  color:#fff;
-  cursor:pointer;
+position:absolute;
+top:15px;
+left:15px;
+padding:8px 12px;
+border:none;
+border-radius:20px;
+background:rgba(0,0,0,0.6);
+color:#fff;
+cursor:pointer;
+z-index:2;
 }
 
 /* CONTAINER */
 .container{
-  max-width:900px;
-  margin:auto;
-  padding:15px;
-  margin-top:-40px;
+max-width:900px;
+margin:auto;
+padding:15px;
+margin-top:-40px;
 }
 
 /* CARD */
 .card{
-  background:#151c25;
-  border-radius:16px;
-  padding:16px;
-  border:1px solid rgba(255,255,255,0.05);
+background:#151c25;
+border-radius:16px;
+padding:16px;
+border:1px solid rgba(255,255,255,0.05);
 }
 
 /* TITLE */
 h1{
-  margin:0;
-  font-size:22px;
+font-size:22px;
+margin-bottom:10px;
 }
 
 /* META */
 .meta{
-  display:flex;
-  flex-wrap:wrap;
-  gap:8px;
-  margin:10px 0;
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+margin-bottom:12px;
 }
 
 .meta span{
-  background:#222c3a;
-  padding:5px 10px;
-  border-radius:20px;
-  font-size:12px;
+background:#222c3a;
+padding:5px 10px;
+border-radius:20px;
+font-size:12px;
+}
+
+/* SECTIONS */
+h3{
+margin-top:18px;
+margin-bottom:10px;
+font-size:16px;
 }
 
 /* INGREDIENTS */
 .ingredients{
-  display:flex;
-  flex-wrap:wrap;
-  gap:8px;
+display:flex;
+flex-wrap:wrap;
+gap:8px;
 }
 
 .ingredients span{
-  background:#222c3a;
-  padding:6px 10px;
-  border-radius:20px;
-  font-size:12px;
+background:#222c3a;
+padding:6px 10px;
+border-radius:20px;
+font-size:12px;
 }
 
 /* STEPS */
 .step{
-  background:#1b2430;
-  padding:12px;
-  border-radius:12px;
-  margin-bottom:10px;
-  border-left:3px solid #2b6fff;
+background:#1b2430;
+padding:12px;
+border-radius:12px;
+margin-bottom:10px;
+border-left:3px solid #2b6fff;
 }
 
 /* BLOCK */
 .block{
-  background:#1b2430;
-  padding:12px;
-  border-radius:12px;
-  margin-bottom:10px;
+background:#1b2430;
+padding:12px;
+border-radius:12px;
+margin-bottom:10px;
 }
 
 /* BUTTON */
-.save{
-  width:100%;
-  margin-top:15px;
-  padding:12px;
-  border:none;
-  border-radius:10px;
-  background:linear-gradient(135deg,#2b6fff,#00c6ff);
-  color:#fff;
-  cursor:pointer;
-  font-size:14px;
-  font-weight:bold;
-  transition:0.3s;
+button.save{
+width:100%;
+margin-top:15px;
+padding:12px;
+border:none;
+border-radius:10px;
+background:#2b6fff;
+color:#fff;
+cursor:pointer;
+font-size:14px;
 }
 
-.save:hover{
-  transform:scale(1.03);
+.loading{
+text-align:center;
+padding:30px;
+opacity:0.7;
 }
+
 </style>
 </head>
 
 <body>
 
 <div class="hero" id="hero">
-  <div class="overlay"></div>
-  <button class="back" onclick="history.back()">← Back</button>
+<button class="back" onclick="history.back()">← Back</button>
 </div>
 
 <div class="container">
-  <div class="card" id="content">Loading recipe...</div>
+<div class="card" id="content">
+<div class="loading">Loading recipe...</div>
+</div>
 </div>
 
 <script>
+
 document.addEventListener("DOMContentLoaded", async () => {
 
-  const id = new URLSearchParams(location.search).get("id");
-  const box = document.getElementById("content");
-  const hero = document.getElementById("hero");
+const id = Number(new URLSearchParams(location.search).get("id"));
+const content = document.getElementById("content");
+const hero = document.getElementById("hero");
 
-  try {
-    const res = await fetch("./data/arabic-recipes.json");
+try {
 
-    if (!res.ok) throw new Error("JSON not found");
+const res = await fetch("./data/arabic-recipes.json");
+const data = await res.json();
 
-    const data = await res.json();
+const recipe = data.find(r => r.id === id);
 
-    const recipe = data.find(r => String(r.id) === String(id));
+if(!recipe){
+content.innerHTML = "<div class='loading'>Recipe not found</div>";
+return;
+}
 
-    if (!recipe) {
-      box.innerHTML = "❌ Recipe not found";
-      return;
-    }
+/* HERO IMAGE */
+hero.style.backgroundImage = `url('${recipe.image}')`;
 
-    /* HERO IMAGE */
-    hero.style.backgroundImage = `url('${recipe.image}')`;
+content.innerHTML = `
 
-    /* SAFE RENDER */
-    box.innerHTML = `
-      <h1>${recipe.title}</h1>
+<h1>${recipe.title}</h1>
 
-      <div class="meta">
-        <span>⏱ ${recipe.time}</span>
-        <span>🔥 ${recipe.difficulty}</span>
-        <span>🍽 ${recipe.category}</span>
-      </div>
+<div class="meta">
+<span>⏱ ${recipe.time}</span>
+<span>🔥 ${recipe.difficulty}</span>
+<span>🍽 ${recipe.category}</span>
+</div>
 
-      <button class="save">❤️ Save Recipe</button>
+<button class="save">❤️ Save Recipe</button>
 
-      <h3>Ingredients</h3>
-      <div class="ingredients">
-        ${(recipe.ingredients || []).map(i => `<span>${i}</span>`).join("")}
-      </div>
+<h3>🥕 Ingredients</h3>
+<div class="ingredients">
+${(recipe.ingredients || []).map(i => `<span>${i}</span>`).join("")}
+</div>
 
-      <h3>Steps</h3>
-      ${(recipe.steps || []).map((s,i) => `
-        <div class="step">
-          <b>Step ${i+1}</b><br>${s}
-        </div>
-      `).join("")}
+<h3>👨‍🍳 Steps</h3>
+${(recipe.steps || []).map((s,i) => `
+<div class="step">
+<b>Step ${i+1}</b><br>${s}
+</div>
+`).join("")}
 
-      ${recipe.servingSuggestions ? `
-        <h3>Serving Suggestions</h3>
-        ${recipe.servingSuggestions.map(s => `
-          <div class="block">${s}</div>
-        `).join("")}
-      ` : ""}
+${recipe.servingSuggestions ? `
+<h3>🍽 Serving Suggestions</h3>
+${recipe.servingSuggestions.map(s => `
+<div class="block">${s}</div>
+`).join("")}
+` : ""}
 
-      ${recipe.chefTips ? `
-        <h3>Chef Tips</h3>
-        ${recipe.chefTips.map(t => `
-          <div class="block">${t}</div>
-        `).join("")}
-      ` : ""}
-    `;
+${recipe.chefTips ? `
+<h3>💡 Chef Tips</h3>
+${recipe.chefTips.map(t => `
+<div class="block">${t}</div>
+`).join("")}
+` : ""}
 
-  } catch (err) {
-    console.error(err);
-    box.innerHTML = "❌ Failed to load recipe data";
-  }
+`;
+
+} catch (err) {
+console.error(err);
+content.innerHTML = "<div class='loading'>Failed to load recipe</div>";
+}
 
 });
+
 </script>
 
 </body>
