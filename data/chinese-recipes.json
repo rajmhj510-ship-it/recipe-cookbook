@@ -1,127 +1,61 @@
 [
   {
-    "id": 101,
-    "title": "Fish Szechuan Sauce",
+    "id": 2,
+    "title": "Szechuan Fish in Spicy Sauce",
     "category": "Chinese",
-    "time": "40 min",
+    "time": "45 min",
     "difficulty": "Medium",
-    "image": "fish-szechuan.jpg",
+    "image": "images/szechuan-fish.png",
+
     "ingredients": [
       "500g white fish fillets (cod, seabass, or tilapia)",
       "1 tsp salt",
       "1/2 tsp white pepper",
-      "1 tsp Shaoxing wine",
+      "1 tsp Shaoxing wine (optional)",
       "2 tbsp cornstarch",
       "3 tbsp vegetable oil",
+
       "2 tbsp vegetable oil (sauce)",
       "5–6 dried red chilies",
       "1 tbsp Szechuan peppercorns",
-      "3 garlic cloves",
-      "1-inch ginger",
+      "3 garlic cloves, minced",
+      "1-inch ginger, minced",
       "2 scallions",
+
       "1/4 cup chicken or fish stock",
       "2 tbsp soy sauce",
       "1 tbsp black vinegar",
       "1 tbsp Doubanjiang",
       "1 tsp sugar",
-      "1/2 tsp sesame oil"
+      "1/2 tsp sesame oil",
+      "1 tsp cornstarch slurry (optional)",
+
+      "Cilantro or scallions (garnish)",
+      "Sesame seeds (optional)"
     ],
+
     "steps": [
       "Pat fish dry and season with salt, pepper, and Shaoxing wine.",
-      "Coat fish with cornstarch.",
-      "Pan-fry until golden and crisp, then set aside.",
-      "Heat oil and fry chilies and Szechuan peppercorns.",
-      "Add garlic, ginger, and Doubanjiang and stir-fry.",
-      "Add stock, soy sauce, vinegar, sugar, and scallions.",
-      "Simmer sauce until slightly thick.",
-      "Pour sauce over fish and serve hot."
-    ]
-  },
+      "Coat fish lightly with cornstarch.",
+      "Pan-fry fish until golden and crisp on both sides. Set aside.",
 
-  {
-    "id": 102,
-    "title": "Sichuan Chicken Chili",
-    "category": "Chinese",
-    "time": "30 min",
-    "difficulty": "Medium",
-    "image": "sichuan-chicken.jpg",
-    "ingredients": [
-      "250g chicken thigh cubes",
-      "1/2 tbsp Shaoxing wine",
-      "1/2 tsp soy sauce",
-      "1/4 tsp salt",
-      "1/4 tsp white pepper",
-      "1 egg white",
-      "1 tsp cornstarch",
-      "Dried red chilies",
-      "Sichuan peppercorns",
-      "Garlic",
-      "Ginger",
-      "Scallions"
-    ],
-    "steps": [
-      "Marinate chicken with wine, soy sauce, egg white, and cornstarch.",
-      "Fry chicken until golden and crispy.",
-      "Stir-fry chilies and peppercorns until fragrant.",
-      "Add garlic, ginger, and scallions.",
-      "Return chicken and toss on high heat.",
-      "Serve hot with rice."
-    ]
-  },
+      "Heat oil in wok and fry dried chilies and Szechuan peppercorns briefly.",
+      "Add garlic and ginger and sauté until fragrant.",
+      "Add Doubanjiang and cook briefly.",
+      "Add soy sauce, vinegar, sugar, and stock. Bring to simmer.",
+      "Add scallions and cook 1–2 minutes.",
+      "Add slurry if thicker sauce is needed.",
+      "Finish with sesame oil.",
 
-  {
-    "id": 103,
-    "title": "Chili Oil",
-    "category": "Sauces",
-    "time": "30 min",
-    "difficulty": "Easy",
-    "image": "chili-oil.jpg",
-    "ingredients": [
-      "1 cup neutral oil",
-      "1/4 cup chili flakes",
-      "1 tsp Sichuan peppercorns",
-      "2 star anise",
-      "1 cinnamon stick",
-      "3 garlic cloves",
-      "1-inch ginger",
-      "1 shallot",
-      "1 tsp sugar",
-      "1 tsp salt",
-      "1 tsp sesame seeds"
+      "Pour sauce over fish and garnish with cilantro or sesame seeds.",
+      "Serve with rice or vegetables."
     ],
-    "steps": [
-      "Heat oil with garlic, ginger, and spices slowly.",
-      "Infuse for 10–15 minutes.",
-      "Mix chili flakes with salt and sugar.",
-      "Pour hot oil over chili mixture.",
-      "Cool and store in jar."
-    ]
-  },
 
-  {
-    "id": 104,
-    "title": "Hot Garlic Sauce",
-    "category": "Sauces",
-    "time": "20 min",
-    "difficulty": "Easy",
-    "image": "hot-garlic-sauce.jpg",
-    "ingredients": [
-      "6–8 garlic cloves",
-      "3 tbsp oil",
-      "2 chili paste",
-      "2 tbsp soy sauce",
-      "1 tbsp vinegar",
-      "1 tsp sugar",
-      "1/4 cup stock",
-      "cornstarch slurry",
-      "sesame oil"
-    ],
-    "steps": [
-      "Sauté garlic and chilies in oil.",
-      "Add soy sauce, vinegar, and stock.",
-      "Simmer mixture.",
-      "Add slurry to thicken.",
-      "Finish with sesame oil."
+    "chefTips": [
+      "Keep fish dry for crisp texture.",
+      "Do not burn Szechuan peppercorns.",
+      "Balance spice with sugar and vinegar.",
+      "Serve immediately for best taste."
     ]
   }
 ]
