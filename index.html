@@ -19,6 +19,7 @@ align-items:center;
 gap:10px;
 padding:15px;
 background:#111827;
+flex-wrap:wrap;
 }
 
 header img{
@@ -27,37 +28,41 @@ height:40px;
 border-radius:8px;
 }
 
-.top-bar{
-display:flex;
-flex-direction:column;
-gap:10px;
-padding:10px 15px;
+/* SEARCH */
+.search-box{
+width:100%;
+margin-top:10px;
 }
 
-input{
+.search-box input{
+width:100%;
 padding:10px;
 border-radius:8px;
 border:none;
 outline:none;
+background:#1b2430;
+color:#fff;
 }
 
+/* FILTER BUTTONS */
 .filters{
 display:flex;
-gap:8px;
 flex-wrap:wrap;
+gap:8px;
+margin-top:10px;
 }
 
-.filter-btn{
-padding:6px 12px;
-border-radius:20px;
+.filters button{
+padding:6px 10px;
 border:none;
-cursor:pointer;
-background:#222c3a;
+border-radius:20px;
+background:#1b2430;
 color:#fff;
+cursor:pointer;
 font-size:12px;
 }
 
-.filter-btn.active{
+.filters button.active{
 background:#ffcc70;
 color:#000;
 }
@@ -102,17 +107,15 @@ opacity:0.7;
 <body>
 
 <header>
-<img src="./logo.png">
+<img src="./logo.png" alt="logo">
 <h2>Recipe Cookbook</h2>
-</header>
 
-<div class="top-bar">
-
+<div class="search-box">
 <input type="text" id="search" placeholder="Search recipes...">
+</div>
 
 <div class="filters" id="filters"></div>
-
-</div>
+</header>
 
 <div class="container" id="list">Loading...</div>
 
@@ -129,8 +132,10 @@ try {
 const res = await fetch("./data/index.json");
 allRecipes = await res.json();
 
-createFilters();
-render(allRecipes);
+renderFilters();
+renderRecipes(allRecipes);
+
+document.getElementById("search").addEventListener("input", filterRecipes);
 
 } catch (err) {
 console.error(err);
@@ -138,51 +143,47 @@ container.innerHTML = "❌ Failed to load recipes";
 }
 });
 
-/* SEARCH */
-document.getElementById("search").addEventListener("input", function () {
-render(filterData());
-});
-
-/* CREATE FILTER BUTTONS */
-function createFilters(){
+/* FILTER BUTTONS */
+function renderFilters(){
 const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
 
-const filters = document.getElementById("filters");
-
-filters.innerHTML = categories.map(c => `
-<button class="filter-btn ${c==="All"?"active":""}" onclick="setFilter('${c}')">
+document.getElementById("filters").innerHTML =
+categories.map(c => `
+<button onclick="setCategory('${c}')" class="${c==='All'?'active':''}">
 ${c}
 </button>
 `).join("");
 }
 
-function setFilter(cat){
+function setCategory(cat){
 activeCategory = cat;
 
-document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+document.querySelectorAll(".filters button").forEach(b => b.classList.remove("active"));
 event.target.classList.add("active");
 
-render(filterData());
+filterRecipes();
 }
 
-/* FILTER LOGIC */
-function filterData(){
+/* SEARCH + CATEGORY FILTER */
+function filterRecipes(){
 const search = document.getElementById("search").value.toLowerCase();
 
-return allRecipes.filter(r => {
+let filtered = allRecipes.filter(r => {
 
 const matchCategory = activeCategory === "All" || r.category === activeCategory;
 const matchSearch = r.title.toLowerCase().includes(search);
 
 return matchCategory && matchSearch;
 });
+
+renderRecipes(filtered);
 }
 
 /* RENDER */
-function render(data){
+function renderRecipes(list){
 const container = document.getElementById("list");
 
-container.innerHTML = data.map(r => `
+container.innerHTML = list.map(r => `
 <div class="card" onclick="openRecipe('${r.file}')">
 <img src="${r.image}">
 <h3>${r.title}</h3>
