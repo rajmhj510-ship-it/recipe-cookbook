@@ -31,7 +31,7 @@ border-radius:8px;
 }
 
 .hero{
-height:260px;
+height:250px;
 background-size:cover;
 background-position:center;
 position:relative;
@@ -41,7 +41,7 @@ position:relative;
 content:"";
 position:absolute;
 inset:0;
-background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.4));
+background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.3));
 }
 
 .back{
@@ -86,14 +86,14 @@ border-radius:20px;
 font-size:12px;
 }
 
-/* INGREDIENTS */
-.group-title{
-margin-top:12px;
-margin-bottom:6px;
+.section-title{
+margin-top:15px;
+margin-bottom:8px;
 font-weight:bold;
 color:#ffcc70;
 }
 
+/* ingredients */
 .ingredients label{
 display:flex;
 justify-content:space-between;
@@ -105,7 +105,7 @@ margin-bottom:6px;
 font-size:13px;
 }
 
-/* STEPS */
+/* steps */
 .instructions .step{
 background:#1b2430;
 padding:10px;
@@ -119,13 +119,23 @@ transition:0.2s;
 opacity:0.6;
 border-left:3px solid #00c853;
 }
+
+/* tips boxes */
+.box{
+background:#1b2430;
+padding:10px;
+border-radius:8px;
+margin-bottom:6px;
+font-size:13px;
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-<img src="./logo.png">
+<img src="./logo.png" alt="logo">
 <strong>Recipe</strong>
 </header>
 
@@ -144,74 +154,52 @@ document.addEventListener("DOMContentLoaded", async () => {
 const content = document.getElementById("content");
 const hero = document.getElementById("hero");
 
-const params = new URLSearchParams(location.search);
-const file = params.get("file");
+const file = new URLSearchParams(location.search).get("file");
 
 if(!file){
 content.innerHTML = "❌ Recipe not found";
 return;
 }
 
-/* ✅ IMPORTANT FIX: normalize path for GitHub Pages */
-function normalizePath(path){
-return decodeURIComponent(path)
-.replace("./", "")
-.replace(/^\/+/, "");
-}
-
-const cleanFile = normalizePath(file);
-
 try {
 
-/* fetch correct file */
-const res = await fetch(cleanFile);
+// FIX PATH
+const cleanFile = decodeURIComponent(file);
 
-if(!res.ok){
-throw new Error("Cannot load: " + cleanFile);
-}
+const res = await fetch(cleanFile);
+if(!res.ok) throw new Error("Cannot load file");
 
 const recipe = await res.json();
 
-/* HERO IMAGE FIX */
-const img = recipe.image
-? recipe.image.replace("./", "").replace(/^\/+/, "")
-: "";
+/* HERO */
+hero.style.backgroundImage = `url('${recipe.image || ""}')`;
 
-hero.style.backgroundImage = `url('${img}')`;
-
-/* INGREDIENTS SUPPORT (flat OR grouped) */
-let ingredientsHTML = "";
-
-if(Array.isArray(recipe.ingredients)) {
-
-if(typeof recipe.ingredients[0] === "string") {
-ingredientsHTML = recipe.ingredients.map(i => `
+/* INGREDIENTS */
+const ingredientsHTML = (recipe.ingredients || [])
+.map(i => `
 <label>
 <span>${i}</span>
 <input type="checkbox">
 </label>
 `).join("");
-} else {
-recipe.ingredients.forEach(group => {
-ingredientsHTML += `<div class="group-title">${group.title}</div>`;
-ingredientsHTML += (group.items || []).map(i => `
-<label>
-<span>${i}</span>
-<input type="checkbox">
-</label>
-`).join("");
-});
-}
-}
 
 /* STEPS */
-const steps = recipe.steps || recipe.instructions || [];
-
-const stepsHTML = steps.map(step => `
+const stepsHTML = (recipe.steps || recipe.instructions || [])
+.map(s => `
 <div class="step" onclick="toggleStep(this)">
-${step}
+${s}
 </div>
 `).join("");
+
+/* CHEF TIPS */
+const tipsHTML = (recipe.chefTips || [])
+.map(t => `<div class="box">💡 ${t}</div>`)
+.join("");
+
+/* SERVING SUGGESTIONS */
+const servingHTML = (recipe.servingSuggestions || [])
+.map(s => `<div class="box">🍽 ${s}</div>`)
+.join("");
 
 content.innerHTML = `
 <h1>${recipe.title || ""}</h1>
@@ -222,16 +210,21 @@ content.innerHTML = `
 <span>🍽 ${recipe.category || ""}</span>
 </div>
 
-<h3>Ingredients</h3>
+<h3 class="section-title">Ingredients</h3>
 <div class="ingredients">${ingredientsHTML}</div>
 
-<h3>Instructions</h3>
+<h3 class="section-title">Instructions</h3>
 <div class="instructions">${stepsHTML}</div>
+
+${servingHTML ? `<h3 class="section-title">Serving Suggestions</h3>${servingHTML}` : ""}
+
+${tipsHTML ? `<h3 class="section-title">Chef Tips</h3>${tipsHTML}` : ""}
+
 `;
 
 } catch(err){
 console.error(err);
-content.innerHTML = "❌ Failed to load recipe (check file path)";
+content.innerHTML = "❌ Failed to load recipe";
 }
 
 });
@@ -239,6 +232,7 @@ content.innerHTML = "❌ Failed to load recipe (check file path)";
 function toggleStep(el){
 el.classList.toggle("done");
 }
+
 </script>
 
 </body>
