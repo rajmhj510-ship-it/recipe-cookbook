@@ -105,16 +105,26 @@ border-radius:20px;
 font-size:12px;
 }
 
-/* STEPS */
-.step{
+/* INSTRUCTIONS */
+.instructions .block{
 background:#1b2430;
 padding:12px;
 border-radius:12px;
 margin-bottom:10px;
 border-left:3px solid #2b6fff;
+font-size:13px;
+line-height:1.4;
+position:relative;
 }
 
-/* BLOCK */
+.instructions .block::before{
+content:"•";
+color:#2b6fff;
+font-size:18px;
+margin-right:8px;
+}
+
+/* BLOCK (tips etc.) */
 .block{
 background:#1b2430;
 padding:12px;
@@ -206,12 +216,12 @@ content.innerHTML = `
 ${(recipe.ingredients || []).map(i => `<span>${i}</span>`).join("")}
 </div>
 
-<h3>Steps</h3>
-${(recipe.steps || []).map((s,i) => `
-<div class="step">
-<b>Step ${i+1}</b><br>${s}
-</div>
+<h3>Instructions</h3>
+<div class="instructions">
+${(recipe.steps || []).map(s => `
+  <div class="block">${s}</div>
 `).join("")}
+</div>
 
 ${recipe.servingSuggestions ? `
 <h3>Serving Suggestions</h3>
