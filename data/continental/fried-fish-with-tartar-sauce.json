@@ -7,6 +7,9 @@
   "image": "assets/images/continental/fried-fish-with-tartar-sauce.png",
 
   "ingredients": [
+    {
+      "title": "Ingredients for the Fish",
+      "items": [
     "800 g white fish fillets (cod, haddock, or halibut)",
     "100 g all-purpose flour",
     "50 g cornstarch",
