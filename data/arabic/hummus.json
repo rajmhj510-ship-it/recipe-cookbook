@@ -1,1 +1,41 @@
+[
+  {
+    "id": 102,
+    "title": "Hummus",
+    "category": "Arabic",
+    "time": "45 min",
+    "difficulty": "Medium",
+    "image": "assets/images/arabic/hummus.png",
 
+    "ingredients": [
+      "250 g dried chickpeas",
+      "1 tsp baking soda",
+      "120 g tahini",
+      "80 ml lemon juice",
+      "1 garlic clove",
+      "80–100 ml ice water",
+      "Salt",
+      "Olive oil"
+    ],
+
+    "steps": [
+     "Soak chickpeas overnight.",
+      "Cook until soft.",
+      "Blend tahini and lemon juice.",
+      "Add chickpeas and blend smooth.",
+      "Add ice water gradually.",
+      "Adjust seasoning.",
+      "Serve with olive oil."
+    ],
+
+    "servingSuggestions": [
+      "Serve with warm pita bread.",
+      "Garnish with olive oil and paprika."
+    ],
+
+    "chefTips": [
+      "Use warm chickpeas for smoother texture.",
+      "Ice water makes it creamy.",
+      "Use high-quality tahini."
+    ]
+  },
