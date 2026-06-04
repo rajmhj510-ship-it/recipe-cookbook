@@ -5,37 +5,57 @@
     "category": "Arabic",
     "time": "45 min",
     "difficulty": "Medium",
-    "image": "assets/images/arabic/hummus.png",
+    "image": "/assets/images/arabic/hummus.png",
 
     "ingredients": [
-      "250 g dried chickpeas",
-      "1 tsp baking soda",
-      "120 g tahini",
-      "80 ml lemon juice",
-      "1 garlic clove",
-      "80–100 ml ice water",
-      "Salt",
-      "Olive oil"
+      "500g white fish fillets (cod, seabass, or tilapia)",
+      "1 tsp salt",
+      "1/2 tsp white pepper",
+      "1 tsp Shaoxing wine (optional)",
+      "2 tbsp cornstarch",
+      "3 tbsp vegetable oil",
+
+      "2 tbsp vegetable oil (sauce)",
+      "5–6 dried red chilies",
+      "1 tbsp Szechuan peppercorns",
+      "3 garlic cloves, minced",
+      "1-inch ginger, minced",
+      "2 scallions",
+
+      "1/4 cup chicken or fish stock",
+      "2 tbsp soy sauce",
+      "1 tbsp black vinegar",
+      "1 tbsp Doubanjiang",
+      "1 tsp sugar",
+      "1/2 tsp sesame oil",
+      "1 tsp cornstarch slurry (optional)",
+
+      "Cilantro or scallions (garnish)",
+      "Sesame seeds (optional)"
     ],
 
     "steps": [
-     "Soak chickpeas overnight.",
-      "Cook until soft.",
-      "Blend tahini and lemon juice.",
-      "Add chickpeas and blend smooth.",
-      "Add ice water gradually.",
-      "Adjust seasoning.",
-      "Serve with olive oil."
-    ],
+      "Pat fish dry and season with salt, pepper, and Shaoxing wine.",
+      "Coat fish lightly with cornstarch.",
+      "Pan-fry fish until golden and crisp on both sides. Set aside.",
 
-    "servingSuggestions": [
-      "Serve with warm pita bread.",
-      "Garnish with olive oil and paprika."
+      "Heat oil in wok and fry dried chilies and Szechuan peppercorns briefly.",
+      "Add garlic and ginger and sauté until fragrant.",
+      "Add Doubanjiang and cook briefly.",
+      "Add soy sauce, vinegar, sugar, and stock. Bring to simmer.",
+      "Add scallions and cook 1–2 minutes.",
+      "Add slurry if thicker sauce is needed.",
+      "Finish with sesame oil.",
+
+      "Pour sauce over fish and garnish with cilantro or sesame seeds.",
+      "Serve with rice or vegetables."
     ],
 
     "chefTips": [
-      "Use warm chickpeas for smoother texture.",
-      "Ice water makes it creamy.",
-      "Use high-quality tahini."
+      "Keep fish dry for crisp texture.",
+      "Do not burn Szechuan peppercorns.",
+      "Balance spice with sugar and vinegar.",
+      "Serve immediately for best taste."
     ]
-  },
+  }
+]
