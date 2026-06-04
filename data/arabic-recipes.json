@@ -1,157 +1,90 @@
 [
   {
-    "id": 201,
+    "id": 1,
     "title": "Falafel",
-    "category": "Middle Eastern",
-    "time": "45 min (plus soaking)",
+    "category": "Arabic",
+    "time": "45 min",
     "difficulty": "Medium",
-    "image": "falafel.jpg",
+    "image": "images/Falafel.png",
 
     "ingredients": [
-      {
-        "group": "Base",
-        "items": [
-          "250 g dried chickpeas (soaked overnight)",
-          "1 medium onion, chopped",
-          "4–5 garlic cloves",
-          "1 tsp baking soda",
-          "Salt to taste"
-        ]
-      },
-      {
-        "group": "Fresh Herbs",
-        "items": [
-          "1 cup parsley",
-          "1 cup cilantro",
-          "1/2 cup dill (optional)"
-        ]
-      },
-      {
-        "group": "Spices",
-        "items": [
-          "2 tsp cumin",
-          "2 tsp coriander",
-          "1 tsp black pepper",
-          "1/2 tsp chili flakes (optional)"
-        ]
-      },
-      {
-        "group": "Binding & Frying",
-        "items": [
-          "1–2 tbsp chickpea flour (if needed)",
-          "2 tbsp sesame seeds",
-          "Oil for deep frying"
-        ]
-      }
+      "250 g dry chickpeas, soaked overnight",
+      "1 medium onion",
+      "4–5 cloves garlic",
+      "1 cup parsley",
+      "1 cup cilantro",
+      "½ cup dill (optional)",
+      "1 tsp baking soda",
+      "2 tsp cumin",
+      "2 tsp coriander",
+      "1 tsp black pepper",
+      "½ tsp Aleppo pepper",
+      "1½ tsp salt",
+      "2 tbsp sesame seeds",
+      "Oil for frying"
     ],
 
-    "instructions": [
-      {
-        "group": "Prepare Chickpeas",
-        "steps": [
-          "Soak chickpeas overnight (do not cook)",
-          "Drain completely"
-        ]
-      },
-      {
-        "group": "Make Mixture",
-        "steps": [
-          "Blend chickpeas, onion, garlic, and herbs",
-          "Pulse until grainy texture",
-          "Add spices and chill mixture"
-        ]
-      },
-      {
-        "group": "Shape & Fry",
-        "steps": [
-          "Add baking soda before frying",
-          "Form balls or patties",
-          "Deep fry at 170–180°C until golden"
-        ]
-      }
+    "steps": [
+      "Soak chickpeas overnight.",
+      "Drain thoroughly.",
+      "Blend chickpeas with herbs and onion.",
+      "Add spices and mix well.",
+      "Chill mixture.",
+      "Form balls.",
+      "Fry at 170–180°C until golden.",
+      "Drain and serve hot."
     ],
 
-    "tips": [
-      "Never use canned chickpeas",
-      "Keep mixture chilled before frying",
-      "Maintain correct oil temperature for crisp texture"
+    "servingSuggestions": [
+      "Serve in pita bread with vegetables.",
+      "Add tahini sauce and pickles."
+    ],
+
+    "chefTips": [
+      "Never use canned chickpeas.",
+      "Keep mixture chilled before frying.",
+      "Maintain oil temperature for crisp texture."
     ]
   },
 
   {
-    "id": 202,
+    "id": 2,
     "title": "Hummus",
-    "category": "Middle Eastern",
-    "time": "1.5 hours",
-    "difficulty": "Medium",
-    "image": "hummus.jpg",
+    "category": "Arabic",
+    "time": "90 min",
+    "difficulty": "Easy",
+    "image": "images/Hummus.png",
 
     "ingredients": [
-      {
-        "group": "Base",
-        "items": [
-          "250 g dried chickpeas",
-          "1 tsp baking soda"
-        ]
-      },
-      {
-        "group": "Tahini Mix",
-        "items": [
-          "120 g tahini",
-          "80 ml lemon juice",
-          "1 garlic clove",
-          "80–100 ml ice water",
-          "Salt to taste"
-        ]
-      },
-      {
-        "group": "Garnish",
-        "items": [
-          "Olive oil",
-          "Paprika or sumac",
-          "Parsley",
-          "Optional pine nuts"
-        ]
-      }
+      "250 g dried chickpeas",
+      "1 tsp baking soda",
+      "120 g tahini",
+      "80 ml lemon juice",
+      "1 garlic clove",
+      "80–100 ml ice water",
+      "Salt",
+      "Olive oil"
     ],
 
-    "instructions": [
-      {
-        "group": "Cook Chickpeas",
-        "steps": [
-          "Soak chickpeas overnight",
-          "Cook until very soft (1–1.5 hours)"
-        ]
-      },
-      {
-        "group": "Prepare Base",
-        "steps": [
-          "Mix lemon juice and garlic",
-          "Let rest for flavor balance"
-        ]
-      },
-      {
-        "group": "Blend Hummus",
-        "steps": [
-          "Blend chickpeas with tahini",
-          "Add ice water slowly",
-          "Blend until smooth and creamy"
-        ]
-      },
-      {
-        "group": "Serve",
-        "steps": [
-          "Spread in bowl",
-          "Drizzle olive oil",
-          "Add garnish"
-        ]
-      }
+    "steps": [
+      "Soak chickpeas overnight.",
+      "Cook until soft.",
+      "Blend tahini and lemon juice.",
+      "Add chickpeas and blend smooth.",
+      "Add ice water gradually.",
+      "Adjust seasoning.",
+      "Serve with olive oil."
     ],
 
-    "tips": [
-      "Use dried chickpeas only",
-      "Ice water makes it extra creamy",
-      "Serve at room temperature"
+    "servingSuggestions": [
+      "Serve with warm pita bread.",
+      "Garnish with olive oil and paprika."
+    ],
+
+    "chefTips": [
+      "Use warm chickpeas for smoother texture.",
+      "Ice water makes it creamy.",
+      "Use high-quality tahini."
     ]
   }
 ]
