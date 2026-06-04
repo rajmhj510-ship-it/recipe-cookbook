@@ -39,7 +39,7 @@
     "id": 203,
     "title": "Chili Oil",
     "category": "Chinese",
-    "file": "./data/sauces/chili-oil.json",
+    "file": "./data/chinese/chili-oil.json",
     "image": "./assets/images/chinese/chili-oil.png",
     "time": "20 min",
     "difficulty": "Easy"
