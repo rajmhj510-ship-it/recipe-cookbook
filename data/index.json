@@ -13,7 +13,7 @@
     "title": "Szechuan Fish",
     "category": "Chinese",
     "file": "./data/chinese/szechuan-fish.json",
-    "image": "./assets/images/chinese/szechuan-fish.png",
+    "image": "./assets/images/chinese/fish-szechuan-sauce.png",
     "time": "40 min",
     "difficulty": "Medium"
   }
