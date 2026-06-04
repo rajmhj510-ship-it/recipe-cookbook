@@ -6,12 +6,7 @@
 <title>Recipe Details</title>
 
 <style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
+*{margin:0;padding:0;box-sizing:border-box;}
 
 body{
 font-family:Arial;
@@ -31,7 +26,7 @@ position:relative;
 content:"";
 position:absolute;
 inset:0;
-background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.2));
+background:linear-gradient(to top,#0b0f14,transparent);
 }
 
 .back{
@@ -47,7 +42,6 @@ cursor:pointer;
 z-index:2;
 }
 
-/* CONTAINER */
 .container{
 max-width:900px;
 margin:auto;
@@ -55,25 +49,18 @@ padding:15px;
 margin-top:-40px;
 }
 
-/* CARD */
 .card{
 background:#151c25;
 border-radius:16px;
 padding:16px;
-border:1px solid rgba(255,255,255,0.05);
 }
 
-/* TITLE */
-h1{
-font-size:22px;
-margin-bottom:10px;
-}
+h1{margin-bottom:10px;}
 
-/* META */
 .meta{
 display:flex;
-flex-wrap:wrap;
 gap:8px;
+flex-wrap:wrap;
 margin-bottom:12px;
 }
 
@@ -84,94 +71,48 @@ border-radius:20px;
 font-size:12px;
 }
 
-/* =========================
-   INGREDIENTS (FIXED)
-========================= */
+/* INGREDIENTS */
+.group{
+margin-bottom:15px;
+}
 
-.ingredients ul{
+.group h3{
+margin:10px 0;
+color:#2b6fff;
+}
+
+.group ul{
 list-style:none;
-padding:0;
-display:flex;
-flex-direction:column;
-gap:10px;
 }
 
-.ingredient-item{
-background:#222c3a;
-padding:10px 12px;
-border-radius:10px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-font-size:13px;
-transition:0.2s;
+.group li{
+padding:6px 0;
+border-bottom:1px solid rgba(255,255,255,0.05);
 }
 
-.ingredient-item:hover{
-background:#2b3647;
+/* INSTRUCTIONS */
+.step-group{
+margin-bottom:20px;
 }
 
-.ingredient-item input{
-width:18px;
-height:18px;
-cursor:pointer;
-accent-color:#00c853;
-}
-
-/* =========================
-   INSTRUCTIONS
-========================= */
-
-.instructions .step-item{
-background:#1b2430;
-padding:12px;
-border-radius:12px;
+.step-group h3{
+color:#2b6fff;
 margin-bottom:10px;
-border-left:3px solid #2b6fff;
+}
+
+.step{
+background:#1b2430;
+padding:10px;
+border-radius:10px;
+margin-bottom:8px;
 cursor:pointer;
-display:flex;
-gap:10px;
-align-items:flex-start;
-font-size:13px;
 transition:0.2s;
 }
 
-.instructions .step-item:hover{
-background:#222c3a;
-}
-
-.tick{
-display:none;
-color:#00c853;
-font-size:16px;
-font-weight:bold;
-min-width:20px;
-}
-
-.step-item.done{
-opacity:0.7;
+.step.done{
+opacity:0.6;
 border-left:3px solid #00c853;
 }
-
-.step-item.done .tick{
-display:inline-block;
-}
-
-/* BLOCK */
-.block{
-background:#1b2430;
-padding:12px;
-border-radius:12px;
-margin-bottom:10px;
-}
-
-/* LOADING */
-.loading{
-text-align:center;
-padding:30px;
-opacity:0.7;
-}
-
 </style>
 </head>
 
@@ -183,99 +124,72 @@ opacity:0.7;
 
 <div class="container">
 <div class="card" id="content">
-<div class="loading">Loading recipe...</div>
+Loading recipe...
 </div>
 </div>
 
 <script>
-
 document.addEventListener("DOMContentLoaded", async () => {
 
 const id = Number(new URLSearchParams(location.search).get("id"));
 const content = document.getElementById("content");
 const hero = document.getElementById("hero");
 
-try {
+try{
+const res = await fetch("./data/recipes.json");
+const data = await res.json();
 
-const [arabicRes, chineseRes] = await Promise.all([
-fetch("./data/arabic-recipes.json"),
-fetch("./data/chinese-recipes.json")
-]);
-
-const arabic = await arabicRes.json();
-const chinese = await chineseRes.json();
-
-const allRecipes = [...arabic, ...chinese];
-
-const recipe = allRecipes.find(r => r.id === id);
+const recipe = data.find(r => r.id === id);
 
 if(!recipe){
-content.innerHTML = '<div class="loading">Recipe not found</div>';
+content.innerHTML = "Recipe not found";
 return;
 }
 
 hero.style.backgroundImage = `url('${recipe.image}')`;
 
 content.innerHTML = `
-
 <h1>${recipe.title}</h1>
 
 <div class="meta">
-<span>⏱ ${recipe.time}</span>
-<span>🔥 ${recipe.difficulty}</span>
-<span>🍽 ${recipe.category}</span>
+<span>${recipe.time}</span>
+<span>${recipe.difficulty}</span>
+<span>${recipe.category}</span>
 </div>
 
-<h3>Ingredients</h3>
-<div class="ingredients">
+<h2>Ingredients</h2>
+${recipe.ingredients.map(g => `
+<div class="group">
+<h3>${g.group}</h3>
 <ul>
-${(recipe.ingredients || []).map(i => `
-<li class="ingredient-item">
-<span>${i}</span>
-<input type="checkbox">
-</li>
-`).join("")}
+${g.items.map(i => `<li>${i}</li>`).join("")}
 </ul>
 </div>
+`).join("")}
 
-<h3>Instructions</h3>
-<div class="instructions">
-${(recipe.steps || []).map(s => `
-  <div class="step-item" onclick="markStep(this)">
-    <span class="tick">✔</span>
-    <span>${s}</span>
-  </div>
+<h2>Instructions</h2>
+${recipe.instructions.map(g => `
+<div class="step-group">
+<h3>${g.group}</h3>
+${g.steps.map(s => `
+<div class="step" onclick="this.classList.toggle('done')">
+${s}
+</div>
 `).join("")}
 </div>
-
-${recipe.servingSuggestions ? `
-<h3>Serving Suggestions</h3>
-${recipe.servingSuggestions.map(s => `
-<div class="block">${s}</div>
 `).join("")}
-` : ""}
 
-${recipe.chefTips ? `
-<h3>Chef Tips</h3>
-${recipe.chefTips.map(t => `
-<div class="block">${t}</div>
-`).join("")}
+${recipe.tips ? `
+<h2>Chef Tips</h2>
+<ul>
+${recipe.tips.map(t => `<li>${t}</li>`).join("")}
+</ul>
 ` : ""}
-
 `;
-
-} catch (err) {
-console.error("Recipe load error:", err);
-content.innerHTML = '<div class="loading">Failed to load recipe ❌</div>';
+}catch(e){
+content.innerHTML = "Failed to load recipe";
 }
-
 });
-
-/* STEP MARK */
-window.markStep = function(el){
-el.classList.add("done");
-};
-
 </script>
 
 </body>
