@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Recipe App</title>
+<title>Recipe Cookbook</title>
 
 <style>
 body{
@@ -13,15 +13,19 @@ background:#0b0f14;
 color:#fff;
 }
 
+header{
+text-align:center;
+padding:15px;
+}
+
+header img{
+height:50px;
+}
+
 .container{
 padding:15px;
 max-width:1000px;
 margin:auto;
-}
-
-h1{
-font-size:22px;
-margin-bottom:15px;
 }
 
 .grid{
@@ -63,8 +67,11 @@ margin:0 8px 10px;
 
 <body>
 
+<header>
+<img src="./logo.png" alt="Logo">
+</header>
+
 <div class="container">
-<h1>🍽 Recipes</h1>
 <div class="grid" id="grid"></div>
 </div>
 
