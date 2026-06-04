@@ -18,6 +18,15 @@
     "difficulty": "Easy"
   },
   {
+    "id": 103,
+    "title": "Chicken Shawarma",
+    "category": "Arabic",
+    "file": "data/arabic/chicken-shawarma.json",
+    "image": "assets/images/arabic/chicken-shawarma.png",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
     "id": 201,
     "title": "Szechuan Fish",
     "category": "Chinese",
