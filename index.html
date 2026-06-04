@@ -67,7 +67,7 @@ opacity:0.7;
 <body>
 
 <header>
-<img src="./logo.png">
+<img src="./logo.png" alt="logo">
 <h2>Recipe Cookbook</h2>
 </header>
 
@@ -76,24 +76,26 @@ opacity:0.7;
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
 
+const container = document.getElementById("list");
+
 try {
 const res = await fetch("./data/index.json");
+if(!res.ok) throw new Error("Index load failed");
+
 const recipes = await res.json();
 
-document.getElementById("list").innerHTML =
-recipes.map(r => `
+container.innerHTML = recipes.map(r => `
 <div class="card" onclick="openRecipe('${r.file}')">
-<img src="${r.image}">
+<img src="${r.image}" alt="">
 <h3>${r.title}</h3>
 <small>${r.category}</small>
 </div>
 `).join("");
 
-} catch(err){
+} catch (err) {
 console.error(err);
-document.getElementById("list").innerHTML = "Failed to load recipes";
+container.innerHTML = "❌ Failed to load recipes";
 }
-
 });
 
 function openRecipe(file){
