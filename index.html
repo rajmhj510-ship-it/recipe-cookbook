@@ -6,119 +6,78 @@
 <title>Digital Cookbook</title>
 
 <style>
-
-*{margin:0;padding:0;box-sizing:border-box;}
-
 body{
-font-family:Arial;
-background:#0b0f14;
-color:#fff;
-padding:20px;
+  font-family: Arial;
+  margin:0;
+  background:#0b0f14;
+  color:#fff;
+  padding:20px;
 }
 
-.paper{max-width:1100px;margin:auto;}
+.paper{
+  max-width:1100px;
+  margin:auto;
+}
 
 h1{text-align:center;margin-bottom:20px;}
 
-/* FILTERS */
+input{
+  width:100%;
+  padding:12px;
+  border-radius:10px;
+  border:none;
+  margin-bottom:15px;
+}
+
+/* filters */
 #filters{
-display:flex;
-flex-wrap:wrap;
-gap:8px;
-margin-bottom:15px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:15px;
 }
 
 #filters button{
-padding:8px 12px;
-border:none;
-border-radius:20px;
-cursor:pointer;
-background:#1b2430;
-color:#fff;
-font-size:12px;
+  padding:8px 12px;
+  border:none;
+  border-radius:20px;
+  cursor:pointer;
+  background:#1b2430;
+  color:#fff;
 }
 
-#filters button:hover{background:#2b6fff;}
-
-/* SEARCH */
-#searchBox{
-width:100%;
-padding:12px;
-border-radius:10px;
-border:none;
-outline:none;
-margin-bottom:20px;
+#filters button:hover{
+  background:#2b6fff;
 }
 
-/* RECENT */
-.recent{
-margin:10px 0 20px;
-font-size:12px;
-opacity:0.8;
+/* grid */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:15px;
 }
 
-/* GRID */
-#recipeGrid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:16px;
-}
-
-/* CARD */
+/* card */
 .card{
-background:#151c25;
-border-radius:14px;
-overflow:hidden;
-cursor:pointer;
-transition:0.25s;
-position:relative;
-border:1px solid rgba(255,255,255,0.05);
+  background:#151c25;
+  padding:12px;
+  border-radius:14px;
+  cursor:pointer;
+  border:1px solid rgba(255,255,255,0.05);
 }
 
-.card:hover{transform:translateY(-5px);background:#1b2430;}
-
-.card img{
-width:100%;
-height:160px;
-object-fit:cover;
-display:block;
-}
-
-.card h3{
-padding:10px 12px 0;
-font-size:16px;
-}
-
-.meta{
-padding:0 12px;
-font-size:12px;
-opacity:0.7;
-margin-top:5px;
+.card:hover{
+  transform:translateY(-5px);
 }
 
 .badge{
-display:inline-block;
-margin:10px 12px 12px;
-padding:4px 10px;
-font-size:11px;
-background:#2b6fff;
-border-radius:20px;
+  display:inline-block;
+  margin-top:6px;
+  padding:4px 10px;
+  background:#2b6fff;
+  border-radius:20px;
+  font-size:11px;
 }
-
-/* ❤️ */
-.fav-btn{
-position:absolute;
-top:10px;
-right:10px;
-background:rgba(0,0,0,0.6);
-border:none;
-color:#fff;
-font-size:16px;
-padding:6px 8px;
-border-radius:50%;
-cursor:pointer;
-}
-
 </style>
 </head>
 
@@ -128,193 +87,78 @@ cursor:pointer;
 
 <h1>🍲 Digital Cookbook</h1>
 
-<div id="filters">
-<button onclick="setFilter('All')">🌍 All</button>
-<button onclick="setFilter('Arabic')">🇸🇦 Arabic</button>
-<button onclick="setFilter('Chinese')">🇨🇳 Chinese</button>
-<button onclick="setFilter('Continental')">🍽 Continental</button>
-<button onclick="setFilter('Indian')">🇮🇳 Indian</button>
-<button onclick="setFilter('Mexican')">🇲🇽 Mexican</button>
-<button onclick="setFilter('Thai')">🇹🇭 Thai</button>
-<button onclick="setFilter('Italian')">🇮🇹 Italian</button>
-<button onclick="setFilter('Nepali')">🇳🇵 Nepali</button>
-</div>
-
 <input id="searchBox" placeholder="Search recipes..." />
 
-<div class="recent" id="recentBox">Recently viewed: None</div>
+<div id="filters">
+  <button onclick="setFilter('All')">🌍 All</button>
+  <button onclick="setFilter('Arabic')">🇸🇦 Arabic</button>
+</div>
 
-<div id="recipeGrid"></div>
+<div id="recipeGrid">Loading...</div>
 
 </div>
 
 <script>
-
 let recipes = [];
 let activeFilter = "All";
-let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-let recent = JSON.parse(localStorage.getItem("recent")) || [];
 
 const grid = document.getElementById("recipeGrid");
-const recentBox = document.getElementById("recentBox");
 
-/* OPEN RECIPE */
-window.openRecipe = function(id){
+/* LOAD JSON */
+fetch("data/arabic-recipes.json")
+.then(r => r.json())
+.then(data => {
+  recipes = data;
+  render(recipes);
+});
 
-recent = [id, ...recent.filter(r => r !== id)].slice(0,5);
-localStorage.setItem("recent", JSON.stringify(recent));
-
-updateRecentUI();
-
-window.location.href = "recipe.html?id=" + id;
-
-};
+/* CLICK FUNCTION */
+function openRecipe(id){
+  window.location.href = "recipe.html?id=" + id;
+}
+window.openRecipe = openRecipe;
 
 /* FILTER */
-window.setFilter = function(cat){
-activeFilter = cat;
-render();
-};
+function setFilter(cat){
+  activeFilter = cat;
+  apply();
+}
+window.setFilter = setFilter;
 
-/* FAVORITE */
-window.toggleFav = function(id){
+/* SEARCH + FILTER ENGINE */
+function apply(){
+  let list = recipes;
 
-if(favorites.includes(id)){
-favorites = favorites.filter(f => f !== id);
-}else{
-favorites.push(id);
+  if(activeFilter !== "All"){
+    list = list.filter(r => r.category === activeFilter);
+  }
+
+  const search = document.getElementById("searchBox").value.toLowerCase();
+
+  list = list.filter(r =>
+    r.title.toLowerCase().includes(search)
+  );
+
+  render(list);
 }
 
-localStorage.setItem("favorites", JSON.stringify(favorites));
-render();
-
-};
-
-/* GET LIST */
-function getList(){
-
-let list = recipes;
-
-if(activeFilter !== "All"){
-list = list.filter(r => r.category === activeFilter);
-}
-
-return list;
-}
+/* SEARCH EVENT */
+document.getElementById("searchBox").addEventListener("input", apply);
 
 /* RENDER */
-function render(){
+function render(list){
+  grid.innerHTML = "";
 
-let list = getList();
-
-grid.innerHTML = "";
-
-if(list.length === 0){
-grid.innerHTML = "No recipes found";
-return;
+  list.forEach(r => {
+    grid.innerHTML += `
+      <div class="card" onclick="openRecipe(${r.id})">
+        <h3>${r.title}</h3>
+        <div>${r.time} • ${r.difficulty}</div>
+        <div class="badge">${r.category}</div>
+      </div>
+    `;
+  });
 }
-
-list.forEach(r => {
-
-const isFav = favorites.includes(r.id);
-
-grid.innerHTML += `
-<div class="card" onclick="openRecipe(${r.id})">
-
-<img src="${r.image}">
-
-<button class="fav-btn" onclick="event.stopPropagation();toggleFav(${r.id})">
-${isFav ? "❤️" : "🤍"}
-</button>
-
-<h3>${r.title}</h3>
-
-<div class="meta">
-⏱ ${r.time} • 🔥 ${r.difficulty}
-</div>
-
-<div class="badge">${r.category}</div>
-
-</div>
-`;
-
-});
-
-}
-
-/* RECENT */
-function updateRecentUI(){
-
-if(recent.length === 0){
-recentBox.innerText = "Recently viewed: None";
-return;
-}
-
-recentBox.innerText =
-"Recently viewed: " + recent.join(", ");
-
-}
-
-/* SEARCH */
-document.getElementById("searchBox")
-.addEventListener("input", e => {
-
-const val = e.target.value.toLowerCase();
-
-let list = getList().filter(r =>
-r.title.toLowerCase().includes(val)
-);
-
-grid.innerHTML = "";
-
-list.forEach(r => {
-
-const isFav = favorites.includes(r.id);
-
-grid.innerHTML += `
-<div class="card" onclick="openRecipe(${r.id})">
-
-<img src="${r.image}">
-
-<button class="fav-btn" onclick="event.stopPropagation();toggleFav(${r.id})">
-${isFav ? "❤️" : "🤍"}
-</button>
-
-<h3>${r.title}</h3>
-
-<div class="meta">
-⏱ ${r.time} • 🔥 ${r.difficulty}
-</div>
-
-<div class="badge">${r.category}</div>
-
-</div>
-`;
-
-});
-
-});
-
-/* LOAD */
-document.addEventListener("DOMContentLoaded", async () => {
-
-try{
-
-const res = await fetch("./data/arabic-recipes.json");
-recipes = await res.json();
-
-render();
-updateRecentUI();
-
-}catch(err){
-
-grid.innerHTML = "Failed to load data";
-console.error(err);
-
-}
-
-});
-
 </script>
 
 </body>
