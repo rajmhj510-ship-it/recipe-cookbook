@@ -6,7 +6,6 @@
 <title>Recipe</title>
 
 <style>
-
 body{
 margin:0;
 font-family:Arial;
@@ -83,10 +82,6 @@ border-radius:20px;
 font-size:12px;
 }
 
-h3{
-margin-top:15px;
-}
-
 .ingredients label{
 display:flex;
 justify-content:space-between;
@@ -104,13 +99,13 @@ padding:10px;
 border-radius:8px;
 margin-bottom:8px;
 cursor:pointer;
+transition:0.2s;
 }
 
 .step.done{
 opacity:0.6;
 border-left:3px solid #00c853;
 }
-
 </style>
 </head>
 
@@ -145,14 +140,20 @@ return;
 
 try {
 
-const res = await fetch("./data/" + file);
+/* ✅ FIXED: use file directly (NO /data/ prefix) */
+const res = await fetch(file);
+
+if(!res.ok){
+throw new Error("Failed to load: " + file);
+}
+
 const recipe = await res.json();
 
 /* HERO IMAGE */
-hero.style.backgroundImage = `url('${recipe.image}')`;
+hero.style.backgroundImage = `url('${recipe.image || ""}')`;
 
 content.innerHTML = `
-<h1>${recipe.title}</h1>
+<h1>${recipe.title || ""}</h1>
 
 <div class="meta">
 <span>⏱ ${recipe.time || ""}</span>
@@ -162,7 +163,7 @@ content.innerHTML = `
 
 <h3>Ingredients</h3>
 <div class="ingredients">
-${recipe.ingredients.map(i => `
+${(recipe.ingredients || []).map(i => `
 <label>
 <span>${i}</span>
 <input type="checkbox">
@@ -172,7 +173,7 @@ ${recipe.ingredients.map(i => `
 
 <h3>Instructions</h3>
 <div class="instructions">
-${recipe.instructions.map(s => `
+${(recipe.instructions || []).map(s => `
 <div class="step" onclick="toggleStep(this)">
 ${s}
 </div>
@@ -182,7 +183,7 @@ ${s}
 
 } catch(err){
 console.error(err);
-content.innerHTML = "Failed to load recipe";
+content.innerHTML = "❌ Failed to load recipe";
 }
 
 });
