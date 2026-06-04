@@ -41,7 +41,7 @@ position:relative;
 content:"";
 position:absolute;
 inset:0;
-background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.2));
+background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.3));
 }
 
 .back{
@@ -54,6 +54,7 @@ border-radius:20px;
 background:rgba(0,0,0,0.6);
 color:#fff;
 cursor:pointer;
+z-index:2;
 }
 
 .container{
@@ -66,7 +67,10 @@ padding:15px;
 border-radius:14px;
 }
 
-h1{font-size:20px;margin-bottom:10px;}
+h1{
+font-size:20px;
+margin-bottom:10px;
+}
 
 .meta{
 display:flex;
@@ -82,6 +86,14 @@ border-radius:20px;
 font-size:12px;
 }
 
+/* INGREDIENTS */
+.group-title{
+margin-top:12px;
+margin-bottom:6px;
+font-weight:bold;
+color:#ffcc70;
+}
+
 .ingredients label{
 display:flex;
 justify-content:space-between;
@@ -93,6 +105,7 @@ margin-bottom:6px;
 font-size:13px;
 }
 
+/* STEPS */
 .instructions .step{
 background:#1b2430;
 padding:10px;
@@ -112,7 +125,7 @@ border-left:3px solid #00c853;
 <body>
 
 <header>
-<img src="./logo.png">
+<img src="./logo.png" alt="logo">
 <strong>Recipe</strong>
 </header>
 
@@ -128,29 +141,59 @@ border-left:3px solid #00c853;
 
 document.addEventListener("DOMContentLoaded", async () => {
 
-const file = new URLSearchParams(location.search).get("file");
-
 const content = document.getElementById("content");
 const hero = document.getElementById("hero");
 
+const params = new URLSearchParams(location.search);
+const file = params.get("file");
+
 if(!file){
-content.innerHTML = "Recipe not found";
+content.innerHTML = "❌ Recipe not found";
 return;
 }
 
+/* FIX PATH SAFELY */
+const cleanFile = decodeURIComponent(file)
+.replace("./data/", "data/")
+.replace("./", "");
+
 try {
 
-/* ✅ FIXED: use file directly (NO /data/ prefix) */
-const res = await fetch(file);
-
-if(!res.ok){
-throw new Error("Failed to load: " + file);
-}
+const res = await fetch(cleanFile);
+if(!res.ok) throw new Error("File not found: " + cleanFile);
 
 const recipe = await res.json();
 
 /* HERO IMAGE */
 hero.style.backgroundImage = `url('${recipe.image || ""}')`;
+
+/* INGREDIENTS (supports string OR grouped format) */
+let ingredientsHTML = "";
+
+if(Array.isArray(recipe.ingredients)) {
+
+if(typeof recipe.ingredients[0] === "string") {
+ingredientsHTML = recipe.ingredients.map(i => `
+<label>
+<span>${i}</span>
+<input type="checkbox">
+</label>
+`).join("");
+} else {
+recipe.ingredients.forEach(group => {
+ingredientsHTML += `<div class="group-title">${group.title}</div>`;
+ingredientsHTML += (group.items || []).map(i => `
+<label>
+<span>${i}</span>
+<input type="checkbox">
+</label>
+`).join("");
+});
+}
+}
+
+/* INSTRUCTIONS */
+const steps = Array.isArray(recipe.instructions) ? recipe.instructions : [];
 
 content.innerHTML = `
 <h1>${recipe.title || ""}</h1>
@@ -162,20 +205,13 @@ content.innerHTML = `
 </div>
 
 <h3>Ingredients</h3>
-<div class="ingredients">
-${(recipe.ingredients || []).map(i => `
-<label>
-<span>${i}</span>
-<input type="checkbox">
-</label>
-`).join("")}
-</div>
+<div class="ingredients">${ingredientsHTML}</div>
 
 <h3>Instructions</h3>
 <div class="instructions">
-${(recipe.instructions || []).map(s => `
+${steps.map(step => `
 <div class="step" onclick="toggleStep(this)">
-${s}
+${step}
 </div>
 `).join("")}
 </div>
@@ -183,7 +219,7 @@ ${s}
 
 } catch(err){
 console.error(err);
-content.innerHTML = "❌ Failed to load recipe";
+content.innerHTML = "❌ Failed to load recipe (check console)";
 }
 
 });
@@ -191,7 +227,6 @@ content.innerHTML = "❌ Failed to load recipe";
 function toggleStep(el){
 el.classList.toggle("done");
 }
-
 </script>
 
 </body>
