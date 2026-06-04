@@ -109,9 +109,7 @@ display:inline;
 </div>
 
 <div class="container">
-<div class="card" id="content">
-Loading...
-</div>
+<div class="card" id="content">Loading...</div>
 </div>
 
 <script>
@@ -119,9 +117,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 const id = new URLSearchParams(location.search).get("id");
 
+/* LOAD INDEX */
 const indexRes = await fetch("./data/index.json");
 const index = await indexRes.json();
 
+/* FIND META */
 const meta = index.find(r => r.id == id);
 
 if(!meta){
@@ -129,12 +129,15 @@ document.getElementById("content").innerHTML = "Recipe not found";
 return;
 }
 
+/* LOAD RECIPE FILE */
 const res = await fetch(meta.file);
 const recipe = await res.json();
 
+/* HERO IMAGE */
 document.getElementById("hero").style.backgroundImage =
 `url('${meta.image}')`;
 
+/* RENDER */
 document.getElementById("content").innerHTML = `
 <h1>${recipe.title}</h1>
 
@@ -145,30 +148,31 @@ document.getElementById("content").innerHTML = `
 </div>
 
 <h3>Ingredients</h3>
-${recipe.ingredients.map(g => `
+${recipe.ingredients.map(group => `
 <div class="group">
-<h4>${g.group}</h4>
+<h4>${group.group}</h4>
 <ul>
-${g.items.map(i => `<li>${i}</li>`).join("")}
+${group.items.map(i => `<li>${i}</li>`).join("")}
 </ul>
 </div>
 `).join("")}
 
 <h3>Instructions</h3>
 <div class="instructions">
-${recipe.instructions.map(g => `
+${recipe.instructions.map(group => `
 <div class="group">
-<h4>${g.group}</h4>
-${g.steps.map(s => `
+<h4>${group.group}</h4>
+${group.steps.map(step => `
 <div class="step" onclick="this.classList.toggle('done')">
 <span class="tick">✔</span>
-<span>${s}</span>
+<span>${step}</span>
 </div>
 `).join("")}
 </div>
 `).join("")}
 </div>
 `;
+
 });
 </script>
 
