@@ -1,61 +1,49 @@
-[
-  {
-    "id": 103,
-    "title": "Chicken Shawarma",
-    "category": "Arabic",
-    "time": "45 min",
-    "difficulty": "Medium",
-    "image": "/assets/images/arabic/chicken-shawarma.png",
+{
+  "id": 103,
+  "title": "Chicken Shawarma",
+  "category": "Arabic",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/arabic/chicken-shawarma.png",
 
-    "ingredients": [
-      "500g white fish fillets (cod, seabass, or tilapia)",
-      "1 tsp salt",
-      "1/2 tsp white pepper",
-      "1 tsp Shaoxing wine (optional)",
-      "2 tbsp cornstarch",
-      "3 tbsp vegetable oil",
+  "ingredients": [
+    "1 kg boneless chicken thighs",
+    "4 cloves garlic, minced",
+    "1 tbsp ground cumin",
+    "1 tbsp ground coriander",
+    "1 tsp ground paprika",
+    "1 tsp ground turmeric",
+    "1/2 tsp ground cinnamon",
+    "1/2 tsp ground allspice",
+    "1/4 tsp ground cardamom (optional)",
+    "1 tsp chili powder (optional)",
+    "1 tsp salt",
+    "1/2 tsp black pepper",
+    "4 tbsp plain yogurt",
+    "3 tbsp olive oil",
+    "Juice of 1 lemon",
+    "1 small onion, grated (optional)",
+    "2 tbsp vinegar (optional)",
+    "Pita bread for serving",
+    "Garlic sauce or tahini sauce",
+    "Pickles, parsley, vegetables for serving"
+  ],
 
-      "2 tbsp vegetable oil (sauce)",
-      "5–6 dried red chilies",
-      "1 tbsp Szechuan peppercorns",
-      "3 garlic cloves, minced",
-      "1-inch ginger, minced",
-      "2 scallions",
+  "steps": [
+    "Slice chicken into thin strips.",
+    "Mix garlic, spices, yogurt, oil, lemon juice, onion, and vinegar.",
+    "Add chicken and marinate for at least 4 hours or overnight.",
+    "Preheat oven to 200°C (400°F).",
+    "Bake chicken for 20–25 minutes until cooked and slightly charred.",
+    "Or cook in skillet 4–5 minutes per side until golden.",
+    "Slice and serve in pita with garlic sauce and vegetables.",
+    "Optional: broil for extra charred flavor."
+  ],
 
-      "1/4 cup chicken or fish stock",
-      "2 tbsp soy sauce",
-      "1 tbsp black vinegar",
-      "1 tbsp Doubanjiang",
-      "1 tsp sugar",
-      "1/2 tsp sesame oil",
-      "1 tsp cornstarch slurry (optional)",
-
-      "Cilantro or scallions (garnish)",
-      "Sesame seeds (optional)"
-    ],
-
-    "steps": [
-      "Pat fish dry and season with salt, pepper, and Shaoxing wine.",
-      "Coat fish lightly with cornstarch.",
-      "Pan-fry fish until golden and crisp on both sides. Set aside.",
-
-      "Heat oil in wok and fry dried chilies and Szechuan peppercorns briefly.",
-      "Add garlic and ginger and sauté until fragrant.",
-      "Add Doubanjiang and cook briefly.",
-      "Add soy sauce, vinegar, sugar, and stock. Bring to simmer.",
-      "Add scallions and cook 1–2 minutes.",
-      "Add slurry if thicker sauce is needed.",
-      "Finish with sesame oil.",
-
-      "Pour sauce over fish and garnish with cilantro or sesame seeds.",
-      "Serve with rice or vegetables."
-    ],
-
-    "chefTips": [
-      "Keep fish dry for crisp texture.",
-      "Do not burn Szechuan peppercorns.",
-      "Balance spice with sugar and vinegar.",
-      "Serve immediately for best taste."
-    ]
-  }
-]
+  "chefTips": [
+    "Use chicken thighs for juiciness.",
+    "Marinate overnight for best flavor.",
+    "High heat gives authentic shawarma char.",
+    "Garlic sauce enhances taste significantly."
+  ]
+}
