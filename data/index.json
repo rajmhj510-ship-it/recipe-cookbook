@@ -16,7 +16,7 @@
     "image": "assets/images/arabic/hummus.png",
     "time": "15 min",
     "difficulty": "Easy"
-    },
+  },
   {
     "id": 103,
     "title": "Chicken Shawarma",
@@ -34,7 +34,7 @@
     "image": "assets/images/chinese/fish-szechuan-sauce.png",
     "time": "40 min",
     "difficulty": "Medium"
-    },
+  },
   {
     "id": 202,
     "title": "Kung Pao Chicken",
@@ -43,7 +43,7 @@
     "image": "assets/images/chinese/kung-pao-chicken.png",
     "time": "40 min",
     "difficulty": "Medium"
-     },
+  },
   {
     "id": 203,
     "title": "Chili Oil",
@@ -53,7 +53,7 @@
     "time": "40 min",
     "difficulty": "Medium"
   },
-    {
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
