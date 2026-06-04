@@ -7,11 +7,7 @@
 
 <style>
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
+*{margin:0;padding:0;box-sizing:border-box;}
 
 body{
 font-family:Arial;
@@ -20,15 +16,9 @@ color:#fff;
 padding:20px;
 }
 
-.paper{
-max-width:1100px;
-margin:auto;
-}
+.paper{max-width:1100px;margin:auto;}
 
-h1{
-text-align:center;
-margin-bottom:20px;
-}
+h1{text-align:center;margin-bottom:20px;}
 
 /* FILTERS */
 #filters{
@@ -46,12 +36,9 @@ cursor:pointer;
 background:#1b2430;
 color:#fff;
 font-size:12px;
-transition:0.2s;
 }
 
-#filters button:hover{
-background:#2b6fff;
-}
+#filters button:hover{background:#2b6fff;}
 
 /* SEARCH */
 #searchBox{
@@ -61,6 +48,13 @@ border-radius:10px;
 border:none;
 outline:none;
 margin-bottom:20px;
+}
+
+/* RECENT */
+.recent{
+margin:10px 0 20px;
+font-size:12px;
+opacity:0.8;
 }
 
 /* GRID */
@@ -77,14 +71,11 @@ border-radius:14px;
 overflow:hidden;
 cursor:pointer;
 transition:0.25s;
-border:1px solid rgba(255,255,255,0.05);
 position:relative;
+border:1px solid rgba(255,255,255,0.05);
 }
 
-.card:hover{
-transform:translateY(-5px);
-background:#1b2430;
-}
+.card:hover{transform:translateY(-5px);background:#1b2430;}
 
 .card img{
 width:100%;
@@ -94,7 +85,6 @@ display:block;
 }
 
 .card h3{
-margin:0;
 padding:10px 12px 0;
 font-size:16px;
 }
@@ -115,7 +105,7 @@ background:#2b6fff;
 border-radius:20px;
 }
 
-/* ❤️ FAVORITE BUTTON */
+/* ❤️ */
 .fav-btn{
 position:absolute;
 top:10px;
@@ -127,24 +117,6 @@ font-size:16px;
 padding:6px 8px;
 border-radius:50%;
 cursor:pointer;
-transition:0.2s;
-}
-
-.fav-btn:hover{
-background:#2b6fff;
-}
-
-.loading{
-text-align:center;
-padding:30px;
-grid-column:1/-1;
-}
-
-.error{
-text-align:center;
-padding:30px;
-color:#ff6b6b;
-grid-column:1/-1;
 }
 
 </style>
@@ -166,14 +138,13 @@ grid-column:1/-1;
 <button onclick="setFilter('Thai')">🇹🇭 Thai</button>
 <button onclick="setFilter('Italian')">🇮🇹 Italian</button>
 <button onclick="setFilter('Nepali')">🇳🇵 Nepali</button>
-<button onclick="showFavorites()">❤️ Favorites</button>
 </div>
 
 <input id="searchBox" placeholder="Search recipes..." />
 
-<div id="recipeGrid">
-<div class="loading">Loading recipes...</div>
-</div>
+<div class="recent" id="recentBox">Recently viewed: None</div>
+
+<div id="recipeGrid"></div>
 
 </div>
 
@@ -182,15 +153,30 @@ grid-column:1/-1;
 let recipes = [];
 let activeFilter = "All";
 let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+let recent = JSON.parse(localStorage.getItem("recent")) || [];
 
 const grid = document.getElementById("recipeGrid");
+const recentBox = document.getElementById("recentBox");
 
 /* OPEN RECIPE */
 window.openRecipe = function(id){
+
+recent = [id, ...recent.filter(r => r !== id)].slice(0,5);
+localStorage.setItem("recent", JSON.stringify(recent));
+
+updateRecentUI();
+
 window.location.href = "recipe.html?id=" + id;
+
 };
 
-/* TOGGLE FAVORITE */
+/* FILTER */
+window.setFilter = function(cat){
+activeFilter = cat;
+render();
+};
+
+/* FAVORITE */
 window.toggleFav = function(id){
 
 if(favorites.includes(id)){
@@ -200,29 +186,14 @@ favorites.push(id);
 }
 
 localStorage.setItem("favorites", JSON.stringify(favorites));
-render(getFiltered());
+render();
+
 };
 
-/* FILTER */
-window.setFilter = function(category){
-activeFilter = category;
-render(getFiltered());
-};
-
-/* SHOW FAVORITES */
-window.showFavorites = function(){
-activeFilter = "FAV";
-render(getFiltered());
-};
-
-/* GET FILTERED DATA */
-function getFiltered(){
+/* GET LIST */
+function getList(){
 
 let list = recipes;
-
-if(activeFilter === "FAV"){
-return recipes.filter(r => favorites.includes(r.id));
-}
 
 if(activeFilter !== "All"){
 list = list.filter(r => r.category === activeFilter);
@@ -232,79 +203,113 @@ return list;
 }
 
 /* RENDER */
-function render(list){
+function render(){
+
+let list = getList();
 
 grid.innerHTML = "";
 
 if(list.length === 0){
-grid.innerHTML = "<div class='loading'>No recipes found</div>";
+grid.innerHTML = "No recipes found";
 return;
 }
 
-list.forEach(recipe => {
+list.forEach(r => {
 
-const isFav = favorites.includes(recipe.id);
+const isFav = favorites.includes(r.id);
 
 grid.innerHTML += `
-<div class="card" onclick="openRecipe(${recipe.id})">
+<div class="card" onclick="openRecipe(${r.id})">
 
-<img src="${recipe.image}" alt="${recipe.title}">
+<img src="${r.image}">
 
-<button class="fav-btn" onclick="event.stopPropagation();toggleFav(${recipe.id})">
+<button class="fav-btn" onclick="event.stopPropagation();toggleFav(${r.id})">
 ${isFav ? "❤️" : "🤍"}
 </button>
 
-<h3>${recipe.title}</h3>
+<h3>${r.title}</h3>
 
 <div class="meta">
-⏱ ${recipe.time} • 🔥 ${recipe.difficulty}
+⏱ ${r.time} • 🔥 ${r.difficulty}
 </div>
 
-<div class="badge">
-${recipe.category}
-</div>
+<div class="badge">${r.category}</div>
 
 </div>
 `;
 
 });
+
+}
+
+/* RECENT */
+function updateRecentUI(){
+
+if(recent.length === 0){
+recentBox.innerText = "Recently viewed: None";
+return;
+}
+
+recentBox.innerText =
+"Recently viewed: " + recent.join(", ");
+
 }
 
 /* SEARCH */
-document.getElementById("searchBox").addEventListener("input", function(e){
+document.getElementById("searchBox")
+.addEventListener("input", e => {
 
-const value = e.target.value.toLowerCase();
+const val = e.target.value.toLowerCase();
 
-let list = getFiltered();
-
-list = list.filter(r =>
-r.title.toLowerCase().includes(value)
+let list = getList().filter(r =>
+r.title.toLowerCase().includes(val)
 );
 
-render(list);
+grid.innerHTML = "";
+
+list.forEach(r => {
+
+const isFav = favorites.includes(r.id);
+
+grid.innerHTML += `
+<div class="card" onclick="openRecipe(${r.id})">
+
+<img src="${r.image}">
+
+<button class="fav-btn" onclick="event.stopPropagation();toggleFav(${r.id})">
+${isFav ? "❤️" : "🤍"}
+</button>
+
+<h3>${r.title}</h3>
+
+<div class="meta">
+⏱ ${r.time} • 🔥 ${r.difficulty}
+</div>
+
+<div class="badge">${r.category}</div>
+
+</div>
+`;
 
 });
 
-/* LOAD DATA */
-document.addEventListener("DOMContentLoaded", async function(){
+});
+
+/* LOAD */
+document.addEventListener("DOMContentLoaded", async () => {
 
 try{
 
 const res = await fetch("./data/arabic-recipes.json");
-
 recipes = await res.json();
 
-render(recipes);
+render();
+updateRecentUI();
 
 }catch(err){
 
+grid.innerHTML = "Failed to load data";
 console.error(err);
-
-grid.innerHTML = `
-<div class="error">
-❌ Failed to load recipes
-</div>
-`;
 
 }
 
