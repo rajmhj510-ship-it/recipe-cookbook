@@ -43,23 +43,50 @@
     "Hand-cut fries or roasted baby potatoes (optional)"
   ],
 
-  "steps": [
-    "Mix mayonnaise, cornichons, capers, shallot, herbs, lemon juice, and mustard to make tartar sauce.",
-    "Refrigerate sauce for at least 30 minutes.",
-    "Whisk flour, cornstarch, baking powder, and salt.",
-    "Add egg and cold sparkling water to form smooth batter.",
-    "Pat fish dry and season with salt and pepper.",
-    "Lightly coat fish with flour.",
-    "Heat oil to 180°C and dip fish into batter.",
-    "Deep fry for 4–6 minutes until golden and crisp.",
-    "Drain on rack or paper towels.",
-    "Serve with tartar sauce and lemon wedges."
+  "instruction": [
+    {
+      "title": "Prepare the Tartar Sauce",
+      "steps": [
+      "In a bowl, combine mayonnaise, chopped cornichons, capers, shallot, parsley, dill, lemon juice, and Dijon mustard.",
+      "Season lightly with sea salt and white pepper.",
+      "Mix until smooth and well combined. Cover and refrigerate for at least 30 minutes to let the flavors meld."
   ],
-
+       {
+      "title": "Prepare the Batter",
+      "steps": [
+      "In a chilled mixing bowl, whisk together flour, cornstarch, baking powder, and a pinch of salt.",
+      "Make a well in the center and add the egg.",
+      "Slowly whisk in the cold sparkling water (or beer) until the batter is smooth and slightly thick but still flowing.",
+      "Tip: Keep the batter cold for extra crispiness."
+        ],
+      {
+      "title": "Prepare the Fish",
+      "steps": [
+      "Pat fish fillets completely dry with paper towels.",
+      "Season lightly with salt and pepper.",
+      "Dust each fillet in a little plain flour to help the batter stick."
+         ],
+       {
+      "title": "Frying",
+      "steps": [
+      "Heat oil in a deep pan or fryer to 180°C (350°F).",
+      "Dip each fillet into the batter, allowing excess to drip off.",
+      "Gently lower into hot oil and fry for 4–6 minutes, until golden brown and crisp.",
+      "Drain on a rack or paper towels."
+        ],
+       {
+      "title": "Plating",
+      "steps": [
+      "Place fish fillet on a warm plate.",
+      "Serve with a quenelle or ramekin of tartar sauce.",
+      "Garnish with lemon wedge and microgreens/parsley.",
+      "Optional: Add crispy fries or roasted baby potatoes for a full continental-style presentation."
+        ]
+       
   "chefTips": [
-    "Keep batter ice cold for crisp texture.",
-    "Do not overcrowd fryer while cooking.",
-    "Use rack instead of paper towels for crispiness.",
-    "Add lemon zest to tartar sauce for freshness."
+    "Use sparkling water/beer ice cold—it ensures a light, airy batter.",
+    "Do not overcrowd the fryer; fry in batches for even cooking.",
+    "Rest fish on a rack instead of paper towels to keep it crisp.",
+    "For extra refinement: add a touch of finely grated lemon zest into the tartar sauce."
   ]
 }
