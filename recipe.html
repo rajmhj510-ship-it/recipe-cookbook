@@ -31,7 +31,7 @@ border-radius:8px;
 }
 
 .hero{
-height:250px;
+height:260px;
 background-size:cover;
 background-position:center;
 position:relative;
@@ -41,7 +41,7 @@ position:relative;
 content:"";
 position:absolute;
 inset:0;
-background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.3));
+background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.4));
 }
 
 .back{
@@ -125,7 +125,7 @@ border-left:3px solid #00c853;
 <body>
 
 <header>
-<img src="./logo.png" alt="logo">
+<img src="./logo.png">
 <strong>Recipe</strong>
 </header>
 
@@ -152,22 +152,34 @@ content.innerHTML = "❌ Recipe not found";
 return;
 }
 
-/* FIX PATH SAFELY */
-const cleanFile = decodeURIComponent(file)
-.replace("./data/", "data/")
-.replace("./", "");
+/* ✅ IMPORTANT FIX: normalize path for GitHub Pages */
+function normalizePath(path){
+return decodeURIComponent(path)
+.replace("./", "")
+.replace(/^\/+/, "");
+}
+
+const cleanFile = normalizePath(file);
 
 try {
 
+/* fetch correct file */
 const res = await fetch(cleanFile);
-if(!res.ok) throw new Error("File not found: " + cleanFile);
+
+if(!res.ok){
+throw new Error("Cannot load: " + cleanFile);
+}
 
 const recipe = await res.json();
 
-/* HERO IMAGE */
-hero.style.backgroundImage = `url('${recipe.image || ""}')`;
+/* HERO IMAGE FIX */
+const img = recipe.image
+? recipe.image.replace("./", "").replace(/^\/+/, "")
+: "";
 
-/* INGREDIENTS (supports string OR grouped format) */
+hero.style.backgroundImage = `url('${img}')`;
+
+/* INGREDIENTS SUPPORT (flat OR grouped) */
 let ingredientsHTML = "";
 
 if(Array.isArray(recipe.ingredients)) {
@@ -192,8 +204,14 @@ ingredientsHTML += (group.items || []).map(i => `
 }
 }
 
-/* INSTRUCTIONS */
-const steps = Array.isArray(recipe.instructions) ? recipe.instructions : [];
+/* STEPS */
+const steps = recipe.steps || recipe.instructions || [];
+
+const stepsHTML = steps.map(step => `
+<div class="step" onclick="toggleStep(this)">
+${step}
+</div>
+`).join("");
 
 content.innerHTML = `
 <h1>${recipe.title || ""}</h1>
@@ -208,18 +226,12 @@ content.innerHTML = `
 <div class="ingredients">${ingredientsHTML}</div>
 
 <h3>Instructions</h3>
-<div class="instructions">
-${steps.map(step => `
-<div class="step" onclick="toggleStep(this)">
-${step}
-</div>
-`).join("")}
-</div>
+<div class="instructions">${stepsHTML}</div>
 `;
 
 } catch(err){
 console.error(err);
-content.innerHTML = "❌ Failed to load recipe (check console)";
+content.innerHTML = "❌ Failed to load recipe (check file path)";
 }
 
 });
