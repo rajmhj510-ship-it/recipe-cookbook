@@ -105,10 +105,7 @@ border-radius:20px;
 font-size:12px;
 }
 
-/* =========================
-   INSTRUCTIONS (TICK STYLE)
-========================= */
-
+/* INSTRUCTIONS */
 .instructions .step-item{
 background:#1b2430;
 padding:12px;
@@ -148,7 +145,7 @@ display:inline-block;
 text-decoration:line-through;
 }
 
-/* BLOCK (tips etc.) */
+/* BLOCK */
 .block{
 background:#1b2430;
 padding:12px;
@@ -200,7 +197,7 @@ const hero = document.getElementById("hero");
 
 try {
 
-/* LOAD BOTH JSON FILES */
+/* LOAD DATA */
 const [arabicRes, chineseRes] = await Promise.all([
 fetch("./data/arabic-recipes.json"),
 fetch("./data/chinese-recipes.json")
@@ -216,7 +213,7 @@ const allRecipes = [...arabic, ...chinese];
 const recipe = allRecipes.find(r => r.id === id);
 
 if(!recipe){
-content.innerHTML = "<div class='loading'>Recipe not found</div>";
+content.innerHTML = '<div class="loading">Recipe not found</div>';
 return;
 }
 
@@ -267,13 +264,13 @@ ${recipe.chefTips.map(t => `
 `;
 
 } catch (err) {
-console.error(err);
-content.innerHTML = "<div class="loading">Failed to load recipe</div>";
+console.error("Recipe load error:", err);
+content.innerHTML = '<div class="loading">Failed to load recipe ❌</div>';
 }
 
 });
 
-/* MARK STEP DONE */
+/* MARK STEP */
 window.markStep = function(el){
 el.classList.add("done");
 };
