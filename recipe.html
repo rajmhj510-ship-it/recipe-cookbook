@@ -84,18 +84,20 @@ border-radius:20px;
 font-size:12px;
 }
 
-/* INGREDIENTS */
-.ingredients{
+/* INGREDIENTS (NEW LIST STYLE) */
+.ingredients ul{
+list-style:none;
+padding-left:0;
 display:flex;
-flex-wrap:wrap;
+flex-direction:column;
 gap:8px;
 }
 
-.ingredients span{
+.ingredients li{
 background:#222c3a;
-padding:6px 10px;
-border-radius:20px;
-font-size:12px;
+padding:8px 10px;
+border-radius:10px;
+font-size:13px;
 }
 
 /* INSTRUCTIONS */
@@ -125,7 +127,6 @@ font-weight:bold;
 min-width:20px;
 }
 
-/* ONLY VISUAL CHANGE */
 .step-item.done{
 opacity:0.7;
 border-left:3px solid #00c853;
@@ -141,11 +142,6 @@ background:#1b2430;
 padding:12px;
 border-radius:12px;
 margin-bottom:10px;
-}
-
-/* BUTTON (removed visually but safe leftover) */
-button.save{
-display:none;
 }
 
 /* LOADING */
@@ -211,7 +207,9 @@ content.innerHTML = `
 
 <h3>Ingredients</h3>
 <div class="ingredients">
-${(recipe.ingredients || []).map(i => `<span>${i}</span>`).join("")}
+<ul>
+${(recipe.ingredients || []).map(i => `<li>${i}</li>`).join("")}
+</ul>
 </div>
 
 <h3>Instructions</h3>
