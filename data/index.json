@@ -3,8 +3,8 @@
     "id": 101,
     "title": "Falafel",
     "category": "Arabic",
-    "file": "./data/arabic/falafel.json",
-    "image": "./assets/images/arabic/falafel.png",
+    "file": "data/arabic/falafel.json",
+    "image": "assets/images/arabic/falafel.png",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -12,8 +12,8 @@
     "id": 102,
     "title": "Hummus",
     "category": "Arabic",
-    "file": "./data/arabic/hummus.json",
-    "image": "./assets/images/arabic/hummus.png",
+    "file": "data/arabic/hummus.json",
+    "image": "assets/images/arabic/hummus.png",
     "time": "15 min",
     "difficulty": "Easy"
   },
@@ -21,8 +21,8 @@
     "id": 201,
     "title": "Szechuan Fish",
     "category": "Chinese",
-    "file": "./data/chinese/szechuan-fish.json",
-    "image": "./assets/images/chinese/fish-szechuan-sauce.png",
+    "file": "data/chinese/szechuan-fish.json",
+    "image": "assets/images/chinese/fish-szechuan-sauce.png",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -30,8 +30,8 @@
     "id": 202,
     "title": "Kung Pao Chicken",
     "category": "Chinese",
-    "file": "./data/chinese/kung-pao-chicken.json",
-    "image": "./assets/images/chinese/kung-pao-chicken.png",
+    "file": "data/chinese/kung-pao-chicken.json",
+    "image": "assets/images/chinese/kung-pao-chicken.png",
     "time": "35 min",
     "difficulty": "Medium"
   },
@@ -39,8 +39,8 @@
     "id": 203,
     "title": "Chili Oil",
     "category": "Chinese",
-    "file": "./data/chinese/chili-oil.json",
-    "image": "./assets/images/chinese/chili-oil.png",
+    "file": "data/chinese/chili-oil.json",
+    "image": "assets/images/chinese/chili-oil.png",
     "time": "20 min",
     "difficulty": "Easy"
   }
