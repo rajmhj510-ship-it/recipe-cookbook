@@ -27,27 +27,41 @@ height:40px;
 border-radius:8px;
 }
 
-/* SEARCH BAR */
-.search-box{
+.top-bar{
+display:flex;
+flex-direction:column;
+gap:10px;
 padding:10px 15px;
-background:#0f1722;
-position:sticky;
-top:0;
-z-index:10;
 }
 
-.search-box input{
-width:100%;
-padding:10px 12px;
+input{
+padding:10px;
 border-radius:8px;
 border:none;
 outline:none;
-background:#1b2430;
-color:#fff;
-font-size:14px;
 }
 
-/* GRID */
+.filters{
+display:flex;
+gap:8px;
+flex-wrap:wrap;
+}
+
+.filter-btn{
+padding:6px 12px;
+border-radius:20px;
+border:none;
+cursor:pointer;
+background:#222c3a;
+color:#fff;
+font-size:12px;
+}
+
+.filter-btn.active{
+background:#ffcc70;
+color:#000;
+}
+
 .container{
 padding:15px;
 display:grid;
@@ -92,62 +106,83 @@ opacity:0.7;
 <h2>Recipe Cookbook</h2>
 </header>
 
-<!-- SEARCH -->
-<div class="search-box">
-<input type="text" id="search" placeholder="Search recipes... (e.g. Falafel, Chinese, Chicken)">
+<div class="top-bar">
+
+<input type="text" id="search" placeholder="Search recipes...">
+
+<div class="filters" id="filters"></div>
+
 </div>
 
 <div class="container" id="list">Loading...</div>
 
 <script>
 
-let ALL_RECIPES = [];
+let allRecipes = [];
+let activeCategory = "All";
 
 document.addEventListener("DOMContentLoaded", async () => {
 
-const list = document.getElementById("list");
-const search = document.getElementById("search");
+const container = document.getElementById("list");
 
 try {
 const res = await fetch("./data/index.json");
-if(!res.ok) throw new Error("Index load failed");
+allRecipes = await res.json();
 
-ALL_RECIPES = await res.json();
+createFilters();
+render(allRecipes);
 
-render(ALL_RECIPES);
-
-/* LIVE SEARCH */
-search.addEventListener("input", (e) => {
-const value = e.target.value.toLowerCase().trim();
-
-const filtered = ALL_RECIPES.filter(r => {
-return (
-r.title.toLowerCase().includes(value) ||
-r.category.toLowerCase().includes(value)
-);
-});
-
-render(filtered);
-});
-
-} catch(err){
+} catch (err) {
 console.error(err);
-list.innerHTML = "❌ Failed to load recipes";
+container.innerHTML = "❌ Failed to load recipes";
 }
-
 });
 
-/* RENDER FUNCTION */
-function render(data){
+/* SEARCH */
+document.getElementById("search").addEventListener("input", function () {
+render(filterData());
+});
 
-const list = document.getElementById("list");
+/* CREATE FILTER BUTTONS */
+function createFilters(){
+const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
 
-if(!data.length){
-list.innerHTML = "No recipes found";
-return;
+const filters = document.getElementById("filters");
+
+filters.innerHTML = categories.map(c => `
+<button class="filter-btn ${c==="All"?"active":""}" onclick="setFilter('${c}')">
+${c}
+</button>
+`).join("");
 }
 
-list.innerHTML = data.map(r => `
+function setFilter(cat){
+activeCategory = cat;
+
+document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+event.target.classList.add("active");
+
+render(filterData());
+}
+
+/* FILTER LOGIC */
+function filterData(){
+const search = document.getElementById("search").value.toLowerCase();
+
+return allRecipes.filter(r => {
+
+const matchCategory = activeCategory === "All" || r.category === activeCategory;
+const matchSearch = r.title.toLowerCase().includes(search);
+
+return matchCategory && matchSearch;
+});
+}
+
+/* RENDER */
+function render(data){
+const container = document.getElementById("list");
+
+container.innerHTML = data.map(r => `
 <div class="card" onclick="openRecipe('${r.file}')">
 <img src="${r.image}">
 <h3>${r.title}</h3>
