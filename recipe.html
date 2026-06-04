@@ -1,143 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Recipe Details</title>
-
-<style>
-*{margin:0;padding:0;box-sizing:border-box;}
-
-body{
-font-family:Arial;
-background:#0b0f14;
-color:#fff;
-}
-
-/* HERO */
-.hero{
-height:280px;
-background-size:cover;
-background-position:center;
-position:relative;
-}
-
-.hero::after{
-content:"";
-position:absolute;
-inset:0;
-background:linear-gradient(to top,#0b0f14,transparent);
-}
-
-.back{
-position:absolute;
-top:15px;
-left:15px;
-padding:8px 12px;
-border:none;
-border-radius:20px;
-background:rgba(0,0,0,0.6);
-color:#fff;
-cursor:pointer;
-z-index:2;
-}
-
-.container{
-max-width:900px;
-margin:auto;
-padding:15px;
-margin-top:-40px;
-}
-
-.card{
-background:#151c25;
-border-radius:16px;
-padding:16px;
-}
-
-h1{margin-bottom:10px;}
-
-.meta{
-display:flex;
-gap:8px;
-flex-wrap:wrap;
-margin-bottom:12px;
-}
-
-.meta span{
-background:#222c3a;
-padding:5px 10px;
-border-radius:20px;
-font-size:12px;
-}
-
-/* INGREDIENTS */
-.group{
-margin-bottom:15px;
-}
-
-.group h3{
-margin:10px 0;
-color:#2b6fff;
-}
-
-.group ul{
-list-style:none;
-}
-
-.group li{
-padding:6px 0;
-border-bottom:1px solid rgba(255,255,255,0.05);
-}
-
-/* INSTRUCTIONS */
-.step-group{
-margin-bottom:20px;
-}
-
-.step-group h3{
-color:#2b6fff;
-margin-bottom:10px;
-}
-
-.step{
-background:#1b2430;
-padding:10px;
-border-radius:10px;
-margin-bottom:8px;
-cursor:pointer;
-transition:0.2s;
-}
-
-.step.done{
-opacity:0.6;
-border-left:3px solid #00c853;
-}
-</style>
-</head>
-
-<body>
-
-<div class="hero" id="hero">
-<button class="back" onclick="history.back()">← Back</button>
-</div>
-
-<div class="container">
-<div class="card" id="content">
-Loading recipe...
-</div>
-</div>
-
-<script>
 document.addEventListener("DOMContentLoaded", async () => {
 
 const id = Number(new URLSearchParams(location.search).get("id"));
 const content = document.getElementById("content");
 const hero = document.getElementById("hero");
 
-try{
-const res = await fetch("./data/recipes.json");
-const data = await res.json();
+try {
+
+const [a, b] = await Promise.all([
+fetch("./data/arabic-recipes.json"),
+fetch("./data/chinese-recipes.json")
+]);
+
+const data = [...await a.json(), ...await b.json()];
 
 const recipe = data.find(r => r.id === id);
 
@@ -186,11 +60,10 @@ ${recipe.tips.map(t => `<li>${t}</li>`).join("")}
 </ul>
 ` : ""}
 `;
-}catch(e){
-content.innerHTML = "Failed to load recipe";
-}
-});
-</script>
 
-</body>
-</html>
+} catch (e) {
+console.error(e);
+content.innerHTML = "Failed to load recipe ❌";
+}
+
+});
