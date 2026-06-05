@@ -61,5 +61,16 @@
     "image": "assets/images/continental/fried-fish-with-tartar-sauce.png",
     "time": "40 min",
     "difficulty": "Medium"
+    },
+  {
+    "id": 302,
+    "title": "Pancakes",
+    "category": "Continental",
+    "file": "data/continental/pancakes.json",
+    "image": "assets/images/continental/pancakes.png",
+    "time": "40 min",
+    "difficulty": "Medium",
+    "yield: 8–10 pancakes (Serves 3–4)"
+  }
   }
 ]
