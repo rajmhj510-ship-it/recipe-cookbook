@@ -122,10 +122,10 @@ font-size:12px;
 margin-top:18px;
 margin-bottom:8px;
 font-weight:bold;
-color:#ffcc70; /* MAIN */
+color:#ffcc70;
 }
 
-/* SUB SECTION TITLES */
+/* SUB TITLES */
 .section-title.sub{
 color:#7dd3fc;
 font-size:14px;
@@ -169,7 +169,7 @@ border-left:3px solid #00c853;
 
 /* CHEF TIPS */
 .chef-tips{
-list-style: disc;
+list-style:disc;
 padding-left:20px;
 margin-top:8px;
 }
@@ -254,25 +254,10 @@ try {
 const res = await fetch(file);
 const recipe = await res.json();
 
-/* HERO BACKGROUND */
-hero.style.backgroundImage = `url('${recipe.image || ""}')`;
-
-/* HERO IMAGE */
-document.getElementById("recipeImage").src = recipe.image || "";
-
-/* CHECK SUB TITLE */
-function isSubTitle(text){
-if(!text) return false;
-
-const t = text.toLowerCase();
-
-return (
-t.startsWith("for ") ||
-t.startsWith("prepare") ||
-t.startsWith("frying") ||
-t.startsWith("plating") ||
-t.startsWith("garnish")
-);
+/* HERO */
+if (recipe.image) {
+hero.style.backgroundImage = `url('${recipe.image}')`;
+document.getElementById("recipeImage").src = recipe.image;
 }
 
 /* INGREDIENTS */
@@ -292,9 +277,7 @@ if(typeof item === "object" && item !== null){
 if(item.title && Array.isArray(item.items)){
 return `
 <div>
-<div class="section-title ${isSubTitle(item.title) ? 'sub' : ''}">
-${item.title}
-</div>
+<div class="section-title sub">${item.title}</div>
 ${item.items.map(renderIngredient).join("")}
 </div>
 `;
@@ -307,6 +290,7 @@ return "";
 }
 
 let ingredientsHTML = "";
+
 if(Array.isArray(recipe.ingredients)){
 ingredientsHTML = recipe.ingredients.map(renderIngredient).join("");
 }
@@ -317,9 +301,7 @@ let stepsHTML = "";
 if(Array.isArray(recipe.instruction)){
 stepsHTML = recipe.instruction.map(section => `
 <div>
-<div class="section-title ${isSubTitle(section.title) ? 'sub' : ''}">
-${section.title}
-</div>
+<div class="section-title sub">${section.title}</div>
 ${section.steps.map(step => `
 <div class="step" onclick="toggleStep(this)">
 ${step}
