@@ -28,7 +28,6 @@ height:40px;
 border-radius:8px;
 }
 
-/* SEARCH */
 .search-box{
 width:100%;
 margin-top:10px;
@@ -44,7 +43,6 @@ background:#1b2430;
 color:#fff;
 }
 
-/* FILTER BUTTONS */
 .filters{
 display:flex;
 flex-wrap:wrap;
@@ -107,7 +105,7 @@ opacity:0.7;
 <body>
 
 <header>
-<img src="./logo.png" alt="logo">
+<img src="./logo.png">
 <h2>Recipe Cookbook</h2>
 
 <div class="search-box">
@@ -138,48 +136,43 @@ renderRecipes(allRecipes);
 document.getElementById("search").addEventListener("input", filterRecipes);
 
 } catch (err) {
-console.error(err);
 container.innerHTML = "❌ Failed to load recipes";
 }
 });
 
-/* FILTER BUTTONS */
 function renderFilters(){
 const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
 
 document.getElementById("filters").innerHTML =
 categories.map(c => `
-<button onclick="setCategory('${c}')" class="${c==='All'?'active':''}">
+<button onclick="setCategory(event, '${c}')" class="${c==='All'?'active':''}">
 ${c}
 </button>
 `).join("");
 }
 
-function setCategory(cat){
+function setCategory(e, cat){
 activeCategory = cat;
 
-document.querySelectorAll(".filters button").forEach(b => b.classList.remove("active"));
-event.target.classList.add("active");
+document.querySelectorAll(".filters button")
+.forEach(b => b.classList.remove("active"));
+
+e.target.classList.add("active");
 
 filterRecipes();
 }
 
-/* SEARCH + CATEGORY FILTER */
 function filterRecipes(){
 const search = document.getElementById("search").value.toLowerCase();
 
 let filtered = allRecipes.filter(r => {
-
-const matchCategory = activeCategory === "All" || r.category === activeCategory;
-const matchSearch = r.title.toLowerCase().includes(search);
-
-return matchCategory && matchSearch;
+return (activeCategory === "All" || r.category === activeCategory)
+&& r.title.toLowerCase().includes(search);
 });
 
 renderRecipes(filtered);
 }
 
-/* RENDER */
 function renderRecipes(list){
 const container = document.getElementById("list");
 
