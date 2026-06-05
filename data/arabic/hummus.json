@@ -3,59 +3,72 @@
     "id": 102,
     "title": "Hummus",
     "category": "Arabic",
-    "time": "45 min",
-    "difficulty": "Medium",
-    "image": "/assets/images/arabic/hummus.png",
+    "time": "",
+    "difficulty": "",
 
-    "ingredients": [
-      "500g white fish fillets (cod, seabass, or tilapia)",
-      "1 tsp salt",
-      "1/2 tsp white pepper",
-      "1 tsp Shaoxing wine (optional)",
-      "2 tbsp cornstarch",
-      "3 tbsp vegetable oil",
+  "ingredients": [
+    {
+      "title": "Ingredients (for ~6 servings)",
+      "items": [
+        "Dried chickpeas – 250 g (1 ¼ cups)",
+        "Baking soda – 1 tsp",
+        "Tahini (high-quality sesame paste) – 120 g (½ cup)",
+        "Fresh lemon juice – 80 ml (⅓ cup), strained",
+        "Garlic – 1 large clove, crushed with a pinch of salt",
+        "Ice water – 80–100 ml (⅓–½ cup), very cold",
+        "Salt – to taste",
+        "Extra virgin olive oil – for serving"
+      ]
+    },
+    {
+      "title": "Garnish (classic Arabic style)",
+      "items": [
+        "Extra virgin olive oil (fruity, rich)",
+        "Sweet paprika or Aleppo pepper",
+        "Chopped flat-leaf parsley",
+        "Optional: whole cooked chickpeas, toasted pine nuts, sumac"
+      ]
+    }
+  ],
 
-      "2 tbsp vegetable oil (sauce)",
-      "5–6 dried red chilies",
-      "1 tbsp Szechuan peppercorns",
-      "3 garlic cloves, minced",
-      "1-inch ginger, minced",
-      "2 scallions",
+  "instruction": [
+    {
+      "title": "Method (Professional Technique)",
+      "steps": [
+        "Soak the chickpeas",
+        "Rinse and soak chickpeas in plenty of cold water with ½ tsp baking soda overnight (at least 12 hours).",
+        "They should triple in size.",
+        "Cook the chickpeas",
+        "Drain and rinse. Place in a pot with fresh water and ½ tsp baking soda.",
+        "Bring to a boil, skimming off foam.",
+        "Reduce to a simmer and cook until very soft (about 1 – 1.5 hours).",
+        "Chickpeas should be almost falling apart – this creaminess is key.",
+        "Prepare garlic-lemon base",
+        "In a small bowl, mix lemon juice with crushed garlic and a pinch of salt.",
+        "Let sit 10 minutes, then strain to remove solids (for a refined flavor).",
+        "Make the tahini sauce",
+        "In a food processor, blend tahini with strained lemon juice.",
+        "Slowly drizzle in ice water while blending until light, pale, and creamy.",
+        "Blend the hummus",
+        "Add warm chickpeas and salt to the tahini mixture.",
+        "Process until completely smooth, adding a little more ice water as needed.",
+        "The texture should be airy, silky, and spreadable – not heavy.",
+        "Taste and adjust",
+        "Balance salt, lemon, and tahini.",
+        "The flavor should be nutty, tangy, and deeply savory.",
+        "Serve",
+        "Spread hummus in a shallow bowl with the back of a spoon, creating a swirl.",
+        "Drizzle generously with top-quality olive oil.",
+        "Garnish with paprika, parsley, and optional toppings (pine nuts, whole chickpeas, or sumac)."
+      ]
+    }
+  ],
 
-      "1/4 cup chicken or fish stock",
-      "2 tbsp soy sauce",
-      "1 tbsp black vinegar",
-      "1 tbsp Doubanjiang",
-      "1 tsp sugar",
-      "1/2 tsp sesame oil",
-      "1 tsp cornstarch slurry (optional)",
-
-      "Cilantro or scallions (garnish)",
-      "Sesame seeds (optional)"
-    ],
-
-    "steps": [
-      "Pat fish dry and season with salt, pepper, and Shaoxing wine.",
-      "Coat fish lightly with cornstarch.",
-      "Pan-fry fish until golden and crisp on both sides. Set aside.",
-
-      "Heat oil in wok and fry dried chilies and Szechuan peppercorns briefly.",
-      "Add garlic and ginger and sauté until fragrant.",
-      "Add Doubanjiang and cook briefly.",
-      "Add soy sauce, vinegar, sugar, and stock. Bring to simmer.",
-      "Add scallions and cook 1–2 minutes.",
-      "Add slurry if thicker sauce is needed.",
-      "Finish with sesame oil.",
-
-      "Pour sauce over fish and garnish with cilantro or sesame seeds.",
-      "Serve with rice or vegetables."
-    ],
-
-    "chefTips": [
-      "Keep fish dry for crisp texture.",
-      "Do not burn Szechuan peppercorns.",
-      "Balance spice with sugar and vinegar.",
-      "Serve immediately for best taste."
-    ]
-  }
-]
+  "chefTips": [
+    "Always use dried chickpeas (canned won’t achieve the same texture).",
+    "Ice water is the secret to extra creamy, whipped hummus.",
+    "Warm chickpeas blend more smoothly.",
+    "Quality tahini makes or breaks the recipe – choose a Lebanese, Palestinian, or Israeli brand.",
+    "Serve at room temperature, never cold from the fridge."
+  ]
+}
