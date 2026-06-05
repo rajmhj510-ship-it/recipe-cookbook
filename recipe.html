@@ -60,7 +60,7 @@ cursor:pointer;
 z-index:3;
 }
 
-/* HERO IMAGE BOX */
+/* IMAGE BOX */
 .hero-image-box{
 position:absolute;
 bottom:12px;
@@ -121,17 +121,8 @@ font-size:12px;
 .section-title{
 margin-top:18px;
 margin-bottom:8px;
+color:#ffcc70;
 font-weight:bold;
-color:#ffcc70; /* MAIN */
-}
-
-/* SUB SECTION TITLES */
-.section-title.sub{
-color:#7dd3fc;
-font-size:14px;
-font-weight:600;
-margin-top:12px;
-margin-bottom:6px;
 }
 
 /* INGREDIENTS */
@@ -181,7 +172,7 @@ line-height:1.5;
 color:#b6c2d1;
 }
 
-/* MODAL */
+/* POPUP */
 .modal{
 display:none;
 position:fixed;
@@ -257,23 +248,8 @@ const recipe = await res.json();
 /* HERO BACKGROUND */
 hero.style.backgroundImage = `url('${recipe.image || ""}')`;
 
-/* HERO IMAGE */
+/* HERO IMAGE BOX */
 document.getElementById("recipeImage").src = recipe.image || "";
-
-/* CHECK SUB TITLE */
-function isSubTitle(text){
-if(!text) return false;
-
-const t = text.toLowerCase();
-
-return (
-t.startsWith("for ") ||
-t.startsWith("prepare") ||
-t.startsWith("frying") ||
-t.startsWith("plating") ||
-t.startsWith("garnish")
-);
-}
 
 /* INGREDIENTS */
 function renderIngredient(item){
@@ -292,9 +268,7 @@ if(typeof item === "object" && item !== null){
 if(item.title && Array.isArray(item.items)){
 return `
 <div>
-<div class="section-title ${isSubTitle(item.title) ? 'sub' : ''}">
-${item.title}
-</div>
+<div class="section-title">${item.title}</div>
 ${item.items.map(renderIngredient).join("")}
 </div>
 `;
@@ -317,9 +291,7 @@ let stepsHTML = "";
 if(Array.isArray(recipe.instruction)){
 stepsHTML = recipe.instruction.map(section => `
 <div>
-<div class="section-title ${isSubTitle(section.title) ? 'sub' : ''}">
-${section.title}
-</div>
+<div class="section-title">${section.title}</div>
 ${section.steps.map(step => `
 <div class="step" onclick="toggleStep(this)">
 ${step}
