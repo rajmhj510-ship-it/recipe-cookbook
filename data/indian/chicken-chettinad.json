@@ -2,99 +2,90 @@
   "id": 401,
   "title": "Chicken Chettinad",
   "category": "Indian",
-  "time": "50 min",
+  "image": "assets/images/indian/chicken-chettinad.png",
+  "time": "1 hr",
   "difficulty": "Medium",
-  "image": "assets/images/india/chicken-chettinad.png",
+  "servings": 4,
 
   "ingredients": [
     {
-      "title": "For the Fish",
+      "title": "For Chicken Marinade:",
       "items": [
-        "White fish fillets (cod, haddock, or halibut) – 800 g (approx. 200 g each, skinless & boneless)",
-        "All-purpose flour – 100 g",
-        "Cornstarch – 50 g",
-        "Baking powder – ½ tsp",
-        "Cold sparkling water (or chilled beer for beer-batter style) – 200 ml",
-        "Egg – 1",
-        "Sea salt – to taste",
-        "Freshly ground black pepper – to taste",
-        "Oil (neutral, high smoke point: sunflower or canola) – for deep-frying"
+        "1 kg chicken (bone-in, cut into medium pieces)",
+        "½ tsp turmeric powder",
+        "1 tsp red chili powder",
+        "Salt to taste",
+        "1 tbsp lemon juice"
       ]
     },
     {
-      "title": "For the Tartar Sauce",
+      "title": "For Chettinad Masala (Spice Paste):",
       "items": [
-        "Mayonnaise – 200 g (high-quality, preferably homemade)",
-        "Cornichons (finely chopped) – 30 g",
-        "Capers (rinsed, finely chopped) – 20 g",
-        "Shallot (finely minced) – 1 small",
-        "Fresh parsley (finely chopped) – 1 tbsp",
-        "Fresh dill (finely chopped) – 1 tsp",
-        "Lemon juice – 1 tbsp",
-        "Dijon mustard – 1 tsp",
-        "Sea salt & white pepper – to taste"
+        "2 tbsp grated fresh coconut",
+        "2 tsp coriander seeds",
+        "1 tsp cumin seeds",
+        "1 tsp fennel seeds",
+        "5–6 black peppercorns",
+        "5–6 dry red chilies (adjust to taste)",
+        "2 tsp poppy seeds (optional, for richness)",
+        "3–4 cloves garlic",
+        "1-inch piece of ginger"
       ]
     },
     {
-      "title": "Garnishes & Accompaniments",
+      "title": "Other Ingredients:",
       "items": [
-        "Lemon wedges",
-        "Microgreens or parsley sprigs",
-        "Hand-cut fries or roasted baby potatoes (optional)"
+        "2 tbsp oil (preferably coconut or vegetable oil)",
+        "1 large onion, finely sliced",
+        "2 medium tomatoes, finely chopped",
+        "1 sprig curry leaves",
+        "½ tsp turmeric powder",
+        "1 cup water (or chicken stock for richer flavor)"
       ]
     }
   ],
 
   "instruction": [
     {
-      "title": "Prepare the Tartar Sauce",
+      "title": "Marinate the Chicken",
       "steps": [
-        "In a bowl, combine mayonnaise, chopped cornichons, capers, shallot, parsley, dill, lemon juice, and Dijon mustard.",
-        "Season lightly with sea salt and white pepper.",
-        "Mix until smooth and well combined. Cover and refrigerate for at least 30 minutes to let the flavors meld."
+        "Mix chicken with turmeric, red chili powder, salt, and lemon juice.",
+        "Keep aside for 20–30 minutes."
       ]
     },
     {
-      "title": "Prepare the Batter",
+      "title": "Prepare the Chettinad Masala",
       "steps": [
-        "In a chilled mixing bowl, whisk together flour, cornstarch, baking powder, and a pinch of salt.",
-        "Make a well in the center and add the egg.",
-        "Slowly whisk in the cold sparkling water (or beer) until the batter is smooth and slightly thick but still flowing.",
-        "Tip: Keep the batter cold for extra crispiness."
+        "Dry roast coriander seeds, cumin seeds, fennel seeds, peppercorns, and dry red chilies until aromatic (2–3 minutes).",
+        "Add grated coconut and roast for 1–2 minutes until golden.",
+        "Let cool slightly, then grind with garlic and ginger into a smooth paste (use little water if necessary)."
       ]
     },
     {
-      "title": "Prepare the Fish",
+      "title": "Cook the Chicken",
       "steps": [
-        "Pat fish fillets completely dry with paper towels.",
-        "Season lightly with salt and pepper.",
-        "Dust each fillet in a little plain flour to help the batter stick."
+        "Heat oil in a heavy-bottomed pan. Add curry leaves and sliced onions; sauté until golden brown.",
+        "Add the tomato and cook until soft and oil separates.",
+        "Add turmeric powder and the prepared Chettinad masala; sauté for 2–3 minutes until fragrant.",
+        "Add marinated chicken and mix well to coat with the masala.",
+        "Pour in water (or stock), bring to a boil, then reduce heat and simmer for 20–25 minutes, stirring occasionally.",
+        "Adjust salt and chili as needed; cook until chicken is tender and sauce thickens to a rich consistency."
       ]
     },
     {
-      "title": "Frying",
+      "title": "Garnish and Serve",
       "steps": [
-        "Heat oil in a deep pan or fryer to 180°C (350°F).",
-        "Dip each fillet into the batter, allowing excess to drip off.",
-        "Gently lower into hot oil and fry for 4–6 minutes, until golden brown and crisp.",
-        "Drain on a rack or paper towels."
-      ]
-    },
-    {
-      "title": "Plating",
-      "steps": [
-        "Place fish fillet on a warm plate.",
-        "Serve with a quenelle or ramekin of tartar sauce.",
-        "Garnish with lemon wedge and microgreens/parsley.",
-        "Optional: Add crispy fries or roasted baby potatoes for a full continental-style presentation."
+        "Garnish with fresh coriander leaves.",
+        "Serve hot with steamed rice, idiyappam, or paratha."
       ]
     }
   ],
 
   "chefTips": [
-    "Use sparkling water/beer ice cold—it ensures a light, airy batter.",
-    "Do not overcrowd the fryer; fry in batches for even cooking.",
-    "Rest fish on a rack instead of paper towels to keep it crisp.",
-    "For extra refinement: add a touch of finely grated lemon zest into the tartar sauce."
+    "Freshly roasted spices make a huge difference; avoid using pre-ground powders for authenticity.",
+    "Bone-in chicken absorbs flavors better and makes the curry richer.",
+    "Use coconut oil for that authentic South Indian aroma, but you can substitute with vegetable oil if unavailable.",
+    "Let the curry rest for 10 minutes before serving to deepen the flavors.",
+    "Fresh coriander leaves, chopped (for garnish)"
   ]
 }
