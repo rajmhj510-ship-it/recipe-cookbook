@@ -79,5 +79,14 @@
     "image": "assets/images/indian/chicken-chettinad.png",
     "time": "40 min",
     "difficulty": "Medium"
+      },
+  {
+    "id": 501,
+    "title": "Chicken Cacciatore",
+    "category": "Italian",
+    "file": "data/italian/chicken-cacciatore.json",
+    "image": "assets/images/italian/chicken-cacciatore.png",
+    "time": "80 min",
+    "difficulty": "Medium"
   }
 ]
