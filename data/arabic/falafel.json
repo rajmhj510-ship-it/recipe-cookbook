@@ -4,6 +4,7 @@
   "category": "Arabic",
   "time": "",
   "difficulty": "",
+  "image": "assets/images/arabic/falafel.png",
 
   "ingredients": [
     {
@@ -31,22 +32,32 @@
 
   "instruction": [
     {
-      "title": "Preparation Steps",
+      "title": "Soak Chickpeas",
       "steps": [
-        "Soak Chickpeas",
         "Wash and soak dry chickpeas in plenty of cold water overnight.",
-        "Do not cook them – authentic falafel uses raw soaked chickpeas.",
-        "Prepare the Mixture",
+        "Do not cook them – authentic falafel uses raw soaked chickpeas."
+      ]
+    },
+    {
+      "title": "Prepare the Mixture",
+      "steps": [
         "Drain chickpeas very well.",
-        "In a food processor, add:",
-        "Chickpeas, onion, garlic, parsley, cilantro, dill, and sesame seeds.",
+        "In a food processor, add: Chickpeas, onion, garlic, parsley, cilantro, dill, and sesame seeds.",
         "Pulse until mixture is fine and grainy (like couscous), not a paste.",
         "Add cumin, coriander, black pepper, Aleppo pepper, and salt.",
-        "Chill mixture in the fridge for at least 30 minutes (firms up texture).",
-        "Form Falafel Balls",
+        "Chill mixture in the fridge for at least 30 minutes (firms up texture)."
+      ]
+    },
+    {
+      "title": "Form Falafel Balls",
+      "steps": [
         "Just before frying, dissolve 1 tsp baking soda in 2 tsp cold water and mix into falafel dough.",
-        "Form balls (35–40 g each, about golf-ball size) or patties using a falafel scoop or wet hands.",
-        "Fry",
+        "Form balls (35–40 g each, about golf-ball size) or patties using a falafel scoop or wet hands."
+      ]
+    },
+    {
+      "title": "Fry",
+      "steps": [
         "Heat oil to 170–180°C (340–355°F) in a deep fryer or deep pot.",
         "Fry in small batches until deep golden brown and crisp (3–4 minutes).",
         "Drain on paper towels."
