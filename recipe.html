@@ -30,6 +30,7 @@ height:35px;
 border-radius:8px;
 }
 
+/* HERO */
 .hero{
 height:250px;
 background-size:cover;
@@ -57,6 +58,7 @@ cursor:pointer;
 z-index:2;
 }
 
+/* LAYOUT */
 .container{
 padding:15px;
 }
@@ -72,6 +74,7 @@ font-size:20px;
 margin-bottom:10px;
 }
 
+/* META */
 .meta{
 display:flex;
 flex-wrap:wrap;
@@ -86,11 +89,11 @@ border-radius:20px;
 font-size:12px;
 }
 
-.group-title{
-margin-top:15px;
-margin-bottom:6px;
-font-weight:bold;
+.section-title{
+margin-top:18px;
+margin-bottom:8px;
 color:#ffcc70;
+font-weight:bold;
 }
 
 /* INGREDIENTS */
@@ -120,7 +123,7 @@ opacity:0.6;
 border-left:3px solid #00c853;
 }
 
-/* CHEF TIPS (FIXED - NO BOX BACKGROUND) */
+/* CHEF TIPS (NO BOX BACKGROUND) */
 .chef-tips{
 list-style: disc;
 padding-left:20px;
@@ -134,12 +137,54 @@ line-height:1.5;
 color:#ddd;
 }
 
-.section-title{
-margin-top:18px;
-margin-bottom:8px;
-color:#ffcc70;
-font-weight:bold;
+/* IMAGE BOX */
+.image-box{
+margin-top:10px;
+border-radius:12px;
+overflow:hidden;
+cursor:pointer;
+border:1px solid #222c3a;
 }
+
+.image-box img{
+width:100%;
+height:220px;
+object-fit:cover;
+display:block;
+transition:0.3s;
+}
+
+.image-box:hover img{
+transform:scale(1.05);
+}
+
+/* POPUP */
+.modal{
+display:none;
+position:fixed;
+inset:0;
+background:rgba(0,0,0,0.9);
+justify-content:center;
+align-items:center;
+z-index:999;
+flex-direction:column;
+}
+
+.modal img{
+max-width:90%;
+max-height:80%;
+border-radius:10px;
+}
+
+.modal .close{
+position:absolute;
+top:20px;
+right:20px;
+font-size:30px;
+cursor:pointer;
+color:#fff;
+}
+
 </style>
 </head>
 
@@ -156,6 +201,12 @@ font-weight:bold;
 
 <div class="container">
 <div class="card" id="content">Loading...</div>
+</div>
+
+<!-- IMAGE POPUP -->
+<div id="imgModal" class="modal" onclick="closeImage()">
+<span class="close">&times;</span>
+<img id="modalImg">
 </div>
 
 <script>
@@ -176,7 +227,7 @@ try {
 const res = await fetch(file);
 const recipe = await res.json();
 
-/* HERO */
+/* HERO + IMAGE */
 hero.style.backgroundImage = `url('${recipe.image || ""}')`;
 
 /* INGREDIENTS */
@@ -196,7 +247,7 @@ if(typeof item === "object" && item !== null){
 if(item.title && Array.isArray(item.items)){
 return `
 <div>
-<div class="group-title">${item.title}</div>
+<div class="section-title">${item.title}</div>
 ${item.items.map(renderIngredient).join("")}
 </div>
 `;
@@ -219,7 +270,7 @@ let stepsHTML = "";
 if(Array.isArray(recipe.instruction)){
 stepsHTML = recipe.instruction.map(section => `
 <div>
-<div class="group-title">${section.title}</div>
+<div class="section-title">${section.title}</div>
 ${section.steps.map(step => `
 <div class="step" onclick="toggleStep(this)">
 ${step}
@@ -229,7 +280,7 @@ ${step}
 `).join("");
 }
 
-/* CHEF TIPS - CLEAN BULLETS ONLY */
+/* CHEF TIPS */
 let tipsHTML = "";
 
 if(Array.isArray(recipe.chefTips)){
@@ -250,6 +301,11 @@ content.innerHTML = `
 <span>🍽 ${recipe.category || ""}</span>
 </div>
 
+<h3 class="section-title">Image</h3>
+<div class="image-box" onclick="openImage()">
+<img id="recipeImage" src="${recipe.image || ""}">
+</div>
+
 <h3 class="section-title">Ingredients</h3>
 <div class="ingredients">${ingredientsHTML}</div>
 
@@ -266,8 +322,20 @@ content.innerHTML = "Failed to load recipe";
 
 });
 
+/* STEP TOGGLE */
 function toggleStep(el){
 el.classList.toggle("done");
+}
+
+/* IMAGE POPUP */
+function openImage(){
+const img = document.getElementById("recipeImage").src;
+document.getElementById("modalImg").src = img;
+document.getElementById("imgModal").style.display = "flex";
+}
+
+function closeImage(){
+document.getElementById("imgModal").style.display = "none";
 }
 
 </script>
