@@ -1,13 +1,13 @@
 {
-    "id": 102,
-    "title": "Hummus",
-    "category": "Arabic",
-    "time": "",
-    "difficulty": "",
+  "id": 102,
+  "title": "Hummus",
+  "category": "Arabic",
+  "time": "",
+  "difficulty": "",
 
   "ingredients": [
     {
-      "title": "Ingredients (for ~6 servings)",
+      "title": "Ingredients (for 6 servings)",
       "items": [
         "Dried chickpeas – 250 g (1 ¼ cups)",
         "Baking soda – 1 tsp",
@@ -32,30 +32,53 @@
 
   "instruction": [
     {
-      "title": "Method (Professional Technique)",
+      "title": "Soak the chickpeas",
       "steps": [
-        "Soak the chickpeas",
         "Rinse and soak chickpeas in plenty of cold water with ½ tsp baking soda overnight (at least 12 hours).",
-        "They should triple in size.",
-        "Cook the chickpeas",
+        "They should triple in size."
+      ]
+    },
+    {
+      "title": "Cook the chickpeas",
+      "steps": [
         "Drain and rinse. Place in a pot with fresh water and ½ tsp baking soda.",
         "Bring to a boil, skimming off foam.",
         "Reduce to a simmer and cook until very soft (about 1 – 1.5 hours).",
-        "Chickpeas should be almost falling apart – this creaminess is key.",
-        "Prepare garlic-lemon base",
+        "Chickpeas should be almost falling apart – this creaminess is key."
+      ]
+    },
+    {
+      "title": "Prepare garlic-lemon base",
+      "steps": [
         "In a small bowl, mix lemon juice with crushed garlic and a pinch of salt.",
-        "Let sit 10 minutes, then strain to remove solids (for a refined flavor).",
-        "Make the tahini sauce",
+        "Let sit 10 minutes, then strain to remove solids (for a refined flavor)."
+      ]
+    },
+    {
+      "title": "Make the tahini sauce",
+      "steps": [
         "In a food processor, blend tahini with strained lemon juice.",
-        "Slowly drizzle in ice water while blending until light, pale, and creamy.",
-        "Blend the hummus",
+        "Slowly drizzle in ice water while blending until light, pale, and creamy."
+      ]
+    },
+    {
+      "title": "Blend the hummus",
+      "steps": [
         "Add warm chickpeas and salt to the tahini mixture.",
         "Process until completely smooth, adding a little more ice water as needed.",
-        "The texture should be airy, silky, and spreadable – not heavy.",
-        "Taste and adjust",
+        "The texture should be airy, silky, and spreadable – not heavy."
+      ]
+    },
+    {
+      "title": "Taste and adjust",
+      "steps": [
         "Balance salt, lemon, and tahini.",
-        "The flavor should be nutty, tangy, and deeply savory.",
-        "Serve",
+        "The flavor should be nutty, tangy, and deeply savory."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
         "Spread hummus in a shallow bowl with the back of a spoon, creating a swirl.",
         "Drizzle generously with top-quality olive oil.",
         "Garnish with paprika, parsley, and optional toppings (pine nuts, whole chickpeas, or sumac)."
