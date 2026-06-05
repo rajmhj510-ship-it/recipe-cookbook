@@ -4,7 +4,11 @@
   "category": "Continental",
   "time": "50 min",
   "difficulty": "Medium",
-  "image": "assets/images/continental/fried-fish-with-tartar-sauce.png",
+"images": [
+  "assets/images/continental/fried-fish-with-tartar-sauce.png",
+  "assets/images/continental/fried-fish-with-tartar-sauce-1.png",
+  "assets/images/continental/fried-fish-with-tartar-sauce-2.png"
+]
 
   "ingredients": [
     {
