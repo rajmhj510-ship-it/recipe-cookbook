@@ -33,10 +33,10 @@ border-radius:8px;
 
 /* HERO */
 .hero{
-height:250px;
-background-size:cover;
-background-position:center;
+height:260px;
 position:relative;
+overflow:hidden;
+background:#000;
 }
 
 .hero::after{
@@ -44,9 +44,10 @@ content:"";
 position:absolute;
 inset:0;
 background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.3));
+pointer-events:none;
 }
 
-/* BACK BUTTON */
+/* BACK */
 .back{
 position:absolute;
 top:12px;
@@ -57,33 +58,47 @@ border-radius:20px;
 background:rgba(0,0,0,0.6);
 color:#fff;
 cursor:pointer;
-z-index:3;
+z-index:5;
 }
 
-/* HERO IMAGE BOX */
-.hero-image-box{
-position:absolute;
-bottom:12px;
-right:12px;
-width:110px;
-height:80px;
-border-radius:10px;
-overflow:hidden;
-cursor:pointer;
-border:2px solid #fff;
-z-index:3;
-box-shadow:0 4px 10px rgba(0,0,0,0.4);
+/* SWIPE CONTAINER */
+.slider{
+display:flex;
+height:100%;
+transition:transform 0.3s ease;
 }
 
-.hero-image-box img{
+.slide{
+min-width:100%;
+height:260px;
+}
+
+.slide img{
 width:100%;
 height:100%;
 object-fit:cover;
-transition:0.3s;
 }
 
-.hero-image-box:hover img{
-transform:scale(1.05);
+/* DOTS */
+.dots{
+position:absolute;
+bottom:10px;
+left:50%;
+transform:translateX(-50%);
+display:flex;
+gap:6px;
+z-index:5;
+}
+
+.dot{
+width:8px;
+height:8px;
+border-radius:50%;
+background:#666;
+}
+
+.dot.active{
+background:#fff;
 }
 
 /* CONTENT */
@@ -97,69 +112,38 @@ padding:15px;
 border-radius:14px;
 }
 
-h1{
-font-size:20px;
-margin-bottom:10px;
-}
-
-/* META */
-.meta{
-display:flex;
-flex-wrap:wrap;
-gap:8px;
-margin-bottom:10px;
-}
-
-.meta span{
-background:#222c3a;
-padding:5px 10px;
-border-radius:20px;
-font-size:12px;
-}
-
-/* SECTION TITLES */
+/* TITLES */
 .section-title{
 margin-top:18px;
 margin-bottom:8px;
+color:#ffcc70;
 font-weight:bold;
-color:#ffcc70; /* MAIN */
 }
 
-/* SUB SECTION TITLES */
 .section-title.sub{
 color:#7dd3fc;
 font-size:14px;
-font-weight:600;
-margin-top:12px;
-margin-bottom:6px;
 }
 
 /* INGREDIENTS */
 .ingredients label{
 display:flex;
 justify-content:space-between;
-align-items:center;
 padding:8px;
 background:#1b2430;
 border-radius:8px;
 margin-bottom:6px;
-font-size:13px;
 color:#cbd5e1;
 }
 
-/* INSTRUCTIONS */
+/* STEPS */
 .instructions .step{
 background:#1b2430;
 padding:10px;
 border-radius:8px;
 margin-bottom:8px;
 cursor:pointer;
-transition:0.2s;
 color:#cbd5e1;
-}
-
-.instructions .step:hover{
-background:#243041;
 }
 
 .step.done{
@@ -169,16 +153,14 @@ border-left:3px solid #00c853;
 
 /* CHEF TIPS */
 .chef-tips{
-list-style: disc;
+list-style:disc;
 padding-left:20px;
-margin-top:8px;
 }
 
 .chef-tips li{
+color:#b6c2d1;
 margin-bottom:6px;
 font-size:13px;
-line-height:1.5;
-color:#b6c2d1;
 }
 
 /* MODAL */
@@ -186,16 +168,16 @@ color:#b6c2d1;
 display:none;
 position:fixed;
 inset:0;
-background:rgba(0,0,0,0.9);
+background:rgba(0,0,0,0.95);
 justify-content:center;
 align-items:center;
 z-index:999;
+flex-direction:column;
 }
 
 .modal img{
 max-width:90%;
 max-height:80%;
-border-radius:10px;
 }
 
 .modal .close{
@@ -203,8 +185,8 @@ position:absolute;
 top:20px;
 right:20px;
 font-size:30px;
-cursor:pointer;
 color:#fff;
+cursor:pointer;
 }
 </style>
 </head>
@@ -216,13 +198,13 @@ color:#fff;
 <strong>Recipe</strong>
 </header>
 
-<div class="hero" id="hero">
+<div class="hero">
 
 <button class="back" onclick="history.back()">← Back</button>
 
-<div class="hero-image-box" onclick="openImage()">
-<img id="recipeImage" src="">
-</div>
+<div class="slider" id="slider"></div>
+
+<div class="dots" id="dots"></div>
 
 </div>
 
@@ -230,156 +212,127 @@ color:#fff;
 <div class="card" id="content">Loading...</div>
 </div>
 
-<!-- IMAGE MODAL -->
-<div id="imgModal" class="modal" onclick="closeImage()">
+<!-- MODAL -->
+<div class="modal" id="modal" onclick="closeModal()">
 <span class="close">&times;</span>
 <img id="modalImg">
 </div>
 
 <script>
 
+let currentIndex = 0;
+let images = [];
+
 document.addEventListener("DOMContentLoaded", async () => {
 
 const file = new URLSearchParams(location.search).get("file");
-const content = document.getElementById("content");
-const hero = document.getElementById("hero");
-
-if (!file) {
-content.innerHTML = "Recipe not found";
-return;
-}
-
-try {
-
 const res = await fetch(file);
 const recipe = await res.json();
 
-/* HERO BACKGROUND */
-hero.style.backgroundImage = `url('${recipe.image || ""}')`;
+/* IMAGES */
+images = recipe.images || [recipe.image];
 
-/* HERO IMAGE */
-document.getElementById("recipeImage").src = recipe.image || "";
-
-/* CHECK SUB TITLE */
-function isSubTitle(text){
-if(!text) return false;
-
-const t = text.toLowerCase();
-
-return (
-t.startsWith("for ") ||
-t.startsWith("prepare") ||
-t.startsWith("frying") ||
-t.startsWith("plating") ||
-t.startsWith("garnish")
-);
-}
-
-/* INGREDIENTS */
-function renderIngredient(item){
-
-if(typeof item === "string"){
-return `
-<label>
-<span>${item}</span>
-<input type="checkbox">
-</label>
-`;
-}
-
-if(typeof item === "object" && item !== null){
-
-if(item.title && Array.isArray(item.items)){
-return `
-<div>
-<div class="section-title ${isSubTitle(item.title) ? 'sub' : ''}">
-${item.title}
-</div>
-${item.items.map(renderIngredient).join("")}
-</div>
-`;
-}
-
-return `<label><span>${JSON.stringify(item)}</span></label>`;
-}
-
-return "";
-}
-
-let ingredientsHTML = "";
-if(Array.isArray(recipe.ingredients)){
-ingredientsHTML = recipe.ingredients.map(renderIngredient).join("");
-}
-
-/* INSTRUCTIONS */
-let stepsHTML = "";
-
-if(Array.isArray(recipe.instruction)){
-stepsHTML = recipe.instruction.map(section => `
-<div>
-<div class="section-title ${isSubTitle(section.title) ? 'sub' : ''}">
-${section.title}
-</div>
-${section.steps.map(step => `
-<div class="step" onclick="toggleStep(this)">
-${step}
-</div>
-`).join("")}
-</div>
-`).join("");
-}
-
-/* CHEF TIPS */
-let tipsHTML = "";
-
-if(Array.isArray(recipe.chefTips)){
-tipsHTML = `
-<ul class="chef-tips">
-${recipe.chefTips.map(t => `<li>${t}</li>`).join("")}
-</ul>
-`;
-}
-
-/* FINAL UI */
-content.innerHTML = `
-<h1>${recipe.title || ""}</h1>
-
-<div class="meta">
-<span>⏱ ${recipe.time || ""}</span>
-<span>🔥 ${recipe.difficulty || ""}</span>
-<span>🍽 ${recipe.category || ""}</span>
-</div>
-
-<h3 class="section-title">Ingredients</h3>
-<div class="ingredients">${ingredientsHTML}</div>
-
-<h3 class="section-title">Instructions</h3>
-<div class="instructions">${stepsHTML}</div>
-
-<h3 class="section-title">Chef Tips</h3>
-<div>${tipsHTML}</div>
-`;
-
-} catch(err){
-content.innerHTML = "Failed to load recipe";
-}
+renderSlider();
+renderContent(recipe);
 
 });
 
-/* STEP TOGGLE */
-function toggleStep(el){
-el.classList.toggle("done");
+/* SLIDER */
+function renderSlider(){
+const slider = document.getElementById("slider");
+const dots = document.getElementById("dots");
+
+slider.innerHTML = images.map(img => `
+<div class="slide" onclick="openModal()">
+<img src="${img}">
+</div>
+`).join("");
+
+dots.innerHTML = images.map((_,i)=>`
+<div class="dot ${i===0?'active':''}"></div>
+`).join("");
+
+// swipe support
+let startX = 0;
+
+slider.addEventListener("touchstart", e=>{
+startX = e.touches[0].clientX;
+});
+
+slider.addEventListener("touchend", e=>{
+let endX = e.changedTouches[0].clientX;
+
+if(startX - endX > 50){
+nextSlide();
+}
+if(endX - startX > 50){
+prevSlide();
+}
+});
 }
 
-/* IMAGE POPUP */
-function openImage(){
-const img = document.getElementById("recipeImage").src;
-document.getElementById("modalImg").src = img;
-document.getElementById("imgModal").style.display = "flex";
+function updateSlider(){
+document.getElementById("slider").style.transform = `translateX(-${currentIndex*100}%)`;
+
+document.querySelectorAll(".dot").forEach((d,i)=>{
+d.classList.toggle("active", i===currentIndex);
+});
 }
 
-function closeImage(){
-document.getElementById("imgModal").style.display = "none";
+function nextSlide(){
+if(currentIndex < images.length - 1){
+currentIndex++;
+updateSlider();
+}
+}
+
+function prevSlide(){
+if(currentIndex > 0){
+currentIndex--;
+updateSlider();
+}
+}
+
+/* MODAL */
+function openModal(){
+document.getElementById("modalImg").src = images[currentIndex];
+document.getElementById("modal").style.display = "flex";
+}
+
+function closeModal(){
+document.getElementById("modal").style.display = "none";
+}
+
+/* CONTENT (simple reuse from your previous logic) */
+function renderContent(recipe){
+
+document.getElementById("content").innerHTML = `
+<h1>${recipe.title}</h1>
+
+<div class="meta">
+<span>⏱ ${recipe.time}</span>
+<span>🔥 ${recipe.difficulty}</span>
+<span>🍽 ${recipe.category}</span>
+</div>
+
+<h3 class="section-title">Ingredients</h3>
+<div class="ingredients">
+${recipe.ingredients?.map(g=>g.items?.map(i=>`<label>${i}</label>`).join("")).join("")}
+</div>
+
+<h3 class="section-title">Instructions</h3>
+<div class="instructions">
+${recipe.instruction?.map(s=>`
+<div class="step">${s.title}</div>
+${s.steps.map(st=>`<div class="step">${st}</div>`).join("")}
+`).join("")}
+</div>
+
+<h3 class="section-title">Chef Tips</h3>
+<ul class="chef-tips">
+${recipe.chefTips?.map(t=>`<li>${t}</li>`).join("")}
+</ul>
+`;
 }
 
 </script>
