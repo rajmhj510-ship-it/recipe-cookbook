@@ -1,1 +1,85 @@
+{
+  "id": 301,
+  "title": "Pancakes",
+  "category": "Continental",
+  "time": "50 min",
+  "difficulty": "Medium",
+  "yield": "8–10 pancakes (Serves 3–4)",
+  "image": "assets/images/continental/pancakes.png",
 
+  "ingredients": [
+    {
+      "title": "For the Fish",
+      "items": [
+        "200 g (1 ½ cups) all-purpose flour, sifted",
+        "2 tbsp granulated sugar",
+        "1 ½ tsp baking powder",
+        "½ tsp baking soda",
+        "½ tsp fine sea salt",
+        "300 ml (1 ¼ cups) buttermilk, room temperature",
+        "2 large eggs, room temperature",
+        "50 g (¼ cup) unsalted butter, melted and slightly cooled",
+        "1 tsp pure vanilla extract",
+        "Neutral oil or clarified butter, for cooking"
+      ]
+    },
+        {
+      "title": "Garnishes (Restaurant Style)",
+      "items": [
+        "Pure maple syrup (warm)",
+        "Fresh berries (blueberries, strawberries, raspberries)",
+        "Whipped cream or mascarpone",
+        "Light dusting of powdered sugar",
+        "Optional: candied nuts or a drizzle of fruit coulis for plating"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Dry Mix",
+      "steps": [
+        "In a large bowl, whisk together flour, sugar, baking powder, baking soda, and salt until evenly combined.",
+        "Sifting ensures lightness and prevents lumps."
+      ]
+    },
+    {
+      "title": "Wet Mix",
+      "steps": [
+        "In a separate bowl, whisk together buttermilk, eggs, melted butter, and vanilla until smooth."
+      ]
+    },
+    {
+      "title": "Combine",
+      "steps": [
+        "Gently pour the wet ingredients into the dry.",
+        "Use a spatula to fold just until combined — do not overmix. A few small lumps are ideal for fluffy pancakes.",
+        "Rest the batter for 5–10 minutes (helps gluten relax and makes pancakes tender)."
+      ] 
+    },
+    {
+      "title": "Cooking",
+      "steps": [
+        "Heat a nonstick pan or griddle over medium heat; lightly grease with neutral oil or clarified butter.",
+        "Pour about ¼ cup batter per pancake.",
+        "Cook until bubbles form on the surface and edges look set (2–3 minutes). Flip and cook another 1–2 minutes until golden brown.",
+        "Keep warm on a tray in a 90°C (200°F) oven if making multiple batches."
+      ]
+    },
+    {
+      "title": "Plating (Restaurant Quality)",
+      "steps": [
+        "Stack 3 pancakes neatly in the center of a warmed plate.",
+        "Drizzle with warm maple syrup in a slow ribbon pour.",
+        "Garnish with a quenelle of whipped cream or mascarpone on the side.",
+        "Add a cluster of fresh berries for color contrast.",
+        "Lightly dust with powdered sugar for elegance.",
+        "For fine dining presentation: add a swipe of berry coulis or a few candied nuts."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "For extra fluffiness, separate the eggs — whisk the egg whites to soft peaks and fold gently into the batter at the end. This creates an airy, soufflé-like texture perfect for high-end service."
+  ]
+}
