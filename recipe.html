@@ -93,6 +93,7 @@ font-weight:bold;
 color:#ffcc70;
 }
 
+/* INGREDIENTS */
 .ingredients label{
 display:flex;
 justify-content:space-between;
@@ -104,6 +105,7 @@ margin-bottom:6px;
 font-size:13px;
 }
 
+/* STEPS */
 .instructions .step{
 background:#1b2430;
 padding:10px;
@@ -116,6 +118,22 @@ transition:0.2s;
 .step.done{
 opacity:0.6;
 border-left:3px solid #00c853;
+}
+
+/* CHEF TIPS */
+.chef-tips{
+list-style: disc;
+padding-left:20px;
+margin-top:8px;
+}
+
+.chef-tips li{
+background:#1b2430;
+padding:10px;
+border-radius:8px;
+margin-bottom:6px;
+font-size:13px;
+line-height:1.4;
 }
 
 .section-title{
@@ -158,8 +176,6 @@ return;
 try {
 
 const res = await fetch(file);
-if (!res.ok) throw new Error("Cannot load file");
-
 const recipe = await res.json();
 
 /* HERO */
@@ -199,7 +215,7 @@ if(Array.isArray(recipe.ingredients)){
 ingredientsHTML = recipe.ingredients.map(renderIngredient).join("");
 }
 
-/* INSTRUCTIONS (FIXED) */
+/* INSTRUCTIONS */
 let stepsHTML = "";
 
 if(Array.isArray(recipe.instruction)){
@@ -215,13 +231,15 @@ ${step}
 `).join("");
 }
 
-/* CHEF TIPS */
+/* CHEF TIPS (FIXED) */
 let tipsHTML = "";
 
 if(Array.isArray(recipe.chefTips)){
-tipsHTML = recipe.chefTips.map(t => `
-<div class="step">${t}</div>
-`).join("");
+tipsHTML = `
+<ul class="chef-tips">
+${recipe.chefTips.map(t => `<li>${t}</li>`).join("")}
+</ul>
+`;
 }
 
 /* FINAL UI */
@@ -245,7 +263,6 @@ content.innerHTML = `
 `;
 
 } catch(err){
-console.error(err);
 content.innerHTML = "Failed to load recipe";
 }
 
