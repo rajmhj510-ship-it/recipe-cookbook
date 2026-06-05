@@ -2,48 +2,90 @@
   "id": 103,
   "title": "Chicken Shawarma",
   "category": "Arabic",
-  "time": "45 min",
-  "difficulty": "Medium",
-  "image": "assets/images/arabic/chicken-shawarma.png",
+  "time": "",
+  "difficulty": "",
 
   "ingredients": [
-    "1 kg boneless chicken thighs",
-    "4 cloves garlic, minced",
-    "1 tbsp ground cumin",
-    "1 tbsp ground coriander",
-    "1 tsp ground paprika",
-    "1 tsp ground turmeric",
-    "1/2 tsp ground cinnamon",
-    "1/2 tsp ground allspice",
-    "1/4 tsp ground cardamom (optional)",
-    "1 tsp chili powder (optional)",
-    "1 tsp salt",
-    "1/2 tsp black pepper",
-    "4 tbsp plain yogurt",
-    "3 tbsp olive oil",
-    "Juice of 1 lemon",
-    "1 small onion, grated (optional)",
-    "2 tbsp vinegar (optional)",
-    "Pita bread for serving",
-    "Garlic sauce or tahini sauce",
-    "Pickles, parsley, vegetables for serving"
+    {
+      "title": "Ingredients (Serves 4–6)",
+      "items": [
+        "1 kg (2.2 lbs) boneless chicken thighs (juicier) or breast"
+      ]
+    },
+    {
+      "title": "For the Marinade:",
+      "items": [
+        "4 cloves garlic, minced",
+        "1 tbsp ground cumin",
+        "1 tbsp ground coriander",
+        "1 tsp ground paprika",
+        "1 tsp ground turmeric",
+        "½ tsp ground cinnamon",
+        "½ tsp ground allspice",
+        "¼ tsp ground cardamom (optional, for authentic aroma)",
+        "1 tsp chili powder (optional, adjust to taste)",
+        "1 tsp salt (or to taste)",
+        "½ tsp black pepper",
+        "4 tbsp plain yogurt (adds tenderness)",
+        "3 tbsp olive oil",
+        "Juice of 1 lemon"
+      ]
+    },
+    {
+      "title": "Optional Aromatics:",
+      "items": [
+        "1 small onion, grated",
+        "2 tbsp white vinegar or apple cider vinegar"
+      ]
+    },
+    {
+      "title": "For Serving:",
+      "items": [
+        "Pita bread or flatbreads",
+        "Garlic sauce (toum) or tahini sauce",
+        "Pickled vegetables (turnips, cucumbers)",
+        "Fresh parsley, chopped",
+        "Sliced tomatoes, cucumbers, onions"
+      ]
+    }
   ],
 
-  "steps": [
-    "Slice chicken into thin strips.",
-    "Mix garlic, spices, yogurt, oil, lemon juice, onion, and vinegar.",
-    "Add chicken and marinate for at least 4 hours or overnight.",
-    "Preheat oven to 200°C (400°F).",
-    "Bake chicken for 20–25 minutes until cooked and slightly charred.",
-    "Or cook in skillet 4–5 minutes per side until golden.",
-    "Slice and serve in pita with garlic sauce and vegetables.",
-    "Optional: broil for extra charred flavor."
+  "instruction": [
+    {
+      "title": "Marinate the Chicken",
+      "steps": [
+        "Slice chicken thighs into thin strips (or leave whole if you’ll slice after cooking).",
+        "In a large bowl, combine garlic, spices, yogurt, olive oil, lemon juice, onion, and vinegar.",
+        "Add chicken and coat well. Cover and refrigerate for at least 4 hours, preferably overnight. This ensures maximum flavor infusion."
+      ]
+    },
+    {
+      "title": "Cooking – Traditional or Pan",
+      "steps": [
+        "Option A: Oven (best for even cooking)",
+        "Preheat oven to 200°C (400°F).",
+        "Place chicken on a lined baking sheet or roasting pan.",
+        "Roast for 20–25 minutes, turning halfway, until fully cooked and slightly charred on edges.",
+        "Option B: Skillet / Grill",
+        "Heat a non-stick pan or grill over medium-high heat.",
+        "Cook chicken in batches, 4–5 minutes per side, until golden brown and cooked through.",
+        "Optional: After cooking, broil for 2–3 minutes to get a charred, restaurant-style look."
+      ]
+    },
+    {
+      "title": "Serving",
+      "steps": [
+        "Slice the chicken thinly if not already done.",
+        "Serve wrapped in pita with garlic sauce, pickles, fresh veggies, and a sprinkle of parsley.",
+        "Can also serve over rice for a plate-style shawarma."
+      ]
+    }
   ],
 
   "chefTips": [
-    "Use chicken thighs for juiciness.",
-    "Marinate overnight for best flavor.",
-    "High heat gives authentic shawarma char.",
-    "Garlic sauce enhances taste significantly."
+    "Chicken Choice: Thighs are juicier and more forgiving than breast.",
+    "Marination: Overnight marination is key for tender, flavorful shawarma.",
+    "Char Flavor: Finish under the broiler or on a hot skillet for authentic restaurant char.",
+    "Sauce: Homemade garlic sauce elevates the dish dramatically."
   ]
 }
