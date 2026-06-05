@@ -61,7 +61,7 @@
     "image": "assets/images/continental/fried-fish-with-tartar-sauce.png",
     "time": "40 min",
     "difficulty": "Medium"
-    },
+  },
   {
     "id": 302,
     "title": "Pancakes",
@@ -69,7 +69,6 @@
     "file": "data/continental/pancakes.json",
     "image": "assets/images/continental/pancakes.png",
     "time": "40 min",
-    "difficulty": "Medium",
-  }
+    "difficulty": "Medium"
   }
 ]
