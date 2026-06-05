@@ -93,7 +93,6 @@ font-weight:bold;
 color:#ffcc70;
 }
 
-/* ingredients */
 .ingredients label{
 display:flex;
 justify-content:space-between;
@@ -105,7 +104,6 @@ margin-bottom:6px;
 font-size:13px;
 }
 
-/* steps */
 .instructions .step{
 background:#1b2430;
 padding:10px;
@@ -126,7 +124,6 @@ margin-bottom:8px;
 color:#ffcc70;
 font-weight:bold;
 }
-
 </style>
 </head>
 
@@ -153,28 +150,24 @@ const file = new URLSearchParams(location.search).get("file");
 const content = document.getElementById("content");
 const hero = document.getElementById("hero");
 
-if(!file){
+if (!file) {
 content.innerHTML = "Recipe not found";
 return;
 }
 
 try {
 
-const basePath = location.pathname.replace("recipe.html", "");
-const res = await fetch(basePath + cleanFile);
-if(!res.ok) throw new Error("Cannot load file");
+const res = await fetch(file);
+if (!res.ok) throw new Error("Cannot load file");
 
 const recipe = await res.json();
 
 /* HERO */
 hero.style.backgroundImage = `url('${recipe.image || ""}')`;
 
-/* ---------------- INGREDIENTS FIX ---------------- */
-let ingredientsHTML = "";
-
+/* INGREDIENTS */
 function renderIngredient(item){
 
-// STRING
 if(typeof item === "string"){
 return `
 <label>
@@ -184,7 +177,6 @@ return `
 `;
 }
 
-// GROUP OBJECT
 if(typeof item === "object" && item !== null){
 
 if(item.title && Array.isArray(item.items)){
@@ -196,34 +188,39 @@ ${item.items.map(renderIngredient).join("")}
 `;
 }
 
-// fallback object
 return `<label><span>${JSON.stringify(item)}</span></label>`;
 }
 
 return "";
 }
 
+let ingredientsHTML = "";
 if(Array.isArray(recipe.ingredients)){
 ingredientsHTML = recipe.ingredients.map(renderIngredient).join("");
 }
 
-/* ---------------- STEPS ---------------- */
+/* INSTRUCTIONS (FIXED) */
 let stepsHTML = "";
-if(Array.isArray(recipe.steps)){
-stepsHTML = recipe.steps.map(s => `
+
+if(Array.isArray(recipe.instruction)){
+stepsHTML = recipe.instruction.map(section => `
+<div>
+<div class="group-title">${section.title}</div>
+${section.steps.map(step => `
 <div class="step" onclick="toggleStep(this)">
-${s}
+${step}
+</div>
+`).join("")}
 </div>
 `).join("");
 }
 
-/* ---------------- CHEF TIPS ---------------- */
+/* CHEF TIPS */
 let tipsHTML = "";
+
 if(Array.isArray(recipe.chefTips)){
 tipsHTML = recipe.chefTips.map(t => `
-<div class="step">
-${t}
-</div>
+<div class="step">${t}</div>
 `).join("");
 }
 
