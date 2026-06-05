@@ -1,0 +1,106 @@
+{
+  "title": "Chicken Cacciatore (Hunter-style Chicken)",
+  "category": "Italian",
+  "time": "1 hr 20 min",
+  "difficulty": "Medium",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken:",
+      "items": [
+        "4 bone-in, skin-on chicken thighs",
+        "2 bone-in, skin-on chicken drumsticks",
+        "Salt and freshly ground black pepper",
+        "2 tbsp olive oil"
+      ]
+    },
+    {
+      "title": "For the Sauce:",
+      "items": [
+        "1 medium onion, finely chopped",
+        "2 medium carrots, diced",
+        "2 celery stalks, diced",
+        "4 cloves garlic, thinly sliced",
+        "1 red bell pepper, sliced",
+        "1 yellow bell pepper, sliced",
+        "1 cup dry white wine",
+        "1 (28 oz) can whole peeled tomatoes, crushed by hand",
+        "1 tbsp tomato paste",
+        "1 tsp dried oregano",
+        "1 tsp dried thyme",
+        "2 bay leaves",
+        "1/2 tsp crushed red pepper flakes (optional, for a gentle heat)",
+        "1/2 cup chicken stock or broth",
+        "2 tbsp capers (optional)",
+        "1/4 cup pitted Kalamata olives (optional)",
+        "2 tbsp chopped fresh parsley",
+        "Fresh basil leaves, for garnish"
+      ]
+    },
+    {
+      "title": "For Serving:",
+      "items": [
+        "Cooked polenta, risotto, or pappardelle pasta"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Chicken:",
+      "steps": [
+        "Pat chicken pieces dry with paper towels.",
+        "Season generously with salt and black pepper.",
+        "In a large, heavy-bottomed skillet or Dutch oven, heat olive oil over medium-high heat.",
+        "Sear chicken until golden brown on all sides, about 5–7 minutes per side. Remove and set aside."
+      ]
+    },
+    {
+      "title": "Sauté the Vegetables:",
+      "steps": [
+        "In the same pan, add onions, carrots, and celery. Sauté until softened, 5–6 minutes.",
+        "Add garlic and bell peppers, cooking 1–2 more minutes until fragrant."
+      ]
+    },
+    {
+      "title": "Deglaze & Build the Sauce:",
+      "steps": [
+        "Pour in white wine, scraping up browned bits from the bottom of the pan.",
+        "Let wine reduce by half, about 3–4 minutes.",
+        "Stir in crushed tomatoes, tomato paste, oregano, thyme, bay leaves, and red pepper flakes."
+      ]
+    },
+    {
+      "title": "Simmer the Chicken:",
+      "steps": [
+        "Return chicken to the pan, nestling pieces into the sauce.",
+        "Pour in chicken stock if needed to cover 2/3 of the chicken.",
+        "Bring to a gentle simmer, cover, and cook for 35–45 minutes until chicken is tender and cooked through."
+      ]
+    },
+    {
+      "title": "Finish the Sauce:",
+      "steps": [
+        "Remove bay leaves.",
+        "Stir in capers, olives, and fresh parsley.",
+        "Adjust seasoning with salt and pepper."
+      ]
+    },
+    {
+      "title": "Serve:",
+      "steps": [
+        "Plate chicken over pasta, polenta, or risotto.",
+        "Spoon extra sauce on top.",
+        "Garnish with fresh basil leaves and a drizzle of high-quality olive oil."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Brown the chicken well: Maillard reaction is key for flavor. Don’t overcrowd the pan.",
+    "Use bone-in, skin-on pieces: They add depth and richness to the sauce.",
+    "Simmer slowly: Low heat ensures the chicken stays tender and absorbs the sauce flavors.",
+    "Balance acidity: If sauce tastes too tangy, add a small pinch of sugar to mellow it.",
+    "Rest before serving: Let chicken sit in the sauce off the heat for 5 minutes for maximum flavor."
+  ]
+}
