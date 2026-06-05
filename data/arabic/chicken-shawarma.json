@@ -1,9 +1,9 @@
 {
-  "id": 103,
-  "title": "Chicken Shawarma",
-  "category": "Arabic",
-  "time": "",
-  "difficulty": "",
+    "id": 103,
+    "category": "Arabic",
+    "time": "",
+    "difficulty": "",
+    "image": "assets/images/arabic/chicken-shawarma.png",
 
   "ingredients": [
     {
