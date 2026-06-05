@@ -1,9 +1,9 @@
 {
-    "id": 103,
-    "category": "Arabic",
-    "time": "",
-    "difficulty": "",
-    "image": "assets/images/arabic/chicken-shawarma.png",
+  "id": 103,
+  "category": "Arabic",
+  "time": "",
+  "difficulty": "",
+  "image": "assets/images/arabic/chicken-shawarma.png",
 
   "ingredients": [
     {
@@ -60,17 +60,16 @@
       ]
     },
     {
-      "title": "Cooking – Traditional or Pan",
+      "title": "Option A: Oven (best for even cooking)",
       "steps": [
-      ]
-        "title": "Option A: Oven (best for even cooking)",
-       "steps": [
         "Preheat oven to 200°C (400°F).",
         "Place chicken on a lined baking sheet or roasting pan.",
-        "Roast for 20–25 minutes, turning halfway, until fully cooked and slightly charred on edges.",
-       ]
-        "title": "Option B: Skillet / Grill",
-       "steps": [  
+        "Roast for 20–25 minutes, turning halfway, until fully cooked and slightly charred on edges."
+      ]
+    },
+    {
+      "title": "Option B: Skillet / Grill",
+      "steps": [
         "Heat a non-stick pan or grill over medium-high heat.",
         "Cook chicken in batches, 4–5 minutes per side, until golden brown and cooked through.",
         "Optional: After cooking, broil for 2–3 minutes to get a charred, restaurant-style look."
