@@ -70,5 +70,14 @@
     "image": "assets/images/continental/pancakes.png",
     "time": "40 min",
     "difficulty": "Medium"
+    },
+  {
+    "id": 401,
+    "title": "Chicken Chettinad",
+    "category": "Indian",
+    "file": "data/indian/chicken-chettinad.json",
+    "image": "assets/images/indian/chicken-chettinad.png",
+    "time": "40 min",
+    "difficulty": "Medium"
   }
 ]
