@@ -60,7 +60,7 @@ cursor:pointer;
 z-index:3;
 }
 
-/* IMAGE BOX (TOP OVER HERO, RIGHT BOTTOM) */
+/* IMAGE BOX */
 .hero-image-box{
 position:absolute;
 bottom:12px;
@@ -102,6 +102,7 @@ font-size:20px;
 margin-bottom:10px;
 }
 
+/* META */
 .meta{
 display:flex;
 flex-wrap:wrap;
@@ -116,6 +117,7 @@ border-radius:20px;
 font-size:12px;
 }
 
+/* SECTION TITLES */
 .section-title{
 margin-top:18px;
 margin-bottom:8px;
@@ -133,9 +135,10 @@ background:#1b2430;
 border-radius:8px;
 margin-bottom:6px;
 font-size:13px;
+color:#cbd5e1;
 }
 
-/* STEPS */
+/* INSTRUCTIONS */
 .instructions .step{
 background:#1b2430;
 padding:10px;
@@ -143,6 +146,11 @@ border-radius:8px;
 margin-bottom:8px;
 cursor:pointer;
 transition:0.2s;
+color:#cbd5e1;
+}
+
+.instructions .step:hover{
+background:#243041;
 }
 
 .step.done{
@@ -150,7 +158,7 @@ opacity:0.6;
 border-left:3px solid #00c853;
 }
 
-/* CHEF TIPS (NO BOX) */
+/* CHEF TIPS */
 .chef-tips{
 list-style: disc;
 padding-left:20px;
@@ -161,10 +169,10 @@ margin-top:8px;
 margin-bottom:6px;
 font-size:13px;
 line-height:1.5;
-color:#ddd;
+color:#b6c2d1;
 }
 
-/* MODAL */
+/* POPUP */
 .modal{
 display:none;
 position:fixed;
@@ -203,7 +211,6 @@ color:#fff;
 
 <button class="back" onclick="history.back()">← Back</button>
 
-<!-- IMAGE BOX MOVED HERE -->
 <div class="hero-image-box" onclick="openImage()">
 <img id="recipeImage" src="">
 </div>
@@ -214,7 +221,7 @@ color:#fff;
 <div class="card" id="content">Loading...</div>
 </div>
 
-<!-- POPUP -->
+<!-- IMAGE MODAL -->
 <div id="imgModal" class="modal" onclick="closeImage()">
 <span class="close">&times;</span>
 <img id="modalImg">
