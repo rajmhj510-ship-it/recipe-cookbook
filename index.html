@@ -41,28 +41,54 @@ inset:0;
 background:rgba(0,0,0,0.55);
 }
 
+/* HERO CONTENT */
 .hero-content{
 position:relative;
 z-index:2;
 }
 
+/* ✨ GLOWING LOGO */
 .logo{
 width:60px;
 height:60px;
 border-radius:12px;
 margin-bottom:10px;
+
+/* neon glow */
+box-shadow:
+  0 0 10px rgba(255, 204, 112, 0.6),
+  0 0 20px rgba(255, 204, 112, 0.4),
+  0 0 40px rgba(255, 204, 112, 0.2);
+
+animation: glowPulse 2.5s ease-in-out infinite;
 }
 
-.hero h1{margin:0;font-size:26px;}
-.hero p{opacity:0.8}
+/* glow animation */
+@keyframes glowPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow:
+      0 0 10px rgba(255, 204, 112, 0.5),
+      0 0 20px rgba(255, 204, 112, 0.3),
+      0 0 40px rgba(255, 204, 112, 0.15);
+  }
 
-/* CROSSFADE STATES */
-.hero.fade-out{
-opacity:0;
+  50% {
+    transform: scale(1.05);
+    box-shadow:
+      0 0 15px rgba(255, 204, 112, 0.8),
+      0 0 30px rgba(255, 204, 112, 0.5),
+      0 0 60px rgba(255, 204, 112, 0.25);
+  }
 }
 
-.hero.fade-in{
-opacity:1;
+.hero h1{
+margin:0;
+font-size:26px;
+}
+
+.hero p{
+opacity:0.8;
 }
 
 /* SCROLL BUTTON */
@@ -182,8 +208,8 @@ border-radius:10px;
 <div class="hero" id="heroSlide">
 
   <div class="hero-content">
-    <img src="./logo.png" class="logo">
-    <h1>Cook like a chef </h1>
+    <img src="./logo.png" class="logo" alt="logo">
+    <h1>Cook like a chef 👨‍🍳</h1>
     <p>Explore global recipes and step-by-step cooking guides</p>
   </div>
 
