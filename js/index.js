@@ -2,8 +2,10 @@ let allRecipes = [];
 let heroImages = [];
 let heroIndex = 0;
 let activeCategory = "All";
+let heroInterval = null;
+let appOpened = false;
 
-/* LOAD EVERYTHING */
+/* LOAD DATA */
 document.addEventListener("DOMContentLoaded", async () => {
 
   const res = await fetch("./data/index.json");
@@ -16,10 +18,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   renderRecipes(allRecipes);
 
   document.getElementById("search").addEventListener("input", filterRecipes);
+
+  window.addEventListener("scroll", handleScroll);
 });
 
 
-/* HERO FROM JSON */
+/* HERO IMAGES FROM JSON */
 function buildHeroImages(recipes) {
   heroImages = [...new Set(recipes.map(r => r.image).filter(Boolean))];
 }
@@ -28,6 +32,7 @@ function buildHeroImages(recipes) {
 /* HERO SLIDER */
 function startHeroSlider() {
   const hero = document.getElementById("heroSlide");
+  if (!heroImages.length) return;
 
   function update() {
     hero.style.backgroundImage = `url('${heroImages[heroIndex]}')`;
@@ -35,18 +40,52 @@ function startHeroSlider() {
   }
 
   update();
-  setInterval(update, 3000);
+  heroInterval = setInterval(update, 3000);
 }
 
 
-/* SCROLL DOWN (MAIN REVEAL) */
-function scrollDown() {
-  document.getElementById("main").style.display = "block";
-  document.getElementById("main").scrollIntoView({ behavior: "smooth" });
+/* BUTTON SCROLL */
+function goToApp() {
+  document.getElementById("appSection")
+    .scrollIntoView({ behavior: "smooth" });
+
+  setTimeout(() => openApp(), 600);
 }
 
 
-/* FILTER BUTTONS */
+/* SCROLL DETECTION */
+function handleScroll() {
+  if (appOpened) return;
+
+  const app = document.getElementById("appSection");
+  const rect = app.getBoundingClientRect();
+
+  if (rect.top <= 120) {
+    openApp();
+  }
+}
+
+
+/* OPEN APP (HIDE HERO CLEANLY) */
+function openApp() {
+  if (appOpened) return;
+  appOpened = true;
+
+  if (heroInterval) clearInterval(heroInterval);
+
+  const hero = document.getElementById("heroSlide");
+
+  hero.style.transition = "0.6s ease";
+  hero.style.opacity = "0";
+  hero.style.transform = "translateY(-40px)";
+
+  setTimeout(() => {
+    hero.style.display = "none";
+  }, 500);
+}
+
+
+/* FILTERS */
 function renderFilters() {
   const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
 
@@ -57,7 +96,7 @@ function renderFilters() {
 }
 
 
-/* SET CATEGORY */
+/* CATEGORY */
 function setCategory(e, cat) {
   activeCategory = cat;
 
