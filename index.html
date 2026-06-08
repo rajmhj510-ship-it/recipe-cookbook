@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stack Carousel</title>
+<title>Wave Stack Carousel</title>
 
 <style>
 body{
@@ -13,7 +13,6 @@ overflow:hidden;
 font-family:Arial;
 }
 
-/* CENTER STAGE */
 .stack{
 position:relative;
 width:100%;
@@ -23,7 +22,6 @@ justify-content:center;
 align-items:center;
 }
 
-/* BASE CARD */
 .card{
 position:absolute;
 width:220px;
@@ -32,61 +30,29 @@ border-radius:18px;
 object-fit:cover;
 box-shadow:0 15px 40px rgba(0,0,0,0.15);
 
-/* smooth animation */
-transition: transform 0.8s ease, filter 0.8s ease;
+/* smooth transition */
+transition: transform 0.7s ease, filter 0.7s ease;
 will-change: transform;
+
+/* ALL BW */
+filter:grayscale(1);
 }
 
-/* =========================
-   CENTER (FOCUS)
-========================= */
+/* CENTER */
 .center{
 transform:translateX(0) scale(1.25);
 z-index:10;
-filter:grayscale(0);
 }
 
-/* =========================
-   LEFT SIDE (DEPTH STACK)
-========================= */
-.l1{
-transform:translateX(-140px) scale(0.95);
-z-index:9;
-filter:grayscale(0.4);
-}
+/* LEFT STACK */
+.l1{ transform:translateX(-140px) scale(0.95); z-index:9; filter:grayscale(0.5); }
+.l2{ transform:translateX(-270px) scale(0.85); z-index:8; filter:grayscale(0.7); }
+.l3{ transform:translateX(-400px) scale(0.75); z-index:7; filter:grayscale(0.9); }
 
-.l2{
-transform:translateX(-270px) scale(0.85);
-z-index:8;
-filter:grayscale(0.7);
-}
-
-.l3{
-transform:translateX(-400px) scale(0.75);
-z-index:7;
-filter:grayscale(0.9);
-}
-
-/* =========================
-   RIGHT SIDE (DEPTH STACK)
-========================= */
-.r1{
-transform:translateX(140px) scale(0.95);
-z-index:9;
-filter:grayscale(0.4);
-}
-
-.r2{
-transform:translateX(270px) scale(0.85);
-z-index:8;
-filter:grayscale(0.7);
-}
-
-.r3{
-transform:translateX(400px) scale(0.75);
-z-index:7;
-filter:grayscale(0.9);
-}
+/* RIGHT STACK */
+.r1{ transform:translateX(140px) scale(0.95); z-index:9; filter:grayscale(0.5); }
+.r2{ transform:translateX(270px) scale(0.85); z-index:8; filter:grayscale(0.7); }
+.r3{ transform:translateX(400px) scale(0.75); z-index:7; filter:grayscale(0.9); }
 </style>
 </head>
 
