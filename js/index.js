@@ -4,9 +4,7 @@ let heroIndex = 0;
 let activeCategory = "All";
 let heroInterval = null;
 
-/* STATE */
 let appOpened = false;
-let lastScrollY = 0;
 
 /* INIT */
 document.addEventListener("DOMContentLoaded", async () => {
@@ -22,12 +20,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   document.getElementById("search").addEventListener("input", filterRecipes);
 
-  window.addEventListener("scroll", handleScroll);
-  lastScrollY = window.scrollY;
+  setupObserver();
 });
 
 
-/* HERO IMAGES */
+/* HERO IMAGES FROM JSON */
 function buildHeroImages(recipes) {
   heroImages = [...new Set(recipes.map(r => r.image).filter(Boolean))];
 }
@@ -48,62 +45,45 @@ function startHeroSlider() {
 }
 
 
-/* SCROLL DETECTION (UP + DOWN) */
-function handleScroll() {
-
-  const currentY = window.scrollY;
+/* STABLE SCROLL SYSTEM (INTERSECTION OBSERVER) */
+function setupObserver() {
   const hero = document.getElementById("heroSlide");
 
-  const goingDown = currentY > lastScrollY;
-  const goingUp = currentY < lastScrollY;
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
 
-  const appSection = document.getElementById("appSection");
-  const appTop = appSection.getBoundingClientRect().top;
+      if (entry.isIntersecting) {
+        closeApp();   // hero visible
+      } else {
+        openApp();    // hero hidden
+      }
 
-  /* 🔽 SCROLL DOWN → ENTER APP */
-  if (goingDown && appTop <= 120 && !appOpened) {
-    openApp();
-  }
+    });
+  }, {
+    threshold: 0.6
+  });
 
-  /* 🔼 SCROLL UP → RETURN HERO */
-  if (goingUp && currentY < 100 && appOpened) {
-    closeApp();
-  }
-
-  lastScrollY = currentY;
+  observer.observe(hero);
 }
 
 
-/* OPEN APP (HIDE HERO) */
+/* OPEN APP */
 function openApp() {
+  if (appOpened) return;
   appOpened = true;
 
   if (heroInterval) clearInterval(heroInterval);
 
-  const hero = document.getElementById("heroSlide");
-
-  hero.style.transition = "0.6s ease";
-  hero.style.opacity = "0";
-  hero.style.transform = "translateY(-50px)";
-
-  setTimeout(() => {
-    hero.style.display = "none";
-  }, 500);
+  document.getElementById("heroSlide").classList.add("hide");
 }
 
 
-/* CLOSE APP (RESTORE HERO) */
+/* CLOSE APP */
 function closeApp() {
+  if (!appOpened) return;
   appOpened = false;
 
-  const hero = document.getElementById("heroSlide");
-
-  hero.style.display = "flex";
-
-  setTimeout(() => {
-    hero.style.opacity = "1";
-    hero.style.transform = "translateY(0)";
-  }, 50);
+  document.getElementById("heroSlide").classList.remove("hide");
 
   startHeroSlider();
 }
@@ -113,8 +93,6 @@ function closeApp() {
 function goToApp() {
   document.getElementById("appSection")
     .scrollIntoView({ behavior: "smooth" });
-
-  setTimeout(() => openApp(), 600);
 }
 
 
@@ -155,7 +133,7 @@ function filterRecipes() {
 }
 
 
-/* RENDER */
+/* RENDER RECIPES */
 function renderRecipes(list) {
   document.getElementById("list").innerHTML = list.map(r => `
     <div class="card" onclick="openRecipe('${r.file}')">
