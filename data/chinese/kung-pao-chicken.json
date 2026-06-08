@@ -1,61 +1,98 @@
-[
-  {
-    "id": 202,
-    "title": "Kung Pao Chicken",
-    "category": "Chinese",
-    "time": "45 min",
-    "difficulty": "Medium",
-    "image": "/assets/images/chinese/kung-pao-chicken.png",
+{
+  "id": 201,
+  "title": "Kung Pao Chicken",
+  "category": "Chinese",
+  "time": "",
+  "difficulty": "",
+  "image": "assets/images/chinese/kung-pao-chicken.png",
 
-    "ingredients": [
-      "500g white fish fillets (cod, seabass, or tilapia)",
-      "1 tsp salt",
-      "1/2 tsp white pepper",
-      "1 tsp Shaoxing wine (optional)",
-      "2 tbsp cornstarch",
-      "3 tbsp vegetable oil",
+  "ingredients": [
+    {
+      "title": "Chicken Marinade",
+      "items": [
+        "500 g (1 lb) boneless, skinless chicken thighs, diced into 1.5 cm cubes",
+        "1 tbsp Shaoxing wine (or dry sherry)",
+        "1 tbsp light soy sauce",
+        "1 tsp dark soy sauce (for color)",
+        "1 tsp cornstarch",
+        "1 tsp sesame oil"
+      ]
+    },
+    {
+      "title": "Sauce",
+      "items": [
+        "2 tbsp light soy sauce",
+        "1 tbsp dark soy sauce",
+        "1 tbsp Chinkiang black vinegar",
+        "2 tsp Shaoxing wine",
+        "1 tbsp sugar (rock sugar preferred)",
+        "1 tsp cornstarch, mixed with 2 tsp water (slurry)"
+      ]
+    },
+    {
+      "title": "Aromatics & Main Dish",
+      "items": [
+        "8–10 dried red chilies (facing heaven chilies preferred), deseeded for milder heat",
+        "1 tbsp Sichuan peppercorns, lightly toasted",
+        "3 cloves garlic, finely chopped",
+        "2 tsp fresh ginger, finely chopped",
+        "4 scallions, white and green parts separated (white chopped into 2 cm pieces)",
+        "½ cup roasted peanuts (unsalted, skinless)",
+        "3 tbsp neutral oil (peanut or grapeseed oil recommended)"
+      ]
+    }
+  ],
 
-      "2 tbsp vegetable oil (sauce)",
-      "5–6 dried red chilies",
-      "1 tbsp Szechuan peppercorns",
-      "3 garlic cloves, minced",
-      "1-inch ginger, minced",
-      "2 scallions",
+  "instruction": [
+    {
+      "title": "Step 1: Marinate the Chicken",
+      "steps": [
+        "Mix chicken with Shaoxing wine, soy sauces, cornstarch, and sesame oil.",
+        "Let rest 15–20 minutes for flavor absorption."
+      ]
+    },
+    {
+      "title": "Step 2: Prepare the Sauce",
+      "steps": [
+        "In a small bowl, whisk soy sauces, vinegar, Shaoxing wine, and sugar.",
+        "Set aside the cornstarch slurry separately for thickening at the end."
+      ]
+    },
+    {
+      "title": "Step 3: Aromatic Oil Infusion",
+      "steps": [
+        "Heat wok over medium-high until just smoking.",
+        "Add oil, then chilies and Sichuan peppercorns. Stir-fry until fragrant (10–15 seconds), being careful not to burn."
+      ]
+    },
+    {
+      "title": "Step 4: Stir-Fry the Chicken",
+      "steps": [
+        "Add marinated chicken. Stir-fry 3–4 minutes until browned and nearly cooked.",
+        "Push chicken to the sides; add garlic, ginger, and scallion whites. Stir until aromatic."
+      ]
+    },
+    {
+      "title": "Step 5: Sauce & Finish",
+      "steps": [
+        "Pour in sauce mixture. Toss until chicken is fully coated.",
+        "Stir in cornstarch slurry to thicken glaze (30–60 seconds).",
+        "Add peanuts and scallion greens, tossing everything quickly."
+      ]
+    },
+    {
+      "title": "Step 6: Serve",
+      "steps": [
+        "Transfer immediately to a heated serving plate.",
+        "Serve with steamed jasmine rice or hand-pulled noodles."
+      ]
+    }
+  ],
 
-      "1/4 cup chicken or fish stock",
-      "2 tbsp soy sauce",
-      "1 tbsp black vinegar",
-      "1 tbsp Doubanjiang",
-      "1 tsp sugar",
-      "1/2 tsp sesame oil",
-      "1 tsp cornstarch slurry (optional)",
-
-      "Cilantro or scallions (garnish)",
-      "Sesame seeds (optional)"
-    ],
-
-    "steps": [
-      "Pat fish dry and season with salt, pepper, and Shaoxing wine.",
-      "Coat fish lightly with cornstarch.",
-      "Pan-fry fish until golden and crisp on both sides. Set aside.",
-
-      "Heat oil in wok and fry dried chilies and Szechuan peppercorns briefly.",
-      "Add garlic and ginger and sauté until fragrant.",
-      "Add Doubanjiang and cook briefly.",
-      "Add soy sauce, vinegar, sugar, and stock. Bring to simmer.",
-      "Add scallions and cook 1–2 minutes.",
-      "Add slurry if thicker sauce is needed.",
-      "Finish with sesame oil.",
-
-      "Pour sauce over fish and garnish with cilantro or sesame seeds.",
-      "Serve with rice or vegetables."
-    ],
-
-    "chefTips": [
-      "Keep fish dry for crisp texture.",
-      "Do not burn Szechuan peppercorns.",
-      "Balance spice with sugar and vinegar.",
-      "Serve immediately for best taste."
-    ]
-  }
-]
+  "chefTips": [
+    "Chili Control: For a true Sichuan kick, leave chili seeds in. For balance, remove them.",
+    "Peanuts: Roast fresh for best flavor; cashews may substitute for a more delicate crunch.",
+    "Wok Hei: Use high heat and quick motions to achieve that smoky, restaurant-level finish.",
+    "Balance: Adjust sugar and vinegar for your preferred sweet-sour ratio."
+  ]
+}
