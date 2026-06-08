@@ -1,5 +1,7 @@
 let images = [];
-let order = [];
+let slots = [];
+
+const layout = ["l3","l2","l1","center","r1","r2","r3"];
 
 document.addEventListener("DOMContentLoaded", async () => {
 
@@ -8,21 +10,20 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   images = [...new Set(data.map(r => r.image))];
 
-  order = images.slice(0, 7);
+  slots = images.slice(0,7);
 
   createCards();
-  applyPositions();
+  render();
 
-  setInterval(rotateLeftFlow, 2500);
+  setInterval(rotateSlots, 2500);
 });
 
-/* CREATE ONCE */
+/* CREATE CARDS ONCE */
 function createCards(){
-
   const stack = document.getElementById("stack");
   stack.innerHTML = "";
 
-  order.forEach(img=>{
+  slots.forEach(img=>{
     const el = document.createElement("img");
     el.src = img;
     el.className = "card";
@@ -30,34 +31,22 @@ function createCards(){
   });
 }
 
-/* APPLY POSITIONS */
-function applyPositions(){
+/* APPLY POSITIONS (CRITICAL PART) */
+function render(){
 
   const cards = document.querySelectorAll(".card");
 
-  const layout = [
-    "l3",
-    "l2",
-    "l1",
-    "center",
-    "r1",
-    "r2",
-    "r3"
-  ];
-
-  cards.forEach((card,i)=>{
+  cards.forEach((card, i)=>{
     card.className = "card";
     card.classList.add(layout[i]);
   });
 }
 
-/* ✅ CORRECT FLOW ROTATION */
-function rotateLeftFlow(){
+/* 🔥 TRUE SLOT ROTATION (FIXED LOGIC) */
+function rotateSlots(){
 
-  // L3 → L2 → L1 → CENTER → R1 → R2 → R3 → L3
+  // move last slot to first (L3 becomes new image flow)
+  slots.unshift(slots.pop());
 
-  const last = order.pop();
-  order.unshift(last);
-
-  applyPositions();
+  render();
 }
