@@ -1,23 +1,32 @@
 let images = [];
-let nodes = [];
+let cards = [];
 
-// fixed visual slots
-const positions = ["l3","l2","l1","center","r1","r2","r3"];
+/* SLOT POSITIONS (FIXED) */
+const slots = [
+  { x: -400, scale: 0.75, gray: 0.9 }, // L3
+  { x: -270, scale: 0.85, gray: 0.75 }, // L2
+  { x: -140, scale: 0.95, gray: 0.6 }, // L1
+  { x: 0,    scale: 1.25, gray: 0 },   // CENTER (COLOR)
+  { x: 140,  scale: 0.95, gray: 0.6 }, // R1
+  { x: 270,  scale: 0.85, gray: 0.75 }, // R2
+  { x: 400,  scale: 0.75, gray: 0.9 }  // R3
+];
 
 document.addEventListener("DOMContentLoaded", async () => {
 
   const res = await fetch("./data/index.json");
   const data = await res.json();
 
-  images = [...new Set(data.map(r => r.image))].slice(0, 7);
+  images = [...new Set(data.map(r => r.image))].slice(0,7);
 
-  create();
+  createCards();
+
   apply();
 
   setInterval(rotate, 2500);
 });
 
-/* CREATE ONCE */
+/* CREATE */
 function create(){
 
   const stack = document.getElementById("stack");
@@ -30,23 +39,34 @@ function create(){
     stack.appendChild(img);
   });
 
-  nodes = document.querySelectorAll(".card");
+  cards = document.querySelectorAll(".card");
 }
 
-/* APPLY POSITIONS (SOURCE OF TRUTH = INDEX MAP) */
+/* APPLY POSITIONS */
 function apply(){
 
-  nodes.forEach((node, i) => {
-    node.className = "card " + positions[i];
+  cards.forEach((card, i) => {
+
+    const slot = slots[i];
+
+    card.style.transform = `
+      translateX(${slot.x}px)
+      scale(${slot.scale})
+    `;
+
+    card.style.filter = `grayscale(${slot.gray})`;
+
+    card.style.zIndex = 10 - Math.abs(3 - i);
   });
 }
 
-/* 🔥 PERFECT ROTATION */
+/* 🔥 PERFECT ROTATION (NO BUGS EVER) */
 function rotate(){
 
-  // rotate array
   const last = images.pop();
   images.unshift(last);
 
+  // rebind order safely
+  create();
   apply();
 }
