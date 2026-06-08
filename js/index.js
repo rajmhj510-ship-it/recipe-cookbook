@@ -10,13 +10,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   order = images.slice(0, 7);
 
-  render();
+  createCards();
+  applyPositions();
 
-  setInterval(rotate, 2500);
+  setInterval(rotate, 2600);
 });
 
-/* RENDER STACK */
-function render(){
+/* CREATE ONCE ONLY (IMPORTANT FIX) */
+function createCards(){
 
   const stack = document.getElementById("stack");
   stack.innerHTML = "";
@@ -27,11 +28,9 @@ function render(){
     el.className = "card";
     stack.appendChild(el);
   });
-
-  applyPositions();
 }
 
-/* APPLY POSITIONS (NO LOGIC CHANGE HERE) */
+/* APPLY POSITIONS WITHOUT RECREATING */
 function applyPositions(){
 
   const cards = document.querySelectorAll(".card");
@@ -39,22 +38,29 @@ function applyPositions(){
   const layout = ["l3","l2","l1","center","r1","r2","r3"];
 
   cards.forEach((card,i)=>{
-    card.className = "card";
+    card.classList.remove("l3","l2","l1","center","r1","r2","r3");
 
-    // stagger visual animation only (NOT logic)
+    // stagger effect ONLY (visual)
     setTimeout(()=>{
       card.classList.add(layout[i]);
-    }, i * 60);
+    }, i * 80);
   });
 }
 
-/* ✅ FIXED ROTATION (NO SWAPPING, NO CENTER BREAK) */
+/* REAL SMOOTH ROTATION */
 function rotate(){
 
-  // PURE CIRCULAR SHIFT ONLY
+  // shift data
   const last = order.pop();
   order.unshift(last);
 
-  // re-render with same structure
-  render();
+  // re-map WITHOUT DOM rebuild
+  const cards = document.querySelectorAll(".card");
+
+  // rotate DOM order logically
+  cards.forEach((card, i) => {
+    card.style.order = i;
+  });
+
+  applyPositions();
 }
