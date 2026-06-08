@@ -1,107 +1,41 @@
-let allRecipes = [];
-let heroImages = [];
-let heroIndex = 0;
-let activeCategory = "All";
+let images = [];
+let index = 0;
 
 /* INIT */
 document.addEventListener("DOMContentLoaded", async () => {
 
   const res = await fetch("./data/index.json");
-  allRecipes = await res.json();
+  const data = await res.json();
 
-  buildHeroImages(allRecipes);
-  startHeroStack();
+  images = [...new Set(data.map(r => r.image))];
 
-  renderFilters();
-  renderRecipes(allRecipes);
-
-  document.getElementById("search").addEventListener("input", filterRecipes);
+  buildRow();
+  startStack();
 });
 
-/* HERO IMAGES */
-function buildHeroImages(recipes){
-  heroImages = [...new Set(recipes.map(r => r.image).filter(Boolean))];
-  startHeroStack();
+/* BUILD ROW */
+function buildRow(){
+  const row = document.getElementById("stackRow");
+
+  row.innerHTML = images.slice(0,7).map(img =>
+    `<img src="${img}">`
+  ).join("");
 }
 
-/* 7 STACK HERO */
-function startHeroStack(){
+/* ROTATION */
+function startStack(){
 
-  const layers = [
-    document.getElementById("bg0"),
-    document.getElementById("bg1"),
-    document.getElementById("bg2"),
-    document.getElementById("bg3"),
-    document.getElementById("bg4"),
-    document.getElementById("bg5"),
-    document.getElementById("bg6"),
-  ];
+  const cards = document.querySelectorAll("#stackRow img");
 
   function update(){
 
-    for(let i=0;i<7;i++){
-      const img = heroImages[(heroIndex + i) % heroImages.length];
-      layers[i].style.backgroundImage = `url('${img}')`;
-    }
+    cards.forEach((card,i)=>{
+      card.classList.toggle("active", i === index);
+    });
 
-    heroIndex = (heroIndex + 1) % heroImages.length;
+    index = (index + 1) % cards.length;
   }
 
   update();
-  setInterval(update, 3500);
-}
-
-/* SCROLL */
-function goToApp(){
-  document.getElementById("appSection")
-    .scrollIntoView({ behavior: "smooth" });
-}
-
-/* FILTERS */
-function renderFilters(){
-  const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
-
-  document.getElementById("filters").innerHTML =
-    categories.map(c => `
-      <button onclick="setCategory(event,'${c}')">${c}</button>
-    `).join("");
-}
-
-function setCategory(e, cat){
-  activeCategory = cat;
-
-  document.querySelectorAll(".filters button")
-    .forEach(b => b.classList.remove("active"));
-
-  e.target.classList.add("active");
-
-  filterRecipes();
-}
-
-/* SEARCH */
-function filterRecipes(){
-  const search = document.getElementById("search").value.toLowerCase();
-
-  const filtered = allRecipes.filter(r =>
-    (activeCategory === "All" || r.category === activeCategory) &&
-    r.title.toLowerCase().includes(search)
-  );
-
-  renderRecipes(filtered);
-}
-
-/* RENDER */
-function renderRecipes(list){
-  document.getElementById("list").innerHTML = list.map(r => `
-    <div class="card" onclick="openRecipe('${r.file}')">
-      <img src="${r.image}">
-      <h3>${r.title}</h3>
-      <small>${r.category}</small>
-    </div>
-  `).join("");
-}
-
-/* OPEN RECIPE */
-function openRecipe(file){
-  window.location.href = "recipe.html?file=" + encodeURIComponent(file);
+  setInterval(update, 2000);
 }
