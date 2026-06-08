@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Recipe Carousel</title>
+<title>Recipe Stack Carousel</title>
 
 <style>
 body{
@@ -22,71 +22,79 @@ align-items:center;
 position:relative;
 }
 
-/* CAROUSEL WRAPPER */
-.carousel{
+/* STACK WRAPPER */
+.stack{
+position:relative;
+width:100%;
+height:320px;
 display:flex;
-align-items:center;
 justify-content:center;
-gap:10px;
+align-items:center;
 }
 
 /* CARD BASE */
 .card{
-width:120px;
-height:170px;
+position:absolute;
+width:140px;
+height:200px;
 border-radius:16px;
 object-fit:cover;
-transition:all 0.5s ease;
-filter:grayscale(1);
-opacity:0.4;
-transform:scale(0.8);
+transition:all 0.6s ease;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
 }
 
-/* LEFT SIDE */
-.card.left-3{
-opacity:0.25;
-transform:scale(0.7);
-}
-
-/* LEFT MID */
-.card.left-2{
-opacity:0.35;
-transform:scale(0.8);
-}
-
-/* LEFT NEAR */
-.card.left-1{
-opacity:0.5;
-transform:scale(0.9);
-}
-
-/* CENTER (FOCUS) */
-.card.center{
-width:180px;
-height:260px;
-filter:grayscale(0);
-opacity:1;
-transform:scale(1.1);
+/* CENTER */
+.center{
+width:200px;
+height:280px;
 z-index:10;
-box-shadow:0 25px 60px rgba(0,0,0,0.25);
+filter:grayscale(0);
+transform:translateX(0) scale(1.1);
+opacity:1;
 }
 
-/* RIGHT NEAR */
-.card.right-1{
+/* LEFT 1/3 VISIBLE STACK */
+.l1{
+transform:translateX(-140px) scale(0.9);
+z-index:9;
+filter:grayscale(1);
+opacity:0.7;
+}
+
+.l2{
+transform:translateX(-260px) scale(0.8);
+z-index:8;
+filter:grayscale(1);
 opacity:0.5;
-transform:scale(0.9);
 }
 
-/* RIGHT MID */
-.card.right-2{
-opacity:0.35;
-transform:scale(0.8);
+.l3{
+transform:translateX(-380px) scale(0.7);
+z-index:7;
+filter:grayscale(1);
+opacity:0.3;
 }
 
-/* RIGHT 3 */
-.card.right-3{
-opacity:0.25;
-transform:scale(0.7);
+/* RIGHT SIDE */
+.r1{
+transform:translateX(140px) scale(0.9);
+z-index:9;
+filter:grayscale(1);
+opacity:0.7;
+}
+
+.r2{
+transform:translateX(260px) scale(0.8);
+z-index:8;
+filter:grayscale(1);
+opacity:0.5;
+}
+
+.r3{
+transform:translateX(380px) scale(0.7);
+z-index:7;
+filter:grayscale(1);
+opacity:0.3;
 }
 </style>
 </head>
@@ -94,9 +102,7 @@ transform:scale(0.7);
 <body>
 
 <div class="hero">
-
-  <div class="carousel" id="carousel"></div>
-
+  <div class="stack" id="stack"></div>
 </div>
 
 <script src="./js/index.js"></script>
