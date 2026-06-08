@@ -25,7 +25,7 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-transition:0.6s;
+transition:0.6s ease;
 }
 
 .hero::after{
@@ -68,9 +68,9 @@ animation:bounce 1.5s infinite;
 50%{transform:translateY(-6px);}
 }
 
-/* MAIN AREA */
-#main{
-display:none;
+/* MAIN APP */
+#appSection{
+min-height:100vh;
 padding:15px;
 }
 
@@ -146,14 +146,14 @@ border-radius:10px;
     <p>Explore global recipes and step-by-step cooking guides</p>
   </div>
 
-  <div class="scroll-down" onclick="scrollDown()">
+  <div class="scroll-down" onclick="goToApp()">
     ⬇ Scroll Down
   </div>
 
 </div>
 
-<!-- MAIN -->
-<div id="main">
+<!-- MAIN APP -->
+<div id="appSection">
 
   <div class="search-box">
     <input id="search" placeholder="Search recipes...">
