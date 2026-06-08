@@ -3,17 +3,17 @@ let activeCategory = "All";
 
 /* HERO IMAGES FROM ALL FOLDERS */
 const heroImages = [
-  "assets/images/Arabic/falafel.png",
-  "assets/images/Arabic/hummus.png",
-  "assets/images/Chinese/kung-pao-chicken.png",
-  "assets/images/Chinese/szechuan-fish.png",
-  "assets/images/Continental/pancakes.png",
-  "assets/images/Continental/fried-fish-with-tartar-sauce.png",
-  "assets/images/Indian/butter-chicken.png",
-  "assets/images/Italian/pasta.png",
-  "assets/images/Mexican/chimichanga.png",
-  "assets/images/Nepali/momo.png",
-  "assets/images/Thai/pad-thai.png"
+  "assets/images/arabic/falafel.png",
+  "assets/images/arabic/hummus.png",
+  "assets/images/chinese/kung-pao-chicken.png",
+  "assets/images/chinese/szechuan-fish.png",
+  "assets/images/continental/pancakes.png",
+  "assets/images/continental/fried-fish-with-tartar-sauce.png",
+  "assets/images/indian/butter-chicken.png",
+  "assets/images/italian/pasta.png",
+  "assets/images/mexican/chimichanga.png",
+  "assets/images/nepali/momo.png",
+  "assets/images/thai/pad-thai.png"
 ];
 
 let heroIndex = 0;
