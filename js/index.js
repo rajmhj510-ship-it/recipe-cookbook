@@ -1,7 +1,6 @@
 let images = [];
-let index = 0;
+let order = [];
 
-/* INIT */
 document.addEventListener("DOMContentLoaded", async () => {
 
   const res = await fetch("./data/index.json");
@@ -9,49 +8,47 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   images = [...new Set(data.map(r => r.image))];
 
-  render();
+  init();
   setInterval(rotate, 2500);
 });
 
-/* BUILD STACK */
+/* INIT 7 ITEMS */
+function init(){
+  order = images.slice(0,7);
+  render();
+}
+
+/* RENDER STACK */
 function render(){
 
   const stack = document.getElementById("stack");
   stack.innerHTML = "";
 
-  for(let i=0;i<7;i++){
-    const img = document.createElement("img");
-    img.src = images[(index + i) % images.length];
-    img.className = "card";
-    stack.appendChild(img);
-  }
+  order.forEach((img,i)=>{
 
-  applyPositions();
-}
+    const el = document.createElement("img");
+    el.src = img;
+    el.className = "card";
 
-/* APPLY FIXED POSITIONS (NO RANDOM) */
-function applyPositions(){
+    if(i === 3) el.classList.add("center");
+    else if(i === 2) el.classList.add("l1");
+    else if(i === 1) el.classList.add("l2");
+    else if(i === 0) el.classList.add("l3");
 
-  const cards = document.querySelectorAll(".card");
+    else if(i === 4) el.classList.add("r1");
+    else if(i === 5) el.classList.add("r2");
+    else if(i === 6) el.classList.add("r3");
 
-  cards.forEach((card,i)=>{
-
-    card.className = "card";
-
-    if(i === 3) card.classList.add("center");
-
-    else if(i === 2) card.classList.add("l1");
-    else if(i === 1) card.classList.add("l2");
-    else if(i === 0) card.classList.add("l3");
-
-    else if(i === 4) card.classList.add("r1");
-    else if(i === 5) card.classList.add("r2");
-    else if(i === 6) card.classList.add("r3");
+    stack.appendChild(el);
   });
 }
 
-/* ROTATE LEFT → RIGHT SHIFT */
+/* EXACT ROTATION RULE */
 function rotate(){
-  index = (index + 1) % images.length;
+
+  // L3 → L2 → L1 → CENTER → R1 → R2 → R3 → L3
+  const last = order.pop();
+  order.unshift(last);
+
   render();
 }
