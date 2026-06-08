@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stable Carousel</title>
+<title>Bulletproof Carousel</title>
 
 <style>
 body{
@@ -22,7 +22,7 @@ justify-content:center;
 align-items:center;
 }
 
-/* CARD STYLE */
+/* CARD */
 .card{
 position:absolute;
 width:220px;
@@ -31,11 +31,9 @@ border-radius:18px;
 object-fit:cover;
 box-shadow:0 15px 40px rgba(0,0,0,0.15);
 
-/* smooth movement */
-transition: transform 0.85s cubic-bezier(0.22, 1, 0.36, 1), filter 0.85s ease;
+transition: transform 0.9s cubic-bezier(0.22,1,0.36,1),
+            filter 0.9s ease;
 will-change: transform;
-
-/* default BW */
 filter:grayscale(1);
 }
 </style>
