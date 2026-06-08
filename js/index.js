@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   render();
 
-  setInterval(rotate, 2500);
+  setInterval(rotateWave, 3200);
 });
 
-/* RENDER STACK */
+/* RENDER */
 function render(){
 
   const stack = document.getElementById("stack");
@@ -28,39 +28,50 @@ function render(){
     stack.appendChild(el);
   });
 
-  applyPositions();
+  apply();
 }
 
 /* APPLY POSITIONS */
-function applyPositions(){
+function apply(){
 
   const cards = document.querySelectorAll(".card");
 
-  const layout = [
-    "l3",
-    "l2",
-    "l1",
-    "center",
-    "r1",
-    "r2",
-    "r3"
-  ];
+  const layout = ["l3","l2","l1","center","r1","r2","r3"];
 
   cards.forEach((card,i)=>{
-
     card.className = "card";
-
-    setTimeout(()=>{
-      card.classList.add(layout[i]);
-    }, i * 70); // smooth stagger transition
+    card.classList.add(layout[i]);
   });
 }
 
-/* ROTATION */
-function rotate(){
+/* 🌊 WAVE ROTATION (SEQUENTIAL TIMING) */
+function rotateWave(){
 
-  const last = order.pop();
-  order.unshift(last);
+  const steps = [
+    [0,1], // L3 → L2
+    [1,2], // L2 → L1
+    [2,3], // L1 → CENTER
+    [3,4], // CENTER → R1
+    [4,5], // R1 → R2
+    [5,6], // R2 → R3
+    [6,0]  // R3 → L3
+  ];
 
-  render();
+  let delay = 0;
+
+  steps.forEach(([from,to]) => {
+
+    setTimeout(() => {
+
+      // swap images step-by-step
+      const temp = order[to];
+      order[to] = order[from];
+      order[from] = temp;
+
+      apply();
+
+    }, delay);
+
+    delay += 180; // 👈 THIS creates wave timing difference
+  });
 }
