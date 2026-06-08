@@ -1,6 +1,7 @@
 let allRecipes = [];
 let heroImages = [];
 let heroIndex = 0;
+let activeCategory = "All";
 
 /* INIT */
 document.addEventListener("DOMContentLoaded", async () => {
@@ -8,50 +9,46 @@ document.addEventListener("DOMContentLoaded", async () => {
   const res = await fetch("./data/index.json");
   allRecipes = await res.json();
 
-  buildHero(allRecipes);
+  buildHeroImages(allRecipes);
+  startHeroStack();
+
   renderFilters();
   renderRecipes(allRecipes);
 
   document.getElementById("search").addEventListener("input", filterRecipes);
 });
 
-/* HERO BUILDER */
-function buildHero(recipes){
+/* HERO IMAGES */
+function buildHeroImages(recipes){
   heroImages = [...new Set(recipes.map(r => r.image).filter(Boolean))];
-
-  const stack = document.getElementById("stack");
-
-  stack.innerHTML = heroImages.slice(0,7).map(img => `
-    <img src="${img}">
-  `).join("");
-
-  startCarousel();
+  startHeroStack();
 }
 
-/* CAROUSEL */
-function startCarousel(){
+/* 7 STACK HERO */
+function startHeroStack(){
 
-  const images = document.querySelectorAll("#stack img");
+  const layers = [
+    document.getElementById("bg0"),
+    document.getElementById("bg1"),
+    document.getElementById("bg2"),
+    document.getElementById("bg3"),
+    document.getElementById("bg4"),
+    document.getElementById("bg5"),
+    document.getElementById("bg6"),
+  ];
 
   function update(){
 
-    images.forEach((img, i) => {
+    for(let i=0;i<7;i++){
+      const img = heroImages[(heroIndex + i) % heroImages.length];
+      layers[i].style.backgroundImage = `url('${img}')`;
+    }
 
-      img.className = "";
-
-      const diff = (i - heroIndex + images.length) % images.length;
-
-      if(diff === 0) img.classList.add("active");
-      else if(diff === 1) img.classList.add("right");
-      else if(diff === images.length - 1) img.classList.add("left");
-      else img.classList.add("hidden");
-    });
-
-    heroIndex = (heroIndex + 1) % images.length;
+    heroIndex = (heroIndex + 1) % heroImages.length;
   }
 
   update();
-  setInterval(update, 3000);
+  setInterval(update, 3500);
 }
 
 /* SCROLL */
@@ -69,8 +66,6 @@ function renderFilters(){
       <button onclick="setCategory(event,'${c}')">${c}</button>
     `).join("");
 }
-
-let activeCategory = "All";
 
 function setCategory(e, cat){
   activeCategory = cat;
@@ -106,7 +101,7 @@ function renderRecipes(list){
   `).join("");
 }
 
-/* OPEN */
+/* OPEN RECIPE */
 function openRecipe(file){
   window.location.href = "recipe.html?file=" + encodeURIComponent(file);
 }
