@@ -1,1 +1,90 @@
+{
+  "id": 601,
+  "title": "Chimichanga",
+  "category": "Mexican",
+  "time": "",
+  "difficulty": "",
+  "image": "assets/images/mexican/chimichanga.png",
 
+  "ingredients": [
+    {
+      "title": "For the Filling:",
+      "items": [
+        "2 cups cooked, shredded chicken (or beef/pork)",
+        "1 cup sautéed onions and bell peppers (mixed colors)",
+        "2 cloves garlic, minced",
+        "1 tsp ground cumin",
+        "1 tsp smoked paprika",
+        "1/2 tsp chili powder (optional for heat)",
+        "Salt and black pepper to taste",
+        "1/2 cup shredded cheddar or Monterey Jack cheese",
+        "2 tbsp fresh cilantro, chopped",
+        "1/4 cup chicken or beef broth (optional, for moisture)"
+      ]
+    },
+    {
+      "title": "For Assembly:",
+      "items": [
+        "4–6 large flour tortillas (10–12 inches)",
+        "1–2 cups shredded cheese (for sprinkling inside)"
+      ]
+    },
+    {
+      "title": "For Frying:",
+      "items": [
+        "3–4 cups vegetable oil (or canola)",
+        "Oil thermometer (ideal: 350°F / 175°C)"
+      ]
+    },
+    {
+      "title": "For Garnish / Serving:",
+      "items": [
+        "Guacamole",
+        "Sour cream",
+        "Pico de gallo or fresh salsa",
+        "Lime wedges",
+        "Extra cilantro"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Filling",
+      "steps": [
+        "Heat a skillet over medium heat and sauté onions, bell peppers, and garlic until softened (about 5 minutes).",
+        "Add shredded chicken (or beef/pork) and spices: cumin, smoked paprika, chili powder, salt, and pepper. Stir to combine.",
+        "Add broth if needed to keep it moist. Cook until heated through, then stir in 1/2 cup cheese and cilantro. Remove from heat."
+      ]
+    },
+    {
+      "title": "Assemble the Chimichangas",
+      "steps": [
+        "Warm tortillas slightly to make them pliable.",
+        "Place 1/2 cup of filling in the center of each tortilla. Sprinkle a little extra cheese on top.",
+        "Fold the sides in, then roll tightly from one end to the other, ensuring the filling is sealed inside."
+      ]
+    },
+    {
+      "title": "Fry to Perfection",
+      "steps": [
+        "Heat oil in a deep skillet or Dutch oven to 350°F (175°C).",
+        "Carefully place the rolled chimichangas seam side down into the hot oil. Fry 2–3 minutes per side until golden brown and crispy.",
+        "Remove with a slotted spoon and drain on paper towels."
+      ]
+    },
+    {
+      "title": "Serve Like a Top Restaurant",
+      "steps": [
+        "Place chimichangas on a platter, garnish with cilantro, lime wedges, and serve with sides: guacamole, sour cream, and pico de gallo.",
+        "Optional: drizzle with a rich enchilada sauce or melted cheese for extra indulgence."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "For extra flavor, marinate the chicken in lime juice, garlic, and spices before cooking.",
+    "To reduce oil absorption, lightly brush with oil and bake at 400°F for 15–20 minutes instead of deep-frying.",
+    "Use high-quality tortillas; fresh, large flour tortillas hold the filling better."
+  ]
+}
