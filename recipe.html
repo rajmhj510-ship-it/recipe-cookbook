@@ -8,35 +8,18 @@
 <style>
 body{
 margin:0;
-font-family:Arial;
+font-family:Arial, sans-serif;
 background:#0b0f14;
 color:#fff;
 }
 
-/* HEADER */
-header{
-display:flex;
-align-items:center;
-gap:10px;
-padding:12px;
-background:#111827;
-position:sticky;
-top:0;
-z-index:10;
-}
-
-header img{
-width:35px;
-height:35px;
-border-radius:8px;
-}
-
 /* HERO */
 .hero{
-height:250px;
+height:280px;
 background-size:cover;
 background-position:center;
 position:relative;
+overflow:hidden;
 }
 
 .hero::after{
@@ -60,7 +43,7 @@ cursor:pointer;
 z-index:3;
 }
 
-/* HERO IMAGE BOX */
+/* FLOAT IMAGE */
 .hero-image-box{
 position:absolute;
 bottom:12px;
@@ -69,37 +52,33 @@ width:110px;
 height:80px;
 border-radius:10px;
 overflow:hidden;
-cursor:pointer;
 border:2px solid #fff;
 z-index:3;
-box-shadow:0 4px 10px rgba(0,0,0,0.4);
 }
 
 .hero-image-box img{
 width:100%;
 height:100%;
 object-fit:cover;
-transition:0.3s;
 }
 
-.hero-image-box:hover img{
-transform:scale(1.05);
-}
-
-/* CONTENT */
+/* MAIN CARD */
 .container{
 padding:15px;
 }
 
 .card{
 background:#151c25;
-padding:15px;
-border-radius:14px;
+border-radius:18px;
+padding:18px;
+margin-top:-20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
 }
 
+/* TITLE */
 h1{
+margin:0 0 10px;
 font-size:20px;
-margin-bottom:10px;
 }
 
 /* META */
@@ -112,26 +91,19 @@ margin-bottom:10px;
 
 .meta span{
 background:#222c3a;
-padding:5px 10px;
+padding:6px 10px;
 border-radius:20px;
 font-size:12px;
 }
 
-/* SECTION TITLES */
+/* SECTION TITLE */
 .section-title{
 margin-top:18px;
-margin-bottom:8px;
-font-weight:bold;
+margin-bottom:10px;
+font-size:12px;
+letter-spacing:1px;
+text-transform:uppercase;
 color:#ffcc70;
-}
-
-/* SUB TITLES */
-.section-title.sub{
-color:#7dd3fc;
-font-size:14px;
-font-weight:600;
-margin-top:12px;
-margin-bottom:6px;
 }
 
 /* INGREDIENTS */
@@ -139,19 +111,24 @@ margin-bottom:6px;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:8px;
+padding:10px;
 background:#1b2430;
-border-radius:8px;
+border-radius:10px;
 margin-bottom:6px;
 font-size:13px;
 color:#cbd5e1;
+transition:0.2s;
+}
+
+.ingredients label:hover{
+background:#243041;
 }
 
 /* INSTRUCTIONS */
 .instructions .step{
 background:#1b2430;
-padding:10px;
-border-radius:8px;
+padding:12px;
+border-radius:10px;
 margin-bottom:8px;
 cursor:pointer;
 transition:0.2s;
@@ -160,6 +137,7 @@ color:#cbd5e1;
 
 .instructions .step:hover{
 background:#243041;
+transform:scale(1.01);
 }
 
 .step.done{
@@ -177,8 +155,8 @@ margin-top:8px;
 .chef-tips li{
 margin-bottom:6px;
 font-size:13px;
-line-height:1.5;
 color:#b6c2d1;
+line-height:1.5;
 }
 
 /* MODAL */
@@ -197,31 +175,17 @@ max-width:90%;
 max-height:80%;
 border-radius:10px;
 }
-
-.modal .close{
-position:absolute;
-top:20px;
-right:20px;
-font-size:30px;
-cursor:pointer;
-color:#fff;
-}
 </style>
 </head>
 
 <body>
-
-<header>
-<img src="./logo.png">
-<strong>Recipe</strong>
-</header>
 
 <div class="hero" id="hero">
 
 <button class="back" onclick="history.back()">← Back</button>
 
 <div class="hero-image-box" onclick="openImage()">
-<img id="recipeImage" src="">
+<img id="recipeImage">
 </div>
 
 </div>
@@ -230,9 +194,7 @@ color:#fff;
 <div class="card" id="content">Loading...</div>
 </div>
 
-<!-- IMAGE MODAL -->
 <div id="imgModal" class="modal" onclick="closeImage()">
-<span class="close">&times;</span>
 <img id="modalImg">
 </div>
 
@@ -272,59 +234,31 @@ return `
 `;
 }
 
-if(typeof item === "object" && item !== null){
-
-if(item.title && Array.isArray(item.items)){
+if(item.title){
 return `
 <div>
-<div class="section-title sub">${item.title}</div>
+<div class="section-title">${item.title}</div>
 ${item.items.map(renderIngredient).join("")}
 </div>
 `;
 }
 
-return `<label><span>${JSON.stringify(item)}</span></label>`;
-}
-
 return "";
 }
 
-let ingredientsHTML = "";
-
-if(Array.isArray(recipe.ingredients)){
-ingredientsHTML = recipe.ingredients.map(renderIngredient).join("");
-}
-
-/* INSTRUCTIONS */
-let stepsHTML = "";
-
-if(Array.isArray(recipe.instruction)){
-stepsHTML = recipe.instruction.map(section => `
+/* STEPS */
+function renderSteps(){
+return recipe.instruction.map(sec => `
 <div>
-<div class="section-title sub">${section.title}</div>
-${section.steps.map(step => `
-<div class="step" onclick="toggleStep(this)">
-${step}
-</div>
-`).join("")}
+<div class="section-title">${sec.title}</div>
+${sec.steps.map(s => `<div class="step" onclick="toggleStep(this)">${s}</div>`).join("")}
 </div>
 `).join("");
 }
 
-/* CHEF TIPS */
-let tipsHTML = "";
-
-if(Array.isArray(recipe.chefTips)){
-tipsHTML = `
-<ul class="chef-tips">
-${recipe.chefTips.map(t => `<li>${t}</li>`).join("")}
-</ul>
-`;
-}
-
-/* FINAL UI */
+/* UI */
 content.innerHTML = `
-<h1>${recipe.title || ""}</h1>
+<h1>${recipe.title}</h1>
 
 <div class="meta">
 <span>⏱ ${recipe.time || ""}</span>
@@ -333,13 +267,19 @@ content.innerHTML = `
 </div>
 
 <h3 class="section-title">Ingredients</h3>
-<div class="ingredients">${ingredientsHTML}</div>
+<div class="ingredients">
+${recipe.ingredients.map(renderIngredient).join("")}
+</div>
 
 <h3 class="section-title">Instructions</h3>
-<div class="instructions">${stepsHTML}</div>
+<div class="instructions">
+${renderSteps()}
+</div>
 
 <h3 class="section-title">Chef Tips</h3>
-<div>${tipsHTML}</div>
+<ul class="chef-tips">
+${recipe.chefTips.map(t => `<li>${t}</li>`).join("")}
+</ul>
 `;
 
 } catch(err){
@@ -353,7 +293,7 @@ function toggleStep(el){
 el.classList.toggle("done");
 }
 
-/* IMAGE POPUP */
+/* IMAGE MODAL */
 function openImage(){
 const img = document.getElementById("recipeImage").src;
 document.getElementById("modalImg").src = img;
@@ -363,7 +303,6 @@ document.getElementById("imgModal").style.display = "flex";
 function closeImage(){
 document.getElementById("imgModal").style.display = "none";
 }
-
 </script>
 
 </body>
