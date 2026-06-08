@@ -115,5 +115,14 @@
     "image": "assets/images/nepali/buff-steamed-momo.png",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
+        },
+  {
+    "id": 801,
+    "title": "Pad Thai",
+    "category": "Nepali",
+    "file": "data/thai/pad-thai.json",
+    "image": "assets/images/thai/pad-thai.png",
+    "time": "1 hr 20 min",
+    "difficulty": "Medium"
   }
 ]
