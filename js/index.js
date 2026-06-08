@@ -1,61 +1,85 @@
 let allRecipes = [];
 let heroImages = [];
 let heroIndex = 0;
+let activeCategory = "All";
 
-/* LOAD DATA */
+/* LOAD EVERYTHING */
 document.addEventListener("DOMContentLoaded", async () => {
 
-  try {
-    const res = await fetch("./data/index.json");
-    allRecipes = await res.json();
+  const res = await fetch("./data/index.json");
+  allRecipes = await res.json();
 
-    buildHeroImages(allRecipes);
-    startHeroSlider();
-    renderRecipes(allRecipes);
+  buildHeroImages(allRecipes);
+  startHeroSlider();
 
-  } catch (err) {
-    console.log("Error loading data:", err);
-  }
+  renderFilters();
+  renderRecipes(allRecipes);
+
+  document.getElementById("search").addEventListener("input", filterRecipes);
 });
 
 
-/* AUTO BUILD HERO IMAGES FROM index.json */
+/* HERO FROM JSON */
 function buildHeroImages(recipes) {
-
-  heroImages = [...new Set(
-    recipes
-      .map(r => r.image)
-      .filter(img => img && img.includes("assets/images"))
-  )];
-
+  heroImages = [...new Set(recipes.map(r => r.image).filter(Boolean))];
 }
 
 
 /* HERO SLIDER */
 function startHeroSlider() {
-
   const hero = document.getElementById("heroSlide");
-  if (!hero || heroImages.length === 0) return;
 
-  function updateHero() {
+  function update() {
     hero.style.backgroundImage = `url('${heroImages[heroIndex]}')`;
-
-    heroIndex++;
-    if (heroIndex >= heroImages.length) {
-      heroIndex = 0;
-    }
+    heroIndex = (heroIndex + 1) % heroImages.length;
   }
 
-  updateHero();
-  setInterval(updateHero, 3000);
+  update();
+  setInterval(update, 3000);
 }
 
 
-/* SCROLL DOWN */
+/* SCROLL DOWN (MAIN REVEAL) */
 function scrollDown() {
-  const main = document.getElementById("main");
-  main.style.display = "block";
-  main.scrollIntoView({ behavior: "smooth" });
+  document.getElementById("main").style.display = "block";
+  document.getElementById("main").scrollIntoView({ behavior: "smooth" });
+}
+
+
+/* FILTER BUTTONS */
+function renderFilters() {
+  const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
+
+  document.getElementById("filters").innerHTML =
+    categories.map(c => `
+      <button onclick="setCategory(event,'${c}')">${c}</button>
+    `).join("");
+}
+
+
+/* SET CATEGORY */
+function setCategory(e, cat) {
+  activeCategory = cat;
+
+  document.querySelectorAll(".filters button")
+    .forEach(b => b.classList.remove("active"));
+
+  e.target.classList.add("active");
+
+  filterRecipes();
+}
+
+
+/* SEARCH + FILTER */
+function filterRecipes() {
+  const search = document.getElementById("search").value.toLowerCase();
+
+  const filtered = allRecipes.filter(r =>
+    (activeCategory === "All" || r.category === activeCategory) &&
+    r.title.toLowerCase().includes(search)
+  );
+
+  renderRecipes(filtered);
 }
 
 
