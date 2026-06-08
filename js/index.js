@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   render();
 
-  setInterval(rotateWave, 3200);
+  setInterval(rotate, 2500);
 });
 
-/* RENDER */
+/* RENDER STACK */
 function render(){
 
   const stack = document.getElementById("stack");
@@ -28,11 +28,11 @@ function render(){
     stack.appendChild(el);
   });
 
-  apply();
+  applyPositions();
 }
 
-/* APPLY POSITIONS */
-function apply(){
+/* APPLY POSITIONS (NO LOGIC CHANGE HERE) */
+function applyPositions(){
 
   const cards = document.querySelectorAll(".card");
 
@@ -40,38 +40,21 @@ function apply(){
 
   cards.forEach((card,i)=>{
     card.className = "card";
-    card.classList.add(layout[i]);
+
+    // stagger visual animation only (NOT logic)
+    setTimeout(()=>{
+      card.classList.add(layout[i]);
+    }, i * 60);
   });
 }
 
-/* 🌊 WAVE ROTATION (SEQUENTIAL TIMING) */
-function rotateWave(){
+/* ✅ FIXED ROTATION (NO SWAPPING, NO CENTER BREAK) */
+function rotate(){
 
-  const steps = [
-    [0,1], // L3 → L2
-    [1,2], // L2 → L1
-    [2,3], // L1 → CENTER
-    [3,4], // CENTER → R1
-    [4,5], // R1 → R2
-    [5,6], // R2 → R3
-    [6,0]  // R3 → L3
-  ];
+  // PURE CIRCULAR SHIFT ONLY
+  const last = order.pop();
+  order.unshift(last);
 
-  let delay = 0;
-
-  steps.forEach(([from,to]) => {
-
-    setTimeout(() => {
-
-      // swap images step-by-step
-      const temp = order[to];
-      order[to] = order[from];
-      order[from] = temp;
-
-      apply();
-
-    }, delay);
-
-    delay += 180; // 👈 THIS creates wave timing difference
-  });
+  // re-render with same structure
+  render();
 }
