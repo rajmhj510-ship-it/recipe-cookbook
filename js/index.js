@@ -3,9 +3,12 @@ let heroImages = [];
 let heroIndex = 0;
 let activeCategory = "All";
 let heroInterval = null;
-let appOpened = false;
 
-/* LOAD DATA */
+/* STATE */
+let appOpened = false;
+let lastScrollY = 0;
+
+/* INIT */
 document.addEventListener("DOMContentLoaded", async () => {
 
   const res = await fetch("./data/index.json");
@@ -20,10 +23,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("search").addEventListener("input", filterRecipes);
 
   window.addEventListener("scroll", handleScroll);
+  lastScrollY = window.scrollY;
 });
 
 
-/* HERO IMAGES FROM JSON */
+/* HERO IMAGES */
 function buildHeroImages(recipes) {
   heroImages = [...new Set(recipes.map(r => r.image).filter(Boolean))];
 }
@@ -44,31 +48,34 @@ function startHeroSlider() {
 }
 
 
-/* BUTTON SCROLL */
-function goToApp() {
-  document.getElementById("appSection")
-    .scrollIntoView({ behavior: "smooth" });
-
-  setTimeout(() => openApp(), 600);
-}
-
-
-/* SCROLL DETECTION */
+/* SCROLL DETECTION (UP + DOWN) */
 function handleScroll() {
-  if (appOpened) return;
 
-  const app = document.getElementById("appSection");
-  const rect = app.getBoundingClientRect();
+  const currentY = window.scrollY;
+  const hero = document.getElementById("heroSlide");
 
-  if (rect.top <= 120) {
+  const goingDown = currentY > lastScrollY;
+  const goingUp = currentY < lastScrollY;
+
+  const appSection = document.getElementById("appSection");
+  const appTop = appSection.getBoundingClientRect().top;
+
+  /* 🔽 SCROLL DOWN → ENTER APP */
+  if (goingDown && appTop <= 120 && !appOpened) {
     openApp();
   }
+
+  /* 🔼 SCROLL UP → RETURN HERO */
+  if (goingUp && currentY < 100 && appOpened) {
+    closeApp();
+  }
+
+  lastScrollY = currentY;
 }
 
 
-/* OPEN APP (HIDE HERO CLEANLY) */
+/* OPEN APP (HIDE HERO) */
 function openApp() {
-  if (appOpened) return;
   appOpened = true;
 
   if (heroInterval) clearInterval(heroInterval);
@@ -77,11 +84,37 @@ function openApp() {
 
   hero.style.transition = "0.6s ease";
   hero.style.opacity = "0";
-  hero.style.transform = "translateY(-40px)";
+  hero.style.transform = "translateY(-50px)";
 
   setTimeout(() => {
     hero.style.display = "none";
   }, 500);
+}
+
+
+/* CLOSE APP (RESTORE HERO) */
+function closeApp() {
+  appOpened = false;
+
+  const hero = document.getElementById("heroSlide");
+
+  hero.style.display = "flex";
+
+  setTimeout(() => {
+    hero.style.opacity = "1";
+    hero.style.transform = "translateY(0)";
+  }, 50);
+
+  startHeroSlider();
+}
+
+
+/* BUTTON SCROLL */
+function goToApp() {
+  document.getElementById("appSection")
+    .scrollIntoView({ behavior: "smooth" });
+
+  setTimeout(() => openApp(), 600);
 }
 
 
@@ -109,7 +142,7 @@ function setCategory(e, cat) {
 }
 
 
-/* SEARCH + FILTER */
+/* SEARCH */
 function filterRecipes() {
   const search = document.getElementById("search").value.toLowerCase();
 
@@ -122,7 +155,7 @@ function filterRecipes() {
 }
 
 
-/* RENDER RECIPES */
+/* RENDER */
 function renderRecipes(list) {
   document.getElementById("list").innerHTML = list.map(r => `
     <div class="card" onclick="openRecipe('${r.file}')">
