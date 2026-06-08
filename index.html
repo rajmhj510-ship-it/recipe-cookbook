@@ -15,38 +15,59 @@ color:#fff;
 
 /* HEADER */
 header{
-display:flex;
-flex-direction:column;
-gap:10px;
-padding:15px;
+padding:16px;
 background:#111827;
 position:sticky;
 top:0;
 z-index:10;
 }
 
-.top-bar{
+.top{
 display:flex;
 align-items:center;
 gap:10px;
 }
 
-header img{
+.top img{
 width:42px;
 height:42px;
 border-radius:10px;
 }
 
-h2{
-margin:0;
+.top h2{
 font-size:18px;
+margin:0;
+}
+
+/* HERO BANNER */
+.hero{
+margin:10px 16px;
+padding:18px;
+border-radius:16px;
+background:linear-gradient(135deg,#1b2430,#0f172a);
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.hero h3{
+margin:0;
+font-size:16px;
+}
+
+.hero p{
+margin:6px 0 0;
+opacity:0.7;
+font-size:13px;
 }
 
 /* SEARCH */
+.search-box{
+margin-top:12px;
+}
+
 .search-box input{
 width:100%;
 padding:12px;
-border-radius:10px;
+border-radius:12px;
 border:none;
 outline:none;
 background:#1b2430;
@@ -54,22 +75,30 @@ color:#fff;
 font-size:14px;
 }
 
-/* FILTERS */
+/* CATEGORY CHIPS */
 .filters{
 display:flex;
-flex-wrap:wrap;
 gap:8px;
+overflow-x:auto;
+padding:12px 16px;
+scroll-snap-type:x mandatory;
+}
+
+.filters::-webkit-scrollbar{
+display:none;
 }
 
 .filters button{
+flex:0 0 auto;
 padding:8px 14px;
-border:none;
 border-radius:20px;
+border:none;
 background:#1b2430;
 color:#fff;
-cursor:pointer;
 font-size:12px;
+cursor:pointer;
 transition:0.2s;
+scroll-snap-align:start;
 }
 
 .filters button:hover{
@@ -84,7 +113,7 @@ color:#000;
 
 /* GRID */
 .container{
-padding:18px;
+padding:16px;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
 gap:14px;
@@ -97,12 +126,12 @@ border-radius:16px;
 overflow:hidden;
 cursor:pointer;
 transition:0.25s;
-box-shadow:0 6px 18px rgba(0,0,0,0.4);
+box-shadow:0 8px 20px rgba(0,0,0,0.4);
 }
 
 .card:hover{
 transform:translateY(-6px);
-box-shadow:0 12px 30px rgba(0,0,0,0.6);
+box-shadow:0 15px 30px rgba(0,0,0,0.6);
 }
 
 .card img{
@@ -127,19 +156,22 @@ opacity:0.7;
 <body>
 
 <header>
-
-<div class="top-bar">
+<div class="top">
 <img src="./logo.png">
 <h2>Recipe Cookbook</h2>
 </div>
 
+<div class="hero">
+<h3>Cook like a chef 👨‍🍳</h3>
+<p>Explore global recipes and step-by-step cooking guides</p>
+
 <div class="search-box">
 <input type="text" id="search" placeholder="Search recipes...">
 </div>
+</div>
+</header>
 
 <div class="filters" id="filters"></div>
-
-</header>
 
 <div class="container" id="list">Loading...</div>
 
@@ -150,9 +182,6 @@ let activeCategory = "All";
 
 document.addEventListener("DOMContentLoaded", async () => {
 
-const container = document.getElementById("list");
-
-try {
 const res = await fetch("./data/index.json");
 allRecipes = await res.json();
 
@@ -160,10 +189,6 @@ renderFilters();
 renderRecipes(allRecipes);
 
 document.getElementById("search").addEventListener("input", filterRecipes);
-
-} catch (err) {
-container.innerHTML = "❌ Failed to load recipes";
-}
 });
 
 function renderFilters(){
@@ -171,7 +196,7 @@ const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
 
 document.getElementById("filters").innerHTML =
 categories.map(c => `
-<button onclick="setCategory(event, '${c}')" class="${c==='All'?'active':''}">
+<button onclick="setCategory(event,'${c}')" class="${c==='All'?'active':''}">
 ${c}
 </button>
 `).join("");
@@ -184,14 +209,13 @@ document.querySelectorAll(".filters button")
 .forEach(b => b.classList.remove("active"));
 
 e.target.classList.add("active");
-
 filterRecipes();
 }
 
 function filterRecipes(){
 const search = document.getElementById("search").value.toLowerCase();
 
-let filtered = allRecipes.filter(r =>
+const filtered = allRecipes.filter(r =>
 (activeCategory === "All" || r.category === activeCategory)
 && r.title.toLowerCase().includes(search)
 );
@@ -214,7 +238,6 @@ container.innerHTML = list.map(r => `
 function openRecipe(file){
 window.location.href = "recipe.html?file=" + encodeURIComponent(file);
 }
-
 </script>
 
 </body>
