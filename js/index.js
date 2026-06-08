@@ -13,24 +13,24 @@ document.addEventListener("DOMContentLoaded", async () => {
   setInterval(rotate, 2500);
 });
 
-/* RENDER 7 VISIBLE CARDS */
+/* BUILD STACK */
 function render(){
 
-  const c = document.getElementById("carousel");
-  c.innerHTML = "";
+  const stack = document.getElementById("stack");
+  stack.innerHTML = "";
 
   for(let i=0;i<7;i++){
     const img = document.createElement("img");
     img.src = images[(index + i) % images.length];
     img.className = "card";
-    c.appendChild(img);
+    stack.appendChild(img);
   }
 
-  applyClasses();
+  applyPositions();
 }
 
-/* APPLY POSITION CLASSES */
-function applyClasses(){
+/* APPLY FIXED POSITIONS (NO RANDOM) */
+function applyPositions(){
 
   const cards = document.querySelectorAll(".card");
 
@@ -38,31 +38,19 @@ function applyClasses(){
 
     card.className = "card";
 
-    if(i === 3){
-      card.classList.add("center");
-    }
-    else if(i === 0){
-      card.classList.add("left-3");
-    }
-    else if(i === 1){
-      card.classList.add("left-2");
-    }
-    else if(i === 2){
-      card.classList.add("left-1");
-    }
-    else if(i === 4){
-      card.classList.add("right-1");
-    }
-    else if(i === 5){
-      card.classList.add("right-2");
-    }
-    else if(i === 6){
-      card.classList.add("right-3");
-    }
+    if(i === 3) card.classList.add("center");
+
+    else if(i === 2) card.classList.add("l1");
+    else if(i === 1) card.classList.add("l2");
+    else if(i === 0) card.classList.add("l3");
+
+    else if(i === 4) card.classList.add("r1");
+    else if(i === 5) card.classList.add("r2");
+    else if(i === 6) card.classList.add("r3");
   });
 }
 
-/* ROTATION (LEFT → RIGHT SHIFT) */
+/* ROTATE LEFT → RIGHT SHIFT */
 function rotate(){
   index = (index + 1) % images.length;
   render();
