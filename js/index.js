@@ -45,22 +45,20 @@ function startHeroSlider() {
 }
 
 
-/* STABLE SCROLL SYSTEM (INTERSECTION OBSERVER) */
+/* STABLE SCROLL SYSTEM */
 function setupObserver() {
   const hero = document.getElementById("heroSlide");
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-
       if (entry.isIntersecting) {
-        closeApp();   // hero visible
+        closeApp();
       } else {
-        openApp();    // hero hidden
+        openApp();
       }
-
     });
   }, {
-    threshold: 0.6
+    threshold: 0.75
   });
 
   observer.observe(hero);
@@ -89,7 +87,7 @@ function closeApp() {
 }
 
 
-/* BUTTON SCROLL */
+/* SCROLL BUTTON */
 function goToApp() {
   document.getElementById("appSection")
     .scrollIntoView({ behavior: "smooth" });
