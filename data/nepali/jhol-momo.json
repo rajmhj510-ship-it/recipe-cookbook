@@ -1,0 +1,83 @@
+{
+  "id": 701,
+  "title": "Jhol Mo:Mo (Soup Mo:Mo)",
+  "category": "Nepali",
+  "time": "45 min",
+  "difficulty": "",
+  "image": "assets/images/nepali/jhol-momo.png",
+
+  "ingredients": [
+    {
+      "title": "For the Jhol (Soup Broth)",
+      "items": [
+        "Tomatoes – 3 large, roasted or boiled",
+        "Onion – 1 medium, chopped",
+        "Garlic – 5 cloves",
+        "Ginger – 1 inch piece",
+        "Dry red chilies – 3–5 (adjust spice)",
+        "Roasted sesame seeds – 3 tbsp",
+        "Roasted peanuts (optional) – 2 tbsp",
+        "Mustard oil – 1 tbsp (for authentic Nepali flavor)",
+        "Salt – to taste",
+        "Timur (Sichuan pepper) – ½ tsp (ground)",
+        "Soy sauce – ½ tsp (optional, modern twist)",
+        "Lemon juice – 1 tsp",
+        "Fresh coriander – for garnish",
+        "Warm water or light chicken stock – 2 cups"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Roast Base Ingredients",
+      "steps": [
+        "Dry roast sesame seeds, peanuts, and chilies until aromatic."
+      ]
+    },
+    {
+      "title": "Blend",
+      "steps": [
+        "In a blender, combine roasted items with tomatoes, onion, garlic, ginger, salt, and water/stock.",
+        "Blend into a smooth soup-like texture."
+      ]
+    },
+    {
+      "title": "Cook Jhol",
+      "steps": [
+        "Heat mustard oil in a pan, pour in the blended mixture, and simmer for 10–15 minutes on low heat until aroma deepens.",
+        "Let the oil slightly separate and adjust consistency to a thick but pourable broth."
+      ]
+    },
+    {
+      "title": "Season",
+      "steps": [
+        "Add Timur, soy sauce, and lemon juice.",
+        "Taste and adjust salt and spice as needed."
+      ]
+    },
+    {
+      "title": "Assemble Jhol Mo:Mo",
+      "steps": [
+        "Place 6–8 steamed momos in a deep bowl.",
+        "Pour hot jhol (broth) over them generously.",
+        "Garnish with fresh coriander and a drizzle of chili oil."
+      ]
+    },
+    {
+      "title": "Presentation Tips",
+      "steps": [
+        "Use a deep stone or wooden bowl for rustic appeal.",
+        "Float sesame seeds or chopped herbs on top.",
+        "Serve immediately so momos remain juicy and not over-soaked."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Roasting sesame seeds and chilies deeply enhances flavor.",
+    "Mustard oil gives authentic Nepali aroma—don’t skip if possible.",
+    "Adjust thickness: jhol should coat momos but still be drinkable.",
+    "Fresh timur is key for authentic tingling spice flavor."
+  ]
+}
