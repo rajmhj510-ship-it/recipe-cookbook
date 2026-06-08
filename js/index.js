@@ -13,16 +13,16 @@ document.addEventListener("DOMContentLoaded", async () => {
   createCards();
   applyPositions();
 
-  setInterval(rotate, 2600);
+  setInterval(rotateLeftFlow, 2500);
 });
 
-/* CREATE ONCE ONLY (IMPORTANT FIX) */
+/* CREATE ONCE */
 function createCards(){
 
   const stack = document.getElementById("stack");
   stack.innerHTML = "";
 
-  order.forEach(img => {
+  order.forEach(img=>{
     const el = document.createElement("img");
     el.src = img;
     el.className = "card";
@@ -30,37 +30,34 @@ function createCards(){
   });
 }
 
-/* APPLY POSITIONS WITHOUT RECREATING */
+/* APPLY POSITIONS */
 function applyPositions(){
 
   const cards = document.querySelectorAll(".card");
 
-  const layout = ["l3","l2","l1","center","r1","r2","r3"];
+  const layout = [
+    "l3",
+    "l2",
+    "l1",
+    "center",
+    "r1",
+    "r2",
+    "r3"
+  ];
 
   cards.forEach((card,i)=>{
-    card.classList.remove("l3","l2","l1","center","r1","r2","r3");
-
-    // stagger effect ONLY (visual)
-    setTimeout(()=>{
-      card.classList.add(layout[i]);
-    }, i * 80);
+    card.className = "card";
+    card.classList.add(layout[i]);
   });
 }
 
-/* REAL SMOOTH ROTATION */
-function rotate(){
+/* ✅ CORRECT FLOW ROTATION */
+function rotateLeftFlow(){
 
-  // shift data
+  // L3 → L2 → L1 → CENTER → R1 → R2 → R3 → L3
+
   const last = order.pop();
   order.unshift(last);
-
-  // re-map WITHOUT DOM rebuild
-  const cards = document.querySelectorAll(".card");
-
-  // rotate DOM order logically
-  cards.forEach((card, i) => {
-    card.style.order = i;
-  });
 
   applyPositions();
 }
