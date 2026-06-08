@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stable Carousel FIXED</title>
+<title>Fresh Carousel</title>
 
 <style>
 body{
 margin:0;
-background:#fff;
+background:#ffffff;
 overflow:hidden;
 }
 
@@ -29,10 +29,11 @@ border-radius:18px;
 object-fit:cover;
 box-shadow:0 15px 40px rgba(0,0,0,0.15);
 
-/* IMPORTANT SMOOTH MOTION */
-transition: all 0.8s cubic-bezier(0.22,1,0.36,1);
+/* smooth animation */
+transition: transform 0.8s ease, filter 0.8s ease;
+will-change: transform;
 
-/* ALL BW BY DEFAULT */
+/* default BW */
 filter:grayscale(1);
 }
 </style>
@@ -42,7 +43,7 @@ filter:grayscale(1);
 
 <div class="stack" id="stack"></div>
 
-<script src="./js/index.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
