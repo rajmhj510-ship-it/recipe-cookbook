@@ -3,7 +3,7 @@ let heroImages = [];
 let heroIndex = 0;
 let activeCategory = "All";
 
-/* LOAD EVERYTHING */
+/* LOAD DATA */
 document.addEventListener("DOMContentLoaded", async () => {
 
   const res = await fetch("./data/index.json");
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 
-/* HERO FROM JSON */
+/* HERO IMAGES FROM index.json */
 function buildHeroImages(recipes) {
   heroImages = [...new Set(recipes.map(r => r.image).filter(Boolean))];
 }
@@ -27,7 +27,8 @@ function buildHeroImages(recipes) {
 
 /* HERO SLIDER */
 function startHeroSlider() {
-  const hero = document.getElementById("heroSlide");
+  const hero = document.getElementById("hero");
+  if (!hero || heroImages.length === 0) return;
 
   function update() {
     hero.style.backgroundImage = `url('${heroImages[heroIndex]}')`;
@@ -39,14 +40,14 @@ function startHeroSlider() {
 }
 
 
-/* SCROLL DOWN (MAIN REVEAL) */
-function scrollDown() {
+/* ENTER APP (HERO DISAPPEARS COMPLETELY) */
+function enterApp() {
+  document.getElementById("hero").style.display = "none";
   document.getElementById("main").style.display = "block";
-  document.getElementById("main").scrollIntoView({ behavior: "smooth" });
 }
 
 
-/* FILTER BUTTONS */
+/* FILTERS */
 function renderFilters() {
   const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
 
