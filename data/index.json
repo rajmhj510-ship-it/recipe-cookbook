@@ -88,5 +88,14 @@
     "image": "assets/images/italian/chicken-cacciatore.png",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
+    },
+  {
+    "id": 601,
+    "title": "Chimichanga",
+    "category": "Italian",
+    "file": "data/italian/chicken-cacciatore.json",
+    "image": "assets/images/mexican/chimichanga.png",
+    "time": "1 hr 20 min",
+    "difficulty": "Medium"
   }
 ]
