@@ -1,12 +1,13 @@
 let images = [];
+let startIndex = 0;
 let cards = [];
 
-/* FIXED SLOT SYSTEM */
+/* FIXED SLOT MAP */
 const slots = [
   { x: -400, scale: 0.75, gray: 0.9 }, // L3
   { x: -270, scale: 0.85, gray: 0.75 }, // L2
   { x: -140, scale: 0.95, gray: 0.6 }, // L1
-  { x: 0,    scale: 1.25, gray: 0 },   // CENTER (COLOR)
+  { x: 0,    scale: 1.25, gray: 0 },   // CENTER
   { x: 140,  scale: 0.95, gray: 0.6 }, // R1
   { x: 270,  scale: 0.85, gray: 0.75 }, // R2
   { x: 400,  scale: 0.75, gray: 0.9 }  // R3
@@ -17,53 +18,53 @@ document.addEventListener("DOMContentLoaded", async () => {
   const res = await fetch("./data/index.json");
   const data = await res.json();
 
-  images = data.slice(0, 7).map(r => r.image);
+  images = data.slice(0,7).map(r => r.image);
 
   createCards();
+
   render();
 
-  setInterval(rotate, 2500);
+  setInterval(next, 2500);
 });
 
-/* CREATE ONCE */
+/* CREATE DOM ONCE */
 function createCards(){
 
   const stack = document.getElementById("stack");
   stack.innerHTML = "";
 
-  images.forEach(src => {
+  for(let i=0;i<7;i++){
     const img = document.createElement("img");
-    img.src = src;
     img.className = "card";
     stack.appendChild(img);
-  });
+  }
 
   cards = document.querySelectorAll(".card");
 }
 
-/* APPLY POSITIONS */
+/* RENDER BASED ON INDEX OFFSET */
 function render(){
 
-  cards.forEach((card, i) => {
+  for(let i=0;i<7;i++){
+
+    const imgIndex = (startIndex + i) % images.length;
+
+    const card = cards[i];
     const s = slots[i];
 
-    card.style.transform = `
-      translateX(${s.x}px)
-      scale(${s.scale})
-    `;
+    card.src = images[imgIndex];
 
+    card.style.transform = `translateX(${s.x}px) scale(${s.scale})`;
     card.style.filter = `grayscale(${s.gray})`;
 
     card.style.zIndex = 10 - Math.abs(3 - i);
-  });
+  }
 }
 
-/* CLEAN ROTATION (NO BUGS) */
-function rotate(){
+/* 🔥 STABLE ROTATION */
+function next(){
 
-  // circular shift
-  images.unshift(images.pop());
+  startIndex = (startIndex + 1) % images.length;
 
-  // re-render safely
   render();
 }
