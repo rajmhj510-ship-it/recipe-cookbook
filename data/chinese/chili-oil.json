@@ -1,61 +1,67 @@
-[
-  {
-    "id": 203,
-    "title": "Chili Oil",
-    "category": "Chinese",
-    "time": "45 min",
-    "difficulty": "Medium",
-    "image": "/assets/images/chinese/chili-oil.png",
+{
+  "id": 203,
+  "title": "Chili Oil",
+  "category": "Chinese",
+  "time": "",
+  "difficulty": "",
+  "image": "assets/images/chinese/chili-oil.png",
 
-    "ingredients": [
-      "500g white fish fillets (cod, seabass, or tilapia)",
-      "1 tsp salt",
-      "1/2 tsp white pepper",
-      "1 tsp Shaoxing wine (optional)",
-      "2 tbsp cornstarch",
-      "3 tbsp vegetable oil",
+  "ingredients": [
+    {
+      "title": "Ingredients (Makes ~1 cup / 240ml)",
+      "items": []
+    },
+    {
+      "title": "Chili Oil Base:",
+      "items": [
+        "1 cup neutral oil (vegetable, peanut, or grapeseed oil)",
+        "1/4 cup crushed chili flakes (adjust based on heat preference, Sichuan or Korean chili works well)",
+        "1 tsp Sichuan peppercorns",
+        "2 star anise",
+        "1 small cinnamon stick",
+        "2–3 bay leaves (optional)",
+        "3 cloves garlic, smashed",
+        "1-inch piece of ginger, sliced",
+        "1 small shallot, thinly sliced",
+        "1 tsp sugar",
+        "1 tsp salt",
+        "1 tsp sesame seeds (optional, toasted)"
+      ]
+    }
+  ],
 
-      "2 tbsp vegetable oil (sauce)",
-      "5–6 dried red chilies",
-      "1 tbsp Szechuan peppercorns",
-      "3 garlic cloves, minced",
-      "1-inch ginger, minced",
-      "2 scallions",
+  "instruction": [
+    {
+      "title": "Prepare the aromatics",
+      "steps": [
+        "In a small saucepan, combine the oil with garlic, ginger, shallot, star anise, cinnamon, bay leaves, and Sichuan peppercorns. Heat over low-medium heat for about 10–15 minutes, stirring occasionally. The goal is to infuse the oil without burning the aromatics."
+      ]
+    },
+    {
+      "title": "Strain the aromatics (optional)",
+      "steps": [
+        "For a clear oil, strain the aromatics and discard them. For a rustic style, leave them in.",
+        "Place chili flakes, sugar, salt, and sesame seeds in a heatproof bowl."
+      ]
+    },
+    {
+      "title": "Heat the oil to infuse the chili",
+      "steps": [
+        "Heat the infused oil until it’s hot but not smoking (~275–300°F / 135–150°C). Carefully pour the hot oil over the chili mixture. It should sizzle immediately, releasing a fragrant aroma."
+      ]
+    },
+    {
+      "title": "Cool and store",
+      "steps": [
+        "Let the chili oil cool to room temperature, then transfer to a clean jar. It can be stored in the refrigerator for up to 1 month. The flavors will deepen over time."
+      ]
+    }
+  ],
 
-      "1/4 cup chicken or fish stock",
-      "2 tbsp soy sauce",
-      "1 tbsp black vinegar",
-      "1 tbsp Doubanjiang",
-      "1 tsp sugar",
-      "1/2 tsp sesame oil",
-      "1 tsp cornstarch slurry (optional)",
-
-      "Cilantro or scallions (garnish)",
-      "Sesame seeds (optional)"
-    ],
-
-    "steps": [
-      "Pat fish dry and season with salt, pepper, and Shaoxing wine.",
-      "Coat fish lightly with cornstarch.",
-      "Pan-fry fish until golden and crisp on both sides. Set aside.",
-
-      "Heat oil in wok and fry dried chilies and Szechuan peppercorns briefly.",
-      "Add garlic and ginger and sauté until fragrant.",
-      "Add Doubanjiang and cook briefly.",
-      "Add soy sauce, vinegar, sugar, and stock. Bring to simmer.",
-      "Add scallions and cook 1–2 minutes.",
-      "Add slurry if thicker sauce is needed.",
-      "Finish with sesame oil.",
-
-      "Pour sauce over fish and garnish with cilantro or sesame seeds.",
-      "Serve with rice or vegetables."
-    ],
-
-    "chefTips": [
-      "Keep fish dry for crisp texture.",
-      "Do not burn Szechuan peppercorns.",
-      "Balance spice with sugar and vinegar.",
-      "Serve immediately for best taste."
-    ]
-  }
-]
+  "chefTips": [
+    "Balance heat and aroma: Use half toasted chili flakes and half raw for layered flavor.",
+    "Use high-quality oil: A neutral oil with a clean taste lets the spices shine.",
+    "Infuse slowly: Low and slow heating prevents bitterness from burned spices.",
+    "Optional finishing touches: Add finely chopped fried shallots, garlic chips, or crushed toasted peanuts for texture."
+  ]
+}
