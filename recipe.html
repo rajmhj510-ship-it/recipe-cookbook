@@ -15,18 +15,19 @@ color:#fff;
 
 /* HERO */
 .hero{
-height:280px;
+height:300px;
 background-size:cover;
 background-position:center;
 position:relative;
 overflow:hidden;
 }
 
+/* DARK OVERLAY */
 .hero::after{
 content:"";
 position:absolute;
 inset:0;
-background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.3));
+background:linear-gradient(to top,#0b0f14 10%,rgba(0,0,0,0.3));
 }
 
 /* BACK BUTTON */
@@ -43,17 +44,18 @@ cursor:pointer;
 z-index:3;
 }
 
-/* FLOAT IMAGE */
+/* FLOAT IMAGE (cleaner look) */
 .hero-image-box{
 position:absolute;
 bottom:12px;
 right:12px;
-width:110px;
-height:80px;
-border-radius:10px;
+width:100px;
+height:75px;
+border-radius:12px;
 overflow:hidden;
-border:2px solid #fff;
+border:2px solid rgba(255,255,255,0.8);
 z-index:3;
+box-shadow:0 8px 20px rgba(0,0,0,0.4);
 }
 
 .hero-image-box img{
@@ -71,7 +73,7 @@ padding:15px;
 background:#151c25;
 border-radius:18px;
 padding:18px;
-margin-top:-20px;
+margin-top:-25px;
 box-shadow:0 10px 25px rgba(0,0,0,0.5);
 }
 
@@ -86,7 +88,7 @@ font-size:20px;
 display:flex;
 flex-wrap:wrap;
 gap:8px;
-margin-bottom:10px;
+margin-bottom:12px;
 }
 
 .meta span{
@@ -222,7 +224,7 @@ hero.style.backgroundImage = `url('${recipe.image}')`;
 document.getElementById("recipeImage").src = recipe.image;
 }
 
-/* INGREDIENTS */
+/* INGREDIENTS (SAFE) */
 function renderIngredient(item){
 
 if(typeof item === "string"){
@@ -234,11 +236,11 @@ return `
 `;
 }
 
-if(item.title){
+if(item && item.title){
 return `
 <div>
 <div class="section-title">${item.title}</div>
-${item.items.map(renderIngredient).join("")}
+${(item.items || []).map(renderIngredient).join("")}
 </div>
 `;
 }
@@ -248,17 +250,19 @@ return "";
 
 /* STEPS */
 function renderSteps(){
-return recipe.instruction.map(sec => `
+return (recipe.instruction || []).map(sec => `
 <div>
 <div class="section-title">${sec.title}</div>
-${sec.steps.map(s => `<div class="step" onclick="toggleStep(this)">${s}</div>`).join("")}
+${(sec.steps || []).map(s => `
+<div class="step" onclick="toggleStep(this)">${s}</div>
+`).join("")}
 </div>
 `).join("");
 }
 
 /* UI */
 content.innerHTML = `
-<h1>${recipe.title}</h1>
+<h1>${recipe.title || ""}</h1>
 
 <div class="meta">
 <span>⏱ ${recipe.time || ""}</span>
@@ -268,7 +272,7 @@ content.innerHTML = `
 
 <h3 class="section-title">Ingredients</h3>
 <div class="ingredients">
-${recipe.ingredients.map(renderIngredient).join("")}
+${(recipe.ingredients || []).map(renderIngredient).join("")}
 </div>
 
 <h3 class="section-title">Instructions</h3>
@@ -278,7 +282,7 @@ ${renderSteps()}
 
 <h3 class="section-title">Chef Tips</h3>
 <ul class="chef-tips">
-${recipe.chefTips.map(t => `<li>${t}</li>`).join("")}
+${(recipe.chefTips || []).map(t => `<li>${t}</li>`).join("")}
 </ul>
 `;
 
