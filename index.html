@@ -25,7 +25,7 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-transition:0.6s;
+transition:opacity 0.5s ease;
 }
 
 .hero::after{
@@ -47,11 +47,18 @@ border-radius:12px;
 margin-bottom:10px;
 }
 
-.hero h1{margin:0;font-size:26px;}
-.hero p{opacity:0.8}
+.hero h1{
+margin:0;
+font-size:26px;
+}
 
-/* SCROLL BUTTON */
-.scroll-down{
+.hero p{
+opacity:0.8;
+margin-top:6px;
+}
+
+/* ENTER BUTTON */
+.enter-btn{
 position:absolute;
 bottom:25px;
 z-index:2;
@@ -60,15 +67,10 @@ color:#000;
 padding:10px 16px;
 border-radius:25px;
 cursor:pointer;
-animation:bounce 1.5s infinite;
+font-weight:bold;
 }
 
-@keyframes bounce{
-0%,100%{transform:translateY(0);}
-50%{transform:translateY(-6px);}
-}
-
-/* MAIN AREA */
+/* MAIN APP */
 #main{
 display:none;
 padding:15px;
@@ -89,8 +91,8 @@ margin-bottom:10px;
 /* FILTERS */
 .filters{
 display:flex;
-gap:8px;
 flex-wrap:wrap;
+gap:8px;
 margin-bottom:15px;
 }
 
@@ -130,15 +132,21 @@ object-fit:cover;
 border-radius:10px;
 }
 
-.card h3{font-size:14px;margin:6px 0 0;}
-.card small{opacity:0.7;font-size:12px;}
+.card h3{
+font-size:14px;
+margin:6px 0 0;
+}
+
+.card small{
+opacity:0.7;
+}
 </style>
 </head>
 
 <body>
 
 <!-- HERO -->
-<div class="hero" id="heroSlide">
+<div class="hero" id="hero">
 
   <div class="hero-content">
     <img src="./logo.png" class="logo">
@@ -146,13 +154,13 @@ border-radius:10px;
     <p>Explore global recipes and step-by-step cooking guides</p>
   </div>
 
-  <div class="scroll-down" onclick="scrollDown()">
-    ⬇ Scroll Down
+  <div class="enter-btn" onclick="enterApp()">
+    Enter Recipes →
   </div>
 
 </div>
 
-<!-- MAIN -->
+<!-- MAIN APP -->
 <div id="main">
 
   <div class="search-box">
