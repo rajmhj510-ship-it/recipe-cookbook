@@ -9,33 +9,61 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   images = [...new Set(data.map(r => r.image))];
 
-  buildRow();
-  startStack();
+  render();
+  setInterval(rotate, 2500);
 });
 
-/* BUILD ROW */
-function buildRow(){
-  const row = document.getElementById("stackRow");
+/* RENDER 7 VISIBLE CARDS */
+function render(){
 
-  row.innerHTML = images.slice(0,7).map(img =>
-    `<img src="${img}">`
-  ).join("");
-}
+  const c = document.getElementById("carousel");
+  c.innerHTML = "";
 
-/* ROTATION */
-function startStack(){
-
-  const cards = document.querySelectorAll("#stackRow img");
-
-  function update(){
-
-    cards.forEach((card,i)=>{
-      card.classList.toggle("active", i === index);
-    });
-
-    index = (index + 1) % cards.length;
+  for(let i=0;i<7;i++){
+    const img = document.createElement("img");
+    img.src = images[(index + i) % images.length];
+    img.className = "card";
+    c.appendChild(img);
   }
 
-  update();
-  setInterval(update, 2000);
+  applyClasses();
+}
+
+/* APPLY POSITION CLASSES */
+function applyClasses(){
+
+  const cards = document.querySelectorAll(".card");
+
+  cards.forEach((card,i)=>{
+
+    card.className = "card";
+
+    if(i === 3){
+      card.classList.add("center");
+    }
+    else if(i === 0){
+      card.classList.add("left-3");
+    }
+    else if(i === 1){
+      card.classList.add("left-2");
+    }
+    else if(i === 2){
+      card.classList.add("left-1");
+    }
+    else if(i === 4){
+      card.classList.add("right-1");
+    }
+    else if(i === 5){
+      card.classList.add("right-2");
+    }
+    else if(i === 6){
+      card.classList.add("right-3");
+    }
+  });
+}
+
+/* ROTATION (LEFT → RIGHT SHIFT) */
+function rotate(){
+  index = (index + 1) % images.length;
+  render();
 }
