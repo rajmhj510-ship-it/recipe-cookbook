@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 
-/* HERO IMAGES FROM JSON */
+/* HERO IMAGES */
 function buildHeroImages(recipes) {
   heroImages = [...new Set(recipes.map(r => r.image).filter(Boolean))];
 }
@@ -45,7 +45,7 @@ function startHeroSlider() {
 }
 
 
-/* STABLE SCROLL SYSTEM */
+/* SCROLL CONTROL */
 function setupObserver() {
   const hero = document.getElementById("heroSlide");
 
@@ -131,7 +131,7 @@ function filterRecipes() {
 }
 
 
-/* RENDER RECIPES */
+/* RENDER */
 function renderRecipes(list) {
   document.getElementById("list").innerHTML = list.map(r => `
     <div class="card" onclick="openRecipe('${r.file}')">
