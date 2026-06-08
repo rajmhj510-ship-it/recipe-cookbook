@@ -1,0 +1,88 @@
+{
+  "id": 702,
+  "title": "Buff Steamed Mo:Mo",
+  "category": "Nepali",
+  "time": "",
+  "difficulty": "",
+  "image": "assets/images/nepali/buff-steamed-momo.png",
+
+  "ingredients": [
+    {
+      "title": "Buff Filling",
+      "items": [
+        "Buff mince (water buffalo) — 500 g, finely ground",
+        "Onion — 1 medium, very finely chopped",
+        "Spring onion greens — 1 cup, chopped",
+        "Fresh ginger — 1 tbsp, minced",
+        "Fresh garlic — 1 tbsp, minced",
+        "Green chili — 1–2, minced (optional)",
+        "Fresh coriander — 2 tbsp, chopped",
+        "Salt — 1 tsp (adjust to taste)",
+        "Timur (Sichuan pepper) — ½ tsp, crushed",
+        "Cumin powder — ½ tsp",
+        "Coriander powder — 1 tsp",
+        "Garam masala — ½ tsp",
+        "Nepalese momo masala (optional) — 1 tsp",
+        "Tomato — ½ small, grated or finely minced",
+        "Oil (mustard or neutral) — 3 tbsp",
+        "Soy sauce (optional, hotel style) — 1 tsp",
+        "Cold water or stock — 2–3 tbsp"
+      ]
+    },
+    {
+      "title": "Dough (Wrapper)",
+      "items": [
+        "All-purpose flour — 2 cups",
+        "Salt — ½ tsp",
+        "Water — as needed (lukewarm)",
+        "A touch of oil — 1 tsp"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Dough",
+      "steps": [
+        "Mix flour + salt + oil.",
+        "Add water slowly and knead into a smooth, tight dough.",
+        "Cover and rest for 20–25 minutes.",
+        "Resting helps gluten form and makes wrappers stretch without tearing."
+      ]
+    },
+    {
+      "title": "Filling",
+      "steps": [
+        "Combine minced buff with all filling ingredients.",
+        "Mix well by hand to activate proteins.",
+        "Keep cold until shaping.",
+        "Cold filling prevents fat from melting early and keeps momos juicy."
+      ]
+    },
+    {
+      "title": "Shaping",
+      "steps": [
+        "Divide dough into small balls (approx. 10–12 g each).",
+        "Roll into thin edges with slightly thicker center wrappers.",
+        "Fill with 1 tbsp meat.",
+        "Fold into pleat style (round or half-moon).",
+        "Thin edges give elegant restaurant-style finish."
+      ]
+    },
+    {
+      "title": "Steaming",
+      "steps": [
+        "Grease steamer tray or line with cabbage leaves.",
+        "Arrange momos leaving space between each.",
+        "Steam on high heat for 10–12 minutes (do not oversteam)."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Keep dough stiff and roll wrappers fresh for best texture.",
+    "Add a little water or stock in filling for juiciness.",
+    "Use Timur for authentic Nepali flavor.",
+    "Never over-steam — momos should be glossy, not wrinkled."
+  ]
+}
