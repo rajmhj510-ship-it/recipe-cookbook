@@ -3,16 +3,19 @@ let activeCategory = "All";
 
 /* HERO IMAGES FROM ALL FOLDERS */
 const heroImages = [
+  "assets/images/arabic/chicken-shawarma.png",
   "assets/images/arabic/falafel.png",
   "assets/images/arabic/hummus.png",
   "assets/images/chinese/kung-pao-chicken.png",
-  "assets/images/chinese/szechuan-fish.png",
+  "assets/images/chinese/fish-szechuan-sauce.png",
+  "assets/images/chinese/chili-oil.png",
   "assets/images/continental/pancakes.png",
   "assets/images/continental/fried-fish-with-tartar-sauce.png",
-  "assets/images/indian/butter-chicken.png",
-  "assets/images/italian/pasta.png",
+  "assets/images/indian/chicken-chettinad.png",
+  "assets/images/italian/chicken-cacciatore.png",
   "assets/images/mexican/chimichanga.png",
-  "assets/images/nepali/momo.png",
+  "assets/images/nepali/buff-steamed-momo.png",
+  "assets/images/nepali/jhol-momo.png",
   "assets/images/thai/pad-thai.png"
 ];
 
