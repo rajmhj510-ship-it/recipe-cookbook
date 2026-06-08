@@ -8,22 +8,20 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   images = [...new Set(data.map(r => r.image))];
 
-  // ensure 7 items
   order = images.slice(0, 7);
 
   render();
 
-  setInterval(rotate, 2500);
+  setInterval(rotateWave, 3000);
 });
 
-/* RENDER STACK */
+/* RENDER */
 function render(){
 
   const stack = document.getElementById("stack");
   stack.innerHTML = "";
 
-  order.forEach((img, i) => {
-
+  order.forEach(img => {
     const el = document.createElement("img");
     el.src = img;
     el.className = "card";
@@ -33,31 +31,48 @@ function render(){
   applyPositions();
 }
 
-/* APPLY POSITIONS + DEPTH */
+/* APPLY POSITIONS */
 function applyPositions(){
 
   const cards = document.querySelectorAll(".card");
 
-  const classes = [
-    "l3", "l2", "l1", "center", "r1", "r2", "r3"
-  ];
+  const layout = ["l3","l2","l1","center","r1","r2","r3"];
 
-  cards.forEach((card, i) => {
-
-    // reset class first
+  cards.forEach((card,i)=>{
     card.className = "card";
-
-    setTimeout(() => {
-      card.classList.add(classes[i]);
-    }, i * 70); // 🔥 staggered smooth effect
+    card.classList.add(layout[i]);
   });
 }
 
-/* ROTATION (CIRCULAR SHIFT) */
-function rotate(){
+/* 🌊 WAVE ROTATION (STAGGERED) */
+function rotateWave(){
 
-  const last = order.pop();
-  order.unshift(last);
+  const cards = document.querySelectorAll(".card");
 
-  render();
+  const steps = [
+    [0,1], // L3 → L2
+    [1,2], // L2 → L1
+    [2,3], // L1 → CENTER
+    [3,4], // CENTER → R1
+    [4,5], // R1 → R2
+    [5,6], // R2 → R3
+    [6,0]  // R3 → L3
+  ];
+
+  let delay = 0;
+
+  steps.forEach(([from,to])=>{
+    setTimeout(()=>{
+
+      // swap images
+      const temp = order[to];
+      order[to] = order[from];
+      order[from] = temp;
+
+      applyPositions();
+
+    }, delay);
+
+    delay += 180; // 👈 stagger timing (wave effect)
+  });
 }
