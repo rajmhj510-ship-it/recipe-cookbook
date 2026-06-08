@@ -37,7 +37,6 @@ border-radius:8px;
 /* HERO */
 .hero{
 height:100vh;
-width:100%;
 position:relative;
 overflow:hidden;
 }
@@ -49,7 +48,7 @@ object-fit:cover;
 filter:brightness(0.55);
 }
 
-/* OVERLAY CONTENT */
+/* OVERLAY */
 .overlay{
 position:absolute;
 top:50%;
@@ -63,7 +62,7 @@ width:90%;
 width:80px;
 height:80px;
 border-radius:12px;
-margin-bottom:15px;
+margin-bottom:12px;
 }
 
 .overlay h1{
@@ -77,20 +76,102 @@ opacity:0.85;
 line-height:1.5;
 }
 
-/* SCROLL INDICATOR */
+/* SCROLL BUTTON */
 .scroll-down{
 position:absolute;
 bottom:25px;
 left:50%;
 transform:translateX(-50%);
 font-size:12px;
-opacity:0.8;
+opacity:0.85;
+cursor:pointer;
 animation:bounce 1.5s infinite;
 }
 
 @keyframes bounce{
 0%,100%{transform:translate(-50%,0);}
 50%{transform:translate(-50%,8px);}
+}
+
+/* CONTENT SECTION */
+#contentSection{
+padding-top:70px;
+}
+
+/* SEARCH */
+.search-box{
+padding:15px;
+}
+
+.search-box input{
+width:100%;
+padding:12px;
+border-radius:10px;
+border:none;
+outline:none;
+background:#1b2430;
+color:#fff;
+}
+
+/* FILTERS */
+.filters{
+display:flex;
+gap:8px;
+overflow-x:auto;
+padding:10px 15px;
+}
+
+.filters button{
+flex:0 0 auto;
+padding:8px 14px;
+border:none;
+border-radius:20px;
+background:#1b2430;
+color:#fff;
+font-size:12px;
+cursor:pointer;
+}
+
+.filters button.active{
+background:#ffcc70;
+color:#000;
+}
+
+/* GRID */
+.container{
+padding:15px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+gap:12px;
+}
+
+.card{
+background:#151c25;
+border-radius:14px;
+overflow:hidden;
+cursor:pointer;
+transition:0.2s;
+}
+
+.card:hover{
+transform:scale(1.03);
+}
+
+.card img{
+width:100%;
+height:120px;
+object-fit:cover;
+}
+
+.card h3{
+font-size:14px;
+margin:8px;
+}
+
+.card small{
+margin:0 8px 10px;
+display:block;
+opacity:0.7;
 }
 </style>
 </head>
@@ -109,17 +190,102 @@ animation:bounce 1.5s infinite;
 <source src="assets/video/food.mp4" type="video/mp4">
 </video>
 
-<!-- OVERLAY -->
 <div class="overlay">
-<img src="./logo.png" alt="logo">
+<img src="./logo.png">
 <h1>Cook like a chef 👨‍🍳</h1>
 <p>Explore global recipes and step-by-step cooking guides</p>
 </div>
 
-<!-- SCROLL -->
-<div class="scroll-down">⬇ Scroll down</div>
+<div class="scroll-down" onclick="scrollDown()">
+⬇ Scroll down
+</div>
 
 </div>
+
+<!-- CONTENT SECTION -->
+<div id="contentSection">
+
+<div class="search-box">
+<input type="text" id="search" placeholder="Search recipes...">
+</div>
+
+<div class="filters" id="filters"></div>
+
+<div class="container" id="list">Loading...</div>
+
+</div>
+
+<script>
+
+let allRecipes = [];
+let activeCategory = "All";
+
+document.addEventListener("DOMContentLoaded", async () => {
+
+const res = await fetch("./data/index.json");
+allRecipes = await res.json();
+
+renderFilters();
+renderRecipes(allRecipes);
+
+document.getElementById("search").addEventListener("input", filterRecipes);
+});
+
+function scrollDown(){
+document.getElementById("contentSection").scrollIntoView({
+behavior: "smooth"
+});
+}
+
+function renderFilters(){
+const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
+
+document.getElementById("filters").innerHTML =
+categories.map(c => `
+<button onclick="setCategory(event,'${c}')" class="${c==='All'?'active':''}">
+${c}
+</button>
+`).join("");
+}
+
+function setCategory(e, cat){
+activeCategory = cat;
+
+document.querySelectorAll(".filters button")
+.forEach(b => b.classList.remove("active"));
+
+e.target.classList.add("active");
+
+filterRecipes();
+}
+
+function filterRecipes(){
+const search = document.getElementById("search").value.toLowerCase();
+
+let filtered = allRecipes.filter(r =>
+(activeCategory === "All" || r.category === activeCategory) &&
+r.title.toLowerCase().includes(search)
+);
+
+renderRecipes(filtered);
+}
+
+function renderRecipes(list){
+document.getElementById("list").innerHTML =
+list.map(r => `
+<div class="card" onclick="openRecipe('${r.file}')">
+<img src="${r.image}">
+<h3>${r.title}</h3>
+<small>${r.category}</small>
+</div>
+`).join("");
+}
+
+function openRecipe(file){
+window.location.href = "recipe.html?file=" + encodeURIComponent(file);
+}
+
+</script>
 
 </body>
 </html>
