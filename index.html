@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Recipe Stack Carousel</title>
+<title>Stack Carousel</title>
 
 <style>
 body{
@@ -13,7 +13,7 @@ overflow:hidden;
 font-family:Arial;
 }
 
-/* STACK AREA */
+/* CENTER STAGE */
 .stack{
 position:relative;
 width:100%;
@@ -28,58 +28,64 @@ align-items:center;
 position:absolute;
 width:220px;
 height:300px;
-object-fit:cover;
 border-radius:18px;
-transition:all 0.6s ease;
+object-fit:cover;
 box-shadow:0 15px 40px rgba(0,0,0,0.15);
 
-/* IMPORTANT: NO TRANSPARENCY */
-opacity:1;
+/* smooth animation */
+transition: transform 0.8s ease, filter 0.8s ease;
+will-change: transform;
 }
 
-/* CENTER (BIG + COLOR) */
+/* =========================
+   CENTER (FOCUS)
+========================= */
 .center{
-transform:translateX(0) scale(1.2);
+transform:translateX(0) scale(1.25);
 z-index:10;
 filter:grayscale(0);
 }
 
-/* LEFT SIDE (GRAYSCALE ONLY) */
+/* =========================
+   LEFT SIDE (DEPTH STACK)
+========================= */
 .l1{
 transform:translateX(-140px) scale(0.95);
 z-index:9;
-filter:grayscale(1);
+filter:grayscale(0.4);
 }
 
 .l2{
-transform:translateX(-260px) scale(0.85);
+transform:translateX(-270px) scale(0.85);
 z-index:8;
-filter:grayscale(1);
+filter:grayscale(0.7);
 }
 
 .l3{
-transform:translateX(-380px) scale(0.75);
+transform:translateX(-400px) scale(0.75);
 z-index:7;
-filter:grayscale(1);
+filter:grayscale(0.9);
 }
 
-/* RIGHT SIDE (GRAYSCALE ONLY) */
+/* =========================
+   RIGHT SIDE (DEPTH STACK)
+========================= */
 .r1{
 transform:translateX(140px) scale(0.95);
 z-index:9;
-filter:grayscale(1);
+filter:grayscale(0.4);
 }
 
 .r2{
-transform:translateX(260px) scale(0.85);
+transform:translateX(270px) scale(0.85);
 z-index:8;
-filter:grayscale(1);
+filter:grayscale(0.7);
 }
 
 .r3{
-transform:translateX(380px) scale(0.75);
+transform:translateX(400px) scale(0.75);
 z-index:7;
-filter:grayscale(1);
+filter:grayscale(0.9);
 }
 </style>
 </head>
