@@ -11,6 +11,7 @@ margin:0;
 font-family:Arial;
 background:#0b0f14;
 color:#fff;
+overflow-x:hidden;
 }
 
 /* HEADER */
@@ -18,19 +19,13 @@ header{
 position:fixed;
 top:0;
 left:0;
-right:0;
-z-index:100;
+width:100%;
 display:flex;
 align-items:center;
 gap:10px;
 padding:12px 15px;
-background:rgba(17,24,39,0.5);
-backdrop-filter: blur(10px);
-transition: transform 0.3s ease;
-}
-
-header.hide{
-transform: translateY(-100%);
+background:#111827;
+z-index:1000;
 }
 
 header img{
@@ -46,122 +41,111 @@ position:relative;
 overflow:hidden;
 }
 
-/* VIDEO */
-.hero video{
-width:100%;
-height:100%;
-object-fit:cover;
-filter:brightness(0.55);
-}
-
-/* IMAGE PREVIEW OVERLAY */
-.hero-preview{
+/* HERO IMAGE */
+.hero-slide{
 position:absolute;
-top:0;
-left:0;
-right:0;
-bottom:0;
-opacity:0.35;
-pointer-events:none;
+inset:0;
+background-size:cover;
+background-position:center;
+transition:opacity 0.8s ease;
 }
 
-.hero-preview img{
+/* DARK OVERLAY */
+.hero-overlay{
 position:absolute;
-width:100%;
-height:100%;
-object-fit:cover;
-opacity:0;
-transition:1s ease;
+inset:0;
+background:rgba(0,0,0,0.45);
 }
 
-.hero-preview img.active{
-opacity:1;
-}
-
-/* OVERLAY TEXT */
-.overlay{
+/* HERO TEXT */
+.hero-content{
 position:absolute;
 top:50%;
 left:50%;
 transform:translate(-50%,-50%);
 text-align:center;
-width:90%;
 z-index:2;
+width:90%;
 }
 
-.overlay img{
-width:80px;
-height:80px;
-border-radius:12px;
-margin-bottom:12px;
-}
-
-.overlay h1{
-font-size:26px;
+.hero-content h1{
+font-size:28px;
 margin:10px 0;
 }
 
-.overlay p{
+.hero-content p{
 font-size:14px;
 opacity:0.85;
-line-height:1.5;
 }
 
-/* SCROLL */
+/* LOGO */
+.hero-content img{
+width:60px;
+height:60px;
+border-radius:12px;
+margin-bottom:10px;
+}
+
+/* SCROLL BUTTON */
 .scroll-down{
 position:absolute;
-bottom:25px;
+bottom:20px;
 left:50%;
 transform:translateX(-50%);
-font-size:12px;
-opacity:0.85;
 cursor:pointer;
-animation:bounce 1.5s infinite;
 z-index:2;
+text-align:center;
+}
+
+.scroll-down span{
+font-size:12px;
+opacity:0.8;
+}
+
+.scroll-down div{
+font-size:22px;
+animation:bounce 1.5s infinite;
 }
 
 @keyframes bounce{
-0%,100%{transform:translate(-50%,0);}
-50%{transform:translate(-50%,8px);}
+0%,100%{transform:translateY(0);}
+50%{transform:translateY(6px);}
 }
 
-/* CONTENT */
-#contentSection{
-padding-top:70px;
+/* MAIN CONTENT */
+.main{
+display:none;
+padding:15px;
+margin-top:60px;
 }
 
 /* SEARCH */
-.search-box{
-padding:15px;
-}
-
 .search-box input{
 width:100%;
-padding:12px;
-border-radius:10px;
+padding:10px;
+border-radius:8px;
 border:none;
-outline:none;
 background:#1b2430;
 color:#fff;
+margin-top:10px;
 }
 
 /* FILTERS */
 .filters{
 display:flex;
+flex-wrap:wrap;
 gap:8px;
-overflow-x:auto;
-padding:10px 15px;
+margin-top:10px;
 }
 
 .filters button{
-flex:0 0 auto;
-padding:8px 14px;
+padding:6px 10px;
 border:none;
 border-radius:20px;
 background:#1b2430;
 color:#fff;
-font-size:12px;
 cursor:pointer;
+font-size:12px;
 }
 
 .filters button.active{
@@ -171,7 +155,7 @@ color:#000;
 
 /* GRID */
 .container{
-padding:15px;
+margin-top:15px;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
 gap:12px;
@@ -179,31 +163,16 @@ gap:12px;
 
 .card{
 background:#151c25;
-border-radius:14px;
-overflow:hidden;
+padding:10px;
+border-radius:12px;
 cursor:pointer;
-transition:0.2s;
-}
-
-.card:hover{
-transform:scale(1.03);
 }
 
 .card img{
 width:100%;
 height:120px;
 object-fit:cover;
-}
-
-.card h3{
-font-size:14px;
-margin:8px;
-}
-
-.card small{
-margin:0 8px 10px;
-display:block;
-opacity:0.7;
+border-radius:10px;
 }
 </style>
 </head>
@@ -216,31 +185,26 @@ opacity:0.7;
 </header>
 
 <!-- HERO -->
-<div class="hero">
+<section class="hero">
 
-<video autoplay muted loop playsinline>
-<source src="assets/video/food.mp4" type="video/mp4">
-</video>
+<div class="hero-slide" id="heroSlide"></div>
+<div class="hero-overlay"></div>
 
-<!-- IMAGE PREVIEW LAYER -->
-<div class="hero-preview" id="heroPreview"></div>
-
-<!-- TEXT -->
-<div class="overlay">
+<div class="hero-content">
 <img src="./logo.png">
 <h1>Cook like a chef 👨‍🍳</h1>
-<p>Explore global recipes and step-by-step cooking guides</p>
+<p>Explore global recipes step-by-step</p>
 </div>
 
-<!-- SCROLL -->
 <div class="scroll-down" onclick="scrollDown()">
-⬇ Scroll down
+<span>Scroll Down</span>
+<div>↓</div>
 </div>
 
-</div>
+</section>
 
-<!-- CONTENT -->
-<div id="contentSection">
+<!-- MAIN -->
+<section class="main" id="main">
 
 <div class="search-box">
 <input type="text" id="search" placeholder="Search recipes...">
@@ -248,134 +212,11 @@ opacity:0.7;
 
 <div class="filters" id="filters"></div>
 
-<div class="container" id="list">Loading...</div>
+<div class="container" id="list"></div>
 
-</div>
+</section>
 
-<script>
-
-let allRecipes = [];
-let activeCategory = "All";
-let lastScrollY = window.scrollY;
-const header = document.querySelector("header");
-
-/* LOAD DATA */
-document.addEventListener("DOMContentLoaded", async () => {
-
-const res = await fetch("./data/index.json");
-allRecipes = await res.json();
-
-renderFilters();
-renderRecipes(allRecipes);
-initHeroImages();
-
-document.getElementById("search").addEventListener("input", filterRecipes);
-});
-
-/* SCROLL DOWN */
-function scrollDown(){
-document.getElementById("contentSection").scrollIntoView({
-behavior: "smooth"
-});
-}
-
-/* HEADER AUTO HIDE */
-window.addEventListener("scroll", () => {
-const currentScrollY = window.scrollY;
-
-if (currentScrollY > lastScrollY && currentScrollY > 80) {
-header.classList.add("hide");
-} else {
-header.classList.remove("hide");
-}
-
-lastScrollY = currentScrollY;
-});
-
-/* HERO IMAGE SLIDER */
-function initHeroImages(){
-const heroImages = [
-"assets/images/arabic/falafel.png",
-"assets/images/arabic/hummus.png",
-"assets/images/arabic/chicken-shawarma.png",
-"assets/images/chinese/kung-pao-chicken.png",
-"assets/images/continental/pancakes.png"
-];
-
-const preview = document.getElementById("heroPreview");
-
-heroImages.forEach((src, i) => {
-const img = document.createElement("img");
-img.src = src;
-if(i === 0) img.classList.add("active");
-preview.appendChild(img);
-});
-
-let index = 0;
-
-setInterval(() => {
-const imgs = document.querySelectorAll(".hero-preview img");
-
-imgs.forEach(img => img.classList.remove("active"));
-
-index = (index + 1) % heroImages.length;
-imgs[index].classList.add("active");
-
-}, 3000);
-}
-
-/* FILTERS */
-function renderFilters(){
-const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
-
-document.getElementById("filters").innerHTML =
-categories.map(c => `
-<button onclick="setCategory(event,'${c}')" class="${c==='All'?'active':''}">
-${c}
-</button>
-`).join("");
-}
-
-function setCategory(e, cat){
-activeCategory = cat;
-
-document.querySelectorAll(".filters button")
-.forEach(b => b.classList.remove("active"));
-
-e.target.classList.add("active");
-
-filterRecipes();
-}
-
-function filterRecipes(){
-const search = document.getElementById("search").value.toLowerCase();
-
-let filtered = allRecipes.filter(r =>
-(activeCategory === "All" || r.category === activeCategory) &&
-r.title.toLowerCase().includes(search)
-);
-
-renderRecipes(filtered);
-}
-
-/* RENDER RECIPES */
-function renderRecipes(list){
-document.getElementById("list").innerHTML =
-list.map(r => `
-<div class="card" onclick="openRecipe('${r.file}')">
-<img src="${r.image}">
-<h3>${r.title}</h3>
-<small>${r.category}</small>
-</div>
-`).join("");
-}
-
-/* OPEN RECIPE */
-function openRecipe(file){
-window.location.href = "recipe.html?file=" + encodeURIComponent(file);
-}
-
-</script>
+<script src="js/index.js"></script>
 
 </body>
 </html>
