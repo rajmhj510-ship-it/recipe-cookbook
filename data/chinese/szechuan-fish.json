@@ -1,61 +1,87 @@
-[
-  {
-    "id": 201,
-    "title": "Szechuan Fish in Spicy Sauce",
-    "category": "Chinese",
-    "time": "45 min",
-    "difficulty": "Medium",
-    "image": "/assets/images/chinese/fish-szechuan-sauce.png",
+{
+  "id": 201,
+  "title": "Fish Szechuan Sauce",
+  "category": "Chinese",
+  "time": "",
+  "difficulty": "",
+  "image": "assets/images/chinese/fish-szechuan-sauce.png",
 
-    "ingredients": [
-      "500g white fish fillets (cod, seabass, or tilapia)",
-      "1 tsp salt",
-      "1/2 tsp white pepper",
-      "1 tsp Shaoxing wine (optional)",
-      "2 tbsp cornstarch",
-      "3 tbsp vegetable oil",
+  "ingredients": [
+    {
+      "title": "For the Fish:",
+      "items": [
+        "500g white fish fillets (cod, seabass, or tilapia), skinless",
+        "1 tsp salt",
+        "1/2 tsp white pepper",
+        "1 tsp Shaoxing wine (optional)",
+        "2 tbsp cornstarch (for light coating)",
+        "3 tbsp vegetable oil (for pan-frying)"
+      ]
+    },
+    {
+      "title": "For the Szechuan Sauce:",
+      "items": [
+        "2 tbsp vegetable oil",
+        "5-6 dried red chilies (adjust to heat preference), cut into halves",
+        "1 tbsp Szechuan peppercorns, lightly crushed",
+        "3 garlic cloves, minced",
+        "1-inch piece ginger, minced",
+        "2 scallions, sliced into 2-inch sections",
+        "1/4 cup chicken or fish stock",
+        "2 tbsp soy sauce",
+        "1 tbsp black vinegar (Chinkiang vinegar)",
+        "1 tbsp Doubanjiang (Sichuan chili bean paste)",
+        "1 tsp sugar",
+        "1/2 tsp sesame oil",
+        "1 tsp cornstarch mixed with 2 tsp water (slurry, optional for thicker sauce)"
+      ]
+    },
+    {
+      "title": "Garnish:",
+      "items": [
+        "Fresh cilantro or sliced scallions",
+        "Toasted sesame seeds (optional)"
+      ]
+    }
+  ],
 
-      "2 tbsp vegetable oil (sauce)",
-      "5–6 dried red chilies",
-      "1 tbsp Szechuan peppercorns",
-      "3 garlic cloves, minced",
-      "1-inch ginger, minced",
-      "2 scallions",
+  "instruction": [
+    {
+      "title": "Prepare the Fish",
+      "steps": [
+        "Pat fish fillets dry. Season lightly with salt, white pepper, and Shaoxing wine.",
+        "Dust each fillet evenly with cornstarch.",
+        "Heat oil in a non-stick or stainless steel pan over medium-high heat.",
+        "Pan-fry fish until golden and crisp on both sides (about 2–3 minutes per side, depending on thickness). Remove and set aside on a warm plate."
+      ]
+    },
+    {
+      "title": "Make the Szechuan Sauce",
+      "steps": [
+        "In a wok or skillet, heat 2 tbsp oil over medium heat.",
+        "Add dried chilies and Szechuan peppercorns; stir-fry briefly until fragrant (don’t burn, about 30 seconds).",
+        "Add minced garlic and ginger; sauté until aromatic.",
+        "Stir in Doubanjiang (chili bean paste), cook 20–30 seconds to release its flavor.",
+        "Add soy sauce, black vinegar, sugar, and stock; bring to a simmer.",
+        "Add scallions and cook for another 1–2 minutes.",
+        "If you want a thicker sauce, stir in the cornstarch slurry and cook until glossy.",
+        "Finish with a drizzle of sesame oil for aroma."
+      ]
+    },
+    {
+      "title": "Combine & Serve",
+      "steps": [
+        "Plate the fish fillets and spoon the hot Szechuan sauce generously over the top.",
+        "Garnish with fresh cilantro, sliced scallions, or toasted sesame seeds.",
+        "Serve immediately with steamed jasmine rice or stir-fried vegetables."
+      ]
+    }
+  ],
 
-      "1/4 cup chicken or fish stock",
-      "2 tbsp soy sauce",
-      "1 tbsp black vinegar",
-      "1 tbsp Doubanjiang",
-      "1 tsp sugar",
-      "1/2 tsp sesame oil",
-      "1 tsp cornstarch slurry (optional)",
-
-      "Cilantro or scallions (garnish)",
-      "Sesame seeds (optional)"
-    ],
-
-    "steps": [
-      "Pat fish dry and season with salt, pepper, and Shaoxing wine.",
-      "Coat fish lightly with cornstarch.",
-      "Pan-fry fish until golden and crisp on both sides. Set aside.",
-
-      "Heat oil in wok and fry dried chilies and Szechuan peppercorns briefly.",
-      "Add garlic and ginger and sauté until fragrant.",
-      "Add Doubanjiang and cook briefly.",
-      "Add soy sauce, vinegar, sugar, and stock. Bring to simmer.",
-      "Add scallions and cook 1–2 minutes.",
-      "Add slurry if thicker sauce is needed.",
-      "Finish with sesame oil.",
-
-      "Pour sauce over fish and garnish with cilantro or sesame seeds.",
-      "Serve with rice or vegetables."
-    ],
-
-    "chefTips": [
-      "Keep fish dry for crisp texture.",
-      "Do not burn Szechuan peppercorns.",
-      "Balance spice with sugar and vinegar.",
-      "Serve immediately for best taste."
-    ]
-  }
-]
+  "chefTips": [
+    "Crisp Fish: Ensure the fish is patted dry and the pan is hot enough before frying. This keeps the fish tender inside but crisp outside.",
+    "Flavor Balance: Doubanjiang is salty and spicy; taste and adjust soy or sugar to achieve a balanced heat and umami.",
+    "Optional Aromatics: For a richer aroma, add a few thin slices of red bell pepper or carrot for color and crunch.",
+    "Szechuan Peppercorns: Lightly toast them to release the numbing aroma, but don’t over-toast—they’ll become bitter."
+  ]
+}
