@@ -93,7 +93,7 @@
     "id": 601,
     "title": "Chimichanga",
     "category": "Mexican",
-    "file": "data/italian/chicken-cacciatore.json",
+    "file": "data/mexican/chimichanga.json",
     "image": "assets/images/mexican/chimichanga.png",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
