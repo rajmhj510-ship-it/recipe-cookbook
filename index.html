@@ -3,13 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fresh Carousel</title>
+<title>Stable Carousel</title>
 
 <style>
 body{
 margin:0;
-background:#ffffff;
+background:#fff;
 overflow:hidden;
+font-family:Arial;
 }
 
 .stack{
@@ -21,6 +22,7 @@ justify-content:center;
 align-items:center;
 }
 
+/* CARD STYLE */
 .card{
 position:absolute;
 width:220px;
@@ -29,8 +31,8 @@ border-radius:18px;
 object-fit:cover;
 box-shadow:0 15px 40px rgba(0,0,0,0.15);
 
-/* smooth animation */
-transition: transform 0.8s ease, filter 0.8s ease;
+/* smooth movement */
+transition: transform 0.85s cubic-bezier(0.22, 1, 0.36, 1), filter 0.85s ease;
 will-change: transform;
 
 /* default BW */
