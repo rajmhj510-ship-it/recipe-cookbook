@@ -1,110 +1,65 @@
 let allRecipes = [];
 let heroImages = [];
 let heroIndex = 0;
-let heroInterval;
 
-let activeCategory = "All";
-
-/* INIT */
+/* LOAD DATA */
 document.addEventListener("DOMContentLoaded", async () => {
 
-  await loadHeroImages();
-  startHeroSlider();
+  try {
+    const res = await fetch("./data/index.json");
+    allRecipes = await res.json();
 
-  const res = await fetch("./data/index.json");
-  allRecipes = await res.json();
+    buildHeroImages(allRecipes);
+    startHeroSlider();
+    renderRecipes(allRecipes);
 
-  renderFilters();
-  renderRecipes(allRecipes);
-
-  document.getElementById("search").addEventListener("input", filterRecipes);
+  } catch (err) {
+    console.log("Error loading data:", err);
+  }
 });
 
 
-/* ======================
-   HERO SYSTEM (AUTO)
-====================== */
+/* AUTO BUILD HERO IMAGES FROM index.json */
+function buildHeroImages(recipes) {
 
-async function loadHeroImages() {
-  try {
-    const res = await fetch("./data/hero.json");
-    heroImages = await res.json();
-  } catch (e) {
-    console.log("Hero load failed");
-    heroImages = [];
-  }
+  heroImages = [...new Set(
+    recipes
+      .map(r => r.image)
+      .filter(img => img && img.includes("assets/images"))
+  )];
+
 }
 
-function updateHero() {
+
+/* HERO SLIDER */
+function startHeroSlider() {
+
   const hero = document.getElementById("heroSlide");
   if (!hero || heroImages.length === 0) return;
 
-  hero.style.backgroundImage = `url('${heroImages[heroIndex]}')`;
+  function updateHero() {
+    hero.style.backgroundImage = `url('${heroImages[heroIndex]}')`;
 
-  heroIndex = (heroIndex + 1) % heroImages.length;
-}
+    heroIndex++;
+    if (heroIndex >= heroImages.length) {
+      heroIndex = 0;
+    }
+  }
 
-function startHeroSlider() {
   updateHero();
-  heroInterval = setInterval(updateHero, 3000);
+  setInterval(updateHero, 3000);
 }
 
 
-/* ======================
-   SCROLL DOWN
-====================== */
-
+/* SCROLL DOWN */
 function scrollDown() {
-  document.getElementById("main")
-    .scrollIntoView({ behavior: "smooth" });
+  const main = document.getElementById("main");
+  main.style.display = "block";
+  main.scrollIntoView({ behavior: "smooth" });
 }
 
 
-/* ======================
-   FILTER SYSTEM
-====================== */
-
-function renderFilters() {
-  const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
-
-  document.getElementById("filters").innerHTML =
-    categories.map(c => `
-      <button onclick="setCategory(event,'${c}')">${c}</button>
-    `).join("");
-}
-
-function setCategory(e, cat) {
-  activeCategory = cat;
-
-  document.querySelectorAll(".filters button")
-    .forEach(b => b.classList.remove("active"));
-
-  e.target.classList.add("active");
-
-  filterRecipes();
-}
-
-
-/* ======================
-   SEARCH + FILTER
-====================== */
-
-function filterRecipes() {
-  const search = document.getElementById("search").value.toLowerCase();
-
-  const filtered = allRecipes.filter(r =>
-    (activeCategory === "All" || r.category === activeCategory) &&
-    r.title.toLowerCase().includes(search)
-  );
-
-  renderRecipes(filtered);
-}
-
-
-/* ======================
-   RENDER CARDS
-====================== */
-
+/* RENDER RECIPES */
 function renderRecipes(list) {
   document.getElementById("list").innerHTML = list.map(r => `
     <div class="card" onclick="openRecipe('${r.file}')">
@@ -116,10 +71,7 @@ function renderRecipes(list) {
 }
 
 
-/* ======================
-   NAVIGATION
-====================== */
-
+/* OPEN RECIPE */
 function openRecipe(file) {
   window.location.href = "recipe.html?file=" + encodeURIComponent(file);
 }
