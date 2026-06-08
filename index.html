@@ -11,141 +11,90 @@ margin:0;
 font-family:Arial;
 background:#0b0f14;
 color:#fff;
-overflow-x:hidden;
-}
-
-/* HEADER */
-header{
-position:fixed;
-top:0;
-left:0;
-width:100%;
-display:flex;
-align-items:center;
-gap:10px;
-padding:12px 15px;
-background:#111827;
-z-index:1000;
-}
-
-header img{
-width:38px;
-height:38px;
-border-radius:8px;
 }
 
 /* HERO */
 .hero{
 height:100vh;
-position:relative;
-overflow:hidden;
-}
-
-/* HERO IMAGE */
-.hero-slide{
-position:absolute;
-inset:0;
 background-size:cover;
 background-position:center;
-transition:opacity 0.8s ease;
+position:relative;
+transition:0.8s ease;
 }
 
-/* DARK OVERLAY */
-.hero-overlay{
+.hero::after{
+content:"";
 position:absolute;
 inset:0;
 background:rgba(0,0,0,0.45);
 }
 
-/* HERO TEXT */
 .hero-content{
 position:absolute;
-top:50%;
-left:50%;
-transform:translate(-50%,-50%);
-text-align:center;
+bottom:80px;
+left:20px;
 z-index:2;
-width:90%;
+}
+
+.logo{
+width:50px;
+margin-bottom:10px;
 }
 
 .hero-content h1{
-font-size:28px;
-margin:10px 0;
+margin:0;
+font-size:26px;
 }
 
 .hero-content p{
 font-size:14px;
-opacity:0.85;
-}
-
-/* LOGO */
-.hero-content img{
-width:60px;
-height:60px;
-border-radius:12px;
-margin-bottom:10px;
-}
-
-/* SCROLL BUTTON */
-.scroll-down{
-position:absolute;
-bottom:20px;
-left:50%;
-transform:translateX(-50%);
-cursor:pointer;
-z-index:2;
-text-align:center;
-}
-
-.scroll-down span{
-font-size:12px;
 opacity:0.8;
 }
 
-.scroll-down div{
-font-size:22px;
+.scroll-btn{
+margin-top:20px;
+font-size:30px;
+cursor:pointer;
 animation:bounce 1.5s infinite;
 }
 
 @keyframes bounce{
 0%,100%{transform:translateY(0);}
-50%{transform:translateY(6px);}
+50%{transform:translateY(8px);}
 }
 
-/* MAIN CONTENT */
+/* MAIN */
 .main{
-display:none;
 padding:15px;
-margin-top:60px;
 }
 
 /* SEARCH */
 .search-box input{
 width:100%;
-padding:10px;
-border-radius:8px;
+padding:12px;
 border:none;
+border-radius:10px;
 background:#1b2430;
 color:#fff;
-margin-top:10px;
+outline:none;
 }
 
 /* FILTERS */
 .filters{
 display:flex;
-flex-wrap:wrap;
 gap:8px;
-margin-top:10px;
+overflow-x:auto;
+padding:10px 0;
 }
 
 .filters button{
-padding:6px 10px;
+padding:6px 12px;
 border:none;
 border-radius:20px;
 background:#1b2430;
 color:#fff;
-cursor:pointer;
 font-size:12px;
+cursor:pointer;
 }
 
 .filters button.active{
@@ -153,70 +102,73 @@ background:#ffcc70;
 color:#000;
 }
 
-/* GRID */
+/* CARDS */
 .container{
-margin-top:15px;
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
 gap:12px;
 }
 
 .card{
 background:#151c25;
-padding:10px;
 border-radius:12px;
+overflow:hidden;
 cursor:pointer;
+transition:0.2s;
+}
+
+.card:hover{
+transform:scale(1.03);
 }
 
 .card img{
 width:100%;
 height:120px;
 object-fit:cover;
-border-radius:10px;
+}
+
+.card h3{
+font-size:14px;
+margin:8px;
+}
+
+.card small{
+margin:0 8px 10px;
+display:block;
+opacity:0.7;
 }
 </style>
 </head>
 
 <body>
 
-<header>
-<img src="./logo.png">
-<strong>Recipe Cookbook</strong>
-</header>
-
 <!-- HERO -->
-<section class="hero">
+<div class="hero" id="heroSlide">
 
-<div class="hero-slide" id="heroSlide"></div>
-<div class="hero-overlay"></div>
+  <div class="hero-content">
+    <img src="./logo.png" class="logo">
+    <h1>Cook like a chef 👨‍🍳</h1>
+    <p>Explore global recipes and step-by-step guides</p>
 
-<div class="hero-content">
-<img src="./logo.png">
-<h1>Cook like a chef</h1>
-<p>Explore global recipes step-by-step</p>
+    <div class="scroll-btn" onclick="scrollDown()">⬇</div>
+  </div>
+
 </div>
-
-<div class="scroll-down" onclick="scrollDown()">
-<span>Scroll Down</span>
-<div>↓</div>
-</div>
-
-</section>
 
 <!-- MAIN -->
-<section class="main" id="main">
+<div class="main" id="main">
 
-<div class="search-box">
-<input type="text" id="search" placeholder="Search recipes...">
+  <div class="search-box">
+    <input type="text" id="search" placeholder="Search recipes...">
+  </div>
+
+  <div class="filters" id="filters"></div>
+
+  <div class="container" id="list">Loading...</div>
+
 </div>
 
-<div class="filters" id="filters"></div>
-
-<div class="container" id="list"></div>
-
-</section>
-
-<script src="js/index.js"></script>
+<script src="./js/index.js"></script>
 
 </body>
 </html>
