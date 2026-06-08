@@ -1,72 +1,164 @@
-let images = [];
-let cards = [];
+let allRecipes = [];
+let heroImages = [];
+let heroIndex = 0;
+let activeCategory = "All";
+let heroInterval = null;
 
-/* SLOT POSITIONS (FIXED) */
-const slots = [
-  { x: -400, scale: 0.75, gray: 0.9 }, // L3
-  { x: -270, scale: 0.85, gray: 0.75 }, // L2
-  { x: -140, scale: 0.95, gray: 0.6 }, // L1
-  { x: 0,    scale: 1.25, gray: 0 },   // CENTER (COLOR)
-  { x: 140,  scale: 0.95, gray: 0.6 }, // R1
-  { x: 270,  scale: 0.85, gray: 0.75 }, // R2
-  { x: 400,  scale: 0.75, gray: 0.9 }  // R3
-];
+let appOpened = false;
 
+/* INIT */
 document.addEventListener("DOMContentLoaded", async () => {
 
   const res = await fetch("./data/index.json");
-  const data = await res.json();
+  allRecipes = await res.json();
 
-  images = [...new Set(data.map(r => r.image))].slice(0,7);
+  buildHeroImages(allRecipes);
+  startHeroSlider();
 
-  createCards();
+  renderFilters();
+  renderRecipes(allRecipes);
 
-  apply();
+  document.getElementById("search").addEventListener("input", filterRecipes);
 
-  setInterval(rotate, 2500);
+  setupObserver();
 });
 
-/* CREATE */
-function create(){
 
-  const stack = document.getElementById("stack");
-  stack.innerHTML = "";
-
-  images.forEach(src => {
-    const img = document.createElement("img");
-    img.src = src;
-    img.className = "card";
-    stack.appendChild(img);
-  });
-
-  cards = document.querySelectorAll(".card");
+/* HERO IMAGES */
+function buildHeroImages(recipes) {
+  heroImages = [...new Set(recipes.map(r => r.image).filter(Boolean))];
 }
 
-/* APPLY POSITIONS */
-function apply(){
 
-  cards.forEach((card, i) => {
+/* CROSSFADE HERO SLIDER */
+function startHeroSlider() {
+  const hero = document.getElementById("heroSlide");
+  if (!heroImages.length) return;
 
-    const slot = slots[i];
+  function update() {
 
-    card.style.transform = `
-      translateX(${slot.x}px)
-      scale(${slot.scale})
-    `;
+    hero.classList.add("fade-out");
 
-    card.style.filter = `grayscale(${slot.gray})`;
+    setTimeout(() => {
 
-    card.style.zIndex = 10 - Math.abs(3 - i);
-  });
+      hero.style.backgroundImage = `url('${heroImages[heroIndex]}')`;
+
+      heroIndex = (heroIndex + 1) % heroImages.length;
+
+      hero.classList.remove("fade-out");
+      hero.classList.add("fade-in");
+
+      setTimeout(() => {
+        hero.classList.remove("fade-in");
+      }, 300);
+
+    }, 300);
+  }
+
+  update();
+  heroInterval = setInterval(update, 3000);
 }
 
-/* 🔥 PERFECT ROTATION (NO BUGS EVER) */
-function rotate(){
 
-  const last = images.pop();
-  images.unshift(last);
+/* SCROLL SYSTEM (STABLE) */
+function setupObserver() {
+  const hero = document.getElementById("heroSlide");
 
-  // rebind order safely
-  create();
-  apply();
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        closeApp();
+      } else {
+        openApp();
+      }
+    });
+  }, {
+    threshold: 0.75
+  });
+
+  observer.observe(hero);
+}
+
+
+/* OPEN APP */
+function openApp() {
+  if (appOpened) return;
+  appOpened = true;
+
+  if (heroInterval) clearInterval(heroInterval);
+
+  document.getElementById("heroSlide").classList.add("hide");
+}
+
+
+/* CLOSE APP */
+function closeApp() {
+  if (!appOpened) return;
+  appOpened = false;
+
+  document.getElementById("heroSlide").classList.remove("hide");
+
+  startHeroSlider();
+}
+
+
+/* SCROLL BUTTON */
+function goToApp() {
+  document.getElementById("appSection")
+    .scrollIntoView({ behavior: "smooth" });
+}
+
+
+/* FILTERS */
+function renderFilters() {
+  const categories = ["All", ...new Set(allRecipes.map(r => r.category))];
+
+  document.getElementById("filters").innerHTML =
+    categories.map(c => `
+      <button onclick="setCategory(event,'${c}')">${c}</button>
+    `).join("");
+}
+
+
+/* CATEGORY */
+function setCategory(e, cat) {
+  activeCategory = cat;
+
+  document.querySelectorAll(".filters button")
+    .forEach(b => b.classList.remove("active"));
+
+  e.target.classList.add("active");
+
+  filterRecipes();
+}
+
+
+/* SEARCH */
+function filterRecipes() {
+  const search = document.getElementById("search").value.toLowerCase();
+
+  const filtered = allRecipes.filter(r =>
+    (activeCategory === "All" || r.category === activeCategory) &&
+    r.title.toLowerCase().includes(search)
+  );
+
+  renderRecipes(filtered);
+}
+
+
+/* RENDER */
+function renderRecipes(list) {
+  document.getElementById("list").innerHTML = list.map(r => `
+    <div class="card" onclick="openRecipe('${r.file}')">
+      <img src="${r.image}">
+      <h3>${r.title}</h3>
+      <small>${r.category}</small>
+    </div>
+  `).join("");
+}
+
+
+/* OPEN RECIPE */
+function openRecipe(file) {
+  window.location.href = "recipe.html?file=" + encodeURIComponent(file);
 }
