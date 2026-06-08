@@ -1,52 +1,52 @@
 let images = [];
-let slots = [];
+let nodes = [];
 
-const layout = ["l3","l2","l1","center","r1","r2","r3"];
+// fixed visual slots
+const positions = ["l3","l2","l1","center","r1","r2","r3"];
 
 document.addEventListener("DOMContentLoaded", async () => {
 
   const res = await fetch("./data/index.json");
   const data = await res.json();
 
-  images = [...new Set(data.map(r => r.image))];
+  images = [...new Set(data.map(r => r.image))].slice(0, 7);
 
-  slots = images.slice(0,7);
+  create();
+  apply();
 
-  createCards();
-  render();
-
-  setInterval(rotateSlots, 2500);
+  setInterval(rotate, 2500);
 });
 
-/* CREATE CARDS ONCE */
-function createCards(){
+/* CREATE ONCE */
+function create(){
+
   const stack = document.getElementById("stack");
   stack.innerHTML = "";
 
-  slots.forEach(img=>{
-    const el = document.createElement("img");
-    el.src = img;
-    el.className = "card";
-    stack.appendChild(el);
+  images.forEach(src => {
+    const img = document.createElement("img");
+    img.src = src;
+    img.className = "card";
+    stack.appendChild(img);
+  });
+
+  nodes = document.querySelectorAll(".card");
+}
+
+/* APPLY POSITIONS (SOURCE OF TRUTH = INDEX MAP) */
+function apply(){
+
+  nodes.forEach((node, i) => {
+    node.className = "card " + positions[i];
   });
 }
 
-/* APPLY POSITIONS (CRITICAL PART) */
-function render(){
+/* 🔥 PERFECT ROTATION */
+function rotate(){
 
-  const cards = document.querySelectorAll(".card");
+  // rotate array
+  const last = images.pop();
+  images.unshift(last);
 
-  cards.forEach((card, i)=>{
-    card.className = "card";
-    card.classList.add(layout[i]);
-  });
-}
-
-/* 🔥 TRUE SLOT ROTATION (FIXED LOGIC) */
-function rotateSlots(){
-
-  // move last slot to first (L3 becomes new image flow)
-  slots.unshift(slots.pop());
-
-  render();
+  apply();
 }
