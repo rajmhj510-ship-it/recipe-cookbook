@@ -1,38 +1,40 @@
 let allRecipes = [];
 let activeCategory = "All";
+let appOpened = false;
 
-/* HERO BACKGROUND ROTATION (optional) */
-const heroImages = [
-  "assets/images/arabic/chicken-shawarma.png",
-  "assets/images/chinese/kung-pao-chicken.png",
-  "assets/images/indian/chicken-chettinad.png",
-  "assets/images/mexican/chimichanga.png",
-  "assets/images/nepali/jhol-momo.png",
-  "assets/images/thai/pad-thai.png"
-];
+/* SCROLL AUTO TRIGGER */
+window.addEventListener("scroll", () => {
+if (appOpened) return;
 
-let heroIndex = 0;
+if (window.scrollY > window.innerHeight * 0.6) {
+openApp();
+}
+});
 
-function rotateHero(){
-const hero = document.getElementById("hero");
-if(!hero) return;
-
-hero.style.backgroundImage = `url('${heroImages[heroIndex]}')`;
-
-heroIndex++;
-if(heroIndex >= heroImages.length) heroIndex = 0;
+/* BUTTON CLICK SCROLL */
+function scrollToApp(){
+openApp();
 }
 
-setInterval(rotateHero, 3000);
-rotateHero();
+/* OPEN APP (COMMON FUNCTION) */
+function openApp(){
+if (appOpened) return;
 
-/* ENTER APP (HIDE HERO COMPLETELY) */
-function enterApp(){
+appOpened = true;
+
+/* smooth hero exit */
+document.getElementById("hero").style.transition = "0.5s";
+document.getElementById("hero").style.opacity = "0";
+document.getElementById("hero").style.transform = "translateY(-60px)";
+
+setTimeout(() => {
 document.getElementById("hero").style.display = "none";
 document.getElementById("app").style.display = "block";
+window.scrollTo({ top: 0, behavior: "smooth" });
+}, 400);
 }
 
-/* LOAD RECIPES */
+/* LOAD DATA */
 document.addEventListener("DOMContentLoaded", async () => {
 
 const res = await fetch("./data/index.json");
@@ -65,7 +67,7 @@ e.target.classList.add("active");
 filterRecipes();
 }
 
-/* SEARCH + FILTER */
+/* SEARCH */
 function filterRecipes(){
 const search = document.getElementById("search").value.toLowerCase();
 
