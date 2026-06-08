@@ -97,13 +97,22 @@
     "image": "assets/images/mexican/chimichanga.png",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
-          },
+    },
   {
     "id": 701,
     "title": "Jhol Mo:Mo (Soup MO:MO)",
     "category": "Nepali",
     "file": "data/nepali/jhol-momo.json",
     "image": "assets/images/nepali/jhol-momo.png",
+    "time": "1 hr 20 min",
+    "difficulty": "Medium"
+    },
+  {
+    "id": 702,
+    "title": "Buff Steamed Mo:Mo",
+    "category": "Nepali",
+    "file": "data/nepali/buff-steamed-momo.json",
+    "image": "assets/images/nepali/buff-steamed-momo.png",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
   }
