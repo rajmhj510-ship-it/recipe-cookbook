@@ -8,15 +8,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   images = [...new Set(data.map(r => r.image))];
 
-  init();
+  // take first 7 images
+  order = images.slice(0, 7);
+
+  render();
+
   setInterval(rotate, 2500);
 });
-
-/* INIT 7 ITEMS */
-function init(){
-  order = images.slice(0,7);
-  render();
-}
 
 /* RENDER STACK */
 function render(){
@@ -24,13 +22,14 @@ function render(){
   const stack = document.getElementById("stack");
   stack.innerHTML = "";
 
-  order.forEach((img,i)=>{
+  order.forEach((img, i) => {
 
     const el = document.createElement("img");
     el.src = img;
     el.className = "card";
 
     if(i === 3) el.classList.add("center");
+
     else if(i === 2) el.classList.add("l1");
     else if(i === 1) el.classList.add("l2");
     else if(i === 0) el.classList.add("l3");
@@ -43,12 +42,12 @@ function render(){
   });
 }
 
-/* EXACT ROTATION RULE */
+/* ROTATION LOGIC */
+/*
+L3 → L2 → L1 → CENTER → R1 → R2 → R3 → L3
+*/
 function rotate(){
-
-  // L3 → L2 → L1 → CENTER → R1 → R2 → R3 → L3
   const last = order.pop();
   order.unshift(last);
-
   render();
 }
