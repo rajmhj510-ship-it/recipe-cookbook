@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fixed Slot Carousel</title>
+<title>Stable Carousel</title>
 
 <style>
 body{
@@ -22,7 +22,6 @@ justify-content:center;
 align-items:center;
 }
 
-/* BASE CARD */
 .card{
 position:absolute;
 width:220px;
@@ -31,12 +30,14 @@ border-radius:18px;
 object-fit:cover;
 box-shadow:0 15px 40px rgba(0,0,0,0.15);
 
-/* IMPORTANT SMOOTH MOVEMENT */
+/* IMPORTANT: smooth movement */
 transition: transform 0.9s cubic-bezier(0.22,1,0.36,1), filter 0.9s ease;
+
+/* ALL BW */
 filter:grayscale(1);
 }
 
-/* SLOTS */
+/* POSITIONS */
 .center{ transform:translateX(0) scale(1.25); z-index:10; filter:grayscale(0); }
 
 .l1{ transform:translateX(-140px) scale(0.95); z-index:9; filter:grayscale(0.6); }
