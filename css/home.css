@@ -31,7 +31,7 @@ body {
 	color: rgba(8, 42, 123, 0.25);
 }
 
-/* ================= CAROUSEL ================= */
+/* CAROUSEL */
 .carousel-container {
 	width: 100%;
 	max-width: 1100px;
@@ -51,9 +51,10 @@ body {
 	position: relative;
 }
 
-/* CARD BASE */
+/* CARD (CENTER FIXED) */
 .card {
 	position: absolute;
+
 	top: 50%;
 	left: 50%;
 
@@ -77,13 +78,12 @@ body {
 	object-fit: cover;
 }
 
-/* CENTER STATE */
+/* CENTER SYSTEM */
 .card.center {
 	transform: translate(-50%, -50%) scale(1.15);
 	z-index: 10;
 }
 
-/* SIDE POSITIONS */
 .card.left-1 {
 	transform: translate(calc(-50% - 180px), -50%) scale(0.92);
 	opacity: 0.9;
