@@ -17,14 +17,12 @@ function initCarousel() {
 	const rightBtn = document.querySelector(".nav-arrow.right");
 
 	const hero = document.querySelector("#hero");
-	const searchSection = document.querySelector("#search-section");
 	const scrollBtn = document.querySelector(".scroll-down");
 
 	let currentIndex = 0;
 	let isAnimating = false;
 	let autoPlayTimer = null;
 
-	/* CREATE CARDS */
 	recipes.forEach((recipe) => {
 		const card = document.createElement("div");
 		card.classList.add("card");
@@ -40,7 +38,6 @@ function initCarousel() {
 
 	const cards = document.querySelectorAll(".card");
 
-	/* MAIN UPDATE FUNCTION */
 	function updateCarousel(newIndex) {
 		if (isAnimating) return;
 		isAnimating = true;
@@ -76,16 +73,14 @@ function initCarousel() {
 		}, 800);
 	}
 
-	/* AUTO PLAY */
 	function startAutoPlay() {
 		clearInterval(autoPlayTimer);
 
 		autoPlayTimer = setInterval(() => {
 			updateCarousel(currentIndex + 1);
-		}, 15000); // 15 seconds
+		}, 15000);
 	}
 
-	/* NAV BUTTONS */
 	leftBtn.addEventListener("click", () => {
 		updateCarousel(currentIndex - 1);
 		startAutoPlay();
@@ -96,34 +91,11 @@ function initCarousel() {
 		startAutoPlay();
 	});
 
-	/* SCROLL DOWN */
 	scrollBtn.addEventListener("click", () => {
-		searchSection.scrollIntoView({ behavior: "smooth" });
-
 		hero.style.opacity = "0";
 		hero.style.pointerEvents = "none";
 	});
 
-	/* SHOW HERO ON SCROLL UP */
-	window.addEventListener("scroll", () => {
-		if (window.scrollY < 100) {
-			hero.style.opacity = "1";
-			hero.style.pointerEvents = "auto";
-		}
-	});
-
-	/* OPTIONAL: pause on hover */
-	const carousel = document.querySelector(".carousel-container");
-
-	carousel.addEventListener("mouseenter", () => {
-		clearInterval(autoPlayTimer);
-	});
-
-	carousel.addEventListener("mouseleave", () => {
-		startAutoPlay();
-	});
-
-	/* INIT */
 	updateCarousel(0);
 	startAutoPlay();
 }
