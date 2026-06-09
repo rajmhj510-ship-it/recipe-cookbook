@@ -79,6 +79,15 @@
     "image": "assets/images/indian/chicken-chettinad.png",
     "time": "40 min",
     "difficulty": "Medium"
+    },
+  {
+    "id": 402,
+    "title": "Ven Pongal (Savory South Indian Rice & Lentil Porridge)",
+    "category": "Indian",
+    "file": "data/indian/ven-pongal.json",
+    "image": "assets/images/indian/ven-pongal.png",
+    "time": "40 min",
+    "difficulty": "Medium"
       },
   {
     "id": 501,
