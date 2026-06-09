@@ -4,13 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Recipe Cookbook</title>
-
   <link rel="stylesheet" href="css/home.css" />
 </head>
 
 <body>
 
-<!-- HERO (CAROUSEL ONLY) -->
+<!-- HERO -->
 <section id="hero">
 
   <h1 class="about-title">COOK LIKE A CHEF</h1>
@@ -30,28 +29,22 @@
 
 </section>
 
-<!-- SEARCH / MAIN APP SECTION -->
-<section id="appSection">
+<!-- SEARCH SECTION (LOGO INSIDE) -->
+<section id="search-section">
 
-  <div class="app-header">
-    <img src="./logo.png" class="app-logo">
-    <div class="app-text">
-      <h2>Recipe Cookbook</h2>
-      <p>Explore global recipes</p>
-    </div>
+  <div class="logo-wrapper">
+    <img src="logo.png" alt="Recipe Logo" class="site-logo">
   </div>
 
-  <div class="search-box">
-    <input id="search" placeholder="Search recipes...">
-  </div>
+  <h2>Search Recipes</h2>
 
-  <div class="filters" id="filters"></div>
+  <input type="text" placeholder="Search recipes..." />
 
-  <div class="container" id="list"></div>
+  <div class="search-results"></div>
 
 </section>
 
-<script src="./js/home.js"></script>
+<script src="js/home.js"></script>
 
 </body>
 </html>
