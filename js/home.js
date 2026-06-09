@@ -27,20 +27,19 @@ function initCarousel() {
 	const searchSection = document.querySelector("#search-section");
 	const scrollBtn = document.querySelector(".scroll-down");
 
+	let currentIndex = 0;
 	let isAnimating = false;
 	let autoPlayTimer = null;
 
 	/* CREATE CARDS */
-	track.innerHTML = "";
-
-	recipes.forEach((recipe, index) => {
+	recipes.forEach((recipe) => {
 		const card = document.createElement("div");
 		card.classList.add("card");
 
 		card.innerHTML = `<img src="${recipe.image}" alt="${recipe.title}">`;
 
 		card.addEventListener("click", () => {
-			window.location.href = `recipe.html?file=${recipe.file}`;
+			window.location.href = `recipe.html?id=${recipe.id}`;
 		});
 
 		track.appendChild(card);
@@ -48,6 +47,7 @@ function initCarousel() {
 
 	const cards = document.querySelectorAll(".card");
 
+	/* MAIN UPDATE FUNCTION */
 	function updateCarousel(newIndex) {
 		if (isAnimating) return;
 		isAnimating = true;
@@ -83,16 +83,16 @@ function initCarousel() {
 		}, 800);
 	}
 
-	/* AUTO PLAY (30 sec if no click) */
+	/* AUTO PLAY */
 	function startAutoPlay() {
 		clearInterval(autoPlayTimer);
 
 		autoPlayTimer = setInterval(() => {
 			updateCarousel(currentIndex + 1);
-		}, 30000); // ✅ 30 seconds
+		}, 15000); // 15 seconds
 	}
 
-	/* NAV */
+	/* NAV BUTTONS */
 	leftBtn.addEventListener("click", () => {
 		updateCarousel(currentIndex - 1);
 		startAutoPlay();
@@ -103,7 +103,7 @@ function initCarousel() {
 		startAutoPlay();
 	});
 
-	/* SCROLL */
+	/* SCROLL DOWN */
 	scrollBtn.addEventListener("click", () => {
 		searchSection.scrollIntoView({ behavior: "smooth" });
 
@@ -111,7 +111,7 @@ function initCarousel() {
 		hero.style.pointerEvents = "none";
 	});
 
-	/* SHOW HERO AGAIN */
+	/* SHOW HERO ON SCROLL UP */
 	window.addEventListener("scroll", () => {
 		if (window.scrollY < 100) {
 			hero.style.opacity = "1";
@@ -119,11 +119,16 @@ function initCarousel() {
 		}
 	});
 
-	/* PAUSE ON HOVER */
+	/* OPTIONAL: pause on hover */
 	const carousel = document.querySelector(".carousel-container");
 
-	carousel.addEventListener("mouseenter", () => clearInterval(autoPlayTimer));
-	carousel.addEventListener("mouseleave", startAutoPlay);
+	carousel.addEventListener("mouseenter", () => {
+		clearInterval(autoPlayTimer);
+	});
+
+	carousel.addEventListener("mouseleave", () => {
+		startAutoPlay();
+	});
 
 	/* INIT */
 	updateCarousel(0);
