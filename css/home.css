@@ -94,33 +94,42 @@ filter: grayscale(0%);
 
 /* CENTER SYSTEM */
 .card.center {
-	transform: translate(-50%, -50%) scale(1.15);
 	z-index: 10;
+	transform: translateX(0px) scale(1.1) translateZ(0);
+	opacity: 1;
 }
 
+/* LEFT SIDE */
 .card.left-1 {
-	transform: translate(calc(-50% - 180px), -50%) scale(0.92);
-	opacity: 0.9;
+	z-index: 7;
+	transform: translateX(-200px) scale(0.95) translateZ(-100px);
+	opacity: 0.95;
 }
 
 .card.left-2 {
-	transform: translate(calc(-50% - 360px), -50%) scale(0.8);
-	opacity: 0.5;
+	z-index: 4;
+	transform: translateX(-400px) scale(0.8) translateZ(-300px);
+	opacity: 0.7;
 }
 
+/* RIGHT SIDE */
 .card.right-1 {
-	transform: translate(calc(-50% + 180px), -50%) scale(0.92);
-	opacity: 0.9;
+	z-index: 7;
+	transform: translateX(200px) scale(0.95) translateZ(-100px);
+	opacity: 0.95;
 }
 
 .card.right-2 {
-	transform: translate(calc(-50% + 360px), -50%) scale(0.8);
-	opacity: 0.5;
+	z-index: 4;
+	transform: translateX(400px) scale(0.8) translateZ(-300px);
+	opacity: 0.7;
 }
 
+/* HIDDEN */
 .card.hidden {
 	opacity: 0;
 	pointer-events: none;
+	transform: scale(0.5);
 }
 
 /* INFO */
