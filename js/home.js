@@ -4,26 +4,54 @@ async function loadRecipes() {
 	const res = await fetch("data/index.json");
 	recipes = await res.json();
 	initCarousel();
+	function initSearch() {
+	const searchInput = document.querySelector("#search-section input");
+	const resultsContainer = document.querySelector(".search-results");
+
+	searchInput.addEventListener("input", () => {
+		const query = searchInput.value.trim().toLowerCase();
+
+		resultsContainer.innerHTML = "";
+
+		if (query === "") return;
+
+		const filtered = recipes.filter(recipe => {
+			return (
+				recipe.title.toLowerCase().includes(query) ||
+				recipe.category.toLowerCase().includes(query)
+			);
+		});
+
+		if (filtered.length === 0) {
+			resultsContainer.innerHTML = "<p>No recipes found</p>";
+			return;
+		}
+
+		filtered.forEach(recipe => {
+			const item = document.createElement("div");
+			item.classList.add("search-item");
+
+			item.innerHTML = `
+				<img src="${recipe.image}" alt="${recipe.title}">
+				<div>
+					<h4>${recipe.title}</h4>
+					<p>${recipe.category}</p>
+				</div>
+			`;
+
+			item.addEventListener("click", () => {
+				window.location.href = `recipe.html?id=${recipe.id}`;
+			});
+
+			resultsContainer.appendChild(item);
+		});
+	});
+}
 }
 
-loadRecipes();
-
-function initCarousel() {
-	const track = document.querySelector(".carousel-track");
-	const titleEl = document.querySelector(".recipe-title");
-	const metaEl = document.querySelector(".recipe-meta");
-
-	const leftBtn = document.querySelector(".nav-arrow.left");
-	const rightBtn = document.querySelector(".nav-arrow.right");
-
-	const hero = document.querySelector("#hero");
-	const searchSection = document.querySelector("#search-section");
-	const scrollBtn = document.querySelector(".scroll-down");
-
-	let currentIndex = 0;
-	let isAnimating = false;
-	let autoPlayTimer = null;
-
+loadRecipes().then(() => {
+	initSearch();
+});
 	/* CREATE CARDS */
 	recipes.forEach((recipe) => {
 		const card = document.createElement("div");
