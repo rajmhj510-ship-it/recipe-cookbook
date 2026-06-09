@@ -81,7 +81,7 @@ body {
 
 /* CENTER CARD = FULL COLOR */
 .card.center img {
-	filter: grayscale(0%);
+filter: grayscale(0%);
 }
 
 /* LEFT SIDE CARDS */
