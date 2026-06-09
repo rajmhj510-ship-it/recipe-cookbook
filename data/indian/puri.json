@@ -1,0 +1,63 @@
+{
+"title": "Puri (Deep-Fried Bread)",
+"category": "Indian",
+"time": "40 mins",
+"difficulty": "Easy",
+"image": "assets/images/indina/puri.png",
+
+"ingredients": [
+{
+"title": "Ingredients",
+"items": [
+"Whole wheat flour (atta) 2 cups (250g) Use fine quality chapati atta",
+"Semolina (sooji / rava) 1 tbsp Optional – adds crispness",
+"Salt ½ tsp Adjust to taste",
+"Oil or ghee 1 tbsp For kneading",
+"Water ~¾ cup (180ml) Add gradually",
+"Oil For deep frying Use neutral oil (like sunflower oil)"
+]
+}
+],
+
+"instruction": [
+{
+"title": "Dough Preparation",
+"steps": [
+"In a mixing bowl, combine atta, semolina, and salt.",
+"Add 1 tbsp oil/ghee and rub into the flour.",
+"Gradually add water and knead into a firm, non-sticky dough.",
+"Tip: Puri dough should be tighter than roti dough to avoid absorbing oil.",
+"Cover and rest the dough for 15–20 minutes."
+]
+},
+{
+"title": "Rolling the Puri",
+"steps": [
+"Divide the dough into 20 equal portions and roll into balls.",
+"Lightly grease your rolling surface – do not use dry flour (it burns in oil).",
+"Roll each ball into a small disc (4–5 inches diameter), evenly thick."
+]
+},
+{
+"title": "Deep Frying",
+"steps": [
+"Heat oil in a deep kadhai/wok to 180–190°C (355–375°F).",
+"Check with a tiny dough piece – it should rise immediately and sizzle.",
+"Gently slide a puri into the hot oil.",
+"Press lightly with a slotted spoon – it will puff up.",
+"Flip and fry until light golden on both sides (takes ~30 sec per puri).",
+"Remove onto a paper towel to drain excess oil."
+]
+}
+],
+
+"chefTips": [
+"Semolina adds texture but don’t overuse – it can toughen the dough.",
+"Keep dough covered to avoid drying.",
+"Do not stack rolled puris – they may stick.",
+"If puris are not puffing:",
+"Oil may be too cold.",
+"Dough might be too soft or rolled unevenly.",
+"Best served hot with potato curry (aloo bhaji), chana masala, or halwa."
+]
+}
