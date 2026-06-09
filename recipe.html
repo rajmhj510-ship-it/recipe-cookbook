@@ -7,197 +7,111 @@
 
 <style>
 body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#0b0f14;
-color:#fff;
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#0b0f14;
+  color:#fff;
 }
 
-/* HERO */
 .hero{
-height:300px;
-background-size:cover;
-background-position:center;
-position:relative;
-overflow:hidden;
+  height:300px;
+  background-size:cover;
+  background-position:center;
+  position:relative;
 }
 
 .hero::after{
-content:"";
-position:absolute;
-inset:0;
-background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.35));
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(to top,#0b0f14,rgba(0,0,0,0.35));
 }
 
-/* BACK BUTTON */
 .back{
-position:absolute;
-top:12px;
-left:12px;
-z-index:5;
-padding:8px 12px;
-border:none;
-border-radius:20px;
-background:rgba(0,0,0,0.6);
-color:#fff;
-cursor:pointer;
+  position:absolute;
+  top:12px;
+  left:12px;
+  z-index:5;
+  padding:8px 12px;
+  border:none;
+  border-radius:20px;
+  background:rgba(0,0,0,0.6);
+  color:#fff;
+  cursor:pointer;
 }
 
-/* LOGO */
 .logo-top{
-position:absolute;
-top:12px;
-left:80px;
-width:34px;
-height:34px;
-border-radius:8px;
-background:rgba(0,0,0,0.4);
-padding:3px;
-object-fit:cover;
-z-index:5;
+  position:absolute;
+  top:12px;
+  left:80px;
+  width:34px;
+  height:34px;
+  border-radius:8px;
+  object-fit:cover;
+  z-index:5;
 }
 
-/* FLOAT IMAGE */
 .hero-image-box{
-position:absolute;
-bottom:14px;
-right:14px;
-width:110px;
-height:80px;
-border-radius:10px;
-overflow:hidden;
-border:2px solid rgba(255,255,255,0.9);
-cursor:pointer;
-z-index:5;
+  position:absolute;
+  bottom:14px;
+  right:14px;
+  width:110px;
+  height:80px;
+  border-radius:10px;
+  overflow:hidden;
+  border:2px solid white;
+  cursor:pointer;
+  z-index:5;
 }
 
 .hero-image-box img{
-width:100%;
-height:100%;
-object-fit:cover;
+  width:100%;
+  height:100%;
+  object-fit:cover;
 }
 
-/* MAIN CARD */
-.container{
-padding:15px;
-}
+.container{ padding:15px; }
 
 .card{
-background:#151c25;
-border-radius:18px;
-padding:18px;
-margin-top:-20px;
-box-shadow:0 10px 25px rgba(0,0,0,0.5);
-}
-
-/* TITLE */
-h1{
-margin:0 0 10px;
-font-size:20px;
-}
-
-/* META */
-.meta{
-display:flex;
-flex-wrap:wrap;
-gap:8px;
-margin-bottom:10px;
+  background:#151c25;
+  border-radius:18px;
+  padding:18px;
+  margin-top:-20px;
 }
 
 .meta span{
-background:#222c3a;
-padding:6px 10px;
-border-radius:20px;
-font-size:12px;
+  background:#222c3a;
+  padding:6px 10px;
+  border-radius:20px;
+  font-size:12px;
+  margin-right:5px;
 }
 
-/* SECTION */
-.section-title{
-margin-top:18px;
-margin-bottom:10px;
-font-size:12px;
-letter-spacing:1px;
-text-transform:uppercase;
-color:#ffcc70;
-}
-
-.section-title.sub{
-color:#7dd3fc;
-font-size:14px;
-font-weight:600;
-margin-top:12px;
-margin-bottom:6px;
-text-transform:none;
-letter-spacing:0;
-}
-
-/* INGREDIENTS */
-.ingredients label{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:10px;
-background:#1b2430;
-border-radius:10px;
-margin-bottom:6px;
-font-size:13px;
-color:#cbd5e1;
-cursor:pointer;
-}
-
-.ingredients label:hover{
-background:#243041;
-}
-
-/* STEPS */
 .step{
-background:#1b2430;
-padding:12px;
-border-radius:10px;
-margin-bottom:8px;
-cursor:pointer;
-transition:0.2s;
-color:#cbd5e1;
-}
-
-.step:hover{
-background:#243041;
-transform:scale(1.01);
+  background:#1b2430;
+  padding:12px;
+  border-radius:10px;
+  margin-bottom:8px;
+  cursor:pointer;
 }
 
 .step.done{
-opacity:0.6;
-border-left:3px solid #00c853;
+  opacity:0.6;
+  border-left:3px solid #00c853;
 }
 
-/* TIPS */
-.chef-tips{
-padding-left:20px;
-margin-top:8px;
-}
-
-.chef-tips li{
-margin-bottom:6px;
-font-size:13px;
-line-height:1.5;
-color:#b6c2d1;
-}
-
-/* MODAL */
 .modal{
-display:none;
-position:fixed;
-inset:0;
-background:rgba(0,0,0,0.95);
-justify-content:center;
-align-items:center;
-z-index:999;
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.95);
+  justify-content:center;
+  align-items:center;
 }
 
 .modal img{
-max-width:90%;
-max-height:80%;
-border-radius:12px;
+  max-width:90%;
+  max-height:80%;
 }
 </style>
 </head>
@@ -208,7 +122,7 @@ border-radius:12px;
 
 <button class="back" onclick="history.back()">← Back</button>
 
-<img src="./logo.png" class="logo-top" alt="logo">
+<img src="./logo.png" class="logo-top">
 
 <div class="hero-image-box" onclick="openImage()">
 <img id="recipeImage">
@@ -225,109 +139,88 @@ border-radius:12px;
 </div>
 
 <script>
-
 document.addEventListener("DOMContentLoaded", async () => {
 
-const file = new URLSearchParams(location.search).get("file");
+const id = new URLSearchParams(location.search).get("id");
 
 const content = document.getElementById("content");
 const hero = document.getElementById("hero");
 
-if(!file){
-content.innerHTML = "Recipe not found";
-return;
+if(!id){
+  content.innerHTML = "Recipe not found";
+  return;
 }
 
 try{
 
-const res = await fetch(file);
-
-if(!res.ok){
-throw new Error("File not found: " + file);
-}
+const res = await fetch(`data/recipes/${id}.json`);
+if(!res.ok) throw new Error("Recipe not found");
 
 const recipe = await res.json();
 
 /* HERO */
-if(recipe?.image){
 hero.style.backgroundImage = `url('${recipe.image}')`;
 document.getElementById("recipeImage").src = recipe.image;
-}
 
 /* INGREDIENTS */
 function renderIngredient(item){
-
 if(typeof item === "string"){
-return `
-<label>
-<span>${item}</span>
-<input type="checkbox">
-</label>
-`;
+return `<label><span>${item}</span><input type="checkbox"></label>`;
 }
 
-if(item && item.title){
+if(item?.title){
 return `
 <div>
-<div class="section-title sub">${item.title}</div>
+<h4>${item.title}</h4>
 ${(item.items || []).map(renderIngredient).join("")}
 </div>
 `;
 }
-
 return "";
 }
 
 /* STEPS */
 function renderSteps(){
-return (recipe?.instruction || []).map(sec => `
+return (recipe.instruction || []).map(sec => `
 <div>
-<div class="section-title sub">${sec.title || ""}</div>
-${(sec.steps || []).map(s => `
-<div class="step" onclick="toggleStep(this)">${s}</div>
-`).join("")}
+<h4>${sec.title || ""}</h4>
+${sec.steps.map(s => `<div class="step" onclick="toggleStep(this)">${s}</div>`).join("")}
 </div>
 `).join("");
 }
 
-/* UI */
 content.innerHTML = `
-<h1>${recipe?.title || "Untitled"}</h1>
+<h1>${recipe.title}</h1>
 
 <div class="meta">
-<span>⏱ ${recipe?.time || "-"}</span>
-<span>🔥 ${recipe?.difficulty || "-"}</span>
-<span>🍽 ${recipe?.category || "-"}</span>
+<span>⏱ ${recipe.time}</span>
+<span>🔥 ${recipe.difficulty}</span>
+<span>🍽 ${recipe.category}</span>
 </div>
 
-<h3 class="section-title">Ingredients</h3>
-<div class="ingredients">
-${(recipe?.ingredients || []).map(renderIngredient).join("")}
-</div>
+<h3>Ingredients</h3>
+${recipe.ingredients.map(renderIngredient).join("")}
 
-<h3 class="section-title">Instructions</h3>
-<div class="instructions">
+<h3>Instructions</h3>
 ${renderSteps()}
-</div>
 
-<h3 class="section-title">Chef Tips</h3>
-<ul class="chef-tips">
-${(recipe?.chefTips || []).map(t => `<li>${t}</li>`).join("")}
+<h3>Chef Tips</h3>
+<ul>
+${recipe.chefTips.map(t => `<li>${t}</li>`).join("")}
 </ul>
 `;
 
-} catch(err){
-console.error(err);
+}catch(err){
 content.innerHTML = "Failed to load recipe ❌";
+console.error(err);
 }
+
 });
 
-/* STEP TOGGLE */
 function toggleStep(el){
 el.classList.toggle("done");
 }
 
-/* IMAGE MODAL */
 function openImage(){
 const img = document.getElementById("recipeImage").src;
 document.getElementById("modalImg").src = img;
