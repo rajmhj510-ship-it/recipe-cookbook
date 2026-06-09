@@ -127,3 +127,76 @@ function initCarousel() {
 	updateCarousel(0);
 	startAutoPlay();
 }
+
+let allRecipes = [];
+let activeCategory = "all";
+
+/* LOAD JSON */
+async function loadRecipes() {
+	const res = await fetch("data/index.json");
+	allRecipes = await res.json();
+	renderRecipes(allRecipes);
+}
+
+/* RENDER FUNCTION (SEARCH + FILTER) */
+function renderRecipes(data) {
+	const container = document.getElementById("searchResults");
+
+	container.innerHTML = data.map(r => `
+		<div class="card" onclick="openRecipe('${r.file}')">
+			<img src="${r.image}" />
+			<h3>${r.title}</h3>
+			<small>${r.category} • ${r.time}</small>
+		</div>
+	`).join("");
+}
+
+/* FILTER FUNCTION */
+function filterByCategory(category) {
+	activeCategory = category;
+
+	let filtered = allRecipes;
+
+	if (category !== "all") {
+		filtered = allRecipes.filter(r => r.category === category);
+	}
+
+	renderRecipes(filtered);
+}
+
+/* BUTTON CLICK EVENTS */
+document.addEventListener("click", (e) => {
+	if (e.target.classList.contains("filter-btn")) {
+
+		document.querySelectorAll(".filter-btn")
+			.forEach(btn => btn.classList.remove("active"));
+
+		e.target.classList.add("active");
+
+		filterByCategory(e.target.dataset.category);
+	}
+});
+
+/* SEARCH FUNCTION */
+document.getElementById("searchInput").addEventListener("input", (e) => {
+	const value = e.target.value.toLowerCase();
+
+	let filtered = allRecipes.filter(r =>
+		r.title.toLowerCase().includes(value)
+	);
+
+	// keep category filter active
+	if (activeCategory !== "all") {
+		filtered = filtered.filter(r => r.category === activeCategory);
+	}
+
+	renderRecipes(filtered);
+});
+
+/* OPEN RECIPE PAGE */
+function openRecipe(file) {
+	window.location.href = `recipe.html?file=${file}`;
+}
+
+/* INIT */
+loadRecipes();
