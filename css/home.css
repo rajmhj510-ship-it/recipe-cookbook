@@ -184,3 +184,30 @@ body {
 	border: 1px solid #ccc;
 	margin-bottom: 20px;
 }
+.filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 12px 0 18px;
+	justify-content: center;
+}
+
+.filter-btn {
+	padding: 6px 12px;
+	border: none;
+	border-radius: 20px;
+	background: #1b2430;
+	color: white;
+	cursor: pointer;
+	font-size: 12px;
+	transition: 0.3s;
+}
+
+.filter-btn:hover {
+	transform: scale(1.05);
+}
+
+.filter-btn.active {
+	background: #ffcc70;
+	color: black;
+}
