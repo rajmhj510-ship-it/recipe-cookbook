@@ -184,24 +184,3 @@ body {
 	border: 1px solid #ccc;
 	margin-bottom: 20px;
 }
-/* SEARCH RESULTS */
-.search-results {
-	width: 300px;
-	max-height: 300px;
-	overflow-y: auto;
-}
-
-.search-item {
-	display: flex;
-	gap: 10px;
-	padding: 8px;
-	cursor: pointer;
-	border-bottom: 1px solid #eee;
-}
-
-.search-item img {
-	width: 50px;
-	height: 50px;
-	object-fit: cover;
-	border-radius: 8px;
-}
