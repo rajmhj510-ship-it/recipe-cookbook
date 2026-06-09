@@ -34,7 +34,7 @@ function initCarousel() {
 	/* CREATE CARDS */
 	recipes.forEach((recipe) => {
 		const card = document.createElement("div");
-		card.classList.add("hero-card");
+		card.classList.add("card");
 
 		card.innerHTML = `<img src="${recipe.image}" alt="${recipe.title}">`;
 
