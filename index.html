@@ -29,7 +29,7 @@
 
 </section>
 
-<!-- SEARCH SECTION (LOGO INSIDE) -->
+<!-- ================= SEARCH SECTION ================= -->
 <section id="search-section">
 
   <div class="logo-wrapper">
@@ -38,9 +38,30 @@
 
   <h2>Search Recipes</h2>
 
-  <input type="text" placeholder="Search recipes..." />
+  <!-- SEARCH INPUT -->
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Search recipes..."
+  />
 
-  <div class="search-results"></div>
+  <!-- 🔥 CATEGORY FILTERS (NEW) -->
+  <div class="filters" id="categoryFilters">
+
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="Arabic">Arabic</button>
+    <button class="filter-btn" data-category="Chinese">Chinese</button>
+    <button class="filter-btn" data-category="Continental">Continental</button>
+    <button class="filter-btn" data-category="Indian">Indian</button>
+    <button class="filter-btn" data-category="Italian">Italian</button>
+    <button class="filter-btn" data-category="Mexican">Mexican</button>
+    <button class="filter-btn" data-category="Nepali">Nepali</button>
+    <button class="filter-btn" data-category="Thai">Thai</button>
+
+  </div>
+
+  <!-- RESULTS -->
+  <div class="search-results" id="searchResults"></div>
 
 </section>
 
