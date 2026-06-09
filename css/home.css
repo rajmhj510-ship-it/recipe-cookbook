@@ -1,3 +1,4 @@
+/* ================= RESET ================= */
 * {
 	margin: 0;
 	padding: 0;
@@ -11,7 +12,7 @@ body {
 	overflow-x: hidden;
 }
 
-/* HERO */
+/* ================= HERO ================= */
 #hero {
 	min-height: 100vh;
 	display: flex;
@@ -20,6 +21,7 @@ body {
 	justify-content: center;
 	gap: 20px;
 	text-align: center;
+	padding: 20px;
 }
 
 /* TITLE */
@@ -29,7 +31,7 @@ body {
 	color: rgba(8, 42, 123, 0.25);
 }
 
-/* CAROUSEL */
+/* ================= CAROUSEL ================= */
 .carousel-container {
 	width: 100%;
 	max-width: 1100px;
@@ -49,10 +51,9 @@ body {
 	position: relative;
 }
 
-/* CARD (CENTER FIXED) */
+/* CARD BASE */
 .card {
 	position: absolute;
-
 	top: 50%;
 	left: 50%;
 
@@ -76,12 +77,13 @@ body {
 	object-fit: cover;
 }
 
-/* CENTER SYSTEM */
+/* CENTER STATE */
 .card.center {
 	transform: translate(-50%, -50%) scale(1.15);
 	z-index: 10;
 }
 
+/* SIDE POSITIONS */
 .card.left-1 {
 	transform: translate(calc(-50% - 180px), -50%) scale(0.92);
 	opacity: 0.9;
@@ -107,7 +109,7 @@ body {
 	pointer-events: none;
 }
 
-/* INFO */
+/* ================= INFO ================= */
 .recipe-info {
 	text-align: center;
 }
@@ -123,7 +125,7 @@ body {
 	color: #777;
 }
 
-/* SCROLL BUTTON */
+/* ================= BUTTON ================= */
 .scroll-down {
 	padding: 10px 18px;
 	border: none;
@@ -138,7 +140,7 @@ body {
 	transform: translateY(3px);
 }
 
-/* SEARCH SECTION */
+/* ================= SEARCH SECTION ================= */
 #search-section {
 	min-height: 100vh;
 	padding: 80px 20px;
@@ -151,7 +153,7 @@ body {
 	background: white;
 }
 
-/* LOGO INSIDE SEARCH */
+/* LOGO */
 .logo-wrapper {
 	display: flex;
 	justify-content: center;
@@ -169,7 +171,7 @@ body {
 	transform: scale(1.08);
 }
 
-/* SEARCH TITLE */
+/* TITLE */
 #search-section h2 {
 	font-size: 2rem;
 	color: #082a7b;
@@ -179,17 +181,22 @@ body {
 /* INPUT */
 #search-section input {
 	width: 300px;
+	max-width: 90%;
 	padding: 10px;
 	border-radius: 10px;
 	border: 1px solid #ccc;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
+	outline: none;
 }
+
+/* ================= FILTERS ================= */
 .filters {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 8px;
-	margin: 12px 0 18px;
+	margin: 10px 0 20px;
 	justify-content: center;
+	max-width: 900px;
 }
 
 .filter-btn {
@@ -210,4 +217,33 @@ body {
 .filter-btn.active {
 	background: #ffcc70;
 	color: black;
+}
+
+/* ================= MOBILE FIX ================= */
+@media (max-width: 768px) {
+
+	.about-title {
+		font-size: 2.8rem;
+	}
+
+	.card {
+		width: 200px;
+		height: 280px;
+	}
+
+	.card.left-1 {
+		transform: translate(calc(-50% - 120px), -50%) scale(0.9);
+	}
+
+	.card.left-2 {
+		transform: translate(calc(-50% - 220px), -50%) scale(0.75);
+	}
+
+	.card.right-1 {
+		transform: translate(calc(-50% + 120px), -50%) scale(0.9);
+	}
+
+	.card.right-2 {
+		transform: translate(calc(-50% + 220px), -50%) scale(0.75);
+	}
 }
