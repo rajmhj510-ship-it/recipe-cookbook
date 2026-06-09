@@ -1,13 +1,20 @@
+/* ================= GLOBAL DATA ================= */
 let recipes = [];
+let activeCategory = "all";
+let currentIndex = 0;
 
+/* ================= LOAD DATA ================= */
 async function loadRecipes() {
 	const res = await fetch("data/index.json");
 	recipes = await res.json();
+
 	initCarousel();
+	initSearchAndFilters();
 }
 
 loadRecipes();
 
+/* ================= CAROUSEL ================= */
 function initCarousel() {
 	const track = document.querySelector(".carousel-track");
 	const titleEl = document.querySelector(".recipe-title");
@@ -20,19 +27,20 @@ function initCarousel() {
 	const searchSection = document.querySelector("#search-section");
 	const scrollBtn = document.querySelector(".scroll-down");
 
-	let currentIndex = 0;
 	let isAnimating = false;
 	let autoPlayTimer = null;
 
 	/* CREATE CARDS */
-	recipes.forEach((recipe) => {
+	track.innerHTML = "";
+
+	recipes.forEach((recipe, index) => {
 		const card = document.createElement("div");
 		card.classList.add("card");
 
 		card.innerHTML = `<img src="${recipe.image}" alt="${recipe.title}">`;
 
 		card.addEventListener("click", () => {
-			window.location.href = `recipe.html?id=${recipe.id}`;
+			window.location.href = `recipe.html?file=${recipe.file}`;
 		});
 
 		track.appendChild(card);
@@ -40,7 +48,6 @@ function initCarousel() {
 
 	const cards = document.querySelectorAll(".card");
 
-	/* MAIN UPDATE FUNCTION */
 	function updateCarousel(newIndex) {
 		if (isAnimating) return;
 		isAnimating = true;
@@ -76,16 +83,16 @@ function initCarousel() {
 		}, 800);
 	}
 
-	/* AUTO PLAY */
+	/* AUTO PLAY (30 sec if no click) */
 	function startAutoPlay() {
 		clearInterval(autoPlayTimer);
 
 		autoPlayTimer = setInterval(() => {
 			updateCarousel(currentIndex + 1);
-		}, 15000); // 15 seconds
+		}, 30000); // ✅ 30 seconds
 	}
 
-	/* NAV BUTTONS */
+	/* NAV */
 	leftBtn.addEventListener("click", () => {
 		updateCarousel(currentIndex - 1);
 		startAutoPlay();
@@ -96,7 +103,7 @@ function initCarousel() {
 		startAutoPlay();
 	});
 
-	/* SCROLL DOWN */
+	/* SCROLL */
 	scrollBtn.addEventListener("click", () => {
 		searchSection.scrollIntoView({ behavior: "smooth" });
 
@@ -104,7 +111,7 @@ function initCarousel() {
 		hero.style.pointerEvents = "none";
 	});
 
-	/* SHOW HERO ON SCROLL UP */
+	/* SHOW HERO AGAIN */
 	window.addEventListener("scroll", () => {
 		if (window.scrollY < 100) {
 			hero.style.opacity = "1";
@@ -112,91 +119,83 @@ function initCarousel() {
 		}
 	});
 
-	/* OPTIONAL: pause on hover */
+	/* PAUSE ON HOVER */
 	const carousel = document.querySelector(".carousel-container");
 
-	carousel.addEventListener("mouseenter", () => {
-		clearInterval(autoPlayTimer);
-	});
-
-	carousel.addEventListener("mouseleave", () => {
-		startAutoPlay();
-	});
+	carousel.addEventListener("mouseenter", () => clearInterval(autoPlayTimer));
+	carousel.addEventListener("mouseleave", startAutoPlay);
 
 	/* INIT */
 	updateCarousel(0);
 	startAutoPlay();
 }
 
-let allRecipes = [];
-let activeCategory = "all";
-
-/* LOAD JSON */
-async function loadRecipes() {
-	const res = await fetch("data/index.json");
-	allRecipes = await res.json();
-	renderRecipes(allRecipes);
-}
-
-/* RENDER FUNCTION (SEARCH + FILTER) */
-function renderRecipes(data) {
+/* ================= SEARCH + FILTER ================= */
+function initSearchAndFilters() {
+	const searchInput = document.getElementById("searchInput");
 	const container = document.getElementById("searchResults");
 
-	container.innerHTML = data.map(r => `
-		<div class="card" onclick="openRecipe('${r.file}')">
-			<img src="${r.image}" />
-			<h3>${r.title}</h3>
-			<small>${r.category} • ${r.time}</small>
-		</div>
-	`).join("");
+	renderRecipes(recipes);
+
+	/* SEARCH */
+	searchInput.addEventListener("input", (e) => {
+		const value = e.target.value.toLowerCase();
+
+		let filtered = recipes.filter(r =>
+			r.title.toLowerCase().includes(value)
+		);
+
+		if (activeCategory !== "all") {
+			filtered = filtered.filter(r => r.category === activeCategory);
+		}
+
+		renderRecipes(filtered);
+	});
+
+	/* FILTER BUTTONS */
+	document.addEventListener("click", (e) => {
+		if (e.target.classList.contains("filter-btn")) {
+
+			document.querySelectorAll(".filter-btn")
+				.forEach(btn => btn.classList.remove("active"));
+
+			e.target.classList.add("active");
+
+			activeCategory = e.target.dataset.category;
+			applyFilters();
+		}
+	});
+
+	function applyFilters() {
+		let filtered = recipes;
+
+		if (activeCategory !== "all") {
+			filtered = filtered.filter(r => r.category === activeCategory);
+		}
+
+		const searchValue = searchInput.value.toLowerCase();
+
+		if (searchValue) {
+			filtered = filtered.filter(r =>
+				r.title.toLowerCase().includes(searchValue)
+			);
+		}
+
+		renderRecipes(filtered);
+	}
+
+	function renderRecipes(data) {
+		container.innerHTML = data.map(r => `
+			<div class="card" onclick="openRecipe('${r.file}')">
+				<img src="${r.image}" />
+				<h3>${r.title}</h3>
+				<small>${r.category} • ${r.time}</small>
+			</div>
+		`).join("");
+	}
 }
 
-/* FILTER FUNCTION */
-function filterByCategory(category) {
-	activeCategory = category;
-
-	let filtered = allRecipes;
-
-	if (category !== "all") {
-		filtered = allRecipes.filter(r => r.category === category);
-	}
-
-	renderRecipes(filtered);
-}
-
-/* BUTTON CLICK EVENTS */
-document.addEventListener("click", (e) => {
-	if (e.target.classList.contains("filter-btn")) {
-
-		document.querySelectorAll(".filter-btn")
-			.forEach(btn => btn.classList.remove("active"));
-
-		e.target.classList.add("active");
-
-		filterByCategory(e.target.dataset.category);
-	}
-});
-
-/* SEARCH FUNCTION */
-document.getElementById("searchInput").addEventListener("input", (e) => {
-	const value = e.target.value.toLowerCase();
-
-	let filtered = allRecipes.filter(r =>
-		r.title.toLowerCase().includes(value)
-	);
-
-	// keep category filter active
-	if (activeCategory !== "all") {
-		filtered = filtered.filter(r => r.category === activeCategory);
-	}
-
-	renderRecipes(filtered);
-});
-
-/* OPEN RECIPE PAGE */
+/* ================= NAV ================= */
 function openRecipe(file) {
 	window.location.href = `recipe.html?file=${file}`;
 }
-
-/* INIT */
-loadRecipes();
