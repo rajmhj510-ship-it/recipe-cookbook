@@ -32,7 +32,7 @@ function initCarousel() {
 
 		card.addEventListener("click", () => {
 			// 🔥 IMPORTANT FIX: USE file from index.json
-			window.location.href = `recipe.html?file=${recipe.file}`;
+			window.location.href = `recipe.html?file=/${recipe.file}`;
 		});
 
 		track.appendChild(card);
