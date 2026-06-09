@@ -1,20 +1,13 @@
-/* ================= GLOBAL DATA ================= */
 let recipes = [];
-let activeCategory = "all";
-let currentIndex = 0;
 
-/* ================= LOAD DATA ================= */
 async function loadRecipes() {
 	const res = await fetch("data/index.json");
 	recipes = await res.json();
-
 	initCarousel();
-	initSearchAndFilters();
 }
 
 loadRecipes();
 
-/* ================= CAROUSEL ================= */
 function initCarousel() {
 	const track = document.querySelector(".carousel-track");
 	const titleEl = document.querySelector(".recipe-title");
@@ -133,74 +126,4 @@ function initCarousel() {
 	/* INIT */
 	updateCarousel(0);
 	startAutoPlay();
-}
-
-/* ================= SEARCH + FILTER ================= */
-function initSearchAndFilters() {
-	const searchInput = document.getElementById("searchInput");
-	const container = document.getElementById("searchResults");
-
-	renderRecipes(recipes);
-
-	/* SEARCH */
-	searchInput.addEventListener("input", (e) => {
-		const value = e.target.value.toLowerCase();
-
-		let filtered = recipes.filter(r =>
-			r.title.toLowerCase().includes(value)
-		);
-
-		if (activeCategory !== "all") {
-			filtered = filtered.filter(r => r.category === activeCategory);
-		}
-
-		renderRecipes(filtered);
-	});
-
-	/* FILTER BUTTONS */
-	document.addEventListener("click", (e) => {
-		if (e.target.classList.contains("filter-btn")) {
-
-			document.querySelectorAll(".filter-btn")
-				.forEach(btn => btn.classList.remove("active"));
-
-			e.target.classList.add("active");
-
-			activeCategory = e.target.dataset.category;
-			applyFilters();
-		}
-	});
-
-	function applyFilters() {
-		let filtered = recipes;
-
-		if (activeCategory !== "all") {
-			filtered = filtered.filter(r => r.category === activeCategory);
-		}
-
-		const searchValue = searchInput.value.toLowerCase();
-
-		if (searchValue) {
-			filtered = filtered.filter(r =>
-				r.title.toLowerCase().includes(searchValue)
-			);
-		}
-
-		renderRecipes(filtered);
-	}
-
-	function renderRecipes(data) {
-		container.innerHTML = data.map(r => `
-			<div class="card" onclick="openRecipe('${r.file}')">
-				<img src="${r.image}" />
-				<h3>${r.title}</h3>
-				<small>${r.category} • ${r.time}</small>
-			</div>
-		`).join("");
-	}
-}
-
-/* ================= NAV ================= */
-function openRecipe(file) {
-	window.location.href = `recipe.html?file=${file}`;
 }
