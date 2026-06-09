@@ -29,22 +29,106 @@
 
 </section>
 
-<!-- SEARCH SECTION (LOGO INSIDE) -->
-<section id="search-section">
+/* SEARCH */
+.search-box input{
+width:100%;
+padding:12px;
+border-radius:10px;
+border:none;
+outline:none;
+background:#1b2430;
+color:#fff;
+margin-bottom:10px;
+}
 
-  <div class="logo-wrapper">
-    <img src="logo.png" alt="Recipe Logo" class="site-logo">
+/* FILTERS */
+.filters{
+display:flex;
+gap:8px;
+flex-wrap:wrap;
+margin-bottom:15px;
+}
+
+.filters button{
+padding:6px 12px;
+border:none;
+border-radius:20px;
+background:#1b2430;
+color:#fff;
+cursor:pointer;
+font-size:12px;
+}
+
+.filters button.active{
+background:#ffcc70;
+color:#000;
+}
+
+/* GRID */
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+gap:10px;
+}
+
+.card{
+background:#151c25;
+padding:10px;
+border-radius:12px;
+cursor:pointer;
+}
+
+.card img{
+width:100%;
+height:120px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.card h3{font-size:14px;margin:6px 0 0;}
+.card small{opacity:0.7;font-size:12px;}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero" id="heroSlide">
+
+  <div class="hero-content">
+    <img src="./logo.png" class="logo">
+    <h1>Cook like a chef </h1>
+    <p>Explore global recipes and step-by-step cooking guides</p>
   </div>
 
-  <h2>Search Recipes</h2>
+  <div class="scroll-down" onclick="goToApp()">
+    ⬇ Scroll Down
+  </div>
 
-  <input type="text" placeholder="Search recipes..." />
+</div>
 
-  <div class="search-results"></div>
+<!-- MAIN APP -->
+<div id="appSection">
 
-</section>
+  <div class="app-header">
+    <img src="./logo.png" class="app-logo">
+    <div class="app-text">
+      <h2>Recipe Cookbook</h2>
+      <p>Explore global recipes</p>
+    </div>
+  </div>
 
-<script src="js/home.js"></script>
+  <div class="search-box">
+    <input id="search" placeholder="Search recipes...">
+  </div>
+
+  <div class="filters" id="filters"></div>
+
+  <div class="container" id="list"></div>
+
+</div>
+
+<script src="./js/index.js"></script>
 
 </body>
 </html>
