@@ -17,12 +17,14 @@ function initCarousel() {
 	const rightBtn = document.querySelector(".nav-arrow.right");
 
 	const hero = document.querySelector("#hero");
+	const searchSection = document.querySelector("#search-section");
 	const scrollBtn = document.querySelector(".scroll-down");
 
 	let currentIndex = 0;
 	let isAnimating = false;
 	let autoPlayTimer = null;
 
+	/* CREATE CARDS */
 	recipes.forEach((recipe) => {
 		const card = document.createElement("div");
 		card.classList.add("card");
@@ -94,6 +96,23 @@ function initCarousel() {
 	scrollBtn.addEventListener("click", () => {
 		hero.style.opacity = "0";
 		hero.style.pointerEvents = "none";
+	});
+
+	window.addEventListener("scroll", () => {
+		if (window.scrollY < 100) {
+			hero.style.opacity = "1";
+			hero.style.pointerEvents = "auto";
+		}
+	});
+
+	const carousel = document.querySelector(".carousel-container");
+
+	carousel.addEventListener("mouseenter", () => {
+		clearInterval(autoPlayTimer);
+	});
+
+	carousel.addEventListener("mouseleave", () => {
+		startAutoPlay();
 	});
 
 	updateCarousel(0);
