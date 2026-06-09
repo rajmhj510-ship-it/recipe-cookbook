@@ -1,4 +1,3 @@
-/* ================= RESET ================= */
 * {
 	margin: 0;
 	padding: 0;
@@ -12,7 +11,7 @@ body {
 	overflow-x: hidden;
 }
 
-/* ================= HERO ================= */
+/* HERO */
 #hero {
 	min-height: 100vh;
 	display: flex;
@@ -21,7 +20,6 @@ body {
 	justify-content: center;
 	gap: 20px;
 	text-align: center;
-	padding: 20px;
 }
 
 /* TITLE */
@@ -109,7 +107,7 @@ body {
 	pointer-events: none;
 }
 
-/* ================= INFO ================= */
+/* INFO */
 .recipe-info {
 	text-align: center;
 }
@@ -125,7 +123,7 @@ body {
 	color: #777;
 }
 
-/* ================= BUTTON ================= */
+/* SCROLL BUTTON */
 .scroll-down {
 	padding: 10px 18px;
 	border: none;
@@ -140,7 +138,7 @@ body {
 	transform: translateY(3px);
 }
 
-/* ================= SEARCH SECTION ================= */
+/* SEARCH SECTION */
 #search-section {
 	min-height: 100vh;
 	padding: 80px 20px;
@@ -153,7 +151,7 @@ body {
 	background: white;
 }
 
-/* LOGO */
+/* LOGO INSIDE SEARCH */
 .logo-wrapper {
 	display: flex;
 	justify-content: center;
@@ -171,7 +169,7 @@ body {
 	transform: scale(1.08);
 }
 
-/* TITLE */
+/* SEARCH TITLE */
 #search-section h2 {
 	font-size: 2rem;
 	color: #082a7b;
@@ -181,69 +179,8 @@ body {
 /* INPUT */
 #search-section input {
 	width: 300px;
-	max-width: 90%;
 	padding: 10px;
 	border-radius: 10px;
 	border: 1px solid #ccc;
-	margin-bottom: 15px;
-	outline: none;
-}
-
-/* ================= FILTERS ================= */
-.filters {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 8px;
-	margin: 10px 0 20px;
-	justify-content: center;
-	max-width: 900px;
-}
-
-.filter-btn {
-	padding: 6px 12px;
-	border: none;
-	border-radius: 20px;
-	background: #1b2430;
-	color: white;
-	cursor: pointer;
-	font-size: 12px;
-	transition: 0.3s;
-}
-
-.filter-btn:hover {
-	transform: scale(1.05);
-}
-
-.filter-btn.active {
-	background: #ffcc70;
-	color: black;
-}
-
-/* ================= MOBILE FIX ================= */
-@media (max-width: 768px) {
-
-	.about-title {
-		font-size: 2.8rem;
-	}
-
-	.card {
-		width: 200px;
-		height: 280px;
-	}
-
-	.card.left-1 {
-		transform: translate(calc(-50% - 120px), -50%) scale(0.9);
-	}
-
-	.card.left-2 {
-		transform: translate(calc(-50% - 220px), -50%) scale(0.75);
-	}
-
-	.card.right-1 {
-		transform: translate(calc(-50% + 120px), -50%) scale(0.9);
-	}
-
-	.card.right-2 {
-		transform: translate(calc(-50% + 220px), -50%) scale(0.75);
-	}
+	margin-bottom: 20px;
 }
