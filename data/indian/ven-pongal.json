@@ -1,0 +1,85 @@
+{
+"title": "Ven Pongal (Savory South Indian Rice & Lentil Porridge)",
+"category": "South Indian",
+"time": "35 mins",
+"difficulty": "Easy",
+"image": "assets/images/indian/ven-pongal.jpg",
+
+"ingredients": [
+{
+"title": "For Pongal",
+"items": [
+"Rice – 1 cup (preferably Sona Masoori or Ponni)",
+"Moong dal (yellow split gram) – ¼ cup",
+"Water – 4 cups (adjust for consistency)",
+"Ginger – 1 tsp, finely chopped or grated",
+"Black pepper – 1 tsp, coarsely crushed",
+"Green chilies – 2, slit lengthwise",
+"Curry leaves – 8–10",
+"Cashew nuts – 10–12",
+"Ghee – 3–4 tbsp (preferably homemade)",
+"Salt – to taste",
+"Optional: a pinch of hing (asafoetida) for authentic flavor"
+]
+},
+{
+"title": "For Tempering",
+"items": [
+"Ghee – 1–2 tsp",
+"Mustard seeds – ½ tsp",
+"Curry leaves – 5–6",
+"Cashew nuts – 5–6"
+]
+}
+],
+
+"instruction": [
+{
+"title": "Prep Rice & Dal",
+"steps": [
+"Wash 1 cup rice and ¼ cup moong dal thoroughly.",
+"Soak moong dal for 15–20 minutes (optional but makes it creamier)."
+]
+},
+{
+"title": "Cooking Pongal",
+"steps": [
+"In a heavy-bottomed pan or pressure cooker, dry roast moong dal lightly until aromatic (optional).",
+"Add rice, dal, 4 cups water, salt, ginger, green chilies, black pepper, curry leaves, and hing.",
+"Pressure cook:",
+"3–4 whistles on medium heat (or simmer in pan until rice and dal are soft and mushy).",
+"Once cooked, mash slightly with the back of a ladle to get a creamy texture."
+]
+},
+{
+"title": "Fry Cashews",
+"steps": [
+"In a small pan, heat 3–4 tsp ghee.",
+"Fry cashews until golden brown, remove and set aside."
+]
+},
+{
+"title": "Tempering (Tadka)",
+"steps": [
+"In the same ghee, add ½ tsp mustard seeds.",
+"When they splutter, add curry leaves and fried cashews.",
+"Pour this tempering over the cooked Pongal."
+]
+},
+{
+"title": "Finishing Touch",
+"steps": [
+"Drizzle extra ghee (1 tsp) on top for that rich, restaurant-quality shine.",
+"Serve hot with Coconut Chutney and Sambar."
+]
+}
+],
+
+"chefTips": [
+"Consistency: Pongal should be soft, slightly loose, but not watery. Think creamy porridge.",
+"Freshly cracked black pepper & ginger enhance aroma and warmth.",
+"Ghee is the secret for richness—don’t skimp.",
+"Cashews should be golden and crisp, not burnt.",
+"Optional: Add a tiny dollop of butter on top before serving for luxury finish."
+]
+}
