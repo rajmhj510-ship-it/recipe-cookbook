@@ -49,10 +49,9 @@ body {
 	position: relative;
 }
 
-/* CARD (CENTER FIXED) */
+/* CARD */
 .card {
 	position: absolute;
-
 	top: 50%;
 	left: 50%;
 
@@ -136,51 +135,4 @@ body {
 
 .scroll-down:hover {
 	transform: translateY(3px);
-}
-
-/* SEARCH SECTION */
-#search-section {
-	min-height: 100vh;
-	padding: 80px 20px;
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-start;
-
-	background: white;
-}
-
-/* LOGO INSIDE SEARCH */
-.logo-wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 20px;
-}
-
-.site-logo {
-	width: 140px;
-	height: auto;
-	transition: transform 0.3s ease;
-}
-
-.site-logo:hover {
-	transform: scale(1.08);
-}
-
-/* SEARCH TITLE */
-#search-section h2 {
-	font-size: 2rem;
-	color: #082a7b;
-	margin-bottom: 20px;
-}
-
-/* INPUT */
-#search-section input {
-	width: 300px;
-	padding: 10px;
-	border-radius: 10px;
-	border: 1px solid #ccc;
-	margin-bottom: 20px;
 }
