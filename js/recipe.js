@@ -3,21 +3,29 @@ const file = params.get("file");
 
 async function loadRecipe() {
 	try {
-		if (!file) throw new Error("Missing recipe file");
+		if (!file) throw new Error("No file provided");
 
-		const url = new URL(file, window.location.href).href;
+		// FIX: ALWAYS FORCE ROOT-RELATIVE PATH
+		const url = "./" + file;
+
+		console.log("Fetching:", url);
 
 		const res = await fetch(url);
 
-		if (!res.ok) throw new Error("Failed to load recipe");
+		if (!res.ok) {
+			throw new Error("HTTP " + res.status);
+		}
 
 		const data = await res.json();
 
+		/* HERO IMAGE */
 		document.getElementById("hero").style.backgroundImage =
 			`url(${data.image})`;
 
+		/* TITLE */
 		document.getElementById("title").textContent = data.title;
 
+		/* CONTENT */
 		document.getElementById("content").innerHTML = `
 			<div class="section">
 				<h3>Ingredients</h3>
@@ -44,11 +52,8 @@ async function loadRecipe() {
 		document.getElementById("title").textContent =
 			"Recipe failed to load ❌";
 
-		document.getElementById("content").innerHTML = `
-			<div class="section">
-				<p style="color:red;">${err.message}</p>
-			</div>
-		`;
+		document.getElementById("content").innerHTML =
+			`<div class="section" style="color:red;">${err.message}</div>`;
 	}
 }
 
