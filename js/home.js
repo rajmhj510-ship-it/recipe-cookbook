@@ -3,15 +3,13 @@ let recipes = [];
 async function loadRecipes() {
 	try {
 		const res = await fetch("./data/index.json");
-		if (!res.ok) throw new Error("Index load failed");
+		if (!res.ok) throw new Error("Failed to load");
 
 		recipes = await res.json();
 		initCarousel();
 
 	} catch (err) {
 		console.error(err);
-		document.querySelector(".recipe-title").textContent =
-			"Failed to load recipes ❌";
 	}
 }
 
@@ -27,21 +25,28 @@ function initCarousel() {
 	const hero = document.querySelector("#hero");
 	const scrollBtn = document.querySelector(".scroll-down");
 
-	let currentIndex = 0;
+	const tools = document.querySelector(".tools-section");
+	const search = document.getElementById("searchBar");
+	const categoryBar = document.getElementById("categoryBar");
+	const grid = document.getElementById("recipeGrid");
+
+	let current = 0;
 	let timer;
+
+	let activeCategory = "all";
+	let searchText = "";
 
 	/* CREATE CARDS */
 	recipes.forEach(r => {
 		const card = document.createElement("div");
 		card.className = "card";
 
-		card.innerHTML = `<img src="${r.image}" alt="${r.title}">`;
+		card.innerHTML = `<img src="${r.image}">`;
 
-		card.addEventListener("click", () => {
-			// FIXED SAFE URL
+		card.onclick = () => {
 			window.location.href =
 				`recipe.html?file=${encodeURIComponent(r.file)}`;
-		});
+		};
 
 		track.appendChild(card);
 	});
@@ -49,11 +54,10 @@ function initCarousel() {
 	const cards = document.querySelectorAll(".card");
 
 	function update(i) {
-		currentIndex = (i + cards.length) % cards.length;
+		current = (i + cards.length) % cards.length;
 
 		cards.forEach((c, idx) => {
-
-			const offset = (idx - currentIndex + cards.length) % cards.length;
+			const offset = (idx - current + cards.length) % cards.length;
 
 			c.className = "card";
 
@@ -65,36 +69,89 @@ function initCarousel() {
 			else c.classList.add("hidden");
 		});
 
-		const r = recipes[currentIndex];
+		const r = recipes[current];
 		titleEl.textContent = r.title;
 		metaEl.textContent = `${r.time} • ${r.difficulty}`;
 	}
 
-	/* 🔥 AUTO PLAY FIXED (15 SEC) */
-	function startAuto() {
+	function autoplay() {
 		clearInterval(timer);
-		timer = setInterval(() => {
-			update(currentIndex + 1);
-		}, 15000);
+		timer = setInterval(() => update(current + 1), 15000);
 	}
 
-	leftBtn.onclick = () => {
-		update(currentIndex - 1);
-		startAuto();
-	};
+	leftBtn.onclick = () => { update(current - 1); autoplay(); };
+	rightBtn.onclick = () => { update(current + 1); autoplay(); };
 
-	rightBtn.onclick = () => {
-		update(currentIndex + 1);
-		startAuto();
-	};
-
+	/* SCROLL → SWITCH VIEW */
 	scrollBtn.onclick = () => {
 		hero.style.display = "none";
-
-		// show tools section (future search/filter)
-		document.querySelector(".hidden-tools").style.display = "block";
+		tools.style.display = "block";
+		renderCategories();
+		renderGrid();
 	};
 
+	/* CATEGORY */
+	function renderCategories() {
+		const cats = ["all", ...new Set(recipes.map(r => r.category))];
+
+		categoryBar.innerHTML = "";
+
+		cats.forEach(cat => {
+			const btn = document.createElement("button");
+			btn.className = "category-btn";
+			btn.textContent = cat;
+
+			if (cat === activeCategory) btn.classList.add("active");
+
+			btn.onclick = () => {
+				activeCategory = cat;
+				renderCategories();
+				renderGrid();
+			};
+
+			categoryBar.appendChild(btn);
+		});
+	}
+
+	/* GRID */
+	function renderGrid() {
+		grid.innerHTML = "";
+
+		const filtered = recipes.filter(r => {
+			const matchCat =
+				activeCategory === "all" || r.category === activeCategory;
+
+			const matchSearch =
+				r.title.toLowerCase().includes(searchText.toLowerCase());
+
+			return matchCat && matchSearch;
+		});
+
+		filtered.forEach(r => {
+			const div = document.createElement("div");
+			div.className = "grid-card";
+
+			div.innerHTML = `
+				<img src="${r.image}">
+				<h4>${r.title}</h4>
+				<p>${r.category}</p>
+			`;
+
+			div.onclick = () => {
+				window.location.href =
+					`recipe.html?file=${encodeURIComponent(r.file)}`;
+			};
+
+			grid.appendChild(div);
+		});
+	}
+
+	/* LIVE SEARCH */
+	search.addEventListener("input", e => {
+		searchText = e.target.value;
+		renderGrid();
+	});
+
 	update(0);
-	startAuto();
+	autoplay();
 }
