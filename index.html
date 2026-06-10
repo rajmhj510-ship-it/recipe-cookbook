@@ -10,35 +10,7 @@
 
 <body>
 
-<!-- HEADER -->
-<header class="header">
-
-  <!-- LOGO -->
-  <div class="logo">
-    <img src="assets/images/logo.png" alt="Logo">
-    <span>RecipeCook</span>
-  </div>
-
-  <!-- SEARCH -->
-  <div class="search-box">
-    <input type="text" id="searchInput" placeholder="Search recipes..." />
-  </div>
-
-</header>
-
-<!-- CATEGORY FILTER -->
-<div class="filters">
-  <button class="filter-btn active" data-category="All">All</button>
-  <button class="filter-btn" data-category="Arabic">Arabic</button>
-  <button class="filter-btn" data-category="Chinese">Chinese</button>
-  <button class="filter-btn" data-category="Indian">Indian</button>
-  <button class="filter-btn" data-category="Italian">Italian</button>
-  <button class="filter-btn" data-category="Mexican">Mexican</button>
-  <button class="filter-btn" data-category="Nepali">Nepali</button>
-  <button class="filter-btn" data-category="Thai">Thai</button>
-</div>
-
-<!-- HERO -->
+<!-- ================= HERO SECTION ================= -->
 <section id="hero">
 
   <h1 class="about-title">COOK LIKE A CHEF</h1>
@@ -52,6 +24,37 @@
   <div class="recipe-info">
     <h2 class="recipe-title"></h2>
     <p class="recipe-meta"></p>
+  </div>
+
+  <button class="scroll-down">↓ Scroll Down</button>
+
+</section>
+
+<!-- ================= MAIN APP (hidden initially) ================= -->
+<section id="main-ui" class="hidden-ui">
+
+  <header class="header">
+
+    <div class="logo">
+      <img src="assets/images/logo.png" alt="Logo">
+      <span>RecipeCook</span>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search recipes..." />
+    </div>
+
+  </header>
+
+  <div class="filters">
+    <button class="filter-btn active" data-category="All">All</button>
+    <button class="filter-btn" data-category="Arabic">Arabic</button>
+    <button class="filter-btn" data-category="Chinese">Chinese</button>
+    <button class="filter-btn" data-category="Indian">Indian</button>
+    <button class="filter-btn" data-category="Italian">Italian</button>
+    <button class="filter-btn" data-category="Mexican">Mexican</button>
+    <button class="filter-btn" data-category="Nepali">Nepali</button>
+    <button class="filter-btn" data-category="Thai">Thai</button>
   </div>
 
 </section>
