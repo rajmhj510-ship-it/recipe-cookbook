@@ -38,9 +38,10 @@ function initCarousel() {
 
 		card.innerHTML = `<img src="${recipe.image}" alt="${recipe.title}">`;
 
+		// ✅ FIXED PATH (IMPORTANT)
 		card.addEventListener("click", () => {
 			window.location.href =
-				`recipe.html?file=${encodeURIComponent(recipe.file)}`;
+				`recipe.html?file=./${encodeURIComponent(recipe.file)}`;
 		});
 
 		track.appendChild(card);
@@ -101,13 +102,6 @@ function initCarousel() {
 	scrollBtn.addEventListener("click", () => {
 		hero.style.opacity = "0";
 		hero.style.pointerEvents = "none";
-	});
-
-	window.addEventListener("scroll", () => {
-		if (window.scrollY < 100) {
-			hero.style.opacity = "1";
-			hero.style.pointerEvents = "auto";
-		}
 	});
 
 	const carousel = document.querySelector(".carousel-container");
