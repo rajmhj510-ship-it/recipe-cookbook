@@ -25,15 +25,37 @@ body {
 	text-shadow: 0 2px 10px black;
 }
 
-#content {
+.container {
 	padding: 20px;
+	max-width: 900px;
+	margin: auto;
+}
+
+.section {
+	background: white;
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+.section h2 {
+	margin-bottom: 10px;
+	color: #082a7b;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+li {
+	margin-bottom: 6px;
 }
 
 .step {
-	padding: 10px;
-	background: white;
-	margin: 10px 0;
-	border-radius: 10px;
+	padding: 8px;
+	background: #f2f2f2;
+	margin: 6px 0;
+	border-radius: 8px;
 	cursor: pointer;
 }
 
@@ -47,8 +69,8 @@ body {
 <body>
 
 <div id="hero"></div>
-<img id="recipeImage" style="width:100%; max-height:400px; object-fit:cover;">
-<div id="content"></div>
+
+<div class="container" id="content"></div>
 
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
@@ -59,29 +81,66 @@ document.addEventListener("DOMContentLoaded", async () => {
 	const hero = document.getElementById("hero");
 
 	if (!file) {
-		content.innerHTML = "Recipe not found ❌";
+		content.innerHTML = "<h2>Recipe not found ❌</h2>";
 		return;
 	}
 
 	try {
-		// ✅ FIXED: NO decodeURIComponent (breaks GitHub Pages)
 		const res = await fetch(file);
-
 		if (!res.ok) throw new Error("File not found");
 
 		const recipe = await res.json();
 
+		// HERO IMAGE
 		hero.style.backgroundImage = `url('${recipe.image}')`;
-		document.getElementById("recipeImage").src = recipe.image;
 
-		content.innerHTML = recipe.content || "<p>No content available</p>";
+		// INGREDIENTS
+		let ingredientsHTML = "";
+		recipe.ingredients.forEach(group => {
+			ingredientsHTML += `
+				<div class="section">
+					<h2>${group.title}</h2>
+					<ul>
+						${group.items.map(i => `<li>${i}</li>`).join("")}
+					</ul>
+				</div>
+			`;
+		});
+
+		// INSTRUCTIONS
+		let instructionHTML = "";
+		recipe.instruction.forEach(section => {
+			instructionHTML += `
+				<div class="section">
+					<h2>${section.title}</h2>
+					${section.steps.map(step =>
+						`<div class="step" onclick="toggleStep(this)">${step}</div>`
+					).join("")}
+				</div>
+			`;
+		});
+
+		// CHEF TIPS
+		let tipsHTML = `
+			<div class="section">
+				<h2>Chef Tips</h2>
+				<ul>
+					${recipe.chefTips.map(tip => `<li>${tip}</li>`).join("")}
+				</ul>
+			</div>
+		`;
+
+		// RENDER EVERYTHING
+		content.innerHTML =
+			ingredientsHTML + instructionHTML + tipsHTML;
 
 	} catch (err) {
 		console.error(err);
-		content.innerHTML = "Failed to load recipe ❌";
+		content.innerHTML = "<h2>Failed to load recipe ❌</h2>";
 	}
 });
 
+// STEP TOGGLE
 function toggleStep(el) {
 	el.classList.toggle("done");
 }
