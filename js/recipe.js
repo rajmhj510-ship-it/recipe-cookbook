@@ -1,26 +1,32 @@
 const params = new URLSearchParams(window.location.search);
 const file = decodeURIComponent(params.get("file") || "");
 
-/* ================= BASE PATH (GitHub + Local safe) ================= */
-const BASE_PATH = window.location.pathname.includes("recipe-cookbook")
+/* ================= BASE PATH (GitHub Pages SAFE) ================= */
+const BASE_URL = window.location.pathname.includes("recipe-cookbook")
 	? "/recipe-cookbook/"
 	: "./";
 
-/* ================= SAFE TEXT ================= */
-function safe(val) {
-	if (typeof val === "string" || typeof val === "number") return val;
+/* ================= HELPERS ================= */
+
+function safeText(val) {
+	if (typeof val === "string") return val;
+	if (typeof val === "number") return String(val);
 	if (typeof val === "object" && val !== null) {
-		return val.text || val.step || val.title || val.name || JSON.stringify(val);
+		return val.text || val.step || val.name || JSON.stringify(val);
 	}
 	return "";
 }
 
-/* ================= LOAD ================= */
+/* ================= LOAD RECIPE ================= */
+
 async function loadRecipe() {
 	try {
-		if (!file) throw new Error("No file provided");
+		if (!file) throw new Error("No recipe file in URL");
 
-		const url = BASE_PATH + file;
+		const url = file.startsWith("http")
+			? file
+			: BASE_URL + file;
+
 		console.log("Fetching:", url);
 
 		const res = await fetch(url);
@@ -28,14 +34,14 @@ async function loadRecipe() {
 
 		const data = await res.json();
 
-		console.log("RECIPE DATA:", data);
-
-		/* ================= HERO ================= */
-		const hero = document.getElementById("hero");
-		if (hero) hero.style.backgroundImage = `url(${data.image || ""})`;
-
 		/* ================= TITLE ================= */
-		document.getElementById("title").textContent = data.title || "";
+		document.getElementById("title").textContent = data.title || "Recipe";
+
+		/* ================= HERO (optional) ================= */
+		const hero = document.getElementById("hero");
+		if (hero && data.image) {
+			hero.style.backgroundImage = `url(${data.image})`;
+		}
 
 		/* ================= INGREDIENTS ================= */
 		let ingredientsHTML = "";
@@ -43,67 +49,64 @@ async function loadRecipe() {
 		if (Array.isArray(data.ingredients)) {
 			ingredientsHTML = data.ingredients.map(section => `
 				<div class="section">
-					<h3>${section.title || "Ingredients"}</h3>
+					<h3>Ingredients - ${section.title || ""}</h3>
 					<ul>
 						${(section.items || [])
-							.map(i => `<li>${safe(i)}</li>`)
+							.map(i => `<li>${safeText(i)}</li>`)
 							.join("")}
 					</ul>
 				</div>
 			`).join("");
 		}
 
-		/* ================= STEPS NORMALIZER ================= */
-		let steps = [];
+		/* ================= INSTRUCTION ================= */
+		let instructionHTML = "";
 
-		// Case 1: flat steps
-		if (Array.isArray(data.steps)) {
-			steps = data.steps;
-		}
-
-		// Case 2: instruction format (your main format)
-		else if (Array.isArray(data.instruction)) {
-			data.instruction.forEach(block => {
-				if (Array.isArray(block.steps)) {
-					block.steps.forEach(s => {
-						steps.push(`${block.title ? block.title + " - " : ""}${safe(s)}`);
-					});
-				}
-			});
-		}
-
-		/* ================= STEPS HTML ================= */
-		let stepsHTML = "";
-
-		if (steps.length > 0) {
-			stepsHTML = `
+		if (Array.isArray(data.instruction)) {
+			instructionHTML = `
 				<div class="section">
-					<h3>Steps</h3>
-					${steps.map(s => `
-						<div class="step">${s}</div>
+					<h3>Instruction</h3>
+					${data.instruction.map(stepBlock => `
+						<div class="step-block">
+							<h4>${stepBlock.title || ""}</h4>
+							${(stepBlock.steps || [])
+								.map(s => `<div class="step">${safeText(s)}</div>`)
+								.join("")}
+						</div>
 					`).join("")}
+				</div>
+			`;
+		}
+
+		/* ================= CHEF TIPS ================= */
+		let tipsHTML = "";
+
+		if (Array.isArray(data.chefTips)) {
+			tipsHTML = `
+				<div class="section">
+					<h3>Chef Tips</h3>
+					<ul>
+						${data.chefTips.map(t => `<li>${safeText(t)}</li>`).join("")}
+					</ul>
 				</div>
 			`;
 		}
 
 		/* ================= RENDER ================= */
 		document.getElementById("content").innerHTML =
-			ingredientsHTML + stepsHTML;
+			ingredientsHTML + instructionHTML + tipsHTML;
 
-		/* ================= CLICK TOGGLE ================= */
-		setTimeout(() => {
-			document.querySelectorAll(".step").forEach(step => {
-				step.addEventListener("click", () => {
-					step.classList.toggle("done");
-				});
+		/* ================= STEP CLICK ================= */
+		document.querySelectorAll(".step").forEach(step => {
+			step.addEventListener("click", () => {
+				step.classList.toggle("done");
 			});
-		}, 50);
+		});
 
 	} catch (err) {
 		console.error(err);
 
-		document.getElementById("title").textContent =
-			"Recipe failed to load ❌";
+		document.getElementById("title").textContent = "Recipe failed to load ❌";
 
 		document.getElementById("content").innerHTML = `
 			<div class="section" style="color:red;">
