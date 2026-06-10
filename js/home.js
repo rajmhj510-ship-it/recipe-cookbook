@@ -2,7 +2,9 @@ let recipes = [];
 let current = 0;
 let cards = [];
 let timer;
-let exploreActive = false;
+
+let state = "hero";
+let lock = false;
 
 async function loadRecipes() {
 	const res = await fetch("./data/index.json");
@@ -69,43 +71,75 @@ function initCarousel() {
 	leftBtn.onclick = () => { update(current - 1); autoplay(); };
 	rightBtn.onclick = () => { update(current + 1); autoplay(); };
 
-	scrollBtn.onclick = () => {
-		document.getElementById("hero").style.opacity = "0";
-
-		setTimeout(() => {
-			document.getElementById("hero").style.display = "none";
-			document.getElementById("explore").classList.remove("hidden");
-
-			document.getElementById("explore")
-				.scrollIntoView({ behavior: "smooth" });
-
-			exploreActive = true;
-		}, 400);
-	};
+	/* BUTTON → EXPLORE */
+	scrollBtn.onclick = () => goExplore();
 
 	update(0);
 	autoplay();
 }
 
-/* ================= RESTORE ON SCROLL UP ================= */
+/* ================= SNAP SYSTEM ================= */
 
-window.addEventListener("scroll", () => {
-	if (window.scrollY < 50 && exploreActive) {
+const hero = document.getElementById("hero");
+const explore = document.getElementById("explore");
 
-		const hero = document.getElementById("hero");
+function goExplore() {
+	if (state === "explore") return;
 
-		hero.style.display = "flex";
-		setTimeout(() => hero.style.opacity = "1", 50);
+	hero.classList.add("hide");
+	explore.classList.add("show");
 
-		document.getElementById("explore").classList.add("hidden");
+	state = "explore";
+}
 
-		exploreActive = false;
-	}
+function goHero() {
+	if (state === "hero") return;
+
+	explore.classList.remove("show");
+	hero.classList.remove("hide");
+
+	state = "hero";
+}
+
+/* ================= MOUSE SCROLL ================= */
+
+window.addEventListener("wheel", (e) => {
+
+	if (lock) return;
+	lock = true;
+
+	if (e.deltaY > 0) goExplore();
+	else goHero();
+
+	setTimeout(() => lock = false, 800);
+});
+
+/* ================= KEYBOARD ================= */
+
+window.addEventListener("keydown", (e) => {
+	if (e.key === "ArrowDown") goExplore();
+	if (e.key === "ArrowUp") goHero();
+});
+
+/* ================= TOUCH (MOBILE) ================= */
+
+let startY = 0;
+
+window.addEventListener("touchstart", e => {
+	startY = e.touches[0].clientY;
+});
+
+window.addEventListener("touchend", e => {
+	let endY = e.changedTouches[0].clientY;
+
+	if (startY > endY + 50) goExplore();
+	if (startY < endY - 50) goHero();
 });
 
 /* ================= EXPLORE ================= */
 
 function initExplore() {
+
 	const search = document.getElementById("search");
 	const buttons = document.querySelectorAll(".filters button");
 	const list = document.getElementById("recipeList");
