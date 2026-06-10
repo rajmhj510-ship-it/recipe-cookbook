@@ -6,174 +6,86 @@
 <title>Recipe</title>
 
 <style>
-body {
-	font-family: Arial;
-	margin: 0;
-	background: #f5f5f5;
-}
+body { font-family: Arial; margin: 0; background:#f5f5f5; }
 
-/* HERO IMAGE */
 #hero {
-	width: 100%;
-	max-width: 900px;
-	height: 520px;
-	margin: 20px auto 0;
-	border-radius: 12px;
-	background-size: cover;
-	background-position: center;
-	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+	width:100%;
+	max-width:900px;
+	height:520px;
+	margin:20px auto;
+	border-radius:12px;
+	background-size:cover;
+	background-position:center;
 }
 
-/* TITLE */
 .recipe-title {
-	max-width: 900px;
-	margin: 20px auto 10px;
-	font-size: 2.2rem;
-	font-weight: bold;
-	color: #082a7b;
-	padding: 0 10px;
+	max-width:900px;
+	margin:20px auto;
+	font-size:2rem;
+	color:#082a7b;
 }
 
-/* CONTENT */
-.container {
-	padding: 20px;
-	max-width: 900px;
-	margin: auto;
-}
+.container { max-width:900px; margin:auto; padding:20px; }
 
-/* SECTION */
 .section {
-	background: white;
-	padding: 15px;
-	margin-bottom: 15px;
-	border-radius: 10px;
-	box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+	background:#fff;
+	padding:15px;
+	margin-bottom:15px;
+	border-radius:10px;
 }
-
-.section h2 {
-	margin-bottom: 10px;
-	color: #082a7b;
-}
-
-/* LIST */
-ul {
-	padding-left: 20px;
-}
-
-li {
-	margin-bottom: 6px;
-}
-
-/* STEPS */
-.step {
-	padding: 8px;
-	background: #f2f2f2;
-	margin: 6px 0;
-	border-radius: 8px;
-	cursor: pointer;
-}
-
-.step.done {
-	text-decoration: line-through;
-	opacity: 0.6;
-}
+.step { padding:8px; background:#eee; margin:5px 0; cursor:pointer; }
+.step.done { text-decoration:line-through; opacity:0.6; }
 </style>
 </head>
 
 <body>
 
-<!-- HERO IMAGE -->
 <div id="hero"></div>
-
-<!-- RECIPE TITLE -->
-<div class="recipe-title" id="recipeTitle"></div>
-
-<!-- CONTENT -->
+<div class="recipe-title" id="title"></div>
 <div class="container" id="content"></div>
 
 <script>
-document.addEventListener("DOMContentLoaded", async () => {
+const ALLOWED = [];
 
-	const file = new URLSearchParams(location.search).get("file");
+async function init() {
+	const raw = new URLSearchParams(location.search).get("file") || "";
+	const file = decodeURIComponent(raw);
 
-	const content = document.getElementById("content");
-	const hero = document.getElementById("hero");
-	const titleEl = document.getElementById("recipeTitle");
+	const resList = await fetch("data/index.json");
+	const list = await resList.json();
 
-	if (!file) {
-		content.innerHTML = "<h2>Recipe not found ❌</h2>";
+	list.forEach(i => ALLOWED.push(i.file));
+
+	if (!ALLOWED.includes(file)) {
+		document.body.innerHTML = "<h2>Access denied</h2>";
 		return;
 	}
 
-	try {
-		const res = await fetch(file);
-		if (!res.ok) throw new Error("File not found");
+	const res = await fetch(file);
+	const r = await res.json();
 
-		const recipe = await res.json();
+	document.getElementById("hero").style.backgroundImage =
+		`url('${r.image}')`;
 
-		// HERO IMAGE
-		hero.style.backgroundImage = `url('${recipe.image}')`;
+	document.getElementById("title").textContent = r.title;
 
-		// RECIPE NAME
-		titleEl.textContent = recipe.title;
-
-		// INGREDIENTS
-		let ingredientsHTML = `
-			<div class="section">
-				<h2> Ingredients</h2>
-		`;
-
-		recipe.ingredients.forEach(group => {
-			ingredientsHTML += `
-				<h3>${group.title}</h3>
-				<ul>
-					${group.items.map(i => `<li>${i}</li>`).join("")}
-				</ul>
-			`;
-		});
-
-		ingredientsHTML += `</div>`;
-
-		// INSTRUCTIONS
-		let instructionHTML = `
-			<div class="section">
-				<h2> Instructions</h2>
-		`;
-
-		recipe.instruction.forEach(section => {
-			instructionHTML += `
-				<h3>${section.title}</h3>
-				${section.steps.map(step =>
-					`<div class="step" onclick="toggleStep(this)">${step}</div>`
-				).join("")}
-			`;
-		});
-
-		instructionHTML += `</div>`;
-
-		// CHEF TIPS
-		let tipsHTML = `
-			<div class="section">
-				<h2> Chef Tips</h2>
-				<ul>
-					${recipe.chefTips.map(tip => `<li>${tip}</li>`).join("")}
-				</ul>
-			</div>
-		`;
-
-		// RENDER ALL
-		content.innerHTML = ingredientsHTML + instructionHTML + tipsHTML;
-
-	} catch (err) {
-		console.error(err);
-		content.innerHTML = "<h2>Failed to load recipe ❌</h2>";
-	}
-});
-
-// STEP TOGGLE
-function toggleStep(el) {
-	el.classList.toggle("done");
+	document.getElementById("content").innerHTML =
+		r.ingredients.map(g =>
+			`<div class="section"><h3>${g.title}</h3>
+			<ul>${g.items.map(i => `<li>${i}</li>`).join("")}</ul></div>`
+		).join("") +
+		r.instruction.map(s =>
+			`<div class="section"><h3>${s.title}</h3>
+			${s.steps.map(step =>
+				`<div class="step" onclick="this.classList.toggle('done')">${step}</div>`
+			).join("")}</div>`
+		).join("") +
+		`<div class="section"><h3>Tips</h3><ul>${
+			(r.chefTips || []).map(t => `<li>${t}</li>`).join("")
+		}</ul></div>`;
 }
+
+init();
 </script>
 
 </body>
