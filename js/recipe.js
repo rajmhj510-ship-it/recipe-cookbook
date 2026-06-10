@@ -1,13 +1,12 @@
 const params = new URLSearchParams(window.location.search);
 const file = decodeURIComponent(params.get("file") || "");
 
-/* ================= BASE PATH (GitHub Pages SAFE) ================= */
+/* ================= BASE PATH ================= */
 const BASE_URL = window.location.pathname.includes("recipe-cookbook")
 	? "/recipe-cookbook/"
 	: "./";
 
 /* ================= HELPERS ================= */
-
 function safeText(val) {
 	if (typeof val === "string") return val;
 	if (typeof val === "number") return String(val);
@@ -18,7 +17,6 @@ function safeText(val) {
 }
 
 /* ================= LOAD RECIPE ================= */
-
 async function loadRecipe() {
 	try {
 		if (!file) throw new Error("No recipe file in URL");
@@ -37,64 +35,55 @@ async function loadRecipe() {
 		/* ================= TITLE ================= */
 		document.getElementById("title").textContent = data.title || "Recipe";
 
-		/* ================= HERO (optional) ================= */
+		/* ================= HERO ================= */
 		const hero = document.getElementById("hero");
 		if (hero && data.image) {
 			hero.style.backgroundImage = `url(${data.image})`;
 		}
 
 		/* ================= INGREDIENTS ================= */
-		let ingredientsHTML = "";
-
-		if (Array.isArray(data.ingredients)) {
-			ingredientsHTML = data.ingredients.map(section => `
+		const ingredientsHTML = (data.ingredients || [])
+			.map(section => `
 				<div class="section">
-					<h3>Ingredients - ${section.title || ""}</h3>
+					<h3>${section.title || "Ingredients"}</h3>
 					<ul>
 						${(section.items || [])
 							.map(i => `<li>${safeText(i)}</li>`)
 							.join("")}
 					</ul>
 				</div>
-			`).join("");
-		}
+			`)
+			.join("");
 
-		/* ================= INSTRUCTION ================= */
-		let instructionHTML = "";
+		document.getElementById("ingredients").innerHTML = ingredientsHTML;
 
-		if (Array.isArray(data.instruction)) {
-			instructionHTML = `
+		/* ================= INSTRUCTIONS ================= */
+		const instructionHTML = (data.instruction || [])
+			.map(block => `
 				<div class="section">
-					<h3>Instruction</h3>
-					${data.instruction.map(stepBlock => `
-						<div class="step-block">
-							<h4>${stepBlock.title || ""}</h4>
-							${(stepBlock.steps || [])
-								.map(s => `<div class="step">${safeText(s)}</div>`)
-								.join("")}
-						</div>
-					`).join("")}
+					<h3>${block.title || "Instruction"}</h3>
+					${(block.steps || [])
+						.map(s => `<div class="step">${safeText(s)}</div>`)
+						.join("")}
 				</div>
-			`;
-		}
+			`)
+			.join("");
+
+		document.getElementById("instructions").innerHTML = instructionHTML;
 
 		/* ================= CHEF TIPS ================= */
-		let tipsHTML = "";
-
-		if (Array.isArray(data.chefTips)) {
-			tipsHTML = `
+		const tipsHTML = data.chefTips?.length
+			? `
 				<div class="section">
 					<h3>Chef Tips</h3>
 					<ul>
 						${data.chefTips.map(t => `<li>${safeText(t)}</li>`).join("")}
 					</ul>
 				</div>
-			`;
-		}
+			`
+			: "";
 
-		/* ================= RENDER ================= */
-		document.getElementById("content").innerHTML =
-			ingredientsHTML + instructionHTML + tipsHTML;
+		document.getElementById("tips").innerHTML = tipsHTML;
 
 		/* ================= STEP CLICK ================= */
 		document.querySelectorAll(".step").forEach(step => {
@@ -106,9 +95,12 @@ async function loadRecipe() {
 	} catch (err) {
 		console.error(err);
 
-		document.getElementById("title").textContent = "Recipe failed to load ❌";
+		document.getElementById("title").textContent =
+			"Recipe failed to load ❌";
 
-		document.getElementById("content").innerHTML = `
+		document.getElementById("ingredients").innerHTML = "";
+		document.getElementById("instructions").innerHTML = "";
+		document.getElementById("tips").innerHTML = `
 			<div class="section" style="color:red;">
 				${err.message}
 			</div>
