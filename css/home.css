@@ -11,75 +11,7 @@ body {
 	overflow-x: hidden;
 }
 
-/* =========================
-   HEADER STACKED
-========================= */
-
-.header {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	padding: 15px 25px;
-	gap: 12px;
-}
-
-.logo {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-	font-size: 20px;
-	font-weight: bold;
-	color: #082a7b;
-}
-
-.logo img {
-	width: 40px;
-	height: 40px;
-	object-fit: contain;
-}
-
-/* SEARCH */
-.search-box {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
-
-#searchInput {
-	width: 320px;
-	max-width: 90%;
-	padding: 10px 14px;
-	border-radius: 25px;
-	border: 1px solid #ccc;
-	outline: none;
-}
-
-/* FILTERS */
-.filters {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 8px;
-	padding: 10px 20px;
-}
-
-.filter-btn {
-	padding: 6px 12px;
-	border: none;
-	border-radius: 20px;
-	cursor: pointer;
-	background: #ddd;
-	font-size: 13px;
-}
-
-.filter-btn.active {
-	background: #082a7b;
-	color: white;
-}
-
-/* =========================
-   HERO
-========================= */
+/* ================= HERO ================= */
 
 #hero {
 	min-height: 100vh;
@@ -97,9 +29,7 @@ body {
 	color: rgba(8, 42, 123, 0.25);
 }
 
-/* =========================
-   CAROUSEL
-========================= */
+/* ================= CAROUSEL ================= */
 
 .carousel-container {
 	width: 100%;
@@ -188,7 +118,8 @@ body {
 	transform: translate(-50%, -50%) scale(0.5);
 }
 
-/* INFO */
+/* ================= INFO ================= */
+
 .recipe-info {
 	text-align: center;
 }
@@ -202,4 +133,92 @@ body {
 .recipe-meta {
 	font-size: 1.2rem;
 	color: #777;
+}
+
+/* ================= MAIN UI ================= */
+
+.hidden-ui {
+	display: none;
+}
+
+.show-ui {
+	display: block;
+	animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(20px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+/* HEADER */
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 15px 25px;
+	gap: 12px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #082a7b;
+}
+
+.logo img {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+}
+
+.search-box {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#searchInput {
+	width: 320px;
+	max-width: 90%;
+	padding: 10px 14px;
+	border-radius: 25px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+/* FILTERS */
+.filters {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+	padding: 10px 20px;
+}
+
+.filter-btn {
+	padding: 6px 12px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	background: #ddd;
+	font-size: 13px;
+}
+
+.filter-btn.active {
+	background: #082a7b;
+	color: white;
+}
+
+/* BUTTON */
+.scroll-down {
+	padding: 10px 18px;
+	border: none;
+	background: #082a7b;
+	color: white;
+	border-radius: 20px;
+	cursor: pointer;
 }
