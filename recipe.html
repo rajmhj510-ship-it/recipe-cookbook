@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Recipe Page</title>
+<title>Recipe</title>
 
 <style>
 body {
@@ -47,9 +47,7 @@ body {
 <body>
 
 <div id="hero"></div>
-
 <img id="recipeImage" style="width:100%; max-height:400px; object-fit:cover;">
-
 <div id="content"></div>
 
 <script>
@@ -66,7 +64,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 	}
 
 	try {
-		const res = await fetch(file);
+		// ✅ FIX: decode + safe fetch path
+		const res = await fetch(decodeURIComponent(file));
+
 		if (!res.ok) throw new Error("File not found");
 
 		const recipe = await res.json();
