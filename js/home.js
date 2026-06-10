@@ -1,24 +1,15 @@
 let recipes = [];
-
 let current = 0;
 let cards = [];
 let timer;
+let exploreActive = false;
 
 async function loadRecipes() {
-	try {
-		const res = await fetch("./data/index.json");
-		if (!res.ok) throw new Error("Index load failed");
+	const res = await fetch("./data/index.json");
+	recipes = await res.json();
 
-		recipes = await res.json();
-
-		initCarousel();
-		initExplore();
-
-	} catch (err) {
-		console.error(err);
-		document.querySelector(".recipe-title").textContent =
-			"Failed to load recipes ❌";
-	}
+	initCarousel();
+	initExplore();
 }
 
 loadRecipes();
@@ -35,11 +26,9 @@ function initCarousel() {
 	const rightBtn = document.querySelector(".nav-arrow.right");
 	const scrollBtn = document.querySelector(".scroll-down");
 
-	/* CREATE CARDS */
 	recipes.forEach(r => {
 		const card = document.createElement("div");
 		card.className = "card";
-
 		card.innerHTML = `<img src="${r.image}">`;
 
 		card.onclick = () => {
@@ -68,32 +57,103 @@ function initCarousel() {
 		});
 
 		const r = recipes[current] || {};
-
 		titleEl.textContent = r.title || "";
 		metaEl.textContent = `${r.time || ""} • ${r.difficulty || ""}`;
 	}
 
 	function autoplay() {
 		clearInterval(timer);
-		timer = setInterval(() => {
-			update(current + 1);
-		}, 15000);
+		timer = setInterval(() => update(current + 1), 15000);
 	}
 
 	leftBtn.onclick = () => { update(current - 1); autoplay(); };
 	rightBtn.onclick = () => { update(current + 1); autoplay(); };
 
 	scrollBtn.onclick = () => {
-		document.getElementById("hero").style.display = "none";
-		document.getElementById("explore").classList.remove("hidden");
+		document.getElementById("hero").style.opacity = "0";
+
+		setTimeout(() => {
+			document.getElementById("hero").style.display = "none";
+			document.getElementById("explore").classList.remove("hidden");
+
+			document.getElementById("explore")
+				.scrollIntoView({ behavior: "smooth" });
+
+			exploreActive = true;
+		}, 400);
 	};
 
 	update(0);
 	autoplay();
 }
 
-/* ================= EXPLORE (UNCHANGED STRUCTURE READY) ================= */
+/* ================= RESTORE ON SCROLL UP ================= */
+
+window.addEventListener("scroll", () => {
+	if (window.scrollY < 50 && exploreActive) {
+
+		const hero = document.getElementById("hero");
+
+		hero.style.display = "flex";
+		setTimeout(() => hero.style.opacity = "1", 50);
+
+		document.getElementById("explore").classList.add("hidden");
+
+		exploreActive = false;
+	}
+});
+
+/* ================= EXPLORE ================= */
 
 function initExplore() {
-	// keep your existing explore logic here (already working)
+	const search = document.getElementById("search");
+	const buttons = document.querySelectorAll(".filters button");
+	const list = document.getElementById("recipeList");
+
+	let category = "all";
+	let text = "";
+
+	search.oninput = e => {
+		text = e.target.value.toLowerCase();
+		render();
+	};
+
+	buttons.forEach(b => {
+		b.onclick = () => {
+			buttons.forEach(x => x.classList.remove("active"));
+			b.classList.add("active");
+			category = b.dataset.cat;
+			render();
+		};
+	});
+
+	function render() {
+		list.innerHTML = "";
+
+		const filtered = recipes.filter(r =>
+			(category === "all" || r.category === category) &&
+			r.title.toLowerCase().includes(text)
+		);
+
+		filtered.forEach(r => {
+			const div = document.createElement("div");
+			div.className = "recipe-card";
+
+			div.innerHTML = `
+				<img src="${r.image}">
+				<div>
+					<strong>${r.title}</strong><br>
+					<small>${r.category}</small>
+				</div>
+			`;
+
+			div.onclick = () => {
+				window.location.href = `recipe.html?file=${encodeURIComponent(r.file)}`;
+			};
+
+			list.appendChild(div);
+		});
+	}
+
+	render();
 }
