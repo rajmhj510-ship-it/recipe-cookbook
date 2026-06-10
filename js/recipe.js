@@ -8,14 +8,14 @@ const BASE_PATH = window.location.pathname.includes("recipe-cookbook")
 
 function formatIngredient(i) {
 	if (typeof i === "object") {
-		return `${i.name || ""}${i.quantity ? " - " + i.quantity : ""}`;
+		return i.name || i.title || JSON.stringify(i);
 	}
 	return i;
 }
 
 function formatStep(s) {
 	if (typeof s === "object") {
-		return s.text || "";
+		return s.text || s.step || JSON.stringify(s);
 	}
 	return s;
 }
@@ -43,26 +43,58 @@ async function loadRecipe() {
 		/* ================= TITLE ================= */
 		document.getElementById("title").textContent = data.title || "";
 
-		/* ================= CONTENT ================= */
-		document.getElementById("content").innerHTML = `
-			<div class="section">
-				<h3>Ingredients</h3>
-				<ul>
-					${(data.ingredients || [])
-						.map(i => `<li>${formatIngredient(i)}</li>`)
-						.join("")}
-				</ul>
-			</div>
+		/* ================= INGREDIENTS ================= */
+		let ingredientsHTML = "";
 
-			<div class="section">
-				<h3>Steps</h3>
-				<div>
-					${(data.steps || [])
-						.map(s => `<div class="step">${formatStep(s)}</div>`)
-						.join("")}
+		if (Array.isArray(data.ingredients)) {
+			ingredientsHTML = data.ingredients.map(section => `
+				<div class="section">
+					<h3>${section.title || "Ingredients"}</h3>
+					<ul>
+						${(section.items || [])
+							.map(i => `<li>${formatIngredient(i)}</li>`)
+							.join("")}
+					</ul>
 				</div>
-			</div>
-		`;
+			`).join("");
+		}
+
+		/* ================= STEPS ================= */
+		let stepsHTML = "";
+
+		if (Array.isArray(data.steps)) {
+			// flat format support
+			stepsHTML = `
+				<div class="section">
+					<h3>Steps</h3>
+					<div>
+						${data.steps.map(s => `
+							<div class="step">${formatStep(s)}</div>
+						`).join("")}
+					</div>
+				</div>
+			`;
+		} 
+		else if (Array.isArray(data.instruction)) {
+			// your Pad Thai structure
+			stepsHTML = `
+				<div class="section">
+					<h3>Steps</h3>
+					${data.instruction.map(sec => `
+						<div style="margin-bottom:10px;">
+							<h4>${sec.title || ""}</h4>
+							${(sec.steps || []).map(s => `
+								<div class="step">${formatStep(s)}</div>
+							`).join("")}
+						</div>
+					`).join("")}
+				</div>
+			`;
+		}
+
+		/* ================= RENDER ================= */
+		document.getElementById("content").innerHTML =
+			ingredientsHTML + stepsHTML;
 
 		/* ================= STEP TOGGLE ================= */
 		document.querySelectorAll(".step").forEach(step => {
