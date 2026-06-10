@@ -1,5 +1,4 @@
 let recipes = [];
-
 let current = 0;
 let cards = [];
 let timer;
@@ -7,7 +6,7 @@ let timer;
 async function loadRecipes() {
 	try {
 		const res = await fetch("./data/index.json");
-		if (!res.ok) throw new Error("Index load failed");
+		if (!res.ok) throw new Error("Failed to load index.json");
 
 		recipes = await res.json();
 
@@ -16,7 +15,7 @@ async function loadRecipes() {
 
 	} catch (err) {
 		console.error(err);
-		document.querySelector(".recipe-title").textContent =
+		document.querySelector(".hero-recipe-title").textContent =
 			"Failed to load recipes ❌";
 	}
 }
@@ -28,19 +27,18 @@ loadRecipes();
 function initCarousel() {
 
 	const track = document.querySelector(".carousel-track");
-	const titleEl = document.querySelector(".recipe-title");
+	const titleEl = document.querySelector(".hero-recipe-title");
 	const metaEl = document.querySelector(".recipe-meta");
 
 	const leftBtn = document.querySelector(".nav-arrow.left");
 	const rightBtn = document.querySelector(".nav-arrow.right");
 	const scrollBtn = document.querySelector(".scroll-down");
 
-	/* CREATE CARDS */
 	recipes.forEach(r => {
 		const card = document.createElement("div");
 		card.className = "card";
 
-		card.innerHTML = `<img src="${r.image}">`;
+		card.innerHTML = `<img src="${r.image}" alt="${r.title}">`;
 
 		card.onclick = () => {
 			window.location.href = `recipe.html?file=${encodeURIComponent(r.file)}`;
@@ -68,16 +66,13 @@ function initCarousel() {
 		});
 
 		const r = recipes[current] || {};
-
 		titleEl.textContent = r.title || "";
 		metaEl.textContent = `${r.time || ""} • ${r.difficulty || ""}`;
 	}
 
 	function autoplay() {
 		clearInterval(timer);
-		timer = setInterval(() => {
-			update(current + 1);
-		}, 15000);
+		timer = setInterval(() => update(current + 1), 5000);
 	}
 
 	leftBtn.onclick = () => { update(current - 1); autoplay(); };
@@ -92,8 +87,65 @@ function initCarousel() {
 	autoplay();
 }
 
-/* ================= EXPLORE (UNCHANGED STRUCTURE READY) ================= */
+/* ================= EXPLORE ================= */
 
 function initExplore() {
-	// keep your existing explore logic here (already working)
+
+	const list = document.getElementById("recipeList");
+	const search = document.getElementById("search");
+	const buttons = document.querySelectorAll(".filters button");
+
+	let activeCat = "all";
+
+	function render(data) {
+		list.innerHTML = "";
+
+		data.forEach(r => {
+			const card = document.createElement("div");
+			card.className = "explore-card";
+
+			card.innerHTML = `
+				<img src="${r.image}">
+				<h3>${r.title}</h3>
+				<p>${r.category}</p>
+			`;
+
+			card.onclick = () => {
+				window.location.href = `recipe.html?file=${encodeURIComponent(r.file)}`;
+			};
+
+			list.appendChild(card);
+		});
+	}
+
+	function filterData() {
+		let filtered = recipes;
+
+		if (activeCat !== "all") {
+			filtered = filtered.filter(r => r.category === activeCat);
+		}
+
+		const q = search.value.toLowerCase();
+		if (q) {
+			filtered = filtered.filter(r =>
+				r.title.toLowerCase().includes(q)
+			);
+		}
+
+		render(filtered);
+	}
+
+	search.addEventListener("input", filterData);
+
+	buttons.forEach(btn => {
+		btn.addEventListener("click", () => {
+			buttons.forEach(b => b.classList.remove("active"));
+			btn.classList.add("active");
+
+			activeCat = btn.dataset.cat;
+			filterData();
+		});
+	});
+
+	render(recipes);
 }
