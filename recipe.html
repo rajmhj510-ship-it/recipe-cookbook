@@ -12,7 +12,7 @@ body {
 	background: #f5f5f5;
 }
 
-/* FIXED HERO IMAGE */
+/* HERO IMAGE */
 #hero {
 	width: 100%;
 	max-width: 900px;
@@ -24,14 +24,24 @@ body {
 	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-/* CONTENT WRAPPER */
+/* TITLE */
+.recipe-title {
+	max-width: 900px;
+	margin: 20px auto 10px;
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: #082a7b;
+	padding: 0 10px;
+}
+
+/* CONTENT */
 .container {
 	padding: 20px;
 	max-width: 900px;
 	margin: auto;
 }
 
-/* SECTIONS */
+/* SECTION */
 .section {
 	background: white;
 	padding: 15px;
@@ -61,7 +71,6 @@ li {
 	margin: 6px 0;
 	border-radius: 8px;
 	cursor: pointer;
-	transition: 0.3s;
 }
 
 .step.done {
@@ -76,6 +85,9 @@ li {
 <!-- HERO IMAGE -->
 <div id="hero"></div>
 
+<!-- RECIPE TITLE -->
+<div class="recipe-title" id="recipeTitle"></div>
+
 <!-- CONTENT -->
 <div class="container" id="content"></div>
 
@@ -86,6 +98,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 	const content = document.getElementById("content");
 	const hero = document.getElementById("hero");
+	const titleEl = document.getElementById("recipeTitle");
 
 	if (!file) {
 		content.innerHTML = "<h2>Recipe not found ❌</h2>";
@@ -98,39 +111,50 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 		const recipe = await res.json();
 
-		// HERO IMAGE (fixed layout)
+		// HERO IMAGE
 		hero.style.backgroundImage = `url('${recipe.image}')`;
 
+		// RECIPE NAME
+		titleEl.textContent = recipe.title;
+
 		// INGREDIENTS
-		let ingredientsHTML = "";
+		let ingredientsHTML = `
+			<div class="section">
+				<h2>🧂 Ingredients</h2>
+		`;
+
 		recipe.ingredients.forEach(group => {
 			ingredientsHTML += `
-				<div class="section">
-					<h2>${group.title}</h2>
-					<ul>
-						${group.items.map(i => `<li>${i}</li>`).join("")}
-					</ul>
-				</div>
+				<h3>${group.title}</h3>
+				<ul>
+					${group.items.map(i => `<li>${i}</li>`).join("")}
+				</ul>
 			`;
 		});
 
+		ingredientsHTML += `</div>`;
+
 		// INSTRUCTIONS
-		let instructionHTML = "";
+		let instructionHTML = `
+			<div class="section">
+				<h2>👨‍🍳 Instructions</h2>
+		`;
+
 		recipe.instruction.forEach(section => {
 			instructionHTML += `
-				<div class="section">
-					<h2>${section.title}</h2>
-					${section.steps.map(step =>
-						`<div class="step" onclick="toggleStep(this)">${step}</div>`
-					).join("")}
-				</div>
+				<h3>${section.title}</h3>
+				${section.steps.map(step =>
+					`<div class="step" onclick="toggleStep(this)">${step}</div>`
+				).join("")}
 			`;
 		});
+
+		instructionHTML += `</div>`;
 
 		// CHEF TIPS
 		let tipsHTML = `
 			<div class="section">
-				<h2>Chef Tips</h2>
+				<h2>⭐ Chef Tips</h2>
 				<ul>
 					${recipe.chefTips.map(tip => `<li>${tip}</li>`).join("")}
 				</ul>
