@@ -26,36 +26,44 @@ async function loadRecipes() {
 
 loadRecipes();
 
-/* =========================
-   INIT UI
-========================= */
+/* ================= INIT ================= */
 
 function initUI() {
-	const searchInput = document.getElementById("searchInput");
-	const buttons = document.querySelectorAll(".filter-btn");
 
-	searchInput.addEventListener("input", (e) => {
+	// SEARCH
+	document.getElementById("searchInput").addEventListener("input", (e) => {
 		searchText = e.target.value;
 		applyFilters();
 	});
 
-	buttons.forEach(btn => {
+	// CATEGORY
+	document.querySelectorAll(".filter-btn").forEach(btn => {
 		btn.addEventListener("click", () => {
-			buttons.forEach(b => b.classList.remove("active"));
-			btn.classList.add("active");
+			document.querySelectorAll(".filter-btn")
+				.forEach(b => b.classList.remove("active"));
 
+			btn.classList.add("active");
 			currentCategory = btn.dataset.category;
+
 			applyFilters();
 		});
 	});
 
-	document.querySelector(".nav-arrow.left").onclick = () => update(currentIndex - 1);
-	document.querySelector(".nav-arrow.right").onclick = () => update(currentIndex + 1);
+	// CAROUSEL BUTTONS
+	document.querySelector(".nav-arrow.left").onclick =
+		() => update(currentIndex - 1);
+
+	document.querySelector(".nav-arrow.right").onclick =
+		() => update(currentIndex + 1);
+
+	// SCROLL BUTTON
+	document.querySelector(".scroll-down").addEventListener("click", () => {
+		document.getElementById("hero").style.display = "none";
+		document.getElementById("main-ui").classList.add("show-ui");
+	});
 }
 
-/* =========================
-   FILTER LOGIC
-========================= */
+/* ================= FILTER ================= */
 
 function applyFilters() {
 	filteredRecipes = recipes.filter(r => {
@@ -71,14 +79,12 @@ function applyFilters() {
 	renderCarousel();
 }
 
-/* =========================
-   RENDER CAROUSEL
-========================= */
+/* ================= RENDER ================= */
 
 function renderCarousel() {
 	const track = document.querySelector(".carousel-track");
-	track.innerHTML = "";
 
+	track.innerHTML = "";
 	currentIndex = 0;
 
 	filteredRecipes.forEach(r => {
@@ -87,9 +93,9 @@ function renderCarousel() {
 
 		card.innerHTML = `<img src="${r.image}" alt="${r.title}">`;
 
-		card.addEventListener("click", () => {
+		card.onclick = () => {
 			window.location.href = `recipe.html?file=${encodeURIComponent(r.file)}`;
-		});
+		};
 
 		track.appendChild(card);
 	});
@@ -98,9 +104,7 @@ function renderCarousel() {
 	update(0);
 }
 
-/* =========================
-   CAROUSEL UPDATE
-========================= */
+/* ================= UPDATE ================= */
 
 function update(i) {
 	if (!cards.length) return;
