@@ -3,7 +3,14 @@ const file = params.get("file");
 
 async function loadRecipe() {
 	try {
-		const res = await fetch(file);
+		if (!file) throw new Error("Missing recipe file");
+
+		const url = new URL(file, window.location.href).href;
+
+		const res = await fetch(url);
+
+		if (!res.ok) throw new Error("Failed to load recipe");
+
 		const data = await res.json();
 
 		document.getElementById("hero").style.backgroundImage =
@@ -11,22 +18,18 @@ async function loadRecipe() {
 
 		document.getElementById("title").textContent = data.title;
 
-		const container = document.getElementById("content");
-
-		container.innerHTML = `
+		document.getElementById("content").innerHTML = `
 			<div class="section">
 				<h3>Ingredients</h3>
 				<ul>
-					${data.ingredients.map(i => `<li>${i}</li>`).join("")}
+					${(data.ingredients || []).map(i => `<li>${i}</li>`).join("")}
 				</ul>
 			</div>
 
 			<div class="section">
 				<h3>Steps</h3>
-				<div id="steps">
-					${data.steps.map((s, i) =>
-						`<div class="step" data-i="${i}">${s}</div>`
-					).join("")}
+				<div>
+					${(data.steps || []).map(s => `<div class="step">${s}</div>`).join("")}
 				</div>
 			</div>
 		`;
@@ -37,8 +40,15 @@ async function loadRecipe() {
 
 	} catch (err) {
 		console.error(err);
+
 		document.getElementById("title").textContent =
 			"Recipe failed to load ❌";
+
+		document.getElementById("content").innerHTML = `
+			<div class="section">
+				<p style="color:red;">${err.message}</p>
+			</div>
+		`;
 	}
 }
 
