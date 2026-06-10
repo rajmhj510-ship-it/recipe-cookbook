@@ -1,12 +1,21 @@
 let recipes = [];
+let filteredRecipes = [];
+let currentIndex = 0;
+let cards = [];
+
+let currentCategory = "All";
+let searchText = "";
 
 async function loadRecipes() {
 	try {
 		const res = await fetch("./data/index.json");
-		if (!res.ok) throw new Error("Index load failed");
+		if (!res.ok) throw new Error("Failed to load index");
 
 		recipes = await res.json();
-		initCarousel();
+		filteredRecipes = recipes;
+
+		initUI();
+		renderCarousel();
 
 	} catch (err) {
 		console.error(err);
@@ -17,104 +26,97 @@ async function loadRecipes() {
 
 loadRecipes();
 
-function initCarousel() {
+/* =========================
+   INIT UI
+========================= */
+
+function initUI() {
+	const searchInput = document.getElementById("searchInput");
+	const buttons = document.querySelectorAll(".filter-btn");
+
+	searchInput.addEventListener("input", (e) => {
+		searchText = e.target.value;
+		applyFilters();
+	});
+
+	buttons.forEach(btn => {
+		btn.addEventListener("click", () => {
+			buttons.forEach(b => b.classList.remove("active"));
+			btn.classList.add("active");
+
+			currentCategory = btn.dataset.category;
+			applyFilters();
+		});
+	});
+
+	document.querySelector(".nav-arrow.left").onclick = () => update(currentIndex - 1);
+	document.querySelector(".nav-arrow.right").onclick = () => update(currentIndex + 1);
+}
+
+/* =========================
+   FILTER LOGIC
+========================= */
+
+function applyFilters() {
+	filteredRecipes = recipes.filter(r => {
+		const matchCategory =
+			currentCategory === "All" || r.category === currentCategory;
+
+		const matchSearch =
+			r.title.toLowerCase().includes(searchText.toLowerCase());
+
+		return matchCategory && matchSearch;
+	});
+
+	renderCarousel();
+}
+
+/* =========================
+   RENDER CAROUSEL
+========================= */
+
+function renderCarousel() {
 	const track = document.querySelector(".carousel-track");
-	const titleEl = document.querySelector(".recipe-title");
-	const metaEl = document.querySelector(".recipe-meta");
+	track.innerHTML = "";
 
-	const leftBtn = document.querySelector(".nav-arrow.left");
-	const rightBtn = document.querySelector(".nav-arrow.right");
+	currentIndex = 0;
 
-	const hero = document.querySelector("#hero");
-	const scrollBtn = document.querySelector(".scroll-down");
-	const carousel = document.querySelector(".carousel-container");
-
-	let currentIndex = 0;
-	let timer;
-
-	/* =========================
-	   CREATE CARDS
-	========================= */
-	recipes.forEach(r => {
+	filteredRecipes.forEach(r => {
 		const card = document.createElement("div");
 		card.className = "card";
 
 		card.innerHTML = `<img src="${r.image}" alt="${r.title}">`;
 
 		card.addEventListener("click", () => {
-			const file = encodeURIComponent(r.file);
-			window.location.href = `recipe.html?file=${file}`;
+			window.location.href = `recipe.html?file=${encodeURIComponent(r.file)}`;
 		});
 
 		track.appendChild(card);
 	});
 
-	const cards = document.querySelectorAll(".card");
-
-	/* =========================
-	   UPDATE CAROUSEL
-	========================= */
-	function update(i) {
-		currentIndex = (i + cards.length) % cards.length;
-
-		cards.forEach((c, idx) => {
-			const offset = (idx - currentIndex + cards.length) % cards.length;
-
-			c.className = "card";
-
-			if (offset === 0) c.classList.add("center");
-			else if (offset === 1) c.classList.add("right-1");
-			else if (offset === 2) c.classList.add("right-2");
-			else if (offset === cards.length - 1) c.classList.add("left-1");
-			else if (offset === cards.length - 2) c.classList.add("left-2");
-			else c.classList.add("hidden");
-		});
-
-		const r = recipes[currentIndex];
-
-		titleEl.textContent = r.title || "";
-		metaEl.textContent = `${r.time || ""} • ${r.difficulty || ""}`;
-	}
-
-	/* =========================
-	   AUTOPLAY SYSTEM
-	========================= */
-	function startAutoPlay() {
-		clearInterval(timer);
-		timer = setInterval(() => {
-			update(currentIndex + 1);
-		}, 15000);
-	}
-
-	/* =========================
-	   NAV BUTTONS
-	========================= */
-	leftBtn.onclick = () => {
-		update(currentIndex - 1);
-		startAutoPlay();
-	};
-
-	rightBtn.onclick = () => {
-		update(currentIndex + 1);
-		startAutoPlay();
-	};
-
-	/* =========================
-	   SCROLL BUTTON
-	========================= */
-	scrollBtn.onclick = () => {
-		document.querySelector("#hero").style.display = "none";
-	};
-
-	/* =========================
-	   PAUSE ON HOVER
-	========================= */
-	carousel.onmouseenter = () => clearInterval(timer);
-	carousel.onmouseleave = startAutoPlay;
-
-	/* =========================
-	   INIT
-	========================= */
+	cards = document.querySelectorAll(".card");
 	update(0);
-	startAutoPlay();
+}
+
+/* =========================
+   CAROUSEL UPDATE
+========================= */
+
+function update(i) {
+	if (!cards.length) return;
+
+	currentIndex = (i + cards.length) % cards.length;
+
+	cards.forEach((c, idx) => {
+		const offset = (idx - currentIndex + cards.length) % cards.length;
+
+		c.className = "card";
+
+		if (offset === 0) c.classList.add("center");
+		else if (offset === 1) c.classList.add("right-1");
+		else if (offset === 2) c.classList.add("right-2");
+		else if (offset === cards.length - 1) c.classList.add("left-1");
+		else if (offset === cards.length - 2) c.classList.add("left-2");
+		else c.classList.add("hidden");
+	});
 }
