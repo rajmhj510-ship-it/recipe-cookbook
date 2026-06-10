@@ -64,8 +64,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 	}
 
 	try {
-		// ✅ FIX: decode + safe fetch path
-		const res = await fetch(decodeURIComponent(file));
+		// ✅ FIXED: NO decodeURIComponent (breaks GitHub Pages)
+		const res = await fetch(file);
 
 		if (!res.ok) throw new Error("File not found");
 
