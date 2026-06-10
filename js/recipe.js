@@ -2,16 +2,28 @@ const params = new URLSearchParams(window.location.search);
 const file = decodeURIComponent(params.get("file"));
 
 /* ================= BASE PATH FIX ================= */
-/* Works on GitHub Pages + local server */
 const BASE_PATH = window.location.pathname.includes("recipe-cookbook")
 	? "/recipe-cookbook/"
 	: "./";
+
+function formatIngredient(i) {
+	if (typeof i === "object") {
+		return `${i.name || ""}${i.quantity ? " - " + i.quantity : ""}`;
+	}
+	return i;
+}
+
+function formatStep(s) {
+	if (typeof s === "object") {
+		return s.text || "";
+	}
+	return s;
+}
 
 async function loadRecipe() {
 	try {
 		if (!file) throw new Error("No file provided in URL");
 
-		// SAFE PATH BUILD
 		const url = BASE_PATH + file;
 
 		console.log("Fetching recipe from:", url);
@@ -29,7 +41,7 @@ async function loadRecipe() {
 			`url(${data.image})`;
 
 		/* ================= TITLE ================= */
-		document.getElementById("title").textContent = data.title;
+		document.getElementById("title").textContent = data.title || "";
 
 		/* ================= CONTENT ================= */
 		document.getElementById("content").innerHTML = `
@@ -37,7 +49,7 @@ async function loadRecipe() {
 				<h3>Ingredients</h3>
 				<ul>
 					${(data.ingredients || [])
-						.map(i => `<li>${i}</li>`)
+						.map(i => `<li>${formatIngredient(i)}</li>`)
 						.join("")}
 				</ul>
 			</div>
@@ -46,7 +58,7 @@ async function loadRecipe() {
 				<h3>Steps</h3>
 				<div>
 					${(data.steps || [])
-						.map(s => `<div class="step">${s}</div>`)
+						.map(s => `<div class="step">${formatStep(s)}</div>`)
 						.join("")}
 				</div>
 			</div>
