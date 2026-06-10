@@ -36,7 +36,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	perspective: 1000px;
 }
 
 .carousel-track {
@@ -113,6 +112,7 @@ body {
 .card.hidden {
 	opacity: 0;
 	pointer-events: none;
+	transform: translate(-50%, -50%) scale(0.5);
 }
 
 /* INFO */
