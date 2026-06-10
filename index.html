@@ -10,14 +10,19 @@
 
 <body>
 
-<!-- ================= HERO SECTION ================= -->
+<header id="topBar">
+  <div class="logo">🍳 CookBook</div>
+</header>
+
 <section id="hero">
 
   <h1 class="about-title">COOK LIKE A CHEF</h1>
 
   <div class="carousel-container">
     <button class="nav-arrow left">‹</button>
+
     <div class="carousel-track"></div>
+
     <button class="nav-arrow right">›</button>
   </div>
 
@@ -26,37 +31,15 @@
     <p class="recipe-meta"></p>
   </div>
 
-  <button class="scroll-down">↓ Scroll Down</button>
-
+  <button class="scroll-down">↓ Explore Recipes</button>
 </section>
 
-<!-- ================= MAIN APP (hidden initially) ================= -->
-<section id="main-ui" class="hidden-ui">
-
-  <header class="header">
-
-    <div class="logo">
-      <img src="assets/images/logo.png" alt="Logo">
-      <span>RecipeCook</span>
-    </div>
-
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search recipes..." />
-    </div>
-
-  </header>
-
-  <div class="filters">
-    <button class="filter-btn active" data-category="All">All</button>
-    <button class="filter-btn" data-category="Arabic">Arabic</button>
-    <button class="filter-btn" data-category="Chinese">Chinese</button>
-    <button class="filter-btn" data-category="Indian">Indian</button>
-    <button class="filter-btn" data-category="Italian">Italian</button>
-    <button class="filter-btn" data-category="Mexican">Mexican</button>
-    <button class="filter-btn" data-category="Nepali">Nepali</button>
-    <button class="filter-btn" data-category="Thai">Thai</button>
-  </div>
-
+<!-- hidden section for future search/filter -->
+<section id="tools" class="hidden-tools">
+  <input type="text" id="searchBar" placeholder="Search recipes..." />
+  <select id="categoryFilter">
+    <option value="all">All Categories</option>
+  </select>
 </section>
 
 <script src="js/home.js"></script>
