@@ -1,4 +1,5 @@
 let recipes = [];
+
 let current = 0;
 let cards = [];
 let timer;
@@ -6,7 +7,7 @@ let timer;
 async function loadRecipes() {
 	try {
 		const res = await fetch("./data/index.json");
-		if (!res.ok) throw new Error("Failed to load index.json");
+		if (!res.ok) throw new Error("Failed index.json");
 
 		recipes = await res.json();
 
@@ -121,6 +122,7 @@ function initExplore() {
 		}
 
 		const q = search.value.toLowerCase();
+
 		if (q) {
 			filtered = filtered.filter(r =>
 				r.title.toLowerCase().includes(q)
