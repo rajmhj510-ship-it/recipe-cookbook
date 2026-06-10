@@ -12,6 +12,72 @@ body {
 }
 
 /* =========================
+   HEADER STACKED
+========================= */
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 15px 25px;
+	gap: 12px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #082a7b;
+}
+
+.logo img {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+}
+
+/* SEARCH */
+.search-box {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#searchInput {
+	width: 320px;
+	max-width: 90%;
+	padding: 10px 14px;
+	border-radius: 25px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+/* FILTERS */
+.filters {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+	padding: 10px 20px;
+}
+
+.filter-btn {
+	padding: 6px 12px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	background: #ddd;
+	font-size: 13px;
+}
+
+.filter-btn.active {
+	background: #082a7b;
+	color: white;
+}
+
+/* =========================
    HERO
 ========================= */
 
@@ -32,7 +98,7 @@ body {
 }
 
 /* =========================
-   CAROUSEL WRAPPER
+   CAROUSEL
 ========================= */
 
 .carousel-container {
@@ -51,10 +117,6 @@ body {
 	position: relative;
 }
 
-/* =========================
-   NAV BUTTONS
-========================= */
-
 .nav-arrow {
 	position: absolute;
 	top: 50%;
@@ -72,18 +134,7 @@ body {
 .nav-arrow.left { left: 10px; }
 .nav-arrow.right { right: 10px; }
 
-/* =========================
-   RESPONSIVE SPACING SYSTEM
-========================= */
-
-:root {
-	--card-offset: 220px;
-}
-
-/* =========================
-   CARD BASE
-========================= */
-
+/* CARD */
 .card {
 	position: absolute;
 	top: 50%;
@@ -93,9 +144,8 @@ body {
 	border-radius: 18px;
 	overflow: hidden;
 	box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-	transition: transform 0.7s ease, opacity 0.7s ease;
+	transition: all 0.7s ease;
 	cursor: pointer;
-
 	transform: translate(-50%, -50%) scale(0.6);
 	opacity: 0;
 }
@@ -106,45 +156,31 @@ body {
 	object-fit: cover;
 }
 
-/* =========================
-   ACTIVE CARD
-========================= */
-
 .card.center {
 	transform: translate(-50%, -50%) scale(1.15);
 	opacity: 1;
 	z-index: 10;
 }
 
-/* =========================
-   SIDE CARDS
-========================= */
-
 .card.left-1 {
-	transform: translate(calc(-50% - var(--card-offset)), -50%) scale(0.92);
+	transform: translate(calc(-50% - 180px), -50%) scale(0.92);
 	opacity: 0.9;
-	z-index: 5;
 }
 
 .card.left-2 {
-	transform: translate(calc(-50% - calc(var(--card-offset) * 2)), -50%) scale(0.8);
+	transform: translate(calc(-50% - 360px), -50%) scale(0.8);
 	opacity: 0.5;
 }
 
 .card.right-1 {
-	transform: translate(calc(-50% + var(--card-offset)), -50%) scale(0.92);
+	transform: translate(calc(-50% + 180px), -50%) scale(0.92);
 	opacity: 0.9;
-	z-index: 5;
 }
 
 .card.right-2 {
-	transform: translate(calc(-50% + calc(var(--card-offset) * 2)), -50%) scale(0.8);
+	transform: translate(calc(-50% + 360px), -50%) scale(0.8);
 	opacity: 0.5;
 }
-
-/* =========================
-   HIDDEN CARDS
-========================= */
 
 .card.hidden {
 	opacity: 0;
@@ -152,10 +188,7 @@ body {
 	transform: translate(-50%, -50%) scale(0.5);
 }
 
-/* =========================
-   INFO SECTION
-========================= */
-
+/* INFO */
 .recipe-info {
 	text-align: center;
 }
@@ -169,47 +202,4 @@ body {
 .recipe-meta {
 	font-size: 1.2rem;
 	color: #777;
-}
-
-/* =========================
-   BUTTON
-========================= */
-
-.scroll-down {
-	padding: 10px 18px;
-	border: none;
-	background: #082a7b;
-	color: white;
-	border-radius: 20px;
-	cursor: pointer;
-}
-
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
-
-@media (max-width: 768px) {
-	:root {
-		--card-offset: 140px;
-	}
-
-	.card {
-		width: 220px;
-		height: 300px;
-	}
-}
-
-@media (max-width: 480px) {
-	:root {
-		--card-offset: 110px;
-	}
-
-	.card {
-		width: 180px;
-		height: 250px;
-	}
-
-	.about-title {
-		font-size: 2.8rem;
-	}
 }
