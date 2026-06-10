@@ -1,46 +1,45 @@
-const ALLOWED = [];
+const params = new URLSearchParams(window.location.search);
+const file = params.get("file");
 
-async function init() {
-	const raw = new URLSearchParams(location.search).get("file");
-	const file = decodeURIComponent(raw || "");
+async function loadRecipe() {
+	try {
+		const res = await fetch(file);
+		const data = await res.json();
 
-	const list = await fetch("data/index.json").then(r => r.json());
+		document.getElementById("hero").style.backgroundImage =
+			`url(${data.image})`;
 
-	list.forEach(r => ALLOWED.push(r.file));
+		document.getElementById("title").textContent = data.title;
 
-	if (!ALLOWED.includes(file)) {
-		document.body.innerHTML = "<h2>Access denied ❌</h2>";
-		return;
+		const container = document.getElementById("content");
+
+		container.innerHTML = `
+			<div class="section">
+				<h3>Ingredients</h3>
+				<ul>
+					${data.ingredients.map(i => `<li>${i}</li>`).join("")}
+				</ul>
+			</div>
+
+			<div class="section">
+				<h3>Steps</h3>
+				<div id="steps">
+					${data.steps.map((s, i) =>
+						`<div class="step" data-i="${i}">${s}</div>`
+					).join("")}
+				</div>
+			</div>
+		`;
+
+		document.querySelectorAll(".step").forEach(step => {
+			step.onclick = () => step.classList.toggle("done");
+		});
+
+	} catch (err) {
+		console.error(err);
+		document.getElementById("title").textContent =
+			"Recipe failed to load ❌";
 	}
-
-	const recipe = await fetch(file).then(r => r.json());
-
-	document.getElementById("hero").style.backgroundImage =
-		`url('${recipe.image}')`;
-
-	document.getElementById("title").textContent = recipe.title;
-
-	document.getElementById("content").innerHTML =
-		recipe.ingredients.map(g =>
-			`<div class="section">
-				<h3>${g.title}</h3>
-				<ul>${g.items.map(i => `<li>${i}</li>`).join("")}</ul>
-			</div>`
-		).join("") +
-
-		recipe.instruction.map(s =>
-			`<div class="section">
-				<h3>${s.title}</h3>
-				${s.steps.map(step =>
-					`<div class="step" onclick="this.classList.toggle('done')">${step}</div>`
-				).join("")}
-			</div>`
-		).join("") +
-
-		`<div class="section">
-			<h3>Chef Tips</h3>
-			<ul>${(recipe.chefTips || []).map(t => `<li>${t}</li>`).join("")}</ul>
-		</div>`;
 }
 
-init();
+loadRecipe();
