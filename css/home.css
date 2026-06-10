@@ -48,7 +48,7 @@ body {
 	position: relative;
 }
 
-/* NAV BUTTONS (always on top) */
+/* NAV BUTTONS */
 .nav-arrow {
 	position: absolute;
 	top: 50%;
@@ -62,15 +62,12 @@ body {
 	cursor: pointer;
 	z-index: 999;
 	font-size: 22px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .nav-arrow.left { left: 10px; }
 .nav-arrow.right { right: 10px; }
 
-/* ================= CARD ================= */
+/* ================= CARDS ================= */
 
 .card {
 	position: absolute;
@@ -92,7 +89,7 @@ body {
 	object-fit: cover;
 }
 
-/* ================= LAYER SYSTEM ================= */
+/* LAYERS */
 
 .card.center {
 	transform: translate(-50%, -50%) scale(1.15);
@@ -100,24 +97,18 @@ body {
 }
 
 .card.left-1,
-.card.right-1 {
-	z-index: 5;
-	opacity: 0.9;
-}
+.card.right-1 { opacity: 0.9; }
 
 .card.left-2,
-.card.right-2 {
-	z-index: 1;
-	opacity: 0.5;
-}
+.card.right-2 { opacity: 0.5; }
 
 .card.hidden {
 	opacity: 0;
 	pointer-events: none;
-	transform: translate(-50%, -50%) scale(0.5);
 }
 
 /* POSITIONS */
+
 .card.left-1 {
 	transform: translate(calc(-50% - 180px), -50%) scale(0.95);
 }
@@ -140,7 +131,7 @@ body {
 	text-align: center;
 }
 
-.recipe-title {
+.hero-recipe-title {
 	font-size: 2.2rem;
 	font-weight: bold;
 	color: #082a7b;
@@ -162,33 +153,39 @@ body {
 	cursor: pointer;
 }
 
-/* ================= MOBILE FIX ================= */
+/* ================= EXPLORE ================= */
 
-@media (max-width: 768px) {
+#recipeList {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 15px;
+	padding: 20px;
+}
 
-	.carousel-container {
-		height: 320px;
-		padding: 0 40px;
-	}
+.explore-card {
+	background: white;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+	transition: 0.3s;
+}
 
-	.card {
-		width: 180px;
-		height: 260px;
-	}
+.explore-card:hover {
+	transform: translateY(-5px);
+}
 
-	.card.left-1 {
-		transform: translate(calc(-50% - 120px), -50%) scale(0.95);
-	}
+.explore-card img {
+	width: 100%;
+	height: 140px;
+	object-fit: cover;
+}
 
-	.card.left-2 {
-		transform: translate(calc(-50% - 220px), -50%) scale(0.8);
-	}
+.explore-card h3 {
+	padding: 10px;
+}
 
-	.card.right-1 {
-		transform: translate(calc(-50% + 120px), -50%) scale(0.95);
-	}
-
-	.card.right-2 {
-		transform: translate(calc(-50% + 220px), -50%) scale(0.8);
-	}
+.explore-card p {
+	padding: 0 10px 10px;
+	color: gray;
 }
