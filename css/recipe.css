@@ -17,6 +17,7 @@ body {
 	justify-content: center;
 }
 
+/* ================= TITLE ================= */
 .recipe-page-title {
 	text-align: center;
 	font-size: 2.5rem;
@@ -41,18 +42,40 @@ body {
 	grid-column: span 2;
 }
 
-/* ================= CARD STYLE ================= */
+/* ================= CARD STYLE (UPGRADED) ================= */
 .section {
 	background: white;
-	padding: 15px;
-	border-radius: 12px;
-	box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+	padding: 18px;
+	border-radius: 14px;
+	box-shadow: 0 8px 22px rgba(0,0,0,0.08);
 	margin-bottom: 15px;
+	transition: transform 0.2s ease;
 }
 
+.section:hover {
+	transform: translateY(-2px);
+}
+
+/* ================= HEADINGS (FIX + UPGRADE) ================= */
 .section h3 {
-	margin-bottom: 10px;
+	font-size: 1.4rem;
+	font-weight: 800;
 	color: #082a7b;
+	margin-bottom: 12px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	letter-spacing: 0.3px;
+}
+
+/* small visual accent bar */
+.section h3::before {
+	content: "";
+	width: 5px;
+	height: 20px;
+	background: #082a7b;
+	border-radius: 3px;
+	display: inline-block;
 }
 
 /* ================= INGREDIENT LIST ================= */
@@ -62,6 +85,7 @@ ul {
 
 li {
 	margin-bottom: 6px;
+	line-height: 1.5;
 }
 
 /* ================= INSTRUCTION BLOCKS ================= */
@@ -71,11 +95,13 @@ li {
 
 .step-block h4 {
 	border-left: 4px solid #082a7b;
-	padding-left: 8px;
-	margin-bottom: 8px;
+	padding-left: 10px;
+	margin-bottom: 10px;
 	color: #333;
+	font-size: 1rem;
 }
 
+/* ================= STEPS ================= */
 .step {
 	padding: 10px;
 	background: #f9f9f9;
@@ -109,5 +135,9 @@ li {
 	#instructions,
 	#tips {
 		grid-column: span 1;
+	}
+
+	.recipe-page-title {
+		font-size: 1.8rem;
 	}
 }
