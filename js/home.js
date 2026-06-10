@@ -1,132 +1,120 @@
-let recipes = [];
-
-async function loadRecipes() {
-	const res = await fetch("./data/index.json");
-	recipes = await res.json();
-
-	initCarousel();
-	initList();
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
 }
 
-loadRecipes();
-
-/* ---------------- CAROUSEL ---------------- */
-
-function initCarousel() {
-	const track = document.querySelector(".carousel-track");
-	const titleEl = document.querySelector(".recipe-title");
-	const metaEl = document.querySelector(".recipe-meta");
-
-	const leftBtn = document.querySelector(".nav-arrow.left");
-	const rightBtn = document.querySelector(".nav-arrow.right");
-
-	const hero = document.querySelector("#hero");
-	const scrollBtn = document.querySelector(".scroll-down");
-
-	let current = 0;
-	let timer;
-
-	recipes.forEach(r => {
-		const card = document.createElement("div");
-		card.className = "card";
-		card.innerHTML = `<img src="${r.image}">`;
-
-		card.onclick = () => {
-			window.location.href = `recipe.html?file=${encodeURIComponent(r.file)}`;
-		};
-
-		track.appendChild(card);
-	});
-
-	const cards = document.querySelectorAll(".card");
-
-	function update(i) {
-		current = (i + cards.length) % cards.length;
-
-		cards.forEach((c, idx) => {
-			const offset = (idx - current + cards.length) % cards.length;
-			c.className = "card";
-
-			if (offset === 0) c.classList.add("center");
-			else if (offset === 1) c.classList.add("right-1");
-			else if (offset === 2) c.classList.add("right-2");
-			else if (offset === cards.length - 1) c.classList.add("left-1");
-			else if (offset === cards.length - 2) c.classList.add("left-2");
-			else c.classList.add("hidden");
-		});
-
-		titleEl.textContent = recipes[current].title;
-		metaEl.textContent = `${recipes[current].time} • ${recipes[current].difficulty}`;
-	}
-
-	function auto() {
-		clearInterval(timer);
-		timer = setInterval(() => update(current + 1), 15000);
-	}
-
-	leftBtn.onclick = () => { update(current - 1); auto(); };
-	rightBtn.onclick = () => { update(current + 1); auto(); };
-
-	scrollBtn.onclick = () => {
-		document.getElementById("hero").style.display = "none";
-		document.getElementById("controls").classList.remove("hidden");
-	};
-
-	update(0);
-	auto();
+body {
+	min-height: 100vh;
+	background: #f5f5f5;
+	overflow-x: hidden;
 }
 
-/* ---------------- LIST + SEARCH + FILTER ---------------- */
+#hero {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	text-align: center;
+}
 
-function initList() {
-	const list = document.getElementById("recipeList");
-	const search = document.getElementById("search");
-	const buttons = document.querySelectorAll(".filters button");
+.about-title {
+	font-size: 4rem;
+	font-weight: 900;
+	color: rgba(8, 42, 123, 0.25);
+}
 
-	let category = "all";
-	let query = "";
+/* CAROUSEL */
+.carousel-container {
+	width: 100%;
+	max-width: 1100px;
+	height: 420px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
-	function render() {
-		list.innerHTML = "";
+.carousel-track {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
 
-		let filtered = recipes.filter(r => {
-			return (
-				(category === "all" || r.category === category) &&
-				r.title.toLowerCase().includes(query.toLowerCase())
-			);
-		});
+/* NAV */
+.nav-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(8, 42, 123, 0.85);
+	color: white;
+	border: none;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 20;
+}
 
-		filtered.forEach(r => {
-			const div = document.createElement("div");
-			div.className = "recipe-card";
+.nav-arrow.left { left: 10px; }
+.nav-arrow.right { right: 10px; }
 
-			div.innerHTML = `
-				<img src="${r.image}">
-				<div>
-					<strong>${r.title}</strong><br>
-					<small>${r.category}</small>
-				</div>
-			`;
+/* CARD */
+.card {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 260px;
+	height: 360px;
+	border-radius: 18px;
+	overflow: hidden;
+	box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+	transition: all 0.7s ease;
+	cursor: pointer;
+	transform: translate(-50%, -50%);
+}
 
-			div.onclick = () => {
-				window.location.href = `recipe.html?file=${encodeURIComponent(r.file)}`;
-			};
+.card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
-			list.appendChild(div);
-		});
-	}
+.card.center { transform: translate(-50%, -50%) scale(1.15); z-index: 10; }
+.card.left-1 { transform: translate(calc(-50% - 180px), -50%) scale(0.92); opacity: 0.9; }
+.card.left-2 { transform: translate(calc(-50% - 360px), -50%) scale(0.8); opacity: 0.5; }
+.card.right-1 { transform: translate(calc(-50% + 180px), -50%) scale(0.92); opacity: 0.9; }
+.card.right-2 { transform: translate(calc(-50% + 360px), -50%) scale(0.8); opacity: 0.5; }
 
-	search.addEventListener("input", e => {
-		query = e.target.value;
-		render();
-	});
+.card.hidden {
+	opacity: 0;
+	pointer-events: none;
+}
 
-	buttons.forEach(b => {
-		b.onclick = () => {
-			category = b.dataset.cat;
-			render();
-		};
-	});
+/* INFO */
+.recipe-info {
+	text-align: center;
+}
 
-	render();
+.recipe-title {
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: #082a7b;
+}
+
+.recipe-meta {
+	font-size: 1.2rem;
+	color: #777;
+}
+
+.scroll-down {
+	padding: 10px 18px;
+	border: none;
+	background: #082a7b;
+	color: white;
+	border-radius: 20px;
+	cursor: pointer;
 }
