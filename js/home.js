@@ -27,10 +27,14 @@ function initCarousel() {
 
 	const hero = document.querySelector("#hero");
 	const scrollBtn = document.querySelector(".scroll-down");
+	const carousel = document.querySelector(".carousel-container");
 
 	let currentIndex = 0;
 	let timer;
 
+	/* =========================
+	   CREATE CARDS
+	========================= */
 	recipes.forEach(r => {
 		const card = document.createElement("div");
 		card.className = "card";
@@ -38,7 +42,6 @@ function initCarousel() {
 		card.innerHTML = `<img src="${r.image}" alt="${r.title}">`;
 
 		card.addEventListener("click", () => {
-			// ONLY encode here
 			const file = encodeURIComponent(r.file);
 			window.location.href = `recipe.html?file=${file}`;
 		});
@@ -48,6 +51,9 @@ function initCarousel() {
 
 	const cards = document.querySelectorAll(".card");
 
+	/* =========================
+	   UPDATE CAROUSEL
+	========================= */
 	function update(i) {
 		currentIndex = (i + cards.length) % cards.length;
 
@@ -66,16 +72,49 @@ function initCarousel() {
 
 		const r = recipes[currentIndex];
 
-		titleEl.textContent = r.title;
-		metaEl.textContent = `${r.time} • ${r.difficulty}`;
+		titleEl.textContent = r.title || "";
+		metaEl.textContent = `${r.time || ""} • ${r.difficulty || ""}`;
 	}
 
-	leftBtn.onclick = () => update(currentIndex - 1);
-	rightBtn.onclick = () => update(currentIndex + 1);
+	/* =========================
+	   AUTOPLAY SYSTEM
+	========================= */
+	function startAutoPlay() {
+		clearInterval(timer);
+		timer = setInterval(() => {
+			update(currentIndex + 1);
+		}, 15000);
+	}
 
+	/* =========================
+	   NAV BUTTONS
+	========================= */
+	leftBtn.onclick = () => {
+		update(currentIndex - 1);
+		startAutoPlay();
+	};
+
+	rightBtn.onclick = () => {
+		update(currentIndex + 1);
+		startAutoPlay();
+	};
+
+	/* =========================
+	   SCROLL BUTTON
+	========================= */
 	scrollBtn.onclick = () => {
 		document.querySelector("#hero").style.display = "none";
 	};
 
+	/* =========================
+	   PAUSE ON HOVER
+	========================= */
+	carousel.onmouseenter = () => clearInterval(timer);
+	carousel.onmouseleave = startAutoPlay;
+
+	/* =========================
+	   INIT
+	========================= */
 	update(0);
+	startAutoPlay();
 }
