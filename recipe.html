@@ -12,30 +12,32 @@ body {
 	background: #f5f5f5;
 }
 
+/* FIXED HERO IMAGE */
 #hero {
-	height: 300px;
+	width: 100%;
+	max-width: 900px;
+	height: 520px;
+	margin: 20px auto 0;
+	border-radius: 12px;
 	background-size: cover;
 	background-position: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: white;
-	font-size: 2rem;
-	font-weight: bold;
-	text-shadow: 0 2px 10px black;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
+/* CONTENT WRAPPER */
 .container {
 	padding: 20px;
 	max-width: 900px;
 	margin: auto;
 }
 
+/* SECTIONS */
 .section {
 	background: white;
 	padding: 15px;
 	margin-bottom: 15px;
 	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.05);
 }
 
 .section h2 {
@@ -43,6 +45,7 @@ body {
 	color: #082a7b;
 }
 
+/* LIST */
 ul {
 	padding-left: 20px;
 }
@@ -51,12 +54,14 @@ li {
 	margin-bottom: 6px;
 }
 
+/* STEPS */
 .step {
 	padding: 8px;
 	background: #f2f2f2;
 	margin: 6px 0;
 	border-radius: 8px;
 	cursor: pointer;
+	transition: 0.3s;
 }
 
 .step.done {
@@ -68,8 +73,10 @@ li {
 
 <body>
 
+<!-- HERO IMAGE -->
 <div id="hero"></div>
 
+<!-- CONTENT -->
 <div class="container" id="content"></div>
 
 <script>
@@ -91,7 +98,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 		const recipe = await res.json();
 
-		// HERO IMAGE
+		// HERO IMAGE (fixed layout)
 		hero.style.backgroundImage = `url('${recipe.image}')`;
 
 		// INGREDIENTS
@@ -130,9 +137,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 			</div>
 		`;
 
-		// RENDER EVERYTHING
-		content.innerHTML =
-			ingredientsHTML + instructionHTML + tipsHTML;
+		// RENDER ALL
+		content.innerHTML = ingredientsHTML + instructionHTML + tipsHTML;
 
 	} catch (err) {
 		console.error(err);
