@@ -1,5 +1,4 @@
 let recipes = [];
-
 let current = 0;
 let cards = [];
 let timer;
@@ -40,7 +39,6 @@ function initCarousel() {
 		card.innerHTML = `<img src="${r.image}" alt="${r.title}">`;
 
 		card.onclick = () => {
-			// FIX: safe URL encoding
 			window.location.href =
 				`recipe.html?file=${encodeURIComponent(r.file)}`;
 		};
@@ -72,13 +70,8 @@ function initCarousel() {
 		metaEl.textContent = `${r.time || ""} • ${r.difficulty || ""}`;
 	}
 
-	function autoplay() {
-		clearInterval(timer);
-		timer = setInterval(() => update(current + 1), 5000);
-	}
-
-	leftBtn.onclick = () => { update(current - 1); autoplay(); };
-	rightBtn.onclick = () => { update(current + 1); autoplay(); };
+	leftBtn.onclick = () => update(current - 1);
+	rightBtn.onclick = () => update(current + 1);
 
 	scrollBtn.onclick = () => {
 		document.getElementById("hero").style.display = "none";
@@ -86,7 +79,6 @@ function initCarousel() {
 	};
 
 	update(0);
-	autoplay();
 }
 
 /* ================= EXPLORE ================= */
@@ -107,13 +99,12 @@ function initExplore() {
 			card.className = "explore-card";
 
 			card.innerHTML = `
-				<img src="${r.image}" alt="${r.title}">
+				<img src="${r.image}">
 				<h3>${r.title}</h3>
 				<p>${r.category}</p>
 			`;
 
 			card.onclick = () => {
-				// FIX: safe encoding
 				window.location.href =
 					`recipe.html?file=${encodeURIComponent(r.file)}`;
 			};
@@ -130,7 +121,6 @@ function initExplore() {
 		}
 
 		const q = search.value.toLowerCase();
-
 		if (q) {
 			filtered = filtered.filter(r =>
 				r.title.toLowerCase().includes(q)
