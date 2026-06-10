@@ -21,6 +21,7 @@ body {
 	justify-content: center;
 	gap: 20px;
 	text-align: center;
+	transition: opacity 0.4s ease;
 }
 
 .about-title {
@@ -48,7 +49,7 @@ body {
 	position: relative;
 }
 
-/* NAV BUTTONS (always on top) */
+/* NAV */
 .nav-arrow {
 	position: absolute;
 	top: 50%;
@@ -61,17 +62,12 @@ body {
 	border-radius: 50%;
 	cursor: pointer;
 	z-index: 999;
-	font-size: 22px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .nav-arrow.left { left: 10px; }
 .nav-arrow.right { right: 10px; }
 
-/* ================= CARD ================= */
-
+/* CARD */
 .card {
 	position: absolute;
 	top: 50%;
@@ -92,50 +88,19 @@ body {
 	object-fit: cover;
 }
 
-/* ================= LAYER SYSTEM ================= */
-
-.card.center {
-	transform: translate(-50%, -50%) scale(1.15);
-	z-index: 10;
-}
-
-.card.left-1,
-.card.right-1 {
-	z-index: 5;
-	opacity: 0.9;
-}
-
-.card.left-2,
-.card.right-2 {
-	z-index: 1;
-	opacity: 0.5;
-}
+/* LAYERS */
+.card.center { transform: translate(-50%, -50%) scale(1.15); z-index: 10; }
+.card.left-1 { transform: translate(calc(-50% - 180px), -50%) scale(0.95); opacity: 0.9; }
+.card.left-2 { transform: translate(calc(-50% - 340px), -50%) scale(0.8); opacity: 0.5; }
+.card.right-1 { transform: translate(calc(-50% + 180px), -50%) scale(0.95); opacity: 0.9; }
+.card.right-2 { transform: translate(calc(-50% + 340px), -50%) scale(0.8); opacity: 0.5; }
 
 .card.hidden {
 	opacity: 0;
 	pointer-events: none;
-	transform: translate(-50%, -50%) scale(0.5);
 }
 
-/* POSITIONS */
-.card.left-1 {
-	transform: translate(calc(-50% - 180px), -50%) scale(0.95);
-}
-
-.card.left-2 {
-	transform: translate(calc(-50% - 340px), -50%) scale(0.8);
-}
-
-.card.right-1 {
-	transform: translate(calc(-50% + 180px), -50%) scale(0.95);
-}
-
-.card.right-2 {
-	transform: translate(calc(-50% + 340px), -50%) scale(0.8);
-}
-
-/* ================= INFO ================= */
-
+/* INFO */
 .recipe-info {
 	text-align: center;
 }
@@ -151,8 +116,7 @@ body {
 	color: #777;
 }
 
-/* ================= BUTTON ================= */
-
+/* BUTTON */
 .scroll-down {
 	padding: 10px 18px;
 	border: none;
@@ -162,33 +126,81 @@ body {
 	cursor: pointer;
 }
 
-/* ================= MOBILE FIX ================= */
+/* ================= EXPLORE ================= */
 
-@media (max-width: 768px) {
+.hidden { display: none; }
 
-	.carousel-container {
-		height: 320px;
-		padding: 0 40px;
-	}
+#explore {
+	padding: 30px 20px;
+}
 
-	.card {
-		width: 180px;
-		height: 260px;
-	}
+.explore-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 20px;
+}
 
-	.card.left-1 {
-		transform: translate(calc(-50% - 120px), -50%) scale(0.95);
-	}
+.brand-small {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
 
-	.card.left-2 {
-		transform: translate(calc(-50% - 220px), -50%) scale(0.8);
-	}
+.logo img {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+}
 
-	.card.right-1 {
-		transform: translate(calc(-50% + 120px), -50%) scale(0.95);
-	}
+#search {
+	width: 280px;
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+}
 
-	.card.right-2 {
-		transform: translate(calc(-50% + 220px), -50%) scale(0.8);
-	}
+.filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.filters button {
+	padding: 6px 12px;
+	border: none;
+	border-radius: 20px;
+	background: #ddd;
+	cursor: pointer;
+}
+
+.filters button.active {
+	background: #082a7b;
+	color: white;
+}
+
+#recipeList {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 15px;
+}
+
+.recipe-card {
+	background: white;
+	border-radius: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.recipe-card img {
+	width: 100%;
+	height: 120px;
+	object-fit: cover;
+}
+
+.recipe-card div {
+	padding: 10px;
 }
