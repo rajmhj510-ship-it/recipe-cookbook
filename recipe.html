@@ -6,7 +6,7 @@
 <title>Recipe</title>
 
 <style>
-body { font-family: Arial; margin:0; background:#f5f5f5; }
+body { font-family: Arial; margin: 0; background:#f5f5f5; }
 
 #hero {
 	width:100%;
@@ -34,8 +34,17 @@ body { font-family: Arial; margin:0; background:#f5f5f5; }
 	border-radius:10px;
 }
 
-.step { padding:8px; background:#eee; margin:5px 0; cursor:pointer; }
-.step.done { text-decoration:line-through; opacity:0.6; }
+.step {
+	padding:8px;
+	background:#eee;
+	margin:5px 0;
+	cursor:pointer;
+}
+
+.step.done {
+	text-decoration:line-through;
+	opacity:0.6;
+}
 </style>
 </head>
 
@@ -45,62 +54,7 @@ body { font-family: Arial; margin:0; background:#f5f5f5; }
 <div class="recipe-title" id="title"></div>
 <div class="container" id="content"></div>
 
-<script>
-async function init() {
-
-	const raw = new URLSearchParams(location.search).get("file") || "";
-	const file = decodeURIComponent(raw);
-
-	// SECURITY: validate only allowed files
-	const resList = await fetch("data/index.json");
-	const list = await resList.json();
-
-	const allowed = list.map(i => i.file);
-
-	if (!allowed.includes(file)) {
-		document.body.innerHTML = "<h2>Access denied</h2>";
-		return;
-	}
-
-	const res = await fetch(file);
-	const r = await res.json();
-
-	document.getElementById("hero").style.backgroundImage =
-		`url('${r.image}')`;
-
-	document.getElementById("title").textContent = r.title;
-
-	document.getElementById("content").innerHTML =
-
-	/* INGREDIENTS */
-	r.ingredients.map(g =>
-		`<div class="section">
-			<h3>Ingredients</h3>
-			<h4>${g.title}</h4>
-			<ul>${g.items.map(i => `<li>${i}</li>`).join("")}</ul>
-		</div>`
-	).join("") +
-
-	/* INSTRUCTION */
-	r.instruction.map(s =>
-		`<div class="section">
-			<h3>Instructions</h3>
-			<h4>${s.title}</h4>
-			${s.steps.map(step =>
-				`<div class="step" onclick="this.classList.toggle('done')">${step}</div>`
-			).join("")}
-		</div>`
-	).join("") +
-
-	/* TIPS */
-	`<div class="section">
-		<h3>Chef Tips</h3>
-		<ul>${(r.chefTips || []).map(t => `<li>${t}</li>`).join("")}</ul>
-	</div>`;
-}
-
-init();
-</script>
+<script src="js/recipe.js"></script>
 
 </body>
 </html>
