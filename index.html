@@ -10,11 +10,15 @@
 
 <body>
 
-<header id="topBar">
-  <div class="logo">🍳 CookBook</div>
+<header class="top-bar">
+  <div class="brand">
+    <div class="logo"></div>
+    <h1 class="brand-name">CookBook</h1>
+  </div>
+
+  <input type="text" id="search" placeholder="Search recipes..." />
 </header>
 
-<!-- HERO / CAROUSEL -->
 <section id="hero">
 
   <h1 class="about-title">COOK LIKE A CHEF</h1>
@@ -30,22 +34,23 @@
     <p class="recipe-meta"></p>
   </div>
 
-  <button class="scroll-down">↓ Explore Recipes</button>
+  <button class="scroll-down">↓ Scroll Down</button>
 
 </section>
 
-<!-- TOOLS + GRID -->
-<section id="tools" class="tools-section">
-
-  <div class="tools-header">
-    <div class="logo-small">🍳 CookBook</div>
-    <input type="text" id="searchBar" placeholder="Search recipes..." />
+<section id="controls" class="hidden">
+  <div class="filters">
+    <button data-cat="all">All</button>
+    <button data-cat="Arabic">Arabic</button>
+    <button data-cat="Chinese">Chinese</button>
+    <button data-cat="Indian">Indian</button>
+    <button data-cat="Continental">Continental</button>
+    <button data-cat="Mexican">Mexican</button>
+    <button data-cat="Nepali">Nepali</button>
+    <button data-cat="Thai">Thai</button>
   </div>
 
-  <div id="categoryBar" class="category-bar"></div>
-
-  <div id="recipeGrid" class="recipe-grid"></div>
-
+  <div id="recipeList"></div>
 </section>
 
 <script src="js/home.js"></script>
