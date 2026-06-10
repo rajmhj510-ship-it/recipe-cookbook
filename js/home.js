@@ -7,6 +7,8 @@ let timer;
 async function loadRecipes() {
 	try {
 		const res = await fetch("./data/index.json");
+		if (!res.ok) throw new Error("Failed to load index.json");
+
 		recipes = await res.json();
 
 		initCarousel();
@@ -35,10 +37,12 @@ function initCarousel() {
 		const card = document.createElement("div");
 		card.className = "card";
 
-		card.innerHTML = `<img src="${r.image}">`;
+		card.innerHTML = `<img src="${r.image}" alt="${r.title}">`;
 
 		card.onclick = () => {
-			window.location.href = `recipe.html?file=${r.file}`;
+			// FIX: safe URL encoding
+			window.location.href =
+				`recipe.html?file=${encodeURIComponent(r.file)}`;
 		};
 
 		track.appendChild(card);
@@ -64,8 +68,8 @@ function initCarousel() {
 
 		const r = recipes[current];
 
-		titleEl.textContent = r.title;
-		metaEl.textContent = `${r.time} • ${r.difficulty}`;
+		titleEl.textContent = r.title || "";
+		metaEl.textContent = `${r.time || ""} • ${r.difficulty || ""}`;
 	}
 
 	function autoplay() {
@@ -103,13 +107,15 @@ function initExplore() {
 			card.className = "explore-card";
 
 			card.innerHTML = `
-				<img src="${r.image}">
+				<img src="${r.image}" alt="${r.title}">
 				<h3>${r.title}</h3>
 				<p>${r.category}</p>
 			`;
 
 			card.onclick = () => {
-				window.location.href = `recipe.html?file=${r.file}`;
+				// FIX: safe encoding
+				window.location.href =
+					`recipe.html?file=${encodeURIComponent(r.file)}`;
 			};
 
 			list.appendChild(card);
@@ -124,6 +130,7 @@ function initExplore() {
 		}
 
 		const q = search.value.toLowerCase();
+
 		if (q) {
 			filtered = filtered.filter(r =>
 				r.title.toLowerCase().includes(q)
