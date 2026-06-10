@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		// INGREDIENTS
 		let ingredientsHTML = `
 			<div class="section">
-				<h2>🧂 Ingredients</h2>
+				<h2> Ingredients</h2>
 		`;
 
 		recipe.ingredients.forEach(group => {
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		// INSTRUCTIONS
 		let instructionHTML = `
 			<div class="section">
-				<h2>👨‍🍳 Instructions</h2>
+				<h2> Instructions</h2>
 		`;
 
 		recipe.instruction.forEach(section => {
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		// CHEF TIPS
 		let tipsHTML = `
 			<div class="section">
-				<h2>⭐ Chef Tips</h2>
+				<h2> Chef Tips</h2>
 				<ul>
 					${recipe.chefTips.map(tip => `<li>${tip}</li>`).join("")}
 				</ul>
