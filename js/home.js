@@ -1,9 +1,17 @@
 let recipes = [];
 
 async function loadRecipes() {
-	const res = await fetch("data/index.json");
-	recipes = await res.json();
-	initCarousel();
+	try {
+		const res = await fetch("data/index.json");
+		if (!res.ok) throw new Error("Failed to load JSON");
+
+		recipes = await res.json();
+		initCarousel();
+	} catch (err) {
+		console.error(err);
+		document.querySelector(".recipe-title").textContent =
+			"Failed to load recipes";
+	}
 }
 
 loadRecipes();
@@ -23,7 +31,7 @@ function initCarousel() {
 	let isAnimating = false;
 	let autoPlayTimer = null;
 
-	/* CREATE CARDS */
+	// CREATE CARDS
 	recipes.forEach((recipe) => {
 		const card = document.createElement("div");
 		card.classList.add("card");
@@ -31,8 +39,8 @@ function initCarousel() {
 		card.innerHTML = `<img src="${recipe.image}" alt="${recipe.title}">`;
 
 		card.addEventListener("click", () => {
-			// 🔥 IMPORTANT FIX: USE file from index.json
-			window.location.href = `recipe.html?file=/${recipe.file}`;
+			window.location.href =
+				`recipe.html?file=${encodeURIComponent(recipe.file)}`;
 		});
 
 		track.appendChild(card);
@@ -49,7 +57,14 @@ function initCarousel() {
 		cards.forEach((card, i) => {
 			const offset = (i - currentIndex + cards.length) % cards.length;
 
-			card.classList.remove("center","left-1","left-2","right-1","right-2","hidden");
+			card.classList.remove(
+				"center",
+				"left-1",
+				"left-2",
+				"right-1",
+				"right-2",
+				"hidden"
+			);
 
 			if (offset === 0) card.classList.add("center");
 			else if (offset === 1) card.classList.add("right-1");
@@ -63,7 +78,7 @@ function initCarousel() {
 		titleEl.textContent = r.title;
 		metaEl.textContent = `${r.time} • ${r.difficulty}`;
 
-		setTimeout(() => isAnimating = false, 800);
+		setTimeout(() => (isAnimating = false), 800);
 	}
 
 	function startAutoPlay() {
