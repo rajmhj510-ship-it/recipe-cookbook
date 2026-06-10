@@ -1,49 +1,62 @@
 const params = new URLSearchParams(window.location.search);
-const file = params.get("file");
+const file = decodeURIComponent(params.get("file"));
+
+/* ================= BASE PATH FIX ================= */
+/* Works on GitHub Pages + local server */
+const BASE_PATH = window.location.pathname.includes("recipe-cookbook")
+	? "/recipe-cookbook/"
+	: "./";
 
 async function loadRecipe() {
 	try {
-		if (!file) throw new Error("No file provided");
+		if (!file) throw new Error("No file provided in URL");
 
-		// FIX: ALWAYS FORCE ROOT-RELATIVE PATH
-		const url = "./" + file;
+		// SAFE PATH BUILD
+		const url = BASE_PATH + file;
 
-		console.log("Fetching:", url);
+		console.log("Fetching recipe from:", url);
 
 		const res = await fetch(url);
 
 		if (!res.ok) {
-			throw new Error("HTTP " + res.status);
+			throw new Error(`HTTP Error: ${res.status}`);
 		}
 
 		const data = await res.json();
 
-		/* HERO IMAGE */
+		/* ================= HERO ================= */
 		document.getElementById("hero").style.backgroundImage =
 			`url(${data.image})`;
 
-		/* TITLE */
+		/* ================= TITLE ================= */
 		document.getElementById("title").textContent = data.title;
 
-		/* CONTENT */
+		/* ================= CONTENT ================= */
 		document.getElementById("content").innerHTML = `
 			<div class="section">
 				<h3>Ingredients</h3>
 				<ul>
-					${(data.ingredients || []).map(i => `<li>${i}</li>`).join("")}
+					${(data.ingredients || [])
+						.map(i => `<li>${i}</li>`)
+						.join("")}
 				</ul>
 			</div>
 
 			<div class="section">
 				<h3>Steps</h3>
 				<div>
-					${(data.steps || []).map(s => `<div class="step">${s}</div>`).join("")}
+					${(data.steps || [])
+						.map(s => `<div class="step">${s}</div>`)
+						.join("")}
 				</div>
 			</div>
 		`;
 
+		/* ================= STEP TOGGLE ================= */
 		document.querySelectorAll(".step").forEach(step => {
-			step.onclick = () => step.classList.toggle("done");
+			step.addEventListener("click", () => {
+				step.classList.toggle("done");
+			});
 		});
 
 	} catch (err) {
@@ -52,8 +65,11 @@ async function loadRecipe() {
 		document.getElementById("title").textContent =
 			"Recipe failed to load ❌";
 
-		document.getElementById("content").innerHTML =
-			`<div class="section" style="color:red;">${err.message}</div>`;
+		document.getElementById("content").innerHTML = `
+			<div class="section" style="color:red;">
+				${err.message}
+			</div>
+		`;
 	}
 }
 
