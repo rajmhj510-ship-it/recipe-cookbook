@@ -11,6 +11,10 @@ body {
 	overflow-x: hidden;
 }
 
+/* =========================
+   HERO
+========================= */
+
 #hero {
 	min-height: 100vh;
 	display: flex;
@@ -27,7 +31,10 @@ body {
 	color: rgba(8, 42, 123, 0.25);
 }
 
-/* CAROUSEL */
+/* =========================
+   CAROUSEL WRAPPER
+========================= */
+
 .carousel-container {
 	width: 100%;
 	max-width: 1100px;
@@ -44,7 +51,10 @@ body {
 	position: relative;
 }
 
-/* NAV */
+/* =========================
+   NAV BUTTONS
+========================= */
+
 .nav-arrow {
 	position: absolute;
 	top: 50%;
@@ -62,7 +72,18 @@ body {
 .nav-arrow.left { left: 10px; }
 .nav-arrow.right { right: 10px; }
 
-/* CARD */
+/* =========================
+   RESPONSIVE SPACING SYSTEM
+========================= */
+
+:root {
+	--card-offset: 220px;
+}
+
+/* =========================
+   CARD BASE
+========================= */
+
 .card {
 	position: absolute;
 	top: 50%;
@@ -72,9 +93,11 @@ body {
 	border-radius: 18px;
 	overflow: hidden;
 	box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-	transition: all 0.7s ease;
+	transition: transform 0.7s ease, opacity 0.7s ease;
 	cursor: pointer;
-	transform: translate(-50%, -50%);
+
+	transform: translate(-50%, -50%) scale(0.6);
+	opacity: 0;
 }
 
 .card img {
@@ -83,20 +106,59 @@ body {
 	object-fit: cover;
 }
 
-.card.center { transform: translate(-50%, -50%) scale(1.15); z-index: 10; }
-.card.left-1 { transform: translate(calc(-50% - 180px), -50%) scale(0.92); opacity: 0.9; }
-.card.left-2 { transform: translate(calc(-50% - 360px), -50%) scale(0.8); opacity: 0.5; }
-.card.right-1 { transform: translate(calc(-50% + 180px), -50%) scale(0.92); opacity: 0.9; }
-.card.right-2 { transform: translate(calc(-50% + 360px), -50%) scale(0.8); opacity: 0.5; }
+/* =========================
+   ACTIVE CARD
+========================= */
+
+.card.center {
+	transform: translate(-50%, -50%) scale(1.15);
+	opacity: 1;
+	z-index: 10;
+}
+
+/* =========================
+   SIDE CARDS
+========================= */
+
+.card.left-1 {
+	transform: translate(calc(-50% - var(--card-offset)), -50%) scale(0.92);
+	opacity: 0.9;
+	z-index: 5;
+}
+
+.card.left-2 {
+	transform: translate(calc(-50% - calc(var(--card-offset) * 2)), -50%) scale(0.8);
+	opacity: 0.5;
+}
+
+.card.right-1 {
+	transform: translate(calc(-50% + var(--card-offset)), -50%) scale(0.92);
+	opacity: 0.9;
+	z-index: 5;
+}
+
+.card.right-2 {
+	transform: translate(calc(-50% + calc(var(--card-offset) * 2)), -50%) scale(0.8);
+	opacity: 0.5;
+}
+
+/* =========================
+   HIDDEN CARDS
+========================= */
 
 .card.hidden {
 	opacity: 0;
 	pointer-events: none;
-	transform: translate(-50%, -50%) scale(0.6);
+	transform: translate(-50%, -50%) scale(0.5);
 }
 
-/* INFO */
-.recipe-info { text-align: center; }
+/* =========================
+   INFO SECTION
+========================= */
+
+.recipe-info {
+	text-align: center;
+}
 
 .recipe-title {
 	font-size: 2.2rem;
@@ -109,6 +171,10 @@ body {
 	color: #777;
 }
 
+/* =========================
+   BUTTON
+========================= */
+
 .scroll-down {
 	padding: 10px 18px;
 	border: none;
@@ -116,4 +182,34 @@ body {
 	color: white;
 	border-radius: 20px;
 	cursor: pointer;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+	:root {
+		--card-offset: 140px;
+	}
+
+	.card {
+		width: 220px;
+		height: 300px;
+	}
+}
+
+@media (max-width: 480px) {
+	:root {
+		--card-offset: 110px;
+	}
+
+	.card {
+		width: 180px;
+		height: 250px;
+	}
+
+	.about-title {
+		font-size: 2.8rem;
+	}
 }
