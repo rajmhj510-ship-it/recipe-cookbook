@@ -48,7 +48,8 @@ body {
 	position: relative;
 }
 
-/* NAV BUTTONS */
+/* ================= NAVIGATION ================= */
+
 .nav-arrow {
 	position: absolute;
 	top: 50%;
@@ -62,10 +63,18 @@ body {
 	cursor: pointer;
 	z-index: 999;
 	font-size: 22px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.nav-arrow.left { left: 10px; }
-.nav-arrow.right { right: 10px; }
+.nav-arrow.left {
+	left: 10px;
+}
+
+.nav-arrow.right {
+	right: 10px;
+}
 
 /* ================= CARDS ================= */
 
@@ -77,7 +86,7 @@ body {
 	height: 360px;
 	border-radius: 18px;
 	overflow: hidden;
-	box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 	transition: all 0.7s ease;
 	cursor: pointer;
 	transform: translate(-50%, -50%);
@@ -89,7 +98,7 @@ body {
 	object-fit: cover;
 }
 
-/* LAYERS */
+/* ================= CARD LAYERS ================= */
 
 .card.center {
 	transform: translate(-50%, -50%) scale(1.15);
@@ -97,17 +106,21 @@ body {
 }
 
 .card.left-1,
-.card.right-1 { opacity: 0.9; }
+.card.right-1 {
+	opacity: 0.9;
+}
 
 .card.left-2,
-.card.right-2 { opacity: 0.5; }
+.card.right-2 {
+	opacity: 0.5;
+}
 
 .card.hidden {
 	opacity: 0;
 	pointer-events: none;
 }
 
-/* POSITIONS */
+/* ================= CARD POSITIONS ================= */
 
 .card.left-1 {
 	transform: translate(calc(-50% - 180px), -50%) scale(0.95);
@@ -125,7 +138,7 @@ body {
 	transform: translate(calc(-50% + 340px), -50%) scale(0.8);
 }
 
-/* ================= INFO ================= */
+/* ================= RECIPE INFO ================= */
 
 .recipe-info {
 	text-align: center;
@@ -151,9 +164,83 @@ body {
 	color: white;
 	border-radius: 20px;
 	cursor: pointer;
+	transition: 0.3s;
 }
 
-/* ================= EXPLORE ================= */
+.scroll-down:hover {
+	opacity: 0.9;
+}
+
+/* ================= EXPLORE SECTION ================= */
+
+.hidden {
+	display: none;
+}
+
+.explore-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	flex-wrap: wrap;
+	gap: 15px;
+	background: white;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* ================= BRAND ================= */
+
+.brand-small {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.logo {
+	width: 30px;
+	height: 30px;
+	object-fit: contain;
+}
+
+.brand-small h2 {
+	color: #082a7b;
+	font-size: 1.5rem;
+}
+
+/* ================= SEARCH ================= */
+
+#search {
+	padding: 10px 15px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	width: 250px;
+	font-size: 1rem;
+}
+
+/* ================= FILTERS ================= */
+
+.filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	padding: 20px;
+	justify-content: center;
+}
+
+.filters button {
+	padding: 8px 16px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	background: #e0e0e0;
+}
+
+.filters button.active {
+	background: #082a7b;
+	color: white;
+}
+
+/* ================= RECIPE GRID ================= */
 
 #recipeList {
 	display: grid;
@@ -168,7 +255,7 @@ body {
 	overflow: hidden;
 	cursor: pointer;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-	transition: 0.3s;
+	transition: transform 0.3s;
 }
 
 .explore-card:hover {
@@ -183,9 +270,55 @@ body {
 
 .explore-card h3 {
 	padding: 10px;
+	font-size: 1rem;
+	color: #082a7b;
 }
 
 .explore-card p {
 	padding: 0 10px 10px;
 	color: gray;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+	.about-title {
+		font-size: 2.5rem;
+	}
+
+	.carousel-container {
+		height: 320px;
+		padding: 0 40px;
+	}
+
+	.card {
+		width: 180px;
+		height: 260px;
+	}
+
+	.card.left-1 {
+		transform: translate(calc(-50% - 120px), -50%) scale(0.95);
+	}
+
+	.card.left-2 {
+		transform: translate(calc(-50% - 220px), -50%) scale(0.8);
+	}
+
+	.card.right-1 {
+		transform: translate(calc(-50% + 120px), -50%) scale(0.95);
+	}
+
+	.card.right-2 {
+		transform: translate(calc(-50% + 220px), -50%) scale(0.8);
+	}
+
+	.explore-header {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	#search {
+		width: 100%;
+	}
 }
