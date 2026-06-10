@@ -1,4 +1,5 @@
 let recipes = [];
+
 let current = 0;
 let cards = [];
 let timer;
@@ -6,8 +7,6 @@ let timer;
 async function loadRecipes() {
 	try {
 		const res = await fetch("./data/index.json");
-		if (!res.ok) throw new Error("Failed to load index.json");
-
 		recipes = await res.json();
 
 		initCarousel();
@@ -15,8 +14,6 @@ async function loadRecipes() {
 
 	} catch (err) {
 		console.error(err);
-		document.querySelector(".hero-recipe-title").textContent =
-			"Failed to load recipes ❌";
 	}
 }
 
@@ -38,10 +35,10 @@ function initCarousel() {
 		const card = document.createElement("div");
 		card.className = "card";
 
-		card.innerHTML = `<img src="${r.image}" alt="${r.title}">`;
+		card.innerHTML = `<img src="${r.image}">`;
 
 		card.onclick = () => {
-			window.location.href = `recipe.html?file=${encodeURIComponent(r.file)}`;
+			window.location.href = `recipe.html?file=${r.file}`;
 		};
 
 		track.appendChild(card);
@@ -65,9 +62,10 @@ function initCarousel() {
 			else c.classList.add("hidden");
 		});
 
-		const r = recipes[current] || {};
-		titleEl.textContent = r.title || "";
-		metaEl.textContent = `${r.time || ""} • ${r.difficulty || ""}`;
+		const r = recipes[current];
+
+		titleEl.textContent = r.title;
+		metaEl.textContent = `${r.time} • ${r.difficulty}`;
 	}
 
 	function autoplay() {
@@ -111,14 +109,14 @@ function initExplore() {
 			`;
 
 			card.onclick = () => {
-				window.location.href = `recipe.html?file=${encodeURIComponent(r.file)}`;
+				window.location.href = `recipe.html?file=${r.file}`;
 			};
 
 			list.appendChild(card);
 		});
 	}
 
-	function filterData() {
+	function filter() {
 		let filtered = recipes;
 
 		if (activeCat !== "all") {
@@ -135,16 +133,15 @@ function initExplore() {
 		render(filtered);
 	}
 
-	search.addEventListener("input", filterData);
+	search.addEventListener("input", filter);
 
 	buttons.forEach(btn => {
-		btn.addEventListener("click", () => {
+		btn.onclick = () => {
 			buttons.forEach(b => b.classList.remove("active"));
 			btn.classList.add("active");
-
 			activeCat = btn.dataset.cat;
-			filterData();
-		});
+			filter();
+		};
 	});
 
 	render(recipes);
