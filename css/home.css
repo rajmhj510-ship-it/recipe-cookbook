@@ -6,62 +6,22 @@
 }
 
 body {
+	min-height: 100vh;
 	background: #f5f5f5;
+	overflow-x: hidden;
 }
 
-/* ================= SNAP SYSTEM ================= */
+/* ================= HERO ================= */
 
-html, body {
-	height: 100%;
-	overflow: hidden;
-}
-
-/* ================= SECTIONS ================= */
-
-#hero, #explore {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100vh;
-	transition: transform 0.8s ease, opacity 0.8s ease;
-}
-
-/* HERO */
 #hero {
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
 	text-align: center;
-	transform: translateY(0%);
-	opacity: 1;
-	z-index: 2;
 }
-
-#hero.hide {
-	transform: translateY(-100%);
-	opacity: 0;
-	pointer-events: none;
-}
-
-/* EXPLORE */
-#explore {
-	transform: translateY(100%);
-	opacity: 0;
-	z-index: 1;
-	pointer-events: none;
-	padding: 30px 20px;
-}
-
-#explore.show {
-	transform: translateY(0%);
-	opacity: 1;
-	pointer-events: auto;
-}
-
-/* ================= HERO CONTENT ================= */
 
 .about-title {
 	font-size: 4rem;
@@ -88,6 +48,7 @@ html, body {
 	position: relative;
 }
 
+/* NAV BUTTONS (always on top) */
 .nav-arrow {
 	position: absolute;
 	top: 50%;
@@ -100,12 +61,17 @@ html, body {
 	border-radius: 50%;
 	cursor: pointer;
 	z-index: 999;
+	font-size: 22px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .nav-arrow.left { left: 10px; }
 .nav-arrow.right { right: 10px; }
 
-/* CARDS */
+/* ================= CARD ================= */
+
 .card {
 	position: absolute;
 	top: 50%;
@@ -126,26 +92,58 @@ html, body {
 	object-fit: cover;
 }
 
-.card.center { transform: translate(-50%, -50%) scale(1.15); z-index: 10; }
-.card.left-1 { transform: translate(calc(-50% - 180px), -50%) scale(0.95); opacity: 0.9; }
-.card.left-2 { transform: translate(calc(-50% - 340px), -50%) scale(0.8); opacity: 0.5; }
-.card.right-1 { transform: translate(calc(-50% + 180px), -50%) scale(0.95); opacity: 0.9; }
-.card.right-2 { transform: translate(calc(-50% + 340px), -50%) scale(0.8); opacity: 0.5; }
+/* ================= LAYER SYSTEM ================= */
+
+.card.center {
+	transform: translate(-50%, -50%) scale(1.15);
+	z-index: 10;
+}
+
+.card.left-1,
+.card.right-1 {
+	z-index: 5;
+	opacity: 0.9;
+}
+
+.card.left-2,
+.card.right-2 {
+	z-index: 1;
+	opacity: 0.5;
+}
 
 .card.hidden {
 	opacity: 0;
 	pointer-events: none;
+	transform: translate(-50%, -50%) scale(0.5);
 }
 
-/* INFO */
+/* POSITIONS */
+.card.left-1 {
+	transform: translate(calc(-50% - 180px), -50%) scale(0.95);
+}
+
+.card.left-2 {
+	transform: translate(calc(-50% - 340px), -50%) scale(0.8);
+}
+
+.card.right-1 {
+	transform: translate(calc(-50% + 180px), -50%) scale(0.95);
+}
+
+.card.right-2 {
+	transform: translate(calc(-50% + 340px), -50%) scale(0.8);
+}
+
+/* ================= INFO ================= */
+
 .recipe-info {
 	text-align: center;
 }
 
 .recipe-title {
 	font-size: 2.2rem;
-	color: #082a7b;
 	font-weight: bold;
+	color: #082a7b;
 }
 
 .recipe-meta {
@@ -153,7 +151,8 @@ html, body {
 	color: #777;
 }
 
-/* BUTTON */
+/* ================= BUTTON ================= */
+
 .scroll-down {
 	padding: 10px 18px;
 	border: none;
@@ -163,57 +162,33 @@ html, body {
 	cursor: pointer;
 }
 
-/* ================= EXPLORE ================= */
+/* ================= MOBILE FIX ================= */
 
-.filters {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 10px;
-	justify-content: center;
-	margin-bottom: 20px;
-}
+@media (max-width: 768px) {
 
-.filters button {
-	padding: 6px 12px;
-	border: none;
-	border-radius: 20px;
-	background: #ddd;
-	cursor: pointer;
-}
+	.carousel-container {
+		height: 320px;
+		padding: 0 40px;
+	}
 
-.filters button.active {
-	background: #082a7b;
-	color: white;
-}
+	.card {
+		width: 180px;
+		height: 260px;
+	}
 
-#search {
-	width: 280px;
-	padding: 10px;
-	border-radius: 20px;
-	border: 1px solid #ccc;
-	display: block;
-	margin: 0 auto 15px;
-}
+	.card.left-1 {
+		transform: translate(calc(-50% - 120px), -50%) scale(0.95);
+	}
 
-#recipeList {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-	gap: 15px;
-}
+	.card.left-2 {
+		transform: translate(calc(-50% - 220px), -50%) scale(0.8);
+	}
 
-.recipe-card {
-	background: white;
-	border-radius: 10px;
-	overflow: hidden;
-	cursor: pointer;
-}
+	.card.right-1 {
+		transform: translate(calc(-50% + 120px), -50%) scale(0.95);
+	}
 
-.recipe-card img {
-	width: 100%;
-	height: 120px;
-	object-fit: cover;
-}
-
-.recipe-card div {
-	padding: 10px;
+	.card.right-2 {
+		transform: translate(calc(-50% + 220px), -50%) scale(0.8);
+	}
 }
