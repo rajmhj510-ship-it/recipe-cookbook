@@ -38,10 +38,9 @@ function initCarousel() {
 
 		card.innerHTML = `<img src="${recipe.image}" alt="${recipe.title}">`;
 
-		// ✅ FIXED PATH (IMPORTANT)
+		// ✅ FIXED: NO encodeURIComponent, NO "./"
 		card.addEventListener("click", () => {
-			window.location.href =
-				`recipe.html?file=./${encodeURIComponent(recipe.file)}`;
+			window.location.href = `recipe.html?file=${recipe.file}`;
 		});
 
 		track.appendChild(card);
