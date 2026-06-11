@@ -43,24 +43,25 @@
         "Refrigerate for at least 4 hours before service to stabilize texture and flavor.",
         "Keeps up to 1 week refrigerated."
       ]
+    },
+    {
+      "title": "Serving Tips",
+      "steps": [
+        "Serve all three in separate bowls or arrange nicely on a platter.",
+        "Add warm corn tortillas or tortilla chips for dipping.",
+        "Garnish guacamole with a sprinkle of cilantro or diced tomato.",
+        "Use salsa to add spice and brightness; sour cream cools and balances."
+      ]
     }
   ],
-      "title": "Serving Tips:",
-      "steps": [
-    "Serve all three in separate bowls or arrange nicely on a platter.",
-    "Add warm corn tortillas or tortilla chips for dipping.",
-    "Garnish guacamole with a sprinkle of cilantro or diced tomato.",
-    "Use salsa to add spice and brightness; sour cream cools and balances."
-      ]
-    },
-  
+
   "chefTips": [
     "Consistency Control: For a thinner crema (for drizzling), whisk in 1–2 Tbsp whole milk before chilling. For a thicker crema (for dolloping), let it ferment the full 24 hours.",
     "Flavor Variation: Infuse with roasted garlic purée, chipotle, or fresh cilantro after fermentation for signature restaurant touches.",
-
     "Culinary Uses:",
     "Drizzle over tacos, enchiladas, and sopes",
     "Balance heat in salsas and moles",
     "Enhance seafood dishes like ceviche or pescado zarandeado",
-    "Elevate desserts with tropical fruits (mango, guava, pineapple)",
-   ]
+    "Elevate desserts with tropical fruits (mango, guava, pineapple)"
+  ]
+}
