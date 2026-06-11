@@ -5,7 +5,51 @@ body {
 	background: #f6f7fb;
 	color: #222;
 }
+/* ================= BACK BUTTON ================= */
+.back-logo {
+	position: fixed;
+	top: 15px;
+	left: 15px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	z-index: 1000;
+	color: #fff;
+	text-decoration: none;
+	transition: transform 0.3s ease, filter 0.3s ease;
+}
 
+/* logo glow effect */
+.back-logo img {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	filter: drop-shadow(0 0 6px #082a7b)
+	        drop-shadow(0 0 12px #082a7b);
+	transition: 0.3s;
+}
+
+/* arrow text under logo */
+.back-logo span {
+	font-size: 12px;
+	color: #082a7b;
+	font-weight: 600;
+}
+
+/* hover glow stronger */
+.back-logo:hover img {
+	transform: scale(1.1);
+	filter: drop-shadow(0 0 10px #082a7b)
+	        drop-shadow(0 0 20px #082a7b);
+}
+
+.back-logo:hover {
+	transform: translateY(-2px);
+}
 /* ================= HERO ================= */
 #hero {
 	height: 320px;
