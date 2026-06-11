@@ -40,7 +40,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	margin: 0 auto;
 }
 
@@ -50,7 +49,7 @@ body {
 	position: relative;
 }
 
-/* ================= CARD BASE ================= */
+/* ================= CARD ================= */
 .card {
 	position: absolute;
 	top: 50%;
@@ -128,28 +127,25 @@ body {
 	margin-top: 5px;
 }
 
-/* ================= DOTS ================= */
-.dots {
-	display: flex;
-	justify-content: center;
-	gap: 10px;
-	margin-top: 20px;
-}
-
-.dot {
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background: rgba(0,0,0,0.2);
-	cursor: pointer;
-}
-
-.dot.active {
+/* ================= SCROLL BUTTON ================= */
+.scroll-down {
+	margin-top: 25px;
+	padding: 12px 22px;
+	border: none;
+	border-radius: 30px;
 	background: #0b2a7b;
-	transform: scale(1.2);
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: 0.3s ease;
 }
 
-/* ================= ARROWS ================= */
+.scroll-down:hover {
+	transform: translateY(3px);
+	background: #081f5c;
+}
+
+/* ================= NAV ================= */
 .nav-arrow {
 	position: absolute;
 	top: 50%;
@@ -165,13 +161,8 @@ body {
 	z-index: 20;
 }
 
-.nav-arrow.left {
-	left: 20px;
-}
-
-.nav-arrow.right {
-	right: 20px;
-}
+.nav-arrow.left { left: 20px; }
+.nav-arrow.right { right: 20px; }
 
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
