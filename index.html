@@ -6,20 +6,19 @@
 <title>Recipe Cookbook</title>
 
 <link rel="stylesheet" href="css/carousel.css" />
+<link rel="stylesheet" href="css/home.css" />
 </head>
 
 <body>
 
-<!-- ================= HERO ================= -->
+<!-- ================= HERO (UNCHANGED CAROUSEL) ================= -->
 <section id="hero">
 
   <h1 class="about-title">COOK LIKE A CHEF</h1>
 
   <div class="carousel-container">
     <button class="nav-arrow left">‹</button>
-
     <div class="carousel-track"></div>
-
     <button class="nav-arrow right">›</button>
   </div>
 
@@ -28,17 +27,46 @@
     <p class="recipe-meta"></p>
   </div>
 
-  <!-- SCROLL BUTTON -->
   <button class="scroll-down">↓ Explore Recipes</button>
 
 </section>
 
-<!-- ================= EXPLORE SECTION ================= -->
+<!-- ================= EXPLORE ================= -->
 <section id="explore">
-  <!-- your content here -->
+
+  <div class="explore-header">
+    <div class="brand-small">
+      <img src="logo.png" class="logo" alt="logo">
+      <h2>Recipes</h2>
+    </div>
+  </div>
+
+  <!-- SEARCH -->
+  <div class="search-wrapper">
+    <input type="text" id="searchInput" placeholder="Search recipes..." />
+  </div>
+
+  <!-- CATEGORY FILTER -->
+  <div class="filters">
+    <button class="active" data-cat="all">All</button>
+    <button data-cat="Arabic">Arabic</button>
+    <button data-cat="Chinese">Chinese</button>
+    <button data-cat="Indian">Indian</button>
+    <button data-cat="Continental">Continental</button>
+    <button data-cat="Mexican">Mexican</button>
+    <button data-cat="Nepali">Nepali</button>
+    <button data-cat="Thai">Thai</button>
+    <button data-cat="Italian">Italian</button>
+  </div>
+
+  <!-- GRID -->
+  <div id="recipeList"></div>
+
 </section>
 
+<!-- ================= SCRIPTS ================= -->
 <script src="js/carousel.js"></script>
+<script src="js/home.js"></script>
 
 </body>
 </html>
