@@ -62,33 +62,66 @@ function initCarousel() {
 	update(0);
 }
 
-	/* AUTO SLIDE */
-	function startAutoSlide() {
-		autoSlide = setInterval(() => {
-			update(current + 1);
-		}, 15000);
-	}
+/* ================= EXPLORE ================= */
 
-	function stopAutoSlide() {
-		clearInterval(autoSlide);
-	}
+function initExplore() {
 
-	startAutoSlide();
+	const list = document.getElementById("recipeList");
+	const search = document.getElementById("search");
+	const buttons = document.querySelectorAll(".filters button");
 
-	/* PAUSE ON HOVER */
-	const hero = document.getElementById("hero");
-	hero.addEventListener("mouseenter", stopAutoSlide);
-	hero.addEventListener("mouseleave", startAutoSlide);
+	let activeCat = "all";
 
-	/* SCROLL BUTTON */
-	scrollBtn.onclick = () => {
-		document.getElementById("explore").scrollIntoView({
-			behavior: "smooth"
+	function render(data) {
+		list.innerHTML = "";
+
+		data.forEach(r => {
+			const card = document.createElement("div");
+			card.className = "explore-card";
+
+			card.innerHTML = `
+				<img src="${r.image}">
+				<h3>${r.title}</h3>
+				<p>${r.category}</p>
+			`;
+
+			card.onclick = () => {
+				window.location.href =
+					`recipe.html?file=${encodeURIComponent(r.file)}`;
+			};
+
+			list.appendChild(card);
 		});
-	};
+	}
 
-	update(0);
+	function filter() {
+		let filtered = recipes;
+
+		if (activeCat !== "all") {
+			filtered = filtered.filter(r => r.category === activeCat);
+		}
+
+		const q = search.value.toLowerCase();
+
+		if (q) {
+			filtered = filtered.filter(r =>
+				r.title.toLowerCase().includes(q)
+			);
+		}
+
+		render(filtered);
+	}
+
+	search.addEventListener("input", filter);
+
+	buttons.forEach(btn => {
+		btn.onclick = () => {
+			buttons.forEach(b => b.classList.remove("active"));
+			btn.classList.add("active");
+			activeCat = btn.dataset.cat;
+			filter();
+		};
+	});
+
+	render(recipes);
 }
-
-/* expose globally */
-window.initCarousel = initCarousel;
