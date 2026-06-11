@@ -115,6 +115,15 @@
     "image": "assets/images/mexican/chimichanga.png",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
+     },
+  {
+    "id": 602,
+    "title": "Salsa Roja (Red Salsa)",
+    "category": "Mexican",
+    "file": "data/mexican/salsa-roja.json",
+    "image": "assets/images/mexican/salsa-roja.png",
+    "time": "1 hr 20 min",
+    "difficulty": "Medium"
     },
   {
     "id": 701,
