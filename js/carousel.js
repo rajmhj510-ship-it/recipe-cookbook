@@ -14,6 +14,10 @@ const exploreSection = document.querySelector("#explore");
 
 let cards = [];
 
+/* ================= AUTO SLIDE CONTROL ================= */
+let autoSlideTimer = null;
+const AUTO_TIME = 15000;
+
 /* ================= LOAD JSON ================= */
 fetch("data/index.json")
 	.then(res => res.json())
@@ -21,6 +25,7 @@ fetch("data/index.json")
 		recipes = Array.isArray(data) ? data : [data];
 		createCarousel();
 		updateCarousel(0);
+		startAutoSlide(); // start autoplay after load
 	});
 
 /* ================= CREATE CARDS ================= */
@@ -39,6 +44,12 @@ function createCarousel() {
 	});
 
 	cards = document.querySelectorAll(".card");
+
+	/* ================= HOVER PAUSE ================= */
+	const carouselContainer = document.querySelector(".carousel-container");
+
+	carouselContainer.addEventListener("mouseenter", stopAutoSlide);
+	carouselContainer.addEventListener("mouseleave", startAutoSlide);
 }
 
 /* ================= UPDATE CAROUSEL ================= */
@@ -51,7 +62,14 @@ function updateCarousel(newIndex) {
 	cards.forEach((card, i) => {
 		const offset = (i - currentIndex + recipes.length) % recipes.length;
 
-		card.classList.remove("center", "left-1", "left-2", "right-1", "right-2", "hidden");
+		card.classList.remove(
+			"center",
+			"left-1",
+			"left-2",
+			"right-1",
+			"right-2",
+			"hidden"
+		);
 
 		if (offset === 0) card.classList.add("center");
 		else if (offset === 1) card.classList.add("right-1");
@@ -94,3 +112,19 @@ scrollBtn.addEventListener("click", () => {
 		behavior: "smooth"
 	});
 });
+
+/* ================= AUTO SLIDE ================= */
+function startAutoSlide() {
+	stopAutoSlide(); // prevent multiple intervals
+
+	autoSlideTimer = setInterval(() => {
+		updateCarousel(currentIndex + 1);
+	}, AUTO_TIME);
+}
+
+function stopAutoSlide() {
+	if (autoSlideTimer) {
+		clearInterval(autoSlideTimer);
+		autoSlideTimer = null;
+	}
+}
