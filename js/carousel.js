@@ -2,7 +2,8 @@ let current = 0;
 let cards = [];
 let autoSlide;
 
-/* ================= INIT CAROUSEL ================= */
+/* ================= CAROUSEL ================= */
+
 function initCarousel() {
 
 	const track = document.querySelector(".carousel-track");
@@ -102,7 +103,6 @@ function initExplore() {
 		}
 
 		const q = search.value.toLowerCase();
-
 		if (q) {
 			filtered = filtered.filter(r =>
 				r.title.toLowerCase().includes(q)
