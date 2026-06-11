@@ -1,6 +1,7 @@
 let recipes = [];
 let current = 0;
 let cards = [];
+let autoSlide;
 
 /* ================= LOAD DATA ================= */
 async function loadRecipes() {
@@ -31,6 +32,7 @@ function initCarousel() {
 	const rightBtn = document.querySelector(".nav-arrow.right");
 	const scrollBtn = document.querySelector(".scroll-down");
 
+	/* CREATE CARDS */
 	recipes.forEach(r => {
 		const card = document.createElement("div");
 		card.className = "card";
@@ -47,6 +49,7 @@ function initCarousel() {
 
 	cards = document.querySelectorAll(".card");
 
+	/* UPDATE FUNCTION (YOUR ORIGINAL LOGIC KEPT) */
 	function update(i) {
 		current = (i + cards.length) % cards.length;
 
@@ -64,20 +67,35 @@ function initCarousel() {
 		});
 
 		const r = recipes[current];
+
 		titleEl.textContent = r.title || "";
 		metaEl.textContent = `${r.time || ""} • ${r.difficulty || ""}`;
 	}
 
-	/* ================= BUTTONS ================= */
+	/* BUTTONS */
 	leftBtn.onclick = () => update(current - 1);
 	rightBtn.onclick = () => update(current + 1);
 
-	/* ================= AUTO SLIDE (15s) ================= */
-	setInterval(() => {
-		update(current + 1);
-	}, 15000);
+	/* ================= AUTO SLIDE (15 SEC) ================= */
+	function startAutoSlide() {
+		autoSlide = setInterval(() => {
+			update(current + 1);
+		}, 15000);
+	}
 
-	/* ================= SCROLL TO EXPLORE ================= */
+	function stopAutoSlide() {
+		clearInterval(autoSlide);
+	}
+
+	startAutoSlide();
+
+	/* OPTIONAL: pause on hover (SAFE UX improvement) */
+	const hero = document.getElementById("hero");
+
+	hero.addEventListener("mouseenter", stopAutoSlide);
+	hero.addEventListener("mouseleave", startAutoSlide);
+
+	/* SCROLL BUTTON */
 	scrollBtn.onclick = () => {
 		document.getElementById("explore").scrollIntoView({
 			behavior: "smooth"
