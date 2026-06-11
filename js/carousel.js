@@ -13,13 +13,16 @@ let cards = [];
 let dots = [];
 
 // ================= LOAD DATA =================
-fetch("index.json")
-	.then(res => res.json())
-	.then(data => {
-		recipes = data;
-		createCarousel();
-		updateCarousel(0);
-	});
+fetch("data/index.json")
+  .then(res => res.json())
+  .then(data => {
+
+    // 👇 convert single object to array
+    recipes = Array.isArray(data) ? data : [data];
+
+    createCarousel();
+    updateCarousel(0);
+  });
 
 // ================= CREATE CARDS =================
 function createCarousel() {
