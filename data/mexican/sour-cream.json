@@ -1,0 +1,61 @@
+{
+  "id": 605,
+  "title": "Mexican-Sour Cream (Crema Mexicana)",
+  "category": "Mexican",
+  "time": "12–24 hrs",
+  "difficulty": "Professional / Restaurant Quality",
+  "image": "assets/images/mexican/crema-mexicana.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (Yields ~2 cups)",
+      "items": [
+        "2 cups (480 ml) heavy cream (minimum 36% fat, ultra-pasteurized if storing longer)",
+        "2 Tbsp (30 g) sour cream or buttermilk (as starter culture)",
+        "½ tsp fresh lime juice (optional, for brightness)",
+        "½ tsp fine sea salt (to taste)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Step 1 – Culture the Cream",
+        "In a sterilized glass bowl or container, combine the heavy cream with the sour cream (or buttermilk).",
+        "Stir gently with a sterilized spoon or silicone spatula until fully blended.",
+        "Cover the container loosely with a clean kitchen towel or plastic wrap (allowing airflow for fermentation).",
+
+        "Step 2 – Fermentation",
+        "Leave the mixture at room temperature (70–75°F / 21–24°C) for 12–24 hours, depending on desired thickness and tang.",
+        "12 hrs → mild, pourable crema",
+        "24 hrs → richer, tangier, slightly thicker",
+        "Once it thickens and has a pleasant, tangy aroma, whisk in lime juice (if using) and salt to taste.",
+
+        "Step 3 – Rest & Refrigerate",
+        "Transfer to a clean airtight container.",
+        "Refrigerate for at least 4 hours before service to stabilize texture and flavor.",
+        "Keeps up to 1 week refrigerated."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Consistency Control: For a thinner crema (for drizzling), whisk in 1–2 Tbsp whole milk before chilling. For a thicker crema (for dolloping), let it ferment the full 24 hours.",
+
+    "Flavor Variation: Infuse with roasted garlic purée, chipotle, or fresh cilantro after fermentation for signature restaurant touches.",
+
+    "─── Culinary Uses ───",
+    "Drizzle over tacos, enchiladas, and sopes",
+    "Balance heat in salsas and moles",
+    "Enhance seafood dishes like ceviche or pescado zarandeado",
+    "Elevate desserts with tropical fruits (mango, guava, pineapple)",
+
+    "─── Serving Tips ───",
+    "Serve all three in separate bowls or arrange nicely on a platter.",
+    "Add warm corn tortillas or tortilla chips for dipping.",
+    "Garnish guacamole with a sprinkle of cilantro or diced tomato.",
+    "Use salsa to add spice and brightness; sour cream cools and balances."
+  ]
+}
