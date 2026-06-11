@@ -135,6 +135,15 @@
   "difficulty": "Easy"
 },
   {
+  "id": 604,
+  "title": "Guacamole",
+  "category": "Mexican",
+  "file": "data/mexican/guacamole.json",
+  "image": "assets/images/mexican/guacamole.png",
+  "time": "15 min",
+  "difficulty": "Easy"
+},
+  {
     "id": 701,
     "title": "Jhol Mo:Mo (Soup MO:MO)",
     "category": "Nepali",
