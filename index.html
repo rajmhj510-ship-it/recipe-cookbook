@@ -10,6 +10,7 @@
 
 <body>
 
+<!-- ================= HERO ================= -->
 <section id="hero">
 
   <h1 class="about-title">COOK LIKE A CHEF</h1>
@@ -29,6 +30,7 @@
 
 </section>
 
+<!-- ================= EXPLORE ================= -->
 <section id="explore">
 
   <div class="explore-header">
@@ -38,10 +40,9 @@
       <h2>Recipes</h2>
     </div>
 
-    <input type="text" id="search" placeholder="Search recipes..." />
-
   </div>
 
+  <!-- FILTERS -->
   <div class="filters">
     <button data-cat="all" class="active">All</button>
     <button data-cat="Arabic">Arabic</button>
@@ -54,6 +55,12 @@
     <button data-cat="Italian">Italian</button>
   </div>
 
+  <!-- SEARCH (MOVED HERE) -->
+  <div class="search-wrapper">
+    <input type="text" id="search" placeholder="Search recipes..." />
+  </div>
+
+  <!-- RESULTS -->
   <div id="recipeList"></div>
 
 </section>
