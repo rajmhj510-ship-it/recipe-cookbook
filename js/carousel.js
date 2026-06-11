@@ -3,7 +3,7 @@ let cards = [];
 let autoSlide;
 
 /* ================= INIT CAROUSEL ================= */
-function initCarousel(recipes) {
+function initCarousel() {
 
 	const track = document.querySelector(".carousel-track");
 	const titleEl = document.querySelector(".hero-recipe-title");
@@ -13,7 +13,6 @@ function initCarousel(recipes) {
 	const rightBtn = document.querySelector(".nav-arrow.right");
 	const scrollBtn = document.querySelector(".scroll-down");
 
-	/* CREATE CARDS */
 	recipes.forEach(r => {
 		const card = document.createElement("div");
 		card.className = "card";
@@ -30,7 +29,6 @@ function initCarousel(recipes) {
 
 	cards = document.querySelectorAll(".card");
 
-	/* UPDATE VIEW */
 	function update(i) {
 		current = (i + cards.length) % cards.length;
 
@@ -53,9 +51,16 @@ function initCarousel(recipes) {
 		metaEl.textContent = `${r.time || ""} • ${r.difficulty || ""}`;
 	}
 
-	/* BUTTONS */
 	leftBtn.onclick = () => update(current - 1);
 	rightBtn.onclick = () => update(current + 1);
+
+	scrollBtn.onclick = () => {
+		document.getElementById("hero").style.display = "none";
+		document.getElementById("explore").classList.remove("hidden");
+	};
+
+	update(0);
+}
 
 	/* AUTO SLIDE */
 	function startAutoSlide() {
