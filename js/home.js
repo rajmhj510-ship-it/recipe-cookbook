@@ -8,12 +8,12 @@ const searchInput = document.getElementById("searchInput");
 const filterButtons = document.querySelectorAll(".filters button");
 
 /* ================= LOAD DATA ================= */
-fetch("data/index.json")
+fetch("/recipe-cookbook/data/index.json")
 	.then(res => res.json())
 	.then(data => {
 		recipes = Array.isArray(data) ? data : [];
 		render(recipes);
-	});
+	})
 
 /* ================= RENDER ================= */
 function render(list) {
