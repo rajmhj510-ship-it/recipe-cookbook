@@ -1,83 +1,80 @@
 let recipes = [];
+let selectedCategory = "all";
+let searchQuery = "";
 
-/* ================= LOAD ================= */
-async function loadRecipes() {
-	try {
-		const res = await fetch("./data/index.json");
-		if (!res.ok) throw new Error("Failed index.json");
+/* ================= ELEMENTS ================= */
+const recipeList = document.getElementById("recipeList");
+const searchInput = document.getElementById("searchInput");
+const filterButtons = document.querySelectorAll(".filters button");
 
-		recipes = await res.json();
-
-		/* INIT MODULES */
-		initCarousel(recipes);
-		initExplore();
-
-	} catch (err) {
-		console.error(err);
-	}
-}
-
-loadRecipes();
-
-/* ================= EXPLORE ================= */
-function initExplore() {
-
-	const list = document.getElementById("recipeList");
-	const search = document.getElementById("search");
-	const buttons = document.querySelectorAll(".filters button");
-
-	let activeCat = "all";
-
-	function render(data) {
-		list.innerHTML = "";
-
-		data.forEach(r => {
-			const card = document.createElement("div");
-			card.className = "explore-card";
-
-			card.innerHTML = `
-				<img src="${r.image}">
-				<h3>${r.title}</h3>
-				<p>${r.category}</p>
-			`;
-
-			card.onclick = () => {
-				window.location.href =
-					`recipe.html?file=${encodeURIComponent(r.file)}`;
-			};
-
-			list.appendChild(card);
-		});
-	}
-
-	function filter() {
-		let filtered = recipes;
-
-		if (activeCat !== "all") {
-			filtered = filtered.filter(r => r.category === activeCat);
-		}
-
-		const q = search.value.toLowerCase();
-
-		if (q) {
-			filtered = filtered.filter(r =>
-				r.title.toLowerCase().includes(q)
-			);
-		}
-
-		render(filtered);
-	}
-
-	search.addEventListener("input", filter);
-
-	buttons.forEach(btn => {
-		btn.onclick = () => {
-			buttons.forEach(b => b.classList.remove("active"));
-			btn.classList.add("active");
-			activeCat = btn.dataset.cat;
-			filter();
-		};
+/* ================= LOAD DATA ================= */
+fetch("data/index.json")
+	.then(res => res.json())
+	.then(data => {
+		recipes = Array.isArray(data) ? data : [];
+		render(recipes);
 	});
 
-	render(recipes);
+/* ================= RENDER ================= */
+function render(list) {
+	recipeList.innerHTML = "";
+
+	if (list.length === 0) {
+		recipeList.innerHTML = `<p style="text-align:center; grid-column:1/-1;">No recipes found</p>`;
+		return;
+	}
+
+	list.forEach(recipe => {
+		const card = document.createElement("div");
+		card.className = "explore-card";
+
+		card.innerHTML = `
+			<img src="${recipe.image}" alt="${recipe.title}">
+			<h3>${recipe.title}</h3>
+			<p>${recipe.category}</p>
+		`;
+
+		card.addEventListener("click", () => {
+			window.location.href = `recipe.html?file=${encodeURIComponent(recipe.file)}`;
+		});
+
+		recipeList.appendChild(card);
+	});
 }
+
+/* ================= APPLY FILTERS ================= */
+function applyFilters() {
+	let filtered = recipes;
+
+	// CATEGORY
+	if (selectedCategory !== "all") {
+		filtered = filtered.filter(r => r.category === selectedCategory);
+	}
+
+	// SEARCH
+	if (searchQuery.trim() !== "") {
+		filtered = filtered.filter(r =>
+			r.title.toLowerCase().includes(searchQuery.toLowerCase())
+		);
+	}
+
+	render(filtered);
+}
+
+/* ================= SEARCH ================= */
+searchInput.addEventListener("input", (e) => {
+	searchQuery = e.target.value;
+	applyFilters();
+});
+
+/* ================= CATEGORY ================= */
+filterButtons.forEach(btn => {
+	btn.addEventListener("click", () => {
+
+		filterButtons.forEach(b => b.classList.remove("active"));
+		btn.classList.add("active");
+
+		selectedCategory = btn.dataset.cat;
+		applyFilters();
+	});
+});
