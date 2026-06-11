@@ -126,6 +126,15 @@
     "difficulty": "Medium"
     },
   {
+  "id": 603,
+  "title": "Salsa Verde (Green Sauce)",
+  "category": "Mexican",
+  "file": "data/mexican/salsa-verde.json",
+  "image": "assets/images/mexican/salsa-verde.png",
+  "time": "20 min",
+  "difficulty": "Easy"
+},
+  {
     "id": 701,
     "title": "Jhol Mo:Mo (Soup MO:MO)",
     "category": "Nepali",
