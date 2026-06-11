@@ -1,0 +1,66 @@
+{
+  "id": 999,
+  "title": "Salsa Roja (Red Salsa)",
+  "category": "Mexican",
+  "time": "15 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/salsa-roja.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (About 2 cups)",
+      "items": [
+        "6 ripe medium tomatoes (Roma or vine-ripened)",
+        "2–3 medium red jalapeños or serrano chiles (adjust heat preference)",
+        "1 small white onion, roughly chopped",
+        "3 garlic cloves, peeled",
+        "1/2 cup fresh cilantro leaves",
+        "1 tbsp fresh lime juice",
+        "1 tsp sea salt (adjust to taste)",
+        "1/2 tsp freshly ground black pepper",
+        "1 tsp olive oil (optional, for roasting)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Roast the Vegetables (Optional but recommended)",
+      "steps": [
+        "Preheat a skillet or comal over medium-high heat.",
+        "Roast tomatoes, chiles, onion, and garlic until slightly charred and softened (8–10 min).",
+        "Turn occasionally for even charring."
+      ]
+    },
+    {
+      "title": "Blend the Salsa",
+      "steps": [
+        "Transfer roasted vegetables to a blender or food processor.",
+        "Add cilantro, lime juice, salt, and pepper.",
+        "Blend until smooth or slightly chunky if preferred."
+      ]
+    },
+    {
+      "title": "Taste & Adjust",
+      "steps": [
+        "Taste and adjust seasoning.",
+        "Add more salt, lime, or chiles if needed.",
+        "Strain for a smoother restaurant-style texture (optional)."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Chill slightly or serve at room temperature.",
+        "Great with tacos, tortilla chips, grilled meats, or eggs."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Roma or vine-ripened tomatoes give better flavor and less wateriness.",
+    "Roasting enhances sweetness and smoky depth.",
+    "Lime juice balances acidity and brightens flavor.",
+    "Straining gives restaurant-style smooth salsa, but texture feels more homemade."
+  ]
+}
