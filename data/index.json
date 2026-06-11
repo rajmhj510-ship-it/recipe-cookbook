@@ -144,6 +144,15 @@
   "difficulty": "Easy"
 },
   {
+  "id": 605,
+  "title": "Mexican Sour Cream (Crema Mexicana)",
+  "category": "Mexican",
+  "file": "data/mexican/sour-cream.json",
+  "image": "assets/images/mexican/sour-cream.png",
+  "time": "12–24 hrs",
+  "difficulty": "Medium"
+},
+  {
     "id": 701,
     "title": "Jhol Mo:Mo (Soup MO:MO)",
     "category": "Nepali",
