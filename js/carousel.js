@@ -18,6 +18,9 @@ let cards = [];
 let autoSlideTimer = null;
 const AUTO_TIME = 5000; // 5 seconds (change this value)
 
+/* ================= PAGE CHECK ================= */
+const isRecipePage = window.location.pathname.includes("recipe.html");
+
 /* ================= LOAD JSON ================= */
 fetch("data/index.json")
 	.then(res => res.json())
@@ -25,7 +28,10 @@ fetch("data/index.json")
 		recipes = Array.isArray(data) ? data : [data];
 		createCarousel();
 		updateCarousel(0);
-		startAutoSlide(); // start autoplay after load
+
+		if (!isRecipePage) {
+			startAutoSlide(); // start only on home page
+		}
 	});
 
 /* ================= CREATE CARDS ================= */
@@ -115,6 +121,8 @@ scrollBtn.addEventListener("click", () => {
 
 /* ================= AUTO SLIDE ================= */
 function startAutoSlide() {
+	if (isRecipePage) return; // prevent on recipe page
+
 	stopAutoSlide(); // prevent multiple intervals
 
 	autoSlideTimer = setInterval(() => {
@@ -127,4 +135,20 @@ function stopAutoSlide() {
 		clearInterval(autoSlideTimer);
 		autoSlideTimer = null;
 	}
+}
+
+/* ================= PAUSE WHEN IN EXPLORE ================= */
+if (!isRecipePage) {
+	window.addEventListener("scroll", () => {
+		if (!exploreSection) return;
+
+		const rect = exploreSection.getBoundingClientRect();
+		const inView = rect.top < window.innerHeight && rect.bottom > 0;
+
+		if (inView) {
+			stopAutoSlide();
+		} else {
+			startAutoSlide();
+		}
+	});
 }
