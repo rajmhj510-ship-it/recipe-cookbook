@@ -1,14 +1,30 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: Arial, sans-serif;
+/* ================= GLOBAL ================= */
+
+html {
+	scroll-behavior: smooth;
 }
 
 body {
-	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
 	background: #f5f5f5;
+	color: #222;
 	overflow-x: hidden;
+}
+
+/* ================= SCROLL SYSTEM (NEW) ================= */
+
+html, body {
+	height: 100%;
+	scroll-snap-type: y mandatory;
+}
+
+/* Each main section snaps */
+#hero,
+#explore {
+	scroll-snap-align: start;
+	scroll-snap-stop: always;
 }
 
 /* ================= HERO ================= */
@@ -21,6 +37,7 @@ body {
 	justify-content: center;
 	gap: 20px;
 	text-align: center;
+	padding: 20px;
 }
 
 .about-title {
@@ -48,7 +65,7 @@ body {
 	position: relative;
 }
 
-/* ================= NAVIGATION ================= */
+/* ================= NAV ARROWS ================= */
 
 .nav-arrow {
 	position: absolute;
@@ -66,6 +83,11 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: 0.3s;
+}
+
+.nav-arrow:hover {
+	opacity: 0.9;
 }
 
 .nav-arrow.left {
@@ -98,7 +120,7 @@ body {
 	object-fit: cover;
 }
 
-/* ================= CARD LAYERS ================= */
+/* ================= CARD STATES ================= */
 
 .card.center {
 	transform: translate(-50%, -50%) scale(1.15);
@@ -155,7 +177,7 @@ body {
 	color: #777;
 }
 
-/* ================= BUTTON ================= */
+/* ================= SCROLL BUTTON ================= */
 
 .scroll-down {
 	padding: 10px 18px;
@@ -173,9 +195,12 @@ body {
 
 /* ================= EXPLORE SECTION ================= */
 
-.hidden {
-	display: none;
+#explore {
+	min-height: 100vh;
+	background: #ffffff;
 }
+
+/* ================= HEADER ================= */
 
 .explore-header {
 	display: flex;
@@ -233,6 +258,7 @@ body {
 	border-radius: 20px;
 	cursor: pointer;
 	background: #e0e0e0;
+	transition: 0.3s;
 }
 
 .filters button.active {
@@ -248,6 +274,8 @@ body {
 	gap: 15px;
 	padding: 20px;
 }
+
+/* ================= EXPLORE CARD ================= */
 
 .explore-card {
 	background: white;
