@@ -5,14 +5,16 @@ let isAnimating = false;
 const track = document.querySelector(".carousel-track");
 const leftArrow = document.querySelector(".nav-arrow.left");
 const rightArrow = document.querySelector(".nav-arrow.right");
+
 const titleEl = document.querySelector(".hero-recipe-title");
 const metaEl = document.querySelector(".recipe-meta");
-const dotsContainer = document.querySelector(".dots");
+
+const scrollBtn = document.querySelector(".scroll-down");
+const exploreSection = document.querySelector("#explore");
 
 let cards = [];
-let dots = [];
 
-/* ================= LOAD DATA ================= */
+/* ================= LOAD JSON ================= */
 fetch("data/index.json")
 	.then(res => res.json())
 	.then(data => {
@@ -24,10 +26,8 @@ fetch("data/index.json")
 /* ================= CREATE CARDS ================= */
 function createCarousel() {
 	track.innerHTML = "";
-	dotsContainer.innerHTML = "";
 
 	recipes.forEach((recipe, i) => {
-
 		const card = document.createElement("div");
 		card.className = "card";
 		card.dataset.index = i;
@@ -36,18 +36,12 @@ function createCarousel() {
 
 		card.addEventListener("click", () => updateCarousel(i));
 		track.appendChild(card);
-
-		const dot = document.createElement("div");
-		dot.className = "dot";
-		dot.addEventListener("click", () => updateCarousel(i));
-		dotsContainer.appendChild(dot);
 	});
 
 	cards = document.querySelectorAll(".card");
-	dots = document.querySelectorAll(".dot");
 }
 
-/* ================= UPDATE ================= */
+/* ================= UPDATE CAROUSEL ================= */
 function updateCarousel(newIndex) {
 	if (isAnimating || recipes.length === 0) return;
 	isAnimating = true;
@@ -55,7 +49,6 @@ function updateCarousel(newIndex) {
 	currentIndex = (newIndex + recipes.length) % recipes.length;
 
 	cards.forEach((card, i) => {
-
 		const offset = (i - currentIndex + recipes.length) % recipes.length;
 
 		card.classList.remove("center", "left-1", "left-2", "right-1", "right-2", "hidden");
@@ -66,10 +59,6 @@ function updateCarousel(newIndex) {
 		else if (offset === recipes.length - 1) card.classList.add("left-1");
 		else if (offset === recipes.length - 2) card.classList.add("left-2");
 		else card.classList.add("hidden");
-	});
-
-	dots.forEach((dot, i) => {
-		dot.classList.toggle("active", i === currentIndex);
 	});
 
 	titleEl.style.opacity = "0";
@@ -97,4 +86,11 @@ rightArrow.addEventListener("click", () => updateCarousel(currentIndex + 1));
 document.addEventListener("keydown", (e) => {
 	if (e.key === "ArrowLeft") updateCarousel(currentIndex - 1);
 	if (e.key === "ArrowRight") updateCarousel(currentIndex + 1);
+});
+
+/* ================= SCROLL BUTTON ================= */
+scrollBtn.addEventListener("click", () => {
+	exploreSection.scrollIntoView({
+		behavior: "smooth"
+	});
 });
