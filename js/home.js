@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 let recipes = [];
 let selectedCategory = "all";
 let searchQuery = "";
@@ -8,19 +10,28 @@ const searchInput = document.getElementById("searchInput");
 const filterButtons = document.querySelectorAll(".filters button");
 
 /* ================= LOAD DATA ================= */
-fetch("/recipe-cookbook/data/index.json")
-	.then(res => res.json())
+fetch("./data/index.json")
+	.then(res => {
+		if (!res.ok) throw new Error("HTTP " + res.status);
+		return res.json();
+	})
 	.then(data => {
 		recipes = Array.isArray(data) ? data : [];
 		render(recipes);
 	})
+	.catch(err => {
+		console.error("JSON ERROR:", err);
+		recipeList.innerHTML =
+			"<p style='text-align:center'>Failed to load recipes</p>";
+	});
 
-/* ================= RENDER ================= */
+/* ================= RENDER GRID ================= */
 function render(list) {
 	recipeList.innerHTML = "";
 
-	if (list.length === 0) {
-		recipeList.innerHTML = `<p style="text-align:center; grid-column:1/-1;">No recipes found</p>`;
+	if (!list.length) {
+		recipeList.innerHTML =
+			"<p style='text-align:center; grid-column:1/-1;'>No recipes found</p>";
 		return;
 	}
 
@@ -35,24 +46,29 @@ function render(list) {
 		`;
 
 		card.addEventListener("click", () => {
-			window.location.href = `recipe.html?file=${encodeURIComponent(recipe.file)}`;
+			window.location.href =
+				`recipe.html?file=${encodeURIComponent(recipe.file)}`;
 		});
 
 		recipeList.appendChild(card);
 	});
 }
 
-/* ================= APPLY FILTERS ================= */
+/* ================= FILTER LOGIC ================= */
 function applyFilters() {
+
 	let filtered = recipes;
 
-	// CATEGORY
+	// CATEGORY FILTER
 	if (selectedCategory !== "all") {
-		filtered = filtered.filter(r => r.category === selectedCategory);
+		filtered = filtered.filter(r =>
+			r.category &&
+			r.category.toLowerCase() === selectedCategory.toLowerCase()
+		);
 	}
 
-	// SEARCH
-	if (searchQuery.trim() !== "") {
+	// SEARCH FILTER
+	if (searchQuery.trim()) {
 		filtered = filtered.filter(r =>
 			r.title.toLowerCase().includes(searchQuery.toLowerCase())
 		);
@@ -67,7 +83,7 @@ searchInput.addEventListener("input", (e) => {
 	applyFilters();
 });
 
-/* ================= CATEGORY ================= */
+/* ================= CATEGORY BUTTONS ================= */
 filterButtons.forEach(btn => {
 	btn.addEventListener("click", () => {
 
@@ -77,4 +93,6 @@ filterButtons.forEach(btn => {
 		selectedCategory = btn.dataset.cat;
 		applyFilters();
 	});
+});
+
 });
