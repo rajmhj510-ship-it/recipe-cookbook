@@ -1,9 +1,8 @@
 let recipes = [];
-
 let current = 0;
 let cards = [];
-let timer;
 
+/* ================= LOAD DATA ================= */
 async function loadRecipes() {
 	try {
 		const res = await fetch("./data/index.json");
@@ -22,7 +21,6 @@ async function loadRecipes() {
 loadRecipes();
 
 /* ================= CAROUSEL ================= */
-
 function initCarousel() {
 
 	const track = document.querySelector(".carousel-track");
@@ -74,16 +72,17 @@ function initCarousel() {
 	leftBtn.onclick = () => update(current - 1);
 	rightBtn.onclick = () => update(current + 1);
 
+	/* ================= SMOOTH SCROLL ================= */
 	scrollBtn.onclick = () => {
-		document.getElementById("hero").style.display = "none";
-		document.getElementById("explore").classList.remove("hidden");
+		document.getElementById("explore").scrollIntoView({
+			behavior: "smooth"
+		});
 	};
 
 	update(0);
 }
 
 /* ================= EXPLORE ================= */
-
 function initExplore() {
 
 	const list = document.getElementById("recipeList");
