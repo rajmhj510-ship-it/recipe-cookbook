@@ -64,15 +64,20 @@ function initCarousel() {
 		});
 
 		const r = recipes[current];
-
 		titleEl.textContent = r.title || "";
 		metaEl.textContent = `${r.time || ""} • ${r.difficulty || ""}`;
 	}
 
+	/* ================= BUTTONS ================= */
 	leftBtn.onclick = () => update(current - 1);
 	rightBtn.onclick = () => update(current + 1);
 
-	/* ================= SMOOTH SCROLL ================= */
+	/* ================= AUTO SLIDE (15s) ================= */
+	setInterval(() => {
+		update(current + 1);
+	}, 15000);
+
+	/* ================= SCROLL TO EXPLORE ================= */
 	scrollBtn.onclick = () => {
 		document.getElementById("explore").scrollIntoView({
 			behavior: "smooth"
