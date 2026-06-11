@@ -10,14 +10,23 @@ body {
 	overflow-x: hidden;
 }
 
-/* ================= HERO TITLE ================= */
+/* ================= HERO CENTER ================= */
+#hero {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+/* ================= TITLE ================= */
 .about-title {
 	font-size: 6rem;
 	font-weight: 900;
-	text-align: center;
-	margin-top: 40px;
 	color: rgba(0,0,0,0.08);
 	letter-spacing: 2px;
+	margin-bottom: 20px;
 }
 
 /* ================= CAROUSEL ================= */
@@ -25,21 +34,28 @@ body {
 	width: 100%;
 	max-width: 1200px;
 	height: 450px;
-	margin: 80px auto 20px;
 	position: relative;
 	perspective: 1000px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin: 0 auto;
 }
 
 .carousel-track {
 	width: 100%;
 	height: 100%;
 	position: relative;
-	transform-style: preserve-3d;
 }
 
-/* ================= CARD ================= */
+/* ================= CARD BASE ================= */
 .card {
 	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	width: 280px;
 	height: 380px;
 	border-radius: 20px;
@@ -57,41 +73,40 @@ body {
 
 /* ================= CENTER ================= */
 .card.center {
-	transform: translateX(0) scale(1.1);
+	transform: translate(-50%, -50%) scale(1.15);
 	z-index: 10;
 }
 
-/* ================= LEFT SIDE ================= */
+/* ================= LEFT ================= */
 .card.left-1 {
-	transform: translateX(-200px) scale(0.9);
+	transform: translate(-50%, -50%) translateX(-200px) scale(0.9);
 	z-index: 5;
 	opacity: 0.9;
 	filter: grayscale(100%);
 }
 
 .card.left-2 {
-	transform: translateX(-400px) scale(0.8);
+	transform: translate(-50%, -50%) translateX(-400px) scale(0.8);
 	z-index: 1;
 	opacity: 0.6;
 	filter: grayscale(100%);
 }
 
-/* ================= RIGHT SIDE ================= */
+/* ================= RIGHT ================= */
 .card.right-1 {
-	transform: translateX(200px) scale(0.9);
+	transform: translate(-50%, -50%) translateX(200px) scale(0.9);
 	z-index: 5;
 	opacity: 0.9;
 	filter: grayscale(100%);
 }
 
 .card.right-2 {
-	transform: translateX(400px) scale(0.8);
+	transform: translate(-50%, -50%) translateX(400px) scale(0.8);
 	z-index: 1;
 	opacity: 0.6;
 	filter: grayscale(100%);
 }
 
-/* ================= HIDDEN ================= */
 .card.hidden {
 	opacity: 0;
 	pointer-events: none;
@@ -99,21 +114,18 @@ body {
 
 /* ================= INFO ================= */
 .recipe-info {
-	text-align: center;
-	margin-top: 30px;
-	transition: 0.4s ease;
+	margin-top: 20px;
 }
 
 .hero-recipe-title {
 	font-size: 2.5rem;
-	font-weight: bold;
 	color: #0b2a7b;
 }
 
 .recipe-meta {
 	font-size: 1.2rem;
 	color: #777;
-	margin-top: 8px;
+	margin-top: 5px;
 }
 
 /* ================= DOTS ================= */
@@ -130,7 +142,6 @@ body {
 	border-radius: 50%;
 	background: rgba(0,0,0,0.2);
 	cursor: pointer;
-	transition: 0.3s;
 }
 
 .dot.active {
@@ -155,26 +166,27 @@ body {
 }
 
 .nav-arrow.left {
-	left: 10px;
+	left: 20px;
 }
 
 .nav-arrow.right {
-	right: 10px;
+	right: 20px;
 }
 
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
+
+	.about-title {
+		font-size: 3.5rem;
+	}
+
 	.card {
 		width: 200px;
 		height: 280px;
 	}
 
-	.card.left-1 { transform: translateX(-120px) scale(0.9); }
-	.card.left-2 { transform: translateX(-240px) scale(0.8); }
-	.card.right-1 { transform: translateX(120px) scale(0.9); }
-	.card.right-2 { transform: translateX(240px) scale(0.8); }
-
-	.hero-recipe-title {
-		font-size: 2rem;
-	}
+	.card.left-1 { transform: translate(-50%, -50%) translateX(-120px) scale(0.9); }
+	.card.left-2 { transform: translate(-50%, -50%) translateX(-240px) scale(0.8); }
+	.card.right-1 { transform: translate(-50%, -50%) translateX(120px) scale(0.9); }
+	.card.right-2 { transform: translate(-50%, -50%) translateX(240px) scale(0.8); }
 }
