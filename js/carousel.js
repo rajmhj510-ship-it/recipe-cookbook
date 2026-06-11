@@ -16,7 +16,7 @@ let cards = [];
 
 /* ================= AUTO SLIDE CONTROL ================= */
 let autoSlideTimer = null;
-const AUTO_TIME = 15000;
+const AUTO_TIME = 5000; // 5 seconds (change this value)
 
 /* ================= LOAD JSON ================= */
 fetch("data/index.json")
