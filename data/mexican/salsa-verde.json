@@ -1,0 +1,65 @@
+{
+  "id": 603,
+  "title": "Salsa Verde (Green Sauce)",
+  "category": "Mexican",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/salsa-verde.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (serves 6–8)",
+      "items": [
+        "1 lb tomatillos, husked and rinsed",
+        "2–3 serrano chiles (or jalapeños for milder heat)",
+        "1 small white onion, quartered",
+        "2–3 garlic cloves, peeled",
+        "1/2 cup fresh cilantro, packed",
+        "1 tsp sea salt, adjust to taste",
+        "1/2 tsp ground black pepper",
+        "1 tsp sugar (optional, balances acidity)",
+        "1–2 tbsp fresh lime juice",
+        "2–3 tbsp neutral oil (vegetable or avocado), optional for silky texture"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Roast or Boil the Tomatillos & Chilies",
+      "steps": [
+        "Roasting: Cook tomatillos, chiles, onion, and garlic on a hot skillet until lightly charred (5–8 min per side).",
+        "Boiling: Boil tomatillos and chilies for 8–10 minutes until softened."
+      ]
+    },
+    {
+      "title": "Blend the Sauce",
+      "steps": [
+        "Add tomatillos, chiles, onion, garlic, cilantro, salt, and pepper to blender.",
+        "Blend until smooth and adjust seasoning with lime juice or sugar."
+      ]
+    },
+    {
+      "title": "Refine Texture (Optional)",
+      "steps": [
+        "Strain through fine mesh sieve for smooth texture.",
+        "Whisk in oil slowly for a richer, silky sauce."
+      ]
+    },
+    {
+      "title": "Serve or Store",
+      "steps": [
+        "Serve with tacos, eggs, or grilled meats.",
+        "Store in fridge up to 5 days or freeze up to 2 months."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Choose firm, bright green tomatillos for best flavor.",
+    "Roasting reduces acidity and adds depth.",
+    "Serrano chiles increase heat; remove seeds for milder version.",
+    "Add cilantro at the end to preserve color and freshness.",
+    "Oil makes the sauce more restaurant-style and smooth."
+  ]
+}
