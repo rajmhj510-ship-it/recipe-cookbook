@@ -82,7 +82,7 @@
     },
   {
     "id": 402,
-    "title": "Ven Pongal (Rice & Lentil Porridge)",
+    "title": "Ven Pongal",
     "category": "Indian",
     "file": "data/indian/ven-pongal.json",
     "image": "assets/images/indian/ven-pongal.png",
@@ -91,7 +91,7 @@
       },
   {
     "id": 403,
-    "title": "Puri (Deep-Fried Bread)",
+    "title": "Puri",
     "category": "Indian",
     "file": "data/indian/puri.json",
     "image": "assets/images/indian/puri.png",
@@ -118,7 +118,7 @@
      },
   {
     "id": 602,
-    "title": "Salsa Roja (Red Salsa)",
+    "title": "Salsa Roja",
     "category": "Mexican",
     "file": "data/mexican/salsa-roja.json",
     "image": "assets/images/mexican/salsa-roja.png",
@@ -127,7 +127,7 @@
     },
   {
   "id": 603,
-  "title": "Salsa Verde (Green Sauce)",
+  "title": "Salsa Verde",
   "category": "Mexican",
   "file": "data/mexican/salsa-verde.json",
   "image": "assets/images/mexican/salsa-verde.png",
@@ -145,7 +145,7 @@
 },
   {
   "id": 605,
-  "title": "Mexican Sour Cream (Crema Mexicana)",
+  "title": "Mexican Sour Cream",
   "category": "Mexican",
   "file": "data/mexican/sour-cream.json",
   "image": "assets/images/mexican/sour-cream.png",
@@ -154,7 +154,7 @@
 },
   {
     "id": 701,
-    "title": "Jhol Mo:Mo (Soup MO:MO)",
+    "title": "Jhol Mo:Mo",
     "category": "Nepali",
     "file": "data/nepali/jhol-momo.json",
     "image": "assets/images/nepali/jhol-momo.png",
