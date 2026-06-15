@@ -1,0 +1,81 @@
+{
+  "id": 206,
+  "title": "Hot Garlic Sauce",
+  "category": "Chinese",
+  "time": "",
+  "difficulty": "",
+  "image": "assets/images/chinese/hot-garlic-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (makes ~1 cup / 240 ml)",
+      "items": [
+        "6–8 cloves garlic, finely minced",
+        "3 tablespoons vegetable oil (or neutral oil like canola)",
+        "2–3 fresh red chilies, finely minced (adjust to heat preference)",
+        "2 tablespoons chili paste (optional, for deeper heat)",
+        "2 tablespoons soy sauce (light soy for color and umami)",
+        "1 tablespoon rice vinegar (or Chinese black vinegar)",
+        "1 teaspoon sugar",
+        "½ teaspoon salt (adjust to taste)",
+        "¼ cup chicken or vegetable stock (or water)",
+        "1 teaspoon cornstarch + 1 tablespoon water (slurry)",
+        "½ teaspoon sesame oil (for finishing)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare aromatics",
+      "steps": [
+        "Finely mince garlic and chilies for smooth texture and strong aroma."
+      ]
+    },
+    {
+      "title": "Heat oil",
+      "steps": [
+        "Heat oil in a wok or pan over medium-low heat.",
+        "Add garlic and chilies.",
+        "Stir for 30–45 seconds until fragrant but not browned."
+      ]
+    },
+    {
+      "title": "Add liquids",
+      "steps": [
+        "Add soy sauce, vinegar, stock, and sugar.",
+        "Stir and bring to a gentle simmer."
+      ]
+    },
+    {
+      "title": "Thicken sauce",
+      "steps": [
+        "Mix cornstarch with water to make slurry.",
+        "Slowly add into simmering sauce.",
+        "Cook 1–2 minutes until slightly thickened."
+      ]
+    },
+    {
+      "title": "Finish",
+      "steps": [
+        "Add sesame oil.",
+        "Adjust salt or sugar to taste.",
+        "Remove from heat."
+      ]
+    },
+    {
+      "title": "Cool & store",
+      "steps": [
+        "Use immediately or store in a sealed jar.",
+        "Keeps refrigerated for up to 1 week."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Avoid browning garlic — it becomes bitter.",
+    "Mix fresh chilies + chili paste for better depth of heat.",
+    "Add MSG (optional) for restaurant-style umami boost.",
+    "Works great as stir-fry sauce or dumpling dip."
+  ]
+}
