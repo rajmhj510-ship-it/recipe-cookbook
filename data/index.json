@@ -99,6 +99,15 @@
     "difficulty": "Medium"
   },
   {
+    "id": 209,
+    "title": "Mantou (Chinese Steamed Buns)",
+    "category": "Chinese",
+    "file": "data/chinese/mantou.json", 
+    "image": "assets/images/chinese/mantou.png",
+    "time": "30 min",
+    "difficulty": "Medium"
+  },
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
