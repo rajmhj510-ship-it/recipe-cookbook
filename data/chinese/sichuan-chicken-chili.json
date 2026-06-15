@@ -2,26 +2,26 @@
   "id": 207,
   "title": "Sichuan Chicken Chili",
   "category": "Chinese",
-  "time": "30–45 min",
+  "time": "20–30 min + 10–15 min",
   "difficulty": "",
   "image": "assets/images/chinese/sichuan-chicken-chili.png",
 
   "ingredients": [
     {
-      "title": "For the Chicken",
+      "title": "For the Chicken:",
       "items": [
-        "250g boneless chicken thigh, cut into 1.5 cm cubes",
+        "250g boneless chicken thigh (preferably skin-on), cut into 1.5 cm cubes",
         "1/2 tbsp Shaoxing wine",
         "1/2 tsp light soy sauce",
         "1/4 tsp salt",
         "1/4 tsp white pepper",
-        "1/2 egg white (or 1 small egg white)",
+        "1/2 egg white (or 1 whole small egg white)",
         "1 tsp cornstarch",
-        "Neutral oil for deep-frying (about 300ml)"
+        "Neutral oil for deep-frying (about 300ml, depending on pan size)"
       ]
     },
     {
-      "title": "Aromatics & Chilies",
+      "title": "Aromatics & Chilies:",
       "items": [
         "1 cup dried Chinese red chilies, deseeded and halved",
         "1/2 tsp Sichuan peppercorns",
@@ -32,55 +32,48 @@
       ]
     },
     {
-      "title": "Optional Final Seasoning",
+      "title": "Optional Seasoning (Final Toss):",
       "items": [
-        "Tiny pinch of sugar",
-        "Few drops of sesame oil (optional)",
-        "Salt to taste"
+        "Tiny pinch of sugar (for balance)",
+        "Optional: few drops of sesame oil",
+        "Salt to taste (taste before adding!)"
       ]
     }
   ],
 
   "instruction": [
     {
-      "title": "Marinate the Chicken",
+      "title": "Marinate the Chicken:",
       "steps": [
-        "Mix chicken with Shaoxing wine, soy sauce, salt, pepper, egg white, and cornstarch.",
-        "Stir well until evenly coated.",
-        "Let it rest for 20 minutes."
+        "In a bowl, combine chicken with Shaoxing wine, soy sauce, salt, pepper, egg white, and cornstarch.",
+        "Mix until evenly coated. Let sit for 20 minutes."
       ]
     },
     {
-      "title": "Fry the Chicken",
+      "title": "Fry the Chicken:",
       "steps": [
-        "Heat oil to 180°C (350°F).",
-        "Deep-fry chicken in batches for 2–3 minutes until golden and crisp.",
-        "Drain on paper towels or a rack."
+        "Heat oil to 180°C (350°F) in a wok or saucepan.",
+        "Fry the chicken in small batches for 2–3 minutes, until golden and just crisp.",
+        "Drain on paper towels or a wire rack."
       ]
     },
     {
-      "title": "Stir-Fry Aromatics",
+      "title": "Prepare Final Stir-Fry:",
       "steps": [
-        "Keep 2 tbsp oil in wok, remove excess.",
-        "Fry Sichuan peppercorns for 15 seconds.",
-        "Add dried chilies and stir-fry for 20–30 seconds.",
-        "Add ginger, garlic, and scallions until fragrant."
-      ]
-    },
-    {
-      "title": "Combine",
-      "steps": [
-        "Add fried chicken back into the wok.",
-        "Stir-fry on high heat for 1–2 minutes.",
-        "Adjust salt and add optional sugar or sesame oil."
+        "Pour out excess oil, keeping 2 tbsp in the wok.",
+        "On medium heat, add Sichuan peppercorns and fry for 15 seconds until fragrant.",
+        "Add dried chilies, stir-fry until slightly puffed but not burned (20–30 seconds).",
+        "Add ginger, garlic, and scallion. Stir until aromatic.",
+        "Add the fried chicken and stir-fry over high heat for 1–2 minutes to combine flavors.",
+        "Taste and adjust salt. Optionally add a pinch of sugar and few drops sesame oil."
       ]
     }
   ],
 
   "chefTips": [
-    "Do not burn dried chilies — they turn bitter quickly.",
-    "Sichuan peppercorn gives the signature numbing sensation.",
-    "Double frying chicken improves crispiness.",
-    "Traditionally, chilies are not eaten — only used for aroma."
+    "-----------Serving Suggestions-----------",
+    "Serve immediately on a hot plate.",
+    "Not all chilies are meant to be eaten — traditionally, you pick the chicken out from the chili bed.",
+    "Best with steamed white rice or Sichuan-style cold noodles."
   ]
 }
