@@ -1,0 +1,92 @@
+{
+  "id": 209,
+  "title": "Mantou (Chinese Steamed Buns)",
+  "category": "Chinese",
+  "time": "",
+  "difficulty": "",
+  "image": "assets/images/chinese/mantou.png",
+
+  "ingredients": [
+    {
+      "title": "For the Dough:",
+      "items": [
+        "500g all-purpose flour (or 00 flour for a softer texture)",
+        "250ml warm water (approx. 38–40°C)",
+        "50g granulated sugar",
+        "7g instant yeast (1 packet)",
+        "5g salt",
+        "20ml vegetable oil (optional, for softer texture)"
+      ]
+    },
+    {
+      "title": "For the Topping (Optional):",
+      "items": [
+        "1 tbsp milk or water (for brushing)",
+        "Sesame seeds (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Activating the Yeast",
+      "steps": [
+        "Mix warm water and sugar in a bowl until dissolved.",
+        "Sprinkle yeast over the surface. Let it sit 5–10 minutes until frothy."
+      ]
+    },
+    {
+      "title": "Making the Dough",
+      "steps": [
+        "In a large mixing bowl, combine flour and salt.",
+        "Gradually add the yeast mixture while stirring with a wooden spoon or dough hook.",
+        "Knead the dough for 10–12 minutes (or 6–8 min in a stand mixer) until smooth and elastic.",
+        "Incorporate oil, kneading until fully absorbed."
+      ]
+    },
+    {
+      "title": "First Proof",
+      "steps": [
+        "Form the dough into a ball, place in a lightly oiled bowl, and cover with a damp cloth.",
+        "Let it rise in a warm place for 1–1.5 hours, or until doubled in size."
+      ]
+    },
+    {
+      "title": "Shaping the Mantou",
+      "steps": [
+        "Punch down the dough and turn it onto a lightly floured surface.",
+        "Roll into a log (~30 cm) and cut into 12 equal pieces.",
+        "Shape each piece into a smooth bun: tuck edges underneath and roll gently."
+      ]
+    },
+    {
+      "title": "Second Proof",
+      "steps": [
+        "Place buns on parchment squares in a bamboo steamer or metal steamer tray.",
+        "Cover with a cloth and let rise 30–40 minutes until puffy."
+      ]
+    },
+    {
+      "title": "Steaming",
+      "steps": [
+        "Bring water in a steamer pot to a rolling boil.",
+        "Steam buns over medium-high heat for 12–15 minutes.",
+        "Turn off heat and let buns sit for 3–5 minutes before removing the lid (prevents collapse)."
+      ]
+    },
+    {
+      "title": "Serving",
+      "steps": [
+        "Optionally brush with milk or water and sprinkle sesame seeds.",
+        "Serve warm, plain, or with sweet/savory fillings."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "For extra fluffy buns, replace 50g of water with milk.",
+    "Smooth buns create a cloud-like appearance; avoid cracks.",
+    "Do not overcrowd the steamer; buns expand during cooking.",
+    "Add condensed milk or pumpkin puree for flavor variations."
+  ]
+}
