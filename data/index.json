@@ -63,6 +63,15 @@
     "difficulty": "Medium"
   },
   {
+    "id": 205,
+    "title": "Hot Chili Sauce (Làjiāo Jiàng)",
+    "category": "Chinese",
+    "file": "data/chinese/hot-chili-sauce.json",
+    "image": "assets/images/chinese/hot-chili-sauce.png",
+    "time": "30 min",
+    "difficulty": "Medium",
+  },
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
