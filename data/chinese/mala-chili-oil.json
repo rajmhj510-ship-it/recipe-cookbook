@@ -1,0 +1,85 @@
+{
+  "id": 901,
+  "title": "Mala Chili Oil - Sichuan Style",
+  "category": "Chinese",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/chinese/mala-chili-oil.png",
+
+  "ingredients": [
+    {
+      "title": "Chili Oil Base",
+      "items": [
+        "1 cup neutral oil (peanut, vegetable, or grapeseed)",
+        "1/3 cup Chinese chili flakes (coarse Sichuan-style preferred)",
+        "2 tbsp Sichuan peppercorns (lightly toasted)",
+        "1 star anise",
+        "1 small cinnamon stick",
+        "2–3 dried bay leaves",
+        "3–4 cloves garlic, smashed",
+        "1-inch piece fresh ginger, sliced",
+        "2 shallots, thinly sliced",
+        "1 tsp sugar",
+        "1 tsp salt",
+        "1 tsp toasted sesame seeds (optional)"
+      ]
+    },
+    {
+      "title": "Optional Enhancers",
+      "items": [
+        "1 small dried red chili (for aroma)",
+        "1 tsp MSG (optional)",
+        "1 tsp roasted peanuts or fried garlic (garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Toast Sichuan Peppercorns",
+      "steps": [
+        "Lightly toast peppercorns in a dry skillet for 1–2 minutes until aromatic.",
+        "Do not burn. Crush lightly using mortar or spice grinder."
+      ]
+    },
+    {
+      "title": "Infuse the Oil",
+      "steps": [
+        "Add oil, garlic, ginger, shallots, star anise, cinnamon, bay leaves, and dried chili to a saucepan.",
+        "Heat slowly over low-medium heat for 10–15 minutes.",
+        "Aromatics should gently sizzle, not burn."
+      ]
+    },
+    {
+      "title": "Prepare Chili Mixture",
+      "steps": [
+        "In a heatproof bowl, add chili flakes, crushed peppercorns, sugar, salt, and sesame seeds.",
+        "Mix well."
+      ]
+    },
+    {
+      "title": "Pour Hot Oil",
+      "steps": [
+        "Remove aromatics if desired.",
+        "Heat oil to 135–150°C (275–300°F).",
+        "Carefully pour over chili mixture until it sizzles."
+      ]
+    },
+    {
+      "title": "Cool & Store",
+      "steps": [
+        "Let oil cool completely.",
+        "Transfer to a clean jar.",
+        "Rest for 24 hours for best flavor.",
+        "Store up to 1 month in refrigerator."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use a mix of coarse and fine chili flakes for depth of heat.",
+    "Adjust Sichuan peppercorn quantity for numbing effect.",
+    "Fried garlic or shallots increase aroma significantly.",
+    "A tiny drizzle of sesame oil enhances fragrance."
+  ]
+}
