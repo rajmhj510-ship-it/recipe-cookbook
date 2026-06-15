@@ -1,0 +1,90 @@
+{
+  "id": 210,
+  "title": "Spring Rolls",
+  "category": "Chinese",
+  "time": "",
+  "difficulty": "",
+  "image": "assets/images/chinese/spring-rolls.png",
+
+  "ingredients": [
+    {
+      "title": "For the Wrappers:",
+      "items": [
+        "2 cups all-purpose flour",
+        "½ cup water (adjust as needed)",
+        "¼ tsp salt",
+        "1 tsp vegetable oil",
+        "Alternatively, use store-bought spring roll wrappers for convenience"
+      ]
+    },
+    {
+      "title": "For the Filling:",
+      "items": [
+        "200g ground pork or chicken (optional for vegetarian: use tofu or mushrooms)",
+        "1 cup shredded cabbage (Napa cabbage preferred)",
+        "½ cup shredded carrots",
+        "½ cup bean sprouts",
+        "2-3 shiitake mushrooms, thinly sliced",
+        "2 garlic cloves, minced",
+        "1 tsp fresh ginger, minced",
+        "2 green onions, finely chopped",
+        "2 tsp soy sauce",
+        "1 tsp oyster sauce (or vegetarian mushroom sauce)",
+        "½ tsp sesame oil",
+        "¼ tsp white pepper",
+        "1 tsp cornstarch (for binding)"
+      ]
+    },
+    {
+      "title": "For Frying:",
+      "items": [
+        "Vegetable oil (enough for deep frying)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Wrappers (if making from scratch):",
+      "steps": [
+        "Mix flour, salt, and water to form a smooth, pliable dough.",
+        "Knead for 5–8 minutes until elastic. Cover with damp cloth and rest 30 minutes.",
+        "Divide dough into small balls (~1.5 inches). Roll each into thin circles or squares (1–2 mm thick)."
+      ]
+    },
+    {
+      "title": "Make the Filling:",
+      "steps": [
+        "Heat 1 tsp oil in a pan over medium heat.",
+        "Add garlic, ginger, and green onions; sauté until fragrant.",
+        "Add meat (if using) and cook until browned.",
+        "Add cabbage, carrots, mushrooms, and bean sprouts; stir-fry 2–3 minutes until slightly tender but still crisp.",
+        "Season with soy sauce, oyster sauce, sesame oil, and white pepper.",
+        "Sprinkle cornstarch over mixture, stir well, then remove from heat and cool completely."
+      ]
+    },
+    {
+      "title": "Assemble the Spring Rolls:",
+      "steps": [
+        "Place 2 tablespoons of filling near the corner of a wrapper.",
+        "Fold the corner over filling, fold the sides in, then roll tightly.",
+        "Seal edge with a dab of water or beaten egg."
+      ]
+    },
+    {
+      "title": "Fry the Spring Rolls:",
+      "steps": [
+        "Heat oil to 180°C (350°F).",
+        "Fry spring rolls in batches until golden brown and crispy, about 3–5 minutes.",
+        "Drain on paper towels."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Double-fry for extra crispiness: fry once lightly, cool, then fry again until golden.",
+    "Don’t overfill wrappers to ensure tight rolling and even cooking.",
+    "Add Chinese rice wine or fish sauce for deeper umami flavor.",
+    "Serve immediately with sweet chili sauce, plum sauce, or soy-vinegar dip."
+  ]
+}
