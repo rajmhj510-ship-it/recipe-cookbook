@@ -11,7 +11,7 @@
 
 <body>
 
-<!-- ================= HERO (CAROUSEL - UNCHANGED) ================= -->
+<!-- ================= HERO ================= -->
 <section id="hero">
 
   <h1 class="about-title">COOK LIKE A CHEF</h1>
@@ -34,10 +34,9 @@
 <!-- ================= EXPLORE ================= -->
 <section id="explore">
 
-  <!-- STICKY CONTAINER (SEARCH + FILTERS + HEADER) -->
-  <div class="sticky-controls">
+  <!-- 🔥 SINGLE STICKY BLOCK -->
+  <div class="sticky-block">
 
-    <!-- HEADER -->
     <div class="explore-header">
       <div class="brand-small">
         <img src="logo.png" class="logo" alt="logo">
@@ -45,12 +44,10 @@
       </div>
     </div>
 
-    <!-- SEARCH -->
     <div class="search-wrapper">
       <input type="text" id="searchInput" placeholder="Search recipes..." />
     </div>
 
-    <!-- FILTERS -->
     <div class="filters">
       <button class="active" data-cat="all">All</button>
       <button data-cat="Arabic">Arabic</button>
@@ -65,12 +62,11 @@
 
   </div>
 
-  <!-- SCROLLABLE CONTENT -->
+  <!-- SCROLL AREA -->
   <div id="recipeList"></div>
 
 </section>
 
-<!-- ================= SCRIPTS ================= -->
 <script src="js/carousel.js"></script>
 <script src="js/home.js"></script>
 
