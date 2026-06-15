@@ -1,4 +1,3 @@
-
 /* ================= GLOBAL ================= */
 
 html {
@@ -26,7 +25,7 @@ html, body {
 	scroll-snap-align: start;
 }
 
-/* ================= HERO (UNCHANGED) ================= */
+/* ================= HERO ================= */
 
 #hero {
 	min-height: 100vh;
@@ -79,7 +78,7 @@ html, body {
 	font-size: 22px;
 }
 
-/* ================= CARDS (UNCHANGED) ================= */
+/* ================= CARDS ================= */
 
 .card {
 	position: absolute;
@@ -125,20 +124,32 @@ html, body {
 
 #explore {
 	min-height: 100vh;
-	background: white;
+	background: #f5f5f5;
 }
 
-/* ================= SEARCH (STICKY FIX) ================= */
+/* ================= STICKY HEADER BLOCK ================= */
 
-.search-wrapper {
+/* LOGO HEADER */
+.explore-header {
 	position: sticky;
 	top: 0;
-	z-index: 1000;
-	background: white;
-	padding: 10px 20px;
-	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	z-index: 1003;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 20px;
+	background: #f5f5f5;
+}
+
+/* SEARCH BAR */
+.search-wrapper {
+	position: sticky;
+	top: 70px;
+	z-index: 1002;
 	display: flex;
 	justify-content: center;
+	padding: 10px 20px;
+	background: #f5f5f5;
 }
 
 .search-wrapper input {
@@ -149,19 +160,17 @@ html, body {
 	border-radius: 10px;
 }
 
-/* ================= FILTERS (STICKY BELOW SEARCH) ================= */
-
+/* FILTERS */
 .filters {
 	position: sticky;
-	top: 70px; /* keeps it under search bar */
-	z-index: 999;
-	background: white;
+	top: 130px;
+	z-index: 1001;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 10px;
-	padding: 15px;
+	padding: 15px 20px;
 	justify-content: center;
-	box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+	background: #f5f5f5;
 }
 
 .filters button {
@@ -177,28 +186,6 @@ html, body {
 	color: white;
 }
 
-/* ================= HEADER ================= */
-
-.explore-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px;
-}
-
-/* ================= BRAND ================= */
-
-.brand-small {
-	display: flex;
-	align-items: center;
-	gap: 8px;
-}
-
-.logo {
-	width: 45px;
-	height: 45px;
-}
-
 /* ================= GRID ================= */
 
 #recipeList {
@@ -208,7 +195,7 @@ html, body {
 	padding: 20px;
 }
 
-/* ================= EXPLORE CARD ================= */
+/* ================= CARD ================= */
 
 .explore-card {
 	background: white;
@@ -254,9 +241,5 @@ html, body {
 	.card {
 		width: 180px;
 		height: 260px;
-	}
-
-	.filters {
-		top: 65px;
 	}
 }
