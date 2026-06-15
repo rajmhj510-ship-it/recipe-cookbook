@@ -1,0 +1,82 @@
+{
+  "id": 211,
+  "title": "Bean Curd Soup (Doufu Tang) - Chinese Tofu Soup",
+  "category": "Chinese",
+  "time": "15 min + 25 min",
+  "difficulty": "",
+  "image": "assets/images/chinese/bean-curd-soup.png",
+
+  "ingredients": [
+    {
+      "title": "Soup Base",
+      "items": [
+        "6 cups chicken stock or vegetable stock (high quality, preferably homemade)",
+        "1 slice ginger (about 1/2 inch thick)",
+        "2 cloves garlic, smashed",
+        "1 small piece dried shiitake mushroom (optional, soak in warm water 20 min)",
+        "1 tsp light soy sauce",
+        "1/2 tsp sesame oil",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "Main Ingredients",
+      "items": [
+        "1 block soft or silken tofu (300–400 g), cut into 1-inch cubes",
+        "100 g fresh or frozen corn kernels (optional, adds sweetness)",
+        "50 g shiitake mushrooms, thinly sliced",
+        "1 small carrot, julienned or thinly sliced",
+        "1 spring onion, chopped",
+        "Fresh coriander (cilantro) for garnish"
+      ]
+    },
+    {
+      "title": "Optional Protein",
+      "items": [
+        "50–100 g cooked chicken, shrimp, or pork, shredded"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare Stock",
+      "steps": [
+        "In a pot, bring chicken or vegetable stock to a gentle simmer.",
+        "Add ginger, garlic, and dried shiitake mushroom. Simmer for 10–15 minutes to infuse flavors.",
+        "Remove ginger, garlic, and dried mushroom (or leave for stronger flavor)."
+      ]
+    },
+    {
+      "title": "Add Vegetables and Tofu",
+      "steps": [
+        "Add sliced fresh mushrooms, carrots, and corn to the stock.",
+        "Gently add cubed tofu, being careful not to break it.",
+        "Simmer gently for 5–7 minutes, just until vegetables are tender."
+      ]
+    },
+    {
+      "title": "Season",
+      "steps": [
+        "Add light soy sauce, sesame oil, and salt to taste.",
+        "If using protein, add cooked shrimp, chicken, or pork at this stage to warm through."
+      ]
+    },
+    {
+      "title": "Finish & Garnish",
+      "steps": [
+        "Turn off the heat and stir in chopped spring onions.",
+        "Serve hot, garnished with fresh coriander.",
+        "Optional: drizzle a tiny drop of sesame oil for aroma before serving."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use high-quality stock – it’s the backbone of the soup.",
+    "Silken tofu gives a silky, luxurious texture; medium-firm works if you prefer more bite.",
+    "Gentle simmering is key – avoid boiling after adding tofu to prevent breaking.",
+    "Layer flavors: ginger, garlic, mushrooms, and a hint of soy create depth without overpowering tofu.",
+    "For presentation, arrange vegetables and tofu evenly and add herbs just before serving."
+  ]
+}
