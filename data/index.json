@@ -54,6 +54,15 @@
     "difficulty": "Medium"
   },
   {
+    "id": 204,
+    "title": "Mala Chili Oil",
+    "category": "Chinese",
+    "file": "data/chinese/mala-chili-oil.json",
+    "image": "assets/images/chinese/mala-chili-oil.png",
+    "time": "30 min",
+    "difficulty": "Medium"
+  },
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
