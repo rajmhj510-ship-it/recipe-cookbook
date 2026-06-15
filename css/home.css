@@ -26,9 +26,11 @@ body {
 }
 
 .about-title {
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 900;
 	color: rgba(8, 42, 123, 0.25);
+	line-height: 1;
+	margin: 0;
 }
 
 /* ================= CAROUSEL ================= */
