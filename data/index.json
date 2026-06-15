@@ -89,6 +89,15 @@
     "time": "30 min",
     "difficulty": "Medium"
   },
+    {
+    "id": 208,
+    "title": "Thenthuk (Tibetan soup)",
+    "category": "Chinese",
+    "file": "data/chinese/thenthuk.json", 
+    "image": "assets/images/chinese/thenthuk.png",
+    "time": "30 min",
+    "difficulty": "Medium"
+  },
   {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
