@@ -1,0 +1,89 @@
+{
+  "id": 205,
+  "title": "Hot Chili Sauce (Làjiāo Jiàng)",
+  "category": "Chinese",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/chinese/hot-chili-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "Main Base",
+      "items": [
+        "150 g dried red chilies (Sichuan facing-heaven + Thai bird’s eye mix)",
+        "4 fresh red chilies (optional)",
+        "150 ml neutral oil (peanut or canola)"
+      ]
+    },
+    {
+      "title": "Aromatics",
+      "items": [
+        "8 cloves garlic, minced",
+        "1 thumb ginger, finely minced",
+        "3 scallions (white parts only), minced"
+      ]
+    },
+    {
+      "title": "Seasoning & Umami",
+      "items": [
+        "2 tbsp fermented black beans (douchi)",
+        "2 tbsp doubanjiang (Pixian chili paste)",
+        "1 tbsp Shaoxing wine",
+        "1 tsp Sichuan peppercorns, toasted & ground",
+        "1 tbsp soy sauce",
+        "1 tsp sugar",
+        "½ tsp salt",
+        "Optional: 1 tsp MSG"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Prep the Chilies",
+      "steps": [
+        "Break dried chilies and remove some seeds for controlled heat.",
+        "Soak in hot water for 20 minutes, then drain.",
+        "Blend into a coarse chili paste."
+      ]
+    },
+    {
+      "title": "Step 2: Infuse the Oil",
+      "steps": [
+        "Heat oil on low-medium heat.",
+        "Add garlic, ginger, and scallions.",
+        "Cook until fragrant, then remove aromatics from oil."
+      ]
+    },
+    {
+      "title": "Step 3: Cook Chili Paste",
+      "steps": [
+        "Carefully add chili paste into hot oil (it may splatter).",
+        "Stir continuously until oil turns deep red (5–7 min)."
+      ]
+    },
+    {
+      "title": "Step 4: Build Flavor",
+      "steps": [
+        "Add doubanjiang and fermented black beans.",
+        "Stir in Shaoxing wine, soy sauce, sugar, salt, and Sichuan peppercorns.",
+        "Simmer on low heat for 10 minutes."
+      ]
+    },
+    {
+      "title": "Step 5: Finish & Store",
+      "steps": [
+        "Let cool completely.",
+        "Store in a clean glass jar covered with oil.",
+        "Rest for 24 hours for best flavor."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use enough oil to fully preserve and mellow the chili paste.",
+    "Pixian doubanjiang gives authentic Sichuan depth.",
+    "Flavor improves significantly after 1 day resting.",
+    "Do not burn aromatics during oil infusion."
+  ]
+}
