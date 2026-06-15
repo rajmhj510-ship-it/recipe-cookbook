@@ -1,0 +1,89 @@
+{
+  "id": 208,
+  "title": "Thenthuk (Tibetan Soup)",
+  "category": "Tibetan",
+  "time": "",
+  "difficulty": "",
+  "image": "assets/images/tibetan/thenthuk.png",
+
+  "ingredients": [
+    {
+      "title": "For the Dough:",
+      "items": [
+        "2 cups all-purpose flour",
+        "¾ cup water (adjust as needed)",
+        "½ tsp salt",
+        "1 tsp sesame oil"
+      ]
+    },
+    {
+      "title": "For the Broth:",
+      "items": [
+        "6 cups chicken or vegetable stock (preferably homemade)",
+        "200g chicken breast or thigh, thinly sliced",
+        "100g shiitake or oyster mushrooms, sliced",
+        "1 medium carrot, julienned",
+        "1 cup Napa cabbage, thinly sliced",
+        "2 stalks spring onion, chopped",
+        "2 cloves garlic, minced",
+        "1-inch piece ginger, minced",
+        "1 tbsp soy sauce",
+        "1 tbsp Shaoxing wine (optional, for authentic depth)",
+        "1 tsp sesame oil",
+        "Salt & white pepper to taste"
+      ]
+    },
+    {
+      "title": "Optional Garnishes:",
+      "items": [
+        "Fresh cilantro or parsley",
+        "Chili oil or flakes",
+        "Crispy fried shallots"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Dough:",
+      "steps": [
+        "In a mixing bowl, combine flour and salt. Gradually add water while kneading until a smooth, elastic dough forms.",
+        "Cover with a damp cloth and let rest for 20–30 minutes."
+      ]
+    },
+    {
+      "title": "Prepare the Broth:",
+      "steps": [
+        "Heat a wok or deep pot with a little oil. Sauté garlic and ginger until fragrant.",
+        "Add chicken slices and cook until lightly golden.",
+        "Add mushrooms, carrot, and cabbage. Stir-fry for 2–3 minutes.",
+        "Pour in stock, soy sauce, and Shaoxing wine. Bring to a boil, then reduce heat and simmer for 10 minutes.",
+        "Adjust seasoning with salt, white pepper, and sesame oil."
+      ]
+    },
+    {
+      "title": "Make the Noodles:",
+      "steps": [
+        "Roll the dough into a log about 1 inch thick. Flatten slightly.",
+        "Using your hands, pinch off small portions and stretch/pull them directly into boiling broth (traditional 'hand-pulled' style). Alternatively, roll thin and cut into strips.",
+        "Cook noodles in the simmering broth for 3–5 minutes until tender."
+      ]
+    },
+    {
+      "title": "Finish & Serve:",
+      "steps": [
+        "Ladle the soup with noodles and chicken into bowls.",
+        "Garnish with spring onion, cilantro, and optional chili oil or fried shallots.",
+        "Serve piping hot."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use homemade chicken stock for deeper flavor.",
+    "Slightly undercook vegetables so they retain crunch.",
+    "Pull noodles directly into the broth for authentic texture.",
+    "A touch of sesame oil at the end elevates aroma.",
+    "Optional: Add soft-boiled egg or tofu for variation."
+  ]
+}
