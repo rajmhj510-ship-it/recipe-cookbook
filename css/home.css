@@ -1,3 +1,4 @@
+
 /* ================= GLOBAL ================= */
 
 html {
@@ -127,44 +128,17 @@ html, body {
 	background: white;
 }
 
-/* ================= STICKY CONTROLS (NEW ADDITION) ================= */
+/* ================= SEARCH (STICKY FIX) ================= */
 
-.sticky-controls {
+.search-wrapper {
 	position: sticky;
 	top: 0;
 	z-index: 1000;
 	background: white;
-	box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-}
-
-/* HEADER */
-
-.explore-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px;
-}
-
-/* BRAND */
-
-.brand-small {
-	display: flex;
-	align-items: center;
-	gap: 8px;
-}
-
-.logo {
-	width: 45px;
-	height: 45px;
-}
-
-/* ================= SEARCH ================= */
-
-.search-wrapper {
+	padding: 10px 20px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 	display: flex;
 	justify-content: center;
-	padding: 10px 20px;
 }
 
 .search-wrapper input {
@@ -175,14 +149,19 @@ html, body {
 	border-radius: 10px;
 }
 
-/* ================= FILTERS ================= */
+/* ================= FILTERS (STICKY BELOW SEARCH) ================= */
 
 .filters {
+	position: sticky;
+	top: 70px; /* keeps it under search bar */
+	z-index: 999;
+	background: white;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 10px;
-	padding: 20px;
+	padding: 15px;
 	justify-content: center;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 .filters button {
@@ -198,17 +177,35 @@ html, body {
 	color: white;
 }
 
-/* ================= ONLY RECIPE GRID SCROLLS ================= */
+/* ================= HEADER ================= */
+
+.explore-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+/* ================= BRAND ================= */
+
+.brand-small {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.logo {
+	width: 45px;
+	height: 45px;
+}
+
+/* ================= GRID ================= */
 
 #recipeList {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 	gap: 15px;
 	padding: 20px;
-
-	/* IMPORTANT */
-	height: calc(100vh - 220px);
-	overflow-y: auto;
 }
 
 /* ================= EXPLORE CARD ================= */
@@ -257,5 +254,9 @@ html, body {
 	.card {
 		width: 180px;
 		height: 260px;
+	}
+
+	.filters {
+		top: 65px;
 	}
 }
