@@ -1,0 +1,83 @@
+{
+  "id": 212,
+  "title": "Tomato Egg Drop Soup",
+  "category": "Chinese",
+  "time": "10 min + 15 min",
+  "difficulty": "",
+  "image": "assets/images/chinese/tomato-egg-drop-soup.png",
+
+  "ingredients": [
+    {
+      "title": "Soup Base",
+      "items": [
+        "4 medium ripe tomatoes, peeled and diced (or 3 large ones)",
+        "4 cups (1 liter) chicken stock (homemade preferred)",
+        "2 cloves garlic, finely minced",
+        "1 small piece ginger (about 1 inch), finely sliced",
+        "1 tsp sugar (optional, balances acidity)",
+        "1 tsp light soy sauce",
+        "½ tsp sesame oil",
+        "Salt, to taste",
+        "White pepper, to taste"
+      ]
+    },
+    {
+      "title": "Egg Drop",
+      "items": [
+        "3 large eggs, beaten lightly",
+        "1 tsp cornstarch + 1 tbsp water (optional, for silky texture)"
+      ]
+    },
+    {
+      "title": "Garnish",
+      "items": [
+        "2–3 spring onions, finely chopped",
+        "A few drops of sesame oil or chili oil (optional)",
+        "Fresh coriander (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Tomatoes",
+      "steps": [
+        "Blanch the tomatoes in boiling water for 30 seconds, then transfer to cold water to peel easily.",
+        "Dice the tomatoes into small, even pieces."
+      ]
+    },
+    {
+      "title": "Make the Soup Base",
+      "steps": [
+        "Heat a wok or saucepan over medium heat, add a teaspoon of oil.",
+        "Sauté the garlic and ginger until fragrant (about 30 seconds).",
+        "Add the diced tomatoes, sugar, and a pinch of salt. Cook until softened and juicy (3–4 minutes).",
+        "Pour in chicken stock, bring to a gentle boil, then simmer for 5–7 minutes.",
+        "Adjust seasoning with soy sauce, white pepper, and salt if needed."
+      ]
+    },
+    {
+      "title": "Prepare the Egg Drop",
+      "steps": [
+        "Lightly mix the beaten eggs.",
+        "Optional: Mix cornstarch with water and add to eggs for silkier texture.",
+        "Slowly pour egg mixture into simmering soup while stirring gently in one direction to form ribbons."
+      ]
+    },
+    {
+      "title": "Final Touches",
+      "steps": [
+        "Turn off heat and stir in sesame oil.",
+        "Serve hot, garnished with spring onions, coriander, or chili oil."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use ripe tomatoes for natural sweetness and better color.",
+    "Strain soup if you prefer a smoother texture.",
+    "Pour eggs slowly while stirring to create silky ribbons.",
+    "Adjust acidity with a pinch of sugar if tomatoes are too sour.",
+    "Homemade chicken stock significantly improves flavor."
+  ]
+}
