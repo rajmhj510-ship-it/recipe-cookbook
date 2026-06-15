@@ -52,6 +52,15 @@
     "image": "assets/images/chinese/chili-oil.png",
     "time": "40 min",
     "difficulty": "Medium"
+      },
+  {
+    "id": 204,
+    "title": "Mala Chili Oil-Sichuan-style",
+    "category": "Chinese",
+    "file": "data/chinese/mala-chili-oil.json",
+    "image": "assets/images/mala-chinese/chili-oil.png",
+    "time": "40 min",
+    "difficulty": "Medium"
   },
   {
     "id": 301,
