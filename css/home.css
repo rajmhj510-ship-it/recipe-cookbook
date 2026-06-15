@@ -13,18 +13,6 @@ body {
 	overflow-x: hidden;
 }
 
-/* ================= SCROLL SNAP ================= */
-
-html, body {
-	height: 100%;
-	scroll-snap-type: y mandatory;
-}
-
-#hero,
-#explore {
-	scroll-snap-align: start;
-}
-
 /* ================= HERO ================= */
 
 #hero {
@@ -127,29 +115,29 @@ html, body {
 	background: #f5f5f5;
 }
 
-/* ================= STICKY HEADER BLOCK ================= */
+/* ================= 🔥 SINGLE STICKY BLOCK ================= */
 
-/* LOGO HEADER */
-.explore-header {
+.sticky-block {
 	position: sticky;
 	top: 0;
-	z-index: 1003;
+	z-index: 1000;
+	background: #f5f5f5;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* HEADER */
+.explore-header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 15px 20px;
-	background: #f5f5f5;
+	padding: 15px 20px 5px;
 }
 
-/* SEARCH BAR */
+/* SEARCH */
 .search-wrapper {
-	position: sticky;
-	top: 70px;
-	z-index: 1002;
 	display: flex;
 	justify-content: center;
 	padding: 10px 20px;
-	background: #f5f5f5;
 }
 
 .search-wrapper input {
@@ -162,15 +150,11 @@ html, body {
 
 /* FILTERS */
 .filters {
-	position: sticky;
-	top: 130px;
-	z-index: 1001;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 10px;
-	padding: 15px 20px;
+	padding: 10px 20px 15px;
 	justify-content: center;
-	background: #f5f5f5;
 }
 
 .filters button {
@@ -195,7 +179,7 @@ html, body {
 	padding: 20px;
 }
 
-/* ================= CARD ================= */
+/* ================= CARDS ================= */
 
 .explore-card {
 	background: white;
