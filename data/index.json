@@ -54,6 +54,14 @@
     "difficulty": "Medium"
   },
   {
+  "id": 204,
+  "title": "Mala Chili Oil - Sichuan Style",
+  "category": "Chinese",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/chinese/mala-chili-oil.png",
+  },
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
