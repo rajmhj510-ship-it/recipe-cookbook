@@ -11,7 +11,7 @@
 
 <body>
 
-<!-- ================= HERO (UNCHANGED CAROUSEL) ================= -->
+<!-- ================= HERO (CAROUSEL - UNCHANGED) ================= -->
 <section id="hero">
 
   <h1 class="about-title">COOK LIKE A CHEF</h1>
@@ -34,32 +34,38 @@
 <!-- ================= EXPLORE ================= -->
 <section id="explore">
 
-  <div class="explore-header">
-    <div class="brand-small">
-      <img src="logo.png" class="logo" alt="logo">
-      <h2>Recipes</h2>
+  <!-- STICKY CONTAINER (SEARCH + FILTERS + HEADER) -->
+  <div class="sticky-controls">
+
+    <!-- HEADER -->
+    <div class="explore-header">
+      <div class="brand-small">
+        <img src="logo.png" class="logo" alt="logo">
+        <h2>Recipes</h2>
+      </div>
     </div>
+
+    <!-- SEARCH -->
+    <div class="search-wrapper">
+      <input type="text" id="searchInput" placeholder="Search recipes..." />
+    </div>
+
+    <!-- FILTERS -->
+    <div class="filters">
+      <button class="active" data-cat="all">All</button>
+      <button data-cat="Arabic">Arabic</button>
+      <button data-cat="Chinese">Chinese</button>
+      <button data-cat="Indian">Indian</button>
+      <button data-cat="Continental">Continental</button>
+      <button data-cat="Mexican">Mexican</button>
+      <button data-cat="Nepali">Nepali</button>
+      <button data-cat="Thai">Thai</button>
+      <button data-cat="Italian">Italian</button>
+    </div>
+
   </div>
 
-  <!-- SEARCH -->
-  <div class="search-wrapper">
-    <input type="text" id="searchInput" placeholder="Search recipes..." />
-  </div>
-
-  <!-- CATEGORY FILTER -->
-  <div class="filters">
-    <button class="active" data-cat="all">All</button>
-    <button data-cat="Arabic">Arabic</button>
-    <button data-cat="Chinese">Chinese</button>
-    <button data-cat="Indian">Indian</button>
-    <button data-cat="Continental">Continental</button>
-    <button data-cat="Mexican">Mexican</button>
-    <button data-cat="Nepali">Nepali</button>
-    <button data-cat="Thai">Thai</button>
-    <button data-cat="Italian">Italian</button>
-  </div>
-
-  <!-- GRID -->
+  <!-- SCROLLABLE CONTENT -->
   <div id="recipeList"></div>
 
 </section>
