@@ -124,6 +124,15 @@
     "image": "assets/images/chinese/bean-curd-soup.png",
     "time": "15 min + 25 min",
     "difficulty": "Medium"
+        },
+    {
+    "id": 212,
+    "title": "Tomato Egg Drop Soup",
+    "category": "Chinese",
+    "file": "data/chinese/tomato-egg-drop-soup.json", 
+    "image": "assets/images/chinese/tomato-egg-drop-soup.png",
+    "time": "25 min",
+    "difficulty": "Medium"
   },
   {
     "id": 301,
