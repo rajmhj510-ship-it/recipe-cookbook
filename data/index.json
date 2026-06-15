@@ -66,7 +66,7 @@
     "id": 205,
     "title": "Mala Chili Oil",
     "category": "Chinese",
-    "file": "data/chinese/mala-chili-oil.json", 
+    "file": "data/chinese/hot-chili-sauce.json", 
     "image": "assets/images/chinese/mala-chili-oil.png",
     "time": "30 min",
     "difficulty": "Medium"
