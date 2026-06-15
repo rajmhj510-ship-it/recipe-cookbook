@@ -1,0 +1,86 @@
+{
+  "id": 207,
+  "title": "Sichuan Chicken Chili",
+  "category": "Chinese",
+  "time": "30–45 min",
+  "difficulty": "",
+  "image": "assets/images/chinese/sichuan-chicken-chili.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "250g boneless chicken thigh, cut into 1.5 cm cubes",
+        "1/2 tbsp Shaoxing wine",
+        "1/2 tsp light soy sauce",
+        "1/4 tsp salt",
+        "1/4 tsp white pepper",
+        "1/2 egg white (or 1 small egg white)",
+        "1 tsp cornstarch",
+        "Neutral oil for deep-frying (about 300ml)"
+      ]
+    },
+    {
+      "title": "Aromatics & Chilies",
+      "items": [
+        "1 cup dried Chinese red chilies, deseeded and halved",
+        "1/2 tsp Sichuan peppercorns",
+        "1/2 inch ginger, thinly sliced",
+        "2–3 cloves garlic, thinly sliced",
+        "1 scallion, cut into 1-inch sections",
+        "Optional: 1 tbsp roasted peanuts or toasted sesame seeds"
+      ]
+    },
+    {
+      "title": "Optional Final Seasoning",
+      "items": [
+        "Tiny pinch of sugar",
+        "Few drops of sesame oil (optional)",
+        "Salt to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Marinate the Chicken",
+      "steps": [
+        "Mix chicken with Shaoxing wine, soy sauce, salt, pepper, egg white, and cornstarch.",
+        "Stir well until evenly coated.",
+        "Let it rest for 20 minutes."
+      ]
+    },
+    {
+      "title": "Fry the Chicken",
+      "steps": [
+        "Heat oil to 180°C (350°F).",
+        "Deep-fry chicken in batches for 2–3 minutes until golden and crisp.",
+        "Drain on paper towels or a rack."
+      ]
+    },
+    {
+      "title": "Stir-Fry Aromatics",
+      "steps": [
+        "Keep 2 tbsp oil in wok, remove excess.",
+        "Fry Sichuan peppercorns for 15 seconds.",
+        "Add dried chilies and stir-fry for 20–30 seconds.",
+        "Add ginger, garlic, and scallions until fragrant."
+      ]
+    },
+    {
+      "title": "Combine",
+      "steps": [
+        "Add fried chicken back into the wok.",
+        "Stir-fry on high heat for 1–2 minutes.",
+        "Adjust salt and add optional sugar or sesame oil."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Do not burn dried chilies — they turn bitter quickly.",
+    "Sichuan peppercorn gives the signature numbing sensation.",
+    "Double frying chicken improves crispiness.",
+    "Traditionally, chilies are not eaten — only used for aroma."
+  ]
+}
