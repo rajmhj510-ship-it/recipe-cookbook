@@ -57,9 +57,10 @@
   "id": 204,
   "title": "Mala Chili Oil - Sichuan Style",
   "category": "Chinese",
+  "file": "data/chinese/mala-chili-oil.json",
+  "image": "assets/images/chinese/mala-chili-oil.png",
   "time": "30 min",
   "difficulty": "Medium",
-  "image": "assets/images/chinese/mala-chili-oil.png",
   },
   {
     "id": 301,
