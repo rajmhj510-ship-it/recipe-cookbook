@@ -1,4 +1,3 @@
-
 /* ================= GLOBAL ================= */
 
 html {
@@ -7,7 +6,6 @@ html {
 
 body {
 	margin: 0;
-	padding: 0;
 	font-family: Arial, sans-serif;
 	background: #f5f5f5;
 	color: #222;
@@ -116,7 +114,7 @@ body {
 	background: #f5f5f5;
 }
 
-/* ================= 🔥 TRUE SINGLE STICKY BLOCK ================= */
+/* ================= STICKY HEADER BLOCK ================= */
 
 .sticky-block {
 	position: sticky;
@@ -126,7 +124,8 @@ body {
 	box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
-/* HEADER */
+/* ================= HEADER ================= */
+
 .explore-header {
 	display: flex;
 	align-items: center;
@@ -134,7 +133,26 @@ body {
 	padding: 15px 20px 5px;
 }
 
-/* SEARCH */
+/* ================= LOGO FIX (IMPORTANT) ================= */
+
+.brand-small {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.logo {
+	width: 38px;
+	height: 38px;
+	max-width: 38px;
+	max-height: 38px;
+	object-fit: contain;
+	display: block;
+	flex-shrink: 0;
+}
+
+/* ================= SEARCH ================= */
+
 .search-wrapper {
 	display: flex;
 	justify-content: center;
@@ -147,9 +165,11 @@ body {
 	padding: 12px 15px;
 	border: 1px solid #ddd;
 	border-radius: 10px;
+	outline: none;
 }
 
-/* FILTERS */
+/* ================= FILTERS ================= */
+
 .filters {
 	display: flex;
 	flex-wrap: wrap;
@@ -164,6 +184,7 @@ body {
 	border-radius: 20px;
 	background: #e0e0e0;
 	cursor: pointer;
+	transition: 0.2s;
 }
 
 .filters button.active {
@@ -180,7 +201,7 @@ body {
 	padding: 20px;
 }
 
-/* ================= CARDS ================= */
+/* ================= EXPLORE CARDS ================= */
 
 .explore-card {
 	background: white;
@@ -214,6 +235,7 @@ body {
 /* ================= MOBILE ================= */
 
 @media (max-width: 768px) {
+
 	.about-title {
 		font-size: 2.5rem;
 	}
