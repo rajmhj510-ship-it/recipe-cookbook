@@ -72,6 +72,16 @@
     "difficulty": "Medium"
   },
   {
+    "id": 206,
+    "title": "Hot Garlic sauce",
+    "category": "Chinese",
+    "file": "data/chinese/hot-garlic-sauce.json", 
+    "image": "assets/images/chinese/hot-garlic-sauce.png",
+    "time": "30 min",
+    "difficulty": "Medium"
+  },
+  },
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
