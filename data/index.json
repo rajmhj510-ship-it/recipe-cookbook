@@ -81,6 +81,15 @@
     "difficulty": "Medium"
   },
   {
+    "id": 207,
+    "title": "Hot Garlic sauce",
+    "category": "Chinese",
+    "file": "data/chinese/sichuan-chicken-chili.json", 
+    "image": "assets/images/chinese/sichuan-chicken-chili.png",
+    "time": "30 min",
+    "difficulty": "Medium"
+  },
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
