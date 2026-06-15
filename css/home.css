@@ -237,16 +237,90 @@ body {
 @media (max-width: 768px) {
 
 	.about-title {
-		font-size: 2.5rem;
+		font-size: 2.2rem;
+		padding: 0 10px;
 	}
 
 	.carousel-container {
 		height: 320px;
-		padding: 0 40px;
+		padding: 0 20px;
 	}
 
 	.card {
 		width: 180px;
 		height: 260px;
+	}
+
+	/* Header */
+
+	.explore-header {
+		padding: 12px 15px 0;
+	}
+
+	.brand-small h2 {
+		font-size: 1.2rem;
+	}
+
+	.logo {
+		width: 32px;
+		height: 32px;
+	}
+
+	/* Search */
+
+	.search-wrapper {
+		padding: 10px 15px;
+	}
+
+	.search-wrapper input {
+		max-width: 100%;
+		font-size: 14px;
+		padding: 10px 12px;
+	}
+
+	/* Filters */
+
+	.filters {
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		justify-content: flex-start;
+		padding: 10px 15px;
+		gap: 8px;
+
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+
+	.filters::-webkit-scrollbar {
+		display: none;
+	}
+
+	.filters button {
+		white-space: nowrap;
+		flex-shrink: 0;
+		font-size: 13px;
+		padding: 8px 14px;
+	}
+
+	/* Recipe Grid */
+
+	#recipeList {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 12px;
+		padding: 15px;
+	}
+
+	.explore-card img {
+		height: 120px;
+	}
+
+	.explore-card h3 {
+		font-size: 0.95rem;
+		padding: 8px;
+	}
+
+	.explore-card p {
+		font-size: 0.85rem;
+		padding: 0 8px 8px;
 	}
 }
