@@ -144,6 +144,15 @@
     "difficulty": "Medium"
   },
   {
+  "id": 214,
+  "title": "Chicken Fried Rice",
+  "category": "Chinese",
+  "file": "data/chinese/chicken-fried-rice.json",
+  "image": "assets/images/chinese/chicken-fried-rice.png",
+  "time": "",
+  "difficulty": ""
+},
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
