@@ -198,6 +198,15 @@
   "difficulty": "Advanced"
 },
   {
+  "id": 220,
+  "title": "Fish-Flavored Eggplant",
+  "category": "Chinese",
+  "file": "data/chinese/fish-flavored-eggplant.json",
+  "image": "assets/images/fish-flavored-eggplant.png",
+  "time": "",
+  "difficulty": ""
+},
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
