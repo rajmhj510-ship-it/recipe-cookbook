@@ -180,6 +180,15 @@
   "difficulty": ""
 },
   {
+  "id": 218,
+  "title": "Shredded Chicken with Black Bean Sauce",
+  "category": "Chinese",
+  "file": "data/chinese/shredded-chicken-with-black-bean-sauce.json",
+  "image": "assets/images/chinese/shredded-chicken-with-black-bean-sauce.png",
+  "time": "",
+  "difficulty": ""
+},
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
