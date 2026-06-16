@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -7,61 +6,50 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Recipe</title>
 
-```
-<link rel="stylesheet" href="css/recipe.css">
-```
-
+	<link rel="stylesheet" href="css/recipe.css">
 </head>
 
 <body>
 
-```
-<!-- BACK BUTTON -->
-<button class="back-btn" onclick="history.back()">
-	← Back
-</button>
+	<!-- BACK BUTTON -->
+	<button class="back-btn" onclick="history.back()">
+		← Back
+	</button>
 
-<!-- HERO SECTION -->
-<header id="hero">
-	<div class="hero-overlay">
+	<!-- HERO -->
+	<header id="hero">
+		<div class="hero-overlay">
+			<div class="hero-content">
 
-		<div class="hero-content">
+				<span class="recipe-category" id="category"></span>
+				<h1 id="title">Loading Recipe...</h1>
 
-			<span class="recipe-category" id="category"></span>
+				<div class="recipe-meta">
+					<span id="time"></span>
+					<span id="difficulty"></span>
+				</div>
 
-			<h1 id="title">Loading Recipe...</h1>
-
-			<div class="recipe-meta">
-				<span id="time"></span>
-				<span id="difficulty"></span>
 			</div>
-
 		</div>
+	</header>
 
-	</div>
-</header>
+	<!-- MAIN LAYOUT -->
+	<main class="recipe-layout">
 
-<!-- MAIN CONTENT -->
-<main class="recipe-layout">
+		<!-- INGREDIENTS -->
+		<aside class="ingredients-panel">
+			<div id="ingredients"></div>
+		</aside>
 
-	<!-- INGREDIENTS -->
-	<aside class="ingredients-panel">
-		<div id="ingredients"></div>
-	</aside>
+		<!-- INSTRUCTIONS + TIPS -->
+		<section class="instructions-panel">
+			<div id="instructions"></div>
+			<div id="tips"></div>
+		</section>
 
-	<!-- RECIPE CONTENT -->
-	<section class="instructions-panel">
+	</main>
 
-		<div id="instructions"></div>
-
-		<div id="tips"></div>
-
-	</section>
-
-</main>
-
-<script src="js/recipe.js"></script>
-```
+	<script src="js/recipe.js"></script>
 
 </body>
 
