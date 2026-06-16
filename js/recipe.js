@@ -2,133 +2,125 @@ const params = new URLSearchParams(window.location.search);
 const file = decodeURIComponent(params.get("file") || "");
 
 const BASE_URL = window.location.pathname.includes("recipe-cookbook")
-? "/recipe-cookbook/"
-: "./";
+	? "/recipe-cookbook/"
+	: "./";
 
+/* ================= SAFE TEXT ================= */
 function safeText(val) {
-if (typeof val === "string") return val;
-if (typeof val === "number") return String(val);
+	if (typeof val === "string") return val;
+	if (typeof val === "number") return String(val);
 
-```
-if (val && typeof val === "object") {
-	return val.text || val.step || val.name || "";
+	if (val && typeof val === "object") {
+		return val.text || val.step || val.name || "";
+	}
+
+	return "";
 }
 
-return "";
-```
-
-}
-
+/* ================= LOAD RECIPE ================= */
 async function loadRecipe() {
+	try {
+		if (!file) throw new Error("Recipe file missing");
 
-```
-try {
+		const url = file.startsWith("http")
+			? file
+			: BASE_URL + file;
 
-	if (!file)
-		throw new Error("Recipe file missing");
+		const res = await fetch(url);
+		if (!res.ok) throw new Error("HTTP " + res.status);
 
-	const url = file.startsWith("http")
-		? file
-		: BASE_URL + file;
+		const data = await res.json();
 
-	const res = await fetch(url);
+		/* HERO */
+		document.getElementById("title").textContent = data.title || "Recipe";
+		document.getElementById("category").textContent = data.category || "";
+		document.getElementById("time").textContent = data.time || "";
+		document.getElementById("difficulty").textContent = data.difficulty || "";
 
-	if (!res.ok)
-		throw new Error("HTTP " + res.status);
+		if (data.image) {
+			document.getElementById("hero").style.backgroundImage =
+				`url(${data.image})`;
+		}
 
-	const data = await res.json();
+		/* INGREDIENTS */
+		const ingEl = document.getElementById("ingredients");
 
-	document.getElementById("title").textContent =
-		data.title || "Recipe";
+		if (Array.isArray(data.ingredients)) {
+			ingEl.innerHTML = `
+				<div class="section">
+					<h3>Ingredients</h3>
+					${data.ingredients.map(group => `
+						${group.title ? `<h4>${group.title}</h4>` : ""}
+						<ul>
+							${(group.items || [])
+								.map(i => `<li>${safeText(i)}</li>`)
+								.join("")}
+						</ul>
+					`).join("")}
+				</div>
+			`;
+		}
 
-	document.getElementById("category").textContent =
-		data.category || "";
+		/* INSTRUCTIONS */
+		const insEl = document.getElementById("instructions");
 
-	document.getElementById("time").textContent =
-		data.time || "";
+		if (Array.isArray(data.instruction)) {
+			insEl.innerHTML = `
+				<div class="section">
+					<h3>Instructions</h3>
+					${data.instruction.map(block => `
+						${block.title ? `<h4>${block.title}</h4>` : ""}
+						${(block.steps || [])
+							.map(step => `<div class="step">${safeText(step)}</div>`)
+							.join("")}
+					`).join("")}
+				</div>
+			`;
+		}
 
-	document.getElementById("difficulty").textContent =
-		data.difficulty || "";
-
-	const hero = document.getElementById("hero");
-
-	if (data.image) {
-		hero.style.backgroundImage =
-			`url(${data.image})`;
-	}
-
-	/* INGREDIENTS */
-
-	document.getElementById("ingredients").innerHTML = `
-		<div class="section">
-			<h3>Ingredients</h3>
-
-			${(data.ingredients || []).map(group => `
-				${group.title ? `<h4>${group.title}</h4>` : ""}
-
-				<ul>
-					${(group.items || []).map(item =>
-						`<li>${safeText(item)}</li>`
+		else if (Array.isArray(data.steps)) {
+			insEl.innerHTML = `
+				<div class="section">
+					<h3>Instructions</h3>
+					${data.steps.map(step =>
+						`<div class="step">${safeText(step)}</div>`
 					).join("")}
-				</ul>
-			`).join("")}
-		</div>
-	`;
+				</div>
+			`;
+		}
 
-	/* INSTRUCTIONS */
+		/* TIPS */
+		const tipsEl = document.getElementById("tips");
 
-	document.getElementById("instructions").innerHTML = `
-		<div class="section">
-			<h3>Instructions</h3>
+		if (Array.isArray(data.chefTips) && data.chefTips.length) {
+			tipsEl.innerHTML = `
+				<div class="section">
+					<h3>Chef Tips</h3>
+					<ul>
+						${data.chefTips.map(t =>
+							`<li>${safeText(t)}</li>`
+						).join("")}
+					</ul>
+				</div>
+			`;
+		}
 
-			${(data.instruction || []).map(block => `
-				${block.title ? `<h4>${block.title}</h4>` : ""}
-
-				${(block.steps || []).map(step =>
-					`<div class="step">${safeText(step)}</div>`
-				).join("")}
-			`).join("")}
-		</div>
-	`;
-
-	/* CHEF TIPS */
-
-	if (Array.isArray(data.chefTips)) {
-
-		document.getElementById("tips").innerHTML = `
-			<div class="section">
-				<h3>Chef Tips</h3>
-
-				<ul>
-					${data.chefTips.map(t =>
-						`<li>${safeText(t)}</li>`
-					).join("")}
-				</ul>
-			</div>
-		`;
-	}
-
-	document.querySelectorAll(".step").forEach(step => {
-
-		step.addEventListener("click", () => {
-			step.classList.toggle("done");
+		/* STEP CLICK */
+		document.querySelectorAll(".step").forEach(step => {
+			step.addEventListener("click", () => {
+				step.classList.toggle("done");
+			});
 		});
 
-	});
+	} catch (err) {
+		console.error(err);
 
-}
-catch (err) {
-
-	console.error(err);
-
-	document.body.innerHTML = `
-		<h2 style="padding:40px;">
-			Recipe failed to load
-		</h2>
-	`;
-}
-```
-
+		document.body.innerHTML = `
+			<h2 style="padding:40px;font-family:Arial;">
+				Recipe failed to load ❌
+			</h2>
+		`;
+	}
 }
 
 loadRecipe();
