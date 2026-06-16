@@ -1,0 +1,112 @@
+{
+  "id": 214,
+  "title": "Chicken Fried Rice",
+  "category": "Chinese",
+  "image": "assets/images/chinese/chicken-fried-rice.png",
+  "time": "",
+  "difficulty": "",
+
+  "ingredients": [
+    {
+      "title": "For the chicken:",
+      "items": [
+        "250g (½ lb) boneless chicken breast, diced small",
+        "1 tsp soy sauce",
+        "1 tsp cornstarch",
+        "½ tsp sesame oil",
+        "Pinch of white pepper"
+      ]
+    },
+    {
+      "title": "For the rice:",
+      "items": [
+        "3 cups cooked jasmine rice (preferably cold, day-old)",
+        "2 tbsp vegetable oil",
+        "2 large eggs, beaten",
+        "1 small onion, finely diced",
+        "2-3 garlic cloves, minced",
+        "½ cup carrots, diced small",
+        "½ cup frozen peas",
+        "3-4 spring onions, chopped (reserve some green parts for garnish)"
+      ]
+    },
+    {
+      "title": "Sauce & Seasoning:",
+      "items": [
+        "2 tbsp light soy sauce",
+        "1 tsp oyster sauce",
+        "½ tsp sesame oil",
+        "¼ tsp white pepper",
+        "Optional: a pinch of sugar for balance"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Chicken:",
+      "steps": [
+        "In a small bowl, mix diced chicken with soy sauce, cornstarch, sesame oil, and white pepper. Let marinate for 10–15 minutes. This ensures tender, flavorful chicken."
+      ]
+    },
+    {
+      "title": "Prepare the Rice:",
+      "steps": [
+        "Cold, day-old rice works best. Break up any clumps so each grain is separate."
+      ]
+    },
+    {
+      "title": "Cook the Eggs:",
+      "steps": [
+        "Heat 1 tbsp vegetable oil in a wok or large skillet over high heat.",
+        "Add beaten eggs, stir quickly to scramble lightly, then remove from pan. Set aside."
+      ]
+    },
+    {
+      "title": "Cook the Chicken:",
+      "steps": [
+        "Heat 1 tbsp oil in the same wok over high heat.",
+        "Stir-fry chicken until just cooked through (about 3–4 minutes). Remove and set aside."
+      ]
+    },
+    {
+      "title": "Vegetables & Aromatics:",
+      "steps": [
+        "Add a little more oil if needed.",
+        "Stir-fry onion, garlic, and carrots until aromatic and slightly softened (2–3 minutes).",
+        "Toss in peas and cook another 1 minute."
+      ]
+    },
+    {
+      "title": "Fry the Rice:",
+      "steps": [
+        "Add cold rice to the wok.",
+        "Stir-fry, breaking up clumps, ensuring rice is coated with oil and heated evenly.",
+        "Return chicken and scrambled eggs to the pan."
+      ]
+    },
+    {
+      "title": "Season the Rice:",
+      "steps": [
+        "Add soy sauce, oyster sauce, sesame oil, white pepper, and optional sugar.",
+        "Toss thoroughly to combine. Taste and adjust seasoning if needed.",
+        "Stir in spring onion whites, reserving green parts for garnish."
+      ]
+    },
+    {
+      "title": "Finish & Serve:",
+      "steps": [
+        "Garnish with green parts of spring onion.",
+        "Serve hot in a bowl or plate with a slight drizzle of sesame oil for aroma."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Rice Texture: Use day-old rice. Fresh rice is too soft and becomes mushy.",
+    "High Heat: Use a wok over high heat to get that “wok hei” smoky flavor.",
+    "Oil Distribution: Coat rice grains evenly with oil to prevent sticking and to achieve a slightly glossy look.",
+    "Layering Flavors: Cook chicken, eggs, and vegetables separately, then combine, to maintain distinct textures.",
+    "Optional Extras: Add a few drops of soy sauce for color or a dash of Shaoxing wine while stir-frying for depth."
+  ]
+}
