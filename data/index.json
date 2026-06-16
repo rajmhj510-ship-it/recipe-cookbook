@@ -189,6 +189,15 @@
   "difficulty": ""
 },
   {
+  "id": 219,
+  "title": "Chicken Bao",
+  "category": "Chinese",
+  "file": "data/chinese/chicken-bao.json",
+  "image": "assets/images/chinese/chicken-bao.png",
+  "time": "",
+  "difficulty": "Advanced"
+},
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
