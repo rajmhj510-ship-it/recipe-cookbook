@@ -1,0 +1,103 @@
+{
+  "id": 221,
+  "title": "Fish-Flavored Eggplant (Yúxiāng Qiézi)",
+  "category": "Chinese",
+  "image": "assets/images/chinese/fish-flavored-eggplant.png",
+
+  "ingredients": [
+    {
+      "title": "Main",
+      "items": [
+        "Chinese eggplant (long, slender) – 500 g (about 2–3 pieces)",
+        "Pork mince (optional but traditional) – 50 g",
+        "Cornstarch – 2 tbsp (for coating eggplant)",
+        "Vegetable oil – 400 ml (for frying, though only part will be absorbed)"
+      ]
+    },
+    {
+      "title": "Aromatics",
+      "items": [
+        "Garlic – 4 cloves, finely minced",
+        "Ginger – 15 g, finely minced",
+        "Scallion (white part) – 20 g, finely minced",
+        "Pickled chili paste (Pixian Doubanjiang) – 1½ tbsp"
+      ]
+    },
+    {
+      "title": "Seasoning Sauce (mix beforehand)",
+      "items": [
+        "Light soy sauce – 1 tbsp",
+        "Dark soy sauce – ½ tsp",
+        "Chinkiang black vinegar – 1½ tbsp",
+        "Shaoxing wine – 1 tbsp",
+        "Sugar – 2 tsp",
+        "Chicken stock or water – 120 ml",
+        "Cornstarch slurry – 1 tsp cornstarch + 2 tsp water"
+      ]
+    },
+    {
+      "title": "Finish",
+      "items": [
+        "Scallion greens – 1 tbsp, finely sliced",
+        "Sesame oil – a few drops (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Eggplant",
+      "steps": [
+        "Cut eggplant into thick batons (about 6–7 cm long).",
+        "Toss lightly with a dusting of cornstarch (helps crisp texture and prevents oil soaking)."
+      ]
+    },
+    {
+      "title": "Shallow Fry",
+      "steps": [
+        "Heat oil in a wok to 180°C.",
+        "Fry eggplant batons in batches until surface lightly golden and interior just softened (1–2 min).",
+        "Remove and drain on paper towel. Pour off excess oil, leaving 2 tbsp in the wok."
+      ]
+    },
+    {
+      "title": "Build the Flavor Base",
+      "steps": [
+        "On medium heat, fry minced pork until slightly crisp and browned.",
+        "Add garlic, ginger, scallion whites. Stir-fry until aromatic (about 20 sec).",
+        "Add Pixian Doubanjiang. Fry until red oil separates (~30 sec)."
+      ]
+    },
+    {
+      "title": "Combine with Sauce",
+      "steps": [
+        "Stir the prepared seasoning sauce to recombine.",
+        "Pour into wok, bring to a simmer.",
+        "Adjust seasoning balance (should be tangy, savory, slightly sweet)."
+      ]
+    },
+    {
+      "title": "Coat Eggplant",
+      "steps": [
+        "Return fried eggplant to wok.",
+        "Toss gently to absorb sauce.",
+        "Add cornstarch slurry to thicken to a glossy coating consistency."
+      ]
+    },
+    {
+      "title": "Finish & Plate",
+      "steps": [
+        "Garnish with scallion greens and a drop of sesame oil.",
+        "Serve immediately with steamed jasmine rice."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use Chinese or Japanese eggplants for best texture and flavor.",
+    "Light cornstarch dusting and fast frying reduces oil absorption.",
+    "Authentic Pixian Doubanjiang is essential for real fish-fragrant flavor.",
+    "Balance vinegar and sugar at the end for signature sweet-sour profile.",
+    "Some chefs steam eggplant first, then flash-fry for a silkier texture."
+  ]
+}
