@@ -171,6 +171,15 @@
   "difficulty": ""
 },
   {
+  "id": 217,
+  "title": "Soft Fried Chicken with Hot Bean Sauce",
+  "category": "Chinese",
+  "file": "data/chinese/soft-fried-chicken-with-hot-bean-sauce.json",
+  "image": "assets/images/chinese/soft-fried-chicken-with-hot-bean-sauce.png",
+  "time": "",
+  "difficulty": ""
+},
+  {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
