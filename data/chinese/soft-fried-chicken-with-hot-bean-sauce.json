@@ -1,0 +1,96 @@
+{
+  "id": 217,
+  "title": "Soft Fried Chicken with Hot Bean Sauce",
+  "category": "Chinese",
+  "image": "assets/images/chinese/soft-fried-chicken-with-hot-bean-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "500g chicken breast or thigh (boneless, skinless, cut into bite-sized pieces)",
+        "1 tbsp Shaoxing wine",
+        "1 tsp light soy sauce",
+        "1 tsp cornstarch",
+        "1 egg white",
+        "2 tbsp potato starch or cornstarch (for coating)",
+        "Oil for deep frying"
+      ]
+    },
+    {
+      "title": "For the Hot Bean Sauce",
+      "items": [
+        "2 tbsp doubanjiang (spicy fermented broad bean paste)",
+        "1 tbsp soy sauce",
+        "1 tsp sugar",
+        "1 tbsp Shaoxing wine",
+        "100ml chicken stock",
+        "1 tsp sesame oil"
+      ]
+    },
+    {
+      "title": "Aromatics & Vegetables",
+      "items": [
+        "3 cloves garlic, finely chopped",
+        "1-inch piece ginger, finely chopped",
+        "2 scallions, white and green parts separated and chopped",
+        "1 red chili, sliced diagonally (optional for extra heat)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Marinate the Chicken",
+      "steps": [
+        "In a bowl, combine chicken with Shaoxing wine, soy sauce, cornstarch, and egg white.",
+        "Mix until fully coated and let rest for 20–30 minutes. This tenderizes the chicken."
+      ]
+    },
+    {
+      "title": "Prepare the Sauce",
+      "steps": [
+        "In a small bowl, mix doubanjiang, soy sauce, sugar, Shaoxing wine, chicken stock, and sesame oil. Set aside.",
+        "Taste the sauce — it should be savory, slightly spicy, and balanced."
+      ]
+    },
+    {
+      "title": "Fry the Chicken",
+      "steps": [
+        "Heat oil in a wok or deep fryer to 170–180°C (340–355°F).",
+        "Lightly coat chicken pieces with potato starch.",
+        "Fry in batches until golden but still soft inside (do not over-fry). Drain on paper towels."
+      ]
+    },
+    {
+      "title": "Stir-Fry Aromatics",
+      "steps": [
+        "In a clean wok, heat 1 tbsp oil over medium-high heat.",
+        "Add garlic, ginger, and the white part of the scallions. Stir-fry until aromatic.",
+        "Add the sliced chili if using."
+      ]
+    },
+    {
+      "title": "Combine Chicken and Sauce",
+      "steps": [
+        "Pour the prepared hot bean sauce into the wok with aromatics.",
+        "Bring to a simmer for 1–2 minutes.",
+        "Add fried chicken and toss gently to coat. Heat through for another minute."
+      ]
+    },
+    {
+      "title": "Finish and Serve",
+      "steps": [
+        "Garnish with the green parts of the scallions.",
+        "Serve immediately with steamed rice or noodles."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Soft chicken texture: Marinate with egg white and cornstarch to get silky, tender restaurant-style mouthfeel.",
+    "Control spice: Doubanjiang is very salty and spicy — adjust according to taste.",
+    "Double frying: Fry chicken twice (160°C then 180°C) for extra crispiness outside while keeping inside soft.",
+    "Sauce consistency: It should cling lightly to the chicken. If too thin, add ½ tsp cornstarch slurry."
+  ]
+}
