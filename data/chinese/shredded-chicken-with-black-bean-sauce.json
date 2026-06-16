@@ -1,0 +1,92 @@
+{
+  "id": 218,
+  "title": "Shredded Chicken with Black Bean Sauce",
+  "category": "Chinese",
+  "image": "assets/images/chinese/shredded-chicken-with-black-bean-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "2 large boneless, skinless chicken breasts",
+        "1 tsp salt",
+        "1/2 tsp white pepper",
+        "1 tsp Shaoxing wine (or dry sherry)",
+        "1 tsp sesame oil",
+        "Ice water (for poaching)"
+      ]
+    },
+    {
+      "title": "For the Black Bean Sauce",
+      "items": [
+        "3 tbsp fermented black beans (douchi), rinsed and roughly chopped",
+        "2 tbsp vegetable oil",
+        "2 cloves garlic, minced",
+        "1-inch piece ginger, julienned",
+        "1 small red chili, sliced thin (optional)",
+        "1/2 cup chicken stock (or water)",
+        "1 tsp sugar",
+        "1 tsp soy sauce",
+        "1 tsp oyster sauce",
+        "1 tsp cornstarch + 2 tbsp water (slurry for thickening)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "2 green onions, julienned",
+        "1 tsp sesame oil",
+        "Fresh cilantro leaves (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Poach and Shred the Chicken",
+      "steps": [
+        "Place chicken breasts in a pot and cover with cold water (or a mixture of water + ice for tender texture).",
+        "Add salt, white pepper, and Shaoxing wine.",
+        "Bring to a gentle simmer (not rolling boil) over medium heat.",
+        "Poach for 10–12 minutes until cooked through (internal temp ~165°F / 74°C).",
+        "Remove from water and immediately plunge into ice water to stop cooking.",
+        "Drain and shred chicken finely using forks or your hands. Set aside."
+      ]
+    },
+    {
+      "title": "Prepare the Black Bean Sauce",
+      "steps": [
+        "Heat vegetable oil in a wok or skillet over medium heat.",
+        "Add garlic, ginger, and optional chili; stir-fry until fragrant (~30 seconds).",
+        "Add chopped black beans and stir for 1 minute to release aroma.",
+        "Pour in chicken stock, soy sauce, oyster sauce, and sugar. Bring to a gentle simmer.",
+        "Mix cornstarch with water to create slurry, then slowly add to sauce while stirring. Cook until sauce thickens slightly."
+      ]
+    },
+    {
+      "title": "Combine Chicken and Sauce",
+      "steps": [
+        "Add shredded chicken into the wok with sauce.",
+        "Toss gently to coat all chicken with the black bean sauce.",
+        "Cook for another 1–2 minutes on low heat to allow flavors to meld.",
+        "Turn off heat, drizzle with sesame oil, and sprinkle julienned green onions on top."
+      ]
+    },
+    {
+      "title": "Presentation",
+      "steps": [
+        "Serve hot, ideally in a shallow bowl.",
+        "Garnish with fresh cilantro and additional sliced chili for color and freshness.",
+        "Pair with steamed jasmine rice or stir-fried vegetables for a complete meal."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Poaching in ice water ensures chicken remains moist and tender.",
+    "Rinse fermented black beans to balance saltiness.",
+    "Shred finely: thin, uniform pieces absorb sauce better and create elegant texture.",
+    "Wok heat control: Keep it medium to avoid burning garlic/ginger but hot enough to bring out aroma.",
+    "Balance flavors: Black bean sauce should be savory, slightly sweet, and aromatic—not overpowering."
+  ]
+}
