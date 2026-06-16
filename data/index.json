@@ -153,11 +153,20 @@
   "difficulty": ""
 },
   {
-  "id": 1000,
+  "id": 215,
   "title": "Sweet and Sour Chicken",
   "category": "Chinese",
   "file": "data/chinese/sweet-and-sour-chicken.json",
   "image": "assets/images/chinese/sweet-and-sour-chicken.png",
+  "time": "",
+  "difficulty": ""
+},
+  {
+  "id": 216,
+  "title": "Braised Chicken Drumsticks",
+  "category": "Chinese",
+  "file": "data/chinese/braised-chicken-drumsticks.json",
+  "image": "assets/images/braised-chicken-drumsticks.png",
   "time": "",
   "difficulty": ""
 },
