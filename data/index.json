@@ -134,6 +134,15 @@
     "time": "25 min",
     "difficulty": "Medium"
   },
+      {
+    "id": 213,
+    "title": "Hot Garlic Chicken",
+    "category": "Chinese",
+    "file": "data/chinese/hot-garlic-chicken.json", 
+    "image": "assets/images/chinese/hot-garlic-chicken.png",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
   {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
