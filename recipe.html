@@ -1,62 +1,68 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Recipe</title>
 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Recipe</title>
+
+```
 <link rel="stylesheet" href="css/recipe.css">
+```
+
 </head>
 
 <body>
 
+```
+<!-- BACK BUTTON -->
 <button class="back-btn" onclick="history.back()">
-    ← Back
+	← Back
 </button>
 
-<!-- HERO -->
-
+<!-- HERO SECTION -->
 <header id="hero">
-    <div class="hero-overlay">
-        <div class="hero-content">
-            <span class="recipe-category" id="category"></span>
-            <h1 id="title"></h1>
+	<div class="hero-overlay">
 
-```
-        <div class="recipe-meta">
-            <span id="time"></span>
-            <span id="difficulty"></span>
-        </div>
-    </div>
-</div>
-```
+		<div class="hero-content">
 
+			<span class="recipe-category" id="category"></span>
+
+			<h1 id="title">Loading Recipe...</h1>
+
+			<div class="recipe-meta">
+				<span id="time"></span>
+				<span id="difficulty"></span>
+			</div>
+
+		</div>
+
+	</div>
 </header>
 
-<!-- CONTENT -->
-
+<!-- MAIN CONTENT -->
 <main class="recipe-layout">
 
-```
-<!-- LEFT COLUMN -->
-<aside class="ingredients-panel">
-    <div id="ingredients"></div>
-</aside>
+	<!-- INGREDIENTS -->
+	<aside class="ingredients-panel">
+		<div id="ingredients"></div>
+	</aside>
 
-<!-- RIGHT COLUMN -->
-<section class="instructions-panel">
+	<!-- RECIPE CONTENT -->
+	<section class="instructions-panel">
 
-    <div id="instructions"></div>
+		<div id="instructions"></div>
 
-    <div id="tips"></div>
+		<div id="tips"></div>
 
-</section>
-```
+	</section>
 
 </main>
 
 <script src="js/recipe.js"></script>
+```
 
 </body>
+
 </html>
