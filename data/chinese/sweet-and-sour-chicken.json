@@ -1,0 +1,91 @@
+{
+  "id": 215,
+  "title": "Sweet and Sour Chicken",
+  "category": "Chinese",
+  "image": "assets/images/chinese/sweet-and-sour-chicken.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "500g (1 lb) boneless chicken breast or thighs, cut into bite-sized pieces",
+        "1 large egg",
+        "½ cup cornstarch",
+        "¼ cup all-purpose flour",
+        "½ tsp salt",
+        "¼ tsp white pepper",
+        "Oil for deep-frying"
+      ]
+    },
+    {
+      "title": "For the Sauce",
+      "items": [
+        "½ cup ketchup",
+        "¼ cup rice vinegar or white vinegar",
+        "¼ cup sugar",
+        "2 tbsp soy sauce",
+        "1 tbsp cornstarch mixed with 3 tbsp water (slurry)",
+        "¼ cup pineapple juice (optional for authentic sweetness)"
+      ]
+    },
+    {
+      "title": "For Stir-Fry Vegetables (Optional but recommended)",
+      "items": [
+        "1 small red bell pepper, diced",
+        "1 small green bell pepper, diced",
+        "1 small onion, diced",
+        "½ cup pineapple chunks"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Chicken",
+      "steps": [
+        "In a bowl, whisk the egg.",
+        "In another bowl, mix cornstarch, flour, salt, and white pepper.",
+        "Dip chicken pieces in egg, then coat thoroughly with the flour mixture.",
+        "Heat oil in a deep pan to 170–180°C (340–360°F).",
+        "Fry chicken in batches until golden brown and cooked through (5–6 minutes). Drain on paper towels."
+      ]
+    },
+    {
+      "title": "Make the Sweet and Sour Sauce",
+      "steps": [
+        "In a saucepan over medium heat, combine ketchup, vinegar, sugar, soy sauce, and pineapple juice.",
+        "Stir until sugar dissolves and sauce begins to simmer.",
+        "Slowly add cornstarch slurry, stirring constantly until sauce thickens. Remove from heat."
+      ]
+    },
+    {
+      "title": "Stir-Fry Vegetables (Optional)",
+      "steps": [
+        "Heat a little oil in a wok or large pan.",
+        "Quickly stir-fry onions and bell peppers for 2–3 minutes (they should remain slightly crisp).",
+        "Add pineapple chunks and stir-fry another minute."
+      ]
+    },
+    {
+      "title": "Combine",
+      "steps": [
+        "Toss fried chicken in the sweet and sour sauce until fully coated.",
+        "Add stir-fried vegetables and toss gently to combine."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Serve immediately with steamed white rice or fried rice.",
+        "Garnish with sesame seeds or chopped green onions for extra flair."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use chicken thighs for juicier meat.",
+    "Fry chicken twice for extra crispiness.",
+    "Don’t overcook vegetables—they should remain vibrant and crunchy.",
+    "Balance sweetness and tanginess by adjusting sugar and vinegar to taste."
+  ]
+}
