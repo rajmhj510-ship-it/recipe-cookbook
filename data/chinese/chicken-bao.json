@@ -1,0 +1,92 @@
+{
+  "id": 219,
+  "title": "Chicken Bao",
+  "category": "Chinese",
+  "image": "assets/images/chinese/chicken-bao.png",
+
+  "ingredients": [
+    {
+      "title": "Bao Dough (Fluffy Mantou-style Bun)",
+      "items": [
+        "500 g (4 cups) all-purpose flour (low-protein preferred)",
+        "6 g (2 tsp) instant yeast",
+        "250 ml (1 cup + 1 tbsp) warm water (38–40°C)",
+        "50 g (¼ cup) sugar",
+        "30 g (2 tbsp) neutral oil (e.g., canola)",
+        "5 g (1 tsp) baking powder (for extra fluffiness)",
+        "1 g (½ tsp) salt"
+      ]
+    },
+    {
+      "title": "Chicken Filling (Umami-rich, aromatic)",
+      "items": [
+        "400 g boneless chicken thighs, finely diced (or minced)",
+        "50 g napa cabbage, finely chopped, lightly salted, excess water squeezed",
+        "30 g scallions, finely sliced",
+        "20 g fresh ginger, minced",
+        "15 g garlic, minced",
+        "1 tbsp light soy sauce",
+        "1 tbsp oyster sauce",
+        "1 tsp dark soy sauce (for color)",
+        "1 tbsp Shaoxing wine",
+        "½ tsp white pepper",
+        "1 tsp sesame oil",
+        "1 tsp sugar",
+        "1 tbsp cornstarch slurry (to bind)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Make Bao Dough",
+      "steps": [
+        "Dissolve yeast and sugar in warm water. Rest 5 minutes until foamy.",
+        "In a mixer bowl, combine flour, yeast mixture, oil, salt. Knead 8–10 min until smooth.",
+        "Cover and proof in warm area 60–90 min until doubled.",
+        "Punch down, knead briefly, rest 10 min.",
+        "Roll into log, divide into 12–14 equal pieces, shape into balls. Cover to prevent drying."
+      ]
+    },
+    {
+      "title": "Prepare Chicken Filling",
+      "steps": [
+        "Mix all filling ingredients in a bowl until tacky (stir in one direction for texture).",
+        "Chill mixture for 20–30 minutes for easier handling."
+      ]
+    },
+    {
+      "title": "Assembly",
+      "steps": [
+        "Roll each dough ball into a 9–10 cm circle (slightly thicker in center).",
+        "Place ~2 tbsp filling in center.",
+        "Pleat edges evenly and twist to seal (classic baozi fold).",
+        "Place each bao on parchment square.",
+        "Proof 20–25 min (covered, warm, not overproofed)."
+      ]
+    },
+    {
+      "title": "Steaming",
+      "steps": [
+        "Prepare a bamboo steamer lined with parchment or cabbage leaves.",
+        "Steam over medium-high heat 12–14 min.",
+        "Turn off heat, rest 2 min before opening lid (prevents collapse)."
+      ]
+    },
+    {
+      "title": "Presentation",
+      "steps": [
+        "Serve hot, garnished with a brush of sesame oil for shine.",
+        "Plate with pickled cucumbers or a microgreen garnish.",
+        "Optional dip: Black vinegar + thinly sliced ginger."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use chicken thigh for succulence. Breast dries out.",
+    "Always proof twice: first bulk ferment, then shaped proof.",
+    "Don’t overfill; balance bun-to-filling ratio.",
+    "Control steaming heat – medium-high prevents bursting."
+  ]
+}
