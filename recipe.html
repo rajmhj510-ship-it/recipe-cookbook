@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -9,23 +10,51 @@
 </head>
 
 <body>
-<button class="back-logo" onclick="history.back()">
-	<img src="logo.png" alt="back logo" />
-	<span>← Back</span>
-</button>
-	
-<!-- HERO -->
-<div id="hero"></div>
 
-<!-- TITLE -->
-<h1 class="recipe-page-title" id="title"></h1>
+<button class="back-btn" onclick="history.back()">
+    ← Back
+</button>
+
+<!-- HERO -->
+
+<header id="hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <span class="recipe-category" id="category"></span>
+            <h1 id="title"></h1>
+
+```
+        <div class="recipe-meta">
+            <span id="time"></span>
+            <span id="difficulty"></span>
+        </div>
+    </div>
+</div>
+```
+
+</header>
 
 <!-- CONTENT -->
-<div class="container">
-	<div id="ingredients"></div>
-	<div id="instructions"></div>
-	<div id="tips"></div>
-</div>
+
+<main class="recipe-layout">
+
+```
+<!-- LEFT COLUMN -->
+<aside class="ingredients-panel">
+    <div id="ingredients"></div>
+</aside>
+
+<!-- RIGHT COLUMN -->
+<section class="instructions-panel">
+
+    <div id="instructions"></div>
+
+    <div id="tips"></div>
+
+</section>
+```
+
+</main>
 
 <script src="js/recipe.js"></script>
 
