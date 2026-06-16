@@ -2,8 +2,9 @@
   "id": 213,
   "title": "Hot Garlic Chicken",
   "category": "Chinese",
-  "time": "35 min",
+  "time": "Servings: 4 portions | Time: Prep: 20 mins | Cooking: 15 mins",
   "difficulty": "Medium",
+
   "image": "assets/images/chinese/hot-garlic-chicken.png",
 
   "ingredients": [
@@ -14,28 +15,28 @@
         "1 tbsp light soy sauce",
         "1 tbsp Shaoxing wine (or dry sherry)",
         "1 tsp ginger-garlic paste",
-        "1/2 tsp white pepper",
+        "½ tsp white pepper",
         "1 tbsp cornstarch"
       ]
     },
     {
       "title": "For Sauce",
       "items": [
-        "3 tbsp oil (neutral oil like peanut or canola)",
+        "3 tbsp oil (neutral, e.g., peanut or canola)",
         "10–12 cloves garlic, finely chopped",
-        "3–4 dried red chilies, broken",
+        "3–4 dried red chilies, broken (optional: soaked in warm water for softer texture)",
         "1 tbsp ginger, finely chopped",
-        "1 medium onion, diced",
-        "1 medium red bell pepper, diced",
-        "2–3 fresh chilies, slit",
-        "2 tbsp chili paste",
+        "1 medium onion, diced into large cubes",
+        "1 medium red bell pepper, diced into large cubes",
+        "2–3 fresh red/green chilies, slit",
+        "2 tbsp chili paste (Sichuan or homemade chili-garlic paste)",
         "2 tbsp tomato ketchup",
         "2 tbsp dark soy sauce",
-        "1 tbsp light soy sauce",
-        "1 tbsp rice vinegar",
-        "1 1/2 tbsp sugar",
+        "2 tbsp light soy sauce",
+        "1 tbsp rice vinegar (or white vinegar)",
+        "1½ tbsp sugar (balance to taste)",
         "1 cup chicken stock",
-        "2 tsp cornstarch + 3 tbsp water (slurry)",
+        "2 tsp cornstarch mixed with 3 tbsp water (slurry)",
         "Salt to taste",
         "1 tsp sesame oil"
       ]
@@ -43,7 +44,7 @@
     {
       "title": "Garnish",
       "items": [
-        "Spring onions, chopped",
+        "Spring onions, finely chopped",
         "Toasted sesame seeds (optional)"
       ]
     }
@@ -51,50 +52,51 @@
 
   "instruction": [
     {
-      "title": "Marinate Chicken",
+      "title": "Marinate & Prep Chicken",
       "steps": [
-        "Mix chicken with soy sauce, Shaoxing wine, ginger-garlic paste, white pepper, and cornstarch.",
-        "Rest for 15 minutes."
+        "In a bowl, mix chicken cubes with light soy sauce, Shaoxing wine, ginger-garlic paste, white pepper, and cornstarch.",
+        "Let it rest for 15 minutes."
       ]
     },
     {
-      "title": "Cook Chicken",
+      "title": "Fry Chicken",
       "steps": [
-        "Heat oil in a wok until hot.",
-        "Sear chicken until golden and 80% cooked.",
-        "Remove and set aside."
+        "Heat a wok with 2 tbsp oil until smoking hot.",
+        "Sear chicken pieces on high heat until golden and 80% cooked. Remove and set aside."
       ]
     },
     {
-      "title": "Make Sauce",
+      "title": "Build Hot Garlic Sauce",
       "steps": [
-        "Add oil, fry garlic until fragrant.",
-        "Add chilies, ginger, onion, bell pepper and stir-fry briefly.",
-        "Add sauces, chili paste, ketchup, vinegar, and sugar.",
-        "Pour in chicken stock and simmer."
+        "In the same wok, add 1 tbsp oil.",
+        "Stir-fry chopped garlic until fragrant but not burnt.",
+        "Add dried red chilies, chopped ginger, fresh chilies, onion, and bell pepper. Toss on high heat for 30–40 seconds (should remain crunchy).",
+        "Stir in chili paste, ketchup, dark soy, light soy, vinegar, and sugar. Cook until the sauce bubbles.",
+        "Add chicken stock and bring to a simmer."
       ]
     },
     {
-      "title": "Finish Dish",
+      "title": "Thicken & Finish",
       "steps": [
-        "Return chicken to wok and mix well.",
-        "Add cornstarch slurry and cook until sauce thickens and becomes glossy.",
-        "Adjust salt and add sesame oil."
+        "Return chicken to wok, toss well.",
+        "Stir in cornstarch slurry gradually to get a glossy, thick sauce that coats the chicken.",
+        "Adjust seasoning with salt and a touch of sesame oil for aroma."
       ]
     },
     {
-      "title": "Serve",
+      "title": "Garnish & Serve",
       "steps": [
-        "Garnish with spring onions and sesame seeds.",
-        "Serve hot with rice or noodles."
+        "Sprinkle spring onions (and sesame seeds if using).",
+        "Serve piping hot with fried rice, noodles, or steamed jasmine rice."
       ]
     }
   ],
 
   "chefTips": [
-    "Use high heat for authentic wok flavor.",
-    "Keep vegetables crunchy.",
-    "Balance sweet, spicy, and savory flavors carefully.",
-    "Do not over-thicken the sauce."
+    "High heat wok cooking is essential for the smoky \"wok hei\" flavor.",
+    "Balance spicy, tangy, sweet, and umami elements carefully.",
+    "Use Shaoxing wine for authentic depth of flavor.",
+    "Keep vegetables crunchy; don’t overcook.",
+    "Sauce should be thick, glossy, and cling to chicken, not watery."
   ]
 }
