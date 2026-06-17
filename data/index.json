@@ -242,6 +242,15 @@
   "time": "",
   "difficulty": ""
 },
+    {
+  "id": 225,
+  "title": "Glass Noodle Salad",
+  "category": "Chinese",
+  "file": "data/chinese/glass-noodle-salad.json",
+  "image": "assets/images/chinese/glass-noodle-salad.png",
+  "time": "30",
+  "difficulty": "Easy"
+},
   {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
