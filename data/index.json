@@ -251,6 +251,15 @@
   "time": "30",
   "difficulty": "Easy"
 },
+      {
+  "id": 226,
+  "title": "Vegetable Manchurian",
+  "category": "Chinese",
+  "file": "data/chinese/vegetable-manchurian.json",
+  "image": "assets/images/vegetable-manchurian.png",
+  "time": "35",
+  "difficulty": "Medium"
+},
   {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
