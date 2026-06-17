@@ -1,0 +1,91 @@
+{
+  "id": "226",
+  "title": "Vegetable Manchurian",
+  "category": "Chinese",
+  "time": "35 mins",
+  "difficulty": "Medium",
+  "image": "assets/chinese/images/vegetable-manchurian.png",
+
+  "ingredients": [
+    {
+      "title": "Manchurian Balls",
+      "items": [
+        "1 cup finely chopped cabbage",
+        "½ cup carrot, grated",
+        "¼ cup capsicum, finely chopped",
+        "2–3 spring onions, finely chopped",
+        "½ cup all-purpose flour (maida)",
+        "2 tbsp cornflour",
+        "1–2 green chilies, finely chopped (optional)",
+        "1 tsp ginger-garlic paste",
+        "Salt & pepper to taste",
+        "Oil for deep frying"
+      ]
+    },
+    {
+      "title": "Sauce",
+      "items": [
+        "2 tbsp oil",
+        "1 tsp ginger-garlic paste",
+        "1 green chili, slit",
+        "½ cup capsicum, cubed",
+        "2–3 spring onions (white part), chopped",
+        "2 tbsp soy sauce",
+        "1 tbsp tomato ketchup",
+        "1 tbsp chili sauce",
+        "1 tsp vinegar",
+        "½–1 cup vegetable stock or water",
+        "1–2 tsp cornflour slurry (1 tsp cornflour + 2 tbsp water)",
+        "Salt & pepper to taste"
+      ]
+    },
+    {
+      "title": "Garnish",
+      "items": [
+        "Spring onion greens",
+        "Optional: few drops sesame oil"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare Manchurian Balls",
+      "steps": [
+        "Mix cabbage, carrot, capsicum, spring onions, green chilies, ginger-garlic paste, salt, and pepper.",
+        "Add maida and cornflour gradually until mixture binds well.",
+        "Shape into small balls (1–1.5 inch).",
+        "Deep fry on medium heat until golden and crisp.",
+        "Drain on paper towels."
+      ]
+    },
+    {
+      "title": "2. Prepare Sauce",
+      "steps": [
+        "Heat oil in wok and sauté ginger-garlic paste and green chili for 30 seconds.",
+        "Add capsicum and spring onion whites, stir-fry 1–2 minutes.",
+        "Add soy sauce, ketchup, chili sauce, and vinegar.",
+        "Add vegetable stock/water and bring to simmer.",
+        "Add cornflour slurry to thicken sauce.",
+        "Adjust seasoning."
+      ]
+    },
+    {
+      "title": "3. Combine",
+      "steps": [
+        "Add fried balls into sauce.",
+        "Toss gently to coat evenly.",
+        "Cook 1–2 minutes for absorption.",
+        "Garnish with spring onion greens."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Do not overmix vegetables or balls will become dense.",
+    "Keep oil medium-hot for crispy texture.",
+    "Add balls only at the end to prevent sogginess.",
+    "Adjust chili sauce based on spice tolerance.",
+    "Best served immediately for best texture."
+  ]
+}
