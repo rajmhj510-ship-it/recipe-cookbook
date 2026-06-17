@@ -1,0 +1,97 @@
+{
+  "id": "224",
+  "title": "Honey Chili Vegetable Balls",
+  "category": "Chinese",
+  
+  "image": "images/honey-chili-vegetable-balls.jpg",
+  
+  "ingredients": [
+    {
+      "title": "For the Vegetable Balls",
+      "items": [
+        "1 cup cabbage, finely shredded",
+        "½ cup carrot, grated",
+        "¼ cup capsicum (bell pepper), finely chopped",
+        "¼ cup spring onions, finely chopped",
+        "½ cup paneer or tofu, crumbled (optional for extra richness)",
+        "3 tbsp cornflour",
+        "2 tbsp all-purpose flour (maida)",
+        "1 tsp ginger-garlic paste",
+        "Salt to taste",
+        "White pepper powder to taste",
+        "Oil for deep frying"
+      ]
+    },
+    {
+      "title": "For the Honey Chili Sauce",
+      "items": [
+        "3 tbsp honey",
+        "1.5 tbsp soy sauce",
+        "1 tbsp tomato ketchup",
+        "1 tsp red chili sauce (adjust to taste)",
+        "1 tsp rice vinegar or white vinegar",
+        "1 tsp cornflour mixed with 2 tbsp water (slurry)",
+        "1 tsp sesame oil",
+        "2-3 garlic cloves, finely chopped",
+        "1 tsp fresh ginger, finely chopped",
+        "1-2 red chilies, finely sliced (optional, for extra heat)"
+      ]
+    },
+    {
+      "title": "Garnish",
+      "items": [
+        "Spring onions, finely chopped",
+        "Sesame seeds, toasted"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Prepare the Vegetable Balls",
+      "steps": [
+        "In a large mixing bowl, combine cabbage, carrot, capsicum, spring onions, and paneer/tofu.",
+        "Add cornflour, all-purpose flour, ginger-garlic paste, salt, and pepper. Mix well.",
+        "Adjust the consistency by adding a little water if needed. The mixture should hold together when shaped.",
+        "Shape the mixture into small balls (about 1.5 inches in diameter)."
+      ]
+    },
+    {
+      "title": "2. Fry the Vegetable Balls",
+      "steps": [
+        "Heat oil in a deep pan over medium heat.",
+        "Deep fry the balls until golden brown and crispy.",
+        "Remove and drain on paper towels."
+      ]
+    },
+    {
+      "title": "3. Prepare the Honey Chili Sauce",
+      "steps": [
+        "In a wok or skillet, heat sesame oil.",
+        "Sauté garlic, ginger, and red chilies until fragrant.",
+        "Add soy sauce, honey, tomato ketchup, red chili sauce, and vinegar. Stir to combine.",
+        "Bring to a gentle simmer and add the cornflour slurry to thicken the sauce.",
+        "Cook for 1-2 minutes until glossy."
+      ]
+    },
+    {
+      "title": "4. Coat the Balls",
+      "steps": [
+        "Add the fried vegetable balls into the sauce and toss gently to coat evenly.",
+        "Cook for another 1-2 minutes on low heat to let the flavors infuse."
+      ]
+    },
+    {
+      "title": "5. Garnish and Serve",
+      "steps": [
+        "Sprinkle with chopped spring onions and toasted sesame seeds.",
+        "Serve hot as an appetizer or as part of a main meal with fried rice or noodles."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Crunch Factor: Squeeze out excess water from vegetables for crispier balls.",
+    "Even Frying: Keep oil at medium heat to ensure balls cook through without burning.",
+    "Sauce Consistency: Use a cornstarch slurry to get that glossy, clingy sauce just like in restaurants.",
+    "Flavor Balance: Honey for sweetness, soy sauce for umami, vinegar for tang, and chili for heat – adjust to taste."
+  ]
+}
