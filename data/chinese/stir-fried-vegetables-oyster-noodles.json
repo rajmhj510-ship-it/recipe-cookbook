@@ -1,0 +1,92 @@
+{
+  "title": "Stir-Fried Vegetables with Oyster Sauce & Noodles",
+  "category": "Chinese",
+  "image": "images/stir-fried-vegetables-oyster-noodles.jpg",
+  "ingredients": [
+    {
+      "title": "For the noodles",
+      "items": [
+        "200g fresh egg noodles or thin wheat noodles",
+        "1 tsp sesame oil (optional)"
+      ]
+    },
+    {
+      "title": "For the stir-fry",
+      "items": [
+        "2 tbsp vegetable oil (or peanut oil for aroma)",
+        "3 cloves garlic, thinly sliced",
+        "1-inch piece fresh ginger, julienned",
+        "1 medium carrot, thinly sliced",
+        "1 red bell pepper, julienned",
+        "100g broccoli florets",
+        "50g snow peas or sugar snap peas",
+        "2 spring onions, sliced diagonally"
+      ]
+    },
+    {
+      "title": "Sauce",
+      "items": [
+        "2 tbsp oyster sauce",
+        "1 tbsp light soy sauce",
+        "1 tsp dark soy sauce (for color)",
+        "1 tsp sugar",
+        "2 tbsp water or vegetable stock",
+        "½ tsp white pepper (optional)",
+        "½ tsp sesame oil (for finishing)"
+      ]
+    },
+    {
+      "title": "Optional garnish",
+      "items": [
+        "Toasted sesame seeds",
+        "Extra spring onions"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Cook the noodles",
+      "steps": [
+        "Bring a pot of water to boil. Cook noodles until just al dente. Drain and toss lightly with 1 tsp sesame oil to prevent sticking. Set aside."
+      ]
+    },
+    {
+      "title": "2. Prepare the sauce",
+      "steps": [
+        "In a small bowl, mix oyster sauce, light soy sauce, dark soy sauce, sugar, water, and white pepper. Set aside."
+      ]
+    },
+    {
+      "title": "3. Stir-fry vegetables",
+      "steps": [
+        "Heat a wok over high heat until smoking slightly.",
+        "Add vegetable oil. Stir-fry garlic and ginger for 15–20 seconds until fragrant.",
+        "Add carrots and broccoli first, stir-fry for 1–2 minutes.",
+        "Add bell peppers and snow peas, stir-fry another 1–2 minutes, keeping vegetables crisp-tender."
+      ]
+    },
+    {
+      "title": "4. Combine noodles and sauce",
+      "steps": [
+        "Add cooked noodles to the wok.",
+        "Pour in the prepared sauce. Toss quickly using tongs or chopsticks to coat everything evenly.",
+        "Stir-fry for another 1–2 minutes to allow noodles to absorb the sauce."
+      ]
+    },
+    {
+      "title": "5. Finish and serve",
+      "steps": [
+        "Drizzle with sesame oil.",
+        "Garnish with sliced spring onions and toasted sesame seeds.",
+        "Serve immediately while hot."
+      ]
+    }
+  ],
+  "chefTips": [
+    "High heat, fast stir-fry: Keeps vegetables crisp and bright.",
+    "Prep everything in advance: Once the wok is hot, stir-frying happens in seconds.",
+    "Use fresh oyster sauce: Gives a natural umami punch, better than the cheaper dark, thick sauces.",
+    "Noodle texture: Slightly undercook noodles so they don’t go mushy when stir-fried.",
+    "Optional protein: Add thinly sliced beef, chicken, or tofu for a more substantial dish."
+  ]
+}
