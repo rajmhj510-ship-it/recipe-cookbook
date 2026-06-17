@@ -1,0 +1,85 @@
+{
+  "title": "Potato Chili (Tǔdòu làjiāo chǎo)",
+  "category": "Chinese",
+  "image": "images/potato-chili.jpg",
+  "ingredients": [
+    {
+      "title": "Main",
+      "items": [
+        "1 large potato (about 200g), julienned",
+        "3–4 fresh green chilies, sliced diagonally",
+        "1 dried red chili, halved",
+        "1/4 red bell pepper (optional), thinly sliced",
+        "2 cloves garlic, minced",
+        "1/2 inch ginger, minced",
+        "1 scallion, chopped (white and green parts separated)"
+      ]
+    },
+    {
+      "title": "For soaking/blanching",
+      "items": [
+        "Cold water",
+        "1/2 tsp white vinegar",
+        "Salt for blanching"
+      ]
+    },
+    {
+      "title": "Sauce",
+      "items": [
+        "1/2 tbsp light soy sauce",
+        "1/2 tsp dark soy sauce",
+        "1/2 tsp Chinese black vinegar",
+        "1/4 tsp sugar",
+        "2 tsp water"
+      ]
+    },
+    {
+      "title": "Oil & seasoning",
+      "items": [
+        "1.5 tbsp neutral oil (peanut, sunflower, or canola)",
+        "1/4 tsp Sichuan peppercorns (optional)",
+        "Salt to taste",
+        "A dash of MSG (optional)",
+        "Few drops sesame oil (optional for finish)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Prep the Potatoes",
+      "steps": [
+        "Peel and cut into fine matchsticks (around 3–4 mm thick).",
+        "Soak in cold water with 1/2 tsp vinegar for 10–15 minutes.",
+        "Optional: Blanch in boiling salted water for 30 seconds, then rinse in cold water and pat dry."
+      ]
+    },
+    {
+      "title": "2. Prepare Sauce",
+      "steps": [
+        "In a small bowl, combine:",
+        "1/2 tbsp light soy sauce",
+        "1/2 tsp dark soy sauce",
+        "1/2 tsp black vinegar",
+        "1/4 tsp sugar",
+        "2 tsp water",
+        "Set aside."
+      ]
+    },
+    {
+      "title": "3. Cook",
+      "steps": [
+        "Heat wok over high heat until lightly smoking.",
+        "Add 1.5 tbsp oil. Toss in Sichuan peppercorns (if using) and dried red chili. Stir-fry 10 seconds.",
+        "Add garlic, ginger, and scallion whites. Stir-fry ~20 seconds.",
+        "Add green chilies and bell pepper. Cook 30 seconds until just softened.",
+        "Add potato strips. Stir-fry 1–2 minutes on high heat, keeping them crisp-tender.",
+        "Pour in sauce. Toss to coat evenly. Adjust salt to taste.",
+        "Finish with scallion greens and optional sesame oil drizzle."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Plate immediately while hot.",
+    "Serve as a standalone side, with steamed jasmine rice, or next to stir-fried tofu or meat."
+  ]
+}
