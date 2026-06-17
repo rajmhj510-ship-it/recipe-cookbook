@@ -251,12 +251,12 @@
   "time": "30",
   "difficulty": "Easy"
 },
-      {
+   {
   "id": 226,
   "title": "Vegetable Manchurian",
   "category": "Chinese",
   "file": "data/chinese/vegetable-manchurian.json",
-  "image": "assets/images/vegetable-manchurian.png",
+  "image": "assets/images/chinese/vegetable-manchurian.png",
   "time": "35",
   "difficulty": "Medium"
 },
