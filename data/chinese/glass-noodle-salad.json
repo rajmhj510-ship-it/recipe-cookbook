@@ -1,0 +1,103 @@
+{
+  "id": "225",
+  "title": "Glass Noodle Salad",
+  "category": "Chinese",
+  "time": "30 mins",
+  "difficulty": "Easy",
+  "image": "assets/images/chinese/glass-noodle-salad.png",
+
+  "ingredients": [
+    {
+      "title": "Noodles",
+      "items": [
+        "100g glass noodles (mung bean / cellophane noodles)",
+        "1 tsp sesame oil"
+      ]
+    },
+    {
+      "title": "Vegetables",
+      "items": [
+        "1 small cucumber, julienned",
+        "1 medium carrot, julienned",
+        "1 red bell pepper, thinly sliced",
+        "2 spring onions, thinly sliced",
+        "50g bean sprouts (optional)"
+      ]
+    },
+    {
+      "title": "Protein (Optional)",
+      "items": [
+        "100g cooked shrimp, chicken, or tofu"
+      ]
+    },
+    {
+      "title": "Dressing",
+      "items": [
+        "2 tbsp light soy sauce",
+        "1 tbsp rice vinegar",
+        "1 tsp sugar",
+        "1 tsp sesame oil",
+        "1 tbsp neutral oil (vegetable or canola)",
+        "1 small garlic clove, minced",
+        "1 tsp grated ginger",
+        "1 tsp chili oil (optional)",
+        "1 tbsp toasted sesame seeds"
+      ]
+    },
+    {
+      "title": "Garnish",
+      "items": [
+        "Fresh cilantro or Thai basil",
+        "Extra sesame seeds",
+        "Crushed roasted peanuts (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Cook the Glass Noodles",
+      "steps": [
+        "Soak the noodles in warm water for 5–7 minutes until soft, or boil for 2–3 minutes.",
+        "Drain and rinse under cold water.",
+        "Toss with sesame oil to prevent sticking."
+      ]
+    },
+    {
+      "title": "2. Prepare Vegetables and Protein",
+      "steps": [
+        "Julienne cucumber, carrot, and red bell pepper.",
+        "Slice spring onions and blanch bean sprouts if using.",
+        "Slice protein into bite-sized pieces."
+      ]
+    },
+    {
+      "title": "3. Make the Dressing",
+      "steps": [
+        "Whisk together soy sauce, rice vinegar, sugar, sesame oil, neutral oil, garlic, ginger, and chili oil."
+      ]
+    },
+    {
+      "title": "4. Assemble the Salad",
+      "steps": [
+        "Combine noodles, vegetables, and protein in a large bowl.",
+        "Pour dressing over and toss gently to coat evenly."
+      ]
+    },
+    {
+      "title": "5. Garnish and Serve",
+      "steps": [
+        "Sprinkle sesame seeds, herbs, and peanuts on top.",
+        "Serve immediately or chilled."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Glass noodles should be firm but slippery, not mushy.",
+    "Rinse noodles with cold water after cooking.",
+    "Toss noodles with sesame oil to prevent sticking.",
+    "Balance savory, sweet, tangy, and spicy flavors carefully.",
+    "For best texture, serve immediately after dressing."
+  ]
+}
