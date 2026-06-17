@@ -1,0 +1,83 @@
+{
+  "id": "223",
+  "title": "Bok Choy with Black Mushrooms",
+  "category": "Chinese",
+  "image": "assets/images/chinese/bok-choy-black-mushrooms.png",
+  "ingredients": [
+    {
+      "title": "Main",
+      "items": [
+        "500g baby bok choy (washed, halved lengthwise if large)",
+        "12–15 dried black mushrooms (shiitake recommended)",
+        "2 tbsp vegetable or peanut oil",
+        "3 garlic cloves (finely minced)",
+        "1-inch piece of ginger (julienned)",
+        "2 scallions (cut into 2-inch pieces)"
+      ]
+    },
+    {
+      "title": "Sauce",
+      "items": [
+        "2 tsp oyster sauce",
+        "1 tsp light soy sauce",
+        "½ tsp dark soy sauce (for color)",
+        "½ tsp sugar",
+        "3 tbsp water or vegetable stock",
+        "1 tsp cornstarch mixed with 1 tbsp water (slurry)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Rehydrate Mushrooms",
+      "steps": [
+        "Soak dried black mushrooms in warm water for 30–45 minutes until soft.",
+        "Remove stems and slice if large. Reserve soaking liquid, strain and keep for sauce."
+      ]
+    },
+    {
+      "title": "2. Blanch Bok Choy",
+      "steps": [
+        "Bring a pot of water to boil, add a pinch of salt.",
+        "Blanch bok choy for 30–45 seconds until bright green and tender-crisp.",
+        "Immediately transfer to ice water to stop cooking. Drain and set aside."
+      ]
+    },
+    {
+      "title": "3. Prepare Sauce",
+      "steps": [
+        "In a small bowl, mix oyster sauce, soy sauces, sugar, and water/stock. Set aside."
+      ]
+    },
+    {
+      "title": "4. Stir-Fry Aromatics",
+      "steps": [
+        "Heat oil in a wok over medium-high heat.",
+        "Add garlic and ginger, stir-fry for 20–30 seconds until fragrant.",
+        "Add black mushrooms and stir-fry for 1–2 minutes."
+      ]
+    },
+    {
+      "title": "5. Combine & Finish",
+      "steps": [
+        "Add the blanched bok choy to the wok.",
+        "Pour in the sauce and toss gently to coat evenly.",
+        "Drizzle in cornstarch slurry while stirring, cook until sauce thickens and glazes vegetables.",
+        "Toss in scallions, give a final stir, and remove from heat."
+      ]
+    },
+    {
+      "title": "6. Plating",
+      "steps": [
+        "Arrange bok choy neatly on a serving plate with mushrooms on top.",
+        "Spoon extra glossy sauce over vegetables for a restaurant-style finish."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use baby bok choy for a tender texture and elegant presentation.",
+    "Ensure high heat stir-frying to preserve color and crunch.",
+    "Mushroom soaking liquid can be used to enhance the umami depth of the sauce.",
+    "For a luxury version, drizzle a few drops of sesame oil or add a touch of Shaoxing wine while stir-frying."
+  ]
+}
