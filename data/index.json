@@ -215,6 +215,15 @@
   "time": "",
   "difficulty": ""
 },
+      {
+  "id": 222,
+  "title": "Stir-Fried Vegetables with Oyster Sauce & Noodles",
+  "category": "Chinese",
+  "file": "data/chinese/stir-fried-vegetables-oyster-noodles.json",
+  "image": "assets/images/chinese/stir-fried-vegetables-oyster-noodles.png",
+  "time": "",
+  "difficulty": ""
+},
   {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
