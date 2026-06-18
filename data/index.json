@@ -311,6 +311,7 @@
     "category": "Indian",
     "file": "data/indian/brown-gravy.json",
     "image": "assets/images/indian/brown-gravy.png",
+    "description": "",
     "time": "90 min",
     "difficulty": ""
       },
@@ -320,6 +321,7 @@
     "category": "Indian",
     "file": "data/indian/red-gravy.json",
     "image": "assets/images/indian/red-gravy.png",
+    "description": "",
     "time": "90 min",
     "difficulty": ""
       },
@@ -329,6 +331,7 @@
     "category": "Indian",
     "file": "data/indian/makhani-gravy.json",
     "image": "assets/images/indian/makhani-gravy.png",
+    "description": "",
     "time": "90 min",
     "difficulty": ""
       },
@@ -338,6 +341,7 @@
     "category": "Indian",
     "file": "data/indian/white-gravy.json",
     "image": "assets/images/indian/white-gravy.png",
+    "description": "A neutral, mildly sweet, rich Mughlai gravy with a signature creamy white-beige color. This luxurious sauce forms the foundation of classic dishes such as Shahi Paneer, Navratan Korma, Chicken Korma, and Malai Kofta.",
     "time": "90 min",
     "difficulty": ""
       },
