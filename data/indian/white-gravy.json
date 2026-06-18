@@ -1,0 +1,100 @@
+{
+  "id": "406",
+  "title": "White Gravy (Shahi/Korma Base)",
+  "category": "indian",
+  "image": "assets/images/indian/white-gravy.jpg",
+
+  "ingredients": [
+    {
+      "title": "Main Ingredients",
+      "items": [
+        "Onions (white or light-skinned) – 250 g, sliced",
+        "Cashew nuts – 75 g",
+        "Melon seeds (char magaz) – 25 g (optional)",
+        "Ginger – 15 g",
+        "Garlic – 15 g",
+        "Green chilies – 2–3, slit",
+        "Milk – 200 ml",
+        "Fresh cream – 75 ml",
+        "Ghee or neutral oil – 50 ml"
+      ]
+    },
+    {
+      "title": "Whole Spices",
+      "items": [
+        "Green cardamom – 5–6",
+        "Cloves – 3",
+        "Cinnamon stick – 1 inch",
+        "Bay leaf – 1"
+      ]
+    },
+    {
+      "title": "Seasoning",
+      "items": [
+        "Salt – to taste",
+        "Sugar – ½ tsp (optional)",
+        "Water – as needed"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare Nuts & Seeds",
+      "steps": [
+        "Soak cashews and melon seeds in hot water for 20 minutes.",
+        "Drain and blend with a small amount of water into a smooth paste."
+      ]
+    },
+    {
+      "title": "2. Cook the Onions",
+      "steps": [
+        "Heat ghee or oil in a heavy-bottomed pan.",
+        "Add cardamom, cloves, cinnamon, and bay leaf.",
+        "Sauté until aromatic.",
+        "Add sliced onions and cook on medium-low heat until translucent without browning.",
+        "Add ginger, garlic, and green chilies.",
+        "Cook gently for 2 minutes until fragrant."
+      ]
+    },
+    {
+      "title": "3. Blend the Base",
+      "steps": [
+        "Remove the bay leaf and cinnamon stick if desired.",
+        "Transfer the onion mixture to a blender.",
+        "Add a little warm water and blend into a smooth paste."
+      ]
+    },
+    {
+      "title": "4. Cook the Gravy",
+      "steps": [
+        "Return the onion paste to the pan.",
+        "Add the cashew-melon seed paste.",
+        "Cook on low heat for 3–4 minutes, stirring continuously.",
+        "Slowly pour in the milk while stirring.",
+        "Add water to achieve a medium-thick consistency.",
+        "Season with salt and optional sugar.",
+        "Simmer gently for 8–10 minutes."
+      ]
+    },
+    {
+      "title": "5. Finish",
+      "steps": [
+        "Reduce heat to low.",
+        "Stir in fresh cream.",
+        "Simmer briefly without boiling.",
+        "For a fine-dining texture, strain through a fine sieve before serving."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Keep onions pale and translucent; browning will darken the gravy.",
+    "For an ultra-smooth restaurant texture, strain after blending.",
+    "A few drops of kewra water or rose water add authentic Mughlai aroma.",
+    "Add cream only at the end to prevent splitting.",
+    "Store refrigerated for up to 3 days and reheat gently.",
+    "Freeze in portions for up to 2 months.",
+    "Ideal as a base for Shahi Paneer, Chicken Korma, Malai Kofta, Navratan Korma, and Mughlai vegetable curries."
+  ]
+}
