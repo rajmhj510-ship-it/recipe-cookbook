@@ -34,6 +34,7 @@ async function loadRecipe() {
 		/* HERO */
 		document.getElementById("title").textContent = data.title || "Recipe";
 		document.getElementById("category").textContent = data.category || "";
+		document.getElementById("description").textContent = data.description || "";
 		document.getElementById("time").textContent = data.time || "";
 		document.getElementById("difficulty").textContent = data.difficulty || "";
 
