@@ -1,0 +1,108 @@
+{
+  "id": "406",
+  "title": "Makhani Gravy",
+  "category": "Base Gravy",
+  
+  "image": "assets/images/indian/makhani-gravy.png",
+
+  "ingredients": [
+    {
+      "title": "Base Cooking",
+      "items": [
+        "Oil – 50 ml",
+        "Butter – 50 g (unsalted)",
+        "Green cardamom – 6 pods",
+        "Cloves – 4",
+        "Cinnamon stick – 1 inch",
+        "Bay leaf – 1 small",
+        "Black cardamom – 1 (optional)"
+      ]
+    },
+    {
+      "title": "Main Body",
+      "items": [
+        "Fresh ripe tomatoes – 1.2 kg, quartered",
+        "Ginger – 20 g, peeled and chopped",
+        "Garlic – 30 g, peeled and chopped",
+        "Kashmiri red chili powder – 10 g",
+        "Cashew nuts – 80 g, soaked in warm water for 20 minutes",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "Finishing & Balancing",
+      "items": [
+        "Honey or sugar – 15–20 g",
+        "Fresh cream – 100 ml",
+        "Kasuri methi – 3 g, toasted and crushed",
+        "Butter – 30 g (additional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Heat & Temper",
+      "steps": [
+        "Heat oil and 25 g butter in a heavy-bottomed pot over medium heat.",
+        "Add green cardamom, cloves, cinnamon, bay leaf, and black cardamom.",
+        "Sauté for 30–40 seconds until fragrant."
+      ]
+    },
+    {
+      "title": "2. Build the Base",
+      "steps": [
+        "Add chopped ginger and garlic.",
+        "Sauté gently without browning.",
+        "Add tomatoes, soaked cashews, salt, and Kashmiri red chili powder.",
+        "Mix thoroughly."
+      ]
+    },
+    {
+      "title": "3. Simmer Gently",
+      "steps": [
+        "Cover and cook on medium-low heat for 30–40 minutes.",
+        "Stir occasionally to prevent sticking.",
+        "Cook until tomatoes are completely soft and the oil begins to separate."
+      ]
+    },
+    {
+      "title": "4. Blend to Silk",
+      "steps": [
+        "Remove whole spices if desired.",
+        "Allow the mixture to cool slightly.",
+        "Blend into a very smooth puree.",
+        "For a restaurant-quality finish, strain through a fine sieve or chinois."
+      ]
+    },
+    {
+      "title": "5. Refine & Finish",
+      "steps": [
+        "Return the puree to the pot.",
+        "Add honey or sugar.",
+        "Add the remaining 25 g butter and fresh cream.",
+        "Add toasted crushed kasuri methi.",
+        "Simmer gently for 5–7 minutes.",
+        "Adjust seasoning and sweetness as needed."
+      ]
+    },
+    {
+      "title": "6. Final Gloss",
+      "steps": [
+        "Finish each serving with a swirl of fresh cream.",
+        "Add a small knob of butter before serving."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Tomato quality is crucial; use ripe, naturally sweet tomatoes for the best flavor.",
+    "Avoid boiling the gravy after adding cream to prevent splitting.",
+    "Straining the blended gravy creates an exceptionally smooth restaurant-style texture.",
+    "Cashews provide body and richness without needing excessive cream.",
+    "Store refrigerated for up to 4 days in an airtight container.",
+    "Freeze in portions for up to 2 months.",
+    "Use as a base for Butter Chicken, Paneer Makhani, Butter Paneer Masala, Dal Makhani, or vegetable makhani curries.",
+    "For extra richness, finish with a touch of butter and cream just before service."
+  ]
+}
