@@ -2,6 +2,8 @@
   "id": "405",
   "title": "Red Gravy",
   "category": "Base Gravy",
+    "time": "90 min",
+  "difficulty": "Medium",
   "image": "assets/images/indian/red-gravy.png",
 
   "ingredients": [
