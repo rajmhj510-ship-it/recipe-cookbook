@@ -1,0 +1,119 @@
+{
+  "title": "Brown Gravy",
+  "category": "Indian",
+  "image": "images/brown-gravy.jpg",
+
+  "ingredients": [
+    {
+      "title": "Aromatics & Base",
+      "items": [
+        "Onions – 650 g (sliced thinly)",
+        "Tomatoes – 325 g (roughly chopped)",
+        "Ginger – 32 g (peeled, chopped)",
+        "Garlic – 32 g (peeled)",
+        "Green chilies – 2 small (optional)"
+      ]
+    },
+    {
+      "title": "Oils & Fats",
+      "items": [
+        "Refined oil or ghee – 100 ml"
+      ]
+    },
+    {
+      "title": "Whole Spices",
+      "items": [
+        "Bay leaves – 2 small",
+        "Cinnamon stick – 1.5 inches",
+        "Green cardamoms – 4",
+        "Cloves – 4",
+        "Black cardamoms – 1",
+        "Cumin seeds – ¾ tsp",
+        "Mace – small pinch",
+        "Black peppercorns – 6–7"
+      ]
+    },
+    {
+      "title": "Ground Spices",
+      "items": [
+        "Turmeric powder – ¾ tsp",
+        "Coriander powder – 1 tbsp + 1 tsp",
+        "Kashmiri red chili powder – 1½ tsp",
+        "Garam masala – ¾ tsp"
+      ]
+    },
+    {
+      "title": "Liquids",
+      "items": [
+        "Water or stock – 1 liter (hot)"
+      ]
+    },
+    {
+      "title": "Seasoning",
+      "items": [
+        "Salt – about 2 tsp"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Caramelize the Onions",
+      "steps": [
+        "Heat oil in a heavy-bottom pan.",
+        "Add bay leaves, cinnamon, cardamom, cloves, cumin, mace, and peppercorns.",
+        "Sauté for 30 seconds until aromatic.",
+        "Add sliced onions and cook over medium heat for 30–40 minutes until deep golden brown.",
+        "Avoid burning the onions to prevent bitterness."
+      ]
+    },
+    {
+      "title": "2. Add Aromatics",
+      "steps": [
+        "Add ginger, garlic, and green chilies.",
+        "Cook for 2–3 minutes until the raw aroma disappears."
+      ]
+    },
+    {
+      "title": "3. Cook the Tomatoes",
+      "steps": [
+        "Add tomatoes, salt, turmeric, coriander powder, and chili powder.",
+        "Cook until tomatoes soften completely.",
+        "Continue until oil begins separating from the masala."
+      ]
+    },
+    {
+      "title": "4. Simmer",
+      "steps": [
+        "Pour in hot water or stock.",
+        "Reduce heat and simmer gently for 30 minutes."
+      ]
+    },
+    {
+      "title": "5. Blend Smooth",
+      "steps": [
+        "Remove whole spices if desired.",
+        "Blend the gravy until completely smooth.",
+        "Cool slightly before using a standard blender."
+      ]
+    },
+    {
+      "title": "6. Final Seasoning",
+      "steps": [
+        "Return gravy to the pan.",
+        "Add garam masala.",
+        "Adjust salt to taste.",
+        "Simmer for another 5 minutes."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Refrigerate for up to 5 days or freeze for 2–3 months.",
+    "Restaurants often use extra oil for better storage and reheating.",
+    "For korma, add cream and nuts.",
+    "For rogan josh, add yogurt and extra red chili.",
+    "For bhuna, cook meat directly in the gravy until thick.",
+    "For richer color and flavor, add 1 tbsp roasted gram flour (besan) while frying onions."
+  ]
+}
