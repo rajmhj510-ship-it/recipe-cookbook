@@ -2,7 +2,9 @@
   "id": "406",
   "title": "White Gravy (Shahi/Korma Base)",
   "category": "indian",
-  "image": "assets/images/indian/white-gravy.jpg",
+  "time": "90 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/white-gravy.png",
 
   "ingredients": [
     {
