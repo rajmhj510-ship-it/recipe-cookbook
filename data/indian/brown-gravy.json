@@ -1,7 +1,8 @@
 {
+  "id": "404",
   "title": "Brown Gravy",
   "category": "Indian",
-  "image": "images/brown-gravy.jpg",
+  "image": "assets/images/indina/brown-gravy.png",
 
   "ingredients": [
     {
