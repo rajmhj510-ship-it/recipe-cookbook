@@ -1,0 +1,102 @@
+{
+  "id": "405",
+  "title": "Red Gravy",
+  "category": "Base Gravy",
+  "image": "assets/images/indian/red-gravy.png",
+
+  "ingredients": [
+    {
+      "title": "Main Ingredients",
+      "items": [
+        "Tomatoes – 8–10 medium, fully ripe",
+        "Onions – 3 medium, finely chopped",
+        "Ginger-garlic paste – 3 tbsp",
+        "Green chilies – 2 (optional)"
+      ]
+    },
+    {
+      "title": "Spices",
+      "items": [
+        "Red chili powder – 2 tsp",
+        "Turmeric powder – 1 tsp",
+        "Coriander powder – 2 tsp",
+        "Cumin seeds – 1 tsp",
+        "Kasuri methi (dried fenugreek leaves) – 1 tsp",
+        "Garam masala – 1 tsp"
+      ]
+    },
+    {
+      "title": "Liquids & Fat",
+      "items": [
+        "Cooking oil or ghee – 6 tbsp",
+        "Water or stock – 1–2 cups"
+      ]
+    },
+    {
+      "title": "Seasoning",
+      "items": [
+        "Salt – to taste",
+        "Sugar – ½ tsp (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Roast & Blend Tomatoes",
+      "steps": [
+        "Roast tomatoes over an open flame or in the oven until lightly charred.",
+        "Allow to cool slightly.",
+        "Peel the tomatoes and blend into a smooth puree."
+      ]
+    },
+    {
+      "title": "2. Cook the Onions",
+      "steps": [
+        "Heat oil or ghee in a heavy-bottom pan.",
+        "Add cumin seeds and allow them to sizzle.",
+        "Add chopped onions.",
+        "Cook on low to medium heat until deep golden brown."
+      ]
+    },
+    {
+      "title": "3. Build the Masala Base",
+      "steps": [
+        "Add ginger-garlic paste and green chilies.",
+        "Sauté for 1–2 minutes until fragrant.",
+        "Add turmeric powder, red chili powder, and coriander powder.",
+        "Roast the spices briefly without burning."
+      ]
+    },
+    {
+      "title": "4. Add Tomato Puree",
+      "steps": [
+        "Pour in the tomato puree.",
+        "Cook on medium heat.",
+        "Stir occasionally until the mixture thickens.",
+        "Continue cooking until oil separates from the masala."
+      ]
+    },
+    {
+      "title": "5. Simmer & Finish",
+      "steps": [
+        "Add water or stock to achieve a pourable consistency.",
+        "Simmer for 10–15 minutes.",
+        "Crush kasuri methi between your palms and add to the gravy.",
+        "Add garam masala.",
+        "Adjust salt and sugar to taste."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Cook onions slowly and patiently for maximum flavor depth.",
+    "Replace part of the oil with ghee for a richer restaurant-style taste.",
+    "Keep the gravy slightly thick during storage; thin with stock or water when using.",
+    "A small pinch of sugar balances tomato acidity without making the gravy sweet.",
+    "Cool completely before storing.",
+    "Refrigerate for 3–4 days in an airtight container.",
+    "Freeze for up to 1 month in portion-sized containers or ice-cube trays.",
+    "Use as a base for paneer, chicken, vegetable, kofta, or curry dishes."
+  ]
+}
