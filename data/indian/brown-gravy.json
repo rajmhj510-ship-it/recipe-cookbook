@@ -2,6 +2,8 @@
   "id": "404",
   "title": "Brown Gravy",
   "category": "Indian",
+  "time": "90 min",
+  "difficulty": "Medium",
   "image": "assets/images/indina/brown-gravy.png",
 
   "ingredients": [
