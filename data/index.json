@@ -316,6 +316,15 @@
       },
       {
     "id": 405,
+    "title": "Makhani Gravy",
+    "category": "Indian",
+    "file": "data/indian/makhani-gravy.json",
+    "image": "assets/images/indian/makhani-gravy.png",
+    "time": "90 min",
+    "difficulty": ""
+      },
+      {
+    "id": 405,
     "title": "Red Gravy",
     "category": "Indian",
     "file": "data/indian/brown-gravy.json",
