@@ -11,7 +11,7 @@ function safeText(val) {
 	if (typeof val === "number") return String(val);
 
 	if (val && typeof val === "object") {
-		return val.text || val.step || val.name || "";
+		return val.text || val.step || val.name || val.description || "";
 	}
 
 	return "";
