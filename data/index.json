@@ -316,19 +316,19 @@
       },
       {
     "id": 405,
-    "title": "Makhani Gravy",
+    "title": "Red Gravy",
     "category": "Indian",
-    "file": "data/indian/makhani-gravy.json",
-    "image": "assets/images/indian/makhani-gravy.png",
+    "file": "data/indian/red-gravy.json",
+    "image": "assets/images/indian/red-gravy.png",
     "time": "90 min",
     "difficulty": ""
       },
       {
-    "id": 405,
-    "title": "Red Gravy",
+    "id": 406,
+    "title": "Makhani Gravy",
     "category": "Indian",
-    "file": "data/indian/brown-gravy.json",
-    "image": "assets/images/indian/red-gravy.png",
+    "file": "data/indian/makhani.json",
+    "image": "assets/images/indian/makhani-gravy.png",
     "time": "90 min",
     "difficulty": ""
       },
