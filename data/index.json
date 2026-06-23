@@ -345,6 +345,159 @@
     "time": "90 min",
     "difficulty": ""
       },
+    {
+    "id": 401,
+    "title": "Aloo Tikki",
+    "category": "Indian",
+    "file": "data/indian/aloo-tikki.json",
+    "image": "assets/images/indian/aloo-tikki.png",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 402,
+    "title": "Aloo Chaat",
+    "category": "Indian",
+    "file": "data/indian/aloo-chaat.json",
+    "image": "assets/images/indian/aloo-chaat.png",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 403,
+    "title": "Samosa",
+    "category": "Indian",
+    "file": "data/indian/samosa.json",
+    "image": "assets/images/indian/samosa.png",
+    "time": "45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 404,
+    "title": "Pakoda (Onion Base)",
+    "category": "Indian",
+    "file": "data/indian/pakoda-onion-base.json",
+    "image": "assets/images/indian/pakoda-onion-base.png",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 405,
+    "title": "Vegetable Pakoda",
+    "category": "Indian",
+    "file": "data/indian/vegetable-pakoda.json",
+    "image": "assets/images/indian/vegetable-pakoda.png",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 406,
+    "title": "Vegetable Pakoda (Restaurant Style)",
+    "category": "Indian",
+    "file": "data/indian/vegetable-pakoda-restaurant-style.json",
+    "image": "assets/images/indian/vegetable-pakoda-restaurant-style.png",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 407,
+    "title": "Bread Pakoda",
+    "category": "Indian",
+    "file": "data/indian/bread-pakoda.json",
+    "image": "assets/images/indian/bread-pakoda.png",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 408,
+    "title": "Vegetable Cutlets",
+    "category": "Indian",
+    "file": "data/indian/vegetable-cutlets.json",
+    "image": "assets/images/indian/vegetable-cutlets.png",
+    "time": "40 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 409,
+    "title": "Hara Bhara Kebab",
+    "category": "Indian",
+    "file": "data/indian/hara-bhara-kebab.json",
+    "image": "assets/images/indian/hara-bhara-kebab.png",
+    "time": "40 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 410,
+    "title": "Aloo Chop",
+    "category": "Indian",
+    "file": "data/indian/aloo-chop.json",
+    "image": "assets/images/indian/aloo-chop.png",
+    "time": "45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 411,
+    "title": "Paneer Tikka",
+    "category": "Indian",
+    "file": "data/indian/paneer-tikka.json",
+    "image": "assets/images/indian/paneer-tikka.png",
+    "time": "20 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 412,
+    "title": "Chicken Tikka",
+    "category": "Indian",
+    "file": "data/indian/chicken-tikka.json",
+    "image": "assets/images/indian/chicken-tikka.png",
+    "time": "20 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 413,
+    "title": "Seekh Kebab",
+    "category": "Indian",
+    "file": "data/indian/seekh-kebab.json",
+    "image": "assets/images/indian/seekh-kebab.png",
+    "time": "25 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 414,
+    "title": "Chicken Seekh Kabab",
+    "category": "Indian",
+    "file": "data/indian/chicken-seekh-kabab.json",
+    "image": "assets/images/indian/chicken-seekh-kabab.png",
+    "time": "25 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 415,
+    "title": "Reshmi Kabab",
+    "category": "Indian",
+    "file": "data/indian/reshmi-kabab.json",
+    "image": "assets/images/indian/reshmi-kabab.png",
+    "time": "20 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 416,
+    "title": "Chicken Boti Kabab",
+    "category": "Indian",
+    "file": "data/indian/chicken-boti-kabab.json",
+    "image": "assets/images/indian/chicken-boti-kabab.png",
+    "time": "20 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 417,
+    "title": "Paneer Shami Kebab",
+    "category": "Indian",
+    "file": "data/indian/paneer-shami-kebab.json",
+    "image": "assets/images/indian/paneer-shami-kebab.png",
+    "time": "30 min",
+    "difficulty": "Medium"
+  },
   {
     "id": 501,
     "title": "Chicken Cacciatore",
