@@ -536,8 +536,8 @@
   },
   {
     "id": 229,
-    "title": "Indian",
-    "category": "South Indian",
+    "title": "Rasam",
+    "category": "Indian",
     "file": "data/indian/rasam.json",
     "image": "assets/images/indian/rasam.png",
     "time": "25 min",
