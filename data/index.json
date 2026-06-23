@@ -5,6 +5,7 @@
     "category": "Arabic",
     "file": "data/arabic/falafel.json",
     "image": "assets/images/arabic/falafel.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -14,6 +15,7 @@
     "category": "Arabic",
     "file": "data/arabic/hummus.json",
     "image": "assets/images/arabic/hummus.png",
+    "description": "",
     "time": "15 min",
     "difficulty": "Easy"
   },
@@ -23,15 +25,18 @@
     "category": "Arabic",
     "file": "data/arabic/chicken-shawarma.json",
     "image": "assets/images/arabic/chicken-shawarma.png",
+    "description": "",
     "time": "15 min",
     "difficulty": "Easy"
   },
+
   {
     "id": 201,
     "title": "Szechuan Fish",
     "category": "Chinese",
     "file": "data/chinese/szechuan-fish.json",
     "image": "assets/images/chinese/fish-szechuan-sauce.png",
+    "description": "",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -41,6 +46,7 @@
     "category": "Chinese",
     "file": "data/chinese/kung-pao-chicken.json",
     "image": "assets/images/chinese/kung-pao-chicken.png",
+    "description": "",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -50,6 +56,7 @@
     "category": "Chinese",
     "file": "data/chinese/chili-oil.json",
     "image": "assets/images/chinese/chili-oil.png",
+    "description": "",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -57,26 +64,29 @@
     "id": 204,
     "title": "Mala Chili Oil",
     "category": "Chinese",
-    "file": "data/chinese/mala-chili-oil.json", 
+    "file": "data/chinese/mala-chili-oil.json",
     "image": "assets/images/chinese/mala-chili-oil.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Medium"
   },
   {
     "id": 205,
-    "title": "Hot Chili sauce",
+    "title": "Hot Chili Sauce",
     "category": "Chinese",
-    "file": "data/chinese/hot-chili-sauce.json", 
+    "file": "data/chinese/hot-chili-sauce.json",
     "image": "assets/images/chinese/hot-chili-sauce.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Medium"
   },
   {
     "id": 206,
-    "title": "Hot Garlic sauce",
+    "title": "Hot Garlic Sauce",
     "category": "Chinese",
-    "file": "data/chinese/hot-garlic-sauce.json", 
+    "file": "data/chinese/hot-garlic-sauce.json",
     "image": "assets/images/chinese/hot-garlic-sauce.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -84,17 +94,19 @@
     "id": 207,
     "title": "Sichuan Chicken Chili",
     "category": "Chinese",
-    "file": "data/chinese/sichuan-chicken-chili.json", 
+    "file": "data/chinese/sichuan-chicken-chili.json",
     "image": "assets/images/chinese/sichuan-chicken-chili.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Medium"
   },
-    {
+  {
     "id": 208,
-    "title": "Thenthuk (Tibetan soup)",
+    "title": "Thenthuk (Tibetan Soup)",
     "category": "Chinese",
-    "file": "data/chinese/thenthuk.json", 
+    "file": "data/chinese/thenthuk.json",
     "image": "assets/images/chinese/thenthuk.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -102,8 +114,9 @@
     "id": 209,
     "title": "Mantou (Chinese Steamed Buns)",
     "category": "Chinese",
-    "file": "data/chinese/mantou.json", 
+    "file": "data/chinese/mantou.json",
     "image": "assets/images/chinese/mantou.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -111,161 +124,180 @@
     "id": 210,
     "title": "Spring Rolls",
     "category": "Chinese",
-    "file": "data/chinese/spring-rolls.json", 
+    "file": "data/chinese/spring-rolls.json",
     "image": "assets/images/chinese/spring-rolls.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Medium"
   },
-    {
+  {
     "id": 211,
     "title": "Bean Curd Soup",
     "category": "Chinese",
-    "file": "data/chinese/bean-curd-soup.json", 
+    "file": "data/chinese/bean-curd-soup.json",
     "image": "assets/images/chinese/bean-curd-soup.png",
+    "description": "",
     "time": "15 min + 25 min",
     "difficulty": "Medium"
-        },
-    {
+  },
+  {
     "id": 212,
     "title": "Tomato Egg Drop Soup",
     "category": "Chinese",
-    "file": "data/chinese/tomato-egg-drop-soup.json", 
+    "file": "data/chinese/tomato-egg-drop-soup.json",
     "image": "assets/images/chinese/tomato-egg-drop-soup.png",
+    "description": "",
     "time": "25 min",
     "difficulty": "Medium"
   },
-      {
+  {
     "id": 213,
     "title": "Hot Garlic Chicken",
     "category": "Chinese",
-    "file": "data/chinese/hot-garlic-chicken.json", 
+    "file": "data/chinese/hot-garlic-chicken.json",
     "image": "assets/images/chinese/hot-garlic-chicken.png",
+    "description": "",
     "time": "35 min",
     "difficulty": "Medium"
   },
   {
-  "id": 214,
-  "title": "Chicken Fried Rice",
-  "category": "Chinese",
-  "file": "data/chinese/chicken-fried-rice.json",
-  "image": "assets/images/chinese/chicken-fried-rice.png",
-  "time": "",
-  "difficulty": ""
-},
+    "id": 214,
+    "title": "Chicken Fried Rice",
+    "category": "Chinese",
+    "file": "data/chinese/chicken-fried-rice.json",
+    "image": "assets/images/chinese/chicken-fried-rice.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
   {
-  "id": 215,
-  "title": "Sweet and Sour Chicken",
-  "category": "Chinese",
-  "file": "data/chinese/sweet-and-sour-chicken.json",
-  "image": "assets/images/chinese/sweet-and-sour-chicken.png",
-  "time": "",
-  "difficulty": ""
-},
+    "id": 215,
+    "title": "Sweet and Sour Chicken",
+    "category": "Chinese",
+    "file": "data/chinese/sweet-and-sour-chicken.json",
+    "image": "assets/images/chinese/sweet-and-sour-chicken.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
   {
-  "id": 216,
-  "title": "Braised Chicken Drumsticks",
-  "category": "Chinese",
-  "file": "data/chinese/braised-chicken-drumsticks.json",
-  "image": "assets/images/chinese/braised-chicken-drumsticks.png",
-  "time": "",
-  "difficulty": ""
-},
+    "id": 216,
+    "title": "Braised Chicken Drumsticks",
+    "category": "Chinese",
+    "file": "data/chinese/braised-chicken-drumsticks.json",
+    "image": "assets/images/chinese/braised-chicken-drumsticks.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
   {
-  "id": 217,
-  "title": "Soft Fried Chicken with Hot Bean Sauce",
-  "category": "Chinese",
-  "file": "data/chinese/soft-fried-chicken-with-hot-bean-sauce.json",
-  "image": "assets/images/chinese/soft-fried-chicken-with-hot-bean-sauce.png",
-  "time": "",
-  "difficulty": ""
-},
+    "id": 217,
+    "title": "Soft Fried Chicken with Hot Bean Sauce",
+    "category": "Chinese",
+    "file": "data/chinese/soft-fried-chicken-with-hot-bean-sauce.json",
+    "image": "assets/images/chinese/soft-fried-chicken-with-hot-bean-sauce.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
   {
-  "id": 218,
-  "title": "Shredded Chicken with Black Bean Sauce",
-  "category": "Chinese",
-  "file": "data/chinese/shredded-chicken-with-black-bean-sauce.json",
-  "image": "assets/images/chinese/shredded-chicken-with-black-bean-sauce.png",
-  "time": "",
-  "difficulty": ""
-},
+    "id": 218,
+    "title": "Shredded Chicken with Black Bean Sauce",
+    "category": "Chinese",
+    "file": "data/chinese/shredded-chicken-with-black-bean-sauce.json",
+    "image": "assets/images/chinese/shredded-chicken-with-black-bean-sauce.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
   {
-  "id": 219,
-  "title": "Chicken Bao",
-  "category": "Chinese",
-  "file": "data/chinese/chicken-bao.json",
-  "image": "assets/images/chinese/chicken-bao.png",
-  "time": "",
-  "difficulty": "Advanced"
-},
+    "id": 219,
+    "title": "Chicken Bao",
+    "category": "Chinese",
+    "file": "data/chinese/chicken-bao.json",
+    "image": "assets/images/chinese/chicken-bao.png",
+    "description": "",
+    "time": "",
+    "difficulty": "Advanced"
+  },
   {
-  "id": 220,
-  "title": "Fish-Flavored Eggplant",
-  "category": "Chinese",
-  "file": "data/chinese/fish-flavored-eggplant.json",
-  "image": "assets/images/chinese/fish-flavored-eggplant.png",
-  "time": "",
-  "difficulty": ""
-},
-    {
-  "id": 221,
-  "title": "Potato Chili",
-  "category": "Chinese",
-  "file": "data/chinese/potato-chili.json",
-  "image": "assets/images/chinese/potato-chili.png",
-  "time": "",
-  "difficulty": ""
-},
-      {
-  "id": 222,
-  "title": "Stir-Fried Vegetables with Oyster Sauce & Noodles",
-  "category": "Chinese",
-  "file": "data/chinese/stir-fried-vegetables-oyster-noodles.json",
-  "image": "assets/images/chinese/stir-fried-vegetables-oyster-noodles.png",
-  "time": "",
-  "difficulty": ""
-},
-{
-  "id": 223,
-  "title": "Bok Choy with Black Mushrooms",
-  "category": "Chinese",
-  "file": "data/chinese/bok-choy-black-mushrooms.json",
-  "image": "assets/images/chinese/bok-choy-black-mushrooms.png",
-  "time": "",
-  "difficulty": ""
-},
+    "id": 220,
+    "title": "Fish-Flavored Eggplant",
+    "category": "Chinese",
+    "file": "data/chinese/fish-flavored-eggplant.json",
+    "image": "assets/images/chinese/fish-flavored-eggplant.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
   {
-  "id": 224,
-  "title": "Honey Chili Vegetable Balls",
-  "category": "Chinese",
-  "file": "data/chinese/honey-chili-vegetable-balls.json",
-  "image": "assets/images/chinese/honey-chili-vegetable-balls.png",
-  "time": "",
-  "difficulty": ""
-},
-    {
-  "id": 225,
-  "title": "Glass Noodle Salad",
-  "category": "Chinese",
-  "file": "data/chinese/glass-noodle-salad.json",
-  "image": "assets/images/chinese/glass-noodle-salad.png",
-  "time": "30",
-  "difficulty": "Easy"
-},
-   {
-  "id": 226,
-  "title": "Vegetable Manchurian",
-  "category": "Chinese",
-  "file": "data/chinese/vegetable-manchurian.json",
-  "image": "assets/images/chinese/vegetable-manchurian.png",
-  "time": "35",
-  "difficulty": "Medium"
-},
+    "id": 221,
+    "title": "Potato Chili",
+    "category": "Chinese",
+    "file": "data/chinese/potato-chili.json",
+    "image": "assets/images/chinese/potato-chili.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
+  {
+    "id": 222,
+    "title": "Stir-Fried Vegetables with Oyster Sauce & Noodles",
+    "category": "Chinese",
+    "file": "data/chinese/stir-fried-vegetables-oyster-noodles.json",
+    "image": "assets/images/chinese/stir-fried-vegetables-oyster-noodles.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
+  {
+    "id": 223,
+    "title": "Bok Choy with Black Mushrooms",
+    "category": "Chinese",
+    "file": "data/chinese/bok-choy-black-mushrooms.json",
+    "image": "assets/images/chinese/bok-choy-black-mushrooms.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
+  {
+    "id": 224,
+    "title": "Honey Chili Vegetable Balls",
+    "category": "Chinese",
+    "file": "data/chinese/honey-chili-vegetable-balls.json",
+    "image": "assets/images/chinese/honey-chili-vegetable-balls.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
+  {
+    "id": 225,
+    "title": "Glass Noodle Salad",
+    "category": "Chinese",
+    "file": "data/chinese/glass-noodle-salad.json",
+    "image": "assets/images/chinese/glass-noodle-salad.png",
+    "description": "",
+    "time": "30",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 226,
+    "title": "Vegetable Manchurian",
+    "category": "Chinese",
+    "file": "data/chinese/vegetable-manchurian.json",
+    "image": "assets/images/chinese/vegetable-manchurian.png",
+    "description": "",
+    "time": "35",
+    "difficulty": "Medium"
+  },
+
   {
     "id": 301,
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
     "file": "data/continental/fried-fish-with-tartar-sauce.json",
     "image": "assets/images/continental/fried-fish-with-tartar-sauce.png",
+    "description": "",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -275,37 +307,42 @@
     "category": "Continental",
     "file": "data/continental/pancakes.json",
     "image": "assets/images/continental/pancakes.png",
+    "description": "",
     "time": "40 min",
     "difficulty": "Medium"
-    },
+  },
+
   {
     "id": 401,
     "title": "Chicken Chettinad",
     "category": "Indian",
     "file": "data/indian/chicken-chettinad.json",
     "image": "assets/images/indian/chicken-chettinad.png",
+    "description": "",
     "time": "40 min",
     "difficulty": "Medium"
-    },
+  },
   {
     "id": 402,
     "title": "Ven Pongal",
     "category": "Indian",
     "file": "data/indian/ven-pongal.json",
     "image": "assets/images/indian/ven-pongal.png",
+    "description": "",
     "time": "40 min",
     "difficulty": "Medium"
-      },
+  },
   {
     "id": 403,
     "title": "Puri",
     "category": "Indian",
     "file": "data/indian/puri.json",
     "image": "assets/images/indian/puri.png",
+    "description": "",
     "time": "40 min",
     "difficulty": "Medium"
-      },
-    {
+  },
+  {
     "id": 404,
     "title": "Brown Gravy",
     "category": "Indian",
@@ -314,8 +351,8 @@
     "description": "",
     "time": "90 min",
     "difficulty": ""
-      },
-      {
+  },
+  {
     "id": 405,
     "title": "Red Gravy",
     "category": "Indian",
@@ -324,8 +361,8 @@
     "description": "",
     "time": "90 min",
     "difficulty": ""
-      },
-      {
+  },
+  {
     "id": 406,
     "title": "Makhani Gravy",
     "category": "Indian",
@@ -334,8 +371,8 @@
     "description": "",
     "time": "90 min",
     "difficulty": ""
-      },
-        {
+  },
+  {
     "id": 407,
     "title": "White Gravy",
     "category": "Indian",
@@ -344,13 +381,14 @@
     "description": "A neutral, mildly sweet, rich Mughlai gravy with a signature creamy white-beige color. This luxurious sauce forms the foundation of classic dishes such as Shahi Paneer, Navratan Korma, Chicken Korma, and Malai Kofta.",
     "time": "90 min",
     "difficulty": ""
-      },
-    {
+  },
+  {
     "id": 408,
     "title": "Aloo Tikki",
     "category": "Indian",
     "file": "data/indian/aloo-tikki.json",
     "image": "assets/images/indian/aloo-tikki.png",
+    "description": "",
     "time": "20 min",
     "difficulty": "Easy"
   },
@@ -360,6 +398,7 @@
     "category": "Indian",
     "file": "data/indian/aloo-chaat.json",
     "image": "assets/images/indian/aloo-chaat.png",
+    "description": "",
     "time": "35 min",
     "difficulty": "Easy"
   },
@@ -369,6 +408,7 @@
     "category": "Indian",
     "file": "data/indian/samosa.json",
     "image": "assets/images/indian/samosa.png",
+    "description": "",
     "time": "45 min",
     "difficulty": "Medium"
   },
@@ -378,6 +418,7 @@
     "category": "Indian",
     "file": "data/indian/pakoda-onion-base.json",
     "image": "assets/images/indian/pakoda-onion-base.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -387,6 +428,7 @@
     "category": "Indian",
     "file": "data/indian/vegetable-pakoda-fritters.json",
     "image": "assets/images/indian/vegetable-pakoda-fritters.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -396,6 +438,7 @@
     "category": "Indian",
     "file": "data/indian/vegetable-pakoda-restaurant-style.json",
     "image": "assets/images/indian/vegetable-pakoda.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -405,6 +448,7 @@
     "category": "Indian",
     "file": "data/indian/bread-pakoda.json",
     "image": "assets/images/indian/bread-pakoda.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -414,6 +458,7 @@
     "category": "Indian",
     "file": "data/indian/vegetable-cutlets.json",
     "image": "assets/images/indian/vegetable-cutlets.png",
+    "description": "",
     "time": "40 min",
     "difficulty": "Easy"
   },
@@ -423,6 +468,7 @@
     "category": "Indian",
     "file": "data/indian/hara-bhara-kebab.json",
     "image": "assets/images/indian/hara-bhara-kebab.png",
+    "description": "",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -432,6 +478,7 @@
     "category": "Indian",
     "file": "data/indian/aloo-chop.json",
     "image": "assets/images/indian/aloo-chop.png",
+    "description": "",
     "time": "45 min",
     "difficulty": "Medium"
   },
@@ -441,6 +488,7 @@
     "category": "Indian",
     "file": "data/indian/paneer-tikka.json",
     "image": "assets/images/indian/paneer-tikka.png",
+    "description": "",
     "time": "20 min",
     "difficulty": "Medium"
   },
@@ -450,6 +498,7 @@
     "category": "Indian",
     "file": "data/indian/chicken-tikka.json",
     "image": "assets/images/indian/chicken-tikka.png",
+    "description": "",
     "time": "20 min",
     "difficulty": "Medium"
   },
@@ -459,6 +508,7 @@
     "category": "Indian",
     "file": "data/indian/seekh-kebab.json",
     "image": "assets/images/indian/seekh-kebab.png",
+    "description": "",
     "time": "25 min",
     "difficulty": "Medium"
   },
@@ -468,6 +518,7 @@
     "category": "Indian",
     "file": "data/indian/chicken-seekh-kabab.json",
     "image": "assets/images/indian/chicken-seekh-kabab.png",
+    "description": "",
     "time": "25 min",
     "difficulty": "Medium"
   },
@@ -477,6 +528,7 @@
     "category": "Indian",
     "file": "data/indian/reshmi-kabab.json",
     "image": "assets/images/indian/reshmi-kabab.png",
+    "description": "",
     "time": "20 min",
     "difficulty": "Medium"
   },
@@ -486,6 +538,7 @@
     "category": "Indian",
     "file": "data/indian/chicken-boti-kabab.json",
     "image": "assets/images/indian/chicken-boti-kabab.png",
+    "description": "",
     "time": "20 min",
     "difficulty": "Medium"
   },
@@ -495,15 +548,18 @@
     "category": "Indian",
     "file": "data/indian/paneer-shami-kebab.json",
     "image": "assets/images/indian/paneer-shami-kebab.png",
+    "description": "",
     "time": "30 min",
     "difficulty": "Medium"
   },
+
   {
     "id": 425,
     "title": "Tomato Shorba",
     "category": "Indian",
     "file": "data/indian/tomato-shorba.json",
     "image": "assets/images/indian/tomato-shorba.png",
+    "description": "",
     "time": "15 min",
     "difficulty": "Easy"
   },
@@ -513,6 +569,7 @@
     "category": "Indian",
     "file": "data/indian/mulligatawny-soup.json",
     "image": "assets/images/indian/mulligatawny-soup.png",
+    "description": "",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -522,6 +579,7 @@
     "category": "Indian",
     "file": "data/indian/chicken-sorba.json",
     "image": "assets/images/indian/chicken-sorba.png",
+    "description": "",
     "time": "50 min",
     "difficulty": "Medium"
   },
@@ -531,6 +589,7 @@
     "category": "Indian",
     "file": "data/indian/paya-sorba.json",
     "image": "assets/images/indian/paya-sorba.png",
+    "description": "",
     "time": "3–4 hrs",
     "difficulty": "Hard"
   },
@@ -540,105 +599,121 @@
     "category": "Indian",
     "file": "data/indian/rasam.json",
     "image": "assets/images/indian/rasam.png",
+    "description": "",
     "time": "25 min",
     "difficulty": "Easy"
   },
+
   {
     "id": 501,
     "title": "Chicken Cacciatore",
     "category": "Italian",
     "file": "data/italian/chicken-cacciatore.json",
     "image": "assets/images/italian/chicken-cacciatore.png",
+    "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
-    },
+  },
+
   {
     "id": 601,
     "title": "Chimichanga",
     "category": "Mexican",
     "file": "data/mexican/chimichanga.json",
     "image": "assets/images/mexican/chimichanga.png",
+    "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
-     },
+  },
   {
     "id": 602,
     "title": "Salsa Roja",
     "category": "Mexican",
     "file": "data/mexican/salsa-roja.json",
     "image": "assets/images/mexican/salsa-roja.png",
+    "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
-    },
+  },
   {
-  "id": 603,
-  "title": "Salsa Verde",
-  "category": "Mexican",
-  "file": "data/mexican/salsa-verde.json",
-  "image": "assets/images/mexican/salsa-verde.png",
-  "time": "20 min",
-  "difficulty": "Easy"
-},
+    "id": 603,
+    "title": "Salsa Verde",
+    "category": "Mexican",
+    "file": "data/mexican/salsa-verde.json",
+    "image": "assets/images/mexican/salsa-verde.png",
+    "description": "",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
   {
-  "id": 604,
-  "title": "Guacamole",
-  "category": "Mexican",
-  "file": "data/mexican/guacamole.json",
-  "image": "assets/images/mexican/guacamole.png",
-  "time": "15 min",
-  "difficulty": "Easy"
-},
+    "id": 604,
+    "title": "Guacamole",
+    "category": "Mexican",
+    "file": "data/mexican/guacamole.json",
+    "image": "assets/images/mexican/guacamole.png",
+    "description": "",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
   {
-  "id": 605,
-  "title": "Mexican Sour Cream",
-  "category": "Mexican",
-  "file": "data/mexican/sour-cream.json",
-  "image": "assets/images/mexican/sour-cream.png",
-  "time": "12–24 hrs",
-  "difficulty": "Medium"
-},
+    "id": 605,
+    "title": "Mexican Sour Cream",
+    "category": "Mexican",
+    "file": "data/mexican/sour-cream.json",
+    "image": "assets/images/mexican/sour-cream.png",
+    "description": "",
+    "time": "12–24 hrs",
+    "difficulty": "Medium"
+  },
+
   {
     "id": 701,
     "title": "Jhol Mo:Mo",
     "category": "Nepali",
     "file": "data/nepali/jhol-momo.json",
     "image": "assets/images/nepali/jhol-momo.png",
+    "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
-    },
+  },
   {
     "id": 702,
     "title": "Buff Steamed Mo:Mo",
     "category": "Nepali",
     "file": "data/nepali/buff-steamed-momo.json",
     "image": "assets/images/nepali/buff-steamed-momo.png",
+    "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
-        },
-    {
+  },
+  {
     "id": 703,
     "title": "Chicken Kurkure",
     "category": "Nepali",
     "file": "data/nepali/chicke-kurkure.json",
     "image": "assets/images/nepali/chicken-kurkure.png",
+    "description": "",
     "time": "",
     "difficulty": ""
-        },
-      {
+  },
+  {
     "id": 704,
     "title": "Ultimate Restaurant-Style Chicken Kurkure",
     "category": "Nepali",
     "file": "data/nepali/ultimate-restaurant-style-chicken-kurkure.json",
     "image": "assets/images/nepali/ultimate-restaurant-style-chicken-kurkure.png",
+    "description": "",
     "time": "",
     "difficulty": ""
-        },
+  },
+
   {
     "id": 801,
     "title": "Pad Thai",
     "category": "Thai",
     "file": "data/thai/pad-thai.json",
     "image": "assets/images/thai/pad-thai.png",
+    "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
   }
