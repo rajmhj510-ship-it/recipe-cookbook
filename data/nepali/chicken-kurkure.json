@@ -1,0 +1,57 @@
+{
+  "id": 418,
+  "title": "Chicken Kurkure",
+  "category": "Indian",
+  "image": "assets/images/indian/chicken-kurkure.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "",
+  "ingredients": [],
+  "instruction": [
+    {
+      "title": "Step 1: Marinate the Chicken",
+      "steps": [
+        "In a bowl, mix chicken strips with ginger-garlic paste, chili powders, spices, lemon juice, and salt.",
+        "Add chopped coriander & mint. Mix well.",
+        "Beat in one egg. Cover and marinate at least 1 hour (overnight in fridge for best flavor)."
+      ]
+    },
+    {
+      "title": "Step 2: Prepare the Coating",
+      "steps": [
+        "Crush cornflakes lightly (not powder, keep it flaky for crunch).",
+        "Mix with rice flour, cornflour, refined flour, salt, and pepper."
+      ]
+    },
+    {
+      "title": "Step 3: Coat the Chicken",
+      "steps": [
+        "Take each marinated chicken strip.",
+        "Roll in the dry cornflakes mixture, press gently so flakes stick well.",
+        "Keep coated pieces on a tray. Rest 10 mins (helps coating set)."
+      ]
+    },
+    {
+      "title": "Step 4: Frying",
+      "steps": [
+        "Heat oil to 170–175°C (medium-high, not smoking).",
+        "Fry chicken strips in batches, do not overcrowd.",
+        "Fry until golden brown & crispy (about 4–5 minutes per batch).",
+        "Drain on a wire rack or kitchen paper."
+      ]
+    },
+    {
+      "title": "Step 5: Finishing Touch",
+      "steps": [
+        "Sprinkle chaat masala immediately after frying.",
+        "Plate with mint mayo, lemon wedges, and microgreens (for a restaurant-style look)."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Double coating trick: Dip once more in beaten egg and re-coat in cornflakes for extra crunch.",
+    "Texture balance: Use both cornflakes & rice flour; cornflakes give crunch, rice flour keeps it light.",
+    "Oil control: Maintain oil temperature – too hot burns coating, too low makes it soggy.",
+    "Plating: Serve on a black slate/white plate, drizzle dip in zigzag, and add micro herbs for fine-dining effect."
+  ]
+}
