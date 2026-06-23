@@ -1,0 +1,37 @@
+{
+  "id": 1004,
+  "title": "Paya Sorba",
+  "category": "Indian",
+  "image": "assets/images/soup/paya-sorba.png",
+  "time": "4 hrs",
+  "difficulty": "Hard",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "goat/lamb trotters",
+        "onions, tomatoes",
+        "ginger garlic paste",
+        "whole spices",
+        "water 6-8 cups",
+        "salt"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Parboil trotters",
+        "Cook masala base",
+        "Add spices and trotters",
+        "Slow cook 3\u20134 hours",
+        "Finish seasoning"
+      ]
+    }
+  ],
+  "chefTips": [
+    "Slow cooking is key for gelatinous texture"
+  ]
+}

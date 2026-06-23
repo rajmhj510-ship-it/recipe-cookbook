@@ -1,0 +1,47 @@
+{
+  "id": 1002,
+  "title": "Mulligatawny Soup",
+  "category": "Indian",
+  "image": "assets/images/soup/mulligatawny-soup.png",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "servings": "4-6",
+  "ingredients": [
+    {
+      "title": "Soup Base",
+      "items": [
+        "2 tbsp ghee or vegetable oil",
+        "1 large onion, finely chopped",
+        "2 garlic cloves, minced",
+        "1-inch ginger, minced",
+        "green chilies",
+        "mustard seeds, cumin seeds",
+        "turmeric, coriander, garam masala",
+        "carrot, apple, red lentils",
+        "stock 6 cups",
+        "coconut milk 1/2 cup",
+        "lemon juice",
+        "salt"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Temper spices in oil",
+        "Cook onion, garlic, ginger",
+        "Add spices and toast",
+        "Add vegetables and lentils",
+        "Simmer 25\u201330 minutes",
+        "Blend to texture",
+        "Finish with coconut milk and lemon"
+      ]
+    }
+  ],
+  "chefTips": [
+    "Apple adds sweetness",
+    "Toast spices for depth",
+    "Adjust texture as preferred"
+  ]
+}

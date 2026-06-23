@@ -1,0 +1,40 @@
+{
+  "id": 1005,
+  "title": "Rasam",
+  "category": "South Indian",
+  "image": "assets/images/soup/rasam.png",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "tamarind pulp",
+        "tomato",
+        "toor dal",
+        "rasam powder",
+        "mustard seeds, cumin seeds",
+        "curry leaves",
+        "garlic",
+        "salt"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Cook dal",
+        "Prepare tamarind water",
+        "Simmer base",
+        "Add rasam powder",
+        "Temper spices",
+        "Finish and serve"
+      ]
+    }
+  ],
+  "chefTips": [
+    "Fresh rasam powder improves flavor"
+  ]
+}

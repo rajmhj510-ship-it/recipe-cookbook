@@ -1,0 +1,51 @@
+{
+  "id": 1001,
+  "title": "Tomato Shorba",
+  "category": "Indian",
+  "image": "assets/images/soup/tomato-shorba.png",
+  "time": "15 min",
+  "difficulty": "Easy",
+  "servings": "2-3",
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "300 g ripe tomatoes (about 2\u20133 medium) \u2014 pureed",
+        "\u00bd tbsp neutral oil (sunflower or canola)",
+        "\u00bd tsp cumin seeds",
+        "1 bay leaf (tej patta)",
+        "\u00bd tsp ginger\u2013garlic paste",
+        "2 cups water or vegetable stock",
+        "Salt, to taste",
+        "Fresh coriander (cilantro), chopped, for garnish"
+      ]
+    },
+    {
+      "title": "Spice powders",
+      "items": [
+        "\u215b tsp turmeric",
+        "\u00bc tsp red chili powder",
+        "\u00bc tsp coriander powder",
+        "\u00bc tsp garam masala",
+        "\u00bc tsp black pepper powder"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Blend tomatoes into smooth puree",
+        "Temper cumin seeds and bay leaf in oil, add ginger\u2013garlic paste",
+        "Add tomato puree and spices, simmer briefly",
+        "Add water/stock and cook 4\u20135 minutes",
+        "Finish with coriander and serve hot"
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use ripe tomatoes for natural sweetness",
+    "No cream is traditional; optional cream can be added",
+    "Roasted tomatoes give deeper flavor"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": 1003,
+  "title": "Chicken Sorba",
+  "category": "Soup",
+  "image": "assets/images/soup/chicken-sorba.png",
+  "time": "60 min",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "500g chicken",
+        "6 cups water",
+        "onion, garlic, ginger",
+        "tomatoes",
+        "spices: cumin, turmeric, pepper",
+        "salt",
+        "coriander"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Prepare broth with spices",
+        "Cook chicken",
+        "Simmer 40 minutes",
+        "Shred chicken",
+        "Finish with lemon and coriander"
+      ]
+    }
+  ],
+  "chefTips": [
+    "Roast spices for deeper flavor"
+  ]
+}
