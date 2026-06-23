@@ -385,8 +385,8 @@
     "id": 412,
     "title": "Vegetable Pakoda",
     "category": "Indian",
-    "file": "data/indian/vegetable-pakoda.json",
-    "image": "assets/images/indian/vegetable-pakoda.png",
+    "file": "data/indian/vegetable-pakoda-fritters.json",
+    "image": "assets/images/indian/vegetable-pakoda-fritters.png",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -395,7 +395,7 @@
     "title": "Vegetable Pakoda (Restaurant Style)",
     "category": "Indian",
     "file": "data/indian/vegetable-pakoda-restaurant-style.json",
-    "image": "assets/images/indian/vegetable-pakoda-restaurant-style.png",
+    "image": "assets/images/indian/vegetable-pakoda.png",
     "time": "30 min",
     "difficulty": "Easy"
   },
