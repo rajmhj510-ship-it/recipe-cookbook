@@ -1,0 +1,89 @@
+{
+  "id": 425,
+  "title": "Paneer Shami Kebab",
+  "category": "Indian",
+  "image": "assets/images/indian/paneer-shami-kebab.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Servings: 8–10 kebabs",
+  "ingredients": [
+    {
+      "title": "For the Kebab Mixture",
+      "items": [
+        "Paneer (cottage cheese) – 250 g, grated",
+        "Chana dal (split Bengal gram) – ¼ cup (50 g), soaked 2 hrs",
+        "Onion – 1 medium, finely chopped",
+        "Ginger – 1 inch piece",
+        "Garlic – 4–5 cloves",
+        "Green chili – 2, chopped",
+        "Coriander leaves – 3 tbsp, finely chopped",
+        "Mint leaves – 2 tbsp, finely chopped",
+        "Garam masala – 1 tsp",
+        "Cumin powder – 1 tsp",
+        "Coriander powder – 1 tsp",
+        "Red chili powder – ½ tsp",
+        "Black pepper – ½ tsp, freshly ground",
+        "Salt – to taste",
+        "Lemon juice – 1 tsp",
+        "Ghee – 1 tbsp"
+      ]
+    },
+    {
+      "title": "Binder",
+      "items": [
+        "Besan (roasted gram flour) – 2 tbsp (roast lightly before use)",
+        "OR Bread crumbs – 2 tbsp (for crispness)"
+      ]
+    },
+    {
+      "title": "For Cooking",
+      "items": [
+        "Ghee + Oil (50:50 mix) – for shallow frying"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare the Base",
+      "steps": [
+        "Drain soaked chana dal and pressure cook with ½ cup water, ginger, garlic, and green chilies until soft (2–3 whistles).",
+        "Cook uncovered till completely dry (no moisture).",
+        "Cool slightly, then grind into a coarse paste (not too smooth)."
+      ]
+    },
+    {
+      "title": "Mix the Kebab Dough",
+      "steps": [
+        "In a mixing bowl, combine grated paneer, dal paste, onion, herbs, and spices.",
+        "Add besan/breadcrumbs as a binder.",
+        "Mix well; adjust seasoning.",
+        "Rest mixture for 15 minutes in the fridge for firmness."
+      ]
+    },
+    {
+      "title": "Shape the Kebabs",
+      "steps": [
+        "Divide into equal portions and shape into flat discs (~2 cm thick).",
+        "Optional: Stuff with a tiny cube of cheese or dry fruits for luxury appeal."
+      ]
+    },
+    {
+      "title": "Cook",
+      "steps": [
+        "Heat a mix of ghee and oil in a heavy pan.",
+        "Shallow fry kebabs on medium heat until golden brown, crisp outside, soft inside.",
+        "Drain on absorbent paper.",
+        "Serve on a black stone or wooden platter.",
+        "Place kebabs over a mint-coriander chutney smear.",
+        "Garnish with pickled onions, microgreens, and a lemon wedge wrapped in muslin.",
+        "Drizzle a few dots of saffron-yogurt or beetroot reduction for fine-dining effect."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Texture Balance: Don’t over-grind dal; slight graininess gives authentic bite.",
+    "Fat Choice: Ghee adds luxurious aroma—restaurants often use a 50:50 oil-ghee mix for balance.",
+    "Make Ahead: Shape kebabs and refrigerate (up to 24 hrs); fry just before serving.",
+    "Smoky Touch: For a tandoor-like flavor, briefly smoke mixture with a hot charcoal piece before shaping."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": 423,
+  "title": "Reshmi Kabab",
+  "category": "Indian",
+  "image": "assets/images/indian/reshmi-kabab.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Ingredients (Serves 4–5)",
+  "ingredients": [],
+  "instruction": [
+    {
+      "title": "Initial Tenderizing:",
+      "steps": [
+        "Wash and pat dry chicken pieces.",
+        "Apply lemon juice and salt. Keep aside for 20 minutes. This helps tenderize and remove raw odor."
+      ]
+    },
+    {
+      "title": "Second Marinade:",
+      "steps": [
+        "In a bowl, mix hung yogurt, cream, cashew paste, green chili paste, ginger-garlic paste, white pepper, garam masala, cardamom powder, kasuri methi, and salt.",
+        "Add chopped coriander and melted butter.",
+        "Coat the chicken thoroughly in this mixture.",
+        "Cover and refrigerate for at least 4–6 hours (overnight best) for perfect restaurant-quality softness."
+      ]
+    },
+    {
+      "title": "Cooking Options:",
+      "steps": [
+        "Tandoor/Charcoal Grill (Best): Skewer marinated chicken and cook in a hot tandoor until golden with slight char, basting with butter-cream mixture.",
+        "Oven: Preheat to 220°C (425°F). Arrange skewered chicken on a wire rack. Cook for 12–15 minutes, basting midway. Broil for 2–3 minutes for a smoky char.",
+        "Stovetop: Heat a grill pan, brush with oil, and cook on medium-high flame until cooked, turning and basting often."
+      ]
+    },
+    {
+      "title": "Finishing Touch:",
+      "steps": [
+        "For a restaurant-style smoky aroma, place hot kababs in a covered bowl with a small piece of hot charcoal placed in a steel bowl inside. Add ½ tsp ghee on the coal, cover for 2 minutes.",
+        "Serve hot with mint-coriander chutney, onion rings, lemon wedges, and butter naan.",
+        "Garnish with a drizzle of cream and coriander leaves.",
+        "Use chicken thighs (juicier than breast) for tender kababs.",
+        "Always use hung curd to avoid watery marinade.",
+        "Adding cashew paste + cream gives the silky “reshmi” texture.",
+        "Overnight marination ensures restaurant softness."
+      ]
+    }
+  ],
+  "chefTips": []
+}

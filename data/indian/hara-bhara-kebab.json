@@ -1,0 +1,65 @@
+{
+  "id": 416,
+  "title": "Hara Bhara Kebab (Green Veggie Patties)",
+  "category": "Indian",
+  "image": "assets/images/indian/hara-bhara-kebab-green-veggie-patties.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "makes about 12-15 medium-sized kebabs, which typically serves 4 people as an appetizer",
+  "ingredients": [],
+  "instruction": [
+    {
+      "title": "Prep Greens & Peas:",
+      "steps": [
+        "Blanch spinach in boiling water for 2 minutes, then immediately transfer to ice-cold water to retain color. Drain and chop finely. Lightly mash boiled green peas."
+      ]
+    },
+    {
+      "title": "Toast Cashews:",
+      "steps": [
+        "In a dry pan, lightly toast the halved cashew nuts over medium heat until golden and fragrant. Set aside."
+      ]
+    },
+    {
+      "title": "Mix Veggies:",
+      "steps": [
+        "In a large bowl, combine chopped spinach, mashed peas, boiled mashed potato, grated paneer, and half of the toasted cashew nuts (finely chopped)."
+      ]
+    },
+    {
+      "title": "Add Flavors:",
+      "steps": [
+        "Add chopped coriander, green chilies, ginger, garlic, chaat masala, garam masala, cumin powder, amchur powder, and salt. Mix well."
+      ]
+    },
+    {
+      "title": "Bind the Mixture:",
+      "steps": [
+        "Add cornflour and bread crumbs. Mix thoroughly until the mixture holds together. Adjust bread crumbs if necessary."
+      ]
+    },
+    {
+      "title": "Shape Kebabs:",
+      "steps": [
+        "Take small portions and shape into patties (2-3 inches diameter, 1/2 inch thick). Press 2-3 toasted cashew halves on top of each kebab for garnish and crunch."
+      ]
+    },
+    {
+      "title": "Cook Kebabs:",
+      "steps": [
+        "Heat oil in a pan over medium heat. Shallow fry the kebabs until golden and crisp on both sides (about 3-4 minutes each side). Drain on paper towels."
+      ]
+    },
+    {
+      "title": "Serve:",
+      "steps": [
+        "Serve hot with coriander-mint chutney and lemon wedges.",
+        "Ensure spinach is well-drained before mixing to avoid soggy kebabs.",
+        "You can bake the kebabs at 375°F (190°C) for 20 minutes for a healthier version, flipping halfway through.",
+        "Paneer adds richness but is optional; you can replace with extra mashed potato or peas.",
+        "Adjust spices as per your heat tolerance."
+      ]
+    }
+  ],
+  "chefTips": []
+}

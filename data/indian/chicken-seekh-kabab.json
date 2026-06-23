@@ -1,0 +1,53 @@
+{
+  "id": 422,
+  "title": "Chicken Seekh Kabab",
+  "category": "Indian",
+  "image": "assets/images/indian/chicken-seekh-kabab.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "",
+  "ingredients": [],
+  "instruction": [
+    {
+      "title": "Prepare the Mixture",
+      "steps": [
+        "In a large bowl, combine chicken mince, squeezed onion, ginger-garlic paste, green chili, coriander, and mint.",
+        "Add all the powdered spices, lemon juice, egg, and roasted besan.",
+        "Mix well for 8–10 minutes with your hand (this makes the mince sticky and helps bind it).",
+        "Cover and refrigerate for at least 1 hour (or overnight for best results)."
+      ]
+    },
+    {
+      "title": "Shaping the Kababs",
+      "steps": [
+        "Wet your palms with water or oil.",
+        "Take a portion of the mixture and press it evenly onto a greased seekh (skewer), forming a long cylindrical shape (about 6–7 inches).",
+        "If using wooden skewers, soak them in water for 30 minutes before use."
+      ]
+    },
+    {
+      "title": "Cooking Options",
+      "steps": [
+        "Tandoor / Grill: Place kababs in a hot tandoor or on a barbecue grill. Cook on high heat until golden with charred spots, basting with butter/oil occasionally.",
+        "Oven: Preheat oven to 220°C (425°F). Place skewers on a rack over a tray. Cook for 12–15 minutes, turning once, then broil for 2–3 minutes for char.",
+        "Pan: Heat a grill pan, grease lightly, and cook kababs on medium-high heat until evenly browned, basting with butter."
+      ]
+    },
+    {
+      "title": "Finishing Touch (Smoky Flavor)",
+      "steps": [
+        "Heat a piece of charcoal till red-hot.",
+        "Place a small steel bowl inside your cooked kababs tray, put the hot charcoal in it, drizzle with a drop of ghee/oil, and cover immediately with a lid/foil for 2 minutes.",
+        "This gives the kababs an authentic smoky restaurant aroma.",
+        "Serve hot with mint chutney, onion rings, and lemon wedges.",
+        "For an upscale presentation: sprinkle chaat masala lightly and garnish with microgreens."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use chicken thigh mince for juiciness (breast tends to dry out).",
+    "Ensure the onion water is squeezed out, or the kababs will break.",
+    "Kneading the mince properly is key – it develops binding and prevents the kababs from falling off the skewers.",
+    "Resting the marinated mixture allows spices to infuse deeply."
+  ]
+}

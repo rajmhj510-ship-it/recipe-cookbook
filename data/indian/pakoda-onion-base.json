@@ -1,0 +1,80 @@
+{
+  "id": 411,
+  "title": "Pakoda (Onion Base)",
+  "category": "Indian",
+  "image": "assets/images/indian/pakoda-onion-base.png",
+  "time": "4–5 | Prep Time: 15 min | Cooking Time: 15 min",
+  "difficulty": "",
+  "servings": "Servings: 4–5 | Prep Time: 15 min | Cooking Time: 15 min",
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "2 medium onions – thinly sliced (approx. 200 g)",
+        "1 green chili – finely chopped (optional)",
+        "2 tbsp fresh coriander leaves – chopped",
+        "1 tbsp fresh mint leaves – chopped (optional, for freshness)",
+        "1 cup (100 g) gram flour (besan)",
+        "2 tbsp rice flour (for extra crispiness)",
+        "½ tsp carom seeds (ajwain)",
+        "½ tsp cumin seeds (jeera)",
+        "½ tsp turmeric powder",
+        "1 tsp red chili powder (adjust to taste)",
+        "½ tsp garam masala (optional for depth)",
+        "Salt – to taste",
+        "Water – about 3–5 tbsp (just enough to bind)",
+        "Oil – for deep frying"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prep Onions:",
+      "steps": [
+        "Place sliced onions in a large mixing bowl. Sprinkle with a little salt, mix, and let sit for 5 minutes — this draws out moisture."
+      ]
+    },
+    {
+      "title": "Build Flavor:",
+      "steps": [
+        "Add green chili, coriander, mint, ajwain, cumin, turmeric, chili powder, and garam masala. Mix well."
+      ]
+    },
+    {
+      "title": "Add Flours:",
+      "steps": [
+        "Add gram flour and rice flour. Mix with your hands so the onion moisture starts binding with the flour."
+      ]
+    },
+    {
+      "title": "Adjust Texture:",
+      "steps": [
+        "Add water very sparingly (1 tbsp at a time). You want a sticky, clumpy mixture — not a runny batter."
+      ]
+    },
+    {
+      "title": "Heat Oil:",
+      "steps": [
+        "Heat oil in a kadhai/wok to 170–180°C (340–355°F). If you drop a small piece of batter, it should rise to the top in 3–4 seconds without burning."
+      ]
+    },
+    {
+      "title": "Shape & Fry:",
+      "steps": [
+        "Using your fingers, drop small, uneven clusters into the oil (don’t roll smooth balls — the rough texture gives more crisp edges). Fry in batches, turning occasionally, until golden brown (about 4–5 minutes)."
+      ]
+    },
+    {
+      "title": "Drain & Serve:",
+      "steps": [
+        "Remove with a slotted spoon, drain on kitchen paper, and serve hot."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Extra Crisp: A pinch of baking soda (just ⅛ tsp) added before frying can make pakodas even lighter.",
+    "Oil Temperature Control: Too hot = burnt outside, raw inside; too low = soggy pakodas.",
+    "Veggie Variations: Replace onions with shredded cabbage, grated potato, spinach, cauliflower florets, or mixed vegetables.",
+    "Serving Suggestion: Pair with mint-coriander chutney or tamarind chutney, plus hot masala chai for a true street-food vibe."
+  ]
+}

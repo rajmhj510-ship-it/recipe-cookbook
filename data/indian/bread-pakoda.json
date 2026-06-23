@@ -1,0 +1,53 @@
+{
+  "id": 414,
+  "title": "Bread Pakoda",
+  "category": "Indian",
+  "image": "assets/images/indian/bread-pakoda.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "serves about 4",
+  "ingredients": [],
+  "instruction": [
+    {
+      "title": "Prepare the filling:",
+      "steps": [
+        "Heat oil in a pan on medium heat. Add mustard seeds and cumin seeds; let them splutter.",
+        "Add chopped green chilies and grated ginger; sauté for 1 minute.",
+        "Add turmeric, red chili powder, and salt. Mix well.",
+        "Add the mashed potatoes, garam masala, and chaat masala. Mix thoroughly.",
+        "Cook for 2-3 minutes to blend flavors. Add chopped coriander, mix, and remove from heat. Let it cool."
+      ]
+    },
+    {
+      "title": "Prepare the batter:",
+      "steps": [
+        "In a bowl, combine gram flour, turmeric, chili powder, asafoetida, and salt.",
+        "Gradually add water and whisk to a smooth, thick batter — consistency should be like pancake batter but slightly thicker."
+      ]
+    },
+    {
+      "title": "Assemble the Pakodas:",
+      "steps": [
+        "Take a bread slice, cut off the edges if desired.",
+        "Spread a generous amount of potato filling on one slice, then cover with another slice (like a sandwich).",
+        "Press lightly to seal the edges."
+      ]
+    },
+    {
+      "title": "Fry:",
+      "steps": [
+        "Heat oil in a deep pan on medium heat.",
+        "Dip the stuffed bread sandwich into the gram flour batter, coat evenly.",
+        "Carefully drop it into hot oil. Fry on medium heat until golden brown and crisp on both sides.",
+        "Remove with a slotted spoon and drain on paper towels."
+      ]
+    },
+    {
+      "title": "Serve:",
+      "steps": [
+        "Serve hot with green chutney and tamarind chutney or ketchup."
+      ]
+    }
+  ],
+  "chefTips": []
+}

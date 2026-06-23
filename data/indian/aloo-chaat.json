@@ -1,0 +1,80 @@
+{
+  "id": 409,
+  "title": "Aloo Chaat",
+  "category": "Indian",
+  "image": "assets/images/indian/aloo-chaat.png",
+  "time": "15 min",
+  "difficulty": "",
+  "servings": "Servings: 4",
+  "ingredients": [
+    {
+      "title": "For the Potatoes",
+      "items": [
+        "500 g (about 4 medium) potatoes – peeled and cut into 2 cm cubes",
+        "1 tsp salt (for boiling water)",
+        "2 tbsp ghee (clarified butter) or neutral oil",
+        "½ tsp cumin seeds",
+        "½ tsp Kashmiri red chili powder",
+        "½ tsp roasted cumin powder",
+        "½ tsp chaat masala",
+        "Salt, to taste"
+      ]
+    },
+    {
+      "title": "For the Chaat Assembly",
+      "items": [
+        "1 small red onion – finely chopped",
+        "1 medium tomato – deseeded & finely chopped",
+        "1 green chili – finely chopped (optional, for heat)",
+        "2 tbsp fresh coriander leaves – finely chopped",
+        "2 tbsp fresh mint leaves – finely chopped",
+        "2 tbsp tamarind chutney",
+        "2 tbsp green chutney (mint–coriander)",
+        "2 tbsp sweetened yogurt (optional, for Delhi-style chaat)",
+        "1 tbsp sev (crispy chickpea flour noodles) – for garnish",
+        "Pomegranate arils – for garnish",
+        "Extra chaat masala – for finishing"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare the Potatoes",
+      "steps": [
+        "Bring a pot of salted water to a boil. Add potato cubes and cook until just tender (about 8–10 min).",
+        "Drain well, spread on a tray, and let them dry slightly for 5 minutes — this ensures crispness when frying."
+      ]
+    },
+    {
+      "title": "Pan-Fry the Potatoes",
+      "steps": [
+        "Heat ghee or oil in a heavy skillet over medium-high heat.",
+        "Add cumin seeds and let them crackle (10 seconds).",
+        "Add potatoes, sprinkle with salt, chili powder, roasted cumin powder, and chaat masala.",
+        "Sauté until golden and crisp on all sides (6–8 minutes). Remove from heat."
+      ]
+    },
+    {
+      "title": "Assemble the Chaat",
+      "steps": [
+        "Place crispy potatoes in a wide mixing bowl.",
+        "Toss gently with onion, tomato, green chili, coriander, and mint.",
+        "Drizzle with tamarind chutney, green chutney, and yogurt (if using).",
+        "Taste and adjust seasoning with extra chaat masala or salt."
+      ]
+    },
+    {
+      "title": "Garnish & Serve",
+      "steps": [
+        "Plate the chaat, sprinkle with sev and pomegranate seeds.",
+        "Serve immediately — aloo chaat loses its magic if it sits too long."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Texture contrast is key — potatoes must be crisp outside, fluffy inside. Letting boiled potatoes air-dry before frying is essential.",
+    "Balance sweet, sour, spicy, and salty — chutneys bring sweetness and tang, chaat masala adds a zesty punch, chili gives heat.",
+    "Advance prep — Chutneys can be made up to 3 days ahead and refrigerated.",
+    "Professional plating — Use a shallow bowl, arrange potatoes in a nest, drizzle chutneys in a zigzag pattern, top with micro herbs and sev for a refined look."
+  ]
+}

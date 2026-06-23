@@ -1,0 +1,82 @@
+{
+  "id": 408,
+  "title": "Aloo Tikki",
+  "category": "Indian",
+  "image": "assets/images/indian/aloo-tikki.png",
+  "time": "20 minutes",
+  "difficulty": "",
+  "servings": "Servings: 10 medium tikkis",
+  "ingredients": [
+    {
+      "title": "For the Tikki",
+      "items": [
+        "Potatoes (flour variety) – 500 g, boiled, peeled, and cooled completely",
+        "Green chilies – 2, finely chopped",
+        "Fresh coriander leaves – 2 tbsp, finely chopped",
+        "Ginger – 1 tsp, grated",
+        "Red chili powder – ½ tsp",
+        "Roasted cumin powder – 1 tsp",
+        "Dry mango powder (amchur) – ½ tsp (or 1 tsp lemon juice)",
+        "Chaat masala – ½ tsp",
+        "Cornflour – 3 tbsp (binding)",
+        "Salt – to taste",
+        "Oil / ghee – for shallow frying"
+      ]
+    },
+    {
+      "title": "Optional Stuffing (for restaurant-style surprise filling)",
+      "items": [
+        "Green peas – 50 g, boiled and lightly mashed",
+        "Coriander powder – ½ tsp",
+        "Garam masala – ¼ tsp",
+        "Salt – to taste"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prep the Potatoes",
+      "steps": [
+        "After boiling, cool completely to avoid excess moisture.",
+        "Mash finely with a potato masher—ensure no lumps for a smooth texture."
+      ]
+    },
+    {
+      "title": "Make the Stuffing (optional but chef’s touch)",
+      "steps": [
+        "Heat 1 tsp oil in a pan. Add peas, coriander powder, garam masala, and salt.",
+        "Cook for 1–2 min, then let cool."
+      ]
+    },
+    {
+      "title": "Prepare the Tikki Mixture",
+      "steps": [
+        "In a large mixing bowl, combine mashed potatoes, green chili, coriander leaves, ginger, red chili powder, roasted cumin, amchur, chaat masala, cornflour, and salt.",
+        "Mix gently; avoid over-mixing to keep the texture fluffy."
+      ]
+    },
+    {
+      "title": "Shape",
+      "steps": [
+        "Divide into equal portions.",
+        "If using stuffing: flatten one portion, place 1 tsp stuffing in the center, and close edges to form a patty.",
+        "Flatten slightly for even cooking."
+      ]
+    },
+    {
+      "title": "Cooking",
+      "steps": [
+        "Heat a heavy-bottom skillet or tawa on medium heat.",
+        "Add oil/ghee (a mix gives better aroma and golden crust).",
+        "Place tikkis and shallow fry 3–4 minutes per side until golden and crisp.",
+        "Do not overcrowd the pan; cook in batches."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Binding: Adjust cornflour depending on moisture level of potatoes. If too wet, add breadcrumbs.",
+    "Crispness secret: Fry on medium heat first to cook through, then increase heat for the last 30 seconds for a crunchy crust.",
+    "Holding shape: Refrigerate shaped tikkis for 20 minutes before frying.",
+    "Serving suggestion: Plate with tamarind chutney, mint chutney, a dollop of yogurt, sev, and pomegranate pearls for a chaat-style presentation."
+  ]
+}

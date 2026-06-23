@@ -1,0 +1,51 @@
+{
+  "id": 424,
+  "title": "Chicken Boti Kabab",
+  "category": "Indian",
+  "image": "assets/images/indian/chicken-boti-kabab.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Ingredients (Serves 4)",
+  "ingredients": [],
+  "instruction": [
+    {
+      "title": "Preparation of Chicken:",
+      "steps": [
+        "Wash and pat dry chicken pieces. Prick lightly with a fork for deeper marinade penetration."
+      ]
+    },
+    {
+      "title": "Roasting the Gram Flour (Besan):",
+      "steps": [
+        "Dry roast 2 tbsp besan on medium heat until golden & aromatic. Cool and set aside."
+      ]
+    },
+    {
+      "title": "Marinade:",
+      "steps": [
+        "In a bowl, combine yogurt, cream, ginger-garlic paste, chili paste, lemon juice, mustard oil, roasted besan, and all spices. Mix well.",
+        "Add chicken cubes, coat evenly, cover, and refrigerate minimum 4 hours, preferably overnight."
+      ]
+    },
+    {
+      "title": "Cooking Options:",
+      "steps": [
+        "Charcoal/BBQ (Authentic): Skewer marinated chicken and grill on medium heat, basting with butter/ghee until charred and cooked through (8–12 min).",
+        "Oven: Preheat to 220°C (425°F). Place skewered chicken on a rack over a tray. Bake 15–18 min, turning once. Broil (grill mode) for 2–3 min for charred edges.",
+        "Tandoor (Professional): Cook at 300°C until smoky, tender, and charred."
+      ]
+    },
+    {
+      "title": "Finishing:",
+      "steps": [
+        "Once cooked, brush with melted butter/ghee for shine & flavor.",
+        "Serve hot with onion rings, lemon wedges, and mint chutney.",
+        "Use chicken thighs – they stay moist, unlike breast which can dry out.",
+        "Double marination – first with lemon, chili, salt (20 min), then with yogurt-spice mix (overnight). This boosts depth of flavor.",
+        "Smoky finish – If not BBQing, use the dhungar method: place a hot charcoal piece in a small bowl inside the chicken tray, pour ghee over it, cover tightly for 5 min. This adds tandoori smokiness.",
+        "Serve immediately – Boti kababs dry out if left standing too long."
+      ]
+    }
+  ],
+  "chefTips": []
+}

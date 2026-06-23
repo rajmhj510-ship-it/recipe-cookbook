@@ -1,0 +1,53 @@
+{
+  "id": 421,
+  "title": "Seekh Kebab",
+  "category": "Indian",
+  "image": "assets/images/indian/seekh-kebab.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Ingredients (Serves 6–8)",
+  "ingredients": [],
+  "instruction": [
+    {
+      "title": "Prepare the meat mix",
+      "steps": [
+        "Place the minced meat in a large chilled bowl.",
+        "Add grated onion (squeezed dry), ginger-garlic paste, green chili, coriander, and mint.",
+        "Add all ground spices, salt, and roasted gram flour.",
+        "Mix well with your hands for at least 8–10 minutes until the mixture becomes sticky (this ensures binding)."
+      ]
+    },
+    {
+      "title": "Resting",
+      "steps": [
+        "Cover and refrigerate for at least 1 hour (preferably overnight). This helps flavors develop and mixture firm up."
+      ]
+    },
+    {
+      "title": "Shaping the kebabs",
+      "steps": [
+        "Lightly oil your hands and skewers.",
+        "Take a portion of the mix and mold it around a skewer, pressing gently to form a long cylinder (approx. 6–8 inches).",
+        "Ensure the kebabs are even in thickness for uniform cooking."
+      ]
+    },
+    {
+      "title": "Cooking",
+      "steps": [
+        "Tandoor/Grill: Cook directly over high heat, rotating until evenly charred and cooked (8–10 minutes).",
+        "Oven Method: Preheat oven to 240°C (475°F). Place kebabs on a greased rack over a tray and cook for 12–15 minutes, flipping midway. Finish with 2–3 minutes under the broiler for char."
+      ]
+    },
+    {
+      "title": "Optional Smoky Finish (Dhungar):",
+      "steps": [
+        "Heat a piece of charcoal until red-hot.",
+        "Place it in a small steel bowl inside the kebab tray, pour 1 tsp ghee over it, and immediately cover with a lid for 2 minutes.",
+        "This gives the kebabs a restaurant-style smoky aroma.",
+        "Serve hot with mint-coriander chutney, sliced onions, lemon wedges, and butter naan.",
+        "Garnish with a light sprinkle of chaat masala before serving."
+      ]
+    }
+  ],
+  "chefTips": []
+}

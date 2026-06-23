@@ -1,0 +1,92 @@
+{
+  "id": 412,
+  "title": "Vegetable Pakoda (Vegetable Fritters)",
+  "category": "Indian",
+  "image": "assets/images/indian/vegetable-pakoda-vegetable-fritters.png",
+  "time": "15 minutes",
+  "difficulty": "",
+  "servings": "Yield: 4 servings (roughly 18–22 medium-size pakodas)",
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Onion – 1 large (about 150 g)",
+        "Potato – 1 medium (about 100 g)",
+        "Carrot – 1 medium (about 80 g)",
+        "Spinach leaves – 1 cup (loosely packed, about 50 g)",
+        "Green chili – 1–2, finely chopped (adjust to taste)",
+        "Gram flour (Besan) – 1 cup (120 g)",
+        "Rice flour – 2 tbsp (for extra crispness)",
+        "Red chili powder – 1 tsp",
+        "Turmeric powder – ¼ tsp",
+        "Coriander powder – ½ tsp",
+        "Carom seeds (Ajwain) – ½ tsp (aids digestion, adds aroma)",
+        "Baking soda – a pinch (optional, for extra lightness)",
+        "Salt – to taste",
+        "Water – as needed (about 70–90 ml)"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Neutral-flavored oil (sunflower/vegetable oil) – enough for deep frying (about 500 ml in a wok/kadhai)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prep Vegetables",
+      "steps": [
+        "Wash and peel vegetables as needed.",
+        "Slice onions thinly, julienne potato and carrot, roughly chop spinach, and finely chop green chilies.",
+        "Pat vegetables dry to avoid excess water in the batter."
+      ]
+    },
+    {
+      "title": "Make the Batter",
+      "steps": [
+        "In a large mixing bowl, add gram flour, rice flour, chili powder, turmeric, coriander powder, ajwain, baking soda, and salt.",
+        "Mix dry ingredients well.",
+        "Gradually add water while mixing until you get a thick, lump-free batter that coats vegetables but is not runny."
+      ]
+    },
+    {
+      "title": "Combine Vegetables & Batter",
+      "steps": [
+        "Add the sliced vegetables to the batter.",
+        "Toss and mix so all vegetables are well coated.",
+        "Rest for 5–7 minutes to allow salt to draw moisture from onions and enhance flavor."
+      ]
+    },
+    {
+      "title": "Heat the Oil",
+      "steps": [
+        "In a deep wok/kadhai, heat oil over medium heat to 170–175°C (340–350°F).",
+        "Test by dropping a small bit of batter into oil — it should sizzle and rise slowly to the top."
+      ]
+    },
+    {
+      "title": "Fry the Pakodas",
+      "steps": [
+        "Drop small portions of the batter-coated vegetables into the hot oil, using your fingers or a spoon.",
+        "Avoid overcrowding to maintain oil temperature.",
+        "Fry, turning occasionally, until golden brown and crisp — about 3–4 minutes per batch.",
+        "Remove with a slotted spoon and drain on paper towels."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Serve hot with green chutney, tamarind chutney, or tomato ketchup.",
+        "Sprinkle lightly with chaat masala for a professional street-food touch."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Rice flour is key for crispness — do not skip it.",
+    "The batter should be just thick enough to bind vegetables; excess batter makes them heavy.",
+    "Maintain consistent oil temperature — too low will make pakodas oily, too high will brown them before cooking inside.",
+    "For extra flavor, add finely chopped coriander leaves and a pinch of garam masala to the batter.",
+    "These are best enjoyed fresh — they lose crispness if stored."
+  ]
+}

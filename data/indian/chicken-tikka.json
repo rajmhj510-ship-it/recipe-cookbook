@@ -1,0 +1,75 @@
+{
+  "id": 420,
+  "title": "Chicken Tikka",
+  "category": "Indian",
+  "image": "assets/images/indian/chicken-tikka.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Serves: 4–6",
+  "ingredients": [
+    {
+      "title": "For Marinade",
+      "items": [
+        "Chicken (boneless thighs preferred): 800g, cut into 2-inch cubes",
+        "Thick yogurt (hung curd): 250g",
+        "Ginger-garlic paste: 2 tbsp",
+        "Kashmiri red chili powder: 2 tsp (for color & mild heat)",
+        "Hot red chili powder: 1 tsp (adjust to taste)",
+        "Turmeric powder: ½ tsp",
+        "Coriander powder: 1 tsp",
+        "Cumin powder (roasted): 1 tsp",
+        "Garam masala: 1 tsp",
+        "Kasuri methi (dried fenugreek leaves): 1 tsp, lightly crushed",
+        "Lemon juice: 2 tbsp",
+        "Mustard oil (or vegetable oil): 3 tbsp",
+        "Salt: to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Fresh coriander leaves",
+        "Lemon wedges",
+        "Onion rings, lightly pickled in vinegar & salt"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: First Marinade (Tenderizing)",
+      "steps": [
+        "1 tbsp lemon juice",
+        "1 tsp salt",
+        "1 tsp ginger-garlic paste",
+        "This step helps tenderize the chicken and allows deeper flavor absorption."
+      ]
+    },
+    {
+      "title": "Step 2: Main Marinade",
+      "steps": [
+        "Whisk yogurt until smooth.",
+        "Add chili powders, turmeric, coriander, cumin, garam masala, kasuri methi, mustard oil, and the rest of ginger-garlic paste.",
+        "Adjust salt and lemon juice, then coat chicken pieces well.",
+        "Cover and refrigerate for at least 6 hours (overnight for best results)."
+      ]
+    },
+    {
+      "title": "Step 3: Cooking",
+      "steps": [
+        "Skewer marinated chicken, roast in a tandoor until charred at edges and cooked through (8–10 minutes).",
+        "Preheat oven to 220°C / 430°F.",
+        "Line a tray with foil, place chicken pieces on a rack.",
+        "Cook for 12–15 minutes, brushing with melted butter or ghee midway.",
+        "Broil (top heat) for the last 2–3 minutes for charred effect.",
+        "Rest cooked chicken for 2–3 minutes before serving.",
+        "Garnish with lemon wedges, onion rings, and fresh coriander.",
+        "Optional: serve with green mint chutney for a complete restaurant-style presentation."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Boneless thighs are juicier than breast meat.",
+    "Using mustard oil in marinade gives authentic North Indian flavor.",
+    "For smoky aroma, do a dhungar (charcoal smoke infusion) before serving"
+  ]
+}

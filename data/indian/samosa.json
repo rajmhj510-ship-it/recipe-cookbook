@@ -1,0 +1,92 @@
+{
+  "id": 410,
+  "title": "Samosa",
+  "category": "Indian",
+  "image": "assets/images/indian/samosa.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Yield: 8–10 medium samosas",
+  "ingredients": [
+    {
+      "title": "For the Dough",
+      "items": [
+        "All-purpose flour – 200 g (about 1⅔ cups)",
+        "Carom seeds (ajwain) – 0.8 g (¼ tsp)",
+        "Fine salt – 3.2 g (½ tsp)",
+        "Ghee or neutral oil – 48 g (3 tbsp + 1 tsp)",
+        "Water – 80–88 ml (about ⅓ cup + 1 tsp, adjust for firmness)"
+      ]
+    },
+    {
+      "title": "For the Filling",
+      "items": [
+        "Potatoes – 320 g (about 2 medium), boiled, peeled, diced small",
+        "Green peas – 60 g (about ⅓ cup)",
+        "Green chili – 2 g (½ tsp finely chopped)",
+        "Ginger – 4 g (about ¾ tsp grated)",
+        "Coriander leaves – 8 g (about 2 tbsp finely chopped)",
+        "Ghee or oil – 16 ml (about 1 tbsp + 1 tsp)",
+        "Coriander seeds – 4 g (¾ tsp)",
+        "Fennel seeds – 2.5 g (½ tsp)",
+        "Cumin seeds – 1.6 g (¼ tsp)",
+        "Turmeric powder – 0.8 g (¼ tsp)",
+        "Red chili powder – 1.2 g (¼ tsp)",
+        "Garam masala – 1.6 g (¼ tsp + a pinch)",
+        "Dry mango powder (amchur) – 1.2 g (¼ tsp)",
+        "Salt – to taste (about 3–4 g for filling)"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": []
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Make the Dough",
+      "steps": [
+        "In a mixing bowl, combine flour, ajwain, and salt.",
+        "Rub in ghee/oil until it looks like coarse breadcrumbs.",
+        "Add water gradually and knead into a firm dough.",
+        "Cover with a damp cloth and rest for 30 minutes."
+      ]
+    },
+    {
+      "title": "Prepare the Filling",
+      "steps": [
+        "Heat ghee/oil in a pan.",
+        "Add roasted spice mix, stir for 10 seconds until aromatic.",
+        "Add green chili and ginger, sauté briefly.",
+        "Add peas and cook until just tender.",
+        "Add potatoes, turmeric, chili powder, garam masala, amchur, and salt.",
+        "Toss gently, mashing lightly so filling binds.",
+        "Add coriander leaves, remove from heat, cool completely."
+      ]
+    },
+    {
+      "title": "Shape the Samosas",
+      "steps": [
+        "Divide dough into 4–5 balls; roll each into a 6-inch oval.",
+        "Cut each oval in half to make two semi-circles.",
+        "Form a cone from each half, sealing straight edge with water.",
+        "Fill with 1½ tbsp filling, leaving a little space at the top.",
+        "Seal the open edge firmly, ensuring no gaps."
+      ]
+    },
+    {
+      "title": "Frying",
+      "steps": [
+        "Heat oil to 150–160°C (medium-low).",
+        "Fry in batches for 6–8 minutes until pale golden.",
+        "Raise heat to 170–175°C and fry 1–2 minutes to crisp.",
+        "Drain on paper towels."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Dough texture: Too soft = oily samosas; too hard = cracks.",
+    "Frying temperature: Low-and-slow ensures blistered, crisp shells.",
+    "Spice bloom: Always roast whole spices for depth of flavor.",
+    "Storage: Par-fry at 150°C for 4–5 minutes, cool, freeze; refry from frozen at 170°C for service."
+  ]
+}

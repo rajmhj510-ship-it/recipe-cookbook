@@ -1,0 +1,90 @@
+{
+  "id": 418,
+  "title": "Aloo Chop",
+  "category": "Indian",
+  "image": "assets/images/indian/aloo-chop.png",
+  "time": "25 minutes",
+  "difficulty": "",
+  "servings": "Yield: 12–15 chops",
+  "ingredients": [
+    {
+      "title": "For the Potato Filling",
+      "items": [
+        "500 g potatoes (starchy variety like russet or gold), boiled, peeled, and mashed",
+        "1 ½ tbsp mustard oil (or vegetable oil)",
+        "1 tsp panch phoron (Bengali five spice mix: fenugreek, nigella, cumin, black mustard, fennel seeds)",
+        "1 medium onion, finely chopped",
+        "1–2 green chilies, finely chopped (adjust to taste)",
+        "1 tsp fresh ginger, grated",
+        "½ tsp turmeric powder",
+        "½ tsp red chili powder",
+        "½ tsp garam masala powder",
+        "1 tsp coriander powder",
+        "1 tbsp fresh coriander leaves, finely chopped",
+        "Salt to taste",
+        "Juice of ½ lime (optional, for brightness)"
+      ]
+    },
+    {
+      "title": "For the Batter",
+      "items": [
+        "150 g (1 ¼ cups) besan (chickpea flour)",
+        "¼ tsp turmeric powder",
+        "½ tsp red chili powder",
+        "¼ tsp baking soda (for extra crispness)",
+        "Salt to taste",
+        "About 180–200 ml water (adjust for a smooth, coating batter)"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "500 ml mustard oil or vegetable oil (for deep frying)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Filling",
+      "steps": [
+        "Heat mustard oil in a heavy pan until slightly smoking (to remove raw aroma), then lower the heat.",
+        "Add panch phoron; let the seeds crackle and release their aroma.",
+        "Add onions, sauté until soft and lightly golden.",
+        "Stir in green chilies and grated ginger; cook for 30 seconds.",
+        "Add turmeric, red chili powder, coriander powder, and garam masala; sauté for 20–30 seconds.",
+        "Add mashed potatoes, salt, and mix thoroughly so spices are evenly distributed.",
+        "Stir in fresh coriander leaves and lime juice. Adjust seasoning.",
+        "Let the mixture cool, then divide into 12–15 equal portions and shape into flat discs or ovals."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Batter",
+      "steps": [
+        "In a mixing bowl, combine besan, turmeric, red chili powder, baking soda, and salt.",
+        "Add water gradually, whisking until you have a lump-free batter of medium-thick consistency (should coat the back of a spoon without dripping too fast).",
+        "Rest the batter for 10 minutes."
+      ]
+    },
+    {
+      "title": "Step 3 – Fry the Aloo Chops",
+      "steps": [
+        "Heat oil in a deep wok or kadhai to 170–175 °C (medium-high heat).",
+        "Dip each potato disc into the batter, ensuring a complete coat, and gently lower into the hot oil.",
+        "Fry in batches without overcrowding, turning occasionally, until crisp and golden (about 3–4 minutes per batch).",
+        "Drain on a wire rack or paper towels to remove excess oil."
+      ]
+    },
+    {
+      "title": "Step 4 – Serve",
+      "steps": [
+        "Serve hot with kasundi (Bengali mustard sauce) or green chutney, and onion salad.",
+        "Best enjoyed fresh; the coating will lose crispness over time."
+      ]
+    }
+  ],
+  "chefTips": [
+    "For a smokier, street-style flavor, add a pinch of black salt to the filling.",
+    "Using panch phoron makes this distinctly Bengali, but you can use cumin seeds for a simpler version.",
+    "Control oil temperature — too low and the chops absorb oil; too high and the exterior burns before the inside heats."
+  ]
+}

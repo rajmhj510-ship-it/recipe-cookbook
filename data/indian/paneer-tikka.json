@@ -1,0 +1,60 @@
+{
+  "id": 419,
+  "title": "Paneer Tikka",
+  "category": "Indian",
+  "image": "assets/images/indian/paneer-tikka.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Ingredients (Serves 4)",
+  "ingredients": [],
+  "instruction": [
+    {
+      "title": "Preparing the Marinade",
+      "steps": [
+        "In a large mixing bowl, whisk the yogurt until smooth.",
+        "Add ginger-garlic paste, chili powder, turmeric, coriander powder, garam masala, chaat masala, lemon juice, salt, and oil. Mix well.",
+        "Sprinkle in the gram flour and stir to form a smooth, thick marinade. This helps the coating stick and gives a slight crisp when grilled."
+      ]
+    },
+    {
+      "title": "Marinating Paneer and Vegetables",
+      "steps": [
+        "Gently fold paneer cubes into the marinade. Make sure each piece is evenly coated.",
+        "If using vegetables, coat them in the same marinade.",
+        "Cover and refrigerate for at least 1 hour (overnight gives best flavor)."
+      ]
+    },
+    {
+      "title": "Preparing Skewers",
+      "steps": [
+        "If using wooden skewers, soak them in water for 30 minutes to prevent burning.",
+        "Thread paneer and vegetables alternately onto skewers."
+      ]
+    },
+    {
+      "title": "Cooking (Three Methods)",
+      "steps": [
+        "Preheat oven to 200°C / 400°F.",
+        "Place skewers on a greased baking tray or grill rack.",
+        "Bake for 15–20 minutes, turning halfway, until edges are slightly charred.",
+        "Optional: Broil for 2–3 minutes at the end for extra smoky effect.",
+        "Grill on medium-high heat for 10–12 minutes, turning occasionally. Brush with butter or oil for juiciness.",
+        "Heat a heavy skillet or grill pan, brush with oil, cook paneer on medium heat, turning to get golden, slightly charred edges."
+      ]
+    },
+    {
+      "title": "Serving",
+      "steps": [
+        "Sprinkle chaat masala and garnish with coriander leaves.",
+        "Serve hot with green chutney and lemon wedges.",
+        "Best enjoyed immediately for that restaurant-quality taste.",
+        "Use hung curd – removes excess water and makes marinade thicker.",
+        "Mustard oil or clarified butter (ghee) adds authentic smoky flavor.",
+        "High heat grilling gives the signature charred edges.",
+        "Do not overcrowd the skewers – paneer should have space to cook evenly.",
+        "Optional “smoky effect”: Place a piece of hot charcoal in a small bowl, drizzle a little ghee, and cover the marinated paneer for a minute to get tandoori flavor."
+      ]
+    }
+  ],
+  "chefTips": []
+}
