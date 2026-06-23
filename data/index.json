@@ -499,6 +499,51 @@
     "difficulty": "Medium"
   },
   {
+    "id": 225,
+    "title": "Tomato Shorba",
+    "category": "Indian",
+    "file": "data/indian/tomato-shorba.json",
+    "image": "assets/images/indian/tomato-shorba.png",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 226,
+    "title": "Mulligatawny Soup",
+    "category": "Indian",
+    "file": "data/indian/mulligatawny-soup.json",
+    "image": "assets/images/indian/mulligatawny-soup.png",
+    "time": "40 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 227,
+    "title": "Chicken Sorba",
+    "category": "Indian",
+    "file": "data/indian/chicken-sorba.json",
+    "image": "assets/images/indian/chicken-sorba.png",
+    "time": "50 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 228,
+    "title": "Paya Sorba",
+    "category": "Indian",
+    "file": "data/indian/paya-sorba.json",
+    "image": "assets/images/indian/paya-sorba.png",
+    "time": "3–4 hrs",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 229,
+    "title": "Indian",
+    "category": "South Indian",
+    "file": "data/indian/rasam.json",
+    "image": "assets/images/indian/rasam.png",
+    "time": "25 min",
+    "difficulty": "Easy"
+  },
+  {
     "id": 501,
     "title": "Chicken Cacciatore",
     "category": "Italian",
