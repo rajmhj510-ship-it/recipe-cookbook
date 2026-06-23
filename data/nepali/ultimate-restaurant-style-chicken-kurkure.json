@@ -1,0 +1,76 @@
+{
+  "id": 704,
+  "title": "Chicken Kurkure",
+  "category": "Indian",
+  "image": "assets/images/indian/chicken-kurkure.png",
+  "time": "25 min",
+  "difficulty": "Easy",
+  "servings": 3,
+
+  "ingredients": [
+    {
+      "title": "Ingredients (optimized):",
+      "items": [
+        "250g boneless chicken, cut into thin strips",
+        "1 tsp ginger-garlic paste",
+        "1–2 green chilies, finely chopped",
+        "1 tsp coriander powder",
+        "1 tsp Kashmiri chili powder",
+        "½ tsp black pepper powder",
+        "1 tsp garam masala (optional, adds depth)",
+        "1 tsp lemon juice or vinegar (for slight tang)",
+        "1 tbsp yogurt (optional, tenderizes the chicken)",
+        "2 tbsp corn flour",
+        "2–3 tbsp breadcrumbs",
+        "1–2 tbsp all-purpose flour (helps bind coating)",
+        "Salt to taste",
+        "Oil for deep frying",
+        "Fresh coriander or chaat masala for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Marination",
+      "steps": [
+        "In a bowl, combine chicken strips with:",
+        "Ginger-garlic paste, green chilies",
+        "Coriander powder, Kashmiri chili powder, black pepper, garam masala",
+        "Lemon juice, yogurt (optional), salt",
+        "Mix well and let it marinate for 30–60 minutes. Yogurt makes the chicken soft inside while keeping the coating crisp."
+      ]
+    },
+    {
+      "title": "Step 2: Coating",
+      "steps": [
+        "In a shallow bowl, mix:",
+        "Corn flour + all-purpose flour + breadcrumbs",
+        "Add a pinch of salt and chili powder if you want extra heat",
+        "Lightly coat each chicken strip. For extra crunch, you can double coat: dip in a little water or yogurt, then coat again in the flour-breadcrumb mix."
+      ]
+    },
+    {
+      "title": "Step 3: Frying",
+      "steps": [
+        "Heat oil over medium heat.",
+        "Fry chicken strips in batches, ensuring they don’t touch each other.",
+        "Fry until golden brown and crispy (~3–4 min per batch).",
+        "Drain on paper towels."
+      ]
+    },
+    {
+      "title": "Step 4: Garnishing & Serving",
+      "steps": [
+        "Sprinkle chaat masala or fresh coriander for added flavor.",
+        "Serve hot with mint chutney, spicy mayo, or ketchup."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "For twisty, crunchy strands (like street Kurkure), use a fork to slightly twist the chicken strips before frying.",
+    "Corn flour + all-purpose flour ratio can be 2:1 for the crispiest texture.",
+    "Medium-low heat ensures the chicken cooks through without burning the coating."
+  ]
+}
