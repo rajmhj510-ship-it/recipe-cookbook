@@ -417,6 +417,15 @@
     "time": "1 hr 20 min",
     "difficulty": "Medium"
         },
+    {
+    "id": 703,
+    "title": "Chicken Kurkure",
+    "category": "Nepali",
+    "file": "data/nepali/chicke-kurkure.json",
+    "image": "assets/images/nepali/chicken-kurkure.png",
+    "time": "",
+    "difficulty": ""
+        },
   {
     "id": 801,
     "title": "Pad Thai",
