@@ -1,0 +1,72 @@
+{
+  "id": 435,
+  "title": "Peda",
+  "category": "Indian",
+  "image": "assets/images/indian/peda.png",
+  "time": "35-40 mins",
+  "difficulty": "Easy",
+  "servings": 30,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "1 cup full-fat milk powder (for richness)",
+        "½ cup condensed milk (sweet and creamy)",
+        "2–3 tbsp ghee (clarified butter)",
+        "¼ tsp cardamom powder (green cardamom for authentic flavor)",
+        "A few strands of saffron (optional, soaked in 1 tbsp warm milk)",
+        "Chopped nuts for garnish (almonds, pistachios)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare the Pan",
+      "steps": [
+        "Heat a non-stick pan on low flame. Add ghee and let it melt."
+      ]
+    },
+    {
+      "title": "Combine Ingredients",
+      "steps": [
+        "Add milk powder and condensed milk to the pan. Mix well with a spatula."
+      ]
+    },
+    {
+      "title": "Cook the Mixture",
+      "steps": [
+        "Keep stirring continuously on low flame to avoid burning. Cook until the mixture thickens and starts leaving the sides of the pan (~8–10 minutes)."
+      ]
+    },
+    {
+      "title": "Flavor the Pedas",
+      "steps": [
+        "Add cardamom powder and saffron milk. Mix thoroughly. Cook for another 1–2 minutes. The mixture should form a soft, pliable dough."
+      ]
+    },
+    {
+      "title": "Shape the Pedas",
+      "steps": [
+        "Remove from heat and let it cool slightly until warm to touch. Grease your hands with ghee and shape into small round discs or slightly flattened balls."
+      ]
+    },
+    {
+      "title": "Garnish",
+      "steps": [
+        "Press a small piece of almond or pistachio on top of each peda."
+      ]
+    },
+    {
+      "title": "Set & Serve",
+      "steps": [
+        "Let the pedas cool completely. Store in an airtight container at room temperature for up to 5–6 days or in the refrigerator for longer shelf life."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use full-fat milk powder for the creamy texture; skimmed milk powder gives a dry texture.",
+    "Constant stirring is crucial; avoid high heat to prevent burning or graininess.",
+    "Slightly undercook if you prefer very soft, melt-in-mouth pedas.",
+    "For an exotic flavor, you can add a drop of rose water or kewra essence."
+  ]
+}
