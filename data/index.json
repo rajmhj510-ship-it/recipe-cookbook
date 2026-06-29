@@ -612,6 +612,16 @@
     "time": "1 hr 30 mins",
     "difficulty": "Medium"
   },
+    {
+    "id": 431,
+    "title": "Pani Puri Masala",
+    "category": "Indian",
+    "file": "data/indian/pani-puri-masala.json",
+    "image": "assets/images/indian/pani-puri-masala.png",
+    "description": "",
+    "time": "30 mins + 1 hr chilling",
+    "difficulty": "Easy"
+  },
   {
     "id": 501,
     "title": "Chicken Cacciatore",
