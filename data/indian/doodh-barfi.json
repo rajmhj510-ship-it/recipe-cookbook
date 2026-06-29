@@ -1,0 +1,63 @@
+{
+  "id": 437,
+  "title": "Barfi (Doodh Barfi)",
+  "category": "Indian",
+  "image": "assets/images/indian/doodh-barfi.png",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "servings": 20,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Full-Fat Milk – 1 liter",
+        "Sugar – 150 g",
+        "Ghee (Clarified Butter) – 2 tsp (plus extra for greasing)",
+        "Cardamom Powder – ½ tsp (freshly ground)",
+        "Saffron Strands – 6–8 (optional, soaked in 1 tbsp warm milk)",
+        "Chopped Pistachios or Almonds – 2 tsp (for garnish)",
+        "Edible Silver Leaf (Vark) – optional"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Make Fresh Khoya (Milk Solids)",
+      "steps": [
+        "Boil milk in a heavy-bottomed pan.",
+        "Reduce the flame and simmer, stirring frequently to prevent sticking.",
+        "Cook until milk thickens to a dense, grainy, semi-solid consistency (this is khoya)."
+      ]
+    },
+    {
+      "title": "Add Sugar & Flavor",
+      "steps": [
+        "Add sugar gradually while stirring.",
+        "Cook until mixture thickens and starts leaving the sides of the pan.",
+        "Mix in ghee, cardamom powder, and saffron milk if using."
+      ]
+    },
+    {
+      "title": "Set the Barfi",
+      "steps": [
+        "Grease a tray or shallow plate with ghee.",
+        "Spread the hot mixture evenly, smoothing the top with a spatula.",
+        "Sprinkle chopped nuts and silver leaf (vark) for a professional finish."
+      ]
+    },
+    {
+      "title": "Cut & Serve",
+      "steps": [
+        "Let it cool for 15–20 minutes.",
+        "Cut into squares or diamonds while slightly warm.",
+        "Serve at room temperature for the best texture."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Constant Stirring – Prevents grainy texture and burning at the base.",
+    "Full-Fat Milk Only – Ensures creamy, rich taste.",
+    "Flavor Balance – Cardamom and saffron should be subtle, not overpowering.",
+    "Plating – For a luxury look, garnish with silver leaf, edible rose petals, or gold-dusted pistachio slivers."
+  ]
+}
