@@ -1,0 +1,89 @@
+{
+  "id": 452,
+  "title": "Medu Vada (Savory Donuts)",
+  "category": "Indian",
+  "image": "assets/images/indian/medu-vada.png",
+  "time": "5 hrs",
+  "difficulty": "Medium",
+  "servings": 8,
+  "ingredients": [
+    {
+      "title": "For the Batter",
+      "items": [
+        "2 cups whole urad dal (skinned black gram)",
+        "1 tsp rice flour (optional, for extra crispness)",
+        "1–1.5 tsp salt (to taste)",
+        "2–3 tbsp ice-cold water (only if needed)"
+      ]
+    },
+    {
+      "title": "For Flavoring",
+      "items": [
+        "1 tbsp finely chopped ginger",
+        "2–3 green chilies, finely chopped",
+        "1 sprig curry leaves, finely chopped",
+        "2 tbsp fresh coriander leaves, chopped",
+        "1 medium onion, finely chopped (optional, for Medu Vada with onion)",
+        "½ tsp black peppercorns, lightly crushed",
+        "1 tsp cumin seeds"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Refined oil or sunflower oil (enough for deep-frying)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Soaking & Grinding",
+      "steps": [
+        "Wash the urad dal thoroughly and soak it in plenty of water for 4–5 hours.",
+        "Drain completely. In a wet grinder (preferred for authentic texture), grind the dal into a smooth, fluffy batter. Use as little water as possible — just enough to keep the grinder moving.",
+        "The batter should be thick, airy, and hold shape (like whipped cream consistency)."
+      ]
+    },
+    {
+      "title": "Step 2: Aeration Test (Chef’s Tip)",
+      "steps": [
+        "Drop a small amount of batter into a bowl of water. If it floats, it has incorporated enough air — ensuring fluffy vadas."
+      ]
+    },
+    {
+      "title": "Step 3: Mixing Flavors",
+      "steps": [
+        "Add salt, rice flour (if using), ginger, chilies, curry leaves, pepper, cumin, and onion (if using). Mix well with your hand (this further aerates the batter)."
+      ]
+    },
+    {
+      "title": "Step 4: Shaping the Vada",
+      "steps": [
+        "Keep a bowl of water nearby. Wet your palms slightly. Take a small portion of batter (golf ball size), flatten slightly, and make a hole in the center with your thumb — forming the classic doughnut shape.",
+        "Pro tip: Experienced chefs use a banana leaf or a plastic sheet lightly greased with oil to shape vadas before sliding them into hot oil."
+      ]
+    },
+    {
+      "title": "Step 5: Frying",
+      "steps": [
+        "Heat oil to 175–180°C (medium-high heat).",
+        "Slide in the vadas gently, 3–4 at a time. Do not overcrowd.",
+        "Fry until golden brown and crisp outside, soft and fluffy inside — about 4–5 minutes, turning occasionally.",
+        "Remove and drain on absorbent paper."
+      ]
+    },
+    {
+      "title": "Serving Suggestions (Restaurant-Style)",
+      "steps": [
+        "Serve hot with coconut chutney, tomato chutney, and sambar.",
+        "For a luxurious restaurant touch, plate with a mini sambar bowl, a trio of chutneys, and a small garnish of fried curry leaves on the vadas."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Grinder over Mixer: Always prefer a wet grinder over a blender for fluffier vadas.",
+    "No Excess Water: Adding too much water makes the batter heavy and vadas oily.",
+    "Uniform Oil Temperature: If oil is too hot, vadas will brown outside but stay raw inside. Too cold, they’ll soak up oil.",
+    "Banana Leaf Shaping: Traditional South Indian chefs often shape vadas on banana leaves for perfect roundness."
+  ]
+}
