@@ -793,26 +793,6 @@
     "difficulty": "Medium"
   },
   {
-    "id": 450,
-    "title": "Lal Mohan",
-    "category": "Indian",
-    "file": "data/indian/lal_mohan.json",
-    "image": "assets/images/indian/lal_mohan.png",
-    "description": "",
-    "time": "50 min",
-    "difficulty": "Medium"
-  },
-  {
-    "id": 451,
-    "title": "Malpua",
-    "category": "Indian",
-    "file": "data/indian/malpua.json",
-    "image": "assets/images/indian/malpua.png",
-    "description": "",
-    "time": "60 min",
-    "difficulty": "Easy"
-  },
-  {
     "id": 452,
     "title": "Churma Ladoo",
     "category": "Indian",
@@ -993,6 +973,26 @@
     "description": "",
     "time": "",
     "difficulty": ""
+  },
+    {
+    "id": 705,
+    "title": "Lal Mohan",
+    "category": "Nepali",
+    "file": "data/nepali/lal_mohan.json",
+    "image": "assets/images/nepali/lal_mohan.png",
+    "description": "",
+    "time": "50 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 706,
+    "title": "Malpua",
+    "category": "Nepali",
+    "file": "data/nepali/malpua.json",
+    "image": "assets/images/nepali/malpua.png",
+    "description": "",
+    "time": "60 min",
+    "difficulty": "Easy"
   },
 
   {
