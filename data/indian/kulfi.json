@@ -1,0 +1,84 @@
+{
+  "id": 439,
+  "title": "Kulfi",
+  "category": "Indian",
+  "image": "assets/images/indian/kulfi.png",
+  "time": "8 hrs 45 mins",
+  "difficulty": "Medium",
+  "servings": 8,
+  "ingredients": [
+    {
+      "title": "For the Kulfi Base",
+      "items": [
+        "Full-fat milk – 1 liter",
+        "Condensed milk – 200 g",
+        "Heavy cream – 100 ml (optional for extra creaminess)",
+        "Sugar – 80–100 g (adjust to taste, optional if using sweetened condensed milk)",
+        "Cardamom pods – 6–8, crushed",
+        "Saffron strands – 10–15",
+        "Pistachios – 2 tbsp, finely chopped",
+        "Almonds – 2 tbsp, finely chopped"
+      ]
+    },
+    {
+      "title": "Optional Flavor Variations",
+      "items": [
+        "Mango puree – 150 g (for mango kulfi)",
+        "Rose water – 1 tsp",
+        "Kesar (saffron) syrup – for garnish"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Infuse Milk",
+      "steps": [
+        "In a heavy-bottomed pan, bring the milk to a boil.",
+        "Lower the heat and simmer, stirring occasionally to avoid burning.",
+        "Add crushed cardamom and saffron strands."
+      ]
+    },
+    {
+      "title": "Step 2: Reduce & Thicken",
+      "steps": [
+        "Reduce the milk to about half its original volume (this may take 25–30 minutes).",
+        "Add condensed milk and heavy cream; simmer for 5–7 minutes while stirring."
+      ]
+    },
+    {
+      "title": "Step 3: Add Nuts & Flavors",
+      "steps": [
+        "Mix in chopped pistachios and almonds.",
+        "If making mango kulfi, blend in mango puree after cooling slightly.",
+        "For rose kulfi, add rose water at this stage."
+      ]
+    },
+    {
+      "title": "Step 4: Cool the Mixture",
+      "steps": [
+        "Let it cool to room temperature.",
+        "Strain through a fine sieve for a silky texture."
+      ]
+    },
+    {
+      "title": "Step 5: Freeze in Molds",
+      "steps": [
+        "Pour into kulfi molds or small metal cups.",
+        "Insert sticks and freeze for 6–8 hours, preferably overnight for best texture."
+      ]
+    },
+    {
+      "title": "Step 6: Serve",
+      "steps": [
+        "Unmold kulfi by dipping molds in warm water for 10–15 seconds.",
+        "Garnish with chopped pistachios, saffron strands, or edible silver leaf for a restaurant finish."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use full-fat milk and cream for that rich, creamy texture that melts in your mouth.",
+    "Slow reduction of milk is key; never rush with high heat.",
+    "Straining ensures there are no cardamom husks or lumps, giving a smooth, luxurious finish.",
+    "Metal molds help kulfi freeze evenly and develop the classic dense texture, unlike ice cream which is lighter and airier."
+  ]
+}
