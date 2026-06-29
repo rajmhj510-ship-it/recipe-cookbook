@@ -1,0 +1,96 @@
+{
+  "id": 705,
+  "title": "Malpuwa (Sweet Pancakes)",
+  "category": "Indian",
+  "image": "assets/images/nepali/malpuwa.png",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "servings": 6,
+  "ingredients": [
+    {
+      "title": "For the Batter",
+      "items": [
+        "1 cup all-purpose flour (maida)",
+        "¼ cup semolina (sooji/rava)",
+        "2–3 tbsp sugar (adjust to taste)",
+        "¼ tsp fennel seeds (saunf)",
+        "¼ tsp cardamom powder",
+        "A pinch of salt",
+        "¾ cup milk (adjust for consistency)",
+        "2–3 tbsp grated coconut (optional, for richness)",
+        "2 tbsp chopped nuts (cashews, almonds, optional)",
+        "1 tsp ghee or oil (for batter)"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Ghee or oil"
+      ]
+    },
+    {
+      "title": "For Sugar Syrup",
+      "items": [
+        "1 cup sugar",
+        "½ cup water",
+        "2–3 cardamom pods, crushed",
+        "Few strands of saffron (optional)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Chopped pistachios or almonds",
+        "A drizzle of rabri (optional, for a royal touch)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare the Batter",
+      "steps": [
+        "In a bowl, combine flour, semolina, sugar, fennel seeds, cardamom powder, and salt.",
+        "Gradually add milk to form a smooth, slightly thick batter (like pancake batter).",
+        "Mix in grated coconut and chopped nuts if using.",
+        "Cover and let it rest for 30 minutes (helps semolina absorb moisture and gives a soft texture)."
+      ]
+    },
+    {
+      "title": "Make Sugar Syrup",
+      "steps": [
+        "In a pan, combine sugar, water, and crushed cardamom.",
+        "Boil until it reaches one-string consistency.",
+        "Keep warm on very low heat."
+      ]
+    },
+    {
+      "title": "Fry the Malpuas",
+      "steps": [
+        "Heat ghee or oil in a wide pan on medium heat.",
+        "Pour a small ladle of batter into the pan to form small pancakes (slightly thick).",
+        "Fry until golden brown on both sides. Ensure medium heat to cook evenly.",
+        "Remove and drain excess oil on paper towels."
+      ]
+    },
+    {
+      "title": "Soak in Syrup",
+      "steps": [
+        "Immediately dip the fried malpuas into warm sugar syrup for 1–2 minutes.",
+        "Remove and place on a serving plate."
+      ]
+    },
+    {
+      "title": "Garnish & Serve",
+      "steps": [
+        "Garnish with chopped pistachios or almonds.",
+        "Serve warm with rabri for a festive touch."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Resting the batter enhances flavor and softness.",
+    "Use medium-low heat while frying to prevent raw centers.",
+    "Malpuas can be made slightly thicker for a richer dessert or thinner for crispier edges.",
+    "Adding saffron to milk or syrup elevates the aroma."
+  ]
+}
