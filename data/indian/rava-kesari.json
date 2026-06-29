@@ -1,0 +1,72 @@
+{
+  "id": 432,
+  "title": "Rava Kesari",
+  "category": "Indian",
+  "image": "assets/images/indian/rava-kesari.png",
+  "time": "30 mins",
+  "difficulty": "Easy",
+  "servings": 5,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Rava (Sooji / Semolina – fine grain): 1 cup (150 g)",
+        "Sugar: 1 – 1¼ cup (200–250 g, adjust to taste)",
+        "Pure Ghee: ½ cup (100 g)",
+        "Water: 2½ cups (600 ml)",
+        "Milk (optional, for richness): ½ cup (100 ml)",
+        "Cashew nuts: 10–12 halves",
+        "Golden raisins: 12–15",
+        "Saffron strands: 12–15 (soaked in 2 tbsp warm milk)",
+        "Cardamom powder: ½ tsp",
+        "Edible orange food color (or natural saffron infusion): a pinch"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Preparation",
+      "steps": [
+        "Warm water + milk mixture in a saucepan. Stir in saffron strands and keep it hot.",
+        "Heat 2 tbsp ghee in a heavy-bottom pan, roast cashews until golden, then raisins until they puff. Remove and set aside."
+      ]
+    },
+    {
+      "title": "Roasting the Rava",
+      "steps": [
+        "In the same pan, add 2 tbsp ghee and roast the rava on medium-low flame.",
+        "Roast until it turns aromatic, pale golden, and free-flowing (about 6–8 minutes). Do not brown."
+      ]
+    },
+    {
+      "title": "Cooking the Base",
+      "steps": [
+        "Slowly pour the hot saffron water–milk mixture into the roasted rava, stirring continuously to avoid lumps.",
+        "Cook on medium heat until rava absorbs liquid and swells."
+      ]
+    },
+    {
+      "title": "Sweetening & Enriching",
+      "steps": [
+        "Add sugar gradually, stirring constantly (the mixture will loosen and then thicken again).",
+        "Add remaining ghee in stages, mixing until the kesari turns glossy and leaves the sides of the pan.",
+        "Stir in cardamom powder, fried cashews, and raisins."
+      ]
+    },
+    {
+      "title": "Plating Suggestion (Fine Dining Style)",
+      "steps": [
+        "Plate as individual saffron domes on banana leaf or a marble plate.",
+        "Garnish with edible gold leaf or micro basil for a luxe touch.",
+        "Serve warm with filter coffee or as part of a South Indian thali."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Glossy Finish: Add ghee in stages rather than all at once. This prevents greasiness and ensures silkiness.",
+    "Balanced Sweetness: Restaurants often use slightly less sugar than homemade versions to keep it refined.",
+    "Texture: Ensure the rava is roasted perfectly—no shortcuts. This prevents stickiness and ensures a melt-in-mouth feel.",
+    "Aromatic Layering: Saffron + cardamom create a luxurious aroma. A drop of rose water can be added for a subtle floral note.",
+    "Serving Style: Mold the kesari into small domes using a katori (bowl), garnish with 2 cashews on top, and brush lightly with melted ghee for shine."
+  ]
+}
