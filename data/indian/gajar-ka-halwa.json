@@ -1,0 +1,82 @@
+{
+  "id": 449,
+  "title": "Gajar Ka Halwa",
+  "category": "Indian",
+  "image": "assets/images/indian/gajar-ka-halwa.png",
+  "time": "1 hr 40 mins",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "500 g Fresh red Delhi carrots (peeled & grated)",
+        "500 ml Full-fat milk",
+        "75 ml Heavy cream (optional)",
+        "60 g Pure ghee (clarified butter)",
+        "125–140 g Granulated sugar (adjust to taste)",
+        "100 g Khoya (mawa, unsweetened)",
+        "½ tsp Green cardamom pods (freshly ground)",
+        "6–8 Saffron strands",
+        "10 ml Warm milk (for saffron)",
+        "15 g Slivered almonds",
+        "15 g Slivered pistachios",
+        "20 g Golden raisins"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Prep",
+      "steps": [
+        "Peel and grate carrots using a medium-fine grater (avoid the food processor’s coarse blade; finer grating means silkier halwa).",
+        "Warm the saffron in 20 ml milk for later infusion."
+      ]
+    },
+    {
+      "title": "Step 2: Slow-Cook the Carrots",
+      "steps": [
+        "In a thick-bottomed heavy pan (copper or heavy stainless preferred), add grated carrots and full-fat milk.",
+        "Bring to a gentle boil, stirring occasionally.",
+        "Lower heat and simmer uncovered for 45–60 minutes, stirring every 4–5 minutes, until the milk is reduced by 70% and carrots have softened deeply."
+      ]
+    },
+    {
+      "title": "Step 3: Enrich & Reduce",
+      "steps": [
+        "Add khoya, stir well to incorporate.",
+        "Continue cooking on low heat for another 20–25 minutes until the mixture is thick and glossy."
+      ]
+    },
+    {
+      "title": "Step 4: Ghee & Aromatics",
+      "steps": [
+        "In a separate pan, heat ghee until aromatic.",
+        "Add the carrot mixture into the ghee and sauté on medium-low for 12–15 minutes, allowing the carrots to absorb the ghee fully — this is key to a rich, nutty flavor.",
+        "Stir in heavy cream for luxury mouthfeel."
+      ]
+    },
+    {
+      "title": "Step 5: Sweeten & Finish",
+      "steps": [
+        "Add sugar, cardamom powder, and saffron-infused milk.",
+        "Sugar should be added towards the end so the carrots retain texture.",
+        "Stir continuously for 8–10 minutes until the halwa leaves the sides of the pan and takes on a glossy sheen."
+      ]
+    },
+    {
+      "title": "Step 6: Garnish & Serve",
+      "steps": [
+        "Fry almonds, pistachios, and raisins in 1 tsp ghee until lightly golden; fold into the halwa, reserving some for garnish.",
+        "Serve warm in small copper katoris or porcelain ramekins, topped with a few strands of saffron and edible silver leaf (varq) for restaurant presentation."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Carrot Choice: Use Delhi red carrots in winter for natural sweetness and color; avoid woody cores.",
+    "Ghee Timing: Adding ghee late in the process prevents it from separating and keeps halwa moist, not greasy.",
+    "Khoya Quality: Use fresh, unsweetened khoya for depth — avoid milk powder substitutes in fine dining.",
+    "Resting Time: Let halwa rest for at least 30 minutes before serving; flavors mature beautifully.",
+    "Serving Suggestion: Pair with warm malai kulfi, or serve in tasting portions for dessert platters."
+  ]
+}
