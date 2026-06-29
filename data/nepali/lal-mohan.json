@@ -1,0 +1,90 @@
+{
+  "id": 704,
+  "title": "Lal Mohan (Deep-Fried Sweet Dumplings in Sugar Syrup)",
+  "category": "Indian",
+  "image": "assets/images/indian/lal-mohan.png",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "servings": 12,
+  "ingredients": [
+    {
+      "title": "For the Dough",
+      "items": [
+        "1 cup all-purpose flour (maida)",
+        "2 tbsp semolina (sooji/rava) – optional, for slight crunch",
+        "2 tbsp milk powder – optional, for richness",
+        "1 tsp baking powder",
+        "1/4 tsp baking soda",
+        "2 tbsp ghee (clarified butter) or unsalted butter",
+        "2-3 tbsp plain yogurt (curd)",
+        "Water as needed to knead",
+        "A pinch of salt"
+      ]
+    },
+    {
+      "title": "For the Sugar Syrup",
+      "items": [
+        "2 cups sugar",
+        "1 cup water",
+        "3-4 green cardamom pods, lightly crushed",
+        "A few saffron strands (optional, for color and aroma)",
+        "1 tsp rose water or kewra water (optional)"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Ghee or vegetable oil, enough for deep frying"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare the Dough",
+      "steps": [
+        "In a large bowl, combine flour, semolina, milk powder, baking powder, baking soda, and salt.",
+        "Rub in ghee until the mixture looks like coarse crumbs.",
+        "Add yogurt little by little and knead into a soft, slightly sticky dough. Add water sparingly if needed.",
+        "Cover with a damp cloth and rest for 15–20 minutes."
+      ]
+    },
+    {
+      "title": "Make the Sugar Syrup",
+      "steps": [
+        "In a saucepan, combine sugar and water, bring to a boil.",
+        "Add cardamom pods and saffron. Simmer until syrup reaches a slightly sticky, one-string consistency.",
+        "Turn off heat and add rose water/kewra water if using. Keep warm."
+      ]
+    },
+    {
+      "title": "Shape and Fry the Lal Mohan",
+      "steps": [
+        "Divide dough into small even-sized balls (~1 inch).",
+        "Heat ghee or oil in a deep pan on medium-low.",
+        "Tip: Frying too hot will brown the outside but leave the inside raw.",
+        "Fry the balls in batches, gently stirring to ensure even browning, until golden brown and puffed. Remove and drain on paper towels."
+      ]
+    },
+    {
+      "title": "Soak in Sugar Syrup",
+      "steps": [
+        "While still warm, immerse the fried Lal Mohans into the warm sugar syrup.",
+        "Let them soak for 10–15 minutes until fully absorbed and soft."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Serve warm or at room temperature.",
+        "Garnish with slivered pistachios or almonds if desired."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Always fry on medium-low heat; high heat makes the exterior hard.",
+    "Use slightly sticky dough for soft, airy texture.",
+    "Resting the dough allows proper gluten formation for puffiness.",
+    "Soak while warm for maximum syrup absorption.",
+    "Optional: Add a tiny pinch of red food color to the syrup for that classic deep red “restaurant” look."
+  ]
+}
