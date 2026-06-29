@@ -1,0 +1,88 @@
+{
+  "id": 448,
+  "title": "Churma Ladoo",
+  "category": "Indian",
+  "image": "assets/images/indian/churma-ladoo.png",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "servings": 15,
+  "ingredients": [
+    {
+      "title": "For the Churma Base",
+      "items": [
+        "Whole wheat flour – 2 cups (atta, preferably stone-ground)",
+        "Semolina (sooji) – 2 tbsp (for crunch)",
+        "Ghee – 4 tbsp (melted, warm)",
+        "Milk – ½ cup (as needed to knead)"
+      ]
+    },
+    {
+      "title": "For Frying & Grinding",
+      "items": [
+        "Ghee – for deep frying"
+      ]
+    },
+    {
+      "title": "For Binding & Flavoring",
+      "items": [
+        "Jaggery (grated) – 1 cup (or powdered organic jaggery)",
+        "Ghee – ¾ cup (warm, melted)",
+        "Almonds – 2 tbsp (chopped, lightly roasted)",
+        "Cashews – 2 tbsp (chopped, lightly roasted)",
+        "Pistachios – 1 tbsp (chopped, optional)",
+        "Poppy seeds – 1 tbsp (lightly roasted)",
+        "Cardamom powder – 1 tsp",
+        "Nutmeg powder – ¼ tsp"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare the Dough",
+      "steps": [
+        "In a mixing bowl, combine wheat flour, semolina, and melted ghee. Rub well until mixture feels like breadcrumbs.",
+        "Add milk gradually and knead into a stiff dough.",
+        "Divide into small, thick oblong rolls (like small cylinders)."
+      ]
+    },
+    {
+      "title": "Fry the Dough",
+      "steps": [
+        "Heat ghee in a kadhai (medium heat).",
+        "Fry the dough rolls on low heat until deep golden brown and crisp.",
+        "Drain on paper towels and cool completely."
+      ]
+    },
+    {
+      "title": "Grind into Churma",
+      "steps": [
+        "Once cooled, break fried rolls and grind into a coarse powder (not too fine).",
+        "Sieve lightly to remove extra fine flour."
+      ]
+    },
+    {
+      "title": "Prepare the Jaggery Mixture",
+      "steps": [
+        "In a pan, melt ghee and add jaggery.",
+        "Heat gently until jaggery melts (do not boil).",
+        "Add cardamom, nutmeg, and roasted nuts."
+      ]
+    },
+    {
+      "title": "Mix & Shape Ladoos",
+      "steps": [
+        "Combine churma powder with the jaggery-ghee mixture.",
+        "Mix thoroughly while warm.",
+        "Roll into medium-sized ladoos using greased palms.",
+        "Garnish each with a pistachio slice or a sprinkle of roasted poppy seeds."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Texture Secret: Add semolina for a subtle crunch that feels luxurious.",
+    "Flavor Boost: Roast nuts in ghee, not dry, for deeper aroma.",
+    "Premium Touch: Use desi ghee and organic jaggery for the best flavor.",
+    "Presentation: Serve in silver foiled paper cups, with a touch of edible silver leaf (varq) for restaurant finesse.",
+    "Pairing: Often paired with dal baati in Rajasthan, but in restaurants, serve warm with a drizzle of saffron-infused milk."
+  ]
+}
