@@ -1,0 +1,75 @@
+{
+  "id": 448,
+  "title": "Rava Coconut Laddu",
+  "category": "Indian",
+  "image": "assets/images/indian/rava-coconut-laddu.png",
+  "time": "40 mins",
+  "difficulty": "Easy",
+  "servings": 18,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Rava/Semolina (Fine) – 1 cup",
+        "Grated Fresh Coconut – 3/4 cup",
+        "Sugar – 3/4 cup (adjust based on sweetness preference)",
+        "Ghee (Clarified Butter) – 1/2 cup (for roasting)",
+        "Cardamom Powder – 1 tsp",
+        "Milk – 1/2 cup (for binding)",
+        "Cashews – 10-12, broken",
+        "Raisins – 10-12",
+        "Saffron strands (optional) – a few, soaked in 1 tbsp warm milk"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Roast the Rava",
+      "steps": [
+        "Heat 2 tbsp of ghee in a heavy-bottom pan on medium flame.",
+        "Add the rava and roast gently, stirring continuously, until it turns light golden and aromatic (~5-6 minutes).",
+        "Remove from pan and let it cool slightly."
+      ]
+    },
+    {
+      "title": "Step 2: Roast Nuts and Coconut",
+      "steps": [
+        "In the same pan, add 1 tbsp ghee.",
+        "Fry cashews until golden and raisins until they puff up. Remove and set aside.",
+        "Lightly roast the grated coconut for 2-3 minutes, just enough to reduce moisture but retain softness."
+      ]
+    },
+    {
+      "title": "Step 3: Make Sugar Syrup / Mix",
+      "steps": [
+        "Chef’s tip: For a smooth texture, slightly melt sugar in milk instead of dry mixing.",
+        "In a pan, combine sugar and milk. Heat gently until sugar dissolves completely.",
+        "Add cardamom powder and soaked saffron (if using).",
+        "Slowly mix in the roasted rava and coconut, stirring continuously.",
+        "Cook on low flame until the mixture thickens and leaves the sides of the pan."
+      ]
+    },
+    {
+      "title": "Step 4: Bind the Laddus",
+      "steps": [
+        "Let the mixture cool just enough to handle.",
+        "Grease your palms with a little ghee and shape the mixture into smooth, round laddus.",
+        "Press a cashew or raisin on top for garnish."
+      ]
+    },
+    {
+      "title": "Step 5: Final Touch",
+      "steps": [
+        "Allow laddus to cool completely at room temperature before storing.",
+        "Store in an airtight container for up to a week; for longer shelf life, refrigerate."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Ghee: Use fresh, aromatic ghee for a rich flavor.",
+    "Coconut: Freshly grated coconut is best; desiccated coconut can be used but slightly reduces creaminess.",
+    "Rava: Fine, high-quality rava gives smoother laddus.",
+    "Binding: Slightly undercooked sugar syrup leads to softer laddus; overcooking makes them hard.",
+    "Presentation: Uniform size and smooth finish elevate it to restaurant style."
+  ]
+}
