@@ -1,0 +1,81 @@
+{
+  "id": 434,
+  "title": "Bengali Chenna Rasgulla (Angoor)",
+  "category": "Indian",
+  "image": "assets/images/indian/bengali-chenna-rasgulla-angoor.png",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "servings": 5,
+  "ingredients": [
+    {
+      "title": "Chenna (Paneer)",
+      "items": [
+        "Fresh full-fat milk – 1 L",
+        "Lemon juice – 2 tbsp",
+        "Cold water – 2–3 tbsp"
+      ]
+    },
+    {
+      "title": "Sugar Syrup",
+      "items": [
+        "Sugar – 2 cups",
+        "Water – 4 cups",
+        "Cardamom pods – 4–5, lightly crushed",
+        "Rose water – 1 tsp (optional)"
+      ]
+    },
+    {
+      "title": "Other",
+      "items": [
+        "Ghee or water for moistening hands"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Prepare Chenna",
+      "steps": [
+        "Boil milk in heavy-bottom pan.",
+        "Reduce heat; add lemon juice + water slowly, stir gently.",
+        "Let whey separate; strain through muslin, rinse with cold water.",
+        "Drain lightly for 30 min; some moisture must remain."
+      ]
+    },
+    {
+      "title": "Step 2: Knead Chenna",
+      "steps": [
+        "Knead 8–10 min until soft, smooth, pliable.",
+        "Roll into 2–3 cm smooth balls; no cracks."
+      ]
+    },
+    {
+      "title": "Step 3: Prepare Sugar Syrup",
+      "steps": [
+        "Boil sugar + water + cardamom in a wide pan.",
+        "Keep at gentle rolling boil."
+      ]
+    },
+    {
+      "title": "Step 4: Cook Rasgullas",
+      "steps": [
+        "Drop balls carefully into syrup.",
+        "Cover, boil 15–20 min, gently stirring.",
+        "Rasgullas should double in size. Test by lightly pressing."
+      ]
+    },
+    {
+      "title": "Step 5: Serve",
+      "steps": [
+        "Cool in syrup, optionally add rose water.",
+        "Serve chilled for best taste."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use fresh, full-fat milk for soft chenna.",
+    "Kneading is critical for sponginess.",
+    "Maintain gentle rolling boil, not too vigorous.",
+    "Smooth, crack-free balls prevent breakage.",
+    "Syrup ratio: 1:2 sugar to water is ideal."
+  ]
+}
