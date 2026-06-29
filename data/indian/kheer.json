@@ -1,0 +1,78 @@
+{
+  "id": 450,
+  "title": "Kheer (Rice Pudding)",
+  "category": "Indian",
+  "image": "assets/images/indian/kheer.png",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "servings": 8,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Full-fat milk – 2 liters (preferably cow’s milk for richer flavor)",
+        "Basmati rice – 80 g (about ½ cup; aged basmati works best)",
+        "Sugar – 150–180 g (¾–1 cup, adjust to taste)",
+        "Ghee – 1 tbsp",
+        "Cardamom pods – 6–8, lightly crushed",
+        "Saffron strands – a pinch (soaked in 2 tbsp warm milk)",
+        "Cashews – 10–12 halves",
+        "Almonds – 10–12, blanched and slivered",
+        "Pistachios – 8–10, slivered",
+        "Raisins – 2 tbsp (optional)",
+        "Rose water – 1 tsp (optional, for fragrance)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Prep the Rice",
+      "steps": [
+        "Rinse the basmati rice gently until water runs clear to remove excess starch.",
+        "Soak for 20–30 minutes, then drain completely."
+      ]
+    },
+    {
+      "title": "Step 2: Infuse the Milk",
+      "steps": [
+        "In a heavy-bottomed pan, bring milk to a boil over medium heat.",
+        "Reduce to low simmer. Scrape down cream from sides and stir back into milk occasionally — this develops richness."
+      ]
+    },
+    {
+      "title": "Step 3: Cook the Rice",
+      "steps": [
+        "Heat ghee in a small pan, lightly sauté drained rice for 2–3 minutes until aromatic.",
+        "Add rice to simmering milk. Stir occasionally to prevent sticking. Cook until grains are soft and begin to release starch (about 20–25 min)."
+      ]
+    },
+    {
+      "title": "Step 4: Sweeten & Flavor",
+      "steps": [
+        "Add sugar and crushed cardamom. Continue simmering until kheer thickens to a creamy consistency (another 15–20 min).",
+        "Stir in saffron-infused milk."
+      ]
+    },
+    {
+      "title": "Step 5: Finish with Garnish",
+      "steps": [
+        "In ghee, lightly fry cashews until golden, then add almonds, pistachios, and raisins briefly.",
+        "Stir fried nuts & raisins into the kheer.",
+        "Turn off heat and add rose water if using."
+      ]
+    },
+    {
+      "title": "Step 6: Serving & Storage",
+      "steps": [
+        "Serve warm for comfort or chilled for a refreshing dessert.",
+        "Store in refrigerator up to 3 days. The kheer will thicken further upon cooling — loosen with warm milk before serving if needed."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Slow simmer only — boiling aggressively can split the milk and dull flavor.",
+    "Don’t skip side-scraping — the malai (milk cream) scraped from the sides enriches texture.",
+    "Balance saffron — too much can overpower the delicate sweetness.",
+    "Age improves flavor — kheer tastes even better the next day as the spices infuse."
+  ]
+}
