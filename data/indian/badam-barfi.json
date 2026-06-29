@@ -1,0 +1,73 @@
+{
+  "id": 438,
+  "title": "Badam Barfi (Almond Fudge)",
+  "category": "Indian",
+  "image": "assets/images/indian/badam-barfi.png",
+  "time": "1 hr 30 mins",
+  "difficulty": "Medium",
+  "servings": 20,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Blanched almonds – 250 g (2 cups, peeled)",
+        "Sugar – 200 g (1 cup)",
+        "Water – 120 ml (½ cup)",
+        "Ghee (clarified butter) – 2 tbsp (plus extra for greasing)",
+        "Saffron – a few strands (soaked in 1 tbsp warm milk)",
+        "Green cardamom powder – ½ tsp",
+        "Edible silver leaf (varq) – optional, for garnish",
+        "Pistachios – 1 tbsp, finely sliced (for garnish)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Almond Paste",
+      "steps": [
+        "Soak almonds in hot water for 30 minutes, peel, and pat dry.",
+        "Grind into a smooth paste using as little water as possible (or milk for richness).",
+        "Chef’s Tip: For a restaurant-smooth barfi, make sure the almond paste is silky and not grainy. Use a high-speed blender."
+      ]
+    },
+    {
+      "title": "Sugar Syrup (Chashni)",
+      "steps": [
+        "In a heavy-bottom pan, add sugar and water.",
+        "Cook until 1-string consistency (when a drop between your thumb and finger pulls a thin thread)."
+      ]
+    },
+    {
+      "title": "Cooking the Barfi",
+      "steps": [
+        "Lower the flame, add the almond paste to the syrup.",
+        "Stir continuously on medium-low heat until the mixture thickens.",
+        "Add saffron milk, ghee, and cardamom powder.",
+        "Cook until it leaves the sides of the pan and forms a soft dough-like mass."
+      ]
+    },
+    {
+      "title": "Setting",
+      "steps": [
+        "Grease a tray with ghee, spread mixture evenly (about ½ inch thick).",
+        "Smooth the surface with a greased spatula.",
+        "Apply edible silver leaf (if using).",
+        "Let it cool for 1 hour, then cut into diamond-shaped barfi pieces."
+      ]
+    },
+    {
+      "title": "Plating – Restaurant Style",
+      "steps": [
+        "Serve two diamond pieces per portion on a fine dessert plate.",
+        "Garnish with micro saffron strands, pistachio dust, and a drizzle of rose syrup reduction for elegance.",
+        "Accompany with a quenelle of almond milk rabri or a scoop of saffron ice cream for a fine-dining touch."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use premium Mamra almonds for best flavor and aroma.",
+    "Always cook on medium-low heat to avoid crystallization.",
+    "Adding a hint of rose water at the end gives a royal Mughlai essence.",
+    "For a vegan twist, substitute ghee with almond oil."
+  ]
+}
