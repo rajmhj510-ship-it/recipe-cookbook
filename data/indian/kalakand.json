@@ -1,0 +1,90 @@
+{
+  "id": 442,
+  "title": "Kalakand (Milk Cake)",
+  "category": "Indian",
+  "image": "assets/images/indian/kalakand.png",
+  "time": "2 hrs",
+  "difficulty": "Medium",
+  "servings": 15,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Full-fat milk – 2 liters",
+        "Paneer (freshly made or soft store-bought) – 250 g",
+        "Condensed milk – 200 g (about ½ tin)",
+        "Sugar – 100–120 g (adjust to taste)",
+        "Ghee (clarified butter) – 2 tbsp",
+        "Cardamom powder – ½ tsp",
+        "Rose water / Kewra essence – ½ tsp (optional, for luxury aroma)",
+        "Saffron strands – a few, soaked in 1 tbsp warm milk",
+        "Pistachios & almonds (slivered) – 2 tbsp each (for garnish)",
+        "Edible silver leaf (varak) – for restaurant-style finish"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare Paneer (if making fresh)",
+      "steps": [
+        "Boil 1 liter milk, curdle it with lemon juice or vinegar.",
+        "Strain through muslin, wash, and press lightly. Crumble and keep aside."
+      ]
+    },
+    {
+      "title": "Reduce Milk",
+      "steps": [
+        "In a heavy-bottom kadai/pan, add the remaining 1 liter milk.",
+        "Simmer on medium heat, stirring continuously, until it reduces to almost half and turns slightly grainy."
+      ]
+    },
+    {
+      "title": "Build the Base",
+      "steps": [
+        "Add crumbled paneer into the reduced milk.",
+        "Stir continuously to avoid sticking; cook until it thickens."
+      ]
+    },
+    {
+      "title": "Sweeten & Enrich",
+      "steps": [
+        "Mix in condensed milk, sugar, and ghee.",
+        "Continue cooking on low heat until mixture leaves sides of the pan and comes together.",
+        "Add cardamom powder, saffron milk, and rose/kewra essence."
+      ]
+    },
+    {
+      "title": "Set & Garnish",
+      "steps": [
+        "Transfer mixture into a greased tray lined with parchment.",
+        "Spread evenly to ~1-inch thickness, smoothen top.",
+        "Sprinkle slivered nuts, press gently, and apply edible silver leaf."
+      ]
+    },
+    {
+      "title": "Rest & Cut",
+      "steps": [
+        "Allow to set at room temperature for 1–2 hours (or refrigerate for 30–45 mins).",
+        "Cut into neat squares or diamonds for service."
+      ]
+    },
+    {
+      "title": "Professional Presentation",
+      "steps": [
+        "Serve 2 elegant diamond pieces on a slate or minimalist white plate.",
+        "Garnish with:",
+        "Pistachio dust",
+        "A saffron strand",
+        "A micro mint leaf or rose petal",
+        "Optional: drizzle a light rabri reduction or rose syrup on the side for fine dining plating."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Boil 1 liter milk, curdle it with lemon juice or vinegar.",
+    "Simmer on medium heat, stirring continuously, until it reduces to almost half and turns slightly grainy.",
+    "Continue cooking on low heat until mixture leaves sides of the pan and comes together.",
+    "Spread evenly to ~1-inch thickness and allow it to set properly before cutting.",
+    "Serve with pistachio dust, saffron strand, and a micro mint leaf or rose petal for restaurant-style presentation."
+  ]
+}
