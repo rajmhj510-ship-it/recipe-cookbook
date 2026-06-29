@@ -1,0 +1,125 @@
+{
+  "id": 451,
+  "title": "Shahi Tukda",
+  "category": "Indian",
+  "image": "assets/images/indian/shahi-tukda.png",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "servings": 8,
+  "ingredients": [
+    {
+      "title": "For Fried Bread",
+      "items": [
+        "8 slices white bread (slightly stale, crusts removed)",
+        "Ghee, for frying"
+      ]
+    },
+    {
+      "title": "For Sugar Syrup",
+      "items": [
+        "1 cup sugar",
+        "1 cup water",
+        "4–5 green cardamom pods, lightly crushed",
+        "A few saffron strands (optional)",
+        "1 tsp rose water (optional)"
+      ]
+    },
+    {
+      "title": "For Rabri with Khoya",
+      "items": [
+        "1 liter full-fat milk",
+        "100–150 g khoya (grated or crumbled)",
+        "1/4 cup sugar (adjust to taste)",
+        "1/4 tsp cardamom powder",
+        "A few saffron strands, soaked in 2 tbsp warm milk",
+        "1 tbsp each chopped pistachios, almonds, and cashews",
+        "1 tbsp rose water (optional)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Silver leaf (varak), optional",
+        "Chopped nuts",
+        "Extra saffron strands"
+      ]
+    },
+    {
+      "title": "Why Use or Skip Khoya in Shahi Tukda?",
+      "items": [
+        "Rabri is slow-reduced milk that’s creamy and slightly runny, giving a light, rich texture that soaks well into fried bread.",
+        "Khoya is dense milk solids that make the dessert thicker, richer, and heavier.",
+        "When to Use Khoya:",
+        "Add 100-150g grated khoya to rabri near the end of cooking for a creamier, more indulgent dessert.",
+        "You can also fry khoya with sugar and cardamom and layer it with the bread for extra richness."
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Fry the Bread",
+      "steps": [
+        "Cut bread into triangles or rectangles.",
+        "Fry in hot ghee until golden and crisp. Drain on paper towels."
+      ]
+    },
+    {
+      "title": "Prepare Sugar Syrup",
+      "steps": [
+        "In a saucepan, combine sugar, water, cardamom, and saffron.",
+        "Heat until sugar dissolves, then simmer 3–4 minutes for a light syrup.",
+        "Add rose water if using. Keep warm."
+      ]
+    },
+    {
+      "title": "Soak Bread",
+      "steps": [
+        "Dip each fried bread slice briefly in the warm syrup (3–5 seconds per side) so it absorbs sweetness but stays intact.",
+        "Arrange on a serving platter."
+      ]
+    },
+    {
+      "title": "Make Rabri with Khoya",
+      "steps": [
+        "Boil milk in a heavy pan. Simmer on low, stirring often, until reduced by half.",
+        "Add sugar, cardamom powder, and saffron milk. Stir well.",
+        "Add grated khoya and cook 5–7 minutes until creamy but pourable.",
+        "Stir in most of the nuts (reserve some for garnish) and rose water if using. Remove from heat."
+      ]
+    },
+    {
+      "title": "Assemble",
+      "steps": [
+        "Pour warm rabri over the syrup-soaked bread slices.",
+        "Garnish with silver leaf, saffron strands, and remaining nuts."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Best served slightly warm for a soft, royal texture, or chilled for a firmer bite."
+      ]
+    },
+    {
+      "title": "To Keep Bread Crisp",
+      "steps": [
+        "Use Slightly Stale Bread: Fresh bread is too soft and soggy, but slightly stale bread holds up better and crisps nicely when fried.",
+        "Remove Crusts: Crusts tend to become chewy and less absorbent, so trimming them off helps with even frying and syrup soaking.",
+        "Fry on Medium-High Heat: Fry the bread slices in hot ghee over medium-high heat until golden and crisp, not too dark. This creates a firm outer crust that resists sogginess.",
+        "Double Fry (Optional): For extra crispness, fry once, drain, then fry again briefly just before soaking in syrup.",
+        "Quick Syrup Dip: Dip the fried bread in warm syrup very briefly—3 to 5 seconds per side—so it absorbs just enough syrup without getting soggy.",
+        "Drain Immediately: After dipping, let the excess syrup drip off rather than soaking longer.",
+        "Serve Quickly: The longer soaked bread sits, the more it softens, so serve soon after assembling.",
+        "Thicker Slices: Cut bread slices slightly thicker (about 1 cm) to withstand the syrup without turning mushy.",
+        "Cool Frying Surface: After frying, place bread on wire racks instead of paper towels for better air circulation, which keeps them crisp."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Rabri is slow-reduced milk that’s creamy and slightly runny, giving a light, rich texture that soaks well into fried bread.",
+    "Khoya is dense milk solids that make the dessert thicker, richer, and heavier.",
+    "Add 100-150g grated khoya to rabri near the end of cooking for a creamier, more indulgent dessert.",
+    "You can also fry khoya with sugar and cardamom and layer it with the bread for extra richness.",
+    "Use slightly stale bread and fry on medium-high heat for the best crisp texture."
+  ]
+}
