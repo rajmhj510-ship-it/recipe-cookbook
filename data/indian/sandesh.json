@@ -1,0 +1,73 @@
+{
+  "id": 433,
+  "title": "Sandesh",
+  "category": "Indian",
+  "image": "assets/images/indian/sandesh.png",
+  "time": "45 mins",
+  "difficulty": "Medium",
+  "servings": 12,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Full-fat milk – 1 liter",
+        "Lemon juice or vinegar – 2 tbsp (for curdling)",
+        "Sugar – ¼ to ⅓ cup (adjust to taste)",
+        "Cardamom powder – ½ tsp",
+        "Saffron strands – a few (optional, for aroma & color)",
+        "Rose water or kewra water – ½ tsp (optional)",
+        "Chopped pistachios or almonds – 1 tbsp (for garnish)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Prepare Fresh Chhena (Paneer)",
+      "steps": [
+        "Boil the milk in a heavy-bottomed pan on medium heat. Stir occasionally to prevent sticking.",
+        "When the milk comes to a gentle boil, turn off the heat.",
+        "Add lemon juice or vinegar slowly while stirring gently until the milk curdles. You’ll see whey separating from the curds.",
+        "Let it sit for 5 minutes. Then, strain through a muslin/cheese cloth.",
+        "Rinse the curds under cold water to remove any sourness.",
+        "Hang the cloth for 30 minutes to drain excess water. The resulting soft chhena is ready."
+      ]
+    },
+    {
+      "title": "Step 2: Knead the Chhena",
+      "steps": [
+        "Transfer the chhena to a clean plate.",
+        "Knead it for 8–10 minutes with the heel of your palm until smooth and slightly glossy. (This step is crucial for silky Sandesh.)"
+      ]
+    },
+    {
+      "title": "Step 3: Sweeten and Flavor",
+      "steps": [
+        "Transfer the kneaded chhena to a non-stick pan on low heat.",
+        "Add sugar gradually while stirring continuously.",
+        "Cook gently for 5–7 minutes until sugar dissolves completely and the mixture comes together. Do not overcook, or it will dry out.",
+        "Add cardamom powder, saffron strands, and rose/kewra water. Mix well."
+      ]
+    },
+    {
+      "title": "Step 4: Shape the Sandesh",
+      "steps": [
+        "Remove from heat and let it cool slightly (warm, not hot).",
+        "Grease your hands lightly with ghee or water. Take small portions and shape them into flat discs, balls, or traditional molded shapes.",
+        "Press gently and garnish with chopped nuts or saffron strands."
+      ]
+    },
+    {
+      "title": "Step 5: Serve",
+      "steps": [
+        "Sandesh is best served fresh at room temperature or slightly chilled.",
+        "Can be stored in an airtight container in the fridge for 2–3 days."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use full-fat milk for the richest flavor.",
+    "Do not overcook the chhena with sugar; it should remain soft and melt-in-mouth.",
+    "For extra finesse, some chefs fold in a little khoya/mawa for richness.",
+    "Experiment with flavors: pistachio, mango, chocolate, or saffron for a gourmet touch."
+  ]
+}
