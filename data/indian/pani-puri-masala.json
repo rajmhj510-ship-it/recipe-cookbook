@@ -1,0 +1,75 @@
+{
+  "id": 431,
+  "title": "Pani Puri Masala",
+  "category": "Indian",
+  "image": "assets/images/indian/pani-puri-masala.png",
+  "time": "30 mins + 1 hr chilling",
+  "difficulty": "Easy",
+  "servings": 10,
+  "ingredients": [
+    {
+      "title": "Dry Spice Blend",
+      "items": [
+        "Cumin seeds (jeera) – 2 tbsp",
+        "Coriander seeds (dhania) – 2 tbsp",
+        "Fennel seeds (saunf) – 1 tbsp",
+        "Black peppercorns – 1 tsp",
+        "Dry Kashmiri red chilies – 2–3 (for color, mild heat)",
+        "Cloves – 4–5",
+        "Cinnamon stick – ½ inch",
+        "Black salt (kala namak) – 1 tbsp",
+        "Regular salt – 1 tsp (adjust to taste)",
+        "Dry ginger powder (saunth) – 1 tsp",
+        "Amchur (dry mango powder) – 2 tbsp",
+        "Asafoetida (hing) – ⅛ tsp"
+      ]
+    },
+    {
+      "title": "Fresh Paste for Pani",
+      "items": [
+        "Fresh mint leaves – 1 cup (tightly packed)",
+        "Fresh coriander leaves – 1 cup (tightly packed)",
+        "Green chilies – 2–3 (adjust heat level)",
+        "Ginger – 1 inch piece",
+        "Tamarind pulp – 3 tbsp (soaked, strained)",
+        "Lemon juice – 2 tbsp",
+        "Cold water – 1.5 liters (chilled, filtered)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Make the Dry Masala",
+      "steps": [
+        "Dry roast cumin, coriander, fennel, black pepper, chilies, cloves, and cinnamon in a heavy-bottomed pan on medium heat until fragrant.",
+        "Cool and grind to a fine powder.",
+        "Mix in black salt, regular salt, dry ginger powder, amchur, and hing.",
+        "Store in an airtight jar — keeps for 2–3 months."
+      ]
+    },
+    {
+      "title": "Prepare the Pani (Spiced Water)",
+      "steps": [
+        "In a blender, grind mint, coriander, green chilies, ginger, and tamarind pulp to a smooth paste using a little water.",
+        "Strain the paste if you want a clearer, restaurant-style pani."
+      ]
+    },
+    {
+      "title": "Mix the Pani",
+      "steps": [
+        "In a large jug, combine fresh paste, 2–3 tbsp prepared pani puri masala, lemon juice, and 1.5 liters chilled water.",
+        "Mix well, taste, and adjust salt, tang (lemon/amchur), or heat (chili).",
+        "Refrigerate at least 1 hour before serving for flavors to mature."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Ice Cold Serving: Always serve pani with ice cubes or from the fridge — it sharpens flavor.",
+    "Balance: Keep the dry masala slightly stronger than needed; dilution with water adjusts it perfectly.",
+    "Secret Touch: Some chefs add a pinch of jaggery (gur) to balance the sharp tang and spice.",
+    "Variations: Offer two types of pani at restaurants:",
+    "Teekha pani (spicy, green chili forward).",
+    "Meetha pani (sweet-sour tamarind-jaggery water with light masala).",
+    "This masala isn’t just for pani puri — you can also use it in jaljeera, chaas, fruit chaat, or spicy lemonade."
+  ]
+}
