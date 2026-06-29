@@ -613,13 +613,13 @@
     "difficulty": "Medium"
   },
     {
-    "id": 432,
+    "id": 431,
     "title": "Pani Puri Masala",
     "category": "Indian",
-    "file": "data/indian/pani_puri_masala.json",
-    "image": "assets/images/indian/pani_puri_masala.png",
+    "file": "data/indian/pani-puri-masala.json",
+    "image": "assets/images/indian/pani-puri-masala.png",
     "description": "",
-    "time": "30 min",
+    "time": "30 mins + 1 hr chilling",
     "difficulty": "Easy"
   },
   {
@@ -861,16 +861,6 @@
     "description": "",
     "time": "5 hr",
     "difficulty": "Medium"
-  },
-    {
-    "id": 431,
-    "title": "Pani Puri Masala",
-    "category": "Indian",
-    "file": "data/indian/pani-puri-masala.json",
-    "image": "assets/images/indian/pani-puri-masala.png",
-    "description": "",
-    "time": "30 mins + 1 hr chilling",
-    "difficulty": "Easy"
   },
   {
     "id": 501,
