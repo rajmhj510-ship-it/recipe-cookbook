@@ -1,0 +1,89 @@
+{
+  "id": 448,
+  "title": "Gulab Jamun",
+  "category": "Indian",
+  "image": "assets/images/indian/gulab-jamun.png",
+  "time": "2 hrs 30 mins",
+  "difficulty": "Medium",
+  "servings": 6,
+  "ingredients": [
+    {
+      "title": "For the Gulab Jamun",
+      "items": [
+        "1 cup khoya (mawa) – full-fat, fresh (essential for authentic texture)",
+        "2 tbsp all-purpose flour (maida) – for binding",
+        "1/4 tsp baking soda – optional, for fluffiness",
+        "1-2 tbsp milk – adjust to form soft dough",
+        "1 tsp rose water – optional, for extra aroma",
+        "Ghee or oil – for deep frying"
+      ]
+    },
+    {
+      "title": "For the Sugar Syrup",
+      "items": [
+        "2 cups sugar",
+        "1 1/2 cups water",
+        "4-5 cardamom pods – crushed",
+        "1 tsp rose water or saffron strands – optional, for flavor"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare the Sugar Syrup",
+      "steps": [
+        "In a pan, combine sugar and water. Heat until sugar dissolves completely.",
+        "Add crushed cardamom and a few saffron strands.",
+        "Let it simmer for 5–7 minutes on low heat until slightly sticky.",
+        "Remove from heat and add rose water. Keep warm (don’t boil after adding rose water)."
+      ]
+    },
+    {
+      "title": "Make the Dough",
+      "steps": [
+        "Crumble khoya into a bowl.",
+        "Add all-purpose flour and baking soda. Mix gently.",
+        "Gradually add milk, a teaspoon at a time, to form a soft, smooth, slightly sticky dough.",
+        "Tip: Over-kneading makes the dough tough; handle gently.",
+        "Let the dough rest for 10 minutes."
+      ]
+    },
+    {
+      "title": "Shape the Gulab Jamun",
+      "steps": [
+        "Divide the dough into small portions (about the size of a walnut).",
+        "Roll into smooth, crack-free balls.",
+        "Pro Tip: Smoothness is key to uniform texture and preventing cracks during frying."
+      ]
+    },
+    {
+      "title": "Fry the Gulab Jamun",
+      "steps": [
+        "Heat ghee or oil in a deep pan over low-medium heat.",
+        "Test with a small piece of dough: it should rise slowly and not brown too fast.",
+        "Fry the balls gently, stirring occasionally for even cooking.",
+        "Fry until golden brown on all sides (slow frying ensures a soft interior)."
+      ]
+    },
+    {
+      "title": "Soak in Syrup",
+      "steps": [
+        "Remove fried gulab jamuns and immediately transfer into warm sugar syrup.",
+        "Let them soak for at least 1–2 hours (longer for richer sweetness)."
+      ]
+    },
+    {
+      "title": "Serving",
+      "steps": [
+        "Serve warm or at room temperature.",
+        "Garnish with slivered pistachios or almonds.",
+        "Optional: drizzle a few drops of rose water before serving for extra aroma."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Khoya quality: Fresh, full-fat khoya gives soft and melt-in-the-mouth gulab jamuns.",
+    "Frying: Low, slow frying is crucial. High heat will brown the exterior but leave the center raw.",
+    "Syrup consistency: Should be slightly sticky, not watery, to coat the gulab jamun perfectly."
+  ]
+}
