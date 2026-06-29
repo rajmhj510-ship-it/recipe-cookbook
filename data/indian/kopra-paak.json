@@ -1,0 +1,77 @@
+{
+  "id": 445,
+  "title": "Kopra Paak (Coconut Burfi)",
+  "category": "Indian",
+  "image": "assets/images/indian/kopra-paak.png",
+  "time": "2 hrs",
+  "difficulty": "Medium",
+  "servings": 20,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Fresh grated coconut – 2 cups (preferably only the white part, finely grated)",
+        "Khoya (mawa) – 1 cup (unsweetened, finely crumbled)",
+        "Sugar – 1 ½ cups (adjust sweetness if needed)",
+        "Full-fat milk – ½ cup",
+        "Ghee (clarified butter) – 4 tbsp",
+        "Cardamom powder – 1 tsp",
+        "Saffron strands – 12–15, soaked in 1 tbsp warm milk",
+        "Chopped nuts (pistachios, almonds, cashews) – 2 tbsp (for garnish)",
+        "Edible silver leaf (varak) – optional, for fine-dining presentation"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prep the Coconut",
+      "steps": [
+        "Ensure coconut is finely grated. Pat dry with a muslin cloth to remove excess moisture if very fresh."
+      ]
+    },
+    {
+      "title": "Cook the Base",
+      "steps": [
+        "In a heavy-bottom pan, heat 2 tbsp ghee.",
+        "Add grated coconut and sauté on medium flame for 3–4 minutes, until fragrant but not browned. Remove and set aside."
+      ]
+    },
+    {
+      "title": "Khoya Mixture",
+      "steps": [
+        "In the same pan, add 1 tbsp ghee and crumble in the khoya.",
+        "Cook gently until it turns soft, creamy, and lightly golden (~5 minutes)."
+      ]
+    },
+    {
+      "title": "Sugar Syrup",
+      "steps": [
+        "In another pan, combine sugar + ½ cup milk.",
+        "Heat until sugar dissolves and comes to a 1-string consistency (dip spoon, stretch between fingers – should form one thread)."
+      ]
+    },
+    {
+      "title": "Combine Everything",
+      "steps": [
+        "Immediately mix syrup with khoya and coconut.",
+        "Add saffron milk, cardamom powder, and 1 tbsp ghee.",
+        "Stir continuously on medium heat until mixture thickens, leaves the pan, and forms a soft mass."
+      ]
+    },
+    {
+      "title": "Set the Burfi",
+      "steps": [
+        "Grease a square tray with ghee.",
+        "Pour mixture, flatten evenly with a greased spatula.",
+        "Garnish with chopped nuts and edible silver leaf.",
+        "Let it cool for 1–2 hours, then cut into neat diamond or square pieces."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use only fresh white coconut for pristine color and delicate texture.",
+    "Balance is key: not overly sweet, not overly greasy.",
+    "Cook slowly – rushing can caramelize sugar and spoil the flavor.",
+    "For an elevated plating, serve one piece with a drizzle of saffron syrup, pistachio dust, and a touch of edible gold."
+  ]
+}
