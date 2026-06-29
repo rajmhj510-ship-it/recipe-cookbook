@@ -697,7 +697,7 @@
     "title": "Badam Barfi",
     "category": "Indian",
     "file": "data/indian/badam-barfi.json",
-    "image": "assets/images/indian/badam_barfi.png",
+    "image": "assets/images/indian/badam-barfi.png",
     "description": "",
     "time": "60 min",
     "difficulty": "Medium"
@@ -707,7 +707,7 @@
     "title": "Doodh Barfi",
     "category": "Indian",
     "file": "data/indian/doodh-barfi.json",
-    "image": "assets/images/indian/doodh_barfi.png",
+    "image": "assets/images/indian/doodh-barfi.png",
     "description": "",
     "time": "90 min",
     "difficulty": "Medium"
