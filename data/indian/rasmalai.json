@@ -1,0 +1,79 @@
+{
+  "id": 447,
+  "title": "Rasmalai",
+  "category": "Indian",
+  "image": "assets/images/indian/rasmalai.png",
+  "time": "4 hrs",
+  "difficulty": "Hard",
+  "servings": 6,
+  "ingredients": [
+    {
+      "title": "For the Chenna (Cheese Balls)",
+      "items": [
+        "Full-fat milk – 2 liters",
+        "Lemon juice – 3 tbsp (diluted in 1/4 cup water)",
+        "Water – 1 cup (for sugar syrup)",
+        "Sugar – 1 cup",
+        "Cardamom powder – 1/2 tsp"
+      ]
+    },
+    {
+      "title": "For the Rabri (Milk Syrup)",
+      "items": [
+        "Full-fat milk – 1 liter",
+        "Sugar – 6–8 tbsp (adjust to taste)",
+        "Cardamom powder – 1 tsp",
+        "Saffron strands – 10–15 (soaked in 2 tbsp warm milk)",
+        "Chopped pistachios and almonds – 2 tbsp",
+        "Rose water (optional) – 1 tsp"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Making Chenna",
+      "steps": [
+        "Boil 2 liters of milk in a heavy-bottom pan.",
+        "When it starts to boil, reduce heat and add lemon juice slowly, stirring gently until the milk curdles.",
+        "Turn off the heat. Let it sit for 2–3 minutes.",
+        "Pour through a muslin cloth to strain the whey. Rinse the chenna with cold water to remove lemon flavor.",
+        "Hang the cloth for 30 minutes to remove excess water.",
+        "Knead the chenna on a clean surface for 8–10 minutes until smooth and slightly soft.",
+        "Divide into small portions and shape into smooth balls, slightly flattened."
+      ]
+    },
+    {
+      "title": "Step 2: Preparing Sugar Syrup",
+      "steps": [
+        "In a wide pan, bring 1 cup water + 1 cup sugar + 1/2 tsp cardamom powder to a boil.",
+        "Add chenna balls gently, cover, and simmer for 10–12 minutes on low heat.",
+        "Remove and let them cool completely."
+      ]
+    },
+    {
+      "title": "Step 3: Preparing Rabri",
+      "steps": [
+        "Boil 1 liter of milk in a heavy pan. Reduce to low-medium heat.",
+        "Stir continuously and reduce milk to about half.",
+        "Add sugar, cardamom, saffron milk, and chopped nuts. Cook 2–3 minutes.",
+        "Remove from heat and let it cool to room temperature. Add rose water if desired."
+      ]
+    },
+    {
+      "title": "Step 4: Assemble Rasmalai",
+      "steps": [
+        "Gently squeeze chenna balls to remove excess syrup.",
+        "Place them in a serving bowl and pour rabri over them.",
+        "Chill in the refrigerator for 2–3 hours for flavors to blend.",
+        "Garnish with extra saffron strands and nuts. Serve chilled."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use full-fat milk for rich and creamy texture.",
+    "Knead chenna thoroughly to make it smooth; it prevents grainy texture.",
+    "Keep rabri slightly thick but pourable; it will soak into the chenna.",
+    "Saffron soaked in warm milk enhances both flavor and color.",
+    "Chill well; Rasmalai tastes best cold."
+  ]
+}
