@@ -1,0 +1,65 @@
+{
+  "id": 449,
+  "title": "Mysore Pak",
+  "category": "Indian",
+  "image": "assets/images/indian/mysore-pak.png",
+  "time": "40 mins",
+  "difficulty": "Medium",
+  "servings": 16,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Besan (Gram Flour) – 1 cup (sifted, fine texture)",
+        "Ghee (Clarified Butter) – 1 cup (melted, plus extra for greasing)",
+        "Sugar – 1 cup",
+        "Water – ½ cup",
+        "Cardamom Powder (Optional) – ¼ tsp"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Prepare the Sugar Syrup",
+      "steps": [
+        "In a thick-bottomed pan, combine sugar and water.",
+        "Heat gently and stir until sugar dissolves completely.",
+        "Bring to a single-thread consistency (drop a bit of syrup between your thumb and forefinger; it should form a single thread).",
+        "Tip: Avoid overcooking; too thick syrup makes Mysore Pak hard."
+      ]
+    },
+    {
+      "title": "Step 2: Roast the Gram Flour (Besan)",
+      "steps": [
+        "Dry roast the besan lightly on low heat in a separate pan for 2–3 minutes.",
+        "Ensure it is aromatic but not browned.",
+        "This removes raw flavor and ensures smooth texture."
+      ]
+    },
+    {
+      "title": "Step 3: Combine and Cook",
+      "steps": [
+        "Reduce sugar syrup to a gentle simmer.",
+        "Slowly add roasted besan to the syrup in small portions, stirring continuously to avoid lumps.",
+        "Once incorporated, start adding melted ghee gradually, 1–2 tbsp at a time, while stirring constantly.",
+        "Cook on low heat, stirring continuously.",
+        "After a few minutes, the mixture will start to leave the sides of the pan and form bubbles—this is the perfect moment."
+      ]
+    },
+    {
+      "title": "Step 4: Set the Mysore Pak",
+      "steps": [
+        "Grease a tray or plate with ghee.",
+        "Pour the hot mixture immediately and spread evenly.",
+        "Let it rest for 5 minutes; while slightly warm, cut into desired shapes (squares or diamonds).",
+        "Allow it to cool completely; it will firm up with a slightly porous, melt-in-mouth texture."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Ghee Quality: Use high-quality, aromatic ghee; it’s the main flavor.",
+    "Low Heat Cooking: Crucial to avoid burning; slow and steady gives the soft texture.",
+    "Consistency Check: The right point is when the mixture leaves the sides and makes a spongy sound when stirred.",
+    "Storage: Keep in an airtight container for up to 7–10 days; it stays soft longer if stored in a cool, dry place."
+  ]
+}
