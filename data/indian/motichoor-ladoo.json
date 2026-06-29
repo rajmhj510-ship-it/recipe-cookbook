@@ -1,0 +1,92 @@
+{
+  "id": 436,
+  "title": "Motichoor Ladoo",
+  "category": "Indian",
+  "image": "assets/images/indian/motichoor-ladoo.png",
+  "time": "1 hr 30 mins",
+  "difficulty": "Medium",
+  "servings": 25,
+  "ingredients": [
+    {
+      "title": "For the Boondi",
+      "items": [
+        "Besan (gram flour): 1 cup",
+        "Water: ¾ cup (adjust for smooth batter)",
+        "Baking soda: ⅛ tsp (optional, for fluffier boondi)",
+        "Ghee or oil (for frying): 2 cups"
+      ]
+    },
+    {
+      "title": "For the Sugar Syrup",
+      "items": [
+        "Sugar: 1 cup",
+        "Water: ½ cup",
+        "Cardamom powder: ½ tsp",
+        "Saffron strands: 8–10 strands, soaked in 1 tbsp warm milk",
+        "Rose water: 1 tsp (optional, for aroma)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Chopped pistachios and almonds: 2 tbsp"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare the Batter",
+      "steps": [
+        "Sift the besan to remove lumps.",
+        "Mix with water gradually to form a smooth, flowing batter, slightly thinner than pancake batter.",
+        "Add a pinch of baking soda (optional). Rest for 10–15 minutes."
+      ]
+    },
+    {
+      "title": "Fry the Boondi",
+      "steps": [
+        "Heat ghee or oil in a deep frying pan over medium heat.",
+        "Use a boondi ladle or perforated spoon. Pour batter through it into hot ghee in a circular motion to form tiny droplets.",
+        "Fry until the boondi is just cooked but pale golden. Over-frying will make it hard.",
+        "Remove and drain on paper towels."
+      ]
+    },
+    {
+      "title": "Make the Sugar Syrup",
+      "steps": [
+        "In a saucepan, combine sugar and water. Boil until it reaches one-string consistency.",
+        "Test: Take a drop between your thumb and index finger; it should form a single thread.",
+        "Add cardamom powder, saffron-infused milk, and rose water. Mix well."
+      ]
+    },
+    {
+      "title": "Combine Boondi and Syrup",
+      "steps": [
+        "Add warm boondi to the syrup and mix gently.",
+        "Let it absorb syrup for 10–15 minutes, then check consistency.",
+        "The mixture should be sticky but not runny—ready to shape."
+      ]
+    },
+    {
+      "title": "Shape the Ladoos",
+      "steps": [
+        "Grease your palms lightly with ghee.",
+        "Take small portions and roll into smooth, round balls.",
+        "Garnish with pistachios or almonds."
+      ]
+    },
+    {
+      "title": "Rest",
+      "steps": [
+        "Allow ladoos to set at room temperature for 1–2 hours. This helps them hold shape and develop flavor."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Batter texture: The thinner the batter, the smaller the boondi; smaller boondi gives a soft, delicate ladoo.",
+    "Frying: Keep oil at medium heat; too hot = crispy boondi, too low = greasy boondi.",
+    "Sugar syrup: One-string consistency is crucial; too thick = hard ladoos, too thin = soggy.",
+    "Syrup absorption: Add boondi to warm syrup, not hot, for even soaking.",
+    "Storage: Store at room temperature in an airtight container for up to 7 days."
+  ]
+}
