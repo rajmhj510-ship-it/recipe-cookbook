@@ -1,0 +1,81 @@
+{
+  "id": 436,
+  "title": "Jalebi",
+  "category": "Indian",
+  "image": "assets/images/indian/jalebi.png",
+  "time": "9 hrs",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "For the batter",
+      "items": [
+        "1 cup all-purpose flour (maida)",
+        "2 tbsp cornflour",
+        "2 tbsp plain yogurt (curd)",
+        "½ tsp baking powder",
+        "¼ tsp turmeric powder (for color, optional)",
+        "½ cup water (adjust to get a thick but flowing batter)"
+      ]
+    },
+    {
+      "title": "For the sugar syrup",
+      "items": [
+        "1 cup sugar",
+        "½ cup water",
+        "¼ tsp saffron strands",
+        "½ tsp cardamom powder",
+        "1 tsp lemon juice (prevents crystallization)"
+      ]
+    },
+    {
+      "title": "For frying",
+      "items": [
+        "Ghee or refined oil (for deep frying)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Prepare the Batter",
+      "steps": [
+        "Mix maida, cornflour, turmeric, and baking powder in a bowl.",
+        "Add yogurt and water gradually to form a smooth, thick batter (like pancake batter but slightly thicker).",
+        "Cover and ferment for 8–12 hours at room temperature (or 4–5 hours in a warm place).",
+        "After fermentation, stir gently. If the batter is too thick, add a few tablespoons of water."
+      ]
+    },
+    {
+      "title": "Step 2: Prepare the Sugar Syrup",
+      "steps": [
+        "In a pan, combine sugar and water. Heat until the sugar dissolves completely.",
+        "Boil for 5–7 minutes until it reaches one-string consistency.",
+        "Tip: Test by taking a drop between your fingers; it should form a thin, single thread.",
+        "Add saffron strands and cardamom powder. Stir well.",
+        "Add lemon juice to prevent crystallization. Keep the syrup warm."
+      ]
+    },
+    {
+      "title": "Step 3: Fry the Jalebis",
+      "steps": [
+        "Heat ghee or refined oil in a wide pan over medium heat (not smoking hot).",
+        "Fill a piping bag or squeeze bottle with the batter.",
+        "Pipe spirals or pretzel shapes directly into the hot oil.",
+        "Fry until golden and crisp on both sides. Remove and drain excess oil on paper towels."
+      ]
+    },
+    {
+      "title": "Step 4: Soak in Sugar Syrup",
+      "steps": [
+        "Immediately dip the fried jalebis in warm sugar syrup for 30–60 seconds.",
+        "Remove and let them drain briefly on a plate."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Fermentation: The secret to soft, fluffy insides is proper fermentation. Don’t skip it.",
+    "Oil temperature: Medium heat ensures crispy outside and cooked inside. Too hot = brown outside, raw inside.",
+    "Sugar syrup: Must be warm, not hot, when adding jalebis; this allows proper absorption.",
+    "Serving: Serve hot for the perfect texture and shine."
+  ]
+}
