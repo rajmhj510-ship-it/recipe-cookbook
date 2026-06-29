@@ -1,0 +1,117 @@
+{
+  "id": 429,
+  "title": "Pani Puri (Golgappa)",
+  "category": "Indian",
+  "image": "assets/images/indian/pani-puri-golgappa.png",
+  "time": "1 hr 30 mins",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Puri (Crispy Shells)",
+      "items": [
+        "Fine semolina (sooji/rava) – 1 cup",
+        "All-purpose flour (maida) – 2 tbsp",
+        "Salt – ¼ tsp",
+        "Baking soda – a pinch",
+        "Water – as needed (lukewarm)",
+        "Oil – for deep frying"
+      ]
+    },
+    {
+      "title": "Classic Potato Filling",
+      "items": [
+        "Boiled potatoes – 2 medium (mashed)",
+        "Boiled chickpeas – ½ cup",
+        "Roasted cumin powder – ½ tsp",
+        "Chaat masala – ½ tsp",
+        "Black salt – ¼ tsp",
+        "Finely chopped coriander – 2 tbsp"
+      ]
+    },
+    {
+      "title": "Spicy Sprout Mix",
+      "items": [
+        "Green gram sprouts – 1 cup",
+        "Onion, finely chopped – 2 tbsp",
+        "Green chili, minced – 1 tsp",
+        "Lemon juice – 1 tbsp",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "Tangy Boondi & Sev Mix (for crunch)",
+      "items": [
+        "Masala boondi – ½ cup",
+        "Fine sev – 2 tbsp",
+        "Pomegranate arils – 2 tbsp"
+      ]
+    },
+    {
+      "title": "Pani (Spiced Flavored Water)",
+      "items": [
+        "Fresh coriander leaves – 1 cup",
+        "Fresh mint leaves – 1 cup",
+        "Green chilies – 3–4",
+        "Ginger – 1 inch",
+        "Tamarind pulp – 2 tbsp",
+        "Jaggery – 1 tbsp (optional, for balance)",
+        "Roasted cumin powder – 1 tsp",
+        "Black salt – 1 tsp",
+        "Regular salt – ½ tsp",
+        "Chaat masala – 1 tsp",
+        "Cold water – 4–5 cups",
+        "Ice cubes"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Puri (Crispy Shells)",
+      "steps": [
+        "Mix semolina, flour, salt, and soda. Gradually add lukewarm water, kneading into a stiff dough.",
+        "Cover with a damp cloth and rest for 30 minutes.",
+        "Roll very thin (2 mm). Cut small rounds (3–4 cm).",
+        "Fry in hot oil (180°C), pressing lightly until puffed and golden.",
+        "Drain on absorbent paper. Store in airtight container."
+      ]
+    },
+    {
+      "title": "Classic Potato Filling",
+      "steps": [
+        "Mix all together, adjust seasoning."
+      ]
+    },
+    {
+      "title": "Pani (Spiced Flavored Water)",
+      "steps": [
+        "Blend base into smooth paste.",
+        "Dilute with cold water, adjust salt-sour-spice balance.",
+        "Chill before serving."
+      ]
+    },
+    {
+      "title": "Signature Variations",
+      "steps": [
+        "Classic Spicy Mint Pani (as above)",
+        "Sweet Tamarind-Jaggery Pani (reduce mint, increase tamarind & jaggery)",
+        "Jeera-Lemon Pani (roast cumin-heavy, add lemon juice, chill with ice)"
+      ]
+    },
+    {
+      "title": "Professional Presentation",
+      "steps": [
+        "Serve puris in a wire basket or brass handi.",
+        "Fillings in small katoris (mini bowls).",
+        "2–3 types of chilled pani in copper pots/jugs with ladles.",
+        "Garnish with microgreens, edible flowers, or thin sev for fine-dine appeal.",
+        "Encourage guests to self-assemble for freshness."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Always serve pani ice cold (add ice cubes just before service).",
+    "Fry puris just before plating for crispness.",
+    "Balance tang, spice, and sweetness for restaurant-level finesse."
+  ]
+}
