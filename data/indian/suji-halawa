@@ -1,0 +1,66 @@
+{
+  "id": 446,
+  "title": "Suji Halawa (Semolina Dessert)",
+  "category": "Indian",
+  "image": "assets/images/indian/suji-halawa.png",
+  "time": "25 mins",
+  "difficulty": "Easy",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Semolina (suji/rava): 1 cup (fine variety preferred)",
+        "Pure ghee: ½ cup",
+        "Sugar: 1 cup (adjust to taste)",
+        "Water: 2 ½ cups (can replace ½ cup with milk for richness)",
+        "Green cardamom pods: 4–5 (lightly crushed or powdered)",
+        "Saffron strands: a pinch (soaked in 1 tbsp warm milk)",
+        "Cashew nuts: 8–10 (halved)",
+        "Almonds: 6–8 (slivered)",
+        "Raisins: 1 tbsp (optional)",
+        "Rose water / kewra water: ½ tsp (optional, for aroma)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare Syrup Base",
+      "steps": [
+        "In a saucepan, bring water (and milk, if using) to a boil.",
+        "Add sugar and stir until dissolved.",
+        "Infuse with saffron strands and cardamom. Keep hot."
+      ]
+    },
+    {
+      "title": "Roast the Semolina",
+      "steps": [
+        "Heat ghee in a heavy-bottomed kadhai or pan.",
+        "Add cashews, almonds, and raisins; sauté till golden and remove.",
+        "In the same ghee, add semolina and roast on medium flame.",
+        "Stir continuously until semolina turns golden, aromatic, and sandy in texture (8–10 minutes)."
+      ]
+    },
+    {
+      "title": "Combine & Cook",
+      "steps": [
+        "Lower flame; carefully add the hot sugar-water syrup to the roasted semolina while stirring (it splutters).",
+        "Stir continuously to avoid lumps.",
+        "Cook until the mixture thickens, absorbs liquid, and ghee starts releasing from sides (5–6 minutes)."
+      ]
+    },
+    {
+      "title": "Finish",
+      "steps": [
+        "Mix in fried nuts and raisins.",
+        "Add rose/kewra water for delicate aroma.",
+        "Rest covered for 2 minutes before serving."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Plating: Use a ring mold to shape halawa into a neat cylinder or dome.",
+    "Garnish: Top with gold/silver leaf (vark), slivered pistachios, and a saffron strand.",
+    "Pairing: Serve warm with masala chai or as a side to puris (for traditional service)."
+  ]
+}
