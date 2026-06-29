@@ -1,0 +1,74 @@
+{
+  "id": 444,
+  "title": "Besan Barfi (Gram Flour Fudge)",
+  "category": "Indian",
+  "image": "assets/images/indian/besan-barfi.png",
+  "time": "2 hrs",
+  "difficulty": "Medium",
+  "servings": 20,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Gram flour (besan) – 2 cups (200 g), sifted",
+        "Ghee (clarified butter) – ¾ cup (150 g), warm & melted",
+        "Sugar – 1½ cups (300 g)",
+        "Water – ¾ cup (180 ml)",
+        "Cardamom powder – ½ tsp",
+        "Saffron strands – 6–8, soaked in 1 tbsp warm milk (optional, luxury touch)",
+        "Pistachios/Almonds – 2 tbsp, finely slivered (for garnish)",
+        "Edible silver leaf (varq) – optional, for fine-dining presentation"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare Besan Base",
+      "steps": [
+        "Heat a heavy-bottomed kadhai/pan on medium-low.",
+        "Add ghee, then sifted besan.",
+        "Roast slowly, stirring continuously, until the mixture turns golden, aromatic, and releases a nutty fragrance (20–25 minutes).",
+        "Chef’s Tip: Keep flame low—this ensures even roasting and prevents raw or burnt flavors."
+      ]
+    },
+    {
+      "title": "Prepare Sugar Syrup",
+      "steps": [
+        "In a separate saucepan, combine sugar and water.",
+        "Cook until it reaches a 1-string consistency (if you press syrup between your thumb and forefinger, it should form a single thread when pulled apart).",
+        "Add cardamom powder and saffron milk (if using). Remove from heat."
+      ]
+    },
+    {
+      "title": "Combine & Cook",
+      "steps": [
+        "Slowly pour the hot sugar syrup into the roasted besan mixture, stirring continuously.",
+        "The mixture will bubble—stir until it thickens and starts to leave the sides of the pan.",
+        "The ghee should begin to release slightly, indicating it’s ready."
+      ]
+    },
+    {
+      "title": "Set & Garnish",
+      "steps": [
+        "Pour mixture into a greased tray lined with parchment.",
+        "Level with a spatula, smooth the surface, and sprinkle with slivered pistachios/almonds.",
+        "Optionally, place a sheet of edible silver leaf for a luxe finish."
+      ]
+    },
+    {
+      "title": "Cut & Serve",
+      "steps": [
+        "Allow to set at room temperature (1–2 hours).",
+        "Once firm, cut into neat squares or diamonds with a sharp greased knife.",
+        "Store in an airtight container (lasts up to 10 days at room temp)."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Sieve the besan before roasting to avoid lumps.",
+    "Slow roasting is key—rushing creates a raw taste.",
+    "For ultra-smooth texture, pulse the besan once in a grinder before roasting.",
+    "Adding saffron & silver leaf elevates it to fine-dining presentation.",
+    "Serve on a black slate platter with microgreens or rose petals for a restaurant-style garnish."
+  ]
+}
