@@ -1,0 +1,71 @@
+{
+  "id": 441,
+  "title": "Classic Bengali Sandesh",
+  "category": "Indian",
+  "image": "assets/images/indian/classic-bengali-sandesh.png",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "servings": 14,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Full-fat cow’s milk – 1.5 liters",
+        "Fresh lemon juice – 3 tbsp (or vinegar diluted with 1 tbsp water)",
+        "Powdered sugar (fine caster sugar) – 80–100 g (adjust sweetness)",
+        "Cardamom powder – ½ tsp",
+        "Saffron strands – a few, soaked in 1 tbsp warm milk",
+        "Rose water or kewra water – ½ tsp (optional, for aroma)",
+        "Pistachios/almonds – finely chopped, for garnish",
+        "Edible silver leaf (varak) – optional, for luxury finish"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare the Chenna",
+      "steps": [
+        "Boil the milk in a heavy-bottomed pan. Once it reaches a rolling boil, reduce heat.",
+        "Stir in lemon juice gradually until the milk curdles completely and whey separates.",
+        "Strain through muslin/cheesecloth, rinse under cold water (to remove lemony taste).",
+        "Hang for 30 minutes to remove excess whey (should be moist, not dry)."
+      ]
+    },
+    {
+      "title": "Knead the Chenna",
+      "steps": [
+        "Place the chenna on a clean surface and knead with the heel of your palm for 7–8 minutes, until smooth and soft (like a dough, no visible grains).",
+        "Add powdered sugar gradually, kneading further for 3–4 minutes until incorporated.",
+        "Mix in cardamom powder and saffron milk."
+      ]
+    },
+    {
+      "title": "Cook the Mixture (Bhuno Process)",
+      "steps": [
+        "Transfer chenna mixture to a nonstick pan.",
+        "Cook on low heat, stirring continuously, until mixture thickens slightly and leaves the sides (should remain moist, not dry).",
+        "This takes 5–7 minutes. Do not overcook, or it will become crumbly."
+      ]
+    },
+    {
+      "title": "Shape & Garnish",
+      "steps": [
+        "Remove mixture, cool slightly.",
+        "While still warm, divide into equal portions. Shape into smooth round or flat discs (traditionally using wooden moulds with floral designs).",
+        "Garnish with pistachios/almonds and apply silver leaf."
+      ]
+    },
+    {
+      "title": "Serving Suggestion",
+      "steps": [
+        "Best served slightly chilled.",
+        "Pair with Rabri drizzle or fruit compote for a plated dessert in fine dining."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Texture: Chenna must be silky; kneading is key.",
+    "Flavors: Infuse with saffron, rose, or even seasonal fruit (mango, strawberry puree) for gourmet variations.",
+    "Presentation: Serve on a chilled plate, garnished with silver leaf, microgreens, or edible flowers for a restaurant-style finish."
+  ]
+}
