@@ -1,0 +1,67 @@
+{
+  "id": 440,
+  "title": "Kaju Katli (Cashew Fudge)",
+  "category": "Indian",
+  "image": "assets/images/indian/kaju-katli.png",
+  "time": "1 hr",
+  "difficulty": "Intermediate",
+  "servings": 24,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Cashews (Kaju): 250 g (use fresh, unsalted, premium-grade whole cashews)",
+        "Sugar: 125 g (½ cup, fine granulated)",
+        "Water: 60 ml (¼ cup)",
+        "Ghee (clarified butter): 1 tsp (for greasing & kneading)",
+        "Edible silver leaf (Vark): 2 sheets (optional, for garnish)",
+        "Rose water or Kewra water: ¼ tsp (optional, for fragrance)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Preparing Cashew Powder",
+      "steps": [
+        "Place cashews in the freezer for 30 minutes (this prevents oil release during grinding).",
+        "Grind cashews in a high-power blender or spice grinder to a fine powder.",
+        "Do not over-grind; it can turn into cashew butter.",
+        "Sift once to remove any larger bits."
+      ]
+    },
+    {
+      "title": "Sugar Syrup",
+      "steps": [
+        "In a heavy-bottom pan, add sugar and water.",
+        "Heat gently, stirring until sugar dissolves.",
+        "Boil until it reaches one-string consistency (test: stretch syrup between thumb and forefinger — a thin single thread should form)."
+      ]
+    },
+    {
+      "title": "Making the Dough",
+      "steps": [
+        "Reduce flame to low. Add cashew powder gradually into the syrup.",
+        "Stir continuously using a flat spatula, ensuring no lumps.",
+        "Cook until the mixture thickens and starts leaving the pan (approx. 8–10 minutes).",
+        "Add rose/kewra water if using."
+      ]
+    },
+    {
+      "title": "Shaping",
+      "steps": [
+        "Grease a smooth surface (steel tray or marble slab) with ghee.",
+        "Transfer the hot mixture, let it cool for 1–2 minutes until warm but touchable.",
+        "Grease palms lightly with ghee and knead into a soft, smooth dough (like roti dough).",
+        "Place between two sheets of parchment and roll evenly to 3–5 mm thickness.",
+        "Apply edible silver leaf carefully.",
+        "Cut into diamond-shaped pieces with a sharp knife."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Cashew Quality: Always use fresh cashews — old ones give a bitter aftertaste.",
+    "Syrup Consistency: Too thin → mixture won’t set; too thick → dough becomes hard.",
+    "Rolling: Work quickly while warm; once cool, it hardens and cracks.",
+    "Luxury Twist: Add a pinch of saffron or cardamom powder to the syrup for a premium restaurant flavor."
+  ]
+}
