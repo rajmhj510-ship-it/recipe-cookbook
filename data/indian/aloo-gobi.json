@@ -1,0 +1,101 @@
+{
+  "id": 484,
+  "title": "Aloo Gobi",
+  "category": "Indian",
+  "image": "assets/images/indian/aloo-gobi.png",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Vegetables & Base",
+      "items": [
+        "2 medium potatoes, peeled & cubed (1-inch pieces)",
+        "1 medium cauliflower, cut into florets",
+        "2 tbsp vegetable oil or ghee",
+        "1 large onion, finely chopped",
+        "2 medium tomatoes, finely chopped",
+        "2–3 green chilies, slit",
+        "1-inch ginger, finely grated",
+        "4–5 garlic cloves, minced"
+      ]
+    },
+    {
+      "title": "Spices",
+      "items": [
+        "1 tsp cumin seeds",
+        "1 tsp turmeric powder",
+        "1 tsp red chili powder (adjust to taste)",
+        "1 tsp coriander powder",
+        "½ tsp garam masala",
+        "¼ tsp asafoetida (hing, optional)",
+        "Salt, to taste"
+      ]
+    },
+    {
+      "title": "Garnish",
+      "items": [
+        "Fresh coriander leaves, chopped",
+        "Lemon wedges"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Parboil the Vegetables (Optional but Restaurant-Style)",
+      "steps": [
+        "Boil cauliflower florets for 2–3 minutes until just tender, then drain and set aside.",
+        "Parboil potatoes for 5 minutes; this ensures even cooking and prevents them from breaking apart in the curry."
+      ]
+    },
+    {
+      "title": "2. Temper the Spices",
+      "steps": [
+        "Heat oil/ghee in a heavy-bottomed pan over medium heat.",
+        "Add cumin seeds; let them sizzle for 30 seconds.",
+        "Add asafoetida, if using."
+      ]
+    },
+    {
+      "title": "3. Sauté Aromatics",
+      "steps": [
+        "Add chopped onions and sauté until golden brown for deep flavor.",
+        "Add garlic and ginger; cook for 1–2 minutes until fragrant."
+      ]
+    },
+    {
+      "title": "4. Add Tomatoes & Spices",
+      "steps": [
+        "Stir in chopped tomatoes and cook until soft and oil starts to separate.",
+        "Add turmeric, chili, and coriander powders; mix well."
+      ]
+    },
+    {
+      "title": "5. Cook the Vegetables",
+      "steps": [
+        "Add potatoes first, stir to coat with the spice mixture. Cook 5 minutes.",
+        "Add cauliflower florets, salt, and ¼ cup water (for a slightly saucy texture).",
+        "Cover and simmer on low heat for 10–12 minutes until potatoes are cooked and cauliflower is tender but firm."
+      ]
+    },
+    {
+      "title": "6. Finish with Flavors",
+      "steps": [
+        "Sprinkle garam masala and give a gentle stir.",
+        "Adjust seasoning and add a drizzle of ghee for a rich restaurant-style finish."
+      ]
+    },
+    {
+      "title": "7. Garnish & Serve",
+      "steps": [
+        "Garnish with fresh coriander and serve hot with naan, roti, or steamed basmati rice."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Texture Balance: Parboiling prevents overcooked cauliflower and mushy potatoes.",
+    "Flavor Depth: Sauté onions until deeply golden; it adds natural sweetness and richness.",
+    "Finishing Touch: A small drizzle of ghee and fresh lemon juice elevates the aroma and taste.",
+    "Presentation: Serve on a white plate, garnish with a few coriander sprigs and thinly sliced red chili for contrast."
+  ]
+}
