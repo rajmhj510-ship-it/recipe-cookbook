@@ -62,17 +62,18 @@
         "Fry in small batches until deep golden brown and crisp (3–4 minutes).",
         "Drain on paper towels."
       ]
-    },
-    {
-      "title": "Serving Suggestions",
-      "steps": [
-        "Classic: Stuff in warm pita with lettuce, tomato, cucumber, and pickled turnips. Drizzle with tahini sauce.",
-        "Plated: Serve on a mezze platter with hummus, baba ghanoush, tabbouleh, olives, and fresh bread.",
-        "Modern touch: Garnish with microgreens, pomegranate seeds, or sumac onions for elevated presentation."
-      ]
     }
   ],
 
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+        "Classic: Stuff in warm pita with lettuce, tomato, cucumber, and pickled turnips. Drizzle with tahini sauce.",
+        "Plated: Serve on a mezze platter with hummus, baba ghanoush, tabbouleh, olives, and fresh bread.",
+        "Modern touch: Garnish with microgreens, pomegranate seeds, or sumac onions for elevated presentation."
+    ]
+  },
+     
   "chefTips": [
     "Never use canned chickpeas – they make falafel mushy.",
     "Chill the mixture before frying to avoid breaking apart.",
