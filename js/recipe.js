@@ -91,6 +91,22 @@ async function loadRecipe() {
 		}
 
 		/* TIPS */
+		const serveEl = document.getElementById("servingsuggestions");
+
+if (data.servingSuggestions?.length > 0) {
+	serveEl.innerHTML = `
+		<div class="section">
+			<h3>Serving Suggestions</h3>
+			<ul>
+				${data.servingSuggestions
+					.map(s => `<li>${safeText(s)}</li>`)
+					.join("")}
+			</ul>
+		</div>
+	`;
+} else {
+	serveEl.innerHTML = ""; // hide if not available
+}
 		const tipsEl = document.getElementById("tips");
 
 		if (Array.isArray(data.chefTips) && data.chefTips.length) {
