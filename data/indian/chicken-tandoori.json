@@ -1,0 +1,88 @@
+{
+  "id": 500,
+  "title": "Chicken Tandoori",
+  "category": "Indian",
+  "image": "assets/images/indian/chicken-tandoori.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "1 whole chicken (about 1.2–1.5 kg), cut into pieces",
+        "2 tbsp lemon juice",
+        "1 tsp salt"
+      ]
+    },
+    {
+      "title": "For the Marinade",
+      "items": [
+        "1 cup thick yogurt (Greek yogurt works best)",
+        "2 tbsp ginger-garlic paste",
+        "2 tsp Kashmiri red chili powder (for vibrant color, mild heat)",
+        "1 tsp turmeric powder",
+        "2 tsp ground coriander",
+        "1 tsp cumin powder",
+        "1–2 tsp garam masala",
+        "1–2 tsp chaat masala (optional, for authentic tang)",
+        "2 tbsp vegetable oil or mustard oil",
+        "1 tsp smoked paprika (optional, for smoky aroma)",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Fresh coriander leaves",
+        "Lemon wedges",
+        "Onion rings"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prep the Chicken",
+      "steps": [
+        "Wash and pat dry the chicken pieces.",
+        "Make 2–3 deep slashes in each piece to allow the marinade to penetrate.",
+        "Rub with lemon juice and salt. Let sit for 15–20 minutes."
+      ]
+    },
+    {
+      "title": "2. Make the Marinade",
+      "steps": [
+        "In a large bowl, mix yogurt, ginger-garlic paste, red chili, turmeric, coriander, cumin, garam masala, chaat masala, oil, and smoked paprika.",
+        "Taste and adjust salt/spices if needed."
+      ]
+    },
+    {
+      "title": "3. Marinate the Chicken",
+      "steps": [
+        "Coat each chicken piece thoroughly with the marinade.",
+        "Cover and refrigerate for at least 6 hours, ideally overnight for maximum flavor."
+      ]
+    },
+    {
+      "title": "4. Cooking Options",
+      "steps": [
+        "Oven Method (Preferred for Home Chefs): Preheat oven to 220°C (425°F). Line a baking tray with foil and place a wire rack on top. Arrange chicken pieces on the rack. Bake for 20 minutes, then flip and bake another 15–20 minutes until chicken is cooked through. For a smoky flavor, broil for 2–3 minutes at the end.",
+        "Grill Method (Authentic Tandoor Flavor): Preheat the grill or barbecue. Grill chicken over medium-high heat for 10–12 minutes per side until cooked and slightly charred. Baste occasionally with leftover marinade."
+      ]
+    },
+    {
+      "title": "5. Finishing Touch",
+      "steps": [
+        "Sprinkle chaat masala or garam masala if desired.",
+        "Garnish with coriander leaves, lemon wedges, and onion rings."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Yogurt: Thick, unsweetened yogurt ensures a creamy, flavorful marinade.",
+    "Marination: Don’t rush it—overnight marination tenderizes and intensifies flavor.",
+    "Char: A quick broil or grill step gives authentic tandoori char marks.",
+    "Oil: Mustard oil gives a slightly pungent, traditional flavor; neutral oils work fine too.",
+    "Kashmiri chili powder: Adds vibrant color without overpowering heat."
+  ]
+}
