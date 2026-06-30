@@ -1,0 +1,78 @@
+{
+  "id": 489,
+  "title": "Kadai Mushroom",
+  "category": "Indian",
+  "image": "assets/images/indian/kadai-mushroom.png",
+  "time": "15-20 minutes",
+  "servings": "3–4 | Prep Time: 15 mins | Cook Time: 25 mins",
+
+  "ingredients": [
+    {
+      "title": "For the Masala Paste",
+      "items": [
+        "2 medium onions, roughly chopped",
+        "2 medium tomatoes, chopped",
+        "2–3 green chilies",
+        "1-inch ginger piece",
+        "4–5 garlic cloves",
+        "1 tsp red chili powder",
+        "1 tsp coriander powder",
+        "½ tsp turmeric powder",
+        "Salt, to taste"
+      ]
+    },
+    {
+      "title": "For the Curry",
+      "items": [
+        "300–350 g button mushrooms, cleaned & halved",
+        "2–3 tbsp oil (vegetable or mustard)",
+        "1 tsp cumin seeds",
+        "1 large onion, finely chopped",
+        "1 large capsicum (bell pepper), chopped",
+        "1 tsp garam masala",
+        "1 tsp dried fenugreek leaves (kasuri methi)",
+        "Fresh coriander leaves, chopped (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Masala Paste",
+      "steps": [
+        "In a blender, combine onions, tomatoes, green chilies, ginger, garlic, red chili, coriander, turmeric, and salt.",
+        "Blend into a smooth paste and set aside."
+      ]
+    },
+    {
+      "title": "Cook Mushrooms",
+      "steps": [
+        "Heat 2 tbsp oil in a kadai or deep pan on medium-high heat.",
+        "Add cumin seeds and let them splutter.",
+        "Add the chopped onions and sauté until golden brown.",
+        "Add the masala paste and cook on medium heat for 8–10 minutes until oil separates."
+      ]
+    },
+    {
+      "title": "Combine Mushrooms and Vegetables",
+      "steps": [
+        "Add mushrooms and capsicum to the masala.",
+        "Mix well and cook for 5–7 minutes until mushrooms are tender but not soggy.",
+        "Add garam masala and crushed kasuri methi. Adjust salt and chili as needed."
+      ]
+    },
+    {
+      "title": "Finishing Touch",
+      "steps": [
+        "Garnish with fresh coriander.",
+        "Serve hot in a kadai or serving bowl with naan, roti, or steamed rice."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Roast the dry spices (coriander, cumin, fennel) before grinding for a more aromatic masala.",
+    "Use a mix of butter and oil for a richer taste.",
+    "Slightly char the mushrooms on high heat before adding to the curry for a smoky flavor."
+  ]
+}
