@@ -1,0 +1,99 @@
+{
+  "id": 505,
+  "title": "Fish Curry",
+  "category": "Indian",
+  "image": "assets/images/indian/fish-curry.png",
+  "servings": "Serves 4",
+  "time": "Preparation Time: 15 minutes | Cooking Time: 25 minutes",
+
+  "ingredients": {
+    "For the fish marinade": [
+      "500 g (1.1 lb) firm white fish fillets (kingfish, cod, or tilapia), cut into 4 cm pieces",
+      "½ tsp turmeric powder",
+      "½ tsp Kashmiri red chili powder (for color, mild heat)",
+      "½ tsp salt",
+      "1 tsp lemon juice"
+    ],
+
+    "For the curry base": [
+      "3 tbsp mustard oil (or vegetable oil)",
+      "1 medium onion, finely chopped (about 120 g)",
+      "1 tsp ginger paste",
+      "1 tsp garlic paste",
+      "1 medium tomato, finely chopped (about 100 g)",
+      "½ tsp turmeric powder",
+      "1 tsp Kashmiri chili powder (adjust for heat)",
+      "1 tsp ground coriander",
+      "½ tsp ground cumin",
+      "¼ tsp fenugreek seeds (optional, for depth)",
+      "1–2 fresh green chilies, slit lengthwise (optional, for heat)",
+      "200 ml coconut milk (full-fat) or 150 ml coconut cream + 50 ml water",
+      "150 ml fish stock or water",
+      "1 tsp salt (adjust to taste)"
+    ],
+
+    "Finishing touches": [
+      "Fresh coriander leaves, chopped",
+      "Juice of ½ lemon"
+    ]
+  },
+
+  "Method": [
+    {
+      "title": "1. Marinate the fish",
+      "steps": [
+        "In a bowl, combine fish pieces with turmeric, chili powder, salt, and lemon juice.",
+        "Set aside for at least 10 minutes while you prepare the curry base."
+      ]
+    },
+    {
+      "title": "2. Prepare the curry base",
+      "steps": [
+        "Heat mustard oil in a heavy-bottomed pan until it just starts to smoke (to remove raw pungency), then reduce heat to medium.",
+        "Add fenugreek seeds; sauté 10–15 seconds until fragrant.",
+        "Add onions; cook slowly until golden brown (8–10 min) for sweetness and depth.",
+        "Add ginger and garlic paste; fry 1 min until raw aroma disappears.",
+        "Add tomatoes; cook until they break down and the oil begins to separate from the masala (4–5 min)."
+      ]
+    },
+    {
+      "title": "3. Spice infusion",
+      "steps": [
+        "Stir in turmeric, chili powder, coriander, and cumin. Cook the spices for 30–40 seconds to bloom their flavors.",
+        "Add green chilies if using."
+      ]
+    },
+    {
+      "title": "4. Form the curry",
+      "steps": [
+        "Pour in coconut milk and fish stock. Stir and bring to a gentle simmer.",
+        "Season with salt; adjust consistency with water if needed. Simmer 4–5 min for flavors to meld."
+      ]
+    },
+    {
+      "title": "5. Cook the fish",
+      "steps": [
+        "Gently slide marinated fish pieces into the simmering curry.",
+        "Cook on low heat 5–6 minutes, turning fish only once, until just cooked through and tender."
+      ]
+    },
+    {
+      "title": "6. Finish",
+      "steps": [
+        "Turn off heat, stir in lemon juice, and garnish with chopped coriander.",
+        "Rest for 2–3 minutes before serving to let the flavors settle."
+      ]
+    }
+  ],
+
+  "Chef Tips": [
+    "Oil separation is a key marker in Indian curries—cook the base until you see oil rising to the top; it means the masala is ready.",
+    "Use Kashmiri chili powder for vibrant color without excessive heat.",
+    "Do not overcook fish—it should be flaky but moist.",
+    "For extra depth, briefly pan-sear the marinated fish before adding to the curry."
+  ],
+
+  "Serving Suggestion": [
+    "Serve hot with steamed basmati rice, jeera rice, or soft Indian breads like naan or paratha."
+  ]
+}
