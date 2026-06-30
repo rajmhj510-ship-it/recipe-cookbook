@@ -1,0 +1,79 @@
+{
+  "id": 482,
+  "title": "Baingan Bharta",
+  "category": "Indian",
+  "image": "assets/images/indian/baingan-bharta.png",
+  "time": "50 min",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "For the Roasted Eggplant",
+      "items": [
+        "2 large eggplants (baingan)",
+        "1 tsp oil (for brushing)"
+      ]
+    },
+    {
+      "title": "For the Bharta Masala",
+      "items": [
+        "2 tbsp oil or ghee",
+        "1 tsp cumin seeds",
+        "1 medium onion, finely chopped",
+        "2–3 green chilies, finely chopped (adjust to taste)",
+        "1 tbsp ginger-garlic paste",
+        "2 large tomatoes, finely chopped",
+        "½ tsp turmeric powder",
+        "1 tsp red chili powder (adjust to taste)",
+        "1 tsp coriander powder",
+        "½ tsp garam masala",
+        "Salt to taste",
+        "Fresh coriander leaves, chopped for garnish"
+      ]
+    },
+    {
+      "title": "Optional Garnish / Flavor Boost",
+      "items": [
+        "1–2 tsp butter or ghee (for extra richness)",
+        "1 small tomato, finely diced (for raw freshness on top)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Roast the Eggplant",
+      "steps": [
+        "Wash and pat dry the eggplants.",
+        "Roast them directly over an open flame (gas stove) or in a broiler/oven at 220°C (425°F) until the skin is charred and the flesh is soft (about 15–20 mins on flame; 30–35 mins in oven, turning occasionally).",
+        "Let cool slightly, then peel off the skin.",
+        "Mash the flesh thoroughly with a fork or potato masher until smooth and slightly fibrous.",
+        "Pro Tip: Roasting on an open flame gives that smoky, authentic flavor."
+      ]
+    },
+    {
+      "title": "2. Prepare the Bharta Masala",
+      "steps": [
+        "Heat oil or ghee in a pan over medium heat.",
+        "Add cumin seeds. When they splutter, add onions and sauté until golden brown.",
+        "Add green chilies and ginger-garlic paste; sauté until raw smell disappears.",
+        "Add chopped tomatoes, turmeric, chili powder, and coriander powder. Cook until tomatoes are soft and oil starts to separate (~8–10 mins).",
+        "Add the mashed eggplant and salt. Mix well and cook on low heat for 5–7 mins, stirring occasionally.",
+        "Sprinkle garam masala and give a final stir."
+      ]
+    },
+    {
+      "title": "3. Garnish and Serve",
+      "steps": [
+        "Drizzle with a teaspoon of ghee or butter for richness.",
+        "Garnish with chopped fresh coriander.",
+        "Serve hot with naan, roti, or steamed basmati rice."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Smokiness: For maximum smoky flavor, pierce the eggplant with a fork and hold it directly over the gas flame for a few minutes before roasting fully.",
+    "Texture: Mash the eggplant by hand rather than in a blender to maintain a fibrous, rustic texture.",
+    "Flavor Depth: Slow-cook the tomato-onion masala until oil separates—it builds a rich, layered flavor.",
+    "Optional Twist: A teaspoon of roasted cumin powder or smoked paprika can elevate the aroma for fine dining."
+  ]
+}
