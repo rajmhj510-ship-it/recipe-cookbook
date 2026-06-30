@@ -1,0 +1,59 @@
+{
+  "id": 478,
+  "title": "Dal Makhani",
+  "category": "Indian",
+  "image": "assets/images/indian/dal-makhani.png",
+  "time": "3 hrs",
+  "difficulty": "Medium",
+  "servings": 6,
+  "ingredients": [
+    {
+      "title": "For the Dal",
+      "items": [
+        "Whole black urad dal (sabut urad) – 1 cup (200 g)",
+        "Red kidney beans (rajma) – ¼ cup (50 g)",
+        "Water – 4–5 cups (for cooking)",
+        "Salt – 1½ tsp (adjust to taste)",
+        "Turmeric powder – ½ tsp"
+      ]
+    },
+    {
+      "title": "For the Masala",
+      "items": [
+        "Ghee (clarified butter) – 3 tbsp (or 2 tbsp ghee + 1 tbsp butter for flavor)",
+        "Onion – 1 medium, finely chopped",
+        "Ginger-garlic paste – 2 tbsp (fresh, smooth paste preferred)",
+        "Tomatoes – 3 medium, pureed (or 1 cup tomato purée)",
+        "Green chili – 1, slit (optional for mild heat)",
+        "Kashmiri red chili powder – 1 tsp (for color, mild heat)",
+        "Coriander powder – 1 tsp",
+        "Garam masala – ½ tsp"
+      ]
+    },
+    {
+      "title": "For the Finish",
+      "items": [
+        "Fresh cream – ½ cup",
+        "Butter – 2–3 tbsp (unsalted, for richness)",
+        "Kasuri methi (dried fenugreek leaves) – 1 tsp, crushed between palms",
+        "Fresh coriander leaves – for garnish"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Soak & Cook the Dal: Wash the dal and rajma thoroughly, then soak them overnight (8–12 hrs). Drain, rinse, and cook in a pressure cooker or heavy pot with 4–5 cups water, turmeric, and salt until soft (in a pressure cooker: ~8–10 whistles; in a pot: 1.5–2 hrs slow simmering). The lentils should be creamy and mash easily between fingers.",
+        "Prepare the Masala Base: In a heavy-bottomed pan, heat ghee. Add onions and sauté until light golden. Add ginger-garlic paste; cook until raw smell disappears. Add tomato purée and cook down until the ghee separates (important for restaurant-style depth). Stir in red chili powder, coriander powder, garam masala, and green chili.",
+        "Combine & Slow Cook: Add the cooked dal-rajma mix (with some cooking liquid) into the masala. Stir well and simmer on low heat for 45–60 min, stirring occasionally. The longer and slower the simmer, the creamier the dal becomes. Add water if it thickens too much.",
+        "Finish with Cream & Butter: Gently mash some of the lentils with the back of a spoon to thicken the texture. Stir in cream, butter, and kasuri methi. Simmer for another 10 min. Adjust seasoning with salt if needed."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Slow cooking: Traditional dal makhani is simmered for 3–4 hours (or overnight on tandoor embers in old Delhi). Use a heavy pot or slow cooker for best results.",
+    "Balance: Cream should enrich, not overpower — use about ½ cup for restaurant-style, more for luxury dining.",
+    "Smoky touch (dhungar method): Place a small bowl with hot charcoal in the dal, drizzle a little ghee over it, cover tightly for 1–2 minutes, then remove. This gives an authentic smoky restaurant flavor."
+  ]
+}
