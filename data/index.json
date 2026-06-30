@@ -973,6 +973,123 @@
     "difficulty": "Medium"
   },
   {
+    "id": 475,
+    "title": "Aloo Matar Bhaji (Dry Potato & Peas Curry)",
+    "category": "Indian",
+    "image": "assets/images/indian/aloo-matar-bhaji.png",
+    "time": "40 min",
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 476,
+    "title": "Classic Indian Chole (Chickpea Curry)",
+    "category": "Indian",
+    "image": "assets/images/indian/classic-indian-chole.png",
+    "time": "1 hr",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 477,
+    "title": "Rajma Masala",
+    "category": "Indian",
+    "image": "assets/images/indian/rajma-masala.png",
+    "time": "1 hr",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 478,
+    "title": "Dal Tadka",
+    "category": "Indian",
+    "image": "assets/images/indian/dal-tadka.png",
+    "time": "55 min",
+    "difficulty": "Easy",
+    "servings": 5
+  },
+  {
+    "id": 479,
+    "title": "Dal Makhani",
+    "category": "Indian",
+    "image": "assets/images/indian/dal-makhani.png",
+    "time": "3 hrs",
+    "difficulty": "Medium",
+    "servings": 6
+  },
+  {
+    "id": 480,
+    "title": "Chana Masala",
+    "category": "Indian",
+    "image": "assets/images/indian/chana-masala.png",
+    "time": "1 hr 20 min",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 481,
+    "title": "Aloo Dum (Spicy Potato Curry)",
+    "category": "Indian",
+    "image": "assets/images/indian/aloo-dum.png",
+    "time": "45 min",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 482,
+    "title": "Dahi Aloo",
+    "category": "Indian",
+    "image": "assets/images/indian/dahi-aloo.png",
+    "time": "40 min",
+    "difficulty": "Medium",
+    "servings": 3
+  },
+  {
+    "id": 483,
+    "title": "Baingan Bharta (Smoky Mashed Eggplant)",
+    "category": "Indian",
+    "image": "assets/images/indian/baingan-bharta.png",
+    "time": "45 min",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 484,
+    "title": "Gobi Masala (Cauliflower Masala)",
+    "category": "Indian",
+    "image": "assets/images/indian/gobi-masala.png",
+    "time": "40 min",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 485,
+    "title": "Aloo Gobi (Potato & Cauliflower Curry)",
+    "category": "Indian",
+    "image": "assets/images/indian/aloo-gobi.png",
+    "time": "40 min",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 486,
+    "title": "Matar Paneer (Peas and Cottage Cheese Curry)",
+    "category": "Indian",
+    "image": "assets/images/indian/matar-paneer.png",
+    "time": "45 min",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 487,
+    "title": "Palak Paneer (Spinach with Cottage Cheese)",
+    "category": "Indian",
+    "image": "assets/images/indian/palak-paneer.png",
+    "time": "40 min",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
     "id": 501,
     "title": "Chicken Cacciatore",
     "category": "Italian",
