@@ -1,0 +1,81 @@
+{
+  "id": 483,
+  "title": "Gobi Masala",
+  "category": "Indian",
+  "image": "assets/images/indian/gobi-masala.png",
+  "time": "40 min",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "For the Cauliflower",
+      "items": [
+        "1 medium cauliflower, cut into florets",
+        "1 tsp turmeric powder",
+        "1 tsp red chili powder",
+        "Salt to taste",
+        "2 tbsp oil"
+      ]
+    },
+    {
+      "title": "For the Masala (Gravy)",
+      "items": [
+        "3 tbsp oil or ghee",
+        "1 tsp cumin seeds",
+        "1 large onion, finely chopped",
+        "1 tbsp ginger-garlic paste",
+        "2 medium tomatoes, pureed",
+        "1 tsp turmeric powder",
+        "1 tsp red chili powder (adjust to taste)",
+        "1 tsp coriander powder",
+        "1 tsp garam masala",
+        "1/2 tsp cumin powder",
+        "1/2 tsp amchur (dry mango powder) or 1 tsp lemon juice",
+        "1/2 cup water or as needed",
+        "Salt to taste",
+        "Fresh coriander leaves, chopped for garnish"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Prepare the Cauliflower",
+      "steps": [
+        "Wash and cut the cauliflower into bite-sized florets.",
+        "In a bowl, toss florets with turmeric, red chili powder, and a pinch of salt.",
+        "Heat 2 tbsp oil in a pan on medium heat. Lightly sauté the cauliflower until it’s slightly golden but not fully cooked. Remove and set aside."
+      ]
+    },
+    {
+      "title": "2. Make the Masala (Gravy)",
+      "steps": [
+        "In a heavy-bottomed pan, heat 3 tbsp oil.",
+        "Add cumin seeds; when they splutter, add onions and sauté until golden brown.",
+        "Add ginger-garlic paste, cook for 1–2 minutes until raw smell disappears.",
+        "Add tomato puree, turmeric, red chili powder, coriander powder, cumin powder. Cook until oil separates from the masala (about 5–7 minutes).",
+        "Add water to make a thick gravy."
+      ]
+    },
+    {
+      "title": "3. Cook the Gobi (Cauliflower) in the Masala",
+      "steps": [
+        "Add sautéed cauliflower to the masala. Mix gently.",
+        "Cover and cook on low heat for 8–10 minutes until cauliflower is tender but not mushy.",
+        "Sprinkle garam masala and amchur powder (or lemon juice) at the end. Mix gently."
+      ]
+    },
+    {
+      "title": "4. Garnish and Serve",
+      "steps": [
+        "Garnish with chopped coriander leaves.",
+        "Serve hot with naan, roti, or steamed basmati rice."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Golden Color: Blanch cauliflower in hot water with a pinch of turmeric before frying for brighter color.",
+    "Flavor Depth: Roast whole spices (cumin, coriander seeds) and grind them fresh to boost aroma.",
+    "Creamy Twist: For richer texture, add 2 tbsp cream or cashew paste at the end.",
+    "Smoky Flavor: Use the traditional “dhungar” method: place a small piece of hot charcoal in a bowl, put it in the pan with ghee, and cover to infuse a subtle smoky aroma."
+  ]
+}
