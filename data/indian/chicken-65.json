@@ -1,0 +1,91 @@
+{
+  "id": 504,
+  "title": "Chicken 65 (Crispy, Juicy, Authentic)",
+  "category": "South Indian",
+  "image": "assets/images/indian/chicken-65.png",
+  "servings": "Serves 3–4 | Appetizer / Small Plate",
+
+  "ingredients": {
+    "Chicken & Marinade": [
+      "Boneless chicken thigh – 600 g, cut into 1½-inch cubes (Thighs preferred for juiciness; breast can be used if brined)",
+      "Ginger-garlic paste – 1½ tbsp",
+      "Kashmiri red chilli powder – 2 tsp (color without excessive heat)",
+      "Fresh green chilli paste – 1 tsp (adjust to heat preference)",
+      "Fresh curry leaf paste (or finely crushed) – 1 tbsp",
+      "Lemon juice – 1 tbsp",
+      "Thick yogurt (hung curd) – 3 tbsp",
+      "Cornflour – 2 tbsp",
+      "Rice flour – 1½ tbsp (key for crispness)",
+      "Egg white – 1",
+      "Salt – to taste",
+      "White pepper – ½ tsp",
+      "MSG (optional, restaurant-style) – ¼ tsp",
+      "Neutral oil – 1 tsp (for moisture)"
+    ],
+    "For Frying": [
+      "Neutral oil (peanut/sunflower) – as required"
+    ],
+    "Tempering / Finishing": [
+      "Oil – 2 tbsp",
+      "Garlic – 1½ tbsp, finely chopped",
+      "Green chillies – 2, slit",
+      "Curry leaves – 1 generous handful",
+      "Kashmiri chilli powder – ½ tsp",
+      "Sugar – a pinch",
+      "Lemon juice – ½ tbsp."
+    ]
+  },
+
+  "Method": [
+    {
+      "title": "1. Marination (Critical Step)",
+      "steps": [
+        "In a stainless-steel bowl, combine all marinade ingredients except oil.",
+        "Add chicken and massage thoroughly for 2–3 minutes until tacky.",
+        "Add 1 tsp oil and mix again—this locks in moisture.",
+        "Cover and rest:",
+        "Minimum: 45 minutes",
+        "Ideal: 6–8 hours under refrigeration",
+        "Professional tip: Longer marination allows enzymes and acids to tenderize without breaking texture."
+      ]
+    },
+    {
+      "title": "2. Frying (Golden & Crisp)",
+      "steps": [
+        "Heat oil to 175–180°C.",
+        "Fry chicken in small batches to avoid temperature drop.",
+        "Fry for 4–5 minutes, turning once, until:",
+        "Deep golden red",
+        "Crisp exterior",
+        "Internal temp reaches 74°C",
+        "Remove and rest on a wire rack (not paper towel)."
+      ]
+    },
+    {
+      "title": "3. Aromatic Tempering (Restaurant Signature)",
+      "steps": [
+        "Heat 2 tbsp oil in a wide sauté pan.",
+        "Add garlic; sauté until lightly golden (do not brown).",
+        "Add green chillies and curry leaves—stand back.",
+        "Add chilli powder and a pinch of sugar.",
+        "Toss fried chicken quickly on high heat (30–40 seconds).",
+        "Finish with lemon juice. Switch off immediately."
+      ]
+    }
+  ],
+
+  "Chef Notes": [
+    "Rice flour + egg white = long-lasting crispness",
+    "Thigh meat prevents dryness during high-heat frying",
+    "MSG enhances umami (optional but authentic)",
+    "Tempering must be fast and hot to avoid sogginess"
+  ],
+
+  "Plating & Presentation": [
+    "Serve hot in a shallow bowl",
+    "Garnish with fried curry leaves",
+    "Lemon wedges",
+    "Thinly sliced green chillies",
+    "Optional accompaniment: onion rings or mint yogurt dip"
+  ]
+}
