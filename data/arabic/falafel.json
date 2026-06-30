@@ -1,9 +1,11 @@
 {
   "id": 101,
   "title": "Falafel",
+  "description": "Falafel is a beloved Middle Eastern street food made from soaked chickpeas, fresh herbs, and aromatic spices. Crispy on the outside and tender inside, it is traditionally served in warm pita bread or as part of a mezze platter with tahini and fresh vegetables.",
+
   "category": "Arabic",
-  "time": "",
-  "difficulty": "",
+  "time": "45 min",
+  "difficulty": "Medium",
   "image": "assets/images/arabic/falafel.png",
 
   "ingredients": [
@@ -21,7 +23,7 @@
         "Ground coriander – 2 tsp",
         "Ground black pepper – 1 tsp",
         "Aleppo pepper or chili flakes – ½ tsp (optional for heat)",
-        "Salt – 1 ½ tsp (adjust to taste)",
+        "Salt – 1½ tsp (adjust to taste)",
         "Sesame seeds (toasted) – 2 tbsp",
         "Flour or chickpea flour – 1–2 tbsp (only if mix is too wet)",
         "Cold water – as needed (few tsp)",
@@ -68,12 +70,12 @@
   "servingSuggestions": {
     "title": "Serving Suggestions",
     "items": [
-        "Classic: Stuff in warm pita with lettuce, tomato, cucumber, and pickled turnips. Drizzle with tahini sauce.",
-        "Plated: Serve on a mezze platter with hummus, baba ghanoush, tabbouleh, olives, and fresh bread.",
-        "Modern touch: Garnish with microgreens, pomegranate seeds, or sumac onions for elevated presentation."
+      "Classic: Stuff in warm pita with lettuce, tomato, cucumber, and pickled turnips. Drizzle with tahini sauce.",
+      "Plated: Serve on a mezze platter with hummus, baba ghanoush, tabbouleh, olives, and fresh bread.",
+      "Modern touch: Garnish with microgreens, pomegranate seeds, or sumac onions for elevated presentation."
     ]
   },
-     
+
   "chefTips": [
     "Never use canned chickpeas – they make falafel mushy.",
     "Chill the mixture before frying to avoid breaking apart.",
