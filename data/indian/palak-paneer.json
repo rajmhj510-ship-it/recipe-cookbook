@@ -1,0 +1,76 @@
+{
+  "id": 484,
+  "title": "Palak Paneer (Spinach with Cottage Cheese)",
+  "category": "Indian",
+  "image": "assets/images/indian/palak-paneer.png",
+  "time": "40 min",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "For the Paneer",
+      "items": [
+        "250 g paneer (Indian cottage cheese), cut into cubes",
+        "1 tsp ghee or oil (optional, for lightly sautéing)"
+      ]
+    },
+    {
+      "title": "For the Spinach Gravy",
+      "items": [
+        "500 g fresh spinach leaves, washed and chopped",
+        "2 medium onions, finely chopped",
+        "2 medium tomatoes, chopped",
+        "1–2 green chilies, chopped",
+        "1-inch piece ginger, chopped",
+        "3–4 garlic cloves",
+        "1/4 cup water (for grinding)"
+      ]
+    },
+    {
+      "title": "Spices",
+      "items": [
+        "1/2 tsp cumin seeds",
+        "1/4 tsp turmeric powder",
+        "1/2 tsp red chili powder",
+        "1 tsp garam masala",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "Finishing Touch",
+      "items": [
+        "2 tbsp fresh cream or yogurt (optional for richness)",
+        "1 tsp butter or ghee",
+        "Lemon juice, to taste"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Blanch the Spinach: Boil water in a large pan. Add a pinch of salt.",
+        "Add spinach leaves and blanch for 2 minutes.",
+        "Drain and immediately transfer to ice-cold water to retain the green color.",
+        "Blend spinach into a smooth puree using a little water.",
+        "Prepare the Masala: Heat 1 tbsp oil in a pan. Add cumin seeds and let them splutter.",
+        "Add onions, sauté until golden brown.",
+        "Add ginger, garlic, and green chilies; sauté for 1–2 minutes.",
+        "Add tomatoes, turmeric, red chili powder, and salt. Cook until tomatoes are soft and oil starts separating.",
+        "Let the mixture cool slightly, then blend into a smooth paste (optional for a silky texture).",
+        "Cook the Palak Gravy: In a pan, combine the spinach puree and the onion-tomato paste.",
+        "Simmer for 5–7 minutes on low heat.",
+        "Add garam masala and adjust salt.",
+        "Add Paneer: Lightly sauté paneer cubes in ghee or oil for a minute to keep them soft (optional).",
+        "Add paneer cubes to the spinach gravy. Cook for 2–3 minutes.",
+        "Stir in cream or yogurt for richness.",
+        "Finish: Check seasoning and add a few drops of lemon juice to balance flavors.",
+        "Garnish with a small dollop of butter or cream.",
+        "Serve hot with roti, naan, or jeera rice."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Serve hot with roti, naan, or jeera rice."
+  ]
+}
