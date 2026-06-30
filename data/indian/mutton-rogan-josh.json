@@ -13,18 +13,18 @@
       "title": "For the Mutton",
       "items": [
         "Mutton (goat/lamb, bone-in preferred) – 1 kg, medium-sized pieces",
-        "Mustard oil – 120 ml (or ghee for a richer version)"
+        "Mustard oil – 120 ml (or ghee for a richer restaurant version)"
       ]
     },
     {
-      "title": "Spice Base",
+      "title": "For the Spice Base",
       "items": [
-        "Kashmiri red chili powder – 3 tbsp",
+        "Kashmiri red chili powder – 3 tbsp (for color and mild heat)",
         "Fennel powder – 2 tbsp",
         "Dry ginger powder (sonth) – 1½ tbsp",
         "Ground coriander – 1 tbsp",
         "Turmeric powder – ½ tsp",
-        "Garam masala powder – 1 tsp"
+        "Garam masala powder – 1 tsp (freshly ground for best results)"
       ]
     },
     {
@@ -35,85 +35,81 @@
         "Cloves – 6–7",
         "Cinnamon stick – 1 large",
         "Bay leaves – 2",
-        "Asafoetida (hing) – ¼ tsp"
+        "Asafoetida (hing) – ¼ tsp",
+        "Salt – to taste"
       ]
     },
     {
-      "title": "Creaminess & Balance",
+      "title": "For Creaminess & Balance",
       "items": [
         "Yogurt (hung curd, whisked) – 200 g",
-        "Onion paste – 2 medium onions, browned and blended (optional)"
+        "Onion paste – 2 medium onions, browned and blended (optional, restaurant versions sometimes skip this for purity)"
       ]
     },
     {
-      "title": "Seasoning & Finishing",
+      "title": "For Finishing",
       "items": [
-        "Salt – to taste",
         "Warm water or mutton stock – 600–700 ml",
-        "Fresh coriander leaves – small handful, chopped",
-        "Saffron strands – 8–10, soaked in 2 tbsp warm milk (optional)"
+        "Fresh coriander leaves – small handful (for garnish)",
+        "Saffron strands – 8–10, soaked in 2 tbsp warm milk (optional, royal restaurant touch)"
       ]
     }
   ],
 
   "instruction": [
     {
-      "title": "1. Prepare the Mutton",
+      "title": "Step 1 – Preparing the Mutton",
       "steps": [
-        "Wash and pat the mutton pieces dry.",
-        "Heat mustard oil until it reaches smoking point, then reduce the heat.",
-        "Fry the mutton in batches until browned on all sides.",
-        "Remove and set aside."
+        "Wash and pat dry the mutton pieces.",
+        "Heat mustard oil until it reaches smoking point; reduce heat.",
+        "Fry mutton pieces in batches until browned and sealed. Set aside."
       ]
     },
     {
-      "title": "2. Infuse the Spices",
+      "title": "Step 2 – Spice Infusion",
       "steps": [
-        "In the same oil, add green cardamoms, black cardamoms, cloves, cinnamon, and bay leaves.",
-        "Sauté until fragrant.",
-        "Add asafoetida (hing).",
-        "Mix Kashmiri red chili powder with 2 tbsp warm water and stir it into the oil to prevent burning."
+        "In the same oil, add whole spices (cardamoms, cloves, cinnamon, bay leaves). Let them release aroma.",
+        "Add hing, then quickly stir in chili powder dissolved in 2 tbsp warm water (prevents burning)."
       ]
     },
     {
-      "title": "3. Build the Gravy",
+      "title": "Step 3 – Building the Base",
       "steps": [
-        "Return the browned mutton to the pan and coat well with the spiced oil.",
+        "Return browned mutton to the pan. Toss to coat in spiced oil.",
         "Add fennel powder, dry ginger powder, coriander powder, turmeric, and salt.",
-        "Reduce heat to low.",
-        "Gradually add the whisked yogurt while stirring continuously to prevent splitting.",
-        "If using, stir in the browned onion paste for a richer, silkier gravy."
+        "Lower heat and add whisked yogurt gradually, stirring constantly to prevent splitting.",
+        "(Optional restaurant touch: stir in onion paste here for a silkier gravy.)"
       ]
     },
     {
-      "title": "4. Slow Cook",
+      "title": "Step 4 – Slow Cooking",
       "steps": [
-        "Pour in the hot water or mutton stock.",
-        "Cover and simmer on low heat for 60–90 minutes until the mutton is tender.",
-        "Stir occasionally to prevent sticking.",
-        "Adjust with a little more stock or water if needed to achieve a medium-thick consistency."
+        "Pour in hot water or mutton stock. Cover and simmer on low heat for 60–90 minutes until mutton is tender. Stir occasionally.",
+        "Adjust consistency: gravy should be medium-thick, coating the mutton pieces luxuriously."
       ]
     },
     {
-      "title": "5. Finish",
+      "title": "Step 5 – Finishing Touch",
       "steps": [
-        "Stir in the garam masala.",
-        "Add the saffron-infused milk if using.",
-        "Simmer for another 5 minutes.",
-        "Allow the curry to rest for 15 minutes before serving.",
-        "Garnish lightly with chopped fresh coriander leaves."
+        "Stir in garam masala and saffron milk (if using). Simmer for 5 minutes.",
+        "Rest the curry for 15 minutes before serving to allow flavors to mature."
       ]
     }
   ],
 
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Traditionally with steamed basmati rice.",
+      "In restaurants, it’s often paired with naan, sheermal, or saffron pulao.",
+      "Garnish lightly with coriander leaves; avoid heavy cream to keep authenticity."
+    ]
+  },
+
   "chefTips": [
-    "Bone-in mutton produces the richest and most flavorful curry.",
-    "Mustard oil gives the authentic Kashmiri flavor; ghee offers a richer restaurant-style version.",
-    "Always dissolve Kashmiri chili powder in warm water before adding to prevent scorching.",
-    "Add yogurt gradually over low heat while stirring continuously to avoid curdling.",
-    "Slow cooking is essential for tender meat and deep flavor development.",
-    "The curry is ready when the oil separates and rises to the surface.",
-    "Serve with steamed basmati rice, naan, sheermal, or saffron pulao.",
-    "Avoid adding cream to maintain the authentic flavor profile."
+    "Use bone-in mutton – bones enrich the curry with depth.",
+    "Do not rush the simmering – slow cooking extracts flavor and tenderizes meat naturally.",
+    "Balance color & flavor – Kashmiri chili gives rich red color without too much heat.",
+    "Oil separation is key – the dish is ready when the oil floats on top of the gravy."
   ]
 }
