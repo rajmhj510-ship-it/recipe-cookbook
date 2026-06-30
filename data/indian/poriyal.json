@@ -1,0 +1,87 @@
+{
+  "id": 72,
+  "title": "Poriyal",
+  "category": "Indian",
+  "image": "assets/images/indian/poriyal.png",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Vegetables",
+      "items": [
+        "2 cups finely chopped green beans (or carrot, cabbage, or beans & carrot mix)",
+        "1 medium carrot, julienned (optional, for color)",
+        "2 tbsp grated coconut (fresh or frozen, unsweetened)"
+      ]
+    },
+    {
+      "title": "For Tempering",
+      "items": [
+        "2 tsp oil (preferably coconut oil for authentic flavor)",
+        "1 tsp mustard seeds",
+        "1 tsp urad dal (split black gram)",
+        "1 tsp chana dal (optional for crunch)",
+        "2 dried red chilies, broken into halves",
+        "1-2 green chilies, slit",
+        "A pinch of asafoetida (hing)",
+        "Few curry leaves"
+      ]
+    },
+    {
+      "title": "For Seasoning",
+      "items": [
+        "Salt to taste",
+        "½ tsp turmeric powder"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Blanch the Vegetables",
+      "steps": [
+        "Bring a pot of water to boil. Add a pinch of salt and turmeric.",
+        "Blanch the chopped beans and carrot for 2–3 minutes, until tender-crisp.",
+        "Drain immediately and immerse in ice-cold water to retain color and crunch. Drain again and set aside."
+      ]
+    },
+    {
+      "title": "2. Prepare the Tempering",
+      "steps": [
+        "Heat coconut oil in a wide pan over medium heat.",
+        "Add mustard seeds; let them splutter.",
+        "Add urad dal and chana dal; fry till golden brown.",
+        "Add dried red chilies, green chilies, curry leaves, and hing. Sauté briefly to release aromas."
+      ]
+    },
+    {
+      "title": "3. Cook the Vegetables",
+      "steps": [
+        "Add the blanched vegetables to the pan.",
+        "Sprinkle turmeric powder and salt.",
+        "Toss gently on medium heat for 3–4 minutes to mix flavors, but avoid overcooking. The vegetables should remain slightly crisp."
+      ]
+    },
+    {
+      "title": "4. Finish with Coconut",
+      "steps": [
+        "Turn off the heat.",
+        "Add grated coconut and mix gently.",
+        "Optional: drizzle a few drops of coconut oil for extra flavor and gloss."
+      ]
+    },
+    {
+      "title": "5. Plating & Presentation",
+      "steps": [
+        "Serve immediately, garnished with extra grated coconut if desired.",
+        "Works beautifully as a side with steaming hot rice, sambar, or rasam."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Texture matters: Don’t overcook vegetables; they should remain crisp-tender.",
+    "Tempering oil: Use coconut oil for authentic South Indian flavor; olive or vegetable oil will taste different.",
+    "Coconut: Fresh is best; if using frozen, thaw completely and squeeze excess water.",
+    "Visual appeal: Mix vegetables of different colors for a vibrant, restaurant-worthy look."
+  ]
+}
