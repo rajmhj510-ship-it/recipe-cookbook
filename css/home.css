@@ -237,18 +237,35 @@ body {
 	object-fit: cover;
 }
 
-.explore-card h3 {
+/* ================= CARD CONTENT ================= */
+
+.card-content {
 	padding: 10px;
-	margin: 0;
-	color: #082a7b;
-	font-size: 1rem;
 }
 
-.explore-card p {
-	padding: 0 10px 10px;
-	margin: 0;
-	color: gray;
+.card-content h3 {
+	margin: 0 0 8px;
+	color: #082a7b;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+/* Category + ID */
+.card-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.recipe-category {
+	color: #666;
 	font-size: 0.9rem;
+}
+
+.recipe-id {
+	color: #082a7b;
+	font-size: 0.85rem;
+	font-weight: bold;
 }
 
 /* ================= TABLET ================= */
