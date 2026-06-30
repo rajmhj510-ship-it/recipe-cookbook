@@ -1,0 +1,62 @@
+{
+  "id": 474,
+  "title": "Aloo Matar Bhaji",
+  "category": "Indian",
+  "image": "assets/images/indian/aloo-matar-bhaji.png",
+  "time": "40 min",
+  "difficulty": "Easy",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Primary",
+      "items": [
+        "3 medium potatoes (about 400g) – peeled, diced ½ inch cubes",
+        "1 cup green peas (fresh or frozen)",
+        "2 tbsp oil (mustard oil or vegetable oil)",
+        "½ tsp cumin seeds",
+        "½ tsp mustard seeds (optional)",
+        "1 green chili – slit",
+        "1 medium onion – finely chopped",
+        "1 medium tomato – finely chopped",
+        "1 tsp ginger-garlic paste"
+      ]
+    },
+    {
+      "title": "Ground Spices",
+      "items": [
+        "½ tsp turmeric powder",
+        "1 tsp coriander powder",
+        "½ tsp red chili powder (adjust to taste)",
+        "½ tsp garam masala",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "Finishing",
+      "items": [
+        "1 tbsp fresh cilantro (coriander leaves) – finely chopped",
+        "1 tsp lemon juice (optional)",
+        "1 tbsp water (for deglazing, if needed)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Prep the Ingredients: Dice the potatoes evenly for even cooking. If using frozen peas, soak in warm water for 5–10 minutes and drain. Measure and keep all spices ready (mise en place).",
+        "Tempering & Aromatics: Heat oil in a heavy-bottomed pan on medium heat. Add cumin seeds (and mustard seeds if using). Let them crackle. Add slit green chili and chopped onions. Sauté until golden (5–6 mins). Add ginger-garlic paste, sauté until raw smell disappears (1 min).",
+        "Spice Base & Tomato: Add chopped tomatoes. Cook until soft and oil begins to separate. Stir in turmeric, coriander powder, red chili powder. Mix well and cook for 1–2 minutes to bloom the spices.",
+        "Cook Potatoes & Peas: Add diced potatoes, stir to coat with masala. Add green peas, salt, and about 2–3 tbsp water. Mix. Cover and cook on low-medium heat for 12–15 minutes, stirring occasionally, until potatoes are tender. (Add a splash of water only if needed to avoid burning.)",
+        "Final Seasoning: Once potatoes are cooked, sprinkle garam masala. Stir gently to mix everything. Cook uncovered for another 2–3 minutes for slight crisping at the base.",
+        "Finish & Serve: Turn off heat. Add lemon juice (optional) and fresh coriander. Serve hot with phulka, chapati, poori, or rice."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Oil: Mustard oil adds authenticity; heat it to smoking point before using.",
+    "Flavor boost: Add a pinch of amchur (dry mango powder) or squeeze of lemon juice for tanginess.",
+    "Variation: Add kasuri methi (dried fenugreek leaves) at the end for depth.",
+    "Texture: Avoid over-stirring after potatoes are soft to prevent them from breaking down."
+  ]
+}
