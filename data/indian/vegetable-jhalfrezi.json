@@ -1,0 +1,101 @@
+{
+  "id": 491,
+  "title": "Vegetable Jhalfrezi",
+  "category": "Indian",
+  "image": "assets/images/indian/vegetable-jhalfrezi.png",
+  "servings": "4",
+  "time": "Prep Time: 20 mins | Cook Time: 25 mins",
+
+  "ingredients": [
+    {
+      "title": "For the base sauce",
+      "items": [
+        "2 tbsp neutral oil (sunflower, canola, or light olive oil)",
+        "1 tsp cumin seeds",
+        "2 medium onions, thinly sliced",
+        "1 tbsp fresh ginger–garlic paste",
+        "2 medium tomatoes, chopped",
+        "2 tbsp tomato purée (concentrated paste)",
+        "2–3 green chillies, slit lengthwise (adjust to taste)",
+        "1 tsp ground coriander",
+        "1 tsp ground cumin",
+        "½ tsp turmeric powder",
+        "1 tsp Kashmiri red chilli powder (for color & mild heat)",
+        "1 tsp garam masala",
+        "½ tsp crushed fenugreek leaves (kasuri methi)",
+        "Salt, to taste"
+      ]
+    },
+    {
+      "title": "For the vegetables",
+      "items": [
+        "1 cup cauliflower florets (blanched for 2 minutes)",
+        "1 medium carrot, cut into thin batons",
+        "1 small courgette (zucchini), cut into batons",
+        "1 small red bell pepper, sliced",
+        "1 small yellow bell pepper, sliced",
+        "1 small green bell pepper, sliced",
+        "½ cup green beans, cut into 2-inch pieces",
+        "½ cup paneer cubes (optional, lightly pan-seared)"
+      ]
+    },
+    {
+      "title": "For garnish",
+      "items": [
+        "Fresh coriander leaves, chopped",
+        "Lemon wedges"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the base masala",
+      "steps": [
+        "Heat oil in a heavy-bottomed pan or kadhai over medium heat.",
+        "Add cumin seeds and let them crackle.",
+        "Add sliced onions and sauté until light golden (6–8 minutes).",
+        "Stir in ginger–garlic paste, sauté until raw aroma disappears.",
+        "Add chopped tomatoes and cook until they break down into a thick paste.",
+        "Mix in tomato purée and cook for 2 minutes for depth of flavor."
+      ]
+    },
+    {
+      "title": "2. Add spices",
+      "steps": [
+        "Add ground coriander, ground cumin, turmeric, Kashmiri chilli powder, and salt.",
+        "Cook the masala until oil begins to separate at the edges — a key step for rich flavor."
+      ]
+    },
+    {
+      "title": "3. Cook the vegetables",
+      "steps": [
+        "Increase the heat to medium-high. Add blanched cauliflower, carrot, and beans. Stir-fry for 2 minutes.",
+        "Add courgette and bell peppers. Toss to coat in the masala.",
+        "Splash in 2–3 tbsp hot water, cover, and cook for 3–4 minutes until just tender but still crisp."
+      ]
+    },
+    {
+      "title": "4. Finish & balance flavors",
+      "steps": [
+        "Add garam masala and crushed fenugreek leaves. Stir gently.",
+        "If using paneer, add now and toss lightly.",
+        "Adjust salt and spice levels."
+      ]
+    },
+    {
+      "title": "5. Serve",
+      "steps": [
+        "Garnish with chopped coriander and serve hot with naan, roti, or jeera rice.",
+        "A squeeze of fresh lemon right before serving lifts the tangy notes."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "High heat stir-fry: The “jhalfrezi” style is essentially a quick toss over high heat to keep vegetables vibrant and slightly crisp.",
+    "Tomato balance: Fresh tomatoes give acidity, while tomato purée deepens umami.",
+    "Layer spices: Bloom whole spices in oil first, then ground spices in cooked onion–tomato masala for complexity.",
+    "Paneer option: For a richer dish, lightly fry paneer cubes until golden before adding at the end."
+  ]
+}
