@@ -1,16 +1,18 @@
 {
   "id": 102,
   "title": "Hummus",
+  "description": "Hummus is one of the most iconic dishes of the Middle East, loved for its silky texture, rich sesame flavor, and bright citrus notes. Made from chickpeas, tahini, lemon, and garlic, it is a versatile dip, spread, or mezze centerpiece enjoyed throughout the Arabic world.",
+
   "category": "Arabic",
-  "time": "",
-  "difficulty": "",
+  "time": "1 hr 45 min",
+  "difficulty": "Easy",
   "image": "assets/images/arabic/hummus.png",
-  
+
   "ingredients": [
     {
       "title": "Ingredients (for 6 servings)",
       "items": [
-        "Dried chickpeas – 250 g (1 ¼ cups)",
+        "Dried chickpeas – 250 g (1¼ cups)",
         "Baking soda – 1 tsp",
         "Tahini (high-quality sesame paste) – 120 g (½ cup)",
         "Fresh lemon juice – 80 ml (⅓ cup), strained",
@@ -33,37 +35,37 @@
 
   "instruction": [
     {
-      "title": "Soak the chickpeas",
+      "title": "Soak the Chickpeas",
       "steps": [
         "Rinse and soak chickpeas in plenty of cold water with ½ tsp baking soda overnight (at least 12 hours).",
         "They should triple in size."
       ]
     },
     {
-      "title": "Cook the chickpeas",
+      "title": "Cook the Chickpeas",
       "steps": [
         "Drain and rinse. Place in a pot with fresh water and ½ tsp baking soda.",
         "Bring to a boil, skimming off foam.",
-        "Reduce to a simmer and cook until very soft (about 1 – 1.5 hours).",
+        "Reduce to a simmer and cook until very soft (about 1–1.5 hours).",
         "Chickpeas should be almost falling apart – this creaminess is key."
       ]
     },
     {
-      "title": "Prepare garlic-lemon base",
+      "title": "Prepare Garlic-Lemon Base",
       "steps": [
         "In a small bowl, mix lemon juice with crushed garlic and a pinch of salt.",
         "Let sit 10 minutes, then strain to remove solids (for a refined flavor)."
       ]
     },
     {
-      "title": "Make the tahini sauce",
+      "title": "Make the Tahini Sauce",
       "steps": [
         "In a food processor, blend tahini with strained lemon juice.",
         "Slowly drizzle in ice water while blending until light, pale, and creamy."
       ]
     },
     {
-      "title": "Blend the hummus",
+      "title": "Blend the Hummus",
       "steps": [
         "Add warm chickpeas and salt to the tahini mixture.",
         "Process until completely smooth, adding a little more ice water as needed.",
@@ -71,7 +73,7 @@
       ]
     },
     {
-      "title": "Taste and adjust",
+      "title": "Taste and Adjust",
       "steps": [
         "Balance salt, lemon, and tahini.",
         "The flavor should be nutty, tangy, and deeply savory."
@@ -86,6 +88,16 @@
       ]
     }
   ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with warm pita bread or freshly baked Arabic bread.",
+      "Include on a mezze platter with falafel, baba ghanoush, tabbouleh, olives, and pickles.",
+      "Use as a spread for wraps, sandwiches, or shawarma.",
+      "Serve with fresh vegetable sticks such as cucumber, carrots, celery, and bell peppers."
+    ]
+  },
 
   "chefTips": [
     "Always use dried chickpeas (canned won’t achieve the same texture).",
