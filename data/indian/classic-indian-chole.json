@@ -1,0 +1,52 @@
+{
+  "id": 475,
+  "title": "Classic Indian Chole",
+  "category": "Indian",
+  "image": "assets/images/indian/classic-indian-chole.png",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "1 cup dried chickpeas (or 2 cups canned chickpeas, drained and rinsed)",
+        "2 large onions, finely chopped",
+        "2 large tomatoes, pureed",
+        "2-3 green chilies, slit (optional)",
+        "1 tbsp ginger-garlic paste",
+        "2 tbsp oil (vegetable or mustard oil)",
+        "1 tsp cumin seeds",
+        "1 bay leaf",
+        "2 medium dried red chilies (optional)",
+        "1 tsp turmeric powder",
+        "2 tsp coriander powder",
+        "1½ tsp cumin powder",
+        "1½ tsp garam masala",
+        "1 tsp red chili powder (adjust to taste)",
+        "1 tsp amchur (dry mango powder) or 1 tbsp lemon juice",
+        "Salt to taste",
+        "Fresh coriander leaves, chopped (for garnish)",
+        "Water as needed"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "Prepare chickpeas: If using dried chickpeas, soak them overnight (8–10 hours) in enough water. Drain and rinse. Pressure cook with 3 cups water and 1 tsp salt for about 15–20 minutes until soft but not mushy. (Or boil for 1–2 hours until tender.) Reserve cooking liquid.",
+        "Make the base masala: Heat oil in a heavy-bottomed pan over medium heat. Add cumin seeds, bay leaf, and dried red chilies. Sauté until aromatic (~30 seconds). Add chopped onions; cook stirring often until golden brown (about 8–10 minutes). Add ginger-garlic paste; sauté for 2 minutes until raw smell disappears.",
+        "Add spices and tomatoes: Mix in turmeric, coriander powder, cumin powder, red chili powder. Stir well and cook for 30 seconds. Add pureed tomatoes and slit green chilies. Cook on medium heat until oil separates from the masala (~8–10 minutes), stirring occasionally.",
+        "Combine chickpeas with masala: Add cooked chickpeas to the pan along with 1 cup of reserved cooking liquid (add more if you want thinner gravy). Mix well and bring to a gentle simmer. Cover and cook for 10–15 minutes on low heat, allowing flavors to blend.",
+        "Finish the dish: Sprinkle garam masala and amchur powder (or lemon juice). Adjust salt and spice levels. Cook uncovered for 5 more minutes. Garnish with chopped fresh coriander.",
+        "Serve hot with bhature, puri, or steamed basmati rice."
+      ]
+    }
+  ],
+  "chefTips": [
+    "For an authentic smoky flavor, you can add a small piece of charred dry chili or do a quick 'dhungar' (smoke infusion) at the end using hot charcoal.",
+    "Use freshly ground spices for the best aroma.",
+    "If you like tangier chole, add more amchur or lemon juice at the end."
+  ]
+}
