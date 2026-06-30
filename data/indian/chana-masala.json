@@ -1,0 +1,94 @@
+{
+  "id": 479,
+  "title": "Chana Masala",
+  "category": "Indian",
+  "image": "assets/images/indian/chana-masala.png",
+  "time": "80 min",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "For the Chickpeas",
+      "items": [
+        "2 cups dried chickpeas (kabuli chana), soaked overnight",
+        "1 black tea bag or 2 black cardamom pods (optional – for deeper color)",
+        "1 tsp salt"
+      ]
+    },
+    {
+      "title": "For the Masala Base",
+      "items": [
+        "3 tbsp oil or ghee (restaurant kitchens often use a mix)",
+        "2 medium onions, finely chopped",
+        "2 medium tomatoes, puréed (or 1 cup tomato puree)",
+        "1 tbsp ginger-garlic paste (freshly made preferred)",
+        "2 green chilies, slit",
+        "1 bay leaf",
+        "1 tsp cumin seeds"
+      ]
+    },
+    {
+      "title": "Ground Spices",
+      "items": [
+        "1 tsp turmeric powder",
+        "1½ tsp red chili powder (adjust to taste)",
+        "2 tsp coriander powder",
+        "1 tsp roasted cumin powder",
+        "1 tsp garam masala (preferably homemade or premium)",
+        "½ tsp amchur (dry mango powder) or a squeeze of lemon juice",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "2 tbsp fresh coriander leaves, chopped",
+        "Ginger juliennes",
+        "Lemon wedges"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Cook the Chickpeas",
+      "steps": [
+        "Drain the soaked chickpeas and rinse.",
+        "Pressure cook (or simmer) with 5 cups water, salt, and the tea bag/cardamom until tender (about 35–40 min in a pressure cooker, or 60–70 min stovetop). Discard tea bag. Reserve some cooking liquid."
+      ]
+    },
+    {
+      "title": "Step 2: Prepare the Masala",
+      "steps": [
+        "Heat oil/ghee in a heavy-bottomed pan.",
+        "Add cumin seeds and bay leaf; let them splutter.",
+        "Add onions, sauté until golden-brown (patience here gives restaurant depth).",
+        "Stir in ginger-garlic paste and green chilies; cook until raw aroma fades.",
+        "Add all powdered spices (except garam masala & amchur) – toast lightly in oil for aroma.",
+        "Add tomato purée; cook on medium heat until the masala thickens and oil separates (bhunao technique)."
+      ]
+    },
+    {
+      "title": "Step 3: Combine Chickpeas & Masala",
+      "steps": [
+        "Add cooked chickpeas along with 1–1.5 cups of the reserved stock.",
+        "Simmer 20–25 minutes, mashing a few chickpeas with the back of the spoon to thicken the gravy.",
+        "Adjust salt, consistency should be medium-thick and glossy.",
+        "Finish with garam masala, amchur, and fresh coriander."
+      ]
+    },
+    {
+      "title": "Step 4: Garnish & Serve",
+      "steps": [
+        "Serve hot, topped with ginger juliennes, fresh coriander, and lemon wedges.",
+        "Pair with bhature, puri, jeera rice, or naan."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Slow bhunao (roasting of masala): This is what gives body and richness. Never rush the onion-tomato base.",
+    "Tea bag trick: Gives chana a deep restaurant-style brown color.",
+    "Stock use: Always add chickpea cooking liquid for extra flavor instead of plain water.",
+    "Oil float: A slight layer of oil on top signals the masala is perfectly cooked.",
+    "Overnight flavor: Tastes even better the next day, as spices mature."
+  ]
+}
