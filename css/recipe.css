@@ -179,13 +179,16 @@ body {
 }
 /* ================= SERVING SUGGESTIONS ================= */
 
-#servingsuggestions .section {
-	margin-top: 20px;
+#servingsuggestions {
+	margin-top: 30px;
 }
 /* ================= TIPS ================= */
 
+#tips {
+	margin-top: 30px;
+}
+
 #tips .section {
-	margin-top: 20px;
 	background: #fff8e6;
 	border-left: 6px solid #ffb300;
 }
@@ -203,5 +206,10 @@ body {
 
 	.hero-content h1 {
 		font-size: 2rem;
+	}
+
+	#servingsuggestions,
+	#tips {
+		margin-top: 25px;
 	}
 }
