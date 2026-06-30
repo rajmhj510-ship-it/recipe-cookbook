@@ -1,0 +1,44 @@
+{
+  "id": 69,
+  "title": "Raita (Yogurt Condiment)",
+  "category": "Indian",
+  "image": "assets/images/indian/raita.png",
+  "time": "10 min",
+  "difficulty": "Easy",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Thick Yogurt (Dahi) – 500 g (about 2 cups) full-fat, unsweetened, preferably strained for creaminess",
+        "Cucumber – 1 medium, peeled, deseeded, and finely diced or grated",
+        "Onion – ½ small, very finely minced (optional, adds crunch but use sparingly in fine dining)",
+        "Tomato – ½ medium, deseeded and finely diced (optional for color and freshness)",
+        "Fresh Coriander Leaves – 2 tbsp, finely chopped",
+        "Fresh Mint Leaves – 1 tbsp, finely chopped (or use ½ tsp dried mint powder)",
+        "Roasted Cumin Powder – 1 tsp (roast whole cumin seeds until aromatic, then grind)",
+        "Black Salt (Kala Namak) – ½ tsp (essential for the restaurant-style tang)",
+        "Regular Salt – to taste",
+        "Green Chili – 1 small, deseeded and very finely minced (optional, for heat)",
+        "Chilled Water or Milk – 2–3 tbsp (only if you want a thinner consistency)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Prepare the Yogurt Base: Whisk the thick yogurt until smooth and lump-free. If you prefer a lighter consistency, whisk in 2–3 tbsp chilled water or milk.",
+        "Prepare the Vegetables: Peel and deseed cucumber (to avoid excess water), then finely dice or grate. Deseed and finely chop the tomato (if using). Finely mince onion and green chili.",
+        "Season the Raita: Add cucumber, tomato, onion, coriander, and mint to the yogurt. Mix in roasted cumin powder, black salt, and regular salt. Taste and adjust seasoning—restaurant chefs often balance black salt with a pinch of regular salt for depth.",
+        "Chill Before Serving: Cover and refrigerate for at least 30 minutes to allow flavors to meld. Stir once before serving; garnish with a pinch of cumin powder and a sprig of mint."
+      ]
+    }
+  ],
+  "chefTips": [
+    "For Extra Creaminess: Strain the yogurt through muslin cloth for 30 minutes before using.",
+    "Flavor Infusion: Lightly bruise mint leaves before chopping to release oils.",
+    "Presentation: Serve in a chilled bowl with a light dusting of cumin powder on top for visual appeal.",
+    "Pairing: Perfect with biryani, kebabs, or spicy curries to balance heat."
+  ]
+}
