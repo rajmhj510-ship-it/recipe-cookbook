@@ -1274,7 +1274,7 @@
     "category": "Indian",
     "file": "data/indian/mutton-rogan-josh.json",
     "image": "assets/images/indian/mutton-rogan-josh.png",
-    "description": "",
+    "description": "Rogan Josh is a signature dish of Kashmiri cuisine, celebrated for its deep red hue, aromatic spices, and rich flavor. Traditionally slow-cooked, it balances tender mutton with layers of spices and yogurt for a velvety, luxurious curry.",
     "time": "1.5 hr",
     "difficulty": ""
   },
@@ -1286,16 +1286,6 @@
     "image": "assets/images/indian/nargisi-kofta.png",
     "description": "",
     "time": "45 min",
-    "difficulty": ""
-  },
-  {
-    "id": 508,
-    "title": "Mutton Rogan Josh (Variation Entry)",
-    "category": "Indian",
-    "file": "data/indian/mutton-rogan-josh-2.json",
-    "image": "assets/images/indian/mutton-rogan-josh.png",
-    "description": "Rogan Josh is a signature dish of Kashmiri cuisine, celebrated for its deep red hue, aromatic spices, and rich flavor. Traditionally slow-cooked, it balances tender mutton with layers of spices and yogurt for a velvety, luxurious curry.",
-    "time": "1.5 hr",
     "difficulty": ""
   },
 
