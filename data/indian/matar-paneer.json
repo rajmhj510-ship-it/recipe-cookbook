@@ -1,0 +1,75 @@
+{
+  "id": 483,
+  "title": "Matar Paneer (Peas and Cottage Cheese Curry)",
+  "category": "Indian",
+  "image": "assets/images/indian/matar-paneer.png",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "For the Paneer and Peas",
+      "items": [
+        "250 g paneer (cottage cheese), cut into 1-inch cubes",
+        "1 cup green peas (fresh or frozen)",
+        "1–2 tsp oil or ghee for sautéing"
+      ]
+    },
+    {
+      "title": "For the Gravy",
+      "items": [
+        "2 medium onions, finely chopped",
+        "2 medium tomatoes, pureed",
+        "1–2 green chilies, slit",
+        "1 tsp ginger-garlic paste",
+        "2 tsp oil or ghee"
+      ]
+    },
+    {
+      "title": "Spices",
+      "items": [
+        "1 tsp cumin seeds",
+        "½ tsp turmeric powder",
+        "1 tsp coriander powder",
+        "1 tsp garam masala",
+        "1 tsp red chili powder (adjust to taste)",
+        "½ tsp cumin powder",
+        "½ tsp kasuri methi (dried fenugreek leaves)",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "Other",
+      "items": [
+        "½ cup fresh cream or 2 tbsp yogurt (optional, for richness)",
+        "1 cup water or as required",
+        "Fresh coriander leaves, chopped for garnish"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "Prepare the Paneer and Peas: Heat 1–2 tsp oil in a pan on medium flame.",
+        "Lightly sauté the paneer cubes until golden brown on all sides (optional). Set aside.",
+        "Blanch peas in boiling water for 2–3 minutes if using fresh; frozen peas can go straight into the curry.",
+        "Make the Masala Base: In the same pan, heat 2 tsp oil. Add cumin seeds and let them splutter.",
+        "Add chopped onions and sauté until golden brown.",
+        "Stir in ginger-garlic paste and sauté for 1–2 minutes until raw aroma disappears.",
+        "Add tomato puree, turmeric, red chili, coriander, and cumin powders. Cook until oil separates from the masala.",
+        "Cook the Curry: Add 1 cup water to make a smooth gravy.",
+        "Stir in peas and paneer cubes. Simmer for 5–7 minutes on low-medium heat.",
+        "Add garam masala and kasuri methi. Mix gently.",
+        "For richer taste, stir in cream or yogurt. Adjust consistency with water.",
+        "Garnish and Serve: Garnish with chopped coriander leaves.",
+        "Serve hot with naan, roti, or steamed basmati rice."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use fresh, soft paneer for a creamy texture.",
+    "Kasuri methi adds authentic flavor; crush it between your palms before adding.",
+    "For extra depth, roast spices lightly before adding to the masala."
+  ]
+}
