@@ -1,0 +1,55 @@
+{
+  "id": 68,
+  "title": "Mixed Vegetable Salad",
+  "category": "Indian",
+  "image": "assets/images/indian/mixed-vegetable-salad.png",
+  "time": "15 min",
+  "difficulty": "Easy",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Vegetables",
+      "items": [
+        "1 medium cucumber, finely chopped or diced",
+        "1 medium carrot, grated or finely chopped",
+        "1 medium tomato, finely chopped",
+        "1 small onion, finely chopped (optional)",
+        "1/2 cup boiled green peas",
+        "1 small boiled potato, diced (optional)",
+        "1/2 capsicum (bell pepper), finely chopped",
+        "1 small raw mango (optional), finely chopped (for tanginess)"
+      ]
+    },
+    {
+      "title": "For Dressing & Seasoning",
+      "items": [
+        "1-2 green chilies, finely chopped (adjust to taste)",
+        "1 tablespoon fresh coriander leaves, finely chopped",
+        "1 tablespoon lemon juice (freshly squeezed)",
+        "1/2 teaspoon roasted cumin powder (bhuna jeera)",
+        "1/2 teaspoon chaat masala",
+        "1/4 teaspoon black salt (kala namak) or regular salt, to taste",
+        "Freshly ground black pepper, to taste"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Prepare Vegetables: Wash and chop all vegetables as mentioned. Boil the peas and potato if using. Drain and cool them.",
+        "Mix Ingredients: In a large mixing bowl, combine cucumber, carrot, tomato, onion, peas, potato, capsicum, and mango (if using).",
+        "Add Seasonings: Add finely chopped green chilies, coriander leaves, lemon juice, roasted cumin powder, chaat masala, black salt, and black pepper.",
+        "Toss Well: Gently toss the salad until all ingredients are well combined and coated with the spices and lemon juice.",
+        "Taste and Adjust: Check seasoning and adjust salt, lemon juice, or chaat masala if needed.",
+        "Serve: Serve fresh as a side with Indian meals or as a healthy snack."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use fresh, crisp vegetables for best texture.",
+    "Roasting cumin seeds before grinding adds a wonderful aroma.",
+    "You can add pomegranate seeds or roasted peanuts for crunch and a burst of flavor.",
+    "This salad can be chilled for 15-20 minutes before serving for a refreshing taste."
+  ]
+}
