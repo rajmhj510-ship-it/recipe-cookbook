@@ -1,0 +1,108 @@
+{
+  "id": 70,
+  "title": "Fried Green Chili",
+  "category": "Indian",
+  "image": "assets/images/indian/fried-green-chili.png",
+  "time": "25 min",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "For the Chilies",
+      "items": [
+        "12 fresh Bajji Mirchi (mild, long green chilies — not overly hot)",
+        "Ice water, for soaking",
+        "1 tsp lemon juice (to keep color vibrant)"
+      ]
+    },
+    {
+      "title": "For the Stuffing",
+      "items": [
+        "4 tbsp khoya (milk solids), finely grated",
+        "2 tbsp roasted gram flour (besan)",
+        "1 tbsp finely chopped fresh coriander stems",
+        "1 tbsp crushed roasted peanuts",
+        "1 tsp fennel seeds, lightly crushed",
+        "½ tsp roasted cumin powder",
+        "¼ tsp garam masala",
+        "Salt, to taste"
+      ]
+    },
+    {
+      "title": "For the Batter",
+      "items": [
+        "1 cup besan (gram flour)",
+        "2 tbsp rice flour (for crispness)",
+        "¼ tsp turmeric powder",
+        "½ tsp red chili powder (Kashmiri for color)",
+        "Salt, to taste",
+        "Chilled soda water, as needed (for light, airy batter)"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Refined peanut oil or sunflower oil"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Microgreens or baby coriander leaves",
+        "Edible flowers (optional, for fine-dining plating)",
+        "Smoked paprika dust or edible gold leaf for presentation"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Prepare the Chilies",
+      "steps": [
+        "Slit the chilies lengthwise without cutting through completely.",
+        "Remove seeds gently, keeping the stem intact.",
+        "Soak in ice water with 1 tsp lemon juice for 10 minutes — keeps them crisp and bright.",
+        "Pat dry thoroughly."
+      ]
+    },
+    {
+      "title": "2. Make the Stuffing",
+      "steps": [
+        "In a bowl, mix khoya, roasted gram flour, coriander stems, peanuts, fennel, cumin powder, garam masala, and salt.",
+        "Mash lightly to form a crumbly, aromatic mixture.",
+        "Fill each chili with the stuffing, pressing gently so they don’t split."
+      ]
+    },
+    {
+      "title": "3. Make the Batter",
+      "steps": [
+        "In a mixing bowl, whisk together besan, rice flour, turmeric, chili powder, and salt.",
+        "Add chilled soda water slowly until you get a coating-consistency batter (slightly thicker than tempura).",
+        "Keep chilled — this helps create a crisp shell."
+      ]
+    },
+    {
+      "title": "4. Fry the Chilies",
+      "steps": [
+        "Heat oil to 170°C (340°F).",
+        "Dip each stuffed chili into the batter, shake off excess, and slide gently into the oil.",
+        "Fry until golden and crisp (about 2–3 minutes).",
+        "Drain on absorbent paper."
+      ]
+    },
+    {
+      "title": "5. Fine Dining Plating",
+      "steps": [
+        "Slice each fried chili diagonally into two or three pieces.",
+        "Arrange artistically on a slate or porcelain plate.",
+        "Add microgreens, a dot of tamarind reduction, and a streak of mint-yogurt gel.",
+        "Sprinkle with smoked paprika dust or place an edible flower for elegance."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Balance Heat: Choose mild green chilies so guests can enjoy flavor without overpowering spice.",
+    "Textural Contrast: The khoya stuffing brings richness, while peanuts add crunch.",
+    "Visual Impact: Use negative space on the plate and minimal but vibrant garnish.",
+    "Flavor Layering: A smoky element (like paprika dust or charred chili oil) deepens complexity."
+  ]
+}
