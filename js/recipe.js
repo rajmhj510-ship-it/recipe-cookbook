@@ -46,21 +46,22 @@ async function loadRecipe() {
 		/* ================= INGREDIENTS ================= */
 		const ingEl = document.getElementById("ingredients");
 
-		if (Array.isArray(data.ingredients)) {
-			ingEl.innerHTML = `
-				<div class="section">
-					<h3>Ingredients</h3>
-					${data.ingredients.map(group => `
-						${group.title ? `<h4>${group.title}</h4>` : ""}
-						<ul>
-							${(group.items || [])
-								.map(i => `<li>${safeText(i)}</li>`)
-								.join("")}
-						</ul>
-					`).join("")}
-				</div>
-			`;
-		}
+if (data.ingredients && typeof data.ingredients === "object") {
+
+	ingEl.innerHTML = `
+		<div class="section">
+			<h3>Ingredients</h3>
+
+			${Object.entries(data.ingredients).map(([group, items]) => `
+				<h4>${group}</h4>
+				<ul>
+					${items.map(i => `<li>${safeText(i)}</li>`).join("")}
+				</ul>
+			`).join("")}
+
+		</div>
+	`;
+}
 
 		/* ================= INSTRUCTIONS ================= */
 		const insEl = document.getElementById("instructions");
