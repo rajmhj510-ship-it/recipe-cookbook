@@ -40,10 +40,17 @@ function render(list) {
 		card.className = "explore-card";
 
 		card.innerHTML = `
-			<img src="${recipe.image}" alt="${recipe.title}">
-			<h3>${recipe.title}</h3>
-			<p>${recipe.category}</p>
-		`;
+    <img src="${recipe.image}" alt="${recipe.title}">
+
+    <div class="card-content">
+        <h3>${recipe.title}</h3>
+
+        <div class="card-footer">
+            <span class="recipe-category">${recipe.category}</span>
+            <span class="recipe-id">#${recipe.id}</span>
+        </div>
+    </div>
+`;
 
 		card.addEventListener("click", () => {
 			window.location.href =
