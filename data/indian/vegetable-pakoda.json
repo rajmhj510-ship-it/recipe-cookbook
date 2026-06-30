@@ -1,54 +1,67 @@
 {
-  "id": 413,
-  "title": "Vegetable Pakoda (Restaurant Style)",
+  "id": 488,
+  "title": "Vegetable Pakoda",
   "category": "Indian",
   "image": "assets/images/indian/vegetable-pakoda.png",
-  "time": "",
-  "difficulty": "",
-  "servings": "Ingredients (Serves ~4) (roughly 18–22 medium-size pakodas)",
-  "ingredients": [],
-  "instruction": [
+  "time": "35 min",
+  "difficulty": "Easy",
+  "servings": 4,
+  "ingredients": [
     {
-      "title": "Prep the vegetables",
-      "steps": [
-        "Slice onion thin, shred cabbage, julienne carrots, and break cauliflower into small florets. Pat dry if watery — helps crispness."
+      "title": "For the batter",
+      "items": [
+        "1 cup chickpea flour (besan) — sifted for smooth texture",
+        "2 tbsp rice flour — for crispiness",
+        "1 tsp ajwain seeds (carom seeds) — helps digestion, adds aroma",
+        "½ tsp turmeric powder",
+        "½–1 tsp red chili powder (to taste)",
+        "½ tsp garam masala",
+        "½ tsp coriander powder",
+        "Salt — to taste (about ¾ tsp)",
+        "1 tsp ginger-garlic paste",
+        "1–2 green chilies — finely chopped (optional)",
+        "2 tbsp fresh coriander leaves — chopped",
+        "1–2 tbsp water (adjust for thick batter)"
       ]
     },
     {
-      "title": "Make the batter",
-      "steps": [
-        "In a large mixing bowl, combine chickpea flour, rice flour, ajwain seeds, turmeric, chili powder, garam masala, coriander powder, and salt.",
-        "Add ginger-garlic paste, green chilies, and coriander leaves. Mix dry."
+      "title": "Vegetables",
+      "items": [
+        "1 small onion — thinly sliced",
+        "½ cup carrot — julienned or grated",
+        "½ cup cabbage — finely shredded",
+        "½ cup cauliflower florets — small bite-sized pieces",
+        "1 tbsp fresh spinach — optional, chopped for color variation"
       ]
     },
     {
-      "title": "Combine vegetables with batter",
-      "steps": [
-        "Add all vegetables to the dry mix. Toss so they’re coated in the spices before adding water — this makes seasoning even.",
-        "Sprinkle water a little at a time until you have a thick, clinging batter — not runny. The vegetables should be just bound together, not swimming in liquid."
-      ]
-    },
-    {
-      "title": "Heat the oil",
-      "steps": [
-        "Heat oil in a deep, heavy pan or kadai to 170–180 °C (340–355 °F). Test by dropping a little batter — it should sizzle and rise without burning."
-      ]
-    },
-    {
-      "title": "Fry in small batches",
-      "steps": [
-        "Take small handfuls of the mixture and drop gently into the oil. Avoid perfect balls — irregular edges give more crunch.",
-        "Fry until golden brown, about 3–4 minutes, turning occasionally."
-      ]
-    },
-    {
-      "title": "Drain & serve",
-      "steps": [
-        "Remove pakodas with a slotted spoon, drain on paper towels. Sprinkle a pinch of chaat masala for extra zing.",
-        "Serve hot with green chutney or tamarind chutney.",
-        "Pair with hot masala chai for a street-food vibe."
+      "title": "For frying",
+      "items": [
+        "Neutral oil (mustard oil for traditional flavor or sunflower/peanut oil) — enough for deep frying"
       ]
     }
   ],
-  "chefTips": []
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Prep the vegetables: Slice onion thin, shred cabbage, julienne carrots, and break cauliflower into small florets. Pat dry if watery — helps crispness.",
+        "Make the batter: In a large mixing bowl, combine chickpea flour, rice flour, ajwain seeds, turmeric, chili powder, garam masala, coriander powder, and salt.",
+        "Add ginger-garlic paste, green chilies, and coriander leaves. Mix dry.",
+        "Combine vegetables with batter: Add all vegetables to the dry mix and toss to coat evenly before adding water.",
+        "Add water little by little until you get a thick clinging batter — not runny.",
+        "Heat oil: Heat oil to 170–180 °C (340–355 °F).",
+        "Fry pakodas in small batches, dropping irregular scoops into hot oil.",
+        "Fry until golden brown (3–4 minutes), turning occasionally.",
+        "Drain on paper towels and sprinkle chaat masala if desired.",
+        "Serve hot with green chutney or tamarind chutney."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Keep batter thick — this ensures crisp, craggy pakodas.",
+    "Do not overcrowd the pan while frying.",
+    "Irregular shapes create better crunch and texture.",
+    "Serve immediately for best crispiness."
+  ]
 }
