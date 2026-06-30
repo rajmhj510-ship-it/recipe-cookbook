@@ -1,0 +1,108 @@
+{
+  "id": 481,
+  "title": "Dahi Aloo",
+  "category": "Indian",
+  "image": "assets/images/indian/dahi-aloo.png",
+  "time": "40 min",
+  "difficulty": "Medium",
+  "servings": 3,
+  "ingredients": [
+    {
+      "title": "Main",
+      "items": [
+        "Baby potatoes – 500g (or regular potatoes, cubed)",
+        "Yogurt (full-fat, whisked) – 1 cup",
+        "Ghee – 2 tbsp (or oil + 1 tsp butter)",
+        "Green chili – 2 (slit or finely chopped)",
+        "Ginger paste – 1 tsp",
+        "Cumin seeds – 1 tsp",
+        "Hing (asafoetida) – 1 pinch",
+        "Kashmiri red chili powder – 1.5 tsp",
+        "Turmeric – ½ tsp",
+        "Coriander powder – 1 tsp",
+        "Roasted fennel powder – 1 tsp",
+        "Garam masala – ¼ tsp",
+        "Salt – to taste",
+        "Water – as needed"
+      ]
+    },
+    {
+      "title": "Slurry (to prevent curdling)",
+      "items": [
+        "Besan (gram flour) – 1 tsp mixed into 2 tbsp water"
+      ]
+    },
+    {
+      "title": "Finishing & Garnish",
+      "items": [
+        "Fresh coriander leaves – 2 tbsp, chopped",
+        "Crushed kasuri methi – ½ tsp",
+        "A drizzle of ghee for aroma",
+        "Optional: fried baby potatoes for extra crisp texture"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1 — Prep the Potatoes",
+      "steps": [
+        "Wash and boil baby potatoes until 90% cooked.",
+        "Peel and lightly prick each potato with a fork.",
+        "Heat 1 tbsp ghee in a pan and shallow-fry until golden & crisp.",
+        "This step gives restaurant-style texture."
+      ]
+    },
+    {
+      "title": "Step 2 — Flavor Base",
+      "steps": [
+        "Heat remaining ghee in a heavy pan.",
+        "Add cumin seeds → allow them to crackle.",
+        "Add hing and ginger paste → sauté until aromatic.",
+        "Mix in green chilies."
+      ]
+    },
+    {
+      "title": "Step 3 — Build the Gravy",
+      "steps": [
+        "Lower heat. Add turmeric + chili powder + coriander powder → quick stir.",
+        "Add the besan slurry → cook for 1 minute.",
+        "Keep flame low and add whisked yogurt gradually while stirring continuously.",
+        "Prevents curdling — smooth and creamy texture.",
+        "Add water to adjust consistency (medium-thick, smooth gravy).",
+        "Add salt and bring to a gentle simmer for 5–7 minutes."
+      ]
+    },
+    {
+      "title": "Step 4 — Final Assembly",
+      "steps": [
+        "Add fried baby potatoes and coat evenly.",
+        "Add roasted fennel powder + garam masala + kasuri methi.",
+        "Simmer covered for 5 minutes so potatoes absorb flavors."
+      ]
+    },
+    {
+      "title": "Finishing Touch (Restaurant Secret)",
+      "steps": [
+        "Turn off heat → rest covered for 5 minutes.",
+        "Drizzle hot ghee on the top.",
+        "Garnish with fresh coriander."
+      ]
+    },
+    {
+      "title": "Serving Suggestions",
+      "steps": [
+        "Pairs perfectly with:",
+        "Butter naan / Garlic naan",
+        "Tandoori roti",
+        "Jeera rice / Steamed basmati",
+        "Laccha paratha"
+      ]
+    }
+  ],
+  "chefTips": [
+    "Keep flame low while adding yogurt.",
+    "Use baby potatoes for the best presentation.",
+    "Add a pinch of sugar if yogurt is too sour — balances flavors.",
+    "Freshly roasted fennel and kasuri methi elevate aroma."
+  ]
+}
