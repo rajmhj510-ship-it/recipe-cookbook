@@ -862,6 +862,46 @@
     "time": "5 hr",
     "difficulty": "Medium"
   },
+    {
+    "id": 459,
+    "title": "Mint Chutney",
+    "category": "Indian",
+    "file": "data/indian/mint-chutney.json",
+    "image": "assets/images/indian/mint-chutney.png",
+    "description": "",
+    "time": "10 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 460,
+    "title": "Dhaniya Chutney",
+    "category": "Indian",
+    "file": "data/indian/dhaniya-chutney.json",
+    "image": "assets/images/indian/dhaniya-chutney.png",
+    "description": "",
+    "time": "10 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 461,
+    "title": "Tomato Chutney",
+    "category": "Indian",
+    "file": "data/indian/tomato-chutney.json",
+    "image": "assets/images/indian/tomato-chutney.png",
+    "description": "",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 462,
+    "title": "Kachumber Salad",
+    "category": "Indian",
+    "file": "data/indian/kachumber-salad.json",
+    "image": "assets/images/indian/kachumber-salad.png",
+    "description": "",
+    "time": "10 min",
+    "difficulty": "Easy"
+  }
   {
     "id": 501,
     "title": "Chicken Cacciatore",
