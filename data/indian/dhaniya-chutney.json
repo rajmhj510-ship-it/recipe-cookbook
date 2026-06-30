@@ -1,0 +1,43 @@
+{
+  "id": 65,
+  "title": "Dhaniya Chutney (Coriander Chutney)",
+  "category": "Indian",
+  "image": "assets/images/indian/dhaniya-chutney.png",
+  "time": "10 min",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Fresh coriander leaves (dhania) – 2 cups, tightly packed",
+        "Green chilies – 2 to 3 (adjust to taste)",
+        "Ginger – 1-inch piece, peeled and chopped",
+        "Garlic – 2 cloves (optional, but recommended for extra flavor)",
+        "Lemon juice – 1 to 2 tbsp (freshly squeezed)",
+        "Roasted cumin seeds – 1 tsp",
+        "Salt – to taste",
+        "Sugar – ½ tsp (optional, balances flavors)",
+        "Water – 2 to 3 tbsp (adjust for desired consistency)",
+        "Yogurt (optional) – 2 tbsp (for creaminess, can be added if desired)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "Prepare coriander: Wash coriander leaves thoroughly under running water to remove any dirt. Roughly chop the leaves with stems.",
+        "Roast cumin seeds: Heat a small pan on medium flame. Dry roast cumin seeds until fragrant (about 1 minute), then let them cool.",
+        "Blend chutney: In a blender or food processor, add coriander leaves, green chilies, ginger, garlic, roasted cumin seeds, salt, sugar, and lemon juice.",
+        "Add water: Add 2 tbsp of water to start and blend to a smooth paste. Add more water little by little if needed to reach your desired consistency.",
+        "Optional yogurt: For a creamier chutney, add 2 tbsp plain yogurt and blend again until smooth.",
+        "Adjust seasoning: Taste and adjust salt, lemon juice, or green chili as per your preference."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Serve fresh with samosas, pakoras, or any Indian snacks.",
+    "Use as a spread for sandwiches or wraps.",
+    "Pair with grilled meats or vegetables for a zesty kick."
+  ]
+}
