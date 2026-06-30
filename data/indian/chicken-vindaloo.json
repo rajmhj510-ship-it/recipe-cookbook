@@ -1,0 +1,96 @@
+{
+  "id": 499,
+  "title": "Chicken Vindaloo (Goan-Style)",
+  "category": "Indian",
+  "image": "assets/images/indian/chicken-vindaloo.png",
+
+  "ingredients": [
+    {
+      "title": "For the Marinade",
+      "items": [
+        "1 kg chicken (bone-in, with skin removed)",
+        "3 tbsp Goan-style vinegar (or white vinegar)",
+        "1 tsp turmeric powder",
+        "1 tsp red chili powder",
+        "1 tsp salt"
+      ]
+    },
+    {
+      "title": "For the Vindaloo Masala Paste",
+      "items": [
+        "3 tbsp oil (or a mix of oil + ghee for richness)",
+        "2 medium onions, thinly sliced",
+        "1 tbsp ginger-garlic paste",
+        "3–4 medium ripe tomatoes, chopped",
+        "2 tbsp grated fresh coconut (optional but adds subtle creaminess)",
+        "6–8 dried red chilies (adjust to taste)",
+        "1 tsp cumin seeds",
+        "1 tsp coriander seeds",
+        "1 tsp black peppercorns",
+        "1/2 tsp fennel seeds",
+        "4–5 cloves",
+        "3 green cardamoms",
+        "1-inch cinnamon stick",
+        "1/4 tsp nutmeg (optional, for warmth)"
+      ]
+    },
+    {
+      "title": "Other Ingredients",
+      "items": [
+        "1–1.5 cups water or chicken stock",
+        "Salt, to taste",
+        "Fresh coriander leaves, chopped (for garnish)",
+        "1 tsp sugar (optional, balances vinegar)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Marinate the Chicken",
+      "steps": [
+        "Mix chicken with vinegar, turmeric, red chili powder, and salt.",
+        "Marinate at least 2–3 hours, ideally overnight for maximum flavor penetration."
+      ]
+    },
+    {
+      "title": "2. Caramelize Onions",
+      "steps": [
+        "Heat oil/ghee in a heavy pan.",
+        "Add sliced onions and cook on medium-low heat until deep golden brown (this can take 15–20 minutes).",
+        "Stir often to prevent burning; caramelized onions give richness and natural sweetness."
+      ]
+    },
+    {
+      "title": "3. Prepare the Masala Paste",
+      "steps": [
+        "Dry roast cumin, coriander, black pepper, fennel seeds, cloves, cardamom, and cinnamon until aromatic.",
+        "Grind roasted spices with chopped tomatoes, grated coconut, and 2 tbsp water to form a smooth paste."
+      ]
+    },
+    {
+      "title": "4. Cook the Chicken",
+      "steps": [
+        "Add ginger-garlic paste to caramelized onions, sauté 1–2 minutes.",
+        "Stir in the masala paste, cook for 5–7 minutes until oil separates from the paste.",
+        "Add marinated chicken, sear lightly for 5–7 minutes.",
+        "Pour in water or stock to desired consistency. Cover and simmer on low heat for 25–30 minutes until chicken is tender."
+      ]
+    },
+    {
+      "title": "5. Finish",
+      "steps": [
+        "Taste and adjust salt, spice, and vinegar. Add sugar if needed to balance tang.",
+        "Garnish generously with chopped coriander leaves.",
+        "Serve hot with steamed rice, Goan sannas, or soft parathas."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Caramelized onions + coconut: gives a deep, luxurious flavor without heaviness.",
+    "Vinegar punch: Goan-style vindaloo always has a sharp but balanced tang.",
+    "Low, slow simmer: ensures chicken stays juicy and absorbs the masala fully.",
+    "Optional finishing oil drizzle: a teaspoon of ghee on top just before serving adds that restaurant finish."
+  ]
+}
