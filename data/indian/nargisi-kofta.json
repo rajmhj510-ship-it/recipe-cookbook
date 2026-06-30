@@ -1,0 +1,106 @@
+{
+  "id": 508,
+  "title": "Nargisi Kofta (Egg-Stuffed Meatballs)",
+  "category": "Indian",
+  "image": "assets/images/indian/nargisi-kofta.png",
+  "servings": "Serves: 4",
+  "time": "Prep Time: 45 min | Cook Time: 45 min",
+
+  "ingredients": {
+    "For the Kofta (Meatballs)": [
+      "4 large eggs (hard-boiled, peeled)",
+      "500g minced lamb or beef (lean)",
+      "1 medium onion, finely grated",
+      "2 tbsp ginger-garlic paste",
+      "2 green chilies, finely chopped",
+      "1 tsp red chili powder",
+      "1 tsp garam masala",
+      "½ tsp turmeric powder",
+      "2 tbsp fresh coriander, finely chopped",
+      "1 tbsp besan (gram flour) – optional, for binding",
+      "Salt to taste",
+      "2–3 tbsp oil for shallow frying"
+    ],
+
+    "For the Gravy": [
+      "3 tbsp oil or ghee",
+      "2 medium onions, finely sliced",
+      "1 tbsp ginger-garlic paste",
+      "3 medium tomatoes, pureed",
+      "1 tsp cumin seeds",
+      "1 tsp coriander powder",
+      "½ tsp turmeric powder",
+      "1 tsp red chili powder",
+      "½ tsp garam masala",
+      "200 ml fresh cream or yogurt (whisked)",
+      "1 cup water or stock",
+      "Salt to taste",
+      "Fresh coriander leaves for garnish"
+    ]
+  },
+
+  "Method": [
+    {
+      "title": "1. Prepare the Eggs",
+      "steps": [
+        "Boil eggs for 8–10 minutes until hard-boiled.",
+        "Peel and keep aside. Slice a thin layer off the bottom to make them sit flat."
+      ]
+    },
+    {
+      "title": "2. Make the Kofta Mixture",
+      "steps": [
+        "In a mixing bowl, combine minced meat, grated onion, ginger-garlic paste, green chilies, red chili powder, turmeric, garam masala, chopped coriander, and salt.",
+        "Mix well and knead for 3–4 minutes. Add besan if the mixture feels too soft."
+      ]
+    },
+    {
+      "title": "3. Shape the Nargisi Kofta",
+      "steps": [
+        "Divide the meat mixture into 4–5 equal portions.",
+        "Flatten a portion in your palm, place a boiled egg in the center, and carefully wrap the meat around it, sealing completely.",
+        "Ensure no gaps so the egg stays intact while cooking."
+      ]
+    },
+    {
+      "title": "4. Fry the Kofta",
+      "steps": [
+        "Heat oil in a deep pan.",
+        "Shallow fry the koftas until golden brown on all sides. Remove and drain on paper towels."
+      ]
+    },
+    {
+      "title": "5. Prepare the Gravy",
+      "steps": [
+        "Heat oil/ghee in a pan, add cumin seeds, and let them sizzle.",
+        "Add sliced onions and sauté until golden brown.",
+        "Add ginger-garlic paste, sauté until raw smell disappears.",
+        "Stir in tomato puree, coriander powder, turmeric, and red chili powder. Cook until oil separates.",
+        "Add water or stock, bring to a simmer.",
+        "Slowly add cream or whisked yogurt, stirring continuously to avoid curdling.",
+        "Add garam masala, adjust salt."
+      ]
+    },
+    {
+      "title": "6. Cook Koftas in Gravy",
+      "steps": [
+        "Gently place the fried koftas into the simmering gravy.",
+        "Cover and cook on low heat for 8–10 minutes, letting flavors infuse."
+      ]
+    },
+    {
+      "title": "7. Garnish and Serve",
+      "steps": [
+        "Sprinkle fresh coriander leaves.",
+        "Serve hot with naan, roti, or steamed basmati rice."
+      ]
+    }
+  ],
+
+  "Chef Tips": [
+    "Use fresh, lean meat for soft koftas.",
+    "Ensure koftas are tightly wrapped around eggs to prevent breaking.",
+    "Simmer gravy gently; high heat can cause cream/yogurt to split.",
+    "Optional: Add a pinch of saffron soaked in warm milk to gravy for a luxurious touch."
+  ]
+}
