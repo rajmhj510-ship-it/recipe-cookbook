@@ -901,7 +901,117 @@
     "description": "",
     "time": "10 min",
     "difficulty": "Easy"
-  }
+  },
+  {
+    "id": 464,
+    "title": "Mint Chutney",
+    "category": "Indian",
+    "file": "data/indian/mint-chutney.json",
+    "image": "assets/images/indian/mint-chutney.png",
+    "description": "",
+    "time": "10 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 465,
+    "title": "Dhaniya Chutney",
+    "category": "Indian",
+    "file": "data/indian/dhaniya-chutney.json",
+    "image": "assets/images/indian/dhaniya-chutney.png",
+    "description": "",
+    "time": "10 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 466,
+    "title": "Tomato Chutney",
+    "category": "Indian",
+    "file": "data/indian/tomato-chutney.json",
+    "image": "assets/images/indian/tomato-chutney.png",
+    "description": "",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 467,
+    "title": "Kachumber Salad",
+    "category": "Indian",
+    "file": "data/indian/kachumber-salad.json",
+    "image": "assets/images/indian/kachumber-salad.png",
+    "description": "",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 468,
+    "title": "Mixed Vegetable Salad",
+    "category": "Indian",
+    "file": "data/indian/mixed-vegetable-salad.json",
+    "image": "assets/images/indian/mixed-vegetable-salad.png",
+    "description": "",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 469,
+    "title": "Raita",
+    "category": "Indian",
+    "file": "data/indian/raita.json",
+    "image": "assets/images/indian/raita.png",
+    "description": "",
+    "time": "10 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 470,
+    "title": "Boondi Raita",
+    "category": "Indian",
+    "file": "data/indian/boondi-raita.json",
+    "image": "assets/images/indian/boondi-raita.png",
+    "description": "",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 471,
+    "title": "Fried Green Chili",
+    "category": "Indian",
+    "file": "data/indian/fried-green-chili.json",
+    "image": "assets/images/indian/fried-green-chili.png",
+    "description": "",
+    "time": "25 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 472,
+    "title": "Coconut Chutney",
+    "category": "Indian",
+    "file": "data/indian/coconut-chutney.json",
+    "image": "assets/images/indian/coconut-chutney.png",
+    "description": "",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 473,
+    "title": "Poriyal",
+    "category": "Indian",
+    "file": "data/indian/poriyal.json",
+    "image": "assets/images/indian/poriyal.png",
+    "description": "",
+    "time": "20 min",
+    "difficulty": "Medium"
+  },
+    {
+    "id": 474,
+    "title": "Poriyal (Michelin-Style)",
+    "category": "Indian",
+    "file": "data/indian/poriyal-michelin-style.json",
+    "image": "assets/images/indian/poriyal-michelin-style.png",
+    "description": "",
+    "time": "25 min",
+    "difficulty": "Medium"
+  },
   {
     "id": 501,
     "title": "Chicken Cacciatore",
