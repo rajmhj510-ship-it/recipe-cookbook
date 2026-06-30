@@ -1,0 +1,123 @@
+{
+  "id": 498,
+  "title": "Chicken Biryani",
+  "category": "Indian",
+  "image": "assets/images/indian/chicken-biryani.png",
+  "servings": "4",
+  "time": "Prep Time: 30 minutes | Marination Time: 2–4 hours (overnight ideal) | Cooking Time: 60 minutes",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Marinade",
+      "items": [
+        "800 g chicken, bone-in, cut into medium pieces",
+        "130 g plain full-fat yogurt",
+        "2 tbsp ginger-garlic paste (freshly made)",
+        "1½ tsp salt (or to taste)",
+        "1 tsp turmeric powder",
+        "1½ tsp Kashmiri red chili powder",
+        "1 tsp roasted cumin powder",
+        "¾ tsp garam masala",
+        "¾ tsp ground coriander",
+        "Juice of ½ lemon",
+        "2 green chilies, slit",
+        "2 tbsp fried onions (store-bought or homemade)",
+        "2 tbsp fresh coriander leaves, chopped",
+        "1½ tbsp fresh mint leaves, chopped"
+      ]
+    },
+    {
+      "title": "For the Rice",
+      "items": [
+        "330 g aged basmati rice (soaked 30 min, drained)",
+        "2 L water",
+        "1½ tsp salt",
+        "2 green cardamom pods",
+        "1 black cardamom pod",
+        "2 cloves",
+        "¾-inch cinnamon stick",
+        "1 bay leaf",
+        "½ tsp shahi jeera (black cumin seeds)"
+      ]
+    },
+    {
+      "title": "For the Biryani Assembly",
+      "items": [
+        "2 medium onions, thinly sliced (for frying)",
+        "2 tbsp ghee (clarified butter)",
+        "2 tbsp neutral oil",
+        "6 tbsp warm milk",
+        "Few strands saffron (soaked in the warm milk)",
+        "Extra fried onions, mint & coriander for layering"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Marinate the Chicken",
+      "steps": [
+        "In a large bowl, mix all marinade ingredients until smooth.",
+        "Coat chicken pieces thoroughly.",
+        "Cover and refrigerate at least 2 hours, preferably overnight."
+      ]
+    },
+    {
+      "title": "2. Prepare Fried Onions",
+      "steps": [
+        "Heat oil in a wide pan, fry sliced onions until golden brown and crisp.",
+        "Drain on paper towels. Reserve some for garnish and some for marinade (already included)."
+      ]
+    },
+    {
+      "title": "3. Cook the Chicken Masala",
+      "steps": [
+        "Heat ghee + oil in a heavy-bottom biryani pot (or Dutch oven).",
+        "Add marinated chicken and cook on medium-high until sealed (about 5 min).",
+        "Lower heat, cover, and cook 10–12 min until chicken is 70% done (gravy thickens).",
+        "Remove from heat – keep chicken in the pot."
+      ]
+    },
+    {
+      "title": "4. Parboil the Rice",
+      "steps": [
+        "Boil water with whole spices & salt.",
+        "Add soaked rice and cook until 70% cooked (grain should still have a firm core).",
+        "Drain immediately to stop cooking."
+      ]
+    },
+    {
+      "title": "5. Layer the Biryani",
+      "steps": [
+        "In the same pot with chicken at the base:",
+        "Sprinkle fried onions, mint, and coriander over chicken.",
+        "Layer parboiled rice gently on top.",
+        "Drizzle saffron milk, extra ghee, and a few drops of rose water or kewra essence (optional, for restaurant aroma).",
+        "Seal the lid with foil or dough for dum (steam lock)."
+      ]
+    },
+    {
+      "title": "6. Dum Cooking",
+      "steps": [
+        "Stovetop: Place pot over low flame, put a heavy skillet/tawa underneath to diffuse heat, cook 25–30 min.",
+        "Oven: Preheat to 180°C (356°F), bake covered for 25 min."
+      ]
+    },
+    {
+      "title": "7. Rest & Serve",
+      "steps": [
+        "Let biryani rest 10 minutes before opening.",
+        "Gently fluff from the sides – don’t mix too aggressively.",
+        "Serve with raita, salad, or mirchi ka salan."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Rice Quality: Always use aged basmati for long, fluffy grains.",
+    "Layering Aroma: The final drizzle of saffron milk + kewra water gives that signature “royal” fragrance.",
+    "Onions: Uniformly golden fried onions make a massive flavor difference.",
+    "Marination: Overnight marination allows deeper spice penetration and tender meat.",
+    "Heat Control: Low and slow dum ensures rice absorbs flavor without overcooking."
+  ]
+}
