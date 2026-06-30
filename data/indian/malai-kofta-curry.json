@@ -1,0 +1,75 @@
+{
+  "id": 492,
+  "title": "Malai Kofta Curry",
+  "category": "Indian",
+  "image": "assets/images/indian/malai-kofta-curry.png",
+  "serves": "about 4 | North Indian",
+
+  "ingredients": [
+    {
+      "title": "For the Kofta (dumplings)",
+      "items": [
+        "200g paneer (Indian cottage cheese), grated",
+        "1 large boiled potato, mashed",
+        "2 tbsp all-purpose flour (maida) or cornstarch (for binding)",
+        "2 tbsp raisins",
+        "2 tbsp cashew nuts, chopped",
+        "1-2 green chilies, finely chopped (optional)",
+        "1 tsp garam masala",
+        "1 tsp ginger paste",
+        "Salt, to taste",
+        "Oil, for deep frying"
+      ]
+    },
+    {
+      "title": "For the Curry",
+      "items": [
+        "3 tbsp ghee or oil",
+        "2 large onions, finely chopped or pureed",
+        "1 tbsp ginger-garlic paste",
+        "3 large tomatoes, pureed",
+        "1/2 cup cashew nuts (soaked in warm water for 15 minutes)",
+        "1 tsp cumin seeds",
+        "1/2 tsp turmeric powder",
+        "1 tsp coriander powder",
+        "1 tsp red chili powder (adjust to taste)",
+        "1 tsp garam masala",
+        "1/2 cup fresh cream or malai",
+        "1 cup milk or water (adjust for gravy consistency)",
+        "Salt, to taste",
+        "Fresh coriander leaves, for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Koftas",
+      "steps": [
+        "In a large bowl, mix grated paneer, mashed potatoes, garam masala, ginger paste, salt, chopped green chilies, and flour until well combined.",
+        "Add chopped cashews and raisins into the mixture.",
+        "Divide the mixture into small balls (about golf ball size).",
+        "Heat oil in a deep frying pan on medium heat. Fry the koftas until golden brown on all sides. Remove and drain on paper towels."
+      ]
+    },
+    {
+      "title": "2. Prepare the Curry",
+      "steps": [
+        "Grind soaked cashew nuts to a smooth paste with a little water. Keep aside.",
+        "Heat ghee or oil in a pan, add cumin seeds and let them splutter.",
+        "Add finely chopped onions and sauté until golden brown.",
+        "Add ginger-garlic paste and sauté for 1-2 minutes till raw smell disappears.",
+        "Add tomato puree, turmeric, coriander powder, red chili powder, and salt. Cook until oil starts to separate.",
+        "Add cashew nut paste, mix well, and cook for 3-4 minutes.",
+        "Add milk or water to adjust the gravy consistency, bring to a gentle simmer.",
+        "Stir in fresh cream and garam masala. Cook for another 2 minutes.",
+        "Gently add the fried koftas into the curry, simmer for 3-4 minutes (do not stir too much to avoid breaking koftas).",
+        "Garnish with fresh coriander leaves."
+      ]
+    }
+  ],
+
+  "serving_suggestion": [
+    "Serve hot Malai Kofta Curry with steamed basmati rice, naan, or roti."
+  ]
+}
