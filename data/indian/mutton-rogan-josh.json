@@ -1,9 +1,10 @@
 {
-  "id": 506,
+  "id": "506",
   "title": "Mutton Rogan Josh",
   "description": "Rogan Josh is a signature dish of Kashmiri cuisine, celebrated for its deep red hue, aromatic spices, and rich flavor. Traditionally slow-cooked, it balances tender mutton with layers of spices and yogurt for a velvety, luxurious curry.",
-  "category": "Indian",
-  "time": "1 hr 45 mins",
+
+  "category": "indian",
+  "time": "1 hr 45 min",
   "difficulty": "Medium",
   "image": "assets/images/indian/mutton-rogan-josh.png",
 
@@ -18,12 +19,17 @@
     {
       "title": "For the Spice Base",
       "items": [
-        "Kashmiri red chili powder – 3 tbsp",
+        "Kashmiri red chili powder – 3 tbsp (for color and mild heat)",
         "Fennel powder – 2 tbsp",
         "Dry ginger powder (sonth) – 1½ tbsp",
         "Ground coriander – 1 tbsp",
         "Turmeric powder – ½ tsp",
-        "Garam masala powder – 1 tsp",
+        "Garam masala powder – 1 tsp (freshly ground for best results)"
+      ]
+    },
+    {
+      "title": "Whole Spices",
+      "items": [
         "Green cardamoms – 5–6",
         "Black cardamoms – 2",
         "Cloves – 6–7",
@@ -52,7 +58,7 @@
 
   "instruction": [
     {
-      "title": "Prepare the Mutton",
+      "title": "1. Prepare the Mutton",
       "steps": [
         "Wash and pat dry the mutton pieces.",
         "Heat mustard oil until it reaches its smoking point, then reduce the heat.",
@@ -61,58 +67,58 @@
       ]
     },
     {
-      "title": "Infuse the Spices",
+      "title": "2. Spice Infusion",
       "steps": [
         "In the same oil, add green cardamoms, black cardamoms, cloves, cinnamon stick, and bay leaves.",
-        "Cook until fragrant.",
+        "Cook until the spices become fragrant.",
         "Add asafoetida (hing).",
-        "Mix Kashmiri red chili powder with 2 tbsp warm water and stir it into the oil to prevent burning."
+        "Mix the Kashmiri red chili powder with 2 tbsp warm water and stir it into the pan to prevent burning."
       ]
     },
     {
-      "title": "Build the Curry Base",
+      "title": "3. Build the Curry Base",
       "steps": [
-        "Return the browned mutton to the pan and coat it well in the spiced oil.",
+        "Return the browned mutton to the pan and coat it well with the spiced oil.",
         "Add fennel powder, dry ginger powder, coriander powder, turmeric, and salt.",
         "Reduce the heat to low.",
-        "Gradually add the whisked yogurt while stirring continuously to prevent curdling.",
-        "If using, stir in the browned onion paste for a richer and silkier gravy."
+        "Gradually stir in the whisked yogurt while continuously mixing to prevent curdling.",
+        "If desired, add the browned onion paste for a richer, silkier gravy."
       ]
     },
     {
-      "title": "Slow Cook",
+      "title": "4. Slow Cook",
       "steps": [
         "Pour in the hot water or mutton stock.",
-        "Cover and simmer on low heat for 60–90 minutes until the mutton becomes tender.",
+        "Cover and simmer over low heat for 60–90 minutes until the mutton is tender.",
         "Stir occasionally during cooking.",
-        "Adjust the gravy consistency so it is medium-thick and coats the meat well."
+        "Adjust the gravy to a medium-thick consistency that coats the meat beautifully."
       ]
     },
     {
-      "title": "Finish the Dish",
+      "title": "5. Finish",
       "steps": [
         "Stir in the garam masala.",
         "Add the saffron-infused milk if using.",
         "Simmer for another 5 minutes.",
-        "Allow the curry to rest for 15 minutes before serving for the best flavor."
+        "Rest the curry for 15 minutes before serving to allow the flavors to develop."
       ]
     },
     {
       "title": "Serving Suggestions",
       "steps": [
-        "Serve hot with steamed basmati rice.",
+        "Serve traditionally with steamed basmati rice.",
         "Pair with naan, sheermal, or saffron pulao for a restaurant-style meal.",
         "Garnish lightly with fresh coriander leaves.",
-        "Avoid adding heavy cream to maintain the authentic Kashmiri flavor."
+        "Avoid adding heavy cream to preserve the authentic Kashmiri flavor."
       ]
     }
   ],
 
   "chefTips": [
-    "Use bone-in mutton for a richer and more flavorful curry.",
+    "Use bone-in mutton for the richest flavor and a naturally flavorful gravy.",
     "Slow cooking is essential for tender meat and deep flavor development.",
-    "Kashmiri red chili powder provides the signature vibrant color without excessive heat.",
+    "Kashmiri red chili powder provides the signature vibrant red color without excessive heat.",
     "Add yogurt gradually over low heat while stirring continuously to prevent splitting.",
-    "The curry is perfectly cooked when the oil separates and floats on top of the gravy."
+    "The curry is perfectly cooked when the oil separates and rises to the surface of the gravy."
   ]
 }
