@@ -1,44 +1,51 @@
 {
   "id": 502,
   "title": "Pork Vindaloo",
+  "description": "Pork Vindaloo is one of Goa's most iconic dishes, known for its bold flavors, tangy vinegar marinade, and aromatic spices. Slow-cooked until the pork is tender, this classic curry delivers a perfect balance of heat, acidity, and richness.",
+
   "category": "Goan-Indian",
-  "image": "assets/images/indian/pork-vindaloo.png",
-  "servings": "Serves 4–6",
   "time": "Prep time: 20 min (plus marination) | Cook time: 1 hr 15 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/pork-vindaloo.png",
 
-  "ingredients": {
-    "For the Marinade": [
-      "1 kg (2.2 lb) pork shoulder or pork belly, cut into 2.5–3 cm (1–1.25\") cubes",
-      "8–10 cloves garlic",
-      "4 cm (1.5\") fresh ginger, peeled",
-      "3–4 fresh red chilies (adjust heat to taste)",
-      "3 tbsp white wine vinegar (or malt vinegar for tang)",
-      "2 tsp ground cumin",
-      "2 tsp ground coriander",
-      "2 tsp paprika (for color)",
-      "1–2 tsp Kashmiri red chili powder (or mix with cayenne for more heat)",
-      "1 tsp ground turmeric",
-      "1 tsp ground cinnamon",
-      "1 tsp ground black pepper",
-      "1 tsp salt"
-    ],
-    "For the Curry": [
-      "3 tbsp ghee or neutral oil",
-      "2 large onions, finely sliced",
-      "2 fresh tomatoes, finely chopped (or 200g canned chopped tomatoes)",
-      "2–3 green chilies, slit (optional, for heat)",
-      "2 tsp garam masala",
-      "400 ml (1 ⅔ cups) water or light pork stock",
-      "1 tbsp jaggery (or brown sugar), optional — balances acidity",
-      "Fresh coriander leaves, chopped, for garnish"
-    ]
-  },
+  "ingredients": [
+    {
+      "title": "For the Marinade",
+      "items": [
+        "1 kg (2.2 lb) pork shoulder or pork belly, cut into 2.5–3 cm (1–1.25\") cubes",
+        "8–10 cloves garlic",
+        "4 cm (1.5\") fresh ginger, peeled",
+        "3–4 fresh red chilies (adjust heat to taste)",
+        "3 tbsp white wine vinegar (or malt vinegar for tang)",
+        "2 tsp ground cumin",
+        "2 tsp ground coriander",
+        "2 tsp paprika (for color)",
+        "1–2 tsp Kashmiri red chili powder (or mix with cayenne for more heat)",
+        "1 tsp ground turmeric",
+        "1 tsp ground cinnamon",
+        "1 tsp ground black pepper",
+        "1 tsp salt"
+      ]
+    },
+    {
+      "title": "For the Curry",
+      "items": [
+        "3 tbsp ghee or neutral oil",
+        "2 large onions, finely sliced",
+        "2 fresh tomatoes, finely chopped (or 200 g canned chopped tomatoes)",
+        "2–3 green chilies, slit (optional, for heat)",
+        "2 tsp garam masala",
+        "400 ml (1⅔ cups) water or light pork stock",
+        "1 tbsp jaggery (or brown sugar), optional — balances acidity",
+        "Fresh coriander leaves, chopped, for garnish"
+      ]
+    }
+  ],
 
-  "Method": [
+  "instruction": [
     {
       "title": "Preparation",
       "steps": [
-        "Marinate the Pork",
         "Blend garlic, ginger, red chilies, vinegar, and all dry spices into a smooth paste. Add a splash of water if needed.",
         "Rub the paste thoroughly into the pork cubes.",
         "Cover and refrigerate at least 4 hours, preferably overnight for depth of flavor."
@@ -64,13 +71,21 @@
     {
       "title": "Finish & Serve",
       "steps": [
-        "Garnish with fresh coriander.",
-        "Serve with steamed basmati rice, Goan poee bread, or flaky parathas."
+        "Garnish with fresh coriander."
       ]
     }
   ],
 
-  "Chef Tips": [
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with steamed basmati rice.",
+      "Pair with traditional Goan poee bread.",
+      "Enjoy with flaky parathas."
+    ]
+  },
+
+  "chefTips": [
     "Meat cut: Pork shoulder gives the right balance of tenderness and fat for a silky sauce; pork belly adds richness but can be heavy — use a mix for balance.",
     "Vinegar choice: White wine vinegar is cleaner; malt vinegar gives a more traditional tang.",
     "Oil separation: In professional kitchens, the sign of a finished vindaloo is when oil visibly floats on top — don’t rush this stage.",
