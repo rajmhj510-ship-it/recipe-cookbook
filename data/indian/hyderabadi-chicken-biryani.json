@@ -1,0 +1,120 @@
+{
+  "id": 497,
+  "title": "Hyderabadi Dum Biryani (Chicken)",
+  "category": "Indian",
+  "image": "assets/images/indian/hyderabadi-chicken-biryani.png",
+  "servings": "4–5",
+  "time": "Preparation Time: 30–40 minutes | Cooking Time: 1–1.5 hours",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Marinade",
+      "items": [
+        "1 kg chicken, cut into medium pieces",
+        "1 cup thick yogurt (curd)",
+        "2 tbsp ginger-garlic paste",
+        "2–3 green chilies, finely chopped",
+        "1 tsp turmeric powder",
+        "2 tsp red chili powder",
+        "2 tsp coriander powder",
+        "1 tsp garam masala powder",
+        "1/2 tsp cumin powder",
+        "1/2 tsp black pepper powder",
+        "Salt to taste",
+        "Juice of 1 lemon",
+        "1/4 cup chopped fresh coriander (cilantro)",
+        "1/4 cup chopped fresh mint leaves"
+      ]
+    },
+    {
+      "title": "For the Rice",
+      "items": [
+        "2 cups basmati rice",
+        "4 cups water",
+        "2–3 cloves",
+        "2 green cardamom pods",
+        "1 black cardamom",
+        "1 small stick cinnamon",
+        "1 bay leaf",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "For Frying Onions (Birista)",
+      "items": [
+        "2 large onions, thinly sliced",
+        "3 tbsp ghee or oil"
+      ]
+    },
+    {
+      "title": "For Assembling",
+      "items": [
+        "3 tbsp ghee",
+        "1/4 cup milk with a pinch of saffron",
+        "2–3 boiled eggs (optional, for garnish)",
+        "2–3 tbsp fried cashews and raisins (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Marinate the Chicken",
+      "steps": [
+        "In a large bowl, combine yogurt, ginger-garlic paste, green chilies, turmeric, chili powder, coriander powder, cumin powder, garam masala, salt, lemon juice, chopped coriander, and mint.",
+        "Add the chicken pieces, mix well, and coat evenly.",
+        "Cover and refrigerate for at least 2 hours, preferably overnight for deeper flavor."
+      ]
+    },
+    {
+      "title": "2. Prepare the Rice",
+      "steps": [
+        "Wash and soak basmati rice in water for 30 minutes. Drain.",
+        "Bring 4 cups of water to a boil with cloves, cardamom, cinnamon, bay leaf, and salt.",
+        "Add the soaked rice and cook until 70% done (grain should still have a bite).",
+        "Drain and set aside."
+      ]
+    },
+    {
+      "title": "3. Fry Onions (Birista)",
+      "steps": [
+        "Heat ghee or oil in a pan over medium heat.",
+        "Fry the sliced onions until golden brown and crisp.",
+        "Remove and drain on paper towels."
+      ]
+    },
+    {
+      "title": "4. Assemble the Biryani",
+      "steps": [
+        "In a heavy-bottomed pot, layer half of the marinated chicken.",
+        "Add half of the partially cooked rice on top.",
+        "Sprinkle half of the fried onions, saffron milk, and some ghee.",
+        "Repeat layers with remaining chicken, rice, onions, saffron milk, and ghee.",
+        "Cover tightly with a lid or seal with dough to trap steam."
+      ]
+    },
+    {
+      "title": "5. Dum Cooking (Steam Cooking)",
+      "steps": [
+        "Place the sealed pot on very low heat (use a heat diffuser if possible) for 45–50 minutes.",
+        "This slow cooking infuses the flavors and cooks the chicken to perfection."
+      ]
+    },
+    {
+      "title": "6. Serving",
+      "steps": [
+        "Gently mix the biryani before serving.",
+        "Garnish with boiled eggs, fried cashews, and raisins if desired.",
+        "Serve hot with raita, mirchi ka salan, or a simple salad."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use aged basmati rice for long, separate grains.",
+    "Marinate chicken overnight for maximum flavor.",
+    "Fry onions until deeply golden brown for sweetness and crunch.",
+    "Slow-cook (dum) gently; avoid lifting the lid too early.",
+    "Saffron soaked in warm milk gives authentic aroma and color."
+  ]
+}
