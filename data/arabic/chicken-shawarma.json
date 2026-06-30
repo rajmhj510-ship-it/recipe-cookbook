@@ -1,9 +1,11 @@
 {
   "id": 103,
   "title": "Chicken Shawarma",
+  "description": "Chicken Shawarma is one of the Middle East's most popular street foods, featuring tender, spice-marinated chicken roasted until lightly charred and juicy. Traditionally served in warm pita bread with garlic sauce, fresh vegetables, and pickles, it delivers bold flavors in every bite.",
+
   "category": "Arabic",
-  "time": "",
-  "difficulty": "",
+  "time": "4 hr 30 min (including marination)",
+  "difficulty": "Easy",
   "image": "assets/images/arabic/chicken-shawarma.png",
 
   "ingredients": [
@@ -61,7 +63,7 @@
       ]
     },
     {
-      "title": "Cooking-Option A: Oven (best for even cooking)",
+      "title": "Cooking - Option A: Oven (best for even cooking)",
       "steps": [
         "Preheat oven to 200°C (400°F).",
         "Place chicken on a lined baking sheet or roasting pan.",
@@ -69,7 +71,7 @@
       ]
     },
     {
-      "title": "Cooking-Option B: Skillet / Grill",
+      "title": "Cooking - Option B: Skillet / Grill",
       "steps": [
         "Heat a non-stick pan or grill over medium-high heat.",
         "Cook chicken in batches, 4–5 minutes per side, until golden brown and cooked through.",
@@ -85,6 +87,16 @@
       ]
     }
   ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Wrap in warm pita bread with garlic sauce (toum), lettuce, tomatoes, cucumbers, onions, and pickled turnips.",
+      "Serve as a shawarma plate with fragrant rice, salad, hummus, and pita bread.",
+      "Pair with crispy fries, pickles, and a side of tahini or garlic sauce.",
+      "Garnish with chopped parsley and a squeeze of fresh lemon before serving."
+    ]
+  },
 
   "chefTips": [
     "Chicken Choice: Thighs are juicier and more forgiving than breast.",
