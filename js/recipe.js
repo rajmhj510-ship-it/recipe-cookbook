@@ -31,7 +31,7 @@ async function loadRecipe() {
 
 		const data = await res.json();
 
-		/* HERO */
+		/* ================= HERO ================= */
 		document.getElementById("title").textContent = data.title || "Recipe";
 		document.getElementById("category").textContent = data.category || "";
 		document.getElementById("description").textContent = data.description || "";
@@ -43,7 +43,7 @@ async function loadRecipe() {
 				`url(${data.image})`;
 		}
 
-		/* INGREDIENTS */
+		/* ================= INGREDIENTS ================= */
 		const ingEl = document.getElementById("ingredients");
 
 		if (Array.isArray(data.ingredients)) {
@@ -62,7 +62,7 @@ async function loadRecipe() {
 			`;
 		}
 
-		/* INSTRUCTIONS */
+		/* ================= INSTRUCTIONS ================= */
 		const insEl = document.getElementById("instructions");
 
 		if (Array.isArray(data.instruction)) {
@@ -90,23 +90,25 @@ async function loadRecipe() {
 			`;
 		}
 
-		/* TIPS */
+		/* ================= SERVING SUGGESTIONS ================= */
 		const serveEl = document.getElementById("servingsuggestions");
 
-if (data.servingSuggestions?.length > 0) {
-	serveEl.innerHTML = `
-		<div class="section">
-			<h3>Serving Suggestions</h3>
-			<ul>
-				${data.servingSuggestions
-					.map(s => `<li>${safeText(s)}</li>`)
-					.join("")}
-			</ul>
-		</div>
-	`;
-} else {
-	serveEl.innerHTML = ""; // hide if not available
-}
+		if (Array.isArray(data.servingSuggestions) && data.servingSuggestions.length > 0) {
+			serveEl.innerHTML = `
+				<div class="section">
+					<h3>Serving Suggestions</h3>
+					<ul>
+						${data.servingSuggestions
+							.map(s => `<li>${safeText(s)}</li>`)
+							.join("")}
+					</ul>
+				</div>
+			`;
+		} else {
+			serveEl.innerHTML = "";
+		}
+
+		/* ================= CHEF TIPS ================= */
 		const tipsEl = document.getElementById("tips");
 
 		if (Array.isArray(data.chefTips) && data.chefTips.length) {
@@ -122,7 +124,7 @@ if (data.servingSuggestions?.length > 0) {
 			`;
 		}
 
-		/* STEP CLICK */
+		/* ================= STEP CLICK ================= */
 		document.querySelectorAll(".step").forEach(step => {
 			step.addEventListener("click", () => {
 				step.classList.toggle("done");
