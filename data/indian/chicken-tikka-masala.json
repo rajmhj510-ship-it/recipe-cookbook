@@ -1,0 +1,89 @@
+{
+  "id": 495,
+  "title": "Chicken Tikka Masala",
+  "category": "Indian",
+  "image": "assets/images/indian/chicken-tikka-masala.png",
+  "servings": "4–5",
+  "time": "Prep Time: 25 minutes (plus marination) | Cook Time: 45 minutes",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Tikka Marinade",
+      "items": [
+        "700 g boneless chicken thighs (skinless, cut into bite-size pieces)",
+        "150 g thick yogurt (preferably hung curd or Greek yogurt)",
+        "2 tbsp ginger-garlic paste (freshly made)",
+        "2 tbsp lemon juice",
+        "2 tbsp mustard oil (or vegetable oil)",
+        "1 ½ tsp Kashmiri red chili powder (for color & mild heat)",
+        "1 tsp hot red chili powder (adjust to taste)",
+        "1 tsp turmeric powder",
+        "1 ½ tsp garam masala",
+        "1 tsp cumin powder",
+        "1 tsp coriander powder",
+        "1 ½ tsp salt (to taste)"
+      ]
+    },
+    {
+      "title": "For the Masala (Gravy)",
+      "items": [
+        "3 tbsp ghee (or neutral oil + 1 tbsp butter)",
+        "2 tbsp butter (unsalted)",
+        "1 large onion, finely chopped",
+        "2 tbsp ginger-garlic paste",
+        "3 medium ripe tomatoes, pureed (or 250 ml tomato passata)",
+        "2 tbsp tomato paste (concentrated)",
+        "1 tsp Kashmiri chili powder (for color)",
+        "1 tsp hot chili powder (optional, for heat)",
+        "1 tsp turmeric powder",
+        "1 tsp cumin powder",
+        "1 tsp coriander powder",
+        "1 ½ tsp garam masala",
+        "1 tsp kasuri methi (dried fenugreek leaves, crushed)",
+        "150 ml cream (full-fat)",
+        "½ cup water or stock (adjust consistency)",
+        "1 ½ tsp salt (to taste)",
+        "Fresh coriander leaves (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Marinate & Cook the Chicken Tikka",
+      "steps": [
+        "In a bowl, combine all marinade ingredients. Mix well with chicken pieces, ensuring coated evenly.",
+        "Cover and marinate at least 2–3 hours (overnight for best results).",
+        "Preheat oven or grill to 220°C (425°F). Skewer chicken or place on a wire rack over a tray.",
+        "Roast for 12–15 minutes, basting once with oil/butter, until slightly charred and just cooked.",
+        "Alternatively, cook in a hot tandoor or grill pan for smokier flavor."
+      ]
+    },
+    {
+      "title": "Step 2: Prepare the Masala (Gravy)",
+      "steps": [
+        "Heat ghee + butter in a heavy pan. Add onions and sauté until golden brown.",
+        "Add ginger-garlic paste; cook until raw aroma disappears.",
+        "Add tomato puree + tomato paste. Cook on medium heat until oil separates and raw taste is gone (8–10 min).",
+        "Add chili powders, turmeric, cumin, coriander. Sauté for 1–2 min.",
+        "Stir in cream, water/stock, and salt. Simmer gently.",
+        "Add roasted chicken tikka pieces, kasuri methi, and garam masala.",
+        "Simmer for 8–10 minutes, until chicken absorbs flavors and gravy thickens to silky consistency."
+      ]
+    },
+    {
+      "title": "Step 3: Finish & Serve",
+      "steps": [
+        "Garnish with cream swirl & fresh coriander.",
+        "Serve hot with butter naan, tandoori roti, or basmati rice."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Charred Flavor: For authentic restaurant-style smokiness, briefly expose cooked gravy to charcoal smoke (“dhungar method”) before serving.",
+    "Balanced Heat: Use Kashmiri chili for vibrant red color without overwhelming spice.",
+    "Texture: Cashew paste (2 tbsp, blended smooth) can be added with cream for a richer, silkier gravy.",
+    "Consistency: The sauce should coat the back of a spoon — neither watery nor too thick."
+  ]
+}
