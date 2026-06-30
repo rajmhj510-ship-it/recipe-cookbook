@@ -1,0 +1,115 @@
+{
+  "id": 493,
+  "title": "Chicken Shahi Korma",
+  "category": "Indian",
+  "image": "assets/images/indian/chicken-shahi-korma.png",
+
+  "ingredients": [
+    {
+      "title": "For the chicken marinade",
+      "items": [
+        "1 kg chicken (bone-in pieces preferred)",
+        "1/2 cup yogurt (thick, whisked)",
+        "1 tbsp ginger-garlic paste",
+        "1/2 tsp turmeric powder",
+        "1 tsp red chili powder",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "For the korma gravy",
+      "items": [
+        "3 tbsp ghee (clarified butter) or oil",
+        "2 large onions, finely sliced",
+        "1 tbsp ginger-garlic paste",
+        "1/4 cup cashew nuts (soaked in warm water for 15 minutes)",
+        "1/4 cup melon seeds (optional, soaked)",
+        "1/2 cup fresh cream",
+        "1/4 cup milk",
+        "2-3 green cardamoms",
+        "4-5 cloves",
+        "1-2 black cardamoms",
+        "1-inch cinnamon stick",
+        "1 bay leaf",
+        "1 tsp coriander powder",
+        "1/2 tsp garam masala powder",
+        "1/2 tsp fennel seeds powder (saunf)",
+        "A pinch of nutmeg powder",
+        "1 tbsp rose water (optional)",
+        "A few strands of saffron soaked in 2 tbsp warm milk",
+        "Fresh coriander leaves for garnish",
+        "Salt to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Marinate the chicken",
+      "steps": [
+        "In a bowl, mix chicken pieces with yogurt, ginger-garlic paste, turmeric, red chili powder, and salt. Let it marinate for at least 1 hour (overnight is best for deeper flavor)."
+      ]
+    },
+    {
+      "title": "2. Prepare the nut paste",
+      "steps": [
+        "Drain soaked cashews and melon seeds. Grind them to a smooth paste with a little milk or water. Set aside."
+      ]
+    },
+    {
+      "title": "3. Cook onions",
+      "steps": [
+        "Heat ghee in a heavy-bottomed pan or kadhai over medium heat. Add whole spices (cardamoms, cloves, black cardamom, cinnamon, bay leaf). Sauté until fragrant. Add sliced onions and cook slowly until golden brown and caramelized (about 15-20 minutes). This step is key for authentic depth of flavor."
+      ]
+    },
+    {
+      "title": "4. Add ginger-garlic paste",
+      "steps": [
+        "Stir in the ginger-garlic paste and cook until raw smell disappears."
+      ]
+    },
+    {
+      "title": "5. Add marinated chicken",
+      "steps": [
+        "Add the marinated chicken pieces and sear until they change color and start to brown slightly."
+      ]
+    },
+    {
+      "title": "6. Add spices and nut paste",
+      "steps": [
+        "Stir in coriander powder, garam masala, fennel powder, nutmeg powder, and salt. Cook for 2 minutes. Then add the cashew-melon seed paste and mix well."
+      ]
+    },
+    {
+      "title": "7. Add liquids",
+      "steps": [
+        "Pour in cream and milk, stirring gently. Cover and cook on low heat until the chicken is tender and cooked through (about 20-25 minutes). Stir occasionally to prevent sticking."
+      ]
+    },
+    {
+      "title": "8. Finish with saffron and rose water",
+      "steps": [
+        "Add the saffron milk and rose water (if using). Mix well and simmer for another 5 minutes."
+      ]
+    },
+    {
+      "title": "9. Garnish and serve",
+      "steps": [
+        "Garnish with fresh coriander leaves. Serve hot with naan, roti, or fragrant basmati rice."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use fresh whole spices from an Indian store for better aroma.",
+    "Soak and grind raw cashews and melon seeds for a creamy paste.",
+    "Choose thick, full-fat yogurt and fresh cream.",
+    "Use pure rose water and real saffron for authentic flavor."
+  ],
+
+  "pairings": [
+    "Serve with naan, roomali roti, or basmati rice.",
+    "Add cucumber-onion salad or cooling raita on the side.",
+    "Drink mango lassi or sweet lime soda to balance richness."
+  ]
+}
