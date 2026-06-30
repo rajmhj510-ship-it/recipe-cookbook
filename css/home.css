@@ -263,10 +263,13 @@ body {
 }
 
 .recipe-id {
-	color: #082a7b;
-	font-size: 0.85rem;
-	font-weight: bold;
-}
+	background: #082a7b;
+	color: white;
+	font-size: 0.75rem;
+	font-weight: 700;
+	padding: 3px 8px;
+	border-radius: 999px;
+
 
 /* ================= TABLET ================= */
 
