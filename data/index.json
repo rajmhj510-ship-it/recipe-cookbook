@@ -1098,6 +1098,207 @@
     "difficulty": "Medium",
     "servings": 4
   },
+    {
+    "id": 489,
+    "title": "Vegetable Korma",
+    "category": "Indian",
+    "file": "data/indian/vegetable-korma.json",
+    "image": "assets/images/indian/vegetable-korma.png",
+    "description": "",
+    "time": "35 min",
+    "difficulty": ""
+  },
+  {
+    "id": 490,
+    "title": "Vegetable Jhalfrezi",
+    "category": "Indian",
+    "file": "data/indian/vegetable-jhalfrezi.json",
+    "image": "assets/images/indian/vegetable-jhalfrezi.png",
+    "description": "",
+    "time": "25 min",
+    "difficulty": ""
+  },
+  {
+    "id": 491,
+    "title": "Malai Kofta Curry",
+    "category": "Indian",
+    "file": "data/indian/malai-kofta-curry.json",
+    "image": "assets/images/indian/malai-kofta-curry.png",
+    "description": "",
+    "time": "45 min",
+    "difficulty": ""
+  },
+  {
+    "id": 492,
+    "title": "Chicken Shahi Korma",
+    "category": "Indian",
+    "file": "data/indian/chicken-shahi-korma.json",
+    "image": "assets/images/indian/chicken-shahi-korma.png",
+    "description": "",
+    "time": "60 min",
+    "difficulty": ""
+  },
+  {
+    "id": 493,
+    "title": "Chicken Curry",
+    "category": "Indian",
+    "file": "data/indian/chicken-curry.json",
+    "image": "assets/images/indian/chicken-curry.png",
+    "description": "",
+    "time": "60 min",
+    "difficulty": ""
+  },
+  {
+    "id": 494,
+    "title": "Chicken Tikka Masala",
+    "category": "Indian",
+    "file": "data/indian/chicken-tikka-masala.json",
+    "image": "assets/images/indian/chicken-tikka-masala.png",
+    "description": "",
+    "time": "45 min",
+    "difficulty": ""
+  },
+  {
+    "id": 495,
+    "title": "Kori Gassi (Mangalorean Chicken Curry)",
+    "category": "Indian",
+    "file": "data/indian/kori-gassi.json",
+    "image": "assets/images/indian/kori-gassi.png",
+    "description": "",
+    "time": "50 min",
+    "difficulty": ""
+  },
+  {
+    "id": 496,
+    "title": "Hyderabadi Dum Biryani (Chicken)",
+    "category": "Indian",
+    "file": "data/indian/hyderabadi-dum-biryani-chicken.json",
+    "image": "assets/images/indian/hyderabadi-dum-biryani-chicken.png",
+    "description": "",
+    "time": "1–1.5 hr",
+    "difficulty": ""
+  },
+  {
+    "id": 497,
+    "title": "Chicken Biryani",
+    "category": "Indian",
+    "file": "data/indian/chicken-biryani.json",
+    "image": "assets/images/indian/chicken-biryani.png",
+    "description": "",
+    "time": "60 min",
+    "difficulty": ""
+  },
+  {
+    "id": 498,
+    "title": "Chicken Vindaloo (Goan-Style)",
+    "category": "Indian",
+    "file": "data/indian/chicken-vindaloo.json",
+    "image": "assets/images/indian/chicken-vindaloo.png",
+    "description": "",
+    "time": "1 hr",
+    "difficulty": ""
+  },
+  {
+    "id": 499,
+    "title": "Chicken Tandoori",
+    "category": "Indian",
+    "file": "data/indian/chicken-tandoori.json",
+    "image": "assets/images/indian/chicken-tandoori.png",
+    "description": "",
+    "time": "45 min",
+    "difficulty": ""
+  },
+  {
+    "id": 500,
+    "title": "Tandoori Chicken",
+    "category": "Indian",
+    "file": "data/indian/tandoori-chicken.json",
+    "image": "assets/images/indian/tandoori-chicken.png",
+    "description": "",
+    "time": "6–8 hr",
+    "difficulty": ""
+  },
+  {
+    "id": 501,
+    "title": "Pork Vindaloo",
+    "category": "Indian",
+    "file": "data/indian/pork-vindaloo.json",
+    "image": "assets/images/indian/pork-vindaloo.png",
+    "description": "",
+    "time": "1 hr 15 min",
+    "difficulty": ""
+  },
+  {
+    "id": 502,
+    "title": "Fish Amritsari",
+    "category": "Indian",
+    "file": "data/indian/fish-amritsari.json",
+    "image": "assets/images/indian/fish-amritsari.png",
+    "description": "",
+    "time": "25 min",
+    "difficulty": ""
+  },
+  {
+    "id": 503,
+    "title": "Chicken 65",
+    "category": "Indian",
+    "file": "data/indian/chicken-65.json",
+    "image": "assets/images/indian/chicken-65.png",
+    "description": "",
+    "time": "45 min",
+    "difficulty": ""
+  },
+  {
+    "id": 504,
+    "title": "Fish Curry",
+    "category": "Indian",
+    "file": "data/indian/fish-curry.json",
+    "image": "assets/images/indian/fish-curry.png",
+    "description": "",
+    "time": "25 min",
+    "difficulty": ""
+  },
+  {
+    "id": 505,
+    "title": "Special Masala Fish Curry",
+    "category": "Indian",
+    "file": "data/indian/special-masala-fish-curry.json",
+    "image": "assets/images/indian/special-masala-fish-curry.png",
+    "description": "",
+    "time": "30 min",
+    "difficulty": ""
+  },
+  {
+    "id": 506,
+    "title": "Mutton Rogan Josh",
+    "category": "Indian",
+    "file": "data/indian/mutton-rogan-josh.json",
+    "image": "assets/images/indian/mutton-rogan-josh.png",
+    "description": "",
+    "time": "1.5 hr",
+    "difficulty": ""
+  },
+  {
+    "id": 507,
+    "title": "Nargisi Kofta (Egg-Stuffed Meatballs)",
+    "category": "Indian",
+    "file": "data/indian/nargisi-kofta.json",
+    "image": "assets/images/indian/nargisi-kofta.png",
+    "description": "",
+    "time": "45 min",
+    "difficulty": ""
+  },
+  {
+    "id": 508,
+    "title": "Mutton Rogan Josh (Variation Entry)",
+    "category": "Indian",
+    "file": "data/indian/mutton-rogan-josh-2.json",
+    "image": "assets/images/indian/mutton-rogan-josh-2.png",
+    "description": "",
+    "time": "1.5 hr",
+    "difficulty": ""
+  },
+
   {
     "id": 501,
     "title": "Chicken Cacciatore",
