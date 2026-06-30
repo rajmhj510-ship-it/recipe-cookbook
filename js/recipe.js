@@ -31,7 +31,7 @@ async function loadRecipe() {
 
 		const data = await res.json();
 
-		/* ================= HERO ================= */
+		/* HERO */
 		document.getElementById("title").textContent = data.title || "Recipe";
 		document.getElementById("category").textContent = data.category || "";
 		document.getElementById("description").textContent = data.description || "";
@@ -43,27 +43,26 @@ async function loadRecipe() {
 				`url(${data.image})`;
 		}
 
-		/* ================= INGREDIENTS ================= */
+		/* INGREDIENTS */
 		const ingEl = document.getElementById("ingredients");
 
-if (data.ingredients && typeof data.ingredients === "object") {
+		if (Array.isArray(data.ingredients)) {
+			ingEl.innerHTML = `
+				<div class="section">
+					<h3>Ingredients</h3>
+					${data.ingredients.map(group => `
+						${group.title ? `<h4>${group.title}</h4>` : ""}
+						<ul>
+							${(group.items || [])
+								.map(i => `<li>${safeText(i)}</li>`)
+								.join("")}
+						</ul>
+					`).join("")}
+				</div>
+			`;
+		}
 
-	ingEl.innerHTML = `
-		<div class="section">
-			<h3>Ingredients</h3>
-
-			${Object.entries(data.ingredients).map(([group, items]) => `
-				<h4>${group}</h4>
-				<ul>
-					${items.map(i => `<li>${safeText(i)}</li>`).join("")}
-				</ul>
-			`).join("")}
-
-		</div>
-	`;
-}
-
-		/* ================= INSTRUCTIONS ================= */
+		/* INSTRUCTIONS */
 		const insEl = document.getElementById("instructions");
 
 		if (Array.isArray(data.instruction)) {
@@ -91,25 +90,7 @@ if (data.ingredients && typeof data.ingredients === "object") {
 			`;
 		}
 
-		/* ================= SERVING SUGGESTIONS ================= */
-		const serveEl = document.getElementById("servingsuggestions");
-
-		if (Array.isArray(data.servingSuggestions) && data.servingSuggestions.length > 0) {
-			serveEl.innerHTML = `
-				<div class="section">
-					<h3>Serving Suggestions</h3>
-					<ul>
-						${data.servingSuggestions
-							.map(s => `<li>${safeText(s)}</li>`)
-							.join("")}
-					</ul>
-				</div>
-			`;
-		} else {
-			serveEl.innerHTML = "";
-		}
-
-		/* ================= CHEF TIPS ================= */
+		/* TIPS */
 		const tipsEl = document.getElementById("tips");
 
 		if (Array.isArray(data.chefTips) && data.chefTips.length) {
@@ -125,7 +106,7 @@ if (data.ingredients && typeof data.ingredients === "object") {
 			`;
 		}
 
-		/* ================= STEP CLICK ================= */
+		/* STEP CLICK */
 		document.querySelectorAll(".step").forEach(step => {
 			step.addEventListener("click", () => {
 				step.classList.toggle("done");
