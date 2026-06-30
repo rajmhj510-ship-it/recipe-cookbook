@@ -1,0 +1,91 @@
+{
+  "id": 480,
+  "title": "Aloo Dum",
+  "category": "Indian",
+  "image": "assets/images/indian/aloo-dum.png",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "For the Potatoes",
+      "items": [
+        "500 g baby potatoes or medium potatoes, peeled and halved",
+        "2 tbsp oil",
+        "½ tsp salt",
+        "¼ tsp turmeric powder"
+      ]
+    },
+    {
+      "title": "For the Gravy",
+      "items": [
+        "2 tbsp oil or ghee",
+        "1 tsp cumin seeds",
+        "1 bay leaf",
+        "1-inch cinnamon stick",
+        "3-4 green cardamoms",
+        "2-3 cloves",
+        "1 large onion, finely chopped",
+        "1 tbsp ginger-garlic paste",
+        "2 large tomatoes, pureed",
+        "½ tsp turmeric powder",
+        "1 tsp red chili powder",
+        "1 tsp coriander powder",
+        "½ tsp garam masala",
+        "1 tsp amchur (dry mango powder) or 1 tsp lemon juice",
+        "1 cup water or vegetable stock",
+        "Salt, to taste"
+      ]
+    },
+    {
+      "title": "To Garnish",
+      "items": [
+        "Fresh coriander leaves, chopped",
+        "Optional: a few drops of kasuri methi (dried fenugreek leaves)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Boil and Prepare Potatoes",
+      "steps": [
+        "Boil potatoes in salted water with ¼ tsp turmeric until just tender (not falling apart). Drain and set aside.",
+        "Heat 2 tbsp oil in a pan and lightly sauté the boiled potatoes until they get a golden crust. Remove and keep aside."
+      ]
+    },
+    {
+      "title": "2. Prepare the Gravy",
+      "steps": [
+        "In the same pan, heat 2 tbsp oil or ghee. Add cumin seeds, bay leaf, cinnamon, cardamoms, and cloves. Sauté for 30 seconds until aromatic.",
+        "Add chopped onions and sauté until golden brown.",
+        "Add ginger-garlic paste and cook for 1-2 minutes until raw aroma disappears."
+      ]
+    },
+    {
+      "title": "3. Spice and Simmer",
+      "steps": [
+        "Add tomato puree, turmeric, chili powder, coriander powder, and salt. Cook until oil separates from the masala.",
+        "Pour in 1 cup water or stock and bring to a gentle simmer."
+      ]
+    },
+    {
+      "title": "4. Combine Potatoes and Gravy",
+      "steps": [
+        "Add the sautéed potatoes to the gravy. Mix gently to coat the potatoes with the masala.",
+        "Sprinkle garam masala and amchur powder (or lemon juice). Cover and simmer on low heat for 8–10 minutes, allowing the potatoes to absorb the flavors."
+      ]
+    },
+    {
+      "title": "5. Finishing Touch",
+      "steps": [
+        "Garnish with fresh coriander leaves and optional kasuri methi.",
+        "Serve hot with steamed rice, naan, or roti."
+      ]
+    }
+  ],
+  "chefTips": [
+    "For extra depth, roast the spices (cumin, cardamom, cinnamon) lightly before adding onions.",
+    "Using baby potatoes gives a creamier texture; regular potatoes work fine too.",
+    "Adjust chili powder to taste; smoky paprika can give a milder, aromatic heat."
+  ]
+}
