@@ -89,7 +89,25 @@ async function loadRecipe() {
 				</div>
 			`;
 		}
+/* SERVING SECTION */
+const servingEl = document.getElementById("servingsuggestions");
 
+if (
+    data.servingSuggestions &&
+    Array.isArray(data.servingSuggestions.items) &&
+    data.servingSuggestions.items.length
+) {
+    servingEl.innerHTML = `
+        <div class="section">
+            <h3>${safeText(data.servingSuggestions.title || "Serving Suggestions")}</h3>
+            <ul>
+                ${data.servingSuggestions.items
+                    .map(item => `<li>${safeText(item)}</li>`)
+                    .join("")}
+            </ul>
+        </div>
+    `;
+}
 		/* TIPS */
 		const tipsEl = document.getElementById("tips");
 
