@@ -1,107 +1,131 @@
 {
-  "id": 506,
+  "id": "506",
   "title": "Special Masala Fish Curry",
+  "description": "Special Masala Fish Curry is a rich and flavorful Indian-style curry made with fried fish pieces simmered in a spiced masala gravy. It combines aromatic whole spices, a bold spice paste, and a perfectly balanced curry base for deep restaurant-style taste.",
+
   "category": "Indian",
-  "image": "assets/images/indian/special-fish-curry.png",
   "servings": "Serves: 4",
+  "image": "assets/images/indian/special-fish-curry.png",
 
-  "ingredients": {
-    "For the Fish Marinade": [
-      "700 g firm fish fillets (sea bass, kingfish, halibut, or cod)",
-      "1 tsp turmeric powder",
-      "½ tbsp Kashmiri chili powder (for color & mild heat)",
-      "Salt – to taste",
-      "1 tbsp ginger-garlic paste",
-      "1 tsp lemon juice",
-      "1 tbsp mustard oil (or vegetable oil)",
-      "½ tsp kasuri methi (dried fenugreek leaves, crushed)"
-    ],
-
-    "For Fish Fry": [
-      "3 tbsp mustard oil (or vegetable oil)"
-    ],
-
-    "For the Spice Paste": [
-      "½ tbsp coriander seeds",
-      "1 tsp cumin seeds",
-      "1 tsp black peppercorns",
-      "2–3 dried red chilies (adjust to heat preference)",
-      "1 bay leaf",
-      "1 tbsp poppy seeds",
-      "1-inch piece of ginger",
-      "7–8 garlic cloves",
-      "½ cup water (for grinding)"
-    ],
-
-    "For the Curry Base": [
-      "2 tbsp mustard oil (or vegetable oil)",
-      "1 tbsp oil from fish frying",
-      "1 tsp mixed seeds (fenugreek + cumin + nigella + black mustard + fennel)",
-      "2 medium tomatoes (pureed)",
-      "1 tsp turmeric powder",
-      "1 tsp Kashmiri chili powder",
-      "3 green chilies, slit lengthwise (optional)",
-      "1½ cups water",
-      "Salt – to taste"
-    ]
-  },
+  "ingredients": [
+    {
+      "title": "For the Fish Marinade",
+      "items": [
+        "700 g firm fish fillets (sea bass, kingfish, halibut, or cod)",
+        "1 tsp turmeric powder",
+        "½ tbsp Kashmiri chili powder (for color & mild heat)",
+        "Salt – to taste",
+        "1 tbsp ginger-garlic paste",
+        "1 tsp lemon juice",
+        "1 tbsp mustard oil (or vegetable oil)",
+        "½ tsp kasuri methi (dried fenugreek leaves, crushed)"
+      ]
+    },
+    {
+      "title": "For Fish Fry",
+      "items": [
+        "3 tbsp mustard oil (or vegetable oil)"
+      ]
+    },
+    {
+      "title": "For the Spice Paste",
+      "items": [
+        "½ tbsp coriander seeds",
+        "1 tsp cumin seeds",
+        "1 tsp black peppercorns",
+        "2–3 dried red chilies",
+        "1 bay leaf",
+        "1 tbsp poppy seeds",
+        "1-inch piece ginger",
+        "7–8 garlic cloves",
+        "½ cup water (for grinding)"
+      ]
+    },
+    {
+      "title": "For the Curry Base",
+      "items": [
+        "2 tbsp mustard oil (or vegetable oil)",
+        "1 tbsp oil from fish frying",
+        "1 tsp mixed seeds (fenugreek + cumin + nigella + black mustard + fennel)",
+        "2 medium tomatoes (pureed)",
+        "1 tsp turmeric powder",
+        "1 tsp Kashmiri chili powder",
+        "3 green chilies, slit lengthwise (optional)",
+        "1½ cups water",
+        "Salt – to taste"
+      ]
+    }
+  ],
 
   "instruction": [
     {
       "title": "Step 1: Marinate the Fish",
       "steps": [
         "Cut fish into medium-sized pieces.",
-        "In a bowl, mix turmeric, Kashmiri chili powder, salt, ginger-garlic paste, lemon juice, oil, and crushed kasuri methi.",
-        "Coat the fish evenly and marinate for 20–30 minutes."
+        "Mix turmeric, Kashmiri chili powder, salt, ginger-garlic paste, lemon juice, oil, and kasuri methi.",
+        "Coat fish evenly and marinate for 20–30 minutes."
       ]
     },
     {
       "title": "Step 2: Fry the Fish",
       "steps": [
-        "Heat 3 tbsp oil in a non-stick pan.",
-        "Shallow fry the marinated fish until golden brown on both sides.",
-        "Remove fish and set aside. Keep the frying oil for the curry base."
+        "Heat oil in a pan.",
+        "Shallow fry fish until golden brown on both sides.",
+        "Remove and set aside."
       ]
     },
     {
-      "title": "Step 3: Prepare the Spice Paste",
+      "title": "Step 3: Prepare Spice Paste",
       "steps": [
-        "Dry roast coriander seeds, cumin seeds, black peppercorns, dried red chilies, bay leaf, and poppy seeds for 1–2 minutes until aromatic.",
-        "Grind roasted spices with ginger, garlic, and ½ cup water into a smooth paste."
+        "Dry roast whole spices until aromatic.",
+        "Grind with ginger, garlic, and water into a smooth paste."
       ]
     },
     {
-      "title": "Step 4: Cook the Curry Base",
+      "title": "Step 4: Cook Curry Base",
       "steps": [
-        "Heat 2 tbsp oil in a pan.",
-        "Add the mixed seeds and let them sizzle for a few seconds.",
-        "Add the spice paste and sauté 3–4 minutes until raw aroma disappears.",
-        "Stir in tomato puree, turmeric, and Kashmiri chili powder. Fry for 2–3 minutes on low-medium flame.",
-        "Add salt and cook for 3–4 minutes until oil separates from the masala."
+        "Heat oil and add mixed seeds.",
+        "Add spice paste and sauté until raw smell disappears.",
+        "Add tomato puree, turmeric, and chili powder.",
+        "Cook until oil separates."
       ]
     },
     {
       "title": "Step 5: Add Water & Simmer",
       "steps": [
-        "Add 1½ cups water and slit green chilies.",
-        "Bring to a gentle boil on high flame, then reduce heat and simmer 5–7 minutes."
+        "Add water and green chilies.",
+        "Simmer for 5–7 minutes."
       ]
     },
     {
-      "title": "Step 6: Add Fried Fish",
+      "title": "Step 6: Add Fish",
       "steps": [
-        "Carefully add the fried fish pieces into the curry.",
-        "Add 1 tbsp reserved frying oil.",
-        "Simmer gently on low flame for 6–8 minutes. Avoid stirring too much to keep the fish intact."
+        "Add fried fish carefully.",
+        "Simmer 6–8 minutes on low heat."
       ]
     },
     {
-      "title": "Step 7: Final Touch",
+      "title": "Step 7: Finish",
       "steps": [
-        "Check seasoning.",
-        "Garnish with a pinch of crushed kasuri methi if desired.",
-        "Serve hot with steamed rice or roti."
+        "Adjust salt and seasoning.",
+        "Let rest for 10 minutes before serving."
       ]
     }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with steamed basmati rice.",
+      "Pairs well with roti or paratha.",
+      "Garnish lightly with fresh coriander leaves."
+    ]
+  },
+
+  "chefTips": [
+    "Do not stir aggressively after adding fish to keep pieces intact.",
+    "Use mustard oil for authentic flavor.",
+    "Oil separation indicates perfect cooking.",
+    "Letting it rest improves flavor depth."
   ]
 }
