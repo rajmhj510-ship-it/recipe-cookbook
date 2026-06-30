@@ -1089,6 +1089,15 @@
     "difficulty": "Medium",
     "servings": 4
   },
+    {
+    "id": 488,
+    "title": "Paneer Butter Masala",
+    "category": "Indian",
+    "image": "assets/images/indian/paneer-butter-masala.png",
+    "time": "45 min",
+    "difficulty": "Medium",
+    "servings": 4
+  },
   {
     "id": 501,
     "title": "Chicken Cacciatore",
