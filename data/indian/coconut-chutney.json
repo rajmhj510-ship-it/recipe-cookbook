@@ -1,0 +1,66 @@
+{
+  "id": 71,
+  "title": "Coconut Chutney",
+  "category": "Indian",
+  "image": "assets/images/indian/coconut-chutney.png",
+  "time": "15 min",
+  "difficulty": "Easy",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Ingredients (makes ~1 cup)",
+      "items": [
+        "Fresh grated coconut – 1 cup (tightly packed)",
+        "Roasted chana dal (dalia / bengal gram) – 2 tbsp",
+        "Green chilies – 2–3 (adjust for spice)",
+        "Ginger – ½ inch piece",
+        "Fresh coriander leaves (with tender stems) – 2 tbsp",
+        "Salt – to taste",
+        "Chilled water – ½ cup (as needed, for smooth blending)"
+      ]
+    },
+    {
+      "title": "Tempering (Tadka)",
+      "items": [
+        "Coconut oil (or sunflower oil) – 1 tbsp (coconut oil gives authentic flavor)",
+        "Mustard seeds – ½ tsp",
+        "Dried red chili – 1 (broken)",
+        "Curry leaves – 8–10 fresh leaves",
+        "Urad dal (split black gram) – ½ tsp",
+        "Hing (asafoetida) – a pinch"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Prepare the Base Chutney",
+      "steps": [
+        "In a blender, add grated coconut, roasted chana dal, green chilies, ginger, coriander, and salt.",
+        "Add ice-cold water little by little and grind to a smooth, creamy chutney. (The cold water prevents heat from the blender altering the coconut’s freshness.)"
+      ]
+    },
+    {
+      "title": "2. Adjust Consistency",
+      "steps": [
+        "Chutney should be slightly thick but pourable. Adjust with more chilled water if needed."
+      ]
+    },
+    {
+      "title": "3. Tempering (Tadka)",
+      "steps": [
+        "Heat coconut oil in a small pan.",
+        "Add mustard seeds; let them splutter.",
+        "Add urad dal and fry until golden.",
+        "Add dried red chili, curry leaves, and a pinch of hing. Fry for 10–15 seconds until aromatic.",
+        "Pour the hot tempering immediately over the chutney and mix."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use fresh coconut – frozen can be used, but thaw and rinse with warm water first for a fresher taste.",
+    "Balance flavors – coriander adds brightness, ginger adds depth, and roasted chana dal gives body.",
+    "Keep it chilled – restaurants often keep chutneys cold to prevent fermentation and to keep the color bright.",
+    "Oil choice – authentic Kerala/Tamil Nadu restaurants use coconut oil, while Karnataka-style chutney may use sunflower or groundnut oil.",
+    "Serve with – idli, dosa, vada, uttapam, or even as a spread for South Indian sandwiches."
+  ]
+}
