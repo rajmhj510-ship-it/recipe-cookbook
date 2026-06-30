@@ -90,6 +90,23 @@ async function loadRecipe() {
 			`;
 		}
 
+		/* ================= SERVING SUGGESTIONS ================= */
+const servingEl = document.getElementById("servingsuggestions");
+
+if (Array.isArray(data.servingSuggestions) && data.servingSuggestions.length > 0) {
+	servingEl.innerHTML = `
+		<div class="section">
+			<h3>Serving Suggestions</h3>
+			<ul>
+				${data.servingSuggestions
+					.map(item => `<li>${safeText(item)}</li>`)
+					.join("")}
+			</ul>
+		</div>
+	`;
+} else {
+	servingEl.innerHTML = "";
+}
 		/* TIPS */
 		const tipsEl = document.getElementById("tips");
 
