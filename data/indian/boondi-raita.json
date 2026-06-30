@@ -1,0 +1,85 @@
+{
+  "id": 69,
+  "title": "Boondi Raita",
+  "category": "Indian",
+  "image": "assets/images/indian/boondi-raita.png",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "For the Raita Base",
+      "items": [
+        "Curd (yogurt): 2 cups, thick and fresh",
+        "Milk: 2 tbsp (optional, for creamier texture)",
+        "Salt: to taste",
+        "Sugar: ½ tsp (optional, balances the tanginess)"
+      ]
+    },
+    {
+      "title": "For the Boondi",
+      "items": [
+        "Gram flour (besan): ½ cup",
+        "Water: ~¼ cup (to make a flowing batter)",
+        "Salt: a pinch",
+        "Baking soda: a tiny pinch (optional, makes boondi light)",
+        "Oil or ghee: for deep frying"
+      ]
+    },
+    {
+      "title": "For Tempering / Garnish",
+      "items": [
+        "Cumin seeds: ½ tsp",
+        "Green chili: 1, finely chopped (optional)",
+        "Fresh coriander leaves: 1 tbsp, finely chopped",
+        "Red chili powder: ¼ tsp",
+        "Chaat masala: ½ tsp",
+        "Black salt (kala namak): ¼ tsp (optional, for authentic flavor)",
+        "Mint leaves: 5–6, finely chopped (optional, for freshness)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Step 1: Prepare Boondi",
+      "steps": [
+        "Mix gram flour, salt, baking soda, and water to form a smooth, flowing batter (like cream consistency).",
+        "Heat oil in a deep pan over medium heat.",
+        "Hold a perforated spoon or boondi maker over the hot oil. Pour a little batter and tap gently so small droplets fall into the oil.",
+        "Fry until light golden and crisp. Remove and drain on paper towels.",
+        "Allow to cool completely."
+      ]
+    },
+    {
+      "title": "Step 2: Prepare Yogurt Base",
+      "steps": [
+        "Whisk yogurt until smooth and creamy. Add milk if you want extra richness.",
+        "Season with salt and sugar.",
+        "Optional: lightly crush some of the boondi and mix into the yogurt so it soaks flavors without becoming soggy."
+      ]
+    },
+    {
+      "title": "Step 3: Tempering (Optional but Recommended)",
+      "steps": [
+        "Heat 1 tsp ghee in a small pan.",
+        "Add cumin seeds and let them crackle.",
+        "Add finely chopped green chili and mint leaves. Sauté briefly and pour over the prepared raita."
+      ]
+    },
+    {
+      "title": "Step 4: Assemble",
+      "steps": [
+        "Gently fold the crisp boondi into the yogurt base.",
+        "Sprinkle red chili powder, chaat masala, black salt, and fresh coriander on top.",
+        "Chill for 15–20 minutes before serving for best flavor."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Use fresh, thick yogurt: Avoid watery curd; Greek yogurt works beautifully.",
+    "Fry boondi till just golden: Over-frying makes it hard; under-frying makes it soggy when mixed with yogurt.",
+    "Layer flavors: A light tempering of cumin and fresh herbs elevates the dish from simple to gourmet.",
+    "Serve cold, immediately: Boondi starts to soak yogurt quickly, so add it last if making ahead.",
+    "This raita pairs perfectly with Biryani, Pulao, or Tandoori dishes, giving a creamy, spiced contrast."
+  ]
+}
