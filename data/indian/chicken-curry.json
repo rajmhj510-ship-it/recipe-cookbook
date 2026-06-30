@@ -1,0 +1,103 @@
+{
+  "id": 494,
+  "title": "Chicken Curry",
+  "category": "Indian",
+  "image": "assets/images/indian/chicken-curry.png",
+
+  "ingredients": [
+    {
+      "title": "For the Marinade",
+      "items": [
+        "1 kg (2.2 lbs) chicken (bone-in pieces preferred)",
+        "150 g (½ cup) yogurt (thick, unsweetened)",
+        "1½ tsp ginger paste",
+        "1½ tsp garlic paste",
+        "1 tsp turmeric powder",
+        "1½ tsp red chili powder (adjust to taste)",
+        "1 tsp garam masala",
+        "Salt to taste",
+        "1 tbsp lemon juice"
+      ]
+    },
+    {
+      "title": "For the Curry Base",
+      "items": [
+        "4 tbsp vegetable oil or ghee",
+        "2 medium onions, finely sliced",
+        "1½ tsp ginger paste",
+        "1½ tsp garlic paste",
+        "2 medium tomatoes, pureed",
+        "1 tsp turmeric powder",
+        "2 tsp coriander powder",
+        "1½ tsp cumin powder",
+        "1½ tsp red chili powder",
+        "1 tsp garam masala",
+        "½ tsp fenugreek leaves (kasuri methi)",
+        "1–1½ cups chicken stock or water",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "Optional Finishing",
+      "items": [
+        "Fresh coriander leaves, chopped",
+        "1–2 tsp cream or coconut milk (for richness)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Marinate the Chicken",
+      "steps": [
+        "In a bowl, combine yogurt, ginger, garlic, turmeric, chili, garam masala, salt, and lemon juice.",
+        "Coat chicken pieces thoroughly.",
+        "Cover and refrigerate for at least 2 hours, ideally overnight for deep flavor."
+      ]
+    },
+    {
+      "title": "2. Cook the Base",
+      "steps": [
+        "Heat oil or ghee in a heavy-bottomed pan over medium heat.",
+        "Add sliced onions, sauté until deep golden brown (this is crucial for restaurant-quality flavor).",
+        "Add ginger-garlic paste, sauté 1–2 minutes until raw aroma disappears.",
+        "Stir in tomato puree, cook until oil separates from the masala (5–7 mins)."
+      ]
+    },
+    {
+      "title": "3. Spice it Up",
+      "steps": [
+        "Add turmeric, coriander, cumin, chili powder, and salt.",
+        "Cook 2–3 minutes to roast spices slightly for deeper flavor."
+      ]
+    },
+    {
+      "title": "4. Cook the Chicken",
+      "steps": [
+        "Add marinated chicken to the pan. Sear on high heat for 2–3 minutes per side.",
+        "Reduce heat to medium, add chicken stock (or water) until chicken is just covered.",
+        "Cover and simmer 20–25 minutes, stirring occasionally."
+      ]
+    },
+    {
+      "title": "5. Finish & Garnish",
+      "steps": [
+        "Add garam masala and crushed fenugreek leaves.",
+        "Optional: Stir in cream or coconut milk for a luxurious texture.",
+        "Garnish with fresh coriander leaves."
+      ]
+    }
+  ],
+
+  "serving_suggestion": [
+    "Serve hot with basmati rice, naan, or roti.",
+    "Pair with a side of raita or pickles for a restaurant-style experience."
+  ],
+
+  "chefTips": [
+    "Onion Caramelization: Don’t rush it; golden brown onions create the curry’s backbone.",
+    "Spice Blooming: Roast spices in oil to release full aroma before adding liquids.",
+    "Chicken Quality: Bone-in chicken yields richer taste; remove bones later if desired.",
+    "Resting: Let the curry rest for 10–15 minutes before serving—it allows flavors to meld beautifully."
+  ]
+}
