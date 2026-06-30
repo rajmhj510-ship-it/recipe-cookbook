@@ -1,0 +1,68 @@
+{
+  "id": 476,
+  "title": "Rajma Masala",
+  "category": "Indian",
+  "image": "assets/images/indian/rajma-masala.png",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "For the Rajma",
+      "items": [
+        "Red kidney beans (Rajma) – 1½ cups (about 300 g), dried",
+        "Water – for soaking and boiling",
+        "Salt – 1 tsp (for boiling water)",
+        "Bay leaf – 1 large",
+        "Cinnamon stick – 1 small (2–3 cm)",
+        "Green cardamom – 2"
+      ]
+    },
+    {
+      "title": "For the Masala Base",
+      "items": [
+        "Ghee – 2 tbsp (or oil for vegan)",
+        "Onions – 2 medium, finely chopped (about 200 g)",
+        "Ginger-garlic paste – 1½ tbsp",
+        "Tomatoes – 3 medium, finely chopped (about 250 g) or pureed for smoother gravy",
+        "Green chilies – 1–2, slit",
+        "Coriander powder – 2 tsp",
+        "Cumin powder – 1 tsp",
+        "Red chili powder – 1–1½ tsp (adjust to spice level)",
+        "Turmeric powder – ½ tsp",
+        "Garam masala – 1 tsp",
+        "Kasuri methi (dried fenugreek leaves) – 1 tsp, lightly crushed",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Fresh coriander leaves – handful, chopped",
+        "Fresh cream – 1–2 tbsp (optional, for richness)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Prep the Rajma: Wash rajma thoroughly, soak in plenty of water for 8–10 hours or overnight. Drain and rinse. Pressure cook with fresh water, salt, bay leaf, cinnamon, and cardamom until soft but intact. Pressure cooker: 5–6 whistles on medium heat. Instant Pot: High pressure, 35–40 min. Drain and reserve the cooking liquid (do not discard).",
+        "Build the Masala: Heat ghee in a heavy-bottom pan. Add onions; sauté until deep golden-brown (this step is crucial for depth of flavor). Add ginger-garlic paste; cook until raw smell disappears (1–2 min). Add green chilies, followed by tomatoes; cook until tomatoes break down and ghee separates from the sides. Add coriander, cumin, chili powder, and turmeric; sauté for 30–45 seconds to bloom the spices.",
+        "Simmer with Rajma: Add cooked rajma and about 1½ cups of the reserved cooking liquid. Mash a few rajma beans against the side of the pan to naturally thicken the gravy. Simmer on low heat for 20–25 min, stirring occasionally to avoid sticking. Finish with garam masala and kasuri methi; stir well.",
+        "Final Touch: Adjust salt and consistency — the gravy should be thick and coating, not watery. Optional: swirl in fresh cream for restaurant-style richness. Garnish with chopped coriander."
+      ]
+    },
+    {
+      "title": "Serving Suggestions",
+      "steps": [
+        "Traditionally served with steamed basmati rice (Rajma Chawal).",
+        "Can also be paired with jeera rice, naan, or paratha.",
+        "Accompany with sliced onions, lemon wedges, and green chilies."
+      ]
+    }
+  ],
+  "chefTips": [
+    "For a deeper, smokier flavor, you can give the rajma a dhungar (smoke infusion) with a piece of hot charcoal before serving."
+  ]
+}
