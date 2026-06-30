@@ -903,46 +903,6 @@
     "difficulty": "Easy"
   },
   {
-    "id": 464,
-    "title": "Mint Chutney",
-    "category": "Indian",
-    "file": "data/indian/mint-chutney.json",
-    "image": "assets/images/indian/mint-chutney.png",
-    "description": "",
-    "time": "10 min",
-    "difficulty": "Easy"
-  },
-  {
-    "id": 465,
-    "title": "Dhaniya Chutney",
-    "category": "Indian",
-    "file": "data/indian/dhaniya-chutney.json",
-    "image": "assets/images/indian/dhaniya-chutney.png",
-    "description": "",
-    "time": "10 min",
-    "difficulty": "Easy"
-  },
-  {
-    "id": 466,
-    "title": "Tomato Chutney",
-    "category": "Indian",
-    "file": "data/indian/tomato-chutney.json",
-    "image": "assets/images/indian/tomato-chutney.png",
-    "description": "",
-    "time": "20 min",
-    "difficulty": "Easy"
-  },
-  {
-    "id": 467,
-    "title": "Kachumber Salad",
-    "category": "Indian",
-    "file": "data/indian/kachumber-salad.json",
-    "image": "assets/images/indian/kachumber-salad.png",
-    "description": "",
-    "time": "15 min",
-    "difficulty": "Easy"
-  },
-  {
     "id": 468,
     "title": "Mixed Vegetable Salad",
     "category": "Indian",
