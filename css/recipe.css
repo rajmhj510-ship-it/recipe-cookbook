@@ -177,7 +177,11 @@ body {
 	opacity: 0.5;
 	text-decoration: line-through;
 }
+/* ================= SERVING SUGGESTIONS ================= */
 
+#servingsuggestions .section {
+	margin-top: 20px;
+}
 /* ================= TIPS ================= */
 
 #tips .section {
