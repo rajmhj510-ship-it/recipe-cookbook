@@ -258,16 +258,20 @@ body {
 }
 
 .recipe-category {
-	color: #666;
-	font-size: 0.9rem;
-}
-
-.recipe-category {
 	background: #eee;
 	padding: 3px 8px;
 	border-radius: 999px;
 	font-size: 0.75rem;
 	color: #333;
+}
+
+.recipe-id {
+	background: #082a7b;
+	color: white;
+	font-size: 0.75rem;
+	font-weight: 700;
+	padding: 3px 8px;
+	border-radius: 999px;
 }
 
 
