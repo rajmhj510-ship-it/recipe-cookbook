@@ -90,38 +90,29 @@ async function loadRecipe() {
 			`;
 		}
 
-		/* ================= SERVING SUGGESTIONS ================= */
+/* ================= SERVING SUGGESTIONS ================= */
 const servingEl = document.getElementById("servingsuggestions");
 
-if (Array.isArray(data.servingSuggestions) && data.servingSuggestions.length > 0) {
+if (
+	data.servingSuggestions &&
+	typeof data.servingSuggestions === "object" &&
+	Object.keys(data.servingSuggestions).length
+) {
 	servingEl.innerHTML = `
 		<div class="section">
-			<h3>Serving Suggestions</h3>
-			<ul>
-				${data.servingSuggestions
-					.map(item => `<li>${safeText(item)}</li>`)
-					.join("")}
-			</ul>
+
+			${Object.entries(data.servingSuggestions).map(([title, items]) => `
+				<h4>${title}</h4>
+				<ul>
+					${items.map(item => `<li>${safeText(item)}</li>`).join("")}
+				</ul>
+			`).join("")}
+
 		</div>
 	`;
 } else {
 	servingEl.innerHTML = "";
 }
-		/* TIPS */
-		const tipsEl = document.getElementById("tips");
-
-		if (Array.isArray(data.chefTips) && data.chefTips.length) {
-			tipsEl.innerHTML = `
-				<div class="section">
-					<h3>Chef Tips</h3>
-					<ul>
-						${data.chefTips.map(t =>
-							`<li>${safeText(t)}</li>`
-						).join("")}
-					</ul>
-				</div>
-			`;
-		}
 
 		/* STEP CLICK */
 		document.querySelectorAll(".step").forEach(step => {
