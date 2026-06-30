@@ -1,0 +1,44 @@
+{
+  "id": 64,
+  "title": "Mint Chutney (Pudina Chutney)",
+  "category": "Indian",
+  "image": "assets/images/indian/mint-chutney.png",
+  "time": "10 min",
+  "difficulty": "Easy",
+  "yield": "1 cup",
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Fresh mint leaves – 1 tightly packed cup (washed, stems mostly removed)",
+        "Fresh coriander (cilantro) leaves – 1 tightly packed cup (washed, tender stems ok)",
+        "Green chilies – 2–3 (adjust for heat)",
+        "Fresh ginger – 1 tsp (peeled, roughly chopped)",
+        "Garlic – 1 small clove (optional, for depth)",
+        "Lemon juice – 1½ tbsp (freshly squeezed)",
+        "Roasted cumin powder – ½ tsp",
+        "Black salt (kala namak) – ¼ tsp (optional, for an earthy tang)",
+        "Salt – ½ tsp (or to taste)",
+        "Sugar – ¼ tsp (balances bitterness)",
+        "Cold water – 2–3 tbsp (or as needed for consistency)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Prep the herbs: Pluck the mint leaves and rinse them in cold water to remove grit. Pat dry gently. Wash coriander with stems (trim thick ends), pat dry.",
+        "Blend for freshness: In a high-speed blender, add mint, coriander, green chilies, ginger, garlic (if using), lemon juice, cumin powder, black salt, regular salt, and sugar. Add 1–2 tbsp cold water to help blending — cold water prevents discoloration and keeps flavors bright.",
+        "Process until smooth: Blend until the chutney is completely smooth and creamy. Stop and scrape down the sides as needed. Adjust thickness by adding a splash more cold water if needed.",
+        "Taste & balance: Check seasoning — you should taste freshness from mint, citrus tang from lemon, heat from chilies, and a subtle earthy spice from cumin. If it’s slightly bitter (common with mint), a pinch more sugar will balance it.",
+        "Serve or store: Serve immediately with samosas, pakoras, kebabs, sandwiches, or as a spread. Store in an airtight container in the fridge for up to 3 days. For longer storage, freeze in ice cube trays."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Ice cube blending trick: Add a small ice cube instead of water when blending — it prevents heat from the blender motor from dulling the green color.",
+    "Flavor layering: If using with chaat or street food, mix in a little yogurt (50:50) for a creamier, milder dip.",
+    "Avoid metallic taste: Don’t store in reactive metal containers; use glass or food-grade plastic."
+  ]
+}
