@@ -1172,8 +1172,8 @@
     "id": 496,
     "title": "Hyderabadi Dum Biryani (Chicken)",
     "category": "Indian",
-    "file": "data/indian/hyderabadi-dum-biryani-chicken.json",
-    "image": "assets/images/indian/hyderabadi-dum-biryani-chicken.png",
+    "file": "data/indian/hyderabadi-dum-biryani.json",
+    "image": "assets/images/indian/hyderabadi-dum-biryani.png",
     "description": "",
     "time": "1–1.5 hr",
     "difficulty": ""
