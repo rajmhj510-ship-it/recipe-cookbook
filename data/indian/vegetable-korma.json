@@ -1,0 +1,114 @@
+{
+  "id": 490,
+  "title": "Vegetable Korma",
+  "category": "Indian",
+  "image": "assets/images/indian/vegetable-korma.png",
+  "servings": "4–6",
+  "time": "Prep Time: 25 min | Cook Time: 35 min",
+
+  "ingredients": [
+    {
+      "title": "For the vegetables",
+      "items": [
+        "1 cup carrots – diced into ½ inch cubes",
+        "1 cup French beans – cut into 1-inch pieces",
+        "1 cup cauliflower florets",
+        "½ cup green peas (fresh or frozen)",
+        "1 cup potatoes – diced",
+        "Salt for blanching water"
+      ]
+    },
+    {
+      "title": "For the korma base paste",
+      "items": [
+        "1 cup onion – thinly sliced",
+        "½ cup cashews (raw, unsalted)",
+        "¼ cup melon seeds (optional but adds creaminess)",
+        "1 tbsp poppy seeds (optional, for nutty aroma)",
+        "1 tbsp ginger – chopped",
+        "1 tbsp garlic – chopped",
+        "3–4 green chilies – slit (adjust to spice preference)"
+      ]
+    },
+    {
+      "title": "For the sauce",
+      "items": [
+        "3 tbsp ghee (clarified butter) – or 2 tbsp ghee + 1 tbsp neutral oil",
+        "2 bay leaves",
+        "4 green cardamoms – lightly crushed",
+        "4 cloves",
+        "1-inch cinnamon stick",
+        "1 tsp cumin seeds",
+        "1 tsp turmeric powder",
+        "1 tsp Kashmiri red chili powder (for color, mild heat)",
+        "1 tbsp coriander powder",
+        "½ tsp garam masala",
+        "½ cup full-fat yogurt – whisked smooth",
+        "1½ cups fresh tomato purée (ripe tomatoes, blended and strained)",
+        "1 cup coconut milk (or cream for richer taste)",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "For garnish",
+      "items": [
+        "2 tbsp fresh cream",
+        "Fresh coriander leaves – chopped",
+        "A few saffron strands soaked in 2 tbsp warm milk (optional, for luxury finish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the vegetables",
+      "steps": [
+        "Boil water in a deep pot with a little salt.",
+        "Blanch carrots, beans, cauliflower, potatoes for 2–3 minutes until half-cooked.",
+        "Add peas in the last 30 seconds, then drain and keep aside."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the korma paste",
+      "steps": [
+        "In a small pan, boil sliced onions in 1 cup water for 5–6 minutes (this reduces sharpness).",
+        "Drain, then blend onions with cashews, melon seeds, poppy seeds, ginger, garlic, and green chilies into a smooth paste. Add a little water if needed."
+      ]
+    },
+    {
+      "title": "Step 3 – Build the sauce",
+      "steps": [
+        "Heat ghee in a heavy-bottom pan over medium heat.",
+        "Add bay leaves, cardamoms, cloves, cinnamon, and cumin seeds — let them release aroma (about 30 seconds).",
+        "Add the prepared korma paste, sauté for 3–4 minutes until it loses raw smell.",
+        "Add turmeric, chili powder, coriander powder; sauté briefly.",
+        "Lower heat, stir in yogurt slowly to avoid curdling. Cook 2 minutes.",
+        "Add tomato purée, cook until the oil starts separating (sign of proper bhunao).",
+        "Pour in coconut milk, stir well, and simmer for 5 minutes."
+      ]
+    },
+    {
+      "title": "Step 4 – Finish the korma",
+      "steps": [
+        "Add blanched vegetables, season with salt, mix gently so they stay intact.",
+        "Simmer for 5–6 minutes until vegetables are fully cooked and flavors meld.",
+        "Stir in garam masala and cream.",
+        "Optional: add saffron milk for an elevated aroma."
+      ]
+    },
+    {
+      "title": "Step 5 – Serve",
+      "steps": [
+        "Garnish with fresh coriander leaves.",
+        "Serve hot with butter naan, tandoori roti, or jeera rice."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Boiling onions first gives a sweeter, creamier base without bitterness.",
+    "Coconut milk + cream balance richness and aroma.",
+    "Use low heat after adding yogurt to keep the sauce silky, not split.",
+    "For banquets, keep sauce and vegetables separate until final reheating, so colors stay bright."
+  ]
+}
