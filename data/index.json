@@ -1262,8 +1262,8 @@
     "id": 505,
     "title": "Special Masala Fish Curry",
     "category": "Indian",
-    "file": "data/indian/special-masala-fish-curry.json",
-    "image": "assets/images/indian/special-masala-fish-curry.png",
+    "file": "data/indian/special-fish-curry.json",
+    "image": "assets/images/indian/special-fish-curry.png",
     "description": "",
     "time": "30 min",
     "difficulty": ""
