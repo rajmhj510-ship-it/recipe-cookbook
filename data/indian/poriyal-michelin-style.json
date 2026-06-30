@@ -1,0 +1,89 @@
+{
+  "id": 73,
+  "title": "Poriyal (Michelin-Style)",
+  "category": "Indian",
+  "image": "assets/images/indian/poriyal-michelin-style.png",
+  "time": "25 min",
+  "difficulty": "Medium",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Vegetables",
+      "items": [
+        "1 cup finely diced green beans",
+        "1 cup baby carrots, julienned",
+        "½ cup finely chopped bell peppers (red/yellow for color)",
+        "2 tbsp freshly grated coconut",
+        "Microgreens or finely chopped coriander for garnish"
+      ]
+    },
+    {
+      "title": "Tempering & Flavor Layering",
+      "items": [
+        "2 tbsp high-quality coconut oil",
+        "½ tsp mustard seeds",
+        "½ tsp urad dal",
+        "½ tsp chana dal",
+        "2 small dried red chilies, broken",
+        "1 fresh green chili, finely sliced",
+        "1 tsp finely chopped ginger",
+        "½ tsp hing (asafoetida)",
+        "1 tsp freshly ground black pepper (optional, for depth)",
+        "Few curry leaves"
+      ]
+    },
+    {
+      "title": "Seasoning & Finishing",
+      "items": [
+        "Salt to taste",
+        "¼ tsp turmeric powder",
+        "1 tsp freshly squeezed lime juice",
+        "1 tsp toasted sesame seeds (for crunch)"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "1. Prepare Vegetables with Precision",
+      "steps": [
+        "Blanch beans and carrots separately in salted boiling water for 1–2 minutes until just tender. Shock in ice water to retain bright colors. Drain well.",
+        "Lightly sauté bell peppers in a dry pan with a touch of coconut oil for 30 seconds to preserve crunch."
+      ]
+    },
+    {
+      "title": "2. Build the Tempering",
+      "steps": [
+        "Heat coconut oil on medium-low heat.",
+        "Add mustard seeds; once they pop, add urad dal and chana dal, frying until golden.",
+        "Add red chili, green chili, ginger, curry leaves, and hing. Sauté gently for 30–40 seconds to release aroma without burning."
+      ]
+    },
+    {
+      "title": "3. Introduce Vegetables Gradually",
+      "steps": [
+        "Add blanched vegetables and bell peppers to the pan.",
+        "Sprinkle turmeric and salt, tossing gently. Cook for 2–3 minutes, just to marry flavors. Keep texture crisp-tender."
+      ]
+    },
+    {
+      "title": "4. Enhance Aroma and Depth",
+      "steps": [
+        "Add freshly grated coconut and toasted sesame seeds off-heat, folding in gently.",
+        "Finish with a squeeze of lime juice and a few twists of black pepper for subtle complexity."
+      ]
+    },
+    {
+      "title": "5. Presentation – Restaurant Style",
+      "steps": [
+        "Plate neatly using a ring mold or by stacking vegetables for height.",
+        "Garnish with microgreens or finely chopped coriander, and a tiny pinch of extra coconut for visual contrast."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Heat control: Keep the pan medium-low when tempering delicate spices to avoid bitterness.",
+    "Color & texture: Blanch vegetables separately to prevent overcooking and maintain vibrant colors.",
+    "Flavor layering: Add aromatics like ginger, black pepper, and lime at different stages to create depth.",
+    "Plating: Height and contrast elevate the dish visually—think vertical stack, not just a pile."
+  ]
+}
