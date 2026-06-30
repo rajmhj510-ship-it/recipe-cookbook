@@ -1,0 +1,54 @@
+{
+  "id": 67,
+  "title": "Kachumber Salad",
+  "category": "Indian",
+  "image": "assets/images/indian/kachumber-salad.png",
+  "time": "15 min",
+  "difficulty": "Easy",
+  "servings": 4,
+  "ingredients": [
+    {
+      "title": "Vegetables",
+      "items": [
+        "1 cup cucumber – peeled (optional), deseeded, finely diced",
+        "1 cup tomato – firm, deseeded, finely diced",
+        "½ cup red onion – finely diced",
+        "2 tbsp fresh coriander leaves – finely chopped",
+        "1 small green chili – deseeded, finely minced (optional, adjust to heat preference)"
+      ]
+    },
+    {
+      "title": "Dressing",
+      "items": [
+        "1 tbsp fresh lemon juice",
+        "½ tsp roasted cumin powder",
+        "¼ tsp red chili powder or Kashmiri chili powder (for mild heat and color)",
+        "¼ tsp black salt (kala namak) – optional, for authentic tang",
+        "Salt – to taste",
+        "Freshly ground black pepper – to taste"
+      ]
+    },
+    {
+      "title": "Optional Garnish",
+      "items": [
+        "Few coriander sprigs",
+        "A dusting of chaat masala"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Prep the vegetables: Wash all vegetables thoroughly. For cucumber and tomato, deseed to avoid excess moisture. Dice evenly to about 5 mm cubes for a refined presentation. Combine in a mixing bowl. Add cucumber, tomato, onion, coriander leaves, and chili.",
+        "Prepare the dressing: In a small bowl, whisk lemon juice, roasted cumin powder, chili powder, black salt, regular salt, and pepper until combined. Toss and serve immediately. Pour dressing over vegetables just before serving. Toss gently with a spoon to coat evenly without mashing the vegetables.",
+        "Plating (Chef’s Touch): Serve in a chilled white bowl or plate for color contrast. Garnish with a coriander sprig and a light dusting of chaat masala on top."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Timing is key: Mix dressing and vegetables only right before serving to maintain crunch.",
+    "Roasted cumin powder: Dry roast cumin seeds on medium heat until aromatic, then grind — this makes a big flavor difference.",
+    "Variations: Add grated carrot, diced radish, or pomegranate seeds for extra texture and visual appeal."
+  ]
+}
