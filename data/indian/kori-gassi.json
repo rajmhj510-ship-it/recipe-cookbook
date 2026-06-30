@@ -1,0 +1,106 @@
+{
+  "id": 496,
+  "title": "Kori Gassi (Mangalorean Chicken Curry)",
+  "category": "Indian",
+  "image": "assets/images/indian/kori-gassi.png",
+  "servings": "4",
+  "time": "Prep Time: 20 min | Cook Time: 50 min",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "1 kg chicken (with bones for best flavor), cut into medium pieces",
+        "2 tbsp coconut oil or ghee",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "For the Spice Paste",
+      "items": [
+        "1 cup grated fresh coconut",
+        "8–10 dried red chilies (adjust to heat preference)",
+        "2 tsp coriander seeds",
+        "1 tsp cumin seeds",
+        "1 tsp black peppercorns",
+        "1/2 tsp fennel seeds",
+        "1 tsp poppy seeds (optional, gives richness)",
+        "1 tsp turmeric powder",
+        "5–6 garlic cloves",
+        "1-inch piece ginger",
+        "1/2 tsp fenugreek seeds (methi)",
+        "1/2 cup water (for grinding)"
+      ]
+    },
+    {
+      "title": "For the Curry",
+      "items": [
+        "2 medium onions, finely chopped",
+        "2 medium tomatoes, chopped",
+        "2–3 green chilies, slit",
+        "1 sprig curry leaves",
+        "1 cup water or chicken stock",
+        "2 tbsp tamarind paste (soaked in warm water)",
+        "2 tbsp fresh coriander leaves, chopped (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Roast the Spices",
+      "steps": [
+        "Dry roast coriander seeds, cumin seeds, fennel seeds, black pepper, fenugreek, and dried red chilies in a pan until aromatic (do not burn).",
+        "Let cool."
+      ]
+    },
+    {
+      "title": "2. Make the Kori Gassi Paste",
+      "steps": [
+        "In a blender, combine roasted spices, grated coconut, garlic, ginger, turmeric, and poppy seeds.",
+        "Grind into a smooth paste using about 1/2 cup water. Set aside."
+      ]
+    },
+    {
+      "title": "3. Cook the Chicken",
+      "steps": [
+        "Heat coconut oil in a heavy-bottomed pan.",
+        "Add onions and sauté until golden brown.",
+        "Add green chilies, curry leaves, and tomatoes. Cook until tomatoes soften.",
+        "Add the chicken pieces and sear for 5–7 minutes."
+      ]
+    },
+    {
+      "title": "4. Add the Spice Paste",
+      "steps": [
+        "Mix in the prepared spice paste.",
+        "Stir to coat chicken evenly.",
+        "Cook for 5–10 minutes on medium flame, letting the raw smell of the spices cook off."
+      ]
+    },
+    {
+      "title": "5. Simmer the Curry",
+      "steps": [
+        "Add water or chicken stock to desired consistency.",
+        "Reduce heat, cover, and simmer for 25–30 minutes until chicken is tender.",
+        "Stir occasionally to prevent sticking."
+      ]
+    },
+    {
+      "title": "6. Final Touch",
+      "steps": [
+        "Stir in tamarind water for tanginess.",
+        "Adjust salt and spice.",
+        "Garnish with fresh coriander leaves."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use bone-in chicken for depth of flavor.",
+    "Freshly grated coconut gives a creamy texture and authentic aroma.",
+    "Slow roasting spices enhances fragrance and layers of flavor.",
+    "A few drops of coconut oil at the end elevates the curry to top-restaurant richness.",
+    "Pair with Neer Dosa, steamed rice, or Ragi Mudde for an authentic South Indian experience."
+  ]
+}
