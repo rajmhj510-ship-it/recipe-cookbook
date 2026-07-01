@@ -1357,6 +1357,150 @@
     "time": "9 hr 30 min",
     "difficulty": "Medium"
   },
+    {
+    "id": 514,
+    "title": "Bhature",
+    "category": "Indian",
+    "image": "assets/images/indian/bhature.png",
+    "time": "2 hr 30 min",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 515,
+    "title": "Chole Bhature",
+    "category": "Indian",
+    "image": "assets/images/indian/chole-bhature.png",
+    "time": "1 hr",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 516,
+    "title": "Aloo Paratha",
+    "category": "Indian",
+    "image": "assets/images/indian/aloo-paratha.png",
+    "time": "50 min",
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 517,
+    "title": "Puri Bhaji",
+    "category": "Indian",
+    "image": "assets/images/indian/puri-bhaji.png",
+    "time": "45 min",
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 518,
+    "title": "Sambar",
+    "category": "South Indian",
+    "image": "assets/images/south-indian/sambar.png",
+    "time": "45 min",
+    "difficulty": "Medium",
+    "servings": 6
+  },
+  {
+    "id": 519,
+    "title": "Curd Rice (Thayir Sadam)",
+    "category": "South Indian",
+    "image": "assets/images/south-indian/curd-rice.png",
+    "time": "30 min",
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 520,
+    "title": "Tomato Rice",
+    "category": "South Indian",
+    "image": "assets/images/south-indian/tomato-rice.png",
+    "time": "45 min",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 521,
+    "title": "Lemon Rice",
+    "category": "South Indian",
+    "image": "assets/images/south-indian/lemon-rice.png",
+    "time": "30 min",
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 522,
+    "title": "Kashmiri Pulao",
+    "category": "Indian",
+    "image": "assets/images/indian/kashmiri-pulao.png",
+    "time": "45 min",
+    "difficulty": "Medium",
+    "servings": 4
+  },
+  {
+    "id": 523,
+    "title": "Vegetable Pulao",
+    "category": "Indian",
+    "image": "assets/images/indian/vegetable-pulao.png",
+    "time": "45 min",
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 524,
+    "title": "Jeera Rice",
+    "category": "Indian",
+    "image": "assets/images/indian/jeera-rice.png",
+    "time": "25 min",
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 525,
+    "title": "Plain Rice",
+    "category": "Indian",
+    "image": "assets/images/indian/plain-rice.png",
+    "time": "30 min",
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 526,
+    "title": "Yellow Gravy",
+    "category": "Indian",
+    "image": "assets/images/indian/yellow-gravy.png",
+    "time": "30 min",
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 527,
+    "title": "South Indian Coconut-Based Gravy",
+    "category": "South Indian",
+    "image": "assets/images/south-indian/coconut-based-gravy.png",
+    "time": "35 min",
+    "difficulty": "Easy",
+    "servings": 4
+  },
+  {
+    "id": 528,
+    "title": "White Gravy for Paneer or Chicken",
+    "category": "Indian",
+    "image": "assets/images/indian/white-gravy-paneer-chicken.png",
+    "time": "55 min",
+    "difficulty": "Medium",
+    "servings": 5
+  },
+  {
+    "id": 529,
+    "title": "Green Gravy (Hariyali Gravy)",
+    "category": "Indian",
+    "image": "assets/images/indian/green-gravy.png",
+    "time": "35 min",
+    "difficulty": "Easy",
+    "servings": 4
+  },
 
   {
     "id": 901,
