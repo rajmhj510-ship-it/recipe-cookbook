@@ -1351,8 +1351,8 @@
     "id": 513,
     "title": "Dosa",
     "category": "Indian",
-    "file": "data/indian/dosa.png.json",
-    "image": "assets/images/indian/dosa.png.png",
+    "file": "data/indian/dosa.json",
+    "image": "assets/images/indian/dosa.png",
     "description": "",
     "time": "9 hr 30 min",
     "difficulty": "Medium"
