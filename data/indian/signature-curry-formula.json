@@ -1,0 +1,74 @@
+{
+  "id": "529",
+  "title": "Signature Curry Formula Using Advanced Kitchen King Masala",
+  "description": "This formula works as a template: just swap the protein/vegetables and adjust cooking time. You can also double the masala for very intense restaurant-level flavor.",
+
+  "category": "Indian",
+  "time": "45–60 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/signature-curry-formula.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Cooking oil / ghee – 3 tbsp",
+        "Onion – 2 medium, finely chopped",
+        "Garlic – 4 cloves, minced",
+        "Ginger – 1-inch piece, minced",
+        "Tomato – 2 medium, pureed",
+        "Advanced Kitchen King Masala – 2 tsp (adjust to taste)",
+        "Salt – to taste",
+        "Red chili powder – 1/2 tsp (optional, for extra heat)",
+        "Cream or yogurt – 3 tbsp (optional, for richness)",
+        "Vegetables / paneer / chicken – 500 g",
+        "Fresh coriander leaves – for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Base Preparation",
+      "steps": [
+        "Heat oil or ghee in a heavy-bottomed pan.",
+        "Add finely chopped onions. Sauté on medium-low flame until golden brown (the caramelization adds depth).",
+        "Add minced garlic and ginger. Sauté 1–2 minutes until aromatic."
+      ]
+    },
+    {
+      "title": "Step 2 – Masala Layer",
+      "steps": [
+        "Add pureed tomato. Cook until oil separates from the mixture.",
+        "Sprinkle 2 tsp Advanced Kitchen King Masala and optional red chili powder.",
+        "Cook for 2–3 minutes, stirring constantly, so the spices bloom."
+      ]
+    },
+    {
+      "title": "Step 3 – Protein or Vegetables",
+      "steps": [
+        "Add your choice of vegetables, paneer, or chicken.",
+        "Stir well, coating with the masala.",
+        "Add 1/2–3/4 cup water (depending on curry thickness). Cover and simmer:",
+        "Vegetables: 10–12 minutes",
+        "Paneer: 5–7 minutes",
+        "Chicken: 15–20 minutes"
+      ]
+    },
+    {
+      "title": "Step 4 – Finishing Touches",
+      "steps": [
+        "Stir in cream or yogurt for richness.",
+        "Adjust salt and spice.",
+        "Garnish with fresh coriander leaves."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Caramelized onions + roasted spices = restaurant magic.",
+    "Add cream at the end to prevent curdling and maintain a silky texture.",
+    "Simmer on low heat for deeper flavor; rushing this step is a common home-cook mistake.",
+    "For extra aroma, sprinkle a pinch of garam masala (or extra Kitchen King Masala) just before serving."
+  ]
+}
