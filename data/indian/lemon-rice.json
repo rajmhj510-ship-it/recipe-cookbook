@@ -1,0 +1,93 @@
+{
+  "id": "521",
+  "title": "Lemon Rice",
+  "description": "A classic South Indian rice dish flavored with fresh lemon juice, curry leaves, and a fragrant tempering of spices. Perfect as a light main or a side, often paired with yogurt, pickles, or papad.",
+
+  "category": "Indian",
+  "time": "25 min",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/lemon-rice.png",
+
+  "ingredients": [
+    {
+      "title": "For the Rice",
+      "items": [
+        "1 cup (200 g) raw basmati or sona masoori rice",
+        "2 cups water",
+        "½ tsp salt",
+        "½ tsp oil or ghee"
+      ]
+    },
+    {
+      "title": "For the Tempering (Tadka)",
+      "items": [
+        "2 tbsp sesame oil (or sunflower/groundnut oil for authenticity)",
+        "½ tsp mustard seeds",
+        "½ tsp cumin seeds (optional, South Indian homes often skip)",
+        "1–2 dried red chilies, broken in half",
+        "1–2 fresh green chilies, slit lengthwise",
+        "10–12 fresh curry leaves",
+        "1 tbsp roasted peanuts or cashews",
+        "½ tsp turmeric powder",
+        "¼ tsp asafoetida (hing)"
+      ]
+    },
+    {
+      "title": "For the Flavor Base",
+      "items": [
+        "Juice of 1 large lemon (about 2 tbsp), freshly squeezed",
+        "½ tsp salt (adjust to taste)",
+        "1 tsp sugar (balances acidity, optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Cook the Rice",
+      "steps": [
+        "Rinse rice in cold water 2–3 times until water runs clear.",
+        "In a pot, add rice, 2 cups water, salt, and oil/ghee.",
+        "Bring to a boil, then reduce heat to low, cover, and cook 10–12 minutes until water is absorbed.",
+        "Turn off heat and let sit (covered) for 5 minutes. Fluff gently with a fork.",
+        "Tip: Spread rice on a wide plate to cool slightly; this prevents clumping when mixing."
+      ]
+    },
+    {
+      "title": "Step 2: Prepare the Tempering",
+      "steps": [
+        "Heat sesame oil in a heavy pan or wok over medium heat.",
+        "Add mustard seeds; let them crackle.",
+        "Add cumin seeds (if using), dried red chilies, and green chilies. Sauté 20–30 seconds.",
+        "Add curry leaves (stand back, they splutter!).",
+        "Add peanuts/cashews; sauté until golden.",
+        "Sprinkle in turmeric and asafoetida; stir quickly to avoid burning."
+      ]
+    },
+    {
+      "title": "Step 3: Combine & Finish",
+      "steps": [
+        "Add cooked rice to the pan with the tempering.",
+        "Season with additional salt if needed.",
+        "Drizzle in lemon juice and sugar; toss gently until evenly coated and golden yellow.",
+        "Turn off heat; let rest 2–3 minutes for flavors to meld."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve warm or at room temperature in a wide, shallow bowl.",
+      "Garnish with extra curry leaves or a sprinkle of chopped coriander (optional).",
+      "Pair with yogurt, pickles, or papad."
+    ]
+  },
+
+  "chefTips": [
+    "Rice texture: Slightly firm grains (not mushy) are key.",
+    "Oil choice: Sesame oil gives authentic aroma; ghee gives richness.",
+    "Lemon juice: Always add after turning off the heat to preserve fresh citrus flavor.",
+    "Make-ahead: This travels well—ideal for lunch boxes or picnics."
+  ]
+}
