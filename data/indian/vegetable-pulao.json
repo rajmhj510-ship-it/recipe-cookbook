@@ -1,0 +1,104 @@
+{
+  "id": "523",
+  "title": "Vegetable Pulao",
+  "description": "A fragrant one-pot rice dish made with basmati rice, aromatic whole spices, and colorful mixed vegetables. Light, flavorful, and perfect for everyday meals or festive occasions.",
+
+  "category": "Indian",
+  "time": "45 min",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/vegetable-pulao.png",
+
+  "ingredients": [
+    {
+      "title": "For Rice",
+      "items": [
+        "1½ cups basmati rice",
+        "3 cups water (or as needed)",
+        "1 bay leaf",
+        "2–3 green cardamom pods",
+        "1 small cinnamon stick (about 1 inch)",
+        "2 cloves",
+        "½ tsp salt"
+      ]
+    },
+    {
+      "title": "For Pulao Base",
+      "items": [
+        "3 tbsp ghee (clarified butter) or neutral oil",
+        "1 tsp cumin seeds",
+        "1 bay leaf (extra, optional)",
+        "1 medium onion, thinly sliced",
+        "1½ tsp ginger–garlic paste",
+        "2 green chilies, slit lengthwise (adjust heat as desired)",
+        "1 cup mixed vegetables (carrot, beans, peas, cauliflower, capsicum) – cut into small cubes",
+        "½ tsp turmeric powder",
+        "1 tsp coriander powder",
+        "½ tsp garam masala",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "2 tbsp fresh coriander leaves, chopped",
+        "1 tbsp fried cashews (optional)",
+        "Lemon wedges for serving"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Prepare the Rice",
+      "steps": [
+        "Rinse basmati rice gently under running water until the water runs clear. Soak for 20 minutes, then drain.",
+        "In a pot, bring 3 cups of water to a boil with bay leaf, cardamom, cinnamon, cloves, and salt.",
+        "Add soaked rice, cook until 90% done (grains should be just tender but not broken).",
+        "Drain and set aside to prevent overcooking."
+      ]
+    },
+    {
+      "title": "Step 2: Make the Pulao Base",
+      "steps": [
+        "Heat ghee/oil in a heavy-bottomed pan.",
+        "Add cumin seeds, and when they splutter, add bay leaf, sliced onions, and sauté until golden brown.",
+        "Add ginger–garlic paste, sauté for 30 seconds until fragrant.",
+        "Add slit green chilies and vegetables; sauté for 3–4 minutes.",
+        "Add turmeric, coriander powder, salt, and mix well. Sprinkle a little water and cover; cook until vegetables are just tender."
+      ]
+    },
+    {
+      "title": "Step 3: Combine & Steam",
+      "steps": [
+        "Add the pre-cooked rice gently to the vegetable mixture.",
+        "Sprinkle garam masala and fresh coriander.",
+        "Mix gently so grains remain separate.",
+        "Cover with a tight-fitting lid and steam on low heat for 8–10 minutes (dum method)."
+      ]
+    },
+    {
+      "title": "Step 4: Serve",
+      "steps": [
+        "Fluff rice gently before serving.",
+        "Garnish with fried cashews and lemon wedges.",
+        "Serve hot with raita, papad, or pickle."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with raita.",
+      "Pair with papad or pickle.",
+      "Garnish with fried cashews and fresh coriander."
+    ]
+  },
+
+  "chefTips": [
+    "Rice texture: Always parboil rice separately for perfect grain separation.",
+    "Vegetable choice: Seasonal vegetables enhance aroma and color.",
+    "Ghee vs Oil: Ghee adds richness; for vegan pulao, use vegetable oil or coconut oil.",
+    "Dum cooking: Wrapping the lid with a kitchen towel prevents steam from escaping, ensuring aromatic infusion."
+  ]
+}
