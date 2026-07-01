@@ -1,0 +1,104 @@
+{
+  "id": "513",
+  "title": "Masala Dosa",
+  "description": "Masala Dosa is one of South India's most iconic dishes, featuring a crispy fermented rice and lentil crêpe filled with a lightly spiced potato masala. Served with coconut chutney, tomato chutney, and sambar, it is a beloved breakfast and restaurant favorite.",
+
+  "category": "Indian",
+  "time": "9 hr 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/masala-dosa.png",
+
+  "ingredients": [
+    {
+      "title": "For the Dosa Batter",
+      "items": [
+        "Raw rice (dosa rice or parboiled idli rice) – 2 cups",
+        "Urad dal (split black gram, skinless) – ½ cup",
+        "Chana dal – 2 tbsp (optional)",
+        "Fenugreek (methi) seeds – 1 tbsp",
+        "Poha (flattened rice) – ½ cup",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "For the Potato Masala Filling",
+      "items": [
+        "Medium potatoes, boiled & mashed – 4",
+        "Medium onions, thinly sliced – 2",
+        "Green chilies, slit – 2",
+        "Grated ginger – 1 tsp",
+        "Curry leaves – 8–10",
+        "Mustard seeds – 1 tsp",
+        "Turmeric powder – ½ tsp",
+        "Dry red chilies – 1–2 (optional)",
+        "Chana dal – 1 tbsp",
+        "Urad dal – 1 tbsp",
+        "Oil or ghee – 2 tbsp",
+        "Salt – to taste",
+        "Fresh coriander leaves, chopped"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Dosa Batter",
+      "steps": [
+        "Wash the rice, urad dal, chana dal, and fenugreek seeds thoroughly.",
+        "Soak them together in water for about 6 hours.",
+        "Soak the poha separately for 30 minutes before grinding.",
+        "Grind everything together with cold water into a smooth, slightly thick batter.",
+        "Ferment the batter overnight (8–12 hours) in a warm place until doubled in volume.",
+        "Add salt and mix gently before making dosas."
+      ]
+    },
+    {
+      "title": "2. Prepare the Potato Masala",
+      "steps": [
+        "Heat oil or ghee in a pan.",
+        "Add mustard seeds and allow them to splutter.",
+        "Add chana dal, urad dal, dry red chilies, and curry leaves.",
+        "Add green chilies, grated ginger, and sliced onions. Sauté until the onions become translucent.",
+        "Mix in turmeric powder and salt.",
+        "Add the mashed potatoes and combine well.",
+        "Sprinkle a little water for a soft texture and cook for 2–3 minutes.",
+        "Finish with chopped coriander leaves."
+      ]
+    },
+    {
+      "title": "3. Cook the Masala Dosa",
+      "steps": [
+        "Heat a well-seasoned cast iron tawa or non-stick griddle over medium-high heat.",
+        "Lightly grease the surface with oil.",
+        "Pour a ladle of batter into the center and spread it outward in a thin circular motion.",
+        "Drizzle a few drops of oil or ghee around the edges.",
+        "Cook until the dosa becomes crisp and golden brown.",
+        "Place 2–3 tablespoons of potato masala in the center.",
+        "Fold the dosa into a roll or triangle and serve immediately."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "Chutneys": [
+      "Fresh coconut chutney",
+      "Tomato chutney"
+    ],
+    "Side Dish": [
+      "Hot South Indian vegetable sambar"
+    ],
+    "Restaurant Style": [
+      "Serve immediately while crisp with chutneys and sambar.",
+      "Brush the dosa lightly with butter or ghee before serving for extra richness."
+    ]
+  },
+
+  "chefTips": [
+    "Maintain a 4:1 ratio of rice to urad dal for crisp and flavorful dosas.",
+    "The batter should remain slightly thick; thin it only when making dosas if needed.",
+    "Always stir the fermented batter gently without overmixing.",
+    "Cook on medium-high heat. A low flame makes the dosa pale, while excessive heat may burn it before it crisps.",
+    "Keep the potato masala soft and mildly seasoned so it complements the crispy dosa.",
+    "For restaurant-quality results, use a well-seasoned cast iron tawa."
+  ]
+}
