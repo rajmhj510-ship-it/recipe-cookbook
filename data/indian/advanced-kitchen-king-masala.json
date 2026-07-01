@@ -1,0 +1,88 @@
+{
+  "id": "530",
+  "title": "Advanced Kitchen King Masala",
+  "description": "Advanced Kitchen King Masala is a rich, aromatic spice blend made with roasted whole spices, roasted onion, garlic, and tomato powders. It is perfect for restaurant-style gravies, paneer dishes, dals, and biryanis.",
+
+  "category": "Indian",
+  "time": "75 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/advanced-kitchen-king-masala.png",
+
+  "ingredients": [
+    {
+      "title": "Whole Spices",
+      "items": [
+        "Coriander seeds – 4 tbsp",
+        "Cumin seeds – 2 tbsp",
+        "Fennel seeds – 1 tbsp",
+        "Black peppercorns – 1 tsp",
+        "Dry red chilies – 6–8 (adjust heat)",
+        "Cinnamon stick – 2-inch piece",
+        "Cloves – 5",
+        "Green cardamom – 5",
+        "Black cardamom – 1",
+        "Bay leaf – 1",
+        "Nutmeg – 1/4 tsp (freshly grated)",
+        "Mace – 1/4 tsp"
+      ]
+    },
+    {
+      "title": "Powdered Ingredients",
+      "items": [
+        "Dry ginger powder – 1 tsp",
+        "Turmeric powder – 1 tsp",
+        "Roasted onion powder – 3 tbsp",
+        "Roasted garlic powder – 2 tbsp",
+        "Roasted tomato powder – 2 tbsp"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Make Roasted Powders",
+      "steps": [
+        "Onion Powder: Thinly slice 2 medium onions.",
+        "Roast on low flame or in a 120°C oven for 45–60 min until golden brown and fully dry.",
+        "Cool and grind to a fine powder.",
+        "Garlic Powder: Peel 8–10 garlic cloves.",
+        "Roast on low heat until dry and slightly golden.",
+        "Cool and grind to fine powder.",
+        "Tomato Powder: Use 2 medium ripe tomatoes. Slice and dehydrate in oven at 120°C for 4–5 hours until fully dry.",
+        "Grind to a smooth powder."
+      ]
+    },
+    {
+      "title": "Step 2 – Roast Whole Spices",
+      "steps": [
+        "Heat a pan on low-medium flame.",
+        "Add coriander seeds, cumin seeds, fennel seeds, black peppercorns, dry red chilies, cinnamon, cloves, green & black cardamom, bay leaf.",
+        "Roast gently for 3–5 minutes until aromatic."
+      ]
+    },
+    {
+      "title": "Step 3 – Grind Everything Together",
+      "steps": [
+        "Cool roasted spices completely.",
+        "Transfer to a grinder.",
+        "Add powdered spices: nutmeg, mace, dry ginger, turmeric, roasted onion, garlic, and tomato powders.",
+        "Grind to a very fine, silky powder."
+      ]
+    },
+    {
+      "title": "Step 4 – Store Professionally",
+      "steps": [
+        "Sieve if desired for smooth texture.",
+        "Store in an airtight jar away from moisture and sunlight.",
+        "Use sparingly—this is intensely flavorful, perfect for restaurant-level curries."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Roast powders slowly to avoid bitterness.",
+    "Keep roasted powders separate if storing long-term; mix in small batches for freshness.",
+    "This masala works beautifully in gravies, paneer dishes, dals, and biryanis.",
+    "For an extra umami kick, add a tiny pinch of asafoetida (hing) when cooking."
+  ]
+}
