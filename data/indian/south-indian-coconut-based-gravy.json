@@ -1,0 +1,92 @@
+{
+  "id": "527",
+  "title": "South Indian Coconut-Based Gravy",
+  "description": "South Indian coconut-based gravy that works beautifully as a base or accompaniment for Fish Curry, Vegetable Stew, and Prawns. This gravy is creamy, aromatic, and balanced with traditional spices.",
+
+  "category": "Indian",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/south-indian-coconut-based-gravy.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Fresh grated coconut — 1 cup (or frozen, thawed)",
+        "Water — 1 cup (adjust for desired consistency)",
+        "Green chilies — 2 to 3 (adjust to taste)",
+        "Ginger — 1-inch piece",
+        "Garlic — 4 cloves",
+        "Shallots or small onions — 6 to 8",
+        "Curry leaves — 1 sprig",
+        "Mustard seeds — 1 tsp",
+        "Fenugreek seeds — ¼ tsp",
+        "Dried red chilies — 2 (optional, for extra heat)",
+        "Coconut oil — 2 tbsp",
+        "Turmeric powder — ½ tsp",
+        "Coriander powder — 1 tsp",
+        "Black pepper — ½ tsp",
+        "Tamarind pulp — 1 tbsp (optional, for tanginess)",
+        "Salt — to taste",
+        "Fresh coriander leaves — for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Prepare the Coconut Paste",
+      "steps": [
+        "In a blender, combine grated coconut, green chilies, ginger, garlic, and shallots.",
+        "Add about ½ cup of water and grind to a smooth paste. Add more water if needed to get a thick but smooth consistency."
+      ]
+    },
+    {
+      "title": "Step 2: Tempering",
+      "steps": [
+        "Heat coconut oil in a pan over medium heat.",
+        "Add mustard seeds and let them splutter.",
+        "Add fenugreek seeds, dried red chilies, and curry leaves. Sauté for 30 seconds until fragrant."
+      ]
+    },
+    {
+      "title": "Step 3: Cook the Paste",
+      "steps": [
+        "Add the ground coconut paste to the pan.",
+        "Stir well and cook on medium-low heat for about 5-7 minutes, stirring frequently to avoid sticking."
+      ]
+    },
+    {
+      "title": "Step 4: Add Spices and Seasoning",
+      "steps": [
+        "Mix in turmeric powder, coriander powder, and black pepper.",
+        "Add tamarind pulp if using, along with salt.",
+        "Add remaining water (up to ½ cup) to adjust the gravy consistency.",
+        "Simmer for another 5-10 minutes, stirring occasionally, until the raw smell disappears and the gravy thickens slightly."
+      ]
+    },
+    {
+      "title": "Step 5: Final Touches",
+      "steps": [
+        "Taste and adjust seasoning.",
+        "Garnish with fresh coriander leaves."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "Serving Suggestions": [
+      "Use this gravy as a base for fish or prawn curry by adding your choice of seafood at the simmering stage.",
+      "For a vegetable stew, add mixed vegetables like carrots, beans, potatoes, and peas after the paste is cooked and simmer until tender.",
+      "Serve hot with steamed rice, appam, or idiyappam."
+    ]
+  },
+
+  "chefTips": [
+    "Use fresh grated coconut for the best flavor and creamy texture.",
+    "Cook the coconut paste over medium-low heat to prevent it from sticking or separating.",
+    "Adjust the amount of tamarind depending on the dish you are preparing.",
+    "Coconut oil gives the gravy its authentic South Indian aroma.",
+    "This gravy can be used as a base for fish, prawns, vegetables, or even eggs."
+  ]
+}
