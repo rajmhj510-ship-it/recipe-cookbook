@@ -1,0 +1,107 @@
+{
+  "id": "513",
+  "title": "Plain Dosa",
+  "description": "Plain Dosa is a classic South Indian fermented rice and lentil crêpe known for its crisp golden exterior and soft, airy center. Made from naturally fermented batter, it is a staple breakfast and dinner dish traditionally served with sambar and a variety of chutneys.",
+
+  "category": "Indian",
+  "time": "14 hr",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/plain-dosa.png",
+
+  "ingredients": [
+    {
+      "title": "For the Dosa Batter",
+      "items": [
+        "Parboiled rice – 2 cups",
+        "Raw rice (Sona Masoori or Ponni) – 1 cup",
+        "Whole urad dal (split & skinned black gram) – 1 cup",
+        "Chana dal – 2 tbsp",
+        "Poha (flattened rice) – 3 tbsp",
+        "Fenugreek (methi) seeds – 1 tsp",
+        "Salt – to taste",
+        "Filtered water – as required"
+      ]
+    },
+    {
+      "title": "For Cooking",
+      "items": [
+        "Gingelly (Indian sesame) oil or neutral cooking oil – as required",
+        "Ghee (optional) – as required"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Soak the Ingredients",
+      "steps": [
+        "Wash and soak the urad dal with fenugreek seeds in plenty of water.",
+        "Wash and soak the parboiled rice, raw rice, chana dal, and poha separately.",
+        "Soak for at least 6 hours or overnight in cooler weather."
+      ]
+    },
+    {
+      "title": "2. Grind the Batter",
+      "steps": [
+        "Grind the soaked urad dal and fenugreek into a smooth, fluffy batter, adding water gradually.",
+        "Grind the soaked rice mixture into a smooth batter with a slightly coarse texture.",
+        "Combine both batters in a large bowl.",
+        "Add salt and mix well."
+      ]
+    },
+    {
+      "title": "3. Ferment the Batter",
+      "steps": [
+        "Cover the bowl and ferment the batter for 8–12 hours in a warm place.",
+        "The batter should double in volume, develop air bubbles, and have a mild sour aroma."
+      ]
+    },
+    {
+      "title": "4. Prepare the Tawa",
+      "steps": [
+        "Heat a well-seasoned cast iron or non-stick tawa over medium heat.",
+        "Sprinkle a little water; it should sizzle immediately.",
+        "Wipe the surface clean using a cloth or a cut onion dipped in oil."
+      ]
+    },
+    {
+      "title": "5. Cook the Dosa",
+      "steps": [
+        "Pour a ladle of batter into the center of the tawa.",
+        "Spread it outward in a circular spiral to form a thin dosa.",
+        "Drizzle oil or ghee around the edges and lightly over the surface.",
+        "Cook until the dosa becomes crisp, golden brown, and releases easily from the pan.",
+        "For extra crispness, cook slightly longer before folding."
+      ]
+    },
+    {
+      "title": "6. Serve",
+      "steps": [
+        "Fold into a triangle or roll into a cylinder.",
+        "Serve immediately while hot."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "Traditional Accompaniments": [
+      "South Indian vegetable sambar",
+      "Fresh coconut chutney",
+      "Tomato chutney"
+    ],
+    "Restaurant Style": [
+      "Serve immediately while hot and crispy.",
+      "Brush with a little ghee before serving for a richer aroma."
+    ]
+  },
+
+  "chefTips": [
+    "Urad dal creates softness, while rice provides structure and crispness.",
+    "Chana dal gives the dosa its characteristic golden color and extra crunch.",
+    "Poha improves fermentation and produces a softer interior.",
+    "In cold weather, ferment the batter inside an oven with the light turned on.",
+    "For authentic flavor, use gingelly (sesame) oil or a mixture of sesame oil and ghee.",
+    "Rub a cut onion dipped in oil over a cast iron tawa before each dosa to maintain a naturally non-stick surface.",
+    "Maintain medium-high heat throughout cooking for evenly browned, crispy dosas."
+  ]
+}
