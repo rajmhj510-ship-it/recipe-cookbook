@@ -1,12 +1,12 @@
 {
   "id": "513",
-  "title": "Plain Dosa",
-  "description": "Plain Dosa is a classic South Indian fermented rice and lentil crêpe known for its crisp golden exterior and soft, airy center. Made from naturally fermented batter, it is a staple breakfast and dinner dish traditionally served with sambar and a variety of chutneys.",
+  "title": "Dosa",
+  "description": "Dosa is a classic South Indian fermented rice and lentil crêpe known for its crisp golden exterior and soft, airy center. Made from naturally fermented batter, it is a staple breakfast and dinner dish traditionally served with sambar and a variety of chutneys.",
 
   "category": "Indian",
   "time": "14 hr",
   "difficulty": "Medium",
-  "image": "assets/images/indian/plain-dosa.png",
+  "image": "assets/images/indian/dosa.png",
 
   "ingredients": [
     {
