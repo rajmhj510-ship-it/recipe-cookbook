@@ -1,0 +1,103 @@
+{
+  "id": "520",
+  "title": "Tomato Rice",
+  "description": "A South Indian–inspired tomato rice prepared with fragrant basmati rice, aromatic whole spices, and a rich tomato masala. This restaurant-style recipe delivers vibrant flavor with perfectly separate grains.",
+
+  "category": "Indian",
+  "time": "45 min",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/tomato-rice.png",
+
+  "ingredients": [
+    {
+      "title": "For the Rice",
+      "items": [
+        "2 cups aged basmati rice (soaked 20 minutes, drained)",
+        "3½ cups vegetable stock (or water)",
+        "½ tsp turmeric powder",
+        "½ tsp salt"
+      ]
+    },
+    {
+      "title": "For the Tomato Masala Base",
+      "items": [
+        "3 tbsp ghee (or sunflower oil for lighter flavor)",
+        "1 tsp cumin seeds",
+        "1 tsp fennel seeds",
+        "4 green cardamoms",
+        "2 cloves",
+        "1-inch cinnamon stick",
+        "1 large red onion, finely sliced",
+        "2 tbsp ginger-garlic paste",
+        "3 large ripe tomatoes, blanched, peeled & pureed",
+        "2 medium tomatoes, finely chopped",
+        "1–2 green chilies, slit",
+        "½ tsp red chili powder",
+        "½ tsp coriander powder",
+        "½ tsp garam masala",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "For Finishing",
+      "items": [
+        "8–10 fresh curry leaves",
+        "1 tbsp cashew nuts, lightly roasted in ghee",
+        "1 tbsp fresh coriander leaves, finely chopped",
+        "Few strands saffron, infused in 2 tbsp warm milk"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Prepare the Rice",
+      "steps": [
+        "Bring vegetable stock to a boil with turmeric and salt.",
+        "Add soaked basmati rice, cover, and cook on low until just done (fluffy, grains separate).",
+        "Spread on a tray, drizzle with a touch of ghee, and allow to cool slightly to prevent clumping."
+      ]
+    },
+    {
+      "title": "Step 2: Tomato Masala Base",
+      "steps": [
+        "Heat ghee in a heavy-bottom pan. Add cumin, fennel, cardamom, cloves, and cinnamon.",
+        "Once aromatic, add sliced onions. Sauté until golden brown (slow caramelization for depth).",
+        "Stir in ginger-garlic paste, cook until raw aroma disappears.",
+        "Add tomato puree and chopped tomatoes. Cook on medium until thick, rich, and oil begins to release.",
+        "Mix in red chili powder, coriander powder, and garam masala. Adjust seasoning."
+      ]
+    },
+    {
+      "title": "Step 3: Combine",
+      "steps": [
+        "Gently fold in cooked rice with the tomato masala.",
+        "Add curry leaves, roasted cashews, and saffron milk.",
+        "Toss lightly so grains remain long and separate."
+      ]
+    },
+    {
+      "title": "Step 4: Rest & Serve",
+      "steps": [
+        "Cover with a lid and let it rest for 5 minutes off the heat.",
+        "Serve elegantly in a ring mold or copper handi, garnished with microgreens or edible flowers for a fine-dining touch."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with onion raita or plain curd.",
+      "Pair with papad and pickle.",
+      "Garnish with roasted cashews and fresh coriander before serving."
+    ]
+  },
+
+  "chefTips": [
+    "Tomatoes: Use fully ripe, slightly tart tomatoes for balance. Avoid overly watery ones.",
+    "Rice Texture: Cook rice separately, then fold into masala. This ensures non-sticky, aromatic grains.",
+    "Layered Flavor: Caramelizing onions slowly and cooking tomato until the oil separates are crucial for deep, rich flavor.",
+    "Presentation: Serve with a quenelle of raita, papad tuile, or micro coriander garnish for haute cuisine plating."
+  ]
+}
