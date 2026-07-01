@@ -1,0 +1,108 @@
+{
+  "id": "519",
+  "title": "Curd Rice (Thayir Sadam)",
+  "description": "Curd Rice (Thayir Sadam) is a comforting South Indian rice dish made with cooked rice, fresh curd, and a flavorful tempering of spices. Creamy, refreshing, and easy to digest, it is often served as the final course of a traditional meal.",
+
+  "category": "Indian",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/curd-rice.png",
+
+  "ingredients": [
+    {
+      "title": "For the Rice",
+      "items": [
+        "1 cup Basmati or Ponni rice (short-grain is preferable)",
+        "2 cups water",
+        "½ tsp salt"
+      ]
+    },
+    {
+      "title": "For the Curd Mixture",
+      "items": [
+        "2 cups fresh curd (yogurt), well-whisked",
+        "½ cup milk (optional, for creaminess)",
+        "Salt to taste"
+      ]
+    },
+    {
+      "title": "For Tempering (Tadka)",
+      "items": [
+        "1 tsp ghee or oil",
+        "½ tsp mustard seeds",
+        "1 tsp urad dal (split black gram)",
+        "1 tsp chana dal (optional)",
+        "1–2 green chilies, finely chopped",
+        "1–2 dried red chilies, broken",
+        "8–10 curry leaves",
+        "1 pinch asafoetida (hing)",
+        "2 tbsp grated fresh ginger",
+        "1–2 green chilies finely chopped (optional extra spice)",
+        "1–2 small fresh red chilies (optional, for color)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "2 tbsp fresh coriander, chopped",
+        "1–2 tbsp pomegranate seeds (optional, for color and freshness)",
+        "1 tbsp grated carrot (optional, lightly sautéed or raw)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Cook the Rice",
+      "steps": [
+        "Rinse rice thoroughly until water runs clear.",
+        "Cook rice in 2 cups water with ½ tsp salt until soft, slightly mushy but not sticky.",
+        "Tip: Rice should be slightly overcooked so it blends well with curd.",
+        "Spread rice on a plate or tray to cool slightly."
+      ]
+    },
+    {
+      "title": "Step 2: Prepare the Curd Mixture",
+      "steps": [
+        "Whisk curd until smooth.",
+        "Mix in milk for creaminess (optional) and adjust salt.",
+        "Fold the rice gently into the curd until evenly mixed.",
+        "Tip: Avoid over-mixing; a light, fluffy texture is ideal."
+      ]
+    },
+    {
+      "title": "Step 3: Tempering (Tadka)",
+      "steps": [
+        "Heat ghee in a small pan.",
+        "Add mustard seeds; let them splutter.",
+        "Add urad dal, chana dal, curry leaves, green chilies, and dried red chilies.",
+        "Add grated ginger and a pinch of hing; sauté for 20–30 seconds until aromatic.",
+        "Pour the hot tempering over the curd rice and mix gently."
+      ]
+    },
+    {
+      "title": "Step 4: Garnish & Serve",
+      "steps": [
+        "Garnish with chopped coriander, pomegranate seeds, and grated carrot.",
+        "Serve immediately at room temperature or chilled for a refreshing taste."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with pickle or papad for a complete meal.",
+      "Enjoy at room temperature or chilled.",
+      "Pairs well with mango pickle, fried chilies, or potato fry."
+    ]
+  },
+
+  "chefTips": [
+    "Use freshly homemade curd for best flavor.",
+    "Slightly warm the rice before mixing with curd so it absorbs the yogurt evenly.",
+    "Tempering in ghee gives a richer aroma than oil.",
+    "Garnishes like pomegranate and lightly fried curry leaves add visual appeal.",
+    "Serve with pickle or papad for a complete meal."
+  ]
+}
