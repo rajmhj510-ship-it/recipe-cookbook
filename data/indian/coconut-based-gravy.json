@@ -1,0 +1,95 @@
+{
+  "id": "526",
+  "title": "Coconut-Based Gravy (Thengai Kuzhambu Style)",
+  "description": "Coconut-Based Gravy is rich, flavorful, and perfect for pairing with rice, idli, dosa, or even parathas.",
+
+  "category": "Indian",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/coconut-based-gravy.png",
+
+  "ingredients": [
+    {
+      "title": "For the Gravy Paste",
+      "items": [
+        "Fresh grated coconut – 1 cup (or frozen grated coconut, thawed)",
+        "Dry red chilies – 4 to 5 (adjust as per spice level)",
+        "Green chilies – 1 (optional, for extra heat)",
+        "Coriander seeds – 1 tbsp",
+        "Cumin seeds – 1 tsp",
+        "Black peppercorns – 1/2 tsp",
+        "Fennel seeds – 1/2 tsp (optional)",
+        "Shallots or small onions – 6 to 8",
+        "Ginger – 1 inch piece",
+        "Garlic – 3 cloves",
+        "Tamarind pulp – 1 tbsp (soaked in warm water and strained)"
+      ]
+    },
+    {
+      "title": "For the Gravy Base",
+      "items": [
+        "Oil (preferably coconut oil or vegetable oil) – 2 tbsp",
+        "Mustard seeds – 1 tsp",
+        "Curry leaves – 2 sprigs",
+        "Asafoetida (hing) – a pinch",
+        "Turmeric powder – 1/4 tsp",
+        "Salt – to taste",
+        "Water – 1 to 1.5 cups (adjust for desired consistency)"
+      ]
+    },
+    {
+      "title": "Optional",
+      "items": [
+        "Vegetables (like drumsticks, ash gourd, or pumpkin) – 1 cup chopped (if making a vegetable gravy)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Prepare the Paste",
+      "steps": [
+        "Dry roast coriander seeds, cumin seeds, black peppercorns, fennel seeds, and dry red chilies in a pan over medium heat until fragrant (1-2 minutes). Be careful not to burn.",
+        "In the same pan, add shallots, ginger, garlic and sauté till slightly golden.",
+        "Add the fresh grated coconut and roast for 2-3 minutes until lightly browned.",
+        "Let this mixture cool.",
+        "Grind this roasted mix with tamarind pulp and green chili (if using) into a smooth paste adding a little water as needed."
+      ]
+    },
+    {
+      "title": "Step 2: Cook the Gravy",
+      "steps": [
+        "Heat oil in a pan.",
+        "Add mustard seeds and let them splutter.",
+        "Add curry leaves and a pinch of asafoetida.",
+        "Pour the ground coconut-tamarind paste into the pan.",
+        "Add turmeric powder and salt.",
+        "Add water to adjust consistency.",
+        "If adding vegetables, add them now and cook until they are tender.",
+        "Simmer the gravy on medium-low heat for 10-15 minutes, stirring occasionally."
+      ]
+    },
+    {
+      "title": "Step 3: Final Touches",
+      "steps": [
+        "Check seasoning and adjust salt or tamarind if needed.",
+        "Garnish with fresh curry leaves if desired."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "Serving Suggestions": [
+      "Serve hot with steamed rice, idli, dosa, or chapati.",
+      "This gravy goes wonderfully with South Indian meals and is great for lunch or dinner."
+    ]
+  },
+
+  "chefTips": [
+    "Roast the spices gently to enhance their aroma without burning them.",
+    "Use fresh coconut for the richest flavor and texture.",
+    "Adjust the amount of tamarind to balance the tanginess to your taste.",
+    "Simmer the gravy gently to allow the flavors to blend well.",
+    "Coconut oil gives the most authentic South Indian flavor."
+  ]
+}
