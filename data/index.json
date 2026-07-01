@@ -1501,6 +1501,24 @@
     "difficulty": "Easy",
     "servings": 4
   },
+    {
+    "id": 530,
+    "title": "Advanced Kitchen King Masala",
+    "category": "Indian",
+    "image": "assets/images/indian/advanced-kitchen-king-masala.png",
+    "time": "75 min",
+    "difficulty": "Medium",
+    "servings": ""
+  },
+      {
+    "id": 531,
+    "title": "Signature Curry Formula",
+    "category": "Indian",
+    "image": "assets/images/indian/signature-curry-formula.png",
+    "time": "45–60 min",
+    "difficulty": "Medium",
+    "servings": ""
+  },
 
   {
     "id": 901,
