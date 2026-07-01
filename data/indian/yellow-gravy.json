@@ -1,0 +1,104 @@
+{
+  "id": "525",
+  "title": "Yellow Gravy (Yogurt-Besan Gravy)",
+  "description": "Yellow Gravy is a classic Indian curry base that uses yogurt and gram flour (besan) to create a rich, tangy, and creamy gravy. This gravy is often used with vegetables or paneer.",
+
+  "category": "Indian",
+  "time": "25 min",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/yellow-gravy.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Besan (Gram flour) — 3 tbsp",
+        "Yogurt (whisked, preferably thick/full-fat) — 1 cup",
+        "Oil or ghee — 3 tbsp",
+        "Cumin seeds — 1 tsp",
+        "Asafoetida (hing) — a pinch",
+        "Green chili — 1, slit (optional)",
+        "Ginger paste — 1 tsp",
+        "Turmeric powder — ½ tsp",
+        "Red chili powder — ½ tsp (adjust to taste)",
+        "Coriander powder — 1 tsp",
+        "Salt — to taste",
+        "Water — 1 to 1.5 cups (adjust for consistency)",
+        "Fresh coriander leaves — for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Prepare the Yogurt-Besan Mixture",
+      "steps": [
+        "In a bowl, whisk the yogurt well until smooth and lump-free.",
+        "Add the besan (gram flour) and mix thoroughly to combine.",
+        "The mixture should be smooth without any lumps."
+      ]
+    },
+    {
+      "title": "Step 2: Cook the Besan",
+      "steps": [
+        "Heat oil or ghee in a heavy-bottomed pan over medium heat.",
+        "Add cumin seeds and let them splutter.",
+        "Add a pinch of asafoetida and the slit green chili. Sauté for a few seconds.",
+        "Add ginger paste and sauté until raw smell disappears (about 30 seconds)."
+      ]
+    },
+    {
+      "title": "Step 3: Add Spices",
+      "steps": [
+        "Add turmeric powder, red chili powder, and coriander powder.",
+        "Stir quickly to avoid burning the spices."
+      ]
+    },
+    {
+      "title": "Step 4: Cook the Yogurt-Besan Mix",
+      "steps": [
+        "Reduce the flame to low.",
+        "Slowly add the yogurt-besan mixture into the pan, stirring continuously to avoid curdling.",
+        "Cook on low heat, stirring often, for about 5–7 minutes.",
+        "The besan will start to cook and thicken the gravy.",
+        "Keep stirring so it doesn’t stick to the pan."
+      ]
+    },
+    {
+      "title": "Step 5: Add Water & Simmer",
+      "steps": [
+        "Add water little by little to reach your desired gravy consistency.",
+        "Mix well and let it simmer for 5–10 minutes on low heat.",
+        "The gravy should be smooth, thick but pourable."
+      ]
+    },
+    {
+      "title": "Step 6: Adjust Seasoning",
+      "steps": [
+        "Add salt to taste and adjust spices if necessary."
+      ]
+    },
+    {
+      "title": "Step 7: Garnish & Serve",
+      "steps": [
+        "Garnish with chopped fresh coriander leaves.",
+        "Serve hot with steamed rice, roti, or naan."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "Serving Suggestions": [
+      "Serve hot with steamed rice, roti, or naan.",
+      "Can be used as a base for vegetable curries, paneer, or even meat preparations."
+    ]
+  },
+
+  "chefTips": [
+    "Always add the yogurt-besan mix slowly and stir continuously to prevent curdling.",
+    "Use fresh, thick yogurt for the best texture.",
+    "Besan needs to be cooked well to avoid the raw taste; keep the heat low to medium to prevent burning.",
+    "You can add vegetables like potatoes, peas, or cauliflower to make a vegetable curry.",
+    "For a richer flavor, substitute some oil with ghee."
+  ]
+}
