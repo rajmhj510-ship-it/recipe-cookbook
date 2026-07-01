@@ -1,0 +1,82 @@
+{
+  "id": "409",
+  "title": "Ragi Mudde (Finger Millet Balls)",
+  "description": "Cuisine: Indian (Karnataka Specialty)",
+
+  "category": "Indian",
+  "time": "20 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/ragi-mudde.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Ragi Flour (Finger Millet Flour): 1 cup",
+        "Water: 2 cups (for 1 cup flour; adjust slightly if needed)",
+        "Salt: ½ tsp (optional, enhances taste)",
+        "Ghee (Clarified Butter): 1 tsp per serving (optional for finishing)"
+      ]
+    },
+    {
+      "title": "Accompaniments (optional, restaurant style)",
+      "items": [
+        "Sambar (South Indian lentil stew)",
+        "Jaggery & ghee",
+        "Spiced yogurt (curd with green chili, ginger, and curry leaves)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Boil the water",
+      "steps": [
+        "In a heavy-bottomed pan, bring 2 cups water to a rolling boil.",
+        "Add ½ tsp salt if desired."
+      ]
+    },
+    {
+      "title": "2. Prepare Ragi Flour",
+      "steps": [
+        "Dry-roast 1 cup ragi flour lightly for 1–2 minutes in a pan (optional) to remove raw taste."
+      ]
+    },
+    {
+      "title": "3. Form the Mudde",
+      "steps": [
+        "Reduce the heat to low.",
+        "Gradually add the ragi flour into the boiling water while stirring continuously with a wooden spatula or whisk to avoid lumps.",
+        "Cook on low heat for 2–3 minutes, stirring continuously."
+      ]
+    },
+    {
+      "title": "4. Steam & Cook Thoroughly",
+      "steps": [
+        "Cover and allow the mixture to cook on low heat for 5–7 minutes, stirring occasionally.",
+        "Add a little water if the mixture feels too thick or dry while stirring."
+      ]
+    },
+    {
+      "title": "5. Shape into Balls",
+      "steps": [
+        "Wet your hands with water.",
+        "Take small portions of the hot ragi dough and roll into smooth, round balls (size of a small fist, about 2–3 inches).",
+        "Serve immediately for soft texture."
+      ]
+    },
+    {
+      "title": "6. Finishing Touch (optional)",
+      "steps": [
+        "Drizzle a little ghee over the hot Mudde for a glossy, restaurant-style finish."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Consistency: The ragi dough should be soft but firm enough to hold shape. Too stiff → dry balls; too soft → sticky.",
+    "Continuous stirring: Prevents lumps and ensures even cooking.",
+    "Serving style: Traditionally, Mudde is served on a banana leaf with sides like sambar, rasam, or spiced chutney.",
+    "Temperature: Serve hot – Ragi Mudde hardens as it cools."
+  ]
+}
