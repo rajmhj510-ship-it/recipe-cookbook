@@ -1,0 +1,106 @@
+{
+  "id": "525",
+  "title": "Plain Rice",
+  "description": "A simple and fluffy basmati rice recipe that pairs perfectly with curries, dals, and gravies. Lightly scented with optional whole spices for a subtle aroma.",
+
+  "category": "Indian",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/plain-rice.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "1 cup basmati rice",
+        "2 cups water",
+        "1 tbsp ghee or oil (optional, for extra aroma and texture)",
+        "1/2 tsp salt (adjust to taste)"
+      ]
+    },
+    {
+      "title": "Optional Whole Spices",
+      "items": [
+        "1 bay leaf",
+        "2-3 green cardamoms",
+        "2 cloves",
+        "1 small cinnamon stick"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Rinse the Rice",
+      "steps": [
+        "Rinse the basmati rice under cold running water 3-4 times until the water runs clear.",
+        "This removes excess starch and prevents the rice from becoming sticky."
+      ]
+    },
+    {
+      "title": "Step 2: Soak the Rice",
+      "steps": [
+        "Soak the rinsed rice in enough water for 20-30 minutes.",
+        "This helps the grains expand and cook evenly."
+      ]
+    },
+    {
+      "title": "Step 3: Drain",
+      "steps": [
+        "After soaking, drain the rice thoroughly.",
+        "Heat the ghee/oil in a medium pot over medium heat.",
+        "Add the whole spices (optional) and sauté for about 30 seconds until fragrant."
+      ]
+    },
+    {
+      "title": "Step 4: Add Rice",
+      "steps": [
+        "Add the drained rice to the pot.",
+        "Gently sauté the rice for 1-2 minutes, coating the grains with the ghee and spices."
+      ]
+    },
+    {
+      "title": "Step 5: Add Water and Salt",
+      "steps": [
+        "Pour in 2 cups of water and add salt.",
+        "Stir once gently."
+      ]
+    },
+    {
+      "title": "Step 6: Cook the Rice",
+      "steps": [
+        "Bring the water to a boil on high heat.",
+        "Once boiling, reduce heat to the lowest setting, cover the pot with a tight-fitting lid, and let it simmer for 12-15 minutes.",
+        "Avoid lifting the lid during this time."
+      ]
+    },
+    {
+      "title": "Step 7: Rest",
+      "steps": [
+        "After the cooking time, turn off the heat and let the rice rest, still covered, for 10 minutes.",
+        "This allows steam to finish cooking the rice and makes it fluffy."
+      ]
+    },
+    {
+      "title": "Step 8: Fluff and Serve",
+      "steps": [
+        "Remove the lid and gently fluff the rice with a fork before serving."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with dal, curry, or gravy.",
+      "Pairs well with chicken, mutton, paneer, or vegetable dishes.",
+      "Enjoy with pickle, papad, or yogurt for a simple meal."
+    ]
+  },
+
+  "chefTips": [
+    "Use aged basmati rice for the best aroma and texture.",
+    "Avoid stirring too much during cooking to prevent breaking the grains.",
+    "Adjust water slightly if you prefer softer or firmer rice."
+  ]
+}
