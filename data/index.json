@@ -1297,6 +1297,66 @@
     "time": "20 min",
     "difficulty": "Medium"
   },
+      {
+    "id": 509,
+    "title": "Idli",
+    "category": "Indian",
+    "file": "data/indian/idli.json",
+    "image": "assets/images/indian/idli.png",
+    "description": "",
+    "time": "12 hr 30 min",
+    "difficulty": "Medium"
+  },
+        {
+    "id": 510,
+    "title": "Idiyappam (String Hoppers)",
+    "category": "Indian",
+    "file": "data/indian/idiyappam.json",
+    "image": "assets/images/indian/idiyappam.png",
+    "description": "",
+    "time": "30 min",
+    "difficulty": "Medium"
+  },
+      {
+    "id": 511,
+    "title": "Goan Sannas",
+    "category": "Indian",
+    "file": "data/indian/goan-sannas.json",
+    "image": "assets/images/indian/goan-sannas.png",
+    "description": "",
+    "time": "8 hr 30 min",
+    "difficulty": "Medium"
+  },
+      {
+    "id": 512,
+    "title": "Neer Dosa",
+    "category": "Indian",
+    "file": "data/indian/neer-dosa.json",
+    "image": "assets/images/indian/neer-dosa.png",
+    "description": "",
+    "time": "5 hr 15 min",
+    "difficulty": "Easy"
+  },
+        {
+    "id": 513,
+    "title": "Masala Dosa",
+    "category": "Indian",
+    "file": "data/indian/masala-dosa.json",
+    "image": "assets/images/indian/masala-dosa.png",
+    "description": "",
+    "time": "14 hr",
+    "difficulty": "Medium"
+  },
+          {
+    "id": 513,
+    "title": "Plain Dosa",
+    "category": "Indian",
+    "file": "data/indian/plain-dosa.png.json",
+    "image": "assets/images/indian/plain-dosa.png.png",
+    "description": "",
+    "time": "9 hr 30 min",
+    "difficulty": "Medium"
+  },
 
   {
     "id": 901,
