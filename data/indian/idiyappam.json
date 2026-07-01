@@ -1,0 +1,74 @@
+{
+  "id": "510",
+  "title": "Idiyappam (String Hoppers)",
+  "description": "is a traditional South Indian (especially Kerala & Tamil Nadu) and Sri Lankan dish made from rice flour",
+
+  "category": "Indian",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/idiyappam.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (Serves 4)",
+      "items": [
+        "Rice Flour – 2 cups (fine roasted rice flour; ideally idiyappam flour, freshly ground)",
+        "Hot Water – 1 ½ to 2 cups (adjust gradually)",
+        "Salt – ½ tsp",
+        "Coconut Oil / Ghee – 1 tsp (for softness & flavor)",
+        "Freshly Grated Coconut – ½ cup (for garnish, optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Dough",
+      "steps": [
+        "Boil water until it reaches a rolling boil.",
+        "In a wide bowl, mix rice flour and salt.",
+        "Gradually pour hot water into the flour, mixing with a wooden spatula or spoon.",
+        "When slightly cooled, knead into a smooth, soft, non-sticky dough.",
+        "Add 1 tsp coconut oil to keep it pliable."
+      ]
+    },
+    {
+      "title": "2. Shaping the Idiyappam",
+      "steps": [
+        "Grease the idiyappam press (sev maker with fine perforated plate) with oil.",
+        "Fill with dough.",
+        "Press out thin noodles directly onto greased idli plates, banana leaves, or a steamer plate, forming small nests."
+      ]
+    },
+    {
+      "title": "3. Steaming",
+      "steps": [
+        "Steam in an idli steamer for 8–10 minutes until cooked and fluffy.",
+        "Do not over-steam, as strands may turn hard."
+      ]
+    },
+    {
+      "title": "4. Finishing Touch",
+      "steps": [
+        "Sprinkle freshly grated coconut on top (traditional Kerala style).",
+        "For restaurant presentation, drizzle with ghee for aroma."
+      ]
+    },
+    {
+      "title": "5. Suggested Pairings",
+      "steps": [
+        "Classic: Coconut milk with jaggery (sweet)",
+        "Savory: Vegetable stew, Kerala egg curry, or chicken curry",
+        "Luxury Touch: Infused coconut milk with cardamom & saffron drizzle"
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Use idiyappam flour (rice roasted and ground extra fine) instead of regular rice flour.",
+    "Always use boiling hot water; lukewarm water won’t bind properly.",
+    "Knead quickly but gently – over-kneading makes the idiyappam dense.",
+    "For an elegant plating, twist idiyappam strands into neat bird’s nest–style spirals.",
+    "Serve immediately; idiyappam tends to dry out if left uncovered."
+  ]
+}
