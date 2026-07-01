@@ -1,0 +1,136 @@
+{
+  "id": "518",
+  "title": "Sambar",
+  "description": "Sambar is a classic South Indian lentil and vegetable stew made with toor dal, tamarind, vegetables, and aromatic spices. It is a staple accompaniment for rice, idli, dosa, vada, and many other South Indian dishes.",
+
+  "category": "Indian",
+  "time": "50 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/sambar.png",
+
+  "ingredients": [
+    {
+      "title": "For the Lentils",
+      "items": [
+        "1 cup Toor dal (pigeon peas)",
+        "3 cups water",
+        "½ tsp turmeric",
+        "Pinch of salt"
+      ]
+    },
+    {
+      "title": "For the Tamarind Broth",
+      "items": [
+        "1 small lemon-sized ball of tamarind (or 2 tbsp tamarind paste)",
+        "1 cup warm water"
+      ]
+    },
+    {
+      "title": "For the Sambar Masala (Freshly Ground)",
+      "items": [
+        "2 tbsp coriander seeds",
+        "1 tsp cumin seeds",
+        "1 tsp black peppercorns",
+        "1 tsp fenugreek seeds",
+        "2–3 dried red chilies",
+        "½ tsp asafoetida (hing)"
+      ]
+    },
+    {
+      "title": "For the Vegetables",
+      "items": [
+        "1 carrot, diced",
+        "1 drumstick (moringa), cut into 2-inch pieces",
+        "½ cup pumpkin, diced",
+        "1 tomato, chopped",
+        "2–3 green chilies, slit",
+        "¼ tsp turmeric",
+        "Salt, to taste"
+      ]
+    },
+    {
+      "title": "For Tempering (Tadka)",
+      "items": [
+        "2 tbsp ghee or oil",
+        "10–12 curry leaves",
+        "1 tsp mustard seeds",
+        "1–2 dried red chilies",
+        "¼ tsp asafoetida",
+        "A few fresh coriander leaves, chopped (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Cook the Lentils",
+      "steps": [
+        "Wash Toor dal thoroughly.",
+        "Pressure cook with 3 cups water, ½ tsp turmeric, and a pinch of salt until soft (3–4 whistles).",
+        "Mash lightly and set aside."
+      ]
+    },
+    {
+      "title": "Step 2: Prepare Tamarind Extract",
+      "steps": [
+        "Soak tamarind in warm water for 15 minutes.",
+        "Squeeze and strain to get smooth tamarind water."
+      ]
+    },
+    {
+      "title": "Step 3: Make Sambar Masala",
+      "steps": [
+        "Dry roast coriander seeds, cumin seeds, black peppercorns, fenugreek, and dried red chilies until aromatic.",
+        "Cool and grind to a fine powder."
+      ]
+    },
+    {
+      "title": "Step 4: Cook Vegetables",
+      "steps": [
+        "In a saucepan, add the diced vegetables, tomato, green chilies, turmeric, and a cup of water.",
+        "Cook until vegetables are tender but not mushy."
+      ]
+    },
+    {
+      "title": "Step 5: Combine",
+      "steps": [
+        "Add the cooked dal and tamarind extract to the vegetables.",
+        "Mix in 1–2 tsp of freshly ground sambar masala.",
+        "Simmer for 8–10 minutes on low heat. Adjust salt and consistency (water as needed)."
+      ]
+    },
+    {
+      "title": "Step 6: Tempering (Tadka)",
+      "steps": [
+        "Heat ghee or oil in a small pan.",
+        "Add mustard seeds; let them splutter.",
+        "Add curry leaves, dried red chilies, and asafoetida.",
+        "Pour over the simmered sambar."
+      ]
+    },
+    {
+      "title": "Step 7: Finishing",
+      "steps": [
+        "Garnish with fresh coriander leaves.",
+        "Serve hot with steamed rice, dosa, or idli."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with steamed rice.",
+      "Pair with dosa, idli, medu vada, or uttapam.",
+      "Serve alongside coconut chutney and papad for a complete South Indian meal."
+    ]
+  },
+
+  "chefTips": [
+    "Freshly grind the masala – pre-ground powder lacks aroma.",
+    "Balance tanginess and heat – add tamarind gradually and adjust chilies for a refined taste.",
+    "Ghee over oil – gives richness and a glossy finish.",
+    "Cook vegetables separately – keeps textures distinct rather than mushy.",
+    "Let it rest for 15 minutes – flavors meld beautifully, just like a slow-cooked restaurant sambar."
+  ]
+}
