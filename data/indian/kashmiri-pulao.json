@@ -1,0 +1,119 @@
+{
+  "id": "522",
+  "title": "Kashmiri Pulao",
+  "description": "A fragrant Kashmiri rice dish prepared with premium basmati rice, aromatic whole spices, saffron, and a royal garnish of fruits and nuts. Perfect for festive meals and special occasions.",
+
+  "category": "Indian",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/kashmiri-pulao.png",
+
+  "ingredients": [
+    {
+      "title": "For the Rice",
+      "items": [
+        "Basmati rice – 1½ cups (aged, long-grain, preferably premium reserve)",
+        "Water – 6 cups (for boiling)",
+        "Salt – 1 tsp",
+        "Ghee – 2 tbsp"
+      ]
+    },
+    {
+      "title": "For the Flavored Base",
+      "items": [
+        "Ghee – 2 tbsp",
+        "Onion – 1 medium, sliced fine",
+        "Ginger – 1½ tsp (julienned)",
+        "Green cardamom – 4 pods",
+        "Cloves – 3",
+        "Cinnamon stick – 1 inch",
+        "Bay leaf – 1",
+        "Saffron strands – 12–15, soaked in 2 tbsp warm milk",
+        "Kashmiri dry ginger powder – ¼ tsp (optional but authentic)",
+        "Fennel powder – ½ tsp (optional but recommended)"
+      ]
+    },
+    {
+      "title": "Fruits & Nuts (Traditional Garnish)",
+      "items": [
+        "Cashews – 10, split",
+        "Almonds – 10, blanched & sliced",
+        "Raisins – 2 tbsp (golden preferred)",
+        "Pomegranate arils – ¼ cup (fresh)",
+        "Pineapple cubes – ½ cup (fresh or lightly stewed)",
+        "Apple – ½, diced (optional but gives royal touch)"
+      ]
+    },
+    {
+      "title": "Sweetness & Balance",
+      "items": [
+        "Sugar – 1 tsp (adjust for desired sweetness)",
+        "Salt – to taste",
+        "White pepper powder – ¼ tsp (optional for mild heat)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Prepare the Rice",
+      "steps": [
+        "Wash basmati gently 3–4 times until water runs clear.",
+        "Soak for 20 minutes, then drain.",
+        "Boil water with salt and 2 tbsp ghee. Add rice, cook until 90% done (grain still has a bite).",
+        "Drain and spread rice gently to avoid sticking."
+      ]
+    },
+    {
+      "title": "Step 2: Prepare Garnish",
+      "steps": [
+        "Heat 1 tbsp ghee in a small pan.",
+        "Lightly fry cashews, almonds, then raisins until plump.",
+        "Remove and set aside on a paper towel."
+      ]
+    },
+    {
+      "title": "Step 3: Build the Flavored Base",
+      "steps": [
+        "In a heavy-bottom pan, heat 2 tbsp ghee.",
+        "Add cardamom, cloves, cinnamon, bay leaf — sauté 30 seconds until aromatic.",
+        "Add onions, sauté until translucent and lightly golden (not deeply browned).",
+        "Add ginger juliennes, fennel powder, and dry ginger powder — sauté briefly.",
+        "Stir in saffron milk and sugar; mix well."
+      ]
+    },
+    {
+      "title": "Step 4: Assemble the Pulao",
+      "steps": [
+        "Gently fold the cooked rice into the spiced base.",
+        "Add pineapple cubes and a pinch more salt if needed.",
+        "Cover and cook on dum (very low heat) for 5 minutes so flavors infuse without breaking grains."
+      ]
+    },
+    {
+      "title": "Step 5: Final Touch & Plating",
+      "steps": [
+        "Fluff the rice gently with a fork.",
+        "Transfer to a shallow serving dish.",
+        "Scatter fried nuts, raisins, pomegranate arils, and apple cubes on top.",
+        "Serve warm — pairs beautifully with mild gravies like Shahi Paneer, Korma, or Nadur Yakhni."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve warm with Shahi Paneer.",
+      "Pair with Korma or Nadur Yakhni.",
+      "Garnish with fried nuts, raisins, pomegranate arils, and fresh apple cubes before serving."
+    ]
+  },
+
+  "chefTips": [
+    "Rice Texture: Use aged basmati and avoid overcooking; every grain should remain separate.",
+    "Fruit Freshness: For restaurant plating, keep pomegranate and apple raw for a burst of freshness, but use lightly stewed pineapple for sweetness without tartness.",
+    "Color Balance: Saffron should tint the rice pale gold — avoid excessive turmeric, which is not traditional here.",
+    "Luxury Factor: For high-end presentation, you can serve in a copper handi with the lid sealed by dough for tableside reveal."
+  ]
+}
