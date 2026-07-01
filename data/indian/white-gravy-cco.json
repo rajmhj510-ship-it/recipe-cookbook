@@ -1,0 +1,101 @@
+{
+  "id": "529",
+  "title": "White Gravy-cashew, cream, onion",
+  "description": "White Gravy is a rich, creamy curry base made with cashews, onions, cream, and milk. It is perfect for paneer, chicken, kofta, and other mildly spiced Indian dishes.",
+
+  "category": "Indian",
+  "time": "50 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/white-gravy-cco.png",
+
+  "ingredients": [
+    {
+      "title": "For the Base",
+      "items": [
+        "2 medium onions, roughly chopped",
+        "1/2 cup cashews (soaked in warm water for 30 min)",
+        "2–3 tbsp ghee or unsalted butter",
+        "2 tbsp oil (optional, for extra richness)",
+        "2–3 garlic cloves (optional)",
+        "1 inch ginger"
+      ]
+    },
+    {
+      "title": "For the Gravy",
+      "items": [
+        "1/2 cup fresh cream",
+        "1 cup milk (full-fat)",
+        "1/2 tsp white pepper powder",
+        "1/4 tsp cardamom powder (optional)",
+        "Salt to taste",
+        "1/4 tsp nutmeg (optional, very small pinch for aroma)",
+        "1–2 tsp lemon juice (to brighten flavor)"
+      ]
+    },
+    {
+      "title": "For Tempering (Optional)",
+      "items": [
+        "1 tbsp ghee",
+        "1/2 tsp cumin seeds or whole green cardamom",
+        "A few curry leaves or crushed kasuri methi"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Prepare Cashew-Onion Paste",
+      "steps": [
+        "Drain soaked cashews.",
+        "Blend cashews, onions, garlic, ginger, and 2–3 tbsp milk into a smooth, lump-free paste.",
+        "Add a little water if needed."
+      ]
+    },
+    {
+      "title": "Step 2: Cook the Base",
+      "steps": [
+        "Heat ghee or butter in a heavy-bottomed pan.",
+        "Add the cashew-onion paste and sauté on medium-low heat for 5–7 minutes, stirring continuously.",
+        "Do not let it brown—we want a white base."
+      ]
+    },
+    {
+      "title": "Step 3: Make the Gravy",
+      "steps": [
+        "Gradually add milk while stirring, ensuring a lump-free, smooth consistency.",
+        "Cook on low heat for 5–7 minutes until the mixture thickens slightly."
+      ]
+    },
+    {
+      "title": "Step 4: Add Cream & Seasonings",
+      "steps": [
+        "Stir in fresh cream and mix well.",
+        "Add salt, white pepper, cardamom powder, and nutmeg (if using).",
+        "Simmer for another 5 minutes on very low heat."
+      ]
+    },
+    {
+      "title": "Step 5: Finish & Enhance Flavor",
+      "steps": [
+        "Remove from heat.",
+        "Add 1–2 tsp lemon juice for freshness.",
+        "Optional tempering: Heat ghee, add cumin or cardamom, and pour over the gravy for aroma."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "Serving Suggestions": [
+      "Serve hot with vegetable kofta, paneer, or malai chicken.",
+      "Garnish with a swirl of cream and finely chopped coriander (optional)."
+    ]
+  },
+
+  "chefTips": [
+    "Use heavy cream for richness and silky texture.",
+    "Do not brown the paste—keep the heat low to maintain a white color.",
+    "Blanch cashews in hot water for 10 minutes before blending to make a smooth paste.",
+    "Strain the gravy if you want an ultra-smooth restaurant finish.",
+    "Slow cooking enhances flavor; avoid high heat."
+  ]
+}
