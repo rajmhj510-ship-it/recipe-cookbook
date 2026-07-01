@@ -1,0 +1,81 @@
+{
+  "id": "511",
+  "title": "Goan Sannas",
+  "description": "fluffy, mildly sweet steamed rice cakes that are a staple in Goan and Mangalorean cuisine.",
+
+  "category": "Indian",
+  "time": "8 hr 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/goan-sannas.png",
+
+  "ingredients": [
+    {
+      "title": "For the batter",
+      "items": [
+        "1 cup Goan parboiled rice (ukda rice) – washed and soaked overnight",
+        "¼ cup grated coconut (fresh, or frozen thawed)",
+        "1 tbsp cooked rice (for softness)",
+        "½ tsp salt",
+        "¼ tsp sugar",
+        "½ cup toddy (traditional palm sap)",
+        "OR substitute with: ½ tsp instant yeast + ¼ tsp sugar dissolved in 2 tbsp warm water",
+        "Warm water as needed"
+      ]
+    },
+    {
+      "title": "For finishing (optional, fine dining twist)",
+      "items": [
+        "A drizzle of coconut milk reduction",
+        "Garnish: toasted sesame seeds or micro herbs/edible flowers"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare Fermentation Starter",
+      "steps": [
+        "If using toddy: set aside.",
+        "If using yeast: mix yeast + sugar in warm water, allow to froth (10 mins)."
+      ]
+    },
+    {
+      "title": "2. Grind Batter",
+      "steps": [
+        "Drain soaked rice.",
+        "Grind with grated coconut and cooked rice into a smooth, thick batter (medium-pouring consistency)."
+      ]
+    },
+    {
+      "title": "3. Ferment",
+      "steps": [
+        "Stir in salt, sugar, and toddy/yeast mixture.",
+        "Cover and ferment 6–8 hours (overnight) in a warm spot until doubled and bubbly."
+      ]
+    },
+    {
+      "title": "4. Steam Sannas",
+      "steps": [
+        "Grease moulds (idli moulds, steel bowls, or ramekins).",
+        "Pour batter ¾ full (to allow rising).",
+        "Steam gently for 12–15 mins. Check with a toothpick.",
+        "Rest 2–3 mins before unmoulding."
+      ]
+    },
+    {
+      "title": "5. Presentation",
+      "steps": [
+        "Serve warm, brushed with a little coconut milk reduction for shine.",
+        "Garnish with sesame seeds or edible flowers.",
+        "Pair with Goan sorpotel, pork vindaloo, or prawn curry for authenticity."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Rice Choice: Use Goan parboiled ukda rice for authentic texture; regular parboiled rice works but is less aromatic.",
+    "Fermentation: Toddy gives traditional flavor—if unavailable, use yeast but add a touch of coconut water for depth.",
+    "Texture Goal: Light, fluffy, slightly spongy with a mild sweetness.",
+    "Fine Dining Twist: Steam in uniform moulds for consistent plating. Glaze with coconut milk reduction to add shine and subtle richness."
+  ]
+}
