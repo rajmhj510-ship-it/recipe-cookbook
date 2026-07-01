@@ -1405,7 +1405,7 @@
   {
     "id": 519,
     "title": "Curd Rice (Thayir Sadam)",
-    "category": "South Indian",
+    "category": "Indian",
     "image": "assets/images/indian/curd-rice.png",
     "time": "30 min",
     "difficulty": "Easy",
@@ -1414,8 +1414,8 @@
   {
     "id": 520,
     "title": "Tomato Rice",
-    "category": "South Indian",
-    "image": "assets/images/south-indian/tomato-rice.png",
+    "category": "Indian",
+    "image": "assets/images/indian/tomato-rice.png",
     "time": "45 min",
     "difficulty": "Medium",
     "servings": 4
@@ -1423,8 +1423,8 @@
   {
     "id": 521,
     "title": "Lemon Rice",
-    "category": "South Indian",
-    "image": "assets/images/south-indian/lemon-rice.png",
+    "category": "Indian",
+    "image": "assets/images/indian/lemon-rice.png",
     "time": "30 min",
     "difficulty": "Easy",
     "servings": 4
@@ -1487,7 +1487,7 @@
     "id": 528,
     "title": "White Gravy for Paneer or Chicken",
     "category": "Indian",
-    "image": "assets/images/indian/white-gravy-paneer-chicken.png",
+    "image": "assets/images/indian/white-gravy-paneer-or-chicken.png",
     "time": "55 min",
     "difficulty": "Medium",
     "servings": 5
