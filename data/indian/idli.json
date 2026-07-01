@@ -1,0 +1,69 @@
+{
+  "id": "509",
+  "title": "Idli",
+  "description": "Soft, fluffy, steamed South Indian rice cakes prepared by fermenting rice and urad dal batter. A classic breakfast served with chutney and sambar.",
+
+  "category": "Indian",
+  "time": "12 hr 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/idli.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (for ~25 idlis)",
+      "items": [
+        "Parboiled rice (idli rice / ponni rice): 3 cups (600 g)",
+        "Whole white urad dal (black gram, skinless): 1 cup (200 g)",
+        "Fenugreek seeds (methi): 1 tsp",
+        "Poha (flattened rice): 2 tbsp (optional, for extra softness)",
+        "Salt (non-iodized rock salt preferred): 1.5–2 tsp",
+        "Water (filtered, room temp): as needed"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Soaking",
+      "steps": [
+        "Wash rice 3–4 times until water runs clear. Soak with enough water for 6 hours.",
+        "Wash urad dal and fenugreek seeds well. Soak together in water for 4 hours.",
+        "If using poha, soak separately in warm water for 20 minutes before grinding."
+      ]
+    },
+    {
+      "title": "2. Grinding (Restaurant-style precision)",
+      "steps": [
+        "Urad dal: Grind in a wet grinder with minimal cold water, little by little, until it becomes light, fluffy, and 3x in volume (about 25–30 minutes).",
+        "Rice: Grind separately to a slightly coarse, grainy texture (like fine semolina). Add soaked poha during grinding for fluffiness.",
+        "Combine both batters. Mix thoroughly by hand (oxygen helps fermentation)."
+      ]
+    },
+    {
+      "title": "3. Fermentation",
+      "steps": [
+        "Transfer batter to a large steel vessel, leaving at least 40% space for rising.",
+        "Add salt only after fermentation (in warm climates) or before fermentation (in cold climates).",
+        "Keep covered in a warm, draft-free spot (ideal temperature: 28–32°C / 82–89°F) for 8–12 hours until batter doubles/triples and is airy."
+      ]
+    },
+    {
+      "title": "4. Steaming Idlis",
+      "steps": [
+        "Grease idli moulds lightly with sesame oil.",
+        "Stir batter gently (do not overmix). Pour into moulds, ¾ full.",
+        "Steam in an idli steamer for 10–12 minutes on medium heat (lid on, without opening).",
+        "Check doneness: insert a wet spoon/knife—if clean, idlis are ready.",
+        "Rest for 2 minutes before unmoulding with a wet spoon."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Urad dal ratio: High-quality restaurants use 1:3 urad-to-rice ratio for maximum fluffiness.",
+    "Poha trick: Adds softness (optional but recommended for restaurant-style).",
+    "Water quality: Always use filtered water; chlorine can hinder fermentation.",
+    "Fermentation booster (if climate is cold): Place the vessel inside an oven with the light on or near a warm spot.",
+    "Serving style: Serve with coconut chutney, tomato chutney, and hotel-style sambar. Garnish chutneys with tempered curry leaves, mustard seeds, and dry red chilies for an authentic restaurant feel."
+  ]
+}
