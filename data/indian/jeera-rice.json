@@ -1,0 +1,104 @@
+{
+  "id": "524",
+  "title": "Jeera Rice",
+  "description": "A simple yet aromatic Indian rice dish prepared with fragrant basmati rice, cumin seeds, and whole spices. Perfect as an accompaniment to dals, curries, and kebabs.",
+
+  "category": "Indian",
+  "time": "25 min",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/jeera-rice.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Basmati rice — 1 cup",
+        "Water — 2 cups",
+        "Cumin seeds (Jeera) — 1½ teaspoons",
+        "Ghee (clarified butter) or oil — 2 tablespoons",
+        "Bay leaf — 1",
+        "Green cardamom pods — 2 (optional)",
+        "Cinnamon stick — 1 small piece (optional)",
+        "Cloves — 2 (optional)",
+        "Salt — 1 teaspoon (adjust to taste)",
+        "Fresh coriander leaves — a few sprigs, chopped (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Rinse the Rice",
+      "steps": [
+        "Rinse the basmati rice under cold water 3-4 times until the water runs clear.",
+        "Soak the rice in water for 20-30 minutes, then drain."
+      ]
+    },
+    {
+      "title": "Step 2: Heat the Ghee/Oil",
+      "steps": [
+        "In a heavy-bottomed pan or a deep skillet, heat the ghee or oil over medium heat."
+      ]
+    },
+    {
+      "title": "Step 3: Add Whole Spices",
+      "steps": [
+        "Add cumin seeds, bay leaf, cardamom, cinnamon, and cloves.",
+        "Sauté for about 30 seconds or until the cumin seeds start to crackle and the spices release their aroma.",
+        "Be careful not to burn them."
+      ]
+    },
+    {
+      "title": "Step 4: Add the Rice",
+      "steps": [
+        "Add the drained rice to the pan.",
+        "Gently sauté the rice in the spiced ghee for 2-3 minutes, stirring carefully to coat the grains and lightly toast them."
+      ]
+    },
+    {
+      "title": "Step 5: Add Water and Salt",
+      "steps": [
+        "Pour in 2 cups of water and add salt.",
+        "Stir once gently.",
+        "Increase the heat to bring it to a boil."
+      ]
+    },
+    {
+      "title": "Step 6: Cook the Rice",
+      "steps": [
+        "When the water starts boiling, reduce the heat to low, cover the pan with a tight-fitting lid, and simmer for about 15 minutes or until the water is absorbed and the rice is cooked through."
+      ]
+    },
+    {
+      "title": "Step 7: Rest",
+      "steps": [
+        "Turn off the heat and let the rice rest, covered, for 5 minutes.",
+        "This allows the steam to finish cooking the rice evenly."
+      ]
+    },
+    {
+      "title": "Step 8: Fluff and Garnish",
+      "steps": [
+        "Remove the bay leaf and other whole spices if you prefer.",
+        "Fluff the rice gently with a fork.",
+        "Garnish with chopped coriander leaves."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with dal or any Indian curry.",
+      "Pair with paneer, chicken, or vegetable dishes.",
+      "Garnish with fresh coriander before serving."
+    ]
+  },
+
+  "chefTips": [
+    "Use aged basmati rice for the best fragrance and long grains.",
+    "Don't skip soaking the rice—it helps grains cook evenly and prevents breaking.",
+    "Ghee adds richness and authentic flavor but you can use oil for a lighter version.",
+    "You can customize whole spices based on your taste."
+  ]
+}
