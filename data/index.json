@@ -1287,6 +1287,16 @@
     "time": "45 min",
     "difficulty": ""
   },
+    {
+    "id": 508,
+    "title": "Ragi Mudde (Finger Millet Balls)",
+    "category": "Indian",
+    "file": "data/indian/ragi-mudde.json",
+    "image": "assets/images/indian/ragi-mudde.png",
+    "description": "",
+    "time": "20 min",
+    "difficulty": "Medium"
+  },
 
   {
     "id": 901,
