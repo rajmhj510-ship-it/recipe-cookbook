@@ -1,0 +1,83 @@
+{
+  "id": "512",
+  "title": "Neer Dosa",
+  "description": "Neer Dosa is a delicate, lacy South Indian rice crêpe originating from the Mangalorean and Udupi regions. Unlike traditional dosas, it requires no fermentation, making it a quick yet elegant dish that pairs beautifully with chutneys, curries, and coastal specialties.",
+
+  "category": "Indian",
+  "time": "5 hr 15 min",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/neer-dosa.png",
+
+  "ingredients": [
+    {
+      "title": "Main Ingredients",
+      "items": [
+        "Raw rice (Sona Masoori or dosa rice) – 2 cups",
+        "Fresh grated coconut – 2 tbsp (optional)",
+        "Salt – to taste",
+        "Water – 3–4 cups (adjust as needed)",
+        "Oil – a few drops for greasing the pan"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Soak the Rice",
+      "steps": [
+        "Wash the rice thoroughly until the water runs clear.",
+        "Soak the rice in water for 4–6 hours or overnight for best results."
+      ]
+    },
+    {
+      "title": "2. Grind the Batter",
+      "steps": [
+        "Drain the soaked rice.",
+        "Grind the rice with the grated coconut (if using) into a smooth, fine batter.",
+        "Gradually add water while grinding until the batter becomes smooth and flowing.",
+        "The final consistency should be very thin, similar to buttermilk."
+      ]
+    },
+    {
+      "title": "3. Season the Batter",
+      "steps": [
+        "Add salt to taste.",
+        "Mix well.",
+        "Allow the batter to rest for about 30 minutes."
+      ]
+    },
+    {
+      "title": "4. Cook the Neer Dosa",
+      "steps": [
+        "Heat a well-seasoned cast iron or non-stick pan over medium heat.",
+        "Lightly grease the pan with a few drops of oil and wipe away any excess.",
+        "Stir the batter before every dosa, as the rice settles quickly.",
+        "Pour a ladle of batter onto the pan and immediately swirl to spread it thinly.",
+        "Cover with a lid and cook for 30–40 seconds.",
+        "Do not flip the dosa; it cooks only on one side.",
+        "Carefully lift the dosa and fold it into half or into a triangle before serving."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "Vegetarian Accompaniments": [
+      "Coconut chutney",
+      "Tomato chutney",
+      "Vegetable kurma"
+    ],
+    "Non-Vegetarian Accompaniments": [
+      "Chicken ghee roast",
+      "Mangalorean fish curry",
+      "Mutton sukka"
+    ]
+  },
+
+  "chefTips": [
+    "For an ultra-silky texture, strain the batter through a muslin cloth before cooking.",
+    "The batter should be very thin and flow easily. Thick batter produces leathery dosas, while overly thin batter may tear.",
+    "Maintain medium heat throughout cooking. If the pan is too hot, the batter won't spread properly; if too cool, the dosa may stick.",
+    "Always stir the batter before pouring each dosa because the rice naturally settles at the bottom.",
+    "Serve the dosas stacked in a bamboo basket lined with banana leaves to keep them soft and moist."
+  ]
+}
