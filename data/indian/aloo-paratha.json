@@ -1,0 +1,103 @@
+{
+  "id": "516",
+  "title": "Aloo Paratha",
+  "description": "Aloo Paratha is a classic North Indian flatbread stuffed with a flavorful spiced potato filling. Crispy on the outside and soft inside, it is traditionally served with yogurt, pickle, butter, or chai, making it a popular breakfast and comfort meal.",
+
+  "category": "Indian",
+  "time": "50 min",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/aloo-paratha.png",
+
+  "ingredients": [
+    {
+      "title": "For the Dough",
+      "items": [
+        "2 cups whole wheat flour (atta)",
+        "½ tsp salt",
+        "¾ cup water (adjust as needed)",
+        "1 tsp oil (optional, for softer dough)"
+      ]
+    },
+    {
+      "title": "For the Filling",
+      "items": [
+        "3 medium potatoes, boiled and mashed",
+        "1–2 green chilies, finely chopped",
+        "1 tsp grated ginger",
+        "2 tbsp finely chopped coriander leaves",
+        "½ tsp cumin seeds",
+        "½ tsp garam masala",
+        "¼ tsp red chili powder (adjust to taste)",
+        "¼ tsp turmeric powder",
+        "Salt, to taste",
+        "Optional: 1 small onion, finely chopped"
+      ]
+    },
+    {
+      "title": "For Cooking",
+      "items": [
+        "Ghee or oil, as required"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Prepare the Dough",
+      "steps": [
+        "In a mixing bowl, combine wheat flour and salt.",
+        "Gradually add water and knead into a soft, pliable dough.",
+        "Cover with a damp cloth and rest for 20–30 minutes."
+      ]
+    },
+    {
+      "title": "Step 2: Make the Filling",
+      "steps": [
+        "Mash the boiled potatoes until smooth.",
+        "Add green chilies, ginger, coriander, cumin seeds, garam masala, chili powder, turmeric, salt, and onion (if using).",
+        "Mix well to form a uniform filling."
+      ]
+    },
+    {
+      "title": "Step 3: Shape the Parathas",
+      "steps": [
+        "Divide dough into equal-sized balls (about golf ball size).",
+        "Roll each ball into a small disc.",
+        "Place 1–2 tbsp of potato filling in the center.",
+        "Bring the edges together to seal the filling completely.",
+        "Gently flatten and roll into a 6–7 inch round paratha, being careful not to let the filling spill out."
+      ]
+    },
+    {
+      "title": "Step 4: Cook the Parathas",
+      "steps": [
+        "Heat a tawa or skillet over medium-high heat.",
+        "Place the rolled paratha on the hot tawa.",
+        "Cook for 1–2 minutes until bubbles appear, then flip.",
+        "Apply ghee or oil on the cooked side and flip again.",
+        "Cook until both sides are golden brown and slightly crisp."
+      ]
+    },
+    {
+      "title": "Step 5: Serve Hot",
+      "steps": [
+        "Serve immediately with yogurt, pickle, or a dollop of butter."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with yogurt, pickle, or a dollop of butter.",
+      "Pair with masala chai for a traditional North Indian breakfast."
+    ]
+  },
+
+  "chefTips": [
+    "Use slightly dry mashed potatoes; too much moisture makes rolling difficult.",
+    "Resting the dough ensures softer parathas.",
+    "Adjust spices in the filling according to your taste preference.",
+    "For a restaurant-style finish, cook on high heat for a short time to get slight crispness."
+  ]
+}
