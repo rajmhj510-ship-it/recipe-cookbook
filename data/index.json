@@ -1349,10 +1349,10 @@
   },
           {
     "id": 513,
-    "title": "Plain Dosa",
+    "title": "Dosa",
     "category": "Indian",
-    "file": "data/indian/plain-dosa.png.json",
-    "image": "assets/images/indian/plain-dosa.png.png",
+    "file": "data/indian/dosa.png.json",
+    "image": "assets/images/indian/dosa.png.png",
     "description": "",
     "time": "9 hr 30 min",
     "difficulty": "Medium"
