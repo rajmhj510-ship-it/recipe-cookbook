@@ -1,0 +1,93 @@
+{
+  "id": "517",
+  "title": "Puri Bhaji",
+  "description": "Puri Bhaji is a classic Indian breakfast featuring crispy, deep-fried whole wheat puris served with a lightly spiced potato curry. Simple, comforting, and satisfying, it is a favorite across many regions of India.",
+
+  "category": "Indian",
+  "time": "45 min",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/puri-bhaji.png",
+
+  "ingredients": [
+    {
+      "title": "For the Puri (Crispy Bread)",
+      "items": [
+        "2 cups whole wheat flour (atta)",
+        "2 tbsp semolina (sooji/rava) – for extra crispness",
+        "½ tsp salt",
+        "2 tsp oil or ghee",
+        "¾ cup water (adjust as needed)",
+        "Oil for deep frying"
+      ]
+    },
+    {
+      "title": "For the Aloo Bhaji (Potato Curry)",
+      "items": [
+        "4–5 medium potatoes, peeled and diced",
+        "1 tbsp oil or ghee",
+        "½ tsp cumin seeds",
+        "1 green chili, finely chopped (optional)",
+        "½ tsp turmeric powder",
+        "1 tsp mustard seeds (optional, for tempering)",
+        "1 tsp ginger paste",
+        "Salt to taste",
+        "2 tbsp fresh coriander, chopped",
+        "1 tsp amchur (dry mango powder) or a squeeze of lemon juice"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Dough Preparation",
+      "steps": [
+        "In a large bowl, mix wheat flour, semolina, and salt.",
+        "Add oil and rub it into the flour until crumbly.",
+        "Gradually add water and knead into a smooth, firm dough (like chapati dough but slightly stiffer).",
+        "Cover and rest for 15–20 minutes."
+      ]
+    },
+    {
+      "title": "Step 2: Rolling",
+      "steps": [
+        "Divide dough into small lemon-sized balls.",
+        "Roll each ball into a smooth, slightly thick disc (not too thin; ~3–4 mm)."
+      ]
+    },
+    {
+      "title": "Step 3: Frying the Puri",
+      "steps": [
+        "Heat oil in a deep frying pan (medium-high).",
+        "Test with a small piece of dough; it should rise immediately.",
+        "Carefully slide each puri into the oil and fry until golden and puffed.",
+        "Drain on paper towels."
+      ]
+    },
+    {
+      "title": "Step 4: Making the Aloo Bhaji",
+      "steps": [
+        "Boil potatoes until soft but firm. Drain.",
+        "Heat oil in a pan. Add cumin and mustard seeds; let them splutter.",
+        "Add green chili and ginger paste; sauté for 30 seconds.",
+        "Add turmeric and boiled potatoes.",
+        "Mash slightly with the back of a spoon, keeping some chunks for texture.",
+        "Season with salt and amchur/lemon juice.",
+        "Garnish with fresh coriander."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve the puris hot with freshly prepared aloo bhaji.",
+      "Pair with pickle, yogurt, or masala chai for a complete meal."
+    ]
+  },
+
+  "chefTips": [
+    "Crispier puris: Add semolina and ensure the dough is slightly stiff. Resting dough helps puff.",
+    "Perfect bhaji: Slightly mash potatoes rather than making a puree. Add a hint of tang (amchur or lemon) for freshness.",
+    "Serving: Serve immediately; puris lose crispness if left too long."
+  ]
+}
