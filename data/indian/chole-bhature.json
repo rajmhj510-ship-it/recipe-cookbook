@@ -1,0 +1,114 @@
+{
+  "id": "515",
+  "title": "Chole Bhature",
+  "description": "Chole Bhature is one of North India's most iconic dishes, featuring spicy chickpea curry served with soft, fluffy deep-fried bhature. Popular in Punjabi cuisine, it is a hearty and satisfying meal enjoyed for breakfast, lunch, or dinner.",
+
+  "category": "Indian",
+  "time": "2 hr 45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/chole-bhature.png",
+
+  "ingredients": [
+    {
+      "title": "For Chole (Chickpea Curry)",
+      "items": [
+        "Chickpeas (Kabuli Chana) – 1½ cups (soaked overnight, about 8 hours)",
+        "Onions – 2 medium, finely chopped",
+        "Tomatoes – 3 medium, pureed",
+        "Ginger-Garlic Paste – 2 tsp",
+        "Green Chilies – 2, slit",
+        "Tea Bag – 1 (for color, optional)",
+        "Oil or Ghee – 4 tbsp",
+        "Butter – 1 tbsp (optional, for richness)"
+      ]
+    },
+    {
+      "title": "Whole Spices (for tempering)",
+      "items": [
+        "Bay Leaf – 1",
+        "Black Cardamom – 1",
+        "Green Cardamom – 2",
+        "Cinnamon Stick – 1 inch",
+        "Cloves – 3",
+        "Cumin Seeds – 1 tsp"
+      ]
+    },
+    {
+      "title": "Ground Spices",
+      "items": [
+        "Kashmiri Red Chili Powder – 1 tsp",
+        "Regular Red Chili Powder – ½ tsp",
+        "Coriander Powder – 2 tsp",
+        "Turmeric – ½ tsp",
+        "Roasted Cumin Powder – 1 tsp",
+        "Amchur (Dry Mango Powder) – 1 tsp",
+        "Chole Masala – 2 tsp (store-bought or homemade)",
+        "Garam Masala – ½ tsp",
+        "Salt – to taste",
+        "Fresh Coriander – for garnish"
+      ]
+    },
+    {
+      "title": "For Bhature (Fried Bread)",
+      "items": [
+        "All-Purpose Flour (Maida) – 2 cups",
+        "Semolina (Sooji/Rava) – 2 tbsp (for crispiness)",
+        "Yogurt – ½ cup (whisked)",
+        "Baking Powder – ½ tsp",
+        "Baking Soda – ¼ tsp",
+        "Salt – ½ tsp",
+        "Sugar – ½ tsp",
+        "Oil – 2 tsp (plus more for frying)",
+        "Warm Water – as needed"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1: Cooking the Chole",
+      "steps": [
+        "Drain soaked chickpeas, add fresh water, tea bag, and salt. Pressure cook (or in Instant Pot) until soft but not mushy. Discard tea bag.",
+        "Heat oil/ghee in a deep pan. Add whole spices and let them crackle.",
+        "Add onions, sauté until golden brown.",
+        "Add ginger-garlic paste, green chilies, sauté 1 min.",
+        "Add tomato puree, cook until oil separates.",
+        "Add ground spices (except garam masala & amchur). Cook 3–4 minutes.",
+        "Add boiled chickpeas with cooking water. Simmer 20–25 mins until thick and glossy.",
+        "Finish with butter, garam masala, amchur, and fresh coriander."
+      ]
+    },
+    {
+      "title": "Step 2: Making the Bhature",
+      "steps": [
+        "In a bowl, mix maida, sooji, salt, sugar, baking powder, and soda.",
+        "Add yogurt and oil, mix well. Add warm water gradually to make a soft dough.",
+        "Knead for 8–10 minutes until smooth.",
+        "Cover and rest for at least 2 hours.",
+        "Divide into balls, roll into oval/round discs.",
+        "Deep-fry in hot oil (190°C / 375°F) until puffed and golden."
+      ]
+    },
+    {
+      "title": "Plating & Serving",
+      "steps": [
+        "Serve hot chole in a deep bowl, topped with onion rings, green chili, lemon wedge, and coriander.",
+        "Serve bhature fresh and fluffy, alongside.",
+        "Optional: Accompaniments like pickled onions, mint chutney, or boondi raita."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with sliced onions, lemon wedges, and green chilies.",
+      "Pair with pickled onions, mint chutney, or boondi raita.",
+      "Best enjoyed immediately while the bhature are hot and fluffy."
+    ]
+  },
+
+  "chefTips": [
+    "For that signature restaurant taste, finish the chole with a spoonful of ghee and a squeeze of lime before serving."
+  ]
+}
