@@ -1,0 +1,90 @@
+{
+  "id": "116",
+  "title": "Maklouba (Upside-Down Rice with Meat & Vegetables)",
+  "description": "Maklouba is a traditional Arabic upside-down rice dish made with layers of spiced meat, fried or roasted vegetables, and fragrant basmati rice, cooked together and flipped for a dramatic presentation. It is rich, aromatic, and commonly served for family gatherings and festive occasions.",
+
+  "category": "Arabic",
+  "time": "2 hr 30 min",
+  "difficulty": "Hard",
+  "image": "assets/images/arabic/maklouba.png",
+
+  "ingredients": [
+    {
+      "title": "Meat & Stock",
+      "items": [
+        "1.5 kg (3.3 lbs) lamb shoulder or bone-in chicken thighs",
+        "2.5 L (10 cups) water",
+        "1 large onion, quartered",
+        "2 bay leaves",
+        "6 cardamom pods, lightly crushed",
+        "1 cinnamon stick",
+        "1 tsp black peppercorns",
+        "1 tsp whole allspice (kabsa spice if available)",
+        "2 tsp kosher salt"
+      ]
+    },
+    {
+      "title": "Vegetables (fried or roasted)",
+      "items": [
+        "2 large eggplants, cut into 2 cm rounds",
+        "3 medium potatoes, cut into 1 cm slices",
+        "2 medium carrots, sliced lengthwise into batons",
+        "1 medium cauliflower, cut into florets",
+        "Neutral oil (grapeseed or sunflower) for frying OR brushing for roasting",
+        "Salt, to season"
+      ]
+    },
+    {
+      "title": "Rice",
+      "items": [
+        "3 cups basmati rice, rinsed and soaked 30 minutes",
+        "½ tsp ground turmeric",
+        "½ tsp ground cinnamon",
+        "½ tsp ground allspice",
+        "½ tsp ground black pepper",
+        "½ tsp ground cumin",
+        "Salt, to taste"
+      ]
+    },
+    {
+      "title": "Garnish",
+      "items": [
+        "½ cup toasted pine nuts or slivered almonds",
+        "2 tbsp chopped fresh parsley"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "1. Prepare the Stock:\n• Place meat or chicken in a large pot and cover with water.\n• Bring to a boil and skim impurities.\n• Add onion, bay leaves, cardamom, cinnamon, peppercorns, allspice, and salt.\n• Simmer 1.5 hours (lamb) or 45 minutes (chicken) until tender.\n• Strain and reserve broth.",
+
+        "2. Fry or Roast Vegetables:\n• Salt vegetables and pat dry.\n• Option A: Deep-fry until golden and drain.\n• Option B: Roast at 220°C (425°F) until caramelized.",
+
+        "3. Spice & Prepare Rice:\n• Drain soaked rice.\n• Mix with turmeric, cinnamon, allspice, pepper, cumin, and salt.",
+
+        "4. Assemble Maklouba:\n• Lightly oil base of a heavy pot.\n• Layer vegetables first (eggplant arranged decoratively).\n• Add cooked meat evenly.\n• Spread rice over top.\n• Pour hot stock until just covering rice.\n• Bring to boil, then cover and simmer 35–40 minutes on low heat.\n• Rest 10 minutes before flipping."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with cucumber-yogurt salad (laban bi khyar)",
+      "Pair with tabouleh or Arabic salad",
+      "Serve with pickles and lemon wedges",
+      "Best enjoyed warm as a shared centerpiece dish"
+    ]
+  },
+
+  "chefTips": [
+    "Careful layering creates a beautiful terrine-like effect when flipped.",
+    "Use well-rinsed basmati rice for separate, fluffy grains.",
+    "Resting before flipping is essential for structure.",
+    "Clarified stock improves clarity and refinement of flavor.",
+    "Individual ring molds can be used for fine dining plating."
+  ]
+}
