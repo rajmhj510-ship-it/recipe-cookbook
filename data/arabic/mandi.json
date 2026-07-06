@@ -1,0 +1,93 @@
+{
+  "id": "118",
+  "title": "Mandi – Spiced Rice with Meat",
+  "description": "Mandi is a traditional Yemeni Arabic dish made with fragrant basmati rice and tender slow-cooked chicken or lamb, infused with aromatic spices and finished with a signature charcoal-smoked aroma. It is a celebratory dish known for its depth of flavor and restaurant-style presentation.",
+
+  "category": "Arabic",
+  "time": "3 hr",
+  "difficulty": "Hard",
+  "image": "assets/images/arabic/mandi.png",
+
+  "ingredients": [
+    {
+      "title": "For the Meat (Chicken or Lamb)",
+      "items": [
+        "1.5–2 kg whole chicken (cut into halves/quarters) or lamb shoulder/leg (bone-in, large pieces)",
+        "3 tbsp ghee or vegetable oil",
+        "2 medium onions, finely sliced",
+        "5 garlic cloves, minced",
+        "2 medium tomatoes, finely chopped",
+        "2 bay leaves",
+        "2–3 cardamom pods",
+        "2–3 whole cloves",
+        "1 cinnamon stick",
+        "½ tsp whole black peppercorns",
+        "1 dried lime (loomi), pierced with a fork (optional)",
+        "1½ tsp sea salt (to taste)"
+      ]
+    },
+    {
+      "title": "For the Mandi Spice Mix (Hawaij al-Mandi)",
+      "items": [
+        "1 tbsp ground coriander",
+        "1 tbsp ground cumin",
+        "1 tbsp ground turmeric",
+        "2 tsp ground cinnamon",
+        "2 tsp ground cardamom",
+        "2 tsp ground black pepper",
+        "1 tsp ground cloves",
+        "1 tsp ground nutmeg",
+        "1 tsp paprika (optional, for color)"
+      ]
+    },
+    {
+      "title": "For the Rice",
+      "items": [
+        "3 cups basmati rice (soaked 30 min, drained)",
+        "4 cups meat stock (from cooking the meat)",
+        "2 tbsp ghee or oil",
+        "1 medium onion, finely sliced",
+        "2 cloves garlic, minced",
+        "2 bay leaves",
+        "1 cinnamon stick",
+        "2 cardamom pods",
+        "½ tsp saffron threads soaked in 2 tbsp warm milk (for garnish & aroma)",
+        "½ cup raisins (optional, lightly fried in ghee)",
+        "½ cup almonds or cashews (fried in ghee, for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "1. Prepare the Meat:\n• Rub chicken or lamb with 2 tbsp spice mix and salt. Marinate at least 1 hour.\n• Heat ghee in a large pot and sauté onions, garlic, and tomatoes until golden.\n• Add whole spices, dried lime, and meat. Sear until browned.\n• Add water, bring to boil, skim impurities, then simmer until tender (45 min chicken, ~2 hrs lamb).\n• Remove meat and reserve strained stock.",
+
+        "2. Cook the Rice:\n• Heat ghee in a wide pot and sauté onions until golden.\n• Add garlic, whole spices, and soaked rice. Stir gently.\n• Pour in hot stock, add 1 tbsp spice mix, and salt.\n• Cover and cook on low heat for 15–20 minutes until fluffy.",
+
+        "3. Final Smoking (Dum Technique):\n• Place cooked meat over rice.\n• Heat charcoal until red hot and place in a small foil cup on rice.\n• Drizzle ghee over charcoal and immediately cover tightly.\n• Let smoke infuse for 10–15 minutes.",
+
+        "4. Garnish & Serve:\n• Fluff rice gently and arrange meat on top.\n• Drizzle saffron milk.\n• Garnish with fried nuts and raisins.\n• Serve hot with tomato chutney or yogurt."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with tomato chili chutney (sahawiq)",
+      "Pair with yogurt or cucumber raita",
+      "Enjoy with fresh Arabic salad",
+      "Serve as a centerpiece dish for gatherings"
+    ]
+  },
+
+  "chefTips": [
+    "Use aged basmati rice for best fluffy texture.",
+    "Lamb shoulder adds richer, deeper flavor than lean cuts.",
+    "Charcoal smoking (dum) is essential for authentic restaurant aroma.",
+    "Do not over-stir rice to maintain grain separation.",
+    "Ghee enhances aroma and traditional authenticity."
+  ]
+}
