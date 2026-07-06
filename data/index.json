@@ -1947,8 +1947,8 @@
     "id": 814,
     "title": "Khao Soi Kai (Northern Thai Coconut Curry Noodle Soup with Chicken)",
     "category": "Thai",
-    "file": "data/thai/khao-soi-kai-northern-thai-coconut-curry-noodle-soup-with-chicken.json",
-    "image": "assets/images/thai/khao-soi-kai-northern-thai-coconut-curry-noodle-soup-with-chicken.png",
+    "file": "data/thai/khao-soi-kai.json",
+    "image": "assets/images/thai/khao-soi-kai.png",
     "description": "",
     "time": "60 min",
     "difficulty": "Medium"
