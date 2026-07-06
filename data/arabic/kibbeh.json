@@ -1,0 +1,79 @@
+{
+  "id": "121",
+  "title": "Kibbeh",
+  "description": "Kibbeh is a traditional Levantine Arabic dish made from a mixture of fine bulgur wheat and minced meat, shaped into stuffed croquettes and either fried or baked. It features a spiced meat filling and a crisp golden exterior with a soft, flavorful interior.",
+
+  "category": "Arabic",
+  "time": "1 hr 45 min",
+  "difficulty": "Hard",
+  "image": "assets/images/arabic/kibbeh.png",
+
+  "ingredients": [
+    {
+      "title": "For the Shell (Kibbeh Dough)",
+      "items": [
+        "2 cups fine bulgur wheat",
+        "500g lean ground beef or lamb",
+        "1 small onion, grated",
+        "1 tsp ground allspice",
+        "1 tsp ground cinnamon",
+        "½ tsp black pepper",
+        "1 tsp salt",
+        "Cold water as needed (about ½ cup)"
+      ]
+    },
+    {
+      "title": "For the Filling",
+      "items": [
+        "300g ground beef or lamb (preferably with some fat)",
+        "1 medium onion, finely chopped",
+        "¼ cup pine nuts",
+        "1 tsp ground allspice",
+        "½ tsp ground cinnamon",
+        "Salt and pepper to taste",
+        "2 tbsp olive oil or clarified butter"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Vegetable oil (for deep frying)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "1. Prepare the Bulgur:\n• Rinse and soak bulgur in cold water for 30 minutes.\n• Drain and squeeze out excess moisture.\n• Mix with ground meat, grated onion, and spices.\n• Knead for 10 minutes until a smooth dough forms.",
+
+        "2. Prepare the Filling:\n• Heat oil in a pan.\n• Sauté onions until soft.\n• Add ground meat and cook until browned.\n• Stir in pine nuts, spices, salt, and pepper.\n• Cook until mixture is dry, then cool.",
+
+        "3. Shape the Kibbeh:\nFried version:\n• Form dough into balls and hollow out centers.\n• Fill with meat mixture and seal into oval shapes.\n\nBaked version:\n• Press half dough into tray.\n• Add filling layer.\n• Cover with remaining dough and score.",
+
+        "4. Cook:\nFrying:\n• Fry at 180°C (350°F) for 5–7 minutes until golden.\n\nBaking:\n• Bake at 180°C (350°F) for 30–35 minutes until crisp and golden.",
+
+        "5. Serve:\n• Serve warm with yogurt, tahini, or Arabic salad.\n• Garnish with pine nuts and sumac."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with garlic yogurt or tahini sauce",
+      "Pair with fresh Arabic salad or tabouleh",
+      "Enjoy as an appetizer or main dish",
+      "Garnish with toasted pine nuts and sumac"
+    ]
+  },
+
+  "chefTips": [
+    "Use very finely ground meat for a smooth kibbeh shell.",
+    "Fine bulgur is essential for proper texture and elasticity.",
+    "Ensure filling is dry to prevent bursting during frying.",
+    "Maintain steady oil temperature for even frying.",
+    "Chilling shaped kibbeh before frying helps them hold shape better."
+  ]
+}
