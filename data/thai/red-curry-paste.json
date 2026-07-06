@@ -1,0 +1,68 @@
+{
+  "id": "802",
+  "title": "Red Curry Paste (Nam Prik Gaeng Daeng)",
+  "description": "Red Curry Paste (Nam Prik Gaeng Daeng) is a classic Thai curry paste made with dried red chilies, roasted spices, fragrant herbs, and shrimp paste. It is the foundation of many authentic Thai curries, delivering bold aroma, vibrant color, and balanced heat.",
+
+  "category": "Thai",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/thai/red-curry-paste.png",
+
+  "ingredients": [
+    {
+      "title": "Spices (dry-roasted)",
+      "items": [
+        "1 tsp coriander seeds",
+        "1 tsp cumin seeds",
+        "½ tsp white peppercorns"
+      ]
+    },
+    {
+      "title": "Fresh aromatics",
+      "items": [
+        "10–12 dried long red chilies (seeds removed, soaked in warm water for 15 mins)",
+        "5 cloves garlic",
+        "3 small shallots",
+        "1 stalk lemongrass (tender part only, finely sliced)",
+        "1 tbsp galangal (or ginger if unavailable)",
+        "1 tsp kaffir lime zest (or substitute with lime zest + pinch of fresh bay leaf)",
+        "1 tbsp chopped fresh coriander root (or stems if unavailable)"
+      ]
+    },
+    {
+      "title": "Seasoning",
+      "items": [
+        "½ tsp shrimp paste (or 1 tsp miso for vegetarian version)",
+        "1–2 tsp salt (to help with grinding)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "1. Toast Spices:\n• In a dry pan over medium heat, toast coriander seeds, cumin seeds, and peppercorns until fragrant. Cool, then grind into powder with a mortar & pestle or spice grinder.",
+        "2. Pound Aromatics:\n• In a granite mortar & pestle (or food processor), pound drained chilies with salt, garlic, shallots, lemongrass, galangal, lime zest, and coriander root until smooth.",
+        "3. Add Shrimp Paste & Spices:\n• Pound in ground spices and shrimp paste until fully integrated into a thick, aromatic paste."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Storage",
+    "items": [
+      "Refrigerator: In a sealed container up to 1 week.",
+      "Freezer: Up to 3 months. Freeze in small portions.",
+      "About ½ cup of curry paste—enough for 2–3 dishes."
+    ]
+  },
+
+  "chefTips": [
+    "Toast spices gently to bring out maximum aroma.",
+    "Use a mortar & pestle for the most authentic texture.",
+    "Soak dried chilies until soft before grinding.",
+    "Fresh galangal and kaffir lime zest give the best flavor.",
+    "Freeze in small portions for easy future use."
+  ]
+}
