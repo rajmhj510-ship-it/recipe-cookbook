@@ -1,0 +1,106 @@
+{
+  "id": "805",
+  "title": "Tom Yam Kai—Spicy & Sour Chicken Soup",
+  "description": "Tom Yam Kai is one of Thailand’s most iconic soups, celebrated for its bold balance of sour, spicy, salty, and aromatic flavors. Infused with lemongrass, galangal, kaffir lime leaves, and fresh chilies, this comforting chicken soup delivers restaurant-quality taste with every spoonful.",
+
+  "category": "Thai",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/thai/tom-yam-kai.png",
+
+  "ingredients": [
+    {
+      "title": "A. Aromatics & Herbs",
+      "items": [
+        "Lemongrass – 3 stalks, trimmed and smashed, cut into 2-inch pieces",
+        "Galangal – 5 slices (fresh, or frozen)",
+        "Kaffir lime leaves – 5–6, torn",
+        "Thai bird’s eye chilies – 4–6, smashed (adjust to spice level)",
+        "Cilantro root – 2 sprigs (optional, authentic touch)"
+      ]
+    },
+    {
+      "title": "B. Soup Base",
+      "items": [
+        "Chicken stock (preferably homemade) – 500 ml",
+        "Water – 250 ml",
+        "Chicken thigh (boneless, skinless) – 200 g, sliced into bite-size pieces",
+        "Straw mushrooms or oyster mushrooms – 150 g, halved",
+        "Shallots – 2–3, peeled and halved"
+      ]
+    },
+    {
+      "title": "C. Seasoning",
+      "items": [
+        "Fish sauce – 3 tbsp (or to taste)",
+        "Fresh lime juice – 2 tbsp (adjust to taste)",
+        "Palm sugar (or brown sugar) – 1–2 tsp",
+        "Thai chili paste (Nam Prik Pao) – 1 tbsp (optional, for Tom Yum Nam Khon version)"
+      ]
+    },
+    {
+      "title": "D. Garnish",
+      "items": [
+        "Fresh cilantro – handful, chopped",
+        "Lime wedges – 1–2",
+        "Thin slices of red chili – optional, for extra heat and color"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Broth",
+      "steps": [
+        "In a medium pot, combine the chicken stock and water.",
+        "Add lemongrass, galangal, kaffir lime leaves, and shallots. Bring to a boil, then reduce to a simmer for 5–7 minutes to infuse the aromatics."
+      ]
+    },
+    {
+      "title": "Step 2 – Add Chicken",
+      "steps": [
+        "Add the sliced chicken and simmer until just cooked through (about 5–6 minutes). Skim off any foam for a clearer broth."
+      ]
+    },
+    {
+      "title": "Step 3 – Add Mushrooms and Chilies",
+      "steps": [
+        "Add the mushrooms and bird’s eye chilies. Simmer another 3–4 minutes."
+      ]
+    },
+    {
+      "title": "Step 4 – Season the Soup",
+      "steps": [
+        "Add fish sauce, palm sugar, and lime juice. Adjust to balance saltiness, sourness, and sweetness.",
+        "If making Tom Yum Nam Khon, stir in 1 tbsp of Thai chili paste (Nam Prik Pao) and a splash (2–3 tbsp) of evaporated milk or coconut milk for richness."
+      ]
+    },
+    {
+      "title": "Step 5 – Final Taste Adjustment",
+      "steps": [
+        "Taste and adjust seasoning: add more lime juice if it’s not sour enough, or fish sauce for saltiness."
+      ]
+    },
+    {
+      "title": "Step 6 – Serve",
+      "steps": [
+        "Ladle into bowls and garnish with chopped cilantro and optional lime wedges. Serve hot with jasmine rice or as a starter."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with jasmine rice.",
+      "Enjoy as a starter before a Thai meal.",
+      "Garnish with fresh cilantro and lime wedges for extra freshness."
+    ]
+  },
+
+  "chefTips": [
+    "Do not overcook the chicken—it should remain tender.",
+    "Balance is everything: Tom Yam should hit sour, spicy, salty, and a little sweet.",
+    "Freshness matters: use fresh herbs, especially kaffir lime leaves and lemongrass."
+  ]
+}
