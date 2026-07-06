@@ -1845,20 +1845,20 @@
   },
   {
     "id": 804,
-    "title": "Yellow Curry Paste (Gaeng Garee)",
+    "title": "Gaeng Garee",
     "category": "Thai",
-    "file": "data/thai/yellow-curry-paste-gaeng-garee.json",
-    "image": "assets/images/thai/yellow-curry-paste-gaeng-garee.png",
+    "file": "data/thai/gaeng-garee.json",
+    "image": "assets/images/thai/gaeng-garee.png",
     "description": "",
     "time": "15 min",
     "difficulty": "Easy"
   },
   {
     "id": 805,
-    "title": "Green Curry Paste Recipe (Nam Prik Gaeng Kiew Wan)",
+    "title": "Nam Prik Gaeng Kiew Wan",
     "category": "Thai",
-    "file": "data/thai/green-curry-paste-nam-prik-gaeng-kiew-wan.json",
-    "image": "assets/images/thai/green-curry-paste-nam-prik-gaeng-kiew-wan.png",
+    "file": "data/thai/nam-prik-gaeng-kiew-wan.json",
+    "image": "assets/images/thai/nam-prik-gaeng-kiew-wan.png",
     "description": "",
     "time": "15 min",
     "difficulty": "Easy"
@@ -1875,7 +1875,7 @@
   },
   {
     "id": 807,
-    "title": "Tom Yam Kai—Spicy & Sour Chicken Soup",
+    "title": "Tom Yam Kai",
     "category": "Thai",
     "file": "data/thai/tom-yam-kai-spicy-sour-chicken-soup.json",
     "image": "assets/images/thai/tom-yam-kai-spicy-sour-chicken-soup.png",
@@ -1895,7 +1895,7 @@
   },
   {
     "id": 809,
-    "title": "Tom Kha Gai–Thai Coconut Chicken Soup",
+    "title": "Tom Kha Gai",
     "category": "Thai",
     "file": "data/thai/tom-kha-gai.json",
     "image": "assets/images/thai/tom-kha-gai-thai.png",
@@ -1905,7 +1905,7 @@
   },
   {
     "id": 810,
-    "title": "Por Pia Tod (Thai Crispy Spring Rolls)",
+    "title": "Por Pia Tod",
     "category": "Thai",
     "file": "data/thai/por-pia-tod.json",
     "image": "assets/images/thai/por-pia-tod.png",
@@ -1925,7 +1925,7 @@
   },
   {
     "id": 812,
-    "title": "Hokkien Mee (Hokkien Noodles)",
+    "title": "Hokkien Mee",
     "category": "Thai",
     "file": "data/thai/hokkien-mee-hokkien-noodles.json",
     "image": "assets/images/thai/hokkien-mee-hokkien-noodles.png",
@@ -1945,7 +1945,7 @@
   },
   {
     "id": 814,
-    "title": "Khao Soi Kai (Northern Thai Coconut Curry Noodle Soup with Chicken)",
+    "title": "Khao Soi Kai",
     "category": "Thai",
     "file": "data/thai/khao-soi-kai.json",
     "image": "assets/images/thai/khao-soi-kai.png",
