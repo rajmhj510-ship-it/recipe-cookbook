@@ -1,0 +1,71 @@
+{
+  "id": "803",
+  "title": "Yellow Curry Paste (Gaeng Garee)",
+  "description": "Yellow Curry Paste (Gaeng Garee) is a fragrant Thai curry paste made with roasted spices, turmeric, fresh aromatics, and shrimp paste. It is the base for rich, mildly spiced yellow curries with warm earthy flavors and vibrant golden color.",
+
+  "category": "Thai",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/thai/yellow-curry-paste.png",
+
+  "ingredients": [
+    {
+      "title": "Dry Spices (roasted or ground)",
+      "items": [
+        "1 tsp coriander seeds",
+        "1 tsp cumin seeds",
+        "½ tsp white or black peppercorns",
+        "½ tsp ground turmeric",
+        "¼ tsp cinnamon (optional, traditional in southern Thai versions)",
+        "1 pinch ground nutmeg (optional)",
+        "½ tsp curry powder (optional, used in some modern versions)"
+      ]
+    },
+    {
+      "title": "Fresh Aromatics",
+      "items": [
+        "6–8 dried mild red chilies (soaked, seeds removed)",
+        "3 small shallots, chopped",
+        "3 cloves garlic",
+        "1 stalk lemongrass (tender part only), finely sliced",
+        "1 tbsp galangal or ginger, chopped",
+        "1 tsp kaffir lime zest (or regular lime zest)",
+        "1 tbsp chopped coriander root or stems",
+        "1 tbsp yellow onion, chopped (adds subtle sweetness)"
+      ]
+    },
+    {
+      "title": "Seasoning",
+      "items": [
+        "½ tsp shrimp paste (or 1 tsp miso or fermented soybeans for vegetarian)",
+        "1 tsp salt"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "1. Toast Spices:\n• In a dry pan over medium heat, toast coriander seeds, cumin seeds, and peppercorns until fragrant (about 1 minute). Let cool and grind into powder.",
+        "2. Grind Aromatics:\n• In a mortar and pestle (or high-speed blender), pound or blend soaked chilies, garlic, shallots, lemongrass, galangal, lime zest, coriander root, and onion into a paste.",
+        "3. Combine Everything:\n• Add ground spices, turmeric, cinnamon, curry powder (if using), shrimp paste, and salt. Continue pounding or blending until smooth and fragrant."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Yield",
+    "items": [
+      "About ½ cup paste — enough for 2–3 dishes (serving 4 each)."
+    ]
+  },
+
+  "chefTips": [
+    "Toast the whole spices gently to release maximum aroma.",
+    "Use fresh galangal and kaffir lime zest for authentic Thai flavor.",
+    "Pound ingredients in a mortar and pestle for the best texture.",
+    "Blend until completely smooth for restaurant-quality curry paste.",
+    "Store refrigerated for up to 1 week or freeze in small portions."
+  ]
+}
