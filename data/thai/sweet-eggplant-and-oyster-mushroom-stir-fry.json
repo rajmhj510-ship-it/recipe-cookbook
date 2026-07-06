@@ -1,0 +1,97 @@
+{
+  "id": "806",
+  "title": "Sweet Eggplant and Oyster Mushroom Stir-Fry",
+  "description": "Sweet Eggplant and Oyster Mushroom Stir-Fry is a comforting Thai-style vegetable dish that combines tender eggplant, juicy oyster mushrooms, fragrant aromatics, and a savory-sweet sauce. Finished with fresh Thai basil, it pairs perfectly with steamed jasmine rice.",
+
+  "category": "Thai",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/thai/sweet-eggplant-and-oyster-mushroom-stir-fry.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Thai eggplant – 1 medium, cut into bite-sized pieces",
+        "Oyster mushrooms – 100 g, cleaned and separated",
+        "Vegetable oil – 1 tbsp",
+        "Garlic – 1.5 cloves, minced (or 1 large clove)",
+        "Shallot – 1, thinly sliced",
+        "Thai bird’s eye chilies – 1–2, sliced (adjust to taste)",
+        "Oyster sauce – 1 tbsp",
+        "Soy sauce – 1/2 tbsp",
+        "Palm sugar (or brown sugar) – 1/2 tbsp",
+        "Tamarind paste – 1/2 tbsp (optional)",
+        "Water or vegetable broth – 50 ml",
+        "Fresh Thai basil leaves – for garnish",
+        "Cornstarch – 1/2 tsp mixed with 1 tbsp water (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Eggplants",
+      "steps": [
+        "Soak the cut eggplants in salted water for 10 minutes to reduce bitterness and prevent browning. Drain well."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Eggplants",
+      "steps": [
+        "Heat 1 tablespoon of oil in a wok or large skillet over medium-high heat.",
+        "Add the eggplants and stir-fry for 5–7 minutes until softened and lightly browned.",
+        "Remove and set aside."
+      ]
+    },
+    {
+      "title": "Step 3 – Sauté Aromatics",
+      "steps": [
+        "In the same pan, add the remaining oil.",
+        "Add garlic, shallots, and chilies.",
+        "Stir-fry until fragrant (about 1–2 minutes)."
+      ]
+    },
+    {
+      "title": "Step 4 – Add Mushrooms",
+      "steps": [
+        "Toss in the oyster mushrooms and stir-fry for 3–4 minutes until they start to soften."
+      ]
+    },
+    {
+      "title": "Step 5 – Combine and Sauce",
+      "steps": [
+        "Return the eggplants to the pan.",
+        "Add oyster sauce, soy sauce, palm sugar, tamarind paste (if using), and water/broth.",
+        "Stir everything together."
+      ]
+    },
+    {
+      "title": "Step 6 – Simmer",
+      "steps": [
+        "Let the mixture simmer for 3–5 minutes so the eggplant and mushrooms absorb the sauce flavors.",
+        "If you want a thicker sauce, stir in the cornstarch slurry and cook until the sauce thickens."
+      ]
+    },
+    {
+      "title": "Step 7 – Finish and Serve",
+      "steps": [
+        "Turn off heat and stir in fresh Thai basil leaves.",
+        "Serve hot with steamed jasmine rice."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with steamed jasmine rice."
+    ]
+  },
+
+  "chefTips": [
+    "Adjust chilies for desired spiciness.",
+    "Palm sugar gives the authentic mild sweetness, but brown sugar works well as a substitute.",
+    "Tamarind paste adds a hint of sourness to balance the sweetness — feel free to skip if you prefer."
+  ]
+}
