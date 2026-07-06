@@ -1897,8 +1897,8 @@
     "id": 809,
     "title": "Tom Kha Gai–Thai Coconut Chicken Soup",
     "category": "Thai",
-    "file": "data/thai/tom-kha-gai-thai-coconut-chicken-soup.json",
-    "image": "assets/images/thai/tom-kha-gai-thai-coconut-chicken-soup.png",
+    "file": "data/thai/tom-kha-gai.json",
+    "image": "assets/images/thai/tom-kha-gai-thai.png",
     "description": "",
     "time": "35 min",
     "difficulty": "Medium"
@@ -1907,8 +1907,8 @@
     "id": 810,
     "title": "Por Pia Tod (Thai Crispy Spring Rolls)",
     "category": "Thai",
-    "file": "data/thai/por-pia-tod-thai-crispy-spring-rolls.json",
-    "image": "assets/images/thai/por-pia-tod-thai-crispy-spring-rolls.png",
+    "file": "data/thai/por-pia-tod.json",
+    "image": "assets/images/thai/por-pia-tod.png",
     "description": "",
     "time": "45 min",
     "difficulty": "Medium"
