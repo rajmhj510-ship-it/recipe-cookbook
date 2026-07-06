@@ -1,0 +1,106 @@
+{
+  "id": "808",
+  "title": "Por Pia Tod (Thai Crispy Spring Rolls)",
+  "description": "Por Pia Tod is a popular Thai appetizer featuring crispy golden spring rolls filled with savory meat, vegetables, and glass noodles. Served with a sweet-sour dipping sauce, these rolls are a favorite at Thai restaurants and make a perfect snack or starter.",
+
+  "category": "Thai",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/thai/por-pia-tod.png",
+
+  "ingredients": [
+    {
+      "title": "Filling",
+      "items": [
+        "Ground pork (or chicken/shrimp/tofu for variation) – 200 g",
+        "Glass noodles – 50 g (soaked, drained, cut into 2-inch lengths)",
+        "Carrot – 1 medium, julienned",
+        "Shredded cabbage – 50 g",
+        "Bean sprouts – 40 g",
+        "Shiitake mushrooms – 30 g, finely chopped",
+        "Garlic – 2 cloves, minced",
+        "Onion or shallot – 1 small, finely diced",
+        "Oyster sauce – 1 tbsp",
+        "Light soy sauce – 1 tbsp",
+        "Fish sauce – 1 tsp",
+        "White pepper – ½ tsp",
+        "Sugar – 1 tsp",
+        "Vegetable oil – 1 tbsp"
+      ]
+    },
+    {
+      "title": "Wrapping & Frying",
+      "items": [
+        "Spring roll wrappers (8\" square, thawed if frozen) – 20",
+        "Egg – 1, lightly beaten (for sealing)",
+        "Neutral oil (e.g., rice bran or canola) – for deep frying"
+      ]
+    },
+    {
+      "title": "Dipping Sauce (Nam Jim Po Pia)",
+      "items": [
+        "Rice vinegar – 4 tbsp",
+        "Sugar – 2 tbsp",
+        "Water – 2 tbsp",
+        "Fish sauce – 1 tbsp",
+        "Red chili – 1, finely sliced",
+        "Carrot – 1 tbsp, finely julienned (optional for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Filling",
+      "steps": [
+        "Heat oil in a wok over medium-high.",
+        "Add garlic and onion, stir-fry until fragrant.",
+        "Add pork (or protein of choice), cook until just done.",
+        "Stir in mushrooms, carrot, cabbage; cook briefly to keep crunch.",
+        "Season with oyster sauce, soy, fish sauce, pepper, sugar.",
+        "Remove from heat, fold in noodles and bean sprouts.",
+        "Let mixture cool completely before wrapping."
+      ]
+    },
+    {
+      "title": "Step 2 – Wrap the Rolls",
+      "steps": [
+        "Place one wrapper on a clean surface, diamond-shaped.",
+        "Spoon 1–2 tbsp filling near the bottom corner.",
+        "Fold bottom corner over filling, tuck sides in snugly.",
+        "Roll tightly toward the top; brush edge with egg wash to seal.",
+        "Repeat until all filling is used."
+      ]
+    },
+    {
+      "title": "Step 3 – Frying",
+      "steps": [
+        "Heat oil to 170–175°C (340–350°F) in a deep pan or fryer.",
+        "Fry rolls in small batches until golden and crisp (3–4 minutes).",
+        "Drain on paper towels or a rack for best crispness."
+      ]
+    },
+    {
+      "title": "Step 4 – Sauce",
+      "steps": [
+        "Combine vinegar, sugar, water in a small pan. Bring to a light simmer until sugar dissolves.",
+        "Add fish sauce, chili, carrot garnish. Cool before serving."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Plating (Restaurant Style)",
+    "items": [
+      "Stack spring rolls diagonally on a rectangular plate.",
+      "Serve with a small dipping bowl of sweet-sour chili sauce.",
+      "Garnish with microgreens, carved vegetables, or a banana leaf accent for Thai elegance."
+    ]
+  },
+
+  "chefTips": [
+    "Keep filling dry: excess moisture makes rolls soggy.",
+    "Fry twice (at 160°C then finish at 180°C) for extra crunch if prepping ahead.",
+    "Pair with Thai iced tea or a crisp lager for a complete dining experience."
+  ]
+}
