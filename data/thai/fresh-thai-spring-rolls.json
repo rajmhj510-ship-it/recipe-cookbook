@@ -1,0 +1,113 @@
+{
+  "id": "809",
+  "title": "Fresh Thai Spring Rolls",
+  "description": "Fresh Thai Spring Rolls are light, refreshing, and packed with crisp vegetables, fresh herbs, rice vermicelli, and your choice of shrimp, chicken, or tofu. Wrapped in delicate rice paper and served with a rich peanut dipping sauce or sweet chili sauce, they are a perfect appetizer or light meal.",
+
+  "category": "Thai",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/thai/fresh-thai-spring-rolls.png",
+
+  "ingredients": [
+    {
+      "title": "For the Rolls",
+      "items": [
+        "Rice paper wrappers (22 cm diameter) – 8 sheets",
+        "Rice vermicelli noodles – 100 g (3.5 oz)",
+        "Medium shrimp – 8, cooked, peeled, sliced in half lengthwise (or use tofu/chicken)",
+        "Shredded carrots – 1 cup",
+        "Thinly sliced cucumber (julienned, seeds removed) – 1 cup",
+        "Shredded red cabbage – 1 cup",
+        "Bean sprouts – 1/2 cup",
+        "Fresh mint leaves – 1/4 cup",
+        "Fresh Thai basil leaves – 1/4 cup",
+        "Fresh cilantro leaves – 1/4 cup",
+        "Crushed peanuts – optional, for crunch"
+      ]
+    },
+    {
+      "title": "Protein Alternatives",
+      "items": [
+        "Grilled chicken breast – thinly sliced",
+        "Crispy or marinated tofu – pan-fried or baked",
+        "Grilled shrimp or poached prawns"
+      ]
+    },
+    {
+      "title": "Peanut Dipping Sauce (Thai-style)",
+      "items": [
+        "Creamy peanut butter – 1/3 cup",
+        "Hoisin sauce – 2 tbsp",
+        "Soy sauce – 1 tbsp",
+        "Lime juice – 1 tbsp",
+        "Brown sugar or palm sugar – 1 tbsp",
+        "Sesame oil – 1 tsp",
+        "Warm water – 1/4–1/3 cup (adjust for consistency)",
+        "Red curry paste or Sriracha – 1 tsp (optional, for heat)"
+      ]
+    },
+    {
+      "title": "Sweet Chili Sauce Alternative",
+      "items": [
+        "Store-bought Thai sweet chili sauce",
+        "Or mix: 1/4 cup sweet chili sauce + 1 tsp lime juice + 1/2 tsp fish sauce for balance"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Noodles",
+      "steps": [
+        "Cook rice vermicelli noodles per package instructions (typically 3–4 minutes in boiling water).",
+        "Drain and rinse with cold water. Set aside."
+      ]
+    },
+    {
+      "title": "Step 2 – Prep Fillings",
+      "steps": [
+        "Wash, peel, and julienne all vegetables.",
+        "Arrange fresh herbs for quick access.",
+        "Slice shrimp or tofu."
+      ]
+    },
+    {
+      "title": "Step 3 – Soften Rice Paper",
+      "steps": [
+        "Fill a wide shallow bowl or pan with warm water.",
+        "Dip one rice paper sheet in the water for 4–6 seconds, until just pliable (not too soft—it will continue softening as you roll).",
+        "Lay it flat on a damp clean cutting board or kitchen towel."
+      ]
+    },
+    {
+      "title": "Step 4 – Fill and Roll",
+      "steps": [
+        "Place a few mint, basil, and cilantro leaves in the center.",
+        "Layer a small bundle of noodles, carrots, cucumbers, cabbage, and sprouts.",
+        "Top with 2–3 shrimp halves (pink side down for visual appeal).",
+        "Fold in the sides, then roll tightly from the bottom like a burrito.",
+        "Tip: Do not overfill! Tightly packed but not bursting is key."
+      ]
+    },
+    {
+      "title": "Step 5 – Repeat",
+      "steps": [
+        "Continue with remaining wrappers and filling."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Slice rolls in half diagonally.",
+      "Serve chilled or at room temperature with peanut or chili dipping sauce.",
+      "Garnish with extra herbs, crushed peanuts, or a lime wedge on the side."
+    ]
+  },
+
+  "chefTips": [
+    "Drink: Thai iced tea, lemongrass iced green tea, or a crisp white wine like Sauvignon Blanc.",
+    "Side: Pair with Tom Yum soup or Papaya Salad (Som Tum) for a full Thai meal."
+  ]
+}
