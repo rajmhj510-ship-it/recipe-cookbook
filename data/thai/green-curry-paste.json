@@ -1,0 +1,70 @@
+{
+  "id": "804",
+  "title": "Green Curry Paste (Nam Prik Gaeng Kiew Wan)",
+  "description": "Green Curry Paste (Nam Prik Gaeng Kiew Wan) is a classic Thai curry paste made with fresh green chilies, fragrant herbs, roasted spices, and shrimp paste. It is the foundation of authentic Thai green curry, offering a vibrant color, fresh aroma, and balanced heat.",
+
+  "category": "Thai",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/thai/green-curry-paste.png",
+
+  "ingredients": [
+    {
+      "title": "Spices (dry-roasted)",
+      "items": [
+        "1 tsp coriander seeds",
+        "1 tsp cumin seeds",
+        "½ tsp white peppercorns"
+      ]
+    },
+    {
+      "title": "Fresh Aromatics",
+      "items": [
+        "10–12 fresh green Thai chilies (adjust to heat preference)",
+        "3–4 mild green chilies (like jalapeño or serrano, for color + volume)",
+        "1 tbsp chopped coriander root (or lower stems if root unavailable)",
+        "1 stalk lemongrass (tender inner part only), finely sliced",
+        "1 tbsp galangal, chopped (or ginger as a substitute)",
+        "2 cloves garlic",
+        "2–3 small shallots",
+        "1 tsp kaffir lime zest (or regular lime zest + pinch of fresh bay leaf)",
+        "1 tbsp Thai sweet basil leaves (optional, for a deeper herbal note)"
+      ]
+    },
+    {
+      "title": "Seasoning",
+      "items": [
+        "½ tsp shrimp paste (or 1 tsp fermented soy bean paste/miso for vegetarian)",
+        "1 tsp salt (helps grinding and preservation)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "1. Dry Toast Spices:\n• Toast coriander, cumin, and white peppercorns in a dry skillet over medium heat until fragrant (1–2 minutes). Let cool and grind into powder.",
+        "2. Pound Fresh Ingredients:\n• In a mortar and pestle (or blender), pound or blend green chilies, garlic, shallots, lemongrass, galangal, lime zest, and coriander root into a smooth paste.",
+        "3. Add Spices & Shrimp Paste:\n• Incorporate ground spices and shrimp paste. Pound until fully blended and smooth, adding a splash of water or oil if needed for consistency."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Storage",
+    "items": [
+      "Refrigerator: Airtight container, up to 1 week.",
+      "Freezer: Freeze in tablespoon portions (e.g., ice cube trays) for up to 3 months.",
+      "About ½ cup, suitable for 2–3 dishes."
+    ]
+  },
+
+  "chefTips": [
+    "Use the freshest green chilies for the brightest color.",
+    "Thai sweet basil adds a deeper herbal aroma.",
+    "A mortar and pestle produces the most authentic texture.",
+    "Adjust the number of Thai chilies to control heat.",
+    "Freeze in small portions for convenient cooking."
+  ]
+}
