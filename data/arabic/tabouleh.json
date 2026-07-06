@@ -1,0 +1,75 @@
+{
+  "id": "112",
+  "title": "Tabouleh",
+  "description": "Tabouleh is a traditional Arabic parsley salad made with fine bulgur wheat, fresh herbs, tomatoes, onions, and a bright lemon-olive oil dressing. It is known for its refreshing, zesty flavor and is commonly served as part of a mezze platter.",
+
+  "category": "Arabic",
+  "time": "45 min",
+  "difficulty": "Easy",
+  "image": "assets/images/arabic/tabouleh.png",
+
+  "ingredients": [
+    {
+      "title": "For the base",
+      "items": [
+        "½ cup fine bulgur wheat",
+        "1 cup boiling water",
+        "Pinch of salt"
+      ]
+    },
+    {
+      "title": "Fresh herbs & vegetables",
+      "items": [
+        "2 cups flat-leaf parsley, finely chopped (stems removed)",
+        "½ cup fresh mint, finely chopped",
+        "4 medium ripe tomatoes, finely diced",
+        "1 medium cucumber, finely diced (optional for extra freshness)",
+        "4–5 spring onions or 1 small red onion, finely diced"
+      ]
+    },
+    {
+      "title": "Dressing",
+      "items": [
+        "½ cup freshly squeezed lemon juice (about 3–4 lemons)",
+        "½ cup high-quality extra virgin olive oil",
+        "Salt, to taste",
+        "Freshly ground black pepper, to taste",
+        "Optional: pinch of allspice or sumac for depth"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "1. Prep the bulgur:\n• Place bulgur in a heatproof bowl.\n• Pour boiling water over it, just enough to cover.\n• Cover and let it sit for 15–20 minutes until tender but not mushy.\n• Drain any excess water and fluff with a fork.",
+
+        "2. Prep herbs and vegetables:\n• Finely chop parsley and mint using a sharp knife to avoid bruising.\n• Dice tomatoes, cucumber, and onion uniformly for even texture.",
+
+        "3. Combine ingredients:\n• In a large bowl, combine bulgur, parsley, mint, tomatoes, cucumber, and onions.\n• Toss gently but thoroughly.",
+
+        "4. Make the dressing:\n• Whisk together lemon juice, olive oil, salt, pepper, and optional spices.\n• Pour over the salad and mix well.",
+
+        "5. Rest and serve:\n• Chill for at least 30 minutes to allow flavors to meld.\n• Taste and adjust seasoning before serving.\n• Serve in a wide, shallow bowl."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve as part of a mezze platter with hummus and baba ghanoush",
+      "Pair with grilled meats or kebabs",
+      "Enjoy with warm pita or saj bread",
+      "Serve chilled as a refreshing side salad"
+    ]
+  },
+
+  "chefTips": [
+    "Maintain a high parsley-to-bulgur ratio for authentic freshness.",
+    "Always chop herbs by hand to preserve texture and color.",
+    "Add lemon juice before olive oil for better flavor integration.",
+    "Serve chilled and garnish with fresh mint leaves and olive oil drizzle."
+  ]
+}
