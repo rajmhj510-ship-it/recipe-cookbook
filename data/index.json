@@ -1842,5 +1842,116 @@
     "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
-  }
+  },
+  {
+    "id": 804,
+    "title": "Yellow Curry Paste (Gaeng Garee)",
+    "category": "Thai",
+    "file": "data/thai/yellow-curry-paste-gaeng-garee.json",
+    "image": "assets/images/thai/yellow-curry-paste-gaeng-garee.png",
+    "description": "",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 805,
+    "title": "Green Curry Paste Recipe (Nam Prik Gaeng Kiew Wan)",
+    "category": "Thai",
+    "file": "data/thai/green-curry-paste-nam-prik-gaeng-kiew-wan.json",
+    "image": "assets/images/thai/green-curry-paste-nam-prik-gaeng-kiew-wan.png",
+    "description": "",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 806,
+    "title": "Chicken Satay with Peanut Sauce",
+    "category": "Thai",
+    "file": "data/thai/chicken-satay-with-peanut-sauce.json",
+    "image": "assets/images/thai/chicken-satay-with-peanut-sauce.png",
+    "description": "",
+    "time": "40 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 807,
+    "title": "Tom Yam Kai—Spicy & Sour Chicken Soup",
+    "category": "Thai",
+    "file": "data/thai/tom-yam-kai-spicy-sour-chicken-soup.json",
+    "image": "assets/images/thai/tom-yam-kai-spicy-sour-chicken-soup.png",
+    "description": "",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 808,
+    "title": "Sweet Eggplant and Oyster Mushroom Stir-Fry",
+    "category": "Thai",
+    "file": "data/thai/sweet-eggplant-and-oyster-mushroom-stir-fry.json",
+    "image": "assets/images/thai/sweet-eggplant-and-oyster-mushroom-stir-fry.png",
+    "description": "",
+    "time": "25 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 809,
+    "title": "Tom Kha Gai–Thai Coconut Chicken Soup",
+    "category": "Thai",
+    "file": "data/thai/tom-kha-gai-thai-coconut-chicken-soup.json",
+    "image": "assets/images/thai/tom-kha-gai-thai-coconut-chicken-soup.png",
+    "description": "",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 810,
+    "title": "Por Pia Tod (Thai Crispy Spring Rolls)",
+    "category": "Thai",
+    "file": "data/thai/por-pia-tod-thai-crispy-spring-rolls.json",
+    "image": "assets/images/thai/por-pia-tod-thai-crispy-spring-rolls.png",
+    "description": "",
+    "time": "45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 811,
+    "title": "Fresh Thai Spring Rolls",
+    "category": "Thai",
+    "file": "data/thai/fresh-thai-spring-rolls.json",
+    "image": "assets/images/thai/fresh-thai-spring-rolls.png",
+    "description": "",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 812,
+    "title": "Hokkien Mee (Hokkien Noodles)",
+    "category": "Thai",
+    "file": "data/thai/hokkien-mee-hokkien-noodles.json",
+    "image": "assets/images/thai/hokkien-mee-hokkien-noodles.png",
+    "description": "",
+    "time": "25 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 813,
+    "title": "Tofu Larb",
+    "category": "Thai",
+    "file": "data/thai/tofu-larb.json",
+    "image": "assets/images/thai/tofu-larb.png",
+    "description": "",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 814,
+    "title": "Khao Soi Kai (Northern Thai Coconut Curry Noodle Soup with Chicken)",
+    "category": "Thai",
+    "file": "data/thai/khao-soi-kai-northern-thai-coconut-curry-noodle-soup-with-chicken.json",
+    "image": "assets/images/thai/khao-soi-kai-northern-thai-coconut-curry-noodle-soup-with-chicken.png",
+    "description": "",
+    "time": "60 min",
+    "difficulty": "Medium"
+  },
+  
 ]
