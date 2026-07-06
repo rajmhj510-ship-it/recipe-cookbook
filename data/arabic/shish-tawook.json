@@ -1,0 +1,84 @@
+{
+  "id": "122",
+  "title": "Shish Tawook (Grilled Chicken Skewers)",
+  "description": "Shish Tawook is a classic Arabic grilled chicken skewer dish made with tender chicken marinated in yogurt, lemon, garlic, and warm spices, then grilled until juicy and lightly charred. It is commonly served with garlic sauce, pita bread, and pickles.",
+
+  "category": "Arabic",
+  "time": "1 hr 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/arabic/shish-tawook.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "1 kg boneless, skinless chicken breasts or thighs, cut into 1.5-inch cubes",
+        "Wooden or metal skewers (soaked if wooden)"
+      ]
+    },
+    {
+      "title": "For the Marinade",
+      "items": [
+        "½ cup plain full-fat yogurt",
+        "¼ cup olive oil",
+        "3 tbsp fresh lemon juice",
+        "4 garlic cloves, minced",
+        "1 tsp paprika",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "½ tsp turmeric",
+        "½ tsp ground cinnamon (optional)",
+        "½ tsp chili powder or Aleppo pepper",
+        "1 tsp salt",
+        "½ tsp black pepper",
+        "1 tbsp tomato paste or red bell pepper paste (optional)"
+      ]
+    },
+    {
+      "title": "For Garnish & Serving",
+      "items": [
+        "Fresh parsley, chopped",
+        "Lemon wedges",
+        "Pickles or Arabic bread (pita / khubz)",
+        "Garlic sauce or toum"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "1. Prepare the Chicken:\n• Cut chicken into uniform cubes.\n• Pat dry to help marinade adhere.",
+
+        "2. Make the Marinade:\n• Whisk yogurt, olive oil, lemon juice, garlic, spices, and optional paste until smooth.\n• Adjust seasoning to taste.",
+
+        "3. Marinate the Chicken:\n• Coat chicken thoroughly in marinade.\n• Refrigerate at least 4 hours or overnight for best flavor.",
+
+        "4. Prepare Skewers:\n• Thread chicken pieces onto skewers, leaving slight gaps for even cooking.",
+
+        "5. Cook the Chicken:\nGrill Method:\n• Grill over medium-high heat for 10–12 minutes, turning until charred and cooked through.\n\nOven Method:\n• Bake at 220°C (425°F) for 15–20 minutes, turning halfway.\n• Optional broil for extra char.",
+
+        "6. Serve:\n• Garnish with parsley and lemon wedges.\n• Serve hot with garlic sauce, pickles, pita bread, or rice."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with garlic toum or tahini sauce",
+      "Pair with fattoush or tabbouleh salad",
+      "Enjoy with warm pita or saffron rice",
+      "Add pickles and grilled vegetables for balance"
+    ]
+  },
+
+  "chefTips": [
+    "Use chicken thighs for juicier results, or mix with breast meat.",
+    "Marinate overnight for deeper flavor infusion.",
+    "Leave small gaps on skewers for even heat circulation.",
+    "Brush lightly with oil before grilling to prevent sticking.",
+    "Finish with sumac or smoked paprika for restaurant-style aroma."
+  ]
+}
