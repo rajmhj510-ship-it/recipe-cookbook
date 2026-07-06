@@ -29,6 +29,196 @@
     "time": "15 min",
     "difficulty": "Easy"
   },
+  {
+    "id": 104,
+    "title": "Tahini Paste",
+    "category": "Arabic",
+    "file": "data/arabic/tahini-paste.json",
+    "image": "assets/images/arabic/tahini-paste.png",
+    "description": "",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 105,
+    "title": "Tahini Sauce",
+    "category": "Arabic",
+    "file": "data/arabic/tahini-sauce.json",
+    "image": "assets/images/arabic/tahini-sauce.png",
+    "description": "",
+    "time": "10 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 106,
+    "title": "Baba Ghanoush",
+    "category": "Arabic",
+    "file": "data/arabic/baba-ghanoush.json",
+    "image": "assets/images/arabic/baba-ghanoush.png",
+    "description": "",
+    "time": "45 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 107,
+    "title": "Labneh",
+    "category": "Arabic",
+    "file": "data/arabic/labneh.json",
+    "image": "assets/images/arabic/labneh.png",
+    "description": "",
+    "time": "24–48 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 108,
+    "title": "Pita Bread",
+    "category": "Arabic",
+    "file": "data/arabic/pita-bread.json",
+    "image": "assets/images/arabic/pita-bread.png",
+    "description": "",
+    "time": "2 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 109,
+    "title": "Grilled Vegetable Pita",
+    "category": "Arabic",
+    "file": "data/arabic/grilled-vegetable-pita.json",
+    "image": "assets/images/arabic/grilled-vegetable-pita.png",
+    "description": "",
+    "time": "40 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 110,
+    "title": "Khubz (Arabic Flatbread)",
+    "category": "Arabic",
+    "file": "data/arabic/khubz.json",
+    "image": "assets/images/arabic/khubz.png",
+    "description": "",
+    "time": "2 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 111,
+    "title": "Saj Bread",
+    "category": "Arabic",
+    "file": "data/arabic/saj-bread.json",
+    "image": "assets/images/arabic/saj-bread.png",
+    "description": "",
+    "time": "1 hr",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 112,
+    "title": "Tabouleh",
+    "category": "Arabic",
+    "file": "data/arabic/tabouleh.json",
+    "image": "assets/images/arabic/tabouleh.png",
+    "description": "",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 113,
+    "title": "Fattoush Salad",
+    "category": "Arabic",
+    "file": "data/arabic/fattoush-salad.json",
+    "image": "assets/images/arabic/fattoush-salad.png",
+    "description": "",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 114,
+    "title": "Kabsa",
+    "category": "Arabic",
+    "file": "data/arabic/kabsa.json",
+    "image": "assets/images/arabic/kabsa.png",
+    "description": "",
+    "time": "2.5–3 hrs",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 115,
+    "title": "Chicken Kabsa",
+    "category": "Arabic",
+    "file": "data/arabic/chicken-kabsa.json",
+    "image": "assets/images/arabic/chicken-kabsa.png",
+    "description": "",
+    "time": "2 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 116,
+    "title": "Maklouba (Upside-Down Rice)",
+    "category": "Arabic",
+    "file": "data/arabic/maklouba.json",
+    "image": "assets/images/arabic/maklouba.png",
+    "description": "",
+    "time": "1.5–2 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 117,
+    "title": "Mansaf (Lamb with Jameed Yogurt Sauce)",
+    "category": "Arabic",
+    "file": "data/arabic/mansaf.json",
+    "image": "assets/images/arabic/mansaf.png",
+    "description": "",
+    "time": "2 hrs",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 118,
+    "title": "Mandi (Spiced Rice with Meat)",
+    "category": "Arabic",
+    "file": "data/arabic/mandi.json",
+    "image": "assets/images/arabic/mandi.png",
+    "description": "",
+    "time": "3 hrs",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 119,
+    "title": "Kofta",
+    "category": "Arabic",
+    "file": "data/arabic/kofta.json",
+    "image": "assets/images/arabic/kofta.png",
+    "description": "",
+    "time": "45 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 120,
+    "title": "Shakshuka",
+    "category": "Arabic",
+    "file": "data/arabic/shakshuka.json",
+    "image": "assets/images/arabic/shakshuka.png",
+    "description": "",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 121,
+    "title": "Kibbeh",
+    "category": "Arabic",
+    "file": "data/arabic/kibbeh.json",
+    "image": "assets/images/arabic/kibbeh.png",
+    "description": "",
+    "time": "1.5 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 122,
+    "title": "Shish Tawook",
+    "category": "Arabic",
+    "file": "data/arabic/shish-tawook.json",
+    "image": "assets/images/arabic/shish-tawook.png",
+    "description": "",
+    "time": "1 hr 30 min",
+    "difficulty": "Medium"
+  },
 
   {
     "id": 201,
