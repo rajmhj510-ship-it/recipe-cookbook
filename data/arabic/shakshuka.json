@@ -1,0 +1,87 @@
+{
+  "id": "120",
+  "title": "Shakshuka",
+  "description": "Shakshuka is a traditional Arabic-inspired dish of eggs gently poached in a spiced tomato and pepper sauce. It is rich, aromatic, and commonly served for breakfast or brunch with warm bread for dipping.",
+
+  "category": "Arabic",
+  "time": "45 min",
+  "difficulty": "Easy",
+  "image": "assets/images/arabic/shakshuka.png",
+
+  "ingredients": [
+    {
+      "title": "For the Sauce",
+      "items": [
+        "3 tbsp olive oil (extra virgin)",
+        "1 large onion, finely chopped",
+        "1 red bell pepper, diced",
+        "1 green bell pepper, diced",
+        "4 cloves garlic, minced",
+        "2 tsp ground cumin",
+        "1 tsp ground paprika (smoked if available)",
+        "½ tsp ground coriander",
+        "½ tsp chili flakes (optional)",
+        "1 tsp ground turmeric",
+        "1 can (400g) chopped tomatoes or 5 fresh ripe tomatoes, peeled and chopped",
+        "2 tbsp tomato paste",
+        "½ cup vegetable or chicken stock",
+        "Salt and freshly ground black pepper, to taste",
+        "1 tsp sugar (optional)",
+        "½ cup fresh parsley, chopped",
+        "¼ cup fresh cilantro, chopped"
+      ]
+    },
+    {
+      "title": "For the Eggs",
+      "items": [
+        "6–8 large eggs",
+        "Crumbled feta cheese or soft goat cheese (optional)",
+        "Extra parsley or cilantro for garnish",
+        "Drizzle of olive oil for serving"
+      ]
+    },
+    {
+      "title": "Optional Extras",
+      "items": [
+        "Za’atar sprinkle",
+        "Harissa paste",
+        "Toasted pita or crusty bread for serving"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "1. Prepare the Base:\n• Heat olive oil in a large skillet over medium heat.\n• Sauté onions for 3–4 minutes until soft.\n• Add bell peppers and cook 5 minutes until tender.\n• Add garlic and cook 30 seconds until fragrant.",
+
+        "2. Build the Flavors:\n• Add cumin, paprika, coriander, turmeric, and chili flakes; toast 1 minute.\n• Stir in tomato paste and cook 1–2 minutes.\n• Add tomatoes and stock, season with salt, pepper, and sugar.\n• Simmer 10–15 minutes until thick but still saucy.",
+
+        "3. Finish the Sauce:\n• Stir in half the parsley and cilantro.\n• Adjust seasoning and create small wells for eggs.",
+
+        "4. Cook the Eggs:\n• Crack eggs into wells.\n• Cover and cook 5–8 minutes until whites are set and yolks are soft.\n• Alternatively, bake at 180°C (350°F) for 5 minutes.",
+
+        "5. Plate and Serve:\n• Garnish with remaining herbs and cheese.\n• Drizzle olive oil and add optional za’atar or harissa.\n• Serve with warm bread or pita."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with toasted pita or crusty bread",
+      "Pair with feta cheese and olives",
+      "Enjoy as a breakfast, brunch, or light dinner",
+      "Add harissa for extra heat and depth"
+    ]
+  },
+
+  "chefTips": [
+    "Use ripe tomatoes for the best natural sweetness.",
+    "Do not overcook peppers; slight texture adds character.",
+    "Toast spices in oil to deepen flavor complexity.",
+    "Keep yolks slightly runny for best presentation and taste.",
+    "Generous fresh herbs brighten and balance the dish."
+  ]
+}
