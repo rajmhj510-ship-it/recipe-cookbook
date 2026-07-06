@@ -1,0 +1,121 @@
+{
+  "id": 809,
+  "title": "Hokkien Mee (Hokkien Noodles)",
+  "category": "Thai",
+  "description": "",
+  "image": "assets/images/thai/hokkien-mee.png",
+  "time": "25 min",
+  "difficulty": "Medium",
+  "servings": "2 generous servings",
+  "prepTime": "15 minutes",
+  "cookTime": "10 minutes",
+  "ingredients": [
+    {
+      "section": "Protein",
+      "items": [
+        "150g pork shoulder or pork belly (thinly sliced)",
+        "100g shrimp, peeled & deveined",
+        "Optional: 50g squid, cleaned and sliced"
+      ]
+    },
+    {
+      "section": "Noodles",
+      "items": [
+        "300g fresh Hokkien yellow noodles (or thick egg noodles), rinsed & drained"
+      ]
+    },
+    {
+      "section": "Vegetables & Aromatics",
+      "items": [
+        "1½ tbsp chopped garlic",
+        "100g Chinese kale (or baby bok choy), cut into 2-inch lengths",
+        "1 small handful bean sprouts (optional)",
+        "1 small yellow onion, sliced"
+      ]
+    },
+    {
+      "section": "Sauce",
+      "items": [
+        "1 tbsp light soy sauce",
+        "1 tbsp dark soy sauce (for color)",
+        "1½ tbsp oyster sauce",
+        "½ tsp sugar",
+        "1 tsp fish sauce",
+        "100 ml chicken or pork stock",
+        "Dash of white pepper",
+        "½ tsp sesame oil (optional)"
+      ]
+    },
+    {
+      "section": "Garnish",
+      "items": [
+        "Fried shallots",
+        "Lime wedges",
+        "Fresh chili in vinegar or prik nam som (Thai chili vinegar)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "title": "Step 1: Prepare sauce",
+      "steps": [
+        "In a small bowl, combine:",
+        "Light soy sauce",
+        "Dark soy sauce",
+        "Oyster sauce",
+        "Sugar",
+        "Fish sauce",
+        "Stock",
+        "White pepper",
+        "Set aside."
+      ]
+    },
+    {
+      "title": "Step 2: Cook protein",
+      "steps": [
+        "Heat 1 tbsp oil in a wok over medium-high heat.",
+        "Add pork slices and stir-fry until nearly cooked.",
+        "Add shrimp (and squid if using) and stir-fry until just turning pink.",
+        "Remove protein from wok and set aside."
+      ]
+    },
+    {
+      "title": "Step 3: Aromatics and vegetables",
+      "steps": [
+        "Add a bit more oil to the same wok. Sauté garlic and onions until fragrant.",
+        "Add Chinese kale and toss for 30 seconds.",
+        "Add the noodles and toss to combine."
+      ]
+    },
+    {
+      "title": "Step 4: Combine and sauce",
+      "steps": [
+        "Return cooked protein to the wok.",
+        "Pour the sauce over the noodles.",
+        "Toss everything well to coat the noodles in sauce. Let it cook for 2–3 minutes, letting the sauce reduce and absorb slightly."
+      ]
+    },
+    {
+      "title": "Step 5: Finish",
+      "steps": [
+        "Taste and adjust seasoning: add a touch more sugar or fish sauce if needed.",
+        "Drizzle with sesame oil if using.",
+        "Toss in bean sprouts just before serving for crunch (optional)."
+      ]
+    },
+    {
+      "title": "To Serve",
+      "steps": [
+        "Top with fried shallots.",
+        "Serve with lime wedges and chili vinegar on the side.",
+        "Best served hot, straight from the wok."
+      ]
+    }
+  ],
+  "tips": [
+    "Wok hei (the smoky sear) is key — use very high heat and a large wok.",
+    "Avoid overcooking shrimp; they should be just pink and firm.",
+    "Use homemade stock for deeper flavor.",
+    "Slightly charred noodles = more flavor."
+  ]
+}
