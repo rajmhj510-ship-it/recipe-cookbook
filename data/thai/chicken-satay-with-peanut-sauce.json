@@ -1,0 +1,82 @@
+{
+  "id": "805",
+  "title": "Chicken Satay with Peanut Sauce",
+  "description": "Chicken Satay is a classic Thai street food featuring tender marinated chicken skewers grilled over high heat and served with a rich, creamy peanut sauce. Balanced with sweet, savory, tangy, and smoky flavors, it is perfect as an appetizer or main course.",
+
+  "category": "Thai",
+  "time": "4 hr 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/thai/chicken-satay-with-peanut-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Satay",
+      "items": [
+        "600g (1.3 lbs) boneless, skinless chicken thighs (preferred for juiciness)",
+        "2 tbsp coconut milk",
+        "1 tbsp soy sauce",
+        "1 tbsp fish sauce",
+        "2 tsp palm sugar (or light brown sugar)",
+        "2 tsp ground coriander",
+        "1 tsp ground cumin",
+        "1 tsp turmeric powder",
+        "1 tsp curry powder (yellow Thai or Madras)",
+        "2 garlic cloves, finely grated",
+        "1 tbsp lemongrass, finely minced (white tender part only)",
+        "1 tbsp vegetable oil",
+        "Bamboo skewers (soaked in water 30 mins)"
+      ]
+    },
+    {
+      "title": "For the Peanut Sauce",
+      "items": [
+        "200 ml coconut milk (full-fat, unsweetened)",
+        "4 tbsp roasted unsalted peanuts (ground into paste, or smooth natural peanut butter)",
+        "1 tbsp Thai red curry paste",
+        "1½ tbsp palm sugar (or brown sugar)",
+        "2 tbsp tamarind paste (or substitute with 1½ tbsp rice vinegar + ½ tbsp lime juice)",
+        "1 tbsp fish sauce",
+        "1 tbsp soy sauce",
+        "½ tsp chili flakes (optional, for heat)"
+      ]
+    },
+    {
+      "title": "For Garnish & Serving",
+      "items": [
+        "Fresh cucumber slices or Thai cucumber relish (ajard)",
+        "Cilantro sprigs",
+        "Lime wedges",
+        "Toasted crushed peanuts"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "Step 1: Marinate the Chicken\n• Slice chicken thighs into long strips (about 1.5 cm wide).\n• Mix coconut milk, soy sauce, fish sauce, palm sugar, coriander, cumin, turmeric, curry powder, garlic, lemongrass, and vegetable oil in a bowl.\n• Add chicken strips, coat well, cover, and marinate at least 4 hours (overnight preferred).",
+        "Step 2: Prepare the Peanut Sauce\n• Heat a small saucepan over medium heat. Add a spoonful of coconut milk and the curry paste; sauté until fragrant (about 1 minute).\n• Add the remaining coconut milk, ground peanuts, palm sugar, tamarind paste, fish sauce, and soy sauce.\n• Simmer gently for 5–7 minutes until thickened. Adjust seasoning (balance of sweet, sour, salty, and nutty).\n• Keep warm until serving.",
+        "Step 3: Grill the Satay\n• Thread marinated chicken strips onto skewers (weave them for even cooking).\n• Preheat grill or cast-iron griddle until very hot.\n• Grill skewers for 2–3 minutes per side until lightly charred and cooked through (internal temp 74°C / 165°F).\n• Brush lightly with coconut milk or marinade during grilling for extra juiciness.",
+        "Step 4: Plate & Serve\n• Place 3–4 skewers per plate, slightly leaning over each other.\n• Drizzle a little peanut sauce artistically on the side, serve the rest in a ramekin.\n• Garnish with cucumber relish, lime wedge, cilantro sprig, and a sprinkle of crushed peanuts."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with Thai cucumber relish (ajard).",
+      "Pair with jasmine rice or sticky rice.",
+      "Serve extra peanut sauce on the side.",
+      "Enjoy with fresh lime wedges and toasted peanuts."
+    ]
+  },
+
+  "chefTips": [
+    "Char is key: Aim for light caramelization without burning, which deepens flavor.",
+    "Balance flavors: Thai cooking is about harmony—taste the peanut sauce and adjust: add sugar if too sour, tamarind if too sweet, or fish sauce if flat.",
+    "Texture contrast: Always serve with something refreshing (ajard, cucumber relish) to cut through richness.",
+    "Presentation: Keep skewers neatly aligned, sauce cleanly plated, and garnish intentionally."
+  ]
+}
