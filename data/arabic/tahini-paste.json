@@ -1,0 +1,59 @@
+{
+  "id": "105",
+  "title": "Tahini Paste",
+  "description": "Tahini Paste is a smooth, rich sesame-based paste made from toasted sesame seeds and oil. It has a nutty, creamy flavor and is widely used as a base for hummus, tahini sauce, and drizzles over roasted vegetables or falafel.",
+
+  "category": "Arabic",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "image": "assets/images/arabic/tahini-paste.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (makes about 1 cup / 240 ml)",
+      "items": [
+        "1 cup hulled sesame seeds (lightly toasted for depth)",
+        "3–4 tbsp neutral oil (grapeseed, sunflower, or light olive oil)",
+        "1–2 tsp fresh lemon juice (optional, for slight tang)",
+        "1/4 tsp fine salt (adjust to taste)",
+        "1/4 tsp ground cumin (optional, for subtle warmth)",
+        "1–2 tbsp cold water (to adjust consistency)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "1. Toast the sesame seeds:\n• Heat a dry skillet over medium-low heat.\n• Add the sesame seeds and stir constantly for 4–6 minutes until light golden and fragrant. Do not burn; it will turn bitter.\n• Remove from heat and cool completely.",
+
+        "2. Grind the seeds:\n• Place cooled sesame seeds in a food processor or high-speed blender.\n• Blend for 1–2 minutes until a crumbly paste forms.",
+
+        "3. Emulsify with oil:\n• Add 3 tablespoons of neutral oil and salt.\n• Blend for 2–3 minutes until smooth.\n• Check texture: for a silkier, pourable paste, add more oil or 1–2 tablespoons of cold water gradually.",
+
+        "4. Optional flavor lift:\n• Add lemon juice and cumin if desired.\n• Blend briefly to combine.",
+
+        "5. Texture check:\n• High-end restaurants often prefer silky, slightly runny tahini, perfect for drizzling or blending into sauces. Adjust oil/water to achieve this.",
+
+        "6. Storage:\n• Store in an airtight container in the fridge for up to 3 weeks.\n• Stir before each use; separation is natural."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "This tahini can be used to make:",
+    "items": [
+      "Hummus – blend with chickpeas, garlic, lemon, olive oil",
+      "Tahini sauce – mix with lemon, garlic, water, salt",
+      "Drizzles – over roasted vegetables or falafel"
+    ]
+  },
+
+  "chefTips": [
+    "Use hulled sesame seeds for smoother texture. Unhulled gives a nuttier, slightly bitter flavor.",
+    "Lightly toasting enhances aroma but avoid over-browning.",
+    "Cold water emulsification gives a creamy, luxurious mouthfeel.",
+    "For ultra-premium tahini, use neutral sunflower oil instead of olive oil to avoid bitterness."
+  ]
+}
