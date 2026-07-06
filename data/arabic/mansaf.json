@@ -1,0 +1,87 @@
+{
+  "id": "117",
+  "title": "Mansaf – Lamb with Jameed Yogurt Sauce",
+  "description": "Mansaf is a traditional Jordanian Arabic dish made with tender lamb cooked in aromatic spices and served over rice with a rich fermented jameed yogurt sauce. It is a celebratory dish known for its deep flavor and communal presentation.",
+
+  "category": "Arabic",
+  "time": "2 hr 30 min",
+  "difficulty": "Hard",
+  "image": "assets/images/arabic/mansaf.png",
+
+  "ingredients": [
+    {
+      "title": "For the Lamb",
+      "items": [
+        "2 kg lamb shoulder or leg, bone-in, cut into large chunks",
+        "2 large onions, quartered",
+        "6 cloves garlic, peeled",
+        "2 tsp salt (adjust to taste)",
+        "1 tsp black pepper",
+        "1 tsp allspice",
+        "1 tsp ground turmeric",
+        "2 cinnamon sticks",
+        "4–5 whole cardamom pods",
+        "3 bay leaves",
+        "8 cups water"
+      ]
+    },
+    {
+      "title": "For the Jameed (Yogurt) Sauce",
+      "items": [
+        "2 cups jameed (dried fermented yogurt) OR thick Greek yogurt",
+        "2 cups warm water (to dissolve jameed)",
+        "1 tsp salt (if needed)",
+        "2 tbsp ghee or butter"
+      ]
+    },
+    {
+      "title": "For the Rice",
+      "items": [
+        "3 cups long-grain basmati rice, soaked 30 minutes",
+        "4 cups water or lamb stock",
+        "1 tbsp ghee or butter",
+        "1 tsp salt"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "1/2 cup toasted slivered almonds or pine nuts",
+        "1/2 cup chopped fresh parsley",
+        "Optional: sumac for extra aroma"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "1. Cook the Lamb:\n• Place lamb, onions, garlic, spices, and water in a large pot.\n• Bring to a boil, then reduce heat and simmer 1.5–2 hours until tender.\n• Skim impurities from the surface.\n• Remove lamb and strain broth for later use.",
+
+        "2. Prepare the Jameed/Yogurt Sauce:\n• Soak jameed if using dried, then blend until smooth.\n• In a saucepan, combine jameed or yogurt with 2 cups lamb broth.\n• Cook on low heat, stirring constantly to prevent curdling.\n• Add ghee and season with salt.\n• Simmer until thick and creamy.",
+
+        "3. Cook the Rice:\n• Heat ghee and lightly toast soaked rice for 2–3 minutes.\n• Add 4 cups lamb broth and salt.\n• Bring to boil, reduce heat, cover, and simmer 12–15 minutes until fluffy.",
+
+        "4. Assemble the Mansaf:\n• Spread flatbread on a large platter (optional traditional base).\n• Layer rice, then lamb pieces on top.\n• Pour warm jameed sauce generously over everything.\n• Garnish with toasted nuts and parsley."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve on a large communal platter for traditional dining",
+      "Pair with Arabic salad or pickles",
+      "Enjoy with warm flatbread (shrak or pita)",
+      "Serve with extra jameed sauce on the side"
+    ]
+  },
+
+  "chefTips": [
+    "Use bone-in lamb for deeper, richer flavor.",
+    "Authentic jameed gives the most traditional taste; yogurt is a substitute.",
+    "Rinse rice well for fluffy, separated grains.",
+    "Serve on a large copper or decorative platter for presentation impact."
+  ]
+}
