@@ -1,0 +1,57 @@
+{
+  "id": "104",
+  "title": "Tahini Sauce",
+  "description": "This tahini is perfect for:\nfalafel, roasted vegetables, shawarma, grilled meats, or as a dip with warm bread.",
+
+  "category": "Arabic",
+  "time": "10 min",
+  "difficulty": "Easy",
+  "image": "assets/images/arabic/tahini-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (Makes ~1 cup / 240 ml)",
+      "items": [
+        "½ cup (120 g) tahini paste (pure, unsweetened, well-stirred)",
+        "¼ cup (60 ml) fresh lemon juice (about 1–2 lemons)",
+        "¼ cup (60 ml) cold water (adjust for consistency)",
+        "1–2 garlic cloves, finely grated or minced",
+        "½ tsp fine salt (adjust to taste)",
+        "1–2 tsp extra-virgin olive oil (optional, for richness)",
+        "Pinch of ground cumin (optional, for depth)",
+        "Pinch of smoked paprika or Aleppo pepper (optional garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "1. Prepare Tahini Base:\n• Stir the tahini paste in its jar until smooth and uniform.\n• Transfer to a mixing bowl.",
+
+        "2. Add Lemon & Garlic:\n• Mix in the fresh lemon juice and minced garlic. At this stage, the mixture may thicken—this is normal.",
+
+        "3. Incorporate Water Slowly:\n• Add cold water gradually, 1–2 tbsp at a time, whisking continuously until you reach a smooth, pourable consistency.\n• Tip: Professional chefs aim for a sauce that coats the back of a spoon but isn’t runny.",
+
+        "4. Season & Adjust:\n• Add salt, optional cumin, and taste.\n• Adjust lemon or salt to balance tang and richness.",
+
+        "5. Finish with Olive Oil:\n• Whisk in 1–2 tsp extra-virgin olive oil for a silky finish.\n• For presentation, drizzle a little olive oil on top, sprinkle paprika or chopped parsley."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "falafel, roasted vegetables, shawarma, grilled meats, or as a dip with warm bread"
+    ]
+  },
+
+  "chefTips": [
+    "Fresh Ingredients: Use freshly squeezed lemon juice and high-quality tahini (stone-ground if possible).",
+    "Texture Control: Cold water helps emulsify; warm water can thin it too much.",
+    "Flavor Depth: Let the sauce rest 10–15 minutes before serving; flavors meld beautifully.",
+    "Serving Style: Serve in a shallow bowl with a swirl, drizzle of olive oil, and sprinkle of paprika or pine nuts for visual appeal."
+  ]
+}
