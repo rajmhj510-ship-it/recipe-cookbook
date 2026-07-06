@@ -1,0 +1,58 @@
+{
+  "id": "110",
+  "title": "Khubz (Arabic Flatbread)",
+  "description": "Khubz is a traditional Arabic flatbread known for its soft, airy texture and signature pocket. It is commonly served fresh with mezze, used for scooping dips, or filled with grilled meats and vegetables.",
+
+  "category": "Arabic",
+  "time": "1 hr 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/arabic/khubz.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "500 g (4 cups) strong bread flour (high-protein, for elasticity)",
+        "325 ml (1 ⅓ cups) warm water (around 38°C / 100°F)",
+        "7 g (2 tsp) fine sea salt",
+        "7 g (2 tsp) sugar (to enhance browning)",
+        "10 g (1 tbsp) olive oil (plus more for brushing)",
+        "7 g (1 packet) instant yeast (or 20 g fresh yeast)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "1. Dough Preparation:\n• In a large mixing bowl (or stand mixer), combine warm water, sugar, and yeast. Let sit 5 minutes until foamy.\n• Add flour and salt gradually, mixing until a shaggy dough forms.\n• Knead (10 min by hand or 6 min with dough hook) until smooth, elastic, and slightly tacky.\n• Add olive oil during kneading to develop a silky dough.",
+
+        "2. First Rise:\n• Place dough in a lightly oiled bowl, cover with a damp cloth, and let rise 1–1.5 hours until doubled in size.",
+
+        "3. Shaping:\n• Punch down gently.\n• Divide into 8 equal balls (~100 g each).\n• Cover with a cloth and let rest 15 min.\n• Roll each ball into a flat round (20 cm / 8-inch, about 5 mm thick). Keep covered to prevent drying.",
+
+        "4. Baking (Restaurant Technique):\n• Option A – Oven: Preheat oven to 250°C / 480°F with a pizza stone or heavy baking steel inside. Place 2–3 rounds directly on the hot stone. Bake 2–3 minutes until puffed and lightly golden.\n• Option B – Cast Iron Pan: Heat pan over high heat until very hot. Cook 1–2 minutes per side, pressing gently to encourage puffing.",
+
+        "5. Finishing:\n• Keep baked Khubz wrapped in a clean towel to retain softness.\n• Brush lightly with olive oil for sheen (optional)."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with hummus, baba ghanoush, and labneh.",
+      "Use for wraps with grilled meats or vegetables.",
+      "Pair with soups and stews.",
+      "Enjoy fresh with olive oil and za’atar."
+    ]
+  },
+
+  "chefTips": [
+    "Puffing (Pocket Effect) requires very high heat and evenly rolled dough.",
+    "Keep dough thickness uniform for consistent pocket formation.",
+    "Do not over-flour while rolling to maintain proper puffing.",
+    "Best served fresh; reheat in a hot oven for 1–2 minutes if needed."
+  ]
+}
