@@ -1,0 +1,56 @@
+{
+  "id": "111",
+  "title": "Saj Bread",
+  "description": "Saj Bread is a traditional thin Arabic flatbread cooked on a convex griddle called a saj. It is soft, pliable, and slightly blistered, making it ideal for wraps, mezze platters, and serving with grilled meats, labneh, and za’atar.",
+
+  "category": "Arabic",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "image": "assets/images/arabic/saj-bread.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (makes 8 large rounds)",
+      "items": [
+        "500 g (4 cups) bread flour (high-protein, sifted)",
+        "1 tsp fine sea salt",
+        "1 tbsp sugar",
+        "2 tbsp extra virgin olive oil (plus more for brushing)",
+        "300 ml (1 ¼ cups) warm water (38–40°C / 100–105°F)",
+        "1 tsp instant dry yeast (optional, for softer bread – traditional saj can be yeast-free)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "1. Prepare Dough:\n• In a large mixing bowl, combine flour, salt, and sugar.\n• Make a well, add olive oil, water, and yeast (if using).\n• Mix until it forms a shaggy dough.\n• Knead 8–10 minutes by hand (or 5 minutes in a stand mixer) until smooth and elastic.",
+
+        "2. Rest & Ferment:\n• Place dough in a lightly oiled bowl, cover with a damp cloth.\n• Rest 30–45 minutes (yeast dough) or 15 minutes (yeast-free) until supple but not overly airy.",
+
+        "3. Shape:\n• Divide dough into 8 equal pieces and roll into smooth balls.\n• Cover and rest 10 minutes to relax gluten.\n• Roll each ball into a paper-thin circle (30–35 cm wide), as thin as possible.",
+
+        "4. Cook on Saj or Substitute:\n• Preheat saj dome or inverted wok/flat griddle to medium-high heat.\n• Place dough on surface and smooth quickly with palm or cloth.\n• Cook 30–45 seconds per side until blistered with golden spots.\n• Transfer to cloth-lined basket and cover to keep soft."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Use for shawarma and grilled meat wraps.",
+      "Serve with labneh, hummus, or baba ghanoush.",
+      "Pair with za’atar and olive oil.",
+      "Include in mezze platters."
+    ]
+  },
+
+  "chefTips": [
+    "Blend bread flour with 10–15% whole wheat flour for a more authentic texture.",
+    "Roll dough extremely thin for traditional saj elasticity.",
+    "Keep cooked bread covered in a towel to retain softness and steam.",
+    "Work quickly when placing dough on the hot saj to prevent drying."
+  ]
+}
