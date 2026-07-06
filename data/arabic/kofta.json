@@ -1,0 +1,72 @@
+{
+  "id": "119",
+  "title": "Kofta",
+  "description": "Kofta is a classic Arabic dish made from seasoned minced lamb or beef, shaped into skewers or logs and grilled or pan-seared until juicy and charred. It is typically served with bread, rice, sauces, and grilled vegetables for a complete meal.",
+
+  "category": "Arabic",
+  "time": "1 hr 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/arabic/kofta.png",
+
+  "ingredients": [
+    {
+      "title": "For the Kofta",
+      "items": [
+        "500g ground lamb (or lamb & beef mix, 70/30 ratio)",
+        "1 small onion, very finely grated (squeezed dry)",
+        "2 cloves garlic, minced",
+        "½ cup fresh parsley, finely chopped",
+        "¼ cup fresh coriander (cilantro), finely chopped",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "½ tsp ground cinnamon",
+        "½ tsp ground allspice",
+        "½ tsp black pepper",
+        "1 tsp salt (adjust to taste)",
+        "2 tbsp olive oil"
+      ]
+    },
+    {
+      "title": "For Serving",
+      "items": [
+        "Warm Arabic bread or saffron rice",
+        "Tahini sauce or garlic yogurt sauce",
+        "Grilled vegetables (tomato, onion, pepper)",
+        "Fresh herbs (parsley, mint)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Preparation Method",
+      "steps": [
+        "1. Prepare the Kofta Mixture:\n• Combine ground meat, grated onion, garlic, parsley, coriander, and spices in a large bowl.\n• Mix gently until evenly incorporated.\n• Cover and refrigerate for at least 1 hour or overnight.",
+
+        "2. Shape the Kofta:\n• Wet hands with cold water or oil.\n• Shape mixture into oval logs or form onto skewers.",
+
+        "3. Cook:\nGrill Method:\n• Preheat grill to medium-high heat.\n• Grill koftas 3–4 minutes per side until charred and cooked through.\n\nPan Method:\n• Heat olive oil in a skillet.\n• Sear koftas on all sides for 8–10 minutes until fully cooked.",
+
+        "4. Serve:\n• Arrange on platter with grilled vegetables and sauces.\n• Serve with bread or rice.\n• Garnish with parsley, sumac, or pomegranate seeds."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with tahini or garlic yogurt sauce",
+      "Pair with saffron rice or warm flatbread",
+      "Add grilled vegetables for balance",
+      "Garnish with sumac or fresh herbs"
+    ]
+  },
+
+  "chefTips": [
+    "Use a lamb-beef mix for best texture and flavor balance.",
+    "Always squeeze grated onion to avoid excess moisture.",
+    "Chill mixture before shaping to prevent breaking during cooking.",
+    "Charcoal grilling adds authentic smoky depth.",
+    "Do not overmix to keep kofta tender and juicy."
+  ]
+}
