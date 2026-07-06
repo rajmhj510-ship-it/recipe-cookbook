@@ -1,0 +1,78 @@
+{
+  "id": "109",
+  "title": "Grilled Vegetable Pita",
+  "description": "Grilled Vegetable Pita is a wholesome Arabic wrap filled with smoky grilled vegetables, creamy garlic yogurt sauce, fresh herbs, and warm pita bread. It's perfect for a light lunch, dinner, or part of a mezze spread.",
+
+  "category": "Arabic",
+  "time": "40 min",
+  "difficulty": "Easy",
+  "image": "assets/images/arabic/grilled-vegetable-pita.png",
+
+  "ingredients": [
+    {
+      "title": "For the Vegetables",
+      "items": [
+        "1 medium zucchini, sliced lengthwise into 1/4-inch strips",
+        "1 medium eggplant, sliced into 1/2-inch rounds",
+        "1 red bell pepper, cut into quarters",
+        "1 yellow bell pepper, cut into quarters",
+        "1 red onion, cut into thick rings",
+        "2 tbsp olive oil",
+        "1 tsp sumac",
+        "1 tsp ground cumin",
+        "1/2 tsp smoked paprika",
+        "Salt & freshly ground black pepper, to taste"
+      ]
+    },
+    {
+      "title": "For the Garlic Yogurt Sauce",
+      "items": [
+        "1/2 cup Greek yogurt",
+        "1 clove garlic, finely minced",
+        "1 tsp lemon juice",
+        "1/2 tsp za’atar",
+        "Salt, to taste"
+      ]
+    },
+    {
+      "title": "For the Pita",
+      "items": [
+        "4 large fresh pita breads",
+        "Fresh herbs: parsley or cilantro, chopped",
+        "Optional: pickled turnips or cucumbers for extra authenticity"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "1. Prepare and Marinate Vegetables:\n• In a large bowl, combine olive oil, sumac, cumin, smoked paprika, salt, and pepper.\n• Toss all sliced vegetables in the marinade until evenly coated. Let rest for 10–15 minutes.",
+
+        "2. Grill Vegetables:\n• Preheat a grill pan or outdoor grill to medium-high.\n• Grill vegetables in batches until tender and lightly charred (3–5 minutes per side for zucchini and eggplant, 5–7 minutes for peppers).\n• Remove from heat and let cool slightly.",
+
+        "3. Make Garlic Yogurt Sauce:\n• In a small bowl, mix Greek yogurt, minced garlic, lemon juice, za’atar, and salt.\n• Chill until ready to serve.",
+
+        "4. Assemble the Pita:\n• Warm the pita bread slightly on the grill or oven.\n• Spread a generous layer of garlic yogurt sauce on the inside.\n• Layer the grilled vegetables, add fresh herbs, and optional pickles.\n• Fold or wrap pita and serve immediately."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve warm with tahini sauce.",
+      "Pair with hummus, baba ghanoush, or labneh.",
+      "Enjoy with a fresh Arabic salad.",
+      "Serve as part of a mezze platter."
+    ]
+  },
+
+  "chefTips": [
+    "Use fresh, firm vegetables to avoid sogginess.",
+    "Brush pita with a bit of olive oil and warm it on the grill for slight crispness.",
+    "A smoky flavor comes from a charcoal grill or adding a touch of smoked paprika.",
+    "Serve with a side of tahini drizzle for added richness."
+  ]
+}
