@@ -1,0 +1,60 @@
+{
+  "id": "106",
+  "title": "Baba Ghanoush",
+  "description": "Baba Ghanoush is a traditional Arabic smoky eggplant dip made with roasted eggplants, tahini, lemon juice, garlic, and olive oil. It has a creamy yet slightly chunky texture and a rich, smoky flavor, commonly served as part of a mezze platter with warm pita bread.",
+
+  "category": "Arabic",
+  "time": "50 min",
+  "difficulty": "Medium",
+  "image": "assets/images/arabic/baba-ghanoush.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (Serves 4-6)",
+      "items": [
+        "2 large eggplants (choose firm, glossy ones)",
+        "3 tablespoons tahini (sesame paste)",
+        "2–3 garlic cloves, finely minced",
+        "3 tablespoons freshly squeezed lemon juice",
+        "2 tablespoons extra-virgin olive oil, plus more for drizzling",
+        "1 teaspoon ground cumin",
+        "Salt to taste",
+        "Optional garnish: pomegranate seeds, chopped parsley, smoked paprika"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "1. Roast the Eggplants:\n• Preheat your oven to 220°C (425°F) or prepare a grill.\n• Prick the eggplants with a fork to prevent bursting.\n• Roast for 30–40 minutes, turning occasionally, until the skin is charred and the flesh is soft.\n• Let cool slightly, then peel off the skin carefully.\n• Chef Tip: For authentic smoky flavor, lightly char over an open flame before peeling.",
+
+        "2. Prepare the Eggplant Purée:\n• Scoop the flesh into a mixing bowl.\n• Mash using a fork or food processor until smooth but slightly textured.",
+
+        "3. Season:\n• Add tahini, garlic, lemon juice, cumin, and salt.\n• Mix gently until combined.\n• Adjust balance: more lemon for acidity, more tahini for creaminess.",
+
+        "4. Plate and Garnish:\n• Spoon into a shallow serving dish.\n• Drizzle with olive oil.\n• Sprinkle with parsley, pomegranate seeds, or smoked paprika.",
+
+        "5. Serve:\n• Serve chilled or at room temperature with warm pita bread or mezze platter."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with warm pita bread",
+      "Include as part of a mezze platter",
+      "Pair with grilled meats or kebabs",
+      "Use as a dip for vegetables or crackers"
+    ]
+  },
+
+  "chefTips": [
+    "Smokiness is key: grilling eggplants gives the most authentic flavor.",
+    "Keep texture slightly chunky for a more traditional feel.",
+    "Use fresh, high-quality tahini for best results.",
+    "A swirl of olive oil and colorful garnish improves presentation and flavor balance."
+  ]
+}
