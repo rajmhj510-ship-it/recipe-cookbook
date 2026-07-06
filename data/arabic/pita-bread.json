@@ -1,0 +1,71 @@
+{
+  "id": "108",
+  "title": "Pita Bread",
+  "description": "Pita Bread is a traditional Arabic flatbread with a soft texture and signature pocket. Freshly baked, it is perfect for stuffing with fillings, serving alongside mezze, or dipping into hummus, baba ghanoush, and labneh.",
+
+  "category": "Arabic",
+  "time": "2 hours 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/arabic/pita-bread.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (Makes ~8–10 pitas)",
+      "items": [
+        "500g (4 cups) strong bread flour",
+        "325ml (1⅓ cups) warm water (around 40°C / 105°F)",
+        "7g (2 tsp) instant dry yeast",
+        "10g (2 tsp) salt",
+        "10g (2 tsp) sugar",
+        "15ml (1 tbsp) olive oil"
+      ]
+    },
+    {
+      "title": "Optional for brushing",
+      "items": [
+        "Olive oil",
+        "Sesame seeds or za’atar"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Method",
+      "steps": [
+        "1. Activate Yeast:\n• Mix warm water, sugar, and yeast.\n• Let sit 5–10 minutes until frothy.",
+
+        "2. Make Dough:\n• In a large bowl, combine flour and salt.\n• Make a well in the center, pour in the yeast mixture and olive oil.\n• Mix until a rough dough forms.",
+
+        "3. Knead:\n• Knead on a lightly floured surface 8–10 minutes until smooth, elastic, and slightly tacky.\n• Tip: Use the palm and push technique like professional bakers.",
+
+        "4. First Proof:\n• Place dough in a lightly oiled bowl, cover with a damp cloth or cling film.\n• Let rise 1–2 hours until doubled in size.",
+
+        "5. Shape Pitas:\n• Punch down dough, divide into 80–90g pieces.\n• Roll each into a ball, then roll into a 6–7 inch (15–18 cm) circle, 4–5 mm thick.\n• Important: Even thickness ensures proper pocket formation.",
+
+        "6. Second Proof:\n• Place circles on a lightly floured tray, cover with a cloth, and let rest 30 minutes.",
+
+        "7. Bake:\n• Option A – Oven (Professional Style): Preheat oven to 250°C (480°F) with a baking stone or tray inside. Slide dough onto the hot stone/tray. Bake 3–5 minutes until puffed and lightly golden.\n• Option B – Stovetop (Authentic Arabic): Heat a heavy skillet over medium-high heat. Cook each circle 1–2 minutes per side until puffed and golden spots appear.",
+
+        "8. Cool:\n• Transfer to a clean cloth, cover, and let cool.\n• Pitas will deflate slightly but retain a pocket."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve warm with hummus, baba ghanoush, or labneh.",
+      "Use for shawarma, falafel, or kebab wraps.",
+      "Pair with mezze platters and grilled meats.",
+      "Brush with olive oil and sprinkle with sesame seeds or za’atar before serving."
+    ]
+  },
+
+  "chefTips": [
+    "Strong bread flour gives elasticity.",
+    "High heat and a baking stone create instant steam, essential for puffing.",
+    "Don't over-flour the surface—too much flour prevents puffing.",
+    "Serve fresh; pita loses pocket structure over time."
+  ]
+}
