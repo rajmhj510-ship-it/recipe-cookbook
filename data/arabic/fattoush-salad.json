@@ -1,0 +1,79 @@
+{
+  "id": "113",
+  "title": "Fattoush Salad",
+  "description": "Fattoush Salad is a traditional Arabic salad made with fresh vegetables, herbs, and crispy toasted pita bread, all tossed in a tangy sumac and pomegranate molasses dressing. It is refreshing, crunchy, and vibrant, commonly served as part of a mezze spread.",
+
+  "category": "Arabic",
+  "time": "25 min",
+  "difficulty": "Easy",
+  "image": "assets/images/arabic/fattoush-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Salad",
+      "items": [
+        "2 cups romaine lettuce, washed and torn into bite-sized pieces",
+        "1 cup arugula (optional, for a peppery touch)",
+        "1 medium cucumber, diced",
+        "2 medium tomatoes, diced",
+        "1 small red bell pepper, diced",
+        "1 small green bell pepper, diced",
+        "3–4 radishes, thinly sliced",
+        "4–5 green onions, thinly sliced",
+        "½ cup fresh parsley, chopped",
+        "¼ cup fresh mint leaves, chopped",
+        "2–3 pita breads (preferably day-old), cut into triangles",
+        "3 tablespoons olive oil (for toasting pita)",
+        "1 teaspoon sumac (for garnish)"
+      ]
+    },
+    {
+      "title": "For the Dressing",
+      "items": [
+        "¼ cup extra virgin olive oil",
+        "2 tablespoons pomegranate molasses",
+        "1 tablespoon lemon juice (freshly squeezed)",
+        "1 teaspoon red wine vinegar",
+        "1 garlic clove, minced",
+        "1 teaspoon ground sumac",
+        "½ teaspoon salt (or to taste)",
+        "¼ teaspoon black pepper",
+        "½ teaspoon honey (optional, balances acidity)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "1. Prepare the Pita Chips:\n• Preheat oven to 180°C / 350°F.\n• Toss pita triangles with olive oil and a pinch of salt.\n• Spread on a baking sheet and bake for 8–12 minutes until golden and crispy.\n• Optional: sprinkle sumac before baking for extra flavor.",
+
+        "2. Prepare the Vegetables:\n• Wash and dry all greens thoroughly.\n• Dice cucumbers, tomatoes, and bell peppers uniformly.\n• Slice radishes and green onions thinly.\n• Chop parsley and mint finely.",
+
+        "3. Make the Dressing:\n• Whisk olive oil, pomegranate molasses, lemon juice, vinegar, garlic, sumac, salt, pepper, and honey until emulsified.\n• Taste and adjust balance to ensure tangy-sweet flavor.",
+
+        "4. Assemble the Salad:\n• Combine all vegetables and herbs in a large bowl.\n• Add two-thirds of the dressing and toss gently.\n• Add crispy pita chips just before serving to keep them crunchy.\n• Sprinkle extra sumac on top.",
+
+        "5. Plating:\n• Serve in a wide shallow bowl.\n• Top with pita chips for texture and height.\n• Garnish with mint and a light drizzle of pomegranate molasses."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve as part of a mezze platter with hummus and baba ghanoush",
+      "Pair with grilled meats or kebabs",
+      "Enjoy as a light standalone meal",
+      "Serve chilled for maximum freshness"
+    ]
+  },
+
+  "chefTips": [
+    "Add pita chips only at the last moment to maintain crunch.",
+    "Use fresh herbs generously for authentic flavor and aroma.",
+    "Sumac is essential for traditional tangy flavor—do not skip.",
+    "Balance pomegranate molasses carefully for sweet-tart depth."
+  ]
+}
