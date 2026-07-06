@@ -1,0 +1,101 @@
+{
+  "id": 812,
+  "title": "Gai Thod – Thai Fried Chicken",
+  "category": "Thai",
+  "description": "",
+  "image": "assets/images/thai/gai-thod.png",
+  "time": "4 hrs 30 min",
+  "difficulty": "Medium",
+  "servings": "4 portions",
+  "ingredients": [
+    {
+      "section": "Chicken Marinade",
+      "items": [
+        "1 kg chicken drumsticks or mid-joint wings (skin-on, bone-in preferred)",
+        "3 tbsp garlic, finely pounded",
+        "2 tbsp coriander root (or stems), finely pounded",
+        "1 tbsp white peppercorns, ground",
+        "2 tbsp fish sauce",
+        "1 tbsp light soy sauce",
+        "1 tsp oyster sauce",
+        "1 tsp sugar (palm sugar preferred)",
+        "1/2 tsp salt"
+      ]
+    },
+    {
+      "section": "Coating",
+      "items": [
+        "1 cup rice flour (gives crispness)",
+        "1/4 cup tapioca flour (light crunch)",
+        "2 tbsp tempura flour (optional, for extra crisp)",
+        "1 tsp baking powder",
+        "1 tsp ground white pepper",
+        "1 tsp salt"
+      ]
+    },
+    {
+      "section": "Aromatics for Frying",
+      "items": [
+        "1/2 cup Thai shallots, thinly sliced",
+        "1/2 cup garlic, thinly sliced"
+      ]
+    },
+    {
+      "section": "Dipping Sauce (Nam Jim Jaew – optional)",
+      "items": [
+        "2 tbsp toasted rice powder",
+        "2 tbsp tamarind paste",
+        "2 tbsp fish sauce",
+        "1 tbsp palm sugar",
+        "1 tsp dried chili flakes",
+        "2 tbsp chopped fresh cilantro"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "title": "1. Marinate the Chicken",
+      "steps": [
+        "Pound garlic, coriander root, and white pepper into a paste (classic Thai trinity for marinades).",
+        "Mix with fish sauce, soy sauce, oyster sauce, sugar, and salt.",
+        "Coat chicken thoroughly, cover, and marinate for at least 4 hours (preferably overnight)."
+      ]
+    },
+    {
+      "title": "2. Prepare the Coating",
+      "steps": [
+        "Mix rice flour, tapioca flour, tempura flour, baking powder, white pepper, and salt in a large bowl.",
+        "Lightly dredge marinated chicken in the flour mixture just before frying. Shake off excess."
+      ]
+    },
+    {
+      "title": "3. Fry the Aromatics",
+      "steps": [
+        "Heat neutral oil in a wok/pot to 160–170°C (320–340°F).",
+        "Add sliced garlic and shallots, fry until golden and crispy. Remove and drain on paper towels. Reserve for garnish."
+      ]
+    },
+    {
+      "title": "4. Fry the Chicken",
+      "steps": [
+        "Increase oil temp slightly to 170–175°C (340–350°F).",
+        "Fry chicken in batches, turning occasionally, until golden brown and cooked through (12–15 minutes depending on size).",
+        "Remove and rest on a rack (not paper towels, to preserve crispness)."
+      ]
+    },
+    {
+      "title": "5. Serve",
+      "steps": [
+        "Top chicken with crispy fried garlic and shallots.",
+        "Serve with sticky rice (khao neow) and Nam Jim Jaew dipping sauce.",
+        "Garnish with cucumber slices and fresh herbs for restaurant-style plating."
+      ]
+    }
+  ],
+  "tips": [
+    "Double Fry for Extra Crunch: Fry once at 160°C, rest, then fry again briefly at 180°C before serving.",
+    "Balance Flavor: The marinade should be garlicky, peppery, salty-sweet with umami depth from fish sauce.",
+    "Presentation: Serve on a banana leaf with small bowls of dipping sauces for authenticity.",
+    "Pairing: Excellent with Som Tum (papaya salad) and sticky rice for a full Thai dining experience."
+  ]
+}
