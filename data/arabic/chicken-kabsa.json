@@ -1,0 +1,90 @@
+{
+  "id": "115",
+  "title": "Chicken Kabsa (Spiced Rice with Chicken)",
+  "description": "Chicken Kabsa is a traditional Arabic rice dish made with roasted chicken and fragrant basmati rice cooked in a rich blend of spices, tomatoes, and aromatic stock. It is a festive, flavorful dish commonly served on large platters for sharing.",
+
+  "category": "Arabic",
+  "time": "1 hr 30 min",
+  "difficulty": "Hard",
+  "image": "assets/images/arabic/chicken-kabsa.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Marinade",
+      "items": [
+        "1 whole chicken (about 1.5–2 kg), cut into pieces",
+        "3 tbsp olive oil",
+        "1 tsp salt",
+        "1 tsp black pepper",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1 tsp ground turmeric",
+        "½ tsp ground cinnamon",
+        "½ tsp ground cardamom"
+      ]
+    },
+    {
+      "title": "For the Rice",
+      "items": [
+        "2 cups basmati rice, soaked in water 30 min",
+        "3 tbsp ghee or vegetable oil",
+        "1 large onion, finely chopped",
+        "4 garlic cloves, minced",
+        "2 medium tomatoes, diced",
+        "1 medium carrot, grated",
+        "2–3 whole cloves",
+        "2–3 whole cardamom pods",
+        "1 small cinnamon stick",
+        "1 bay leaf",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1 tsp ground black lime (loomi) or ½ tsp dried lime powder",
+        "½ tsp ground black pepper",
+        "½ tsp turmeric",
+        "3–4 cups chicken stock (from the chicken)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "¼ cup toasted almonds",
+        "¼ cup toasted pine nuts",
+        "Fresh parsley, chopped",
+        "Raisins (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "1. Marinate and Roast the Chicken:\n• Combine chicken with olive oil, salt, pepper, cumin, coriander, turmeric, cinnamon, and cardamom. Rub well.\n• Marinate at least 1 hour or overnight.\n• Preheat oven to 200°C (390°F).\n• Roast chicken for 35–40 minutes until golden and cooked through.\n• Reserve chicken stock from roasting pan or deglaze with water.",
+
+        "2. Prepare the Rice:\n• Rinse soaked rice until water runs clear.\n• Heat ghee in a large pot and sauté onions until golden.\n• Add garlic, tomatoes, and carrot; cook 3–5 minutes.\n• Add whole spices (cloves, cardamom, cinnamon, bay leaf) and sauté 1 minute.\n• Add ground spices and stir until fragrant.",
+
+        "3. Cook the Rice:\n• Add chicken stock (enough to cover rice by 1–2 cm).\n• Bring to a boil, add rice, and mix gently.\n• Reduce heat, cover, and simmer 15–20 minutes until cooked.\n• Rest 10 minutes, then fluff with a fork.",
+
+        "4. Assemble the Kabsa:\n• Arrange rice on a large platter.\n• Place roasted chicken on top.\n• Garnish with toasted almonds, pine nuts, parsley, and optional raisins."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with Arabic salad or yogurt sauce",
+      "Pair with pickles and fresh lemon wedges",
+      "Enjoy as a festive shared meal",
+      "Serve on a large platter for traditional presentation"
+    ]
+  },
+
+  "chefTips": [
+    "Ghee adds richer aroma compared to oil.",
+    "Homemade chicken stock significantly improves flavor depth.",
+    "Always toast nuts before garnishing for crunch and authenticity.",
+    "Layering spices at different stages builds deeper flavor complexity.",
+    "Serve on a wide platter for traditional communal dining style."
+  ]
+}
