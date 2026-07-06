@@ -1,0 +1,66 @@
+{
+  "id": "107",
+  "title": "Labneh",
+  "description": "Labneh is a traditional Arabic strained yogurt cheese known for its thick, creamy texture and tangy flavor. Made by draining Greek yogurt, it is commonly served as a dip, spread, or part of a mezze platter with olive oil, herbs, and spices.",
+
+  "category": "Arabic",
+  "time": "48 hours",
+  "difficulty": "Easy",
+  "image": "assets/images/arabic/labneh.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (Yield: ~500g Labneh)",
+      "items": [
+        "Greek yogurt (full-fat, unsweetened) – 1 kg",
+        "Sea salt – 1–1.5 tsp (adjust to taste)",
+        "Olive oil (extra virgin) – for serving, ~3–4 tbsp",
+        "Za’atar spice blend – 1–2 tsp, optional garnish",
+        "Fresh herbs (mint, thyme, or parsley) – finely chopped, optional garnish",
+        "Toasted pine nuts – optional garnish"
+      ]
+    },
+    {
+      "title": "Equipment",
+      "items": [
+        "Cheesecloth or a fine muslin cloth",
+        "Strainer or colander",
+        "Bowl for draining",
+        "Airtight container for storage"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Instructions",
+      "steps": [
+        "1. Prep Yogurt:\n• In a mixing bowl, whisk the Greek yogurt until smooth.\n• Stir in the salt evenly.",
+
+        "2. Drain Yogurt:\n• Line a colander with cheesecloth and place over a bowl.\n• Pour the yogurt into the cheesecloth. Fold over the edges to cover.\n• Place in the refrigerator to drain for 24–48 hours depending on desired thickness.\n• 24 hours: creamy, spreadable labneh.\n• 48 hours: thicker, cream cheese-like texture.",
+
+        "3. Check Consistency:\n• After draining, gently press to remove excess whey.\n• Transfer to a serving dish.",
+
+        "4. Presentation:\n• Make a small well in the center.\n• Drizzle extra virgin olive oil generously.\n• Top with za’atar, toasted pine nuts, or fresh herbs.",
+
+        "5. Storage:\n• Store in an airtight container in the refrigerator for up to 1 week.\n• Keep a thin layer of olive oil on top to preserve freshness."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "This labneh is perfect as:",
+    "items": [
+      "Mezze platter (with olives, vegetables, and fresh bread)",
+      "Dip for grilled meats",
+      "Spread for sandwiches or wraps"
+    ]
+  },
+
+  "chefTips": [
+    "Use high-quality full-fat Greek yogurt for the best creamy texture.",
+    "Do not skip refrigeration during draining for safe fermentation and texture development.",
+    "Longer draining time creates thicker, cream cheese-like labneh.",
+    "For restaurant-style presentation, swirl labneh on a plate and drizzle olive oil with herbs and spices."
+  ]
+}
