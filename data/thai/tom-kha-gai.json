@@ -1,0 +1,105 @@
+{
+  "id": "807",
+  "title": "Tom Kha Gai–Thai Coconut Chicken Soup",
+  "description": "Tom Kha Gai is a classic Thai coconut chicken soup, loved for its creamy coconut broth infused with fragrant lemongrass, galangal, kaffir lime leaves, and balanced with savory, sour, sweet, and spicy flavors.",
+
+  "category": "Thai",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/thai/tom-kha-gai.png",
+
+  "ingredients": [
+    {
+      "title": "Aromatics (do not eat—used for infusion)",
+      "items": [
+        "Lemongrass (white part only) – 3 stalks, cut into 2-inch pieces & smashed",
+        "Fresh galangal (or frozen) – 6–8 slices, 1/8-inch thick",
+        "Kaffir lime leaves – 4–6, torn by hand"
+      ]
+    },
+    {
+      "title": "Soup Base",
+      "items": [
+        "Chicken stock (preferably homemade or low-sodium) – 4 cups (1 L)",
+        "Full-fat coconut milk – 400 ml (1 can)",
+        "Chicken thigh (skinless, boneless) – 300 g, sliced thinly against the grain",
+        "Oyster mushrooms or straw mushrooms – 200 g, halved",
+        "Thai bird’s eye chilies – 3–4, bruised (or to taste)",
+        "Shallot – 1 small, thinly sliced",
+        "Thai fish sauce – 1 tbsp (or to taste)",
+        "Lime juice – 1 tbsp (or more, added at the end)",
+        "Palm sugar (or light brown sugar) – 1 tsp"
+      ]
+    },
+    {
+      "title": "Garnish (optional but recommended)",
+      "items": [
+        "Fresh cilantro leaves",
+        "Extra lime wedges",
+        "Sliced red chili or chili oil",
+        "Thai basil (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Infuse the Broth",
+      "steps": [
+        "In a medium pot, bring chicken stock to a simmer.",
+        "Add lemongrass, galangal, and kaffir lime leaves.",
+        "Simmer gently (no boil) for 5–7 minutes to infuse the aromatics."
+      ]
+    },
+    {
+      "title": "Step 2 – Add Chicken and Mushrooms",
+      "steps": [
+        "Add the chicken, shallots, and mushrooms.",
+        "Simmer gently for 5–6 minutes or until chicken is cooked through."
+      ]
+    },
+    {
+      "title": "Step 3 – Add Coconut Milk",
+      "steps": [
+        "Pour in the coconut milk. Stir gently to avoid curdling.",
+        "Add bruised chilies, fish sauce, and palm sugar.",
+        "Let simmer for another 3–5 minutes. Do not boil after coconut milk is added—it can split."
+      ]
+    },
+    {
+      "title": "Step 4 – Balance the Flavor",
+      "steps": [
+        "Remove from heat. Taste the soup.",
+        "Adjust with lime juice, more fish sauce, or a touch more sugar depending on your preference:",
+        "Sweetness from sugar",
+        "Saltiness from fish sauce",
+        "Sourness from lime juice",
+        "Heat from chilies"
+      ]
+    },
+    {
+      "title": "Step 5 – Serve",
+      "steps": [
+        "Ladle into bowls, avoiding the large lemongrass and galangal slices.",
+        "Garnish with cilantro, chili slices, and a lime wedge on the side."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as a starter or light meal.",
+      "Pair with steamed jasmine rice for a complete meal.",
+      "Garnish with fresh cilantro, chili slices, and lime wedges."
+    ]
+  },
+
+  "chefTips": [
+    "Galangal is essential for “Tom Kha” — “kha” means galangal in Thai.",
+    "Never boil after coconut milk is added to prevent curdling.",
+    "Mushroom substitute: use button or enoki mushrooms if oyster/straw aren’t available.",
+    "For a vegetarian version, substitute chicken with tofu and use soy sauce instead of fish sauce.",
+    "Add a splash of nam prik pao (Thai chili jam) for a roasted depth, commonly used in some regional versions."
+  ]
+}
