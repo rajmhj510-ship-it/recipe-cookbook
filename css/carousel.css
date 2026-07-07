@@ -1,257 +1,544 @@
-/* ==========================================
-   CAROUSEL
-========================================== */
+```css id="carousel-pro1"
+/* ==========================================================
+   CAROUSEL VARIABLES
+========================================================== */
 
 :root {
 
-    --primary: #082a7b;
-    --shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+    --primary:
+        #082a7b;
 
-    --card-width: 280px;
-    --card-height: 380px;
+    --primary-dark:
+        #061d57;
 
-    --transition: 0.7s ease;
+    --shadow:
+        0 20px 45px rgba(0,0,0,.18);
+
+    --card-width:
+        280px;
+
+    --card-height:
+        380px;
+
+    --transition:
+        .7s cubic-bezier(.22,.61,.36,1);
+
 }
 
-/* ==========================================
-   CONTAINER
-========================================== */
+
+
+/* ==========================================================
+   CAROUSEL CONTAINER
+========================================================== */
 
 .carousel-container {
 
-    width: 100%;
-    max-width: 1200px;
-    height: 450px;
+    width:
+        100%;
 
-    margin: auto;
-    position: relative;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width:
+        1200px;
 
-    perspective: 1200px;
+
+    height:
+        450px;
+
+
+    margin:
+        auto;
+
+
+    position:
+        relative;
+
+
+    display:
+        flex;
+
+
+    justify-content:
+        center;
+
+
+    align-items:
+        center;
+
+
+    perspective:
+        1400px;
+
+
 }
+
+
+
+/* ==========================================================
+   TRACK
+========================================================== */
 
 .carousel-track {
 
-    width: 100%;
-    height: 100%;
-    position: relative;
+    width:
+        100%;
+
+
+    height:
+        100%;
+
+
+    position:
+        relative;
+
+
 }
 
-/* ==========================================
-   CARD
-========================================== */
+
+
+/* ==========================================================
+   CARDS
+========================================================== */
 
 .card {
 
-    position: absolute;
+    position:
+        absolute;
 
-    top: 50%;
-    left: 50%;
 
-    width: var(--card-width);
-    height: var(--card-height);
+    top:
+        50%;
 
-    overflow: hidden;
-    border-radius: 20px;
 
-    cursor: pointer;
+    left:
+        50%;
 
-    transform: translate(-50%, -50%);
+
+    width:
+        var(--card-width);
+
+
+    height:
+        var(--card-height);
+
+
+    overflow:
+        hidden;
+
+
+    border-radius:
+        22px;
+
+
+    cursor:
+        pointer;
+
+
+    transform:
+        translate(-50%,-50%);
+
 
     transition:
+
         transform var(--transition),
         opacity var(--transition),
         filter var(--transition);
 
-    box-shadow: var(--shadow);
 
-    user-select: none;
+    box-shadow:
+        var(--shadow);
+
+
+    user-select:
+        none;
+
+
+    background:
+        white;
+
+
 }
+
+
 
 .card img {
 
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width:
+        100%;
 
-    display: block;
+
+    height:
+        100%;
+
+
+    object-fit:
+        cover;
+
+
+    display:
+        block;
+
+
+    transition:
+        transform .5s ease;
+
 }
 
-/* ==========================================
-   POSITIONS
-========================================== */
+
+
+.card:hover img {
+
+    transform:
+        scale(1.05);
+
+}
+
+
+
+/* ==========================================================
+   ACTIVE CENTER CARD
+========================================================== */
 
 .card.center {
 
     transform:
-        translate(-50%, -50%)
+        translate(-50%,-50%)
         scale(1.15);
 
-    z-index: 10;
 
-    filter: none;
+    z-index:
+        10;
+
+
+    filter:
+        none;
+
 }
+
+
+
+/* ==========================================================
+   LEFT CARDS
+========================================================== */
 
 .card.left-1 {
 
     transform:
-        translate(-250px, -50%)
+        translate(-250px,-50%)
         scale(.92);
 
-    opacity: .9;
 
-    filter: grayscale(100%);
+    opacity:
+        .85;
 
-    z-index: 5;
+
+    filter:
+        grayscale(80%);
+
+
+    z-index:
+        5;
+
 }
+
+
 
 .card.left-2 {
 
     transform:
-        translate(-470px, -50%)
+        translate(-470px,-50%)
         scale(.78);
 
-    opacity: .45;
 
-    filter: grayscale(100%);
+    opacity:
+        .4;
 
-    z-index: 2;
+
+    filter:
+        grayscale(100%);
+
+
+    z-index:
+        2;
+
 }
+
+
+
+/* ==========================================================
+   RIGHT CARDS
+========================================================== */
 
 .card.right-1 {
 
     transform:
-        translate(150px, -50%)
+        translate(150px,-50%)
         scale(.92);
 
-    opacity: .9;
 
-    filter: grayscale(100%);
+    opacity:
+        .85;
 
-    z-index: 5;
+
+    filter:
+        grayscale(80%);
+
+
+    z-index:
+        5;
+
 }
+
+
 
 .card.right-2 {
 
     transform:
-        translate(370px, -50%)
+        translate(370px,-50%)
         scale(.78);
 
-    opacity: .45;
 
-    filter: grayscale(100%);
+    opacity:
+        .4;
 
-    z-index: 2;
+
+    filter:
+        grayscale(100%);
+
+
+    z-index:
+        2;
+
 }
+
+
+
+/* ==========================================================
+   HIDDEN CARDS
+========================================================== */
 
 .card.hidden {
 
-    opacity: 0;
+    opacity:
+        0;
 
-    pointer-events: none;
+
+    pointer-events:
+        none;
+
 
     transform:
-        translate(-50%, -50%)
+        translate(-50%,-50%)
         scale(.5);
+
 }
 
-/* ==========================================
-   NAVIGATION
-========================================== */
+
+
+/* ==========================================================
+   NAVIGATION BUTTONS
+========================================================== */
 
 .nav-arrow {
 
-    position: absolute;
+    position:
+        absolute;
 
-    top: 50%;
 
-    transform: translateY(-50%);
+    top:
+        50%;
 
-    width: 48px;
-    height: 48px;
 
-    border: none;
-    border-radius: 50%;
+    transform:
+        translateY(-50%);
 
-    cursor: pointer;
 
-    font-size: 24px;
+    width:
+        50px;
 
-    color: white;
 
-    background: rgba(8, 42, 123, .9);
+    height:
+        50px;
 
-    transition: .25s;
 
-    z-index: 20;
+    border:
+        none;
+
+
+    border-radius:
+        50%;
+
+
+    background:
+        rgba(8,42,123,.92);
+
+
+    color:
+        white;
+
+
+    cursor:
+        pointer;
+
+
+    font-size:
+        24px;
+
+
+    display:
+        flex;
+
+
+    align-items:
+        center;
+
+
+    justify-content:
+        center;
+
+
+    transition:
+        .25s ease;
+
+
+    z-index:
+        20;
+
 }
+
+
 
 .nav-arrow:hover {
 
-    background: var(--primary);
+    background:
+        var(--primary-dark);
+
 
     transform:
         translateY(-50%)
-        scale(1.08);
+        scale(1.12);
+
 }
+
+
+
+.nav-arrow:focus-visible {
+
+    outline:
+        3px solid rgba(8,42,123,.4);
+
+}
+
+
 
 .nav-arrow.left {
 
-    left: 20px;
+    left:
+        20px;
+
 }
+
+
 
 .nav-arrow.right {
 
-    right: 20px;
-}
-
-/* ==========================================
-   RESPONSIVE
-========================================== */
-
-@media (max-width:992px){
-
-    :root{
-
-        --card-width:220px;
-        --card-height:310px;
-
-    }
-
-    .carousel-container{
-
-        height:370px;
-
-    }
+    right:
+        20px;
 
 }
 
-@media (max-width:768px){
 
-    :root{
 
-        --card-width:170px;
-        --card-height:240px;
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media(max-width:992px) {
+
+
+    :root {
+
+        --card-width:
+            220px;
+
+
+        --card-height:
+            310px;
 
     }
 
-    .carousel-container{
 
-        height:280px;
+
+    .carousel-container {
+
+        height:
+            370px;
 
     }
+
+
+
+    .card.left-2 {
+
+        transform:
+            translate(-360px,-50%)
+            scale(.75);
+
+    }
+
+
+
+    .card.right-2 {
+
+        transform:
+            translate(280px,-50%)
+            scale(.75);
+
+    }
+
+}
+
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media(max-width:768px) {
+
+
+    :root {
+
+        --card-width:
+            170px;
+
+
+        --card-height:
+            240px;
+
+    }
+
+
+
+    .carousel-container {
+
+        height:
+            290px;
+
+    }
+
+
 
     .card.left-2,
-    .card.right-2{
+    .card.right-2 {
 
-        display:none;
+        display:
+            none;
 
     }
 
-    .card.left-1{
+
+
+    .card.left-1 {
 
         transform:
             translate(-150px,-50%)
@@ -259,7 +546,9 @@
 
     }
 
-    .card.right-1{
+
+
+    .card.right-1 {
 
         transform:
             translate(50px,-50%)
@@ -267,21 +556,73 @@
 
     }
 
-}
 
-@media (max-width:480px){
 
-    :root{
+    .nav-arrow {
 
-        --card-width:145px;
-        --card-height:205px;
+        width:
+            42px;
+
+
+        height:
+            42px;
+
+
+        font-size:
+            20px;
 
     }
 
-    .carousel-container{
 
-        height:240px;
+}
+
+
+
+/* ==========================================================
+   SMALL PHONE
+========================================================== */
+
+@media(max-width:480px) {
+
+
+    :root {
+
+        --card-width:
+            145px;
+
+
+        --card-height:
+            205px;
 
     }
 
+
+
+    .carousel-container {
+
+        height:
+            240px;
+
+    }
+
+
+
+    .nav-arrow.left {
+
+        left:
+            8px;
+
+    }
+
+
+
+    .nav-arrow.right {
+
+        right:
+            8px;
+
+    }
+
+
 }
+```
