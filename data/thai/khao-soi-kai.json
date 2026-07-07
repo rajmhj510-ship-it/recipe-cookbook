@@ -1,102 +1,116 @@
 {
   "id": 811,
   "title": "Khao Soi Kai (Northern Thai Coconut Curry Noodle Soup with Chicken)",
+  "description": "Khao Soi Kai is a signature dish of Northern Thai cuisine, featuring tender chicken simmered in a rich coconut curry broth served over soft egg noodles. Finished with crispy fried noodles, pickled mustard greens, fresh herbs, and lime, this dish combines creamy, spicy, tangy, and crunchy elements into a perfectly balanced bowl of Thai comfort food.",
   "category": "Thai",
-  "description": "",
-  "image": "assets/images/thai/khao-soi-kai.png",
   "time": "55 min",
   "difficulty": "Medium",
-  "servings": "4",
+  "image": "assets/images/thai/khao-soi-kai.png",
+
   "ingredients": [
     {
-      "section": "Curry Paste (blend until smooth)",
+      "title": "For the Curry Paste",
       "items": [
-        "6 dried red chilies (soaked in warm water, deseeded)",
-        "3 cloves garlic",
-        "5 shallots",
-        "1 thumb-size piece galangal (or ginger if unavailable)",
-        "1 stalk lemongrass (tender inner part, finely sliced)",
-        "1 tsp turmeric root (or 1 tsp ground turmeric)",
-        "1 tsp coriander seeds (toasted)",
-        "½ tsp cumin seeds (toasted)",
-        "½ tsp curry powder",
-        "1 tbsp shrimp paste (optional, traditional)"
+        "Dried red chilies – 6, soaked in warm water and deseeded",
+        "Garlic – 3 cloves",
+        "Shallots – 5",
+        "Galangal – 1 thumb-sized piece (or ginger if unavailable)",
+        "Lemongrass – 1 stalk, tender inner part finely sliced",
+        "Turmeric root – 1 tsp (or ground turmeric)",
+        "Coriander seeds – 1 tsp, toasted",
+        "Cumin seeds – ½ tsp, toasted",
+        "Curry powder – ½ tsp",
+        "Shrimp paste – 1 tbsp (optional, traditional)"
       ]
     },
     {
-      "section": "Soup Base",
+      "title": "For the Coconut Curry Soup",
       "items": [
-        "500 g (1 lb) chicken drumsticks or thighs, bone-in",
-        "400 ml (1 can) coconut milk",
-        "500 ml chicken stock",
-        "2 tbsp vegetable oil",
-        "2 tbsp palm sugar (or brown sugar)",
-        "2 tbsp fish sauce",
-        "1 tbsp soy sauce",
-        "½ tsp salt (adjust to taste)"
+        "Chicken drumsticks or thighs – 500 g, bone-in",
+        "Coconut milk – 400 ml (1 can)",
+        "Chicken stock – 500 ml",
+        "Vegetable oil – 2 tbsp",
+        "Palm sugar or brown sugar – 2 tbsp",
+        "Fish sauce – 2 tbsp",
+        "Soy sauce – 1 tbsp",
+        "Salt – ½ tsp or to taste"
       ]
     },
     {
-      "section": "Noodles & Garnish",
+      "title": "For Noodles & Garnish",
       "items": [
-        "400 g fresh egg noodles",
-        "Vegetable oil for deep-frying (for crispy noodles garnish)",
-        "1 red onion, thinly sliced",
-        "Pickled mustard greens, chopped",
+        "Fresh egg noodles – 400 g",
+        "Vegetable oil – for deep-frying crispy noodle garnish",
+        "Red onion – 1, thinly sliced",
+        "Pickled mustard greens – chopped",
         "Lime wedges",
         "Fresh coriander leaves",
-        "Chili oil (optional, for heat)"
+        "Chili oil – optional, for extra heat"
       ]
     }
   ],
-  "instructions": [
+
+  "instruction": [
     {
-      "title": "1. Prepare Curry Paste",
+      "title": "Step 1 – Preparing the Curry Paste",
       "steps": [
-        "In a mortar & pestle (traditional) or blender, pound/blend all curry paste ingredients into a fine paste.",
-        "Toast dry spices first for fragrance before blending."
+        "Toast coriander seeds and cumin seeds until fragrant.",
+        "Blend or pound all curry paste ingredients together until a smooth, aromatic paste forms.",
+        "For traditional flavor, use a mortar and pestle to release maximum fragrance from the spices."
       ]
     },
     {
-      "title": "2. Fry the Paste & Cook Chicken",
+      "title": "Step 2 – Frying the Paste & Cooking Chicken",
       "steps": [
-        "Heat oil in a heavy pot or wok over medium heat.",
-        "Fry curry paste until aromatic and oil separates (3–5 min).",
-        "Add half of the coconut milk, stirring until glossy and fragrant.",
-        "Add chicken pieces, coat well in the paste."
+        "Heat vegetable oil in a heavy pot or wok over medium heat.",
+        "Add curry paste and fry for 3–5 minutes until fragrant and the oil begins to separate.",
+        "Add half of the coconut milk and cook until the mixture becomes glossy.",
+        "Add chicken pieces and coat thoroughly with the curry paste."
       ]
     },
     {
-      "title": "3. Build the Broth",
+      "title": "Step 3 – Building the Coconut Curry Broth",
       "steps": [
-        "Pour in remaining coconut milk and chicken stock.",
+        "Pour in the remaining coconut milk and chicken stock.",
         "Add palm sugar, fish sauce, soy sauce, and salt.",
-        "Simmer gently 25–30 minutes until chicken is tender and soup is rich."
+        "Simmer gently for 25–30 minutes until the chicken becomes tender and the broth develops rich curry flavor."
       ]
     },
     {
-      "title": "4. Prepare Noodles",
+      "title": "Step 4 – Preparing the Egg Noodles",
       "steps": [
-        "Cook fresh egg noodles in boiling water until just tender. Drain.",
-        "Reserve one portion (about a handful) of noodles for frying.",
-        "Deep-fry reserved noodles until golden and crisp. Drain on paper towel."
+        "Cook fresh egg noodles in boiling water until just tender, then drain well.",
+        "Reserve a small handful of noodles for frying.",
+        "Deep-fry reserved noodles until golden and crispy.",
+        "Drain on paper towels and keep aside for topping."
       ]
     },
     {
-      "title": "5. Assemble & Serve",
+      "title": "Step 5 – Assembling the Khao Soi",
       "steps": [
-        "Divide cooked noodles into bowls.",
-        "Ladle hot curry soup with chicken over the noodles.",
-        "Top with crispy noodles.",
-        "Garnish with sliced red onion, pickled mustard greens, coriander, and lime wedge.",
-        "Drizzle with chili oil for extra spice."
+        "Divide cooked egg noodles into serving bowls.",
+        "Ladle the hot coconut curry soup and chicken over the noodles.",
+        "Top with crispy fried noodles.",
+        "Garnish with sliced red onion, pickled mustard greens, coriander, and lime wedges.",
+        "Finish with chili oil if extra spice is desired."
       ]
     }
   ],
-  "tips": [
-    "Balance is key: Taste the broth before serving – adjust saltiness (fish sauce), sweetness (palm sugar), creaminess (coconut milk), or acidity (lime at table).",
-    "Texture contrast: The crispy noodles on top must stay crunchy against the silky soup. Fry in small batches for best crispness.",
-    "Aromatic depth: Frying the curry paste properly until fragrant is crucial for authentic flavor.",
-    "Presentation: Use wide bowls, nest noodles neatly, and layer garnishes for a refined look."
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot in wide bowls to showcase the layered noodles, curry broth, and garnishes.",
+      "Add lime juice at the table to brighten the rich coconut curry flavors.",
+      "Pair with extra pickled mustard greens and chili oil for a traditional Northern Thai experience."
+    ]
+  },
+
+  "chefTips": [
+    "The curry paste must be fried properly until aromatic and the oil separates — this creates the foundation of authentic Khao Soi flavor.",
+    "Balance the broth carefully: fish sauce adds depth, palm sugar rounds the spice, coconut milk provides richness, and lime adds freshness.",
+    "Fry crispy noodles in small batches to maintain a light, crunchy texture.",
+    "Bone-in chicken creates a deeper, more flavorful broth compared with boneless meat.",
+    "For restaurant-style presentation, arrange noodles neatly and layer garnishes instead of mixing everything together."
   ]
 }
