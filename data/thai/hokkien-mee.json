@@ -1,53 +1,51 @@
 {
   "id": 809,
   "title": "Hokkien Mee (Hokkien Noodles)",
+  "description": "Hokkien Mee is a popular Southeast Asian noodle dish featuring thick yellow noodles stir-fried with succulent pork, shrimp, vegetables, and a rich savory sauce. Cooked with high heat for authentic wok hei, this dish delivers smoky aromas, deep umami flavor, and perfectly coated noodles in every bite.",
   "category": "Thai",
-  "description": "",
-  "image": "assets/images/thai/hokkien-mee.png",
   "time": "25 min",
   "difficulty": "Medium",
-  "servings": "2 generous servings",
-  "prepTime": "15 minutes",
-  "cookTime": "10 minutes",
+  "image": "assets/images/thai/hokkien-mee.png",
+
   "ingredients": [
     {
-      "section": "Protein",
+      "title": "For the Protein",
       "items": [
-        "150g pork shoulder or pork belly (thinly sliced)",
-        "100g shrimp, peeled & deveined",
-        "Optional: 50g squid, cleaned and sliced"
+        "Pork shoulder or pork belly – 150 g, thinly sliced",
+        "Shrimp – 100 g, peeled and deveined",
+        "Squid – 50 g, cleaned and sliced (optional)"
       ]
     },
     {
-      "section": "Noodles",
+      "title": "For the Noodles",
       "items": [
-        "300g fresh Hokkien yellow noodles (or thick egg noodles), rinsed & drained"
+        "Fresh Hokkien yellow noodles – 300 g, rinsed and drained (or thick egg noodles as a substitute)"
       ]
     },
     {
-      "section": "Vegetables & Aromatics",
+      "title": "For Vegetables & Aromatics",
       "items": [
-        "1½ tbsp chopped garlic",
-        "100g Chinese kale (or baby bok choy), cut into 2-inch lengths",
-        "1 small handful bean sprouts (optional)",
-        "1 small yellow onion, sliced"
+        "Garlic – 1½ tbsp, chopped",
+        "Chinese kale or baby bok choy – 100 g, cut into 2-inch pieces",
+        "Bean sprouts – 1 small handful (optional)",
+        "Yellow onion – 1 small, sliced"
       ]
     },
     {
-      "section": "Sauce",
+      "title": "For the Sauce",
       "items": [
-        "1 tbsp light soy sauce",
-        "1 tbsp dark soy sauce (for color)",
-        "1½ tbsp oyster sauce",
-        "½ tsp sugar",
-        "1 tsp fish sauce",
-        "100 ml chicken or pork stock",
-        "Dash of white pepper",
-        "½ tsp sesame oil (optional)"
+        "Light soy sauce – 1 tbsp",
+        "Dark soy sauce – 1 tbsp (for color)",
+        "Oyster sauce – 1½ tbsp",
+        "Sugar – ½ tsp",
+        "Fish sauce – 1 tsp",
+        "Chicken or pork stock – 100 ml",
+        "White pepper – a dash",
+        "Sesame oil – ½ tsp (optional)"
       ]
     },
     {
-      "section": "Garnish",
+      "title": "For Garnish",
       "items": [
         "Fried shallots",
         "Lime wedges",
@@ -55,67 +53,74 @@
       ]
     }
   ],
-  "instructions": [
+
+  "instruction": [
     {
-      "title": "Step 1: Prepare sauce",
+      "title": "Step 1 – Preparing the Sauce",
       "steps": [
-        "In a small bowl, combine:",
-        "Light soy sauce",
-        "Dark soy sauce",
-        "Oyster sauce",
-        "Sugar",
-        "Fish sauce",
-        "Stock",
-        "White pepper",
-        "Set aside."
+        "Combine light soy sauce, dark soy sauce, oyster sauce, sugar, fish sauce, stock, and white pepper in a small bowl.",
+        "Mix well and set aside for later use."
       ]
     },
     {
-      "title": "Step 2: Cook protein",
+      "title": "Step 2 – Cooking the Protein",
       "steps": [
-        "Heat 1 tbsp oil in a wok over medium-high heat.",
-        "Add pork slices and stir-fry until nearly cooked.",
-        "Add shrimp (and squid if using) and stir-fry until just turning pink.",
-        "Remove protein from wok and set aside."
+        "Heat 1 tablespoon of oil in a wok over medium-high heat.",
+        "Add pork slices and stir-fry until almost cooked.",
+        "Add shrimp and squid if using, then cook until seafood is just turning pink.",
+        "Remove the protein from the wok and set aside."
       ]
     },
     {
-      "title": "Step 3: Aromatics and vegetables",
+      "title": "Step 3 – Stir-Frying Aromatics & Vegetables",
       "steps": [
-        "Add a bit more oil to the same wok. Sauté garlic and onions until fragrant.",
-        "Add Chinese kale and toss for 30 seconds.",
-        "Add the noodles and toss to combine."
+        "Add a little more oil to the same wok.",
+        "Sauté garlic and onion until fragrant and lightly softened.",
+        "Add Chinese kale and stir-fry briefly for about 30 seconds.",
+        "Add the noodles and toss well with the vegetables."
       ]
     },
     {
-      "title": "Step 4: Combine and sauce",
+      "title": "Step 4 – Combining the Dish",
       "steps": [
-        "Return cooked protein to the wok.",
-        "Pour the sauce over the noodles.",
-        "Toss everything well to coat the noodles in sauce. Let it cook for 2–3 minutes, letting the sauce reduce and absorb slightly."
+        "Return the cooked protein to the wok.",
+        "Pour the prepared sauce over the noodles.",
+        "Toss everything together over high heat until the noodles absorb the sauce and develop a slightly smoky wok flavor.",
+        "Cook for 2–3 minutes until the sauce reduces and coats the noodles evenly."
       ]
     },
     {
-      "title": "Step 5: Finish",
+      "title": "Step 5 – Final Seasoning",
       "steps": [
-        "Taste and adjust seasoning: add a touch more sugar or fish sauce if needed.",
-        "Drizzle with sesame oil if using.",
-        "Toss in bean sprouts just before serving for crunch (optional)."
+        "Taste and adjust seasoning with extra sugar or fish sauce if needed.",
+        "Drizzle with sesame oil for extra aroma if desired.",
+        "Add bean sprouts just before serving to maintain their fresh crunch."
       ]
     },
     {
-      "title": "To Serve",
+      "title": "Step 6 – Serving",
       "steps": [
+        "Transfer the noodles to serving plates.",
         "Top with fried shallots.",
-        "Serve with lime wedges and chili vinegar on the side.",
-        "Best served hot, straight from the wok."
+        "Serve hot with lime wedges and chili vinegar on the side."
       ]
     }
   ],
-  "tips": [
-    "Wok hei (the smoky sear) is key — use very high heat and a large wok.",
-    "Avoid overcooking shrimp; they should be just pink and firm.",
-    "Use homemade stock for deeper flavor.",
-    "Slightly charred noodles = more flavor."
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately from the wok while the noodles are still smoky and glossy.",
+      "Pair with lime wedges and chili vinegar to balance the rich savory flavors.",
+      "Add extra fried shallots and fresh herbs for a restaurant-style presentation."
+    ]
+  },
+
+  "chefTips": [
+    "High heat is essential for authentic wok hei — use a large wok and avoid overcrowding.",
+    "Do not overcook shrimp; they should remain juicy, firm, and just pink.",
+    "Slightly charred noodles add depth and the signature smoky flavor of great Hokkien Mee.",
+    "Fresh stock creates a richer sauce compared with plain water.",
+    "Rinse fresh noodles briefly before cooking to prevent clumping while maintaining their chewy texture."
   ]
 }
