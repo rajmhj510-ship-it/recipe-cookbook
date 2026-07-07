@@ -14,8 +14,8 @@
     "id": 802,
     "title": "Gaeng Garee",
     "category": "Thai",
-    "file": "data/thai/yellow-curry-paste.json",
-    "image": "assets/images/thai/yellow-curry-paste.png",
+    "file": "data/thai/gaeng-garee.json",
+    "image": "assets/images/thai/gaeng-garee.png",
     "description": "Mild and creamy Thai yellow curry paste made with aromatic spices and fragrant herbs.",
     "time": "15 min",
     "difficulty": "Easy"
