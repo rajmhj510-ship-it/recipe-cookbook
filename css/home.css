@@ -510,3 +510,15 @@ body{
     }
 
 }
+/* ==========================================
+   RECIPE GRID ANIMATION
+========================================== */
+
+#recipeList{
+
+    transition:
+        opacity .25s ease,
+        transform .25s ease;
+
+}
+
