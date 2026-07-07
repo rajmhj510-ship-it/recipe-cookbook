@@ -114,6 +114,9 @@ async function loadHomeRecipes() {
             recipeArrays.flat();
 
         renderRecipes(homeRecipes);
+       if (typeof loadCarousel === "function") {
+    loadCarousel(homeRecipes);
+}
 
     }
 
