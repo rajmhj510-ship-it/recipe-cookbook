@@ -1,349 +1,231 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-    <title>
-        Recipe Cookbook
-    </title>
-
+    <title>Recipe Cookbook | Cook Like a Chef</title>
 
     <meta name="description"
-          content="Discover delicious recipes from around the world. Search recipes by cuisine and cook like a chef.">
+        content="Discover delicious recipes from around the world. Explore cuisines, search recipes, and cook like a chef with our professional recipe cookbook.">
 
+    <meta name="keywords"
+        content="recipes, cookbook, cooking, chef recipes, Indian recipes, Chinese recipes, Nepali recipes, international cuisine">
 
-    <!-- CSS -->
+    <meta name="author" content="Recipe Cookbook">
 
-    <link rel="stylesheet"
-          href="css/carousel.css">
-
-
-    <link rel="stylesheet"
-          href="css/home.css">
-
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/home.css">
 
 </head>
 
-
 <body>
 
+    <!-- ================= HERO SECTION ================= -->
+    <header id="hero">
 
-<!-- ==========================================
-     HERO SECTION
-========================================== -->
+        <div class="hero-content">
 
+            <h1 class="about-title">
+                COOK LIKE A CHEF
+            </h1>
 
-<header id="hero">
 
+            <!-- Recipe Carousel -->
+            <div class="carousel-container">
 
-    <h1 class="about-title">
+                <button class="nav-arrow left"
+                    type="button"
+                    aria-label="Show previous recipe">
+                    &#10094;
+                </button>
 
-        COOK LIKE A CHEF
 
-    </h1>
+                <div class="carousel-track"
+                    aria-live="polite">
+                </div>
 
 
+                <button class="nav-arrow right"
+                    type="button"
+                    aria-label="Show next recipe">
+                    &#10095;
+                </button>
 
-    <!-- CAROUSEL -->
+            </div>
 
-    <div class="carousel-container">
 
+            <!-- Featured Recipe Information -->
+            <div class="recipe-info">
 
-        <button
-            class="nav-arrow left"
-            type="button"
-            aria-label="Previous recipe">
+                <h2 class="hero-recipe-title">
+                    Loading...
+                </h2>
 
+                <p class="recipe-meta">
+                </p>
 
-            &#10094;
+            </div>
 
 
-        </button>
+            <!-- Explore Button -->
+            <button class="scroll-down"
+                type="button"
+                aria-label="Explore recipe collection">
 
+                <span>
+                    ↓
+                </span>
 
+                Explore Recipes
 
-        <div class="carousel-track"
-             aria-live="polite">
-
-        </div>
-
-
-
-        <button
-            class="nav-arrow right"
-            type="button"
-            aria-label="Next recipe">
-
-
-            &#10095;
-
-
-        </button>
-
-
-    </div>
-
-
-
-    <!-- CURRENT RECIPE INFORMATION -->
-
-
-    <div class="recipe-info">
-
-
-        <h2 class="hero-recipe-title">
-
-            Loading...
-
-        </h2>
-
-
-
-        <p class="recipe-meta">
-
-        </p>
-
-
-    </div>
-
-
-
-    <!-- SCROLL BUTTON -->
-
-
-    <button
-        class="scroll-down"
-        type="button"
-        aria-label="Explore recipes">
-
-
-        ↓ Explore Recipes
-
-
-    </button>
-
-
-</header>
-
-
-
-
-
-<!-- ==========================================
-     EXPLORE SECTION
-========================================== -->
-
-
-<main id="explore">
-
-
-
-<section class="sticky-block">
-
-
-
-    <!-- HEADER -->
-
-
-    <div class="explore-header">
-
-
-
-        <div class="brand-small">
-
-
-            <img
-                src="assets/images/logo.png"
-                alt="Recipe Cookbook Logo"
-                class="logo">
-
-
-
-            <h2>
-
-                Recipes
-
-            </h2>
+            </button>
 
 
         </div>
 
+    </header>
 
 
-    </div>
 
+    <!-- ================= RECIPE EXPLORER ================= -->
 
+    <main id="explore">
 
 
+        <!-- Sticky Navigation Area -->
+        <section class="sticky-block">
 
-    <!-- SEARCH -->
 
+            <div class="explore-header">
 
-    <div class="search-wrapper">
+                <div class="brand-small">
 
+                    <img src="logo.png"
+                        alt="Recipe Cookbook Logo"
+                        class="logo">
 
-        <input
+                    <h2>
+                        Recipes
+                    </h2>
 
-            id="searchInput"
+                </div>
 
-            type="search"
+            </div>
 
-            placeholder="Search recipes..."
 
-            autocomplete="off"
 
-            aria-label="Search recipes">
+            <!-- Recipe Search -->
 
+            <div class="search-wrapper">
 
-    </div>
+                <label for="searchInput" class="sr-only">
+                    Search recipes
+                </label>
 
+                <input id="searchInput"
+                    type="search"
+                    placeholder="Search recipes..."
+                    autocomplete="off"
+                    aria-label="Search recipes">
 
+            </div>
 
 
 
-    <!-- FILTER BUTTONS -->
+            <!-- Recipe Categories -->
 
+            <nav class="filters"
+                aria-label="Recipe Categories">
 
-    <nav
-        class="filters"
-        aria-label="Recipe categories">
 
+                <button class="active"
+                    data-cat="all"
+                    type="button">
+                    All
+                </button>
 
-        <button
-            class="active"
-            data-cat="all">
 
-            All
+                <button data-cat="Arabic"
+                    type="button">
+                    Arabic
+                </button>
 
-        </button>
 
+                <button data-cat="Chinese"
+                    type="button">
+                    Chinese
+                </button>
 
 
-        <button data-cat="Arabic">
+                <button data-cat="Indian"
+                    type="button">
+                    Indian
+                </button>
 
-            Arabic
 
-        </button>
+                <button data-cat="Continental"
+                    type="button">
+                    Continental
+                </button>
 
 
+                <button data-cat="Mexican"
+                    type="button">
+                    Mexican
+                </button>
 
-        <button data-cat="Chinese">
 
-            Chinese
+                <button data-cat="Nepali"
+                    type="button">
+                    Nepali
+                </button>
 
-        </button>
 
+                <button data-cat="Thai"
+                    type="button">
+                    Thai
+                </button>
 
 
-        <button data-cat="Indian">
+                <button data-cat="Italian"
+                    type="button">
+                    Italian
+                </button>
 
-            Indian
 
-        </button>
+            </nav>
 
 
+        </section>
 
-        <button data-cat="Continental">
 
-            Continental
 
-        </button>
+        <!-- Dynamic Recipe Cards -->
 
+        <section id="recipeList"
+            aria-live="polite"
+            aria-label="Recipe Collection">
 
+        </section>
 
-        <button data-cat="Mexican">
 
-            Mexican
+    </main>
 
-        </button>
 
 
+    <!-- Scripts -->
 
-        <button data-cat="Nepali">
+    <script src="js/carousel.js"></script>
 
-            Nepali
-
-        </button>
-
-
-
-        <button data-cat="Thai">
-
-            Thai
-
-        </button>
-
-
-
-        <button data-cat="Italian">
-
-            Italian
-
-        </button>
-
-
-
-    </nav>
-
-
-
-</section>
-
-
-
-
-
-
-
-<!-- RECIPE CARDS -->
-
-
-<section
-
-    id="recipeList"
-
-    aria-live="polite"
-
-    aria-label="Recipe List">
-
-
-</section>
-
-
-
-</main>
-
-
-
-
-
-
-
-<!-- ==========================================
-     JAVASCRIPT
-========================================== -->
-
-
-<script
-    src="js/carousel.js"
-    defer>
-</script>
-
-
-<script
-    src="js/home.js"
-    defer>
-</script>
-
+    <script src="js/home.js"></script>
 
 
 </body>
 
-
 </html>
+```
