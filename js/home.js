@@ -6,7 +6,6 @@
 
 "use strict";
 
-
 /* ==========================================
    ELEMENTS
 ========================================== */
@@ -14,15 +13,11 @@
 const recipeList =
     document.getElementById("recipeList");
 
-
 const searchInput =
     document.getElementById("searchInput");
 
-
 const filterButtons =
     document.querySelectorAll(".filters button");
-
-
 
 /* ==========================================
    STATE
@@ -34,8 +29,6 @@ let selectedCategory = "all";
 
 let searchQuery = "";
 
-
-
 /* ==========================================
    BASE PATH
 ========================================== */
@@ -45,57 +38,44 @@ const BASE_PATH =
         ? "/recipe-cookbook/"
         : "./";
 
-
-
 /* ==========================================
    LOAD RECIPES
 ========================================== */
 
-async function loadHomeRecipes(){
+async function loadHomeRecipes() {
 
-    try{
-
+    try {
 
         const indexResponse =
-            await fetch(
-                BASE_PATH + "data/index.json"
-            );
+            await fetch(BASE_PATH + "data/index.json");
 
-
-        if(!indexResponse.ok){
+        if (!indexResponse.ok) {
 
             throw new Error(
-                "Unable to load index.json"
+                "Unable to load data/index.json"
             );
 
         }
 
-
         const categories =
             await indexResponse.json();
-
-
 
         const recipeArrays =
             await Promise.all(
 
-                categories.map(async category=>{
+                categories.map(async category => {
 
-
-                    try{
-
+                    try {
 
                         const response =
                             await fetch(
-                                BASE_PATH +
-                                category.file
+                                BASE_PATH + category.file
                             );
 
-
-                        if(!response.ok){
+                        if (!response.ok) {
 
                             console.warn(
-                                "Missing:",
+                                "Missing file:",
                                 category.file
                             );
 
@@ -103,13 +83,10 @@ async function loadHomeRecipes(){
 
                         }
 
-
                         const data =
                             await response.json();
 
-
-
-                        return data.map(recipe=>({
+                        return data.map(recipe => ({
 
                             ...recipe,
 
@@ -119,10 +96,9 @@ async function loadHomeRecipes(){
 
                         }));
 
-
                     }
 
-                    catch(error){
+                    catch (error) {
 
                         console.error(error);
 
@@ -130,101 +106,50 @@ async function loadHomeRecipes(){
 
                     }
 
-
                 })
 
             );
 
-
-
         homeRecipes =
             recipeArrays.flat();
 
-
-
-        console.log(
-            "RECIPES LOADED:",
-            homeRecipes.length
-        );
-
-
-
-        renderRecipes(
-            homeRecipes
-        );
-
-
-
-        /* SEND DATA TO CAROUSEL */
-
-        if(
-            window.initCarousel &&
-            typeof window.initCarousel === "function"
-        ){
-
-            window.initCarousel(
-                homeRecipes
-            );
-
-        }
-
-
+        renderRecipes(homeRecipes);
 
     }
 
-    catch(error){
-
+    catch (error) {
 
         console.error(error);
 
+        recipeList.innerHTML = `
 
-        if(recipeList){
+            <p class="error">
 
-            recipeList.innerHTML = `
+                Failed to load recipes.
 
-                <p class="error">
+            </p>
 
-                    Failed to load recipes.
-
-                </p>
-
-            `;
-
-        }
-
+        `;
 
     }
 
-
 }
 
-
-
 /* ==========================================
-   CREATE CARD
+   CREATE RECIPE CARD
 ========================================== */
 
-function createRecipeCard(recipe){
-
+function createRecipeCard(recipe) {
 
     const card =
         document.createElement("article");
 
-
     card.className =
         "explore-card";
 
-
-
-    const image =
-        recipe.image
-
+    const image = recipe.image
         ? BASE_PATH + recipe.image
-
-        : BASE_PATH +
-          "assets/images/logo.png";
-
-
+        : BASE_PATH + "assets/images/logo.png";
 
     card.innerHTML = `
 
@@ -236,15 +161,11 @@ function createRecipeCard(recipe){
 
             loading="lazy"
 
-            onerror="
-            this.src='${BASE_PATH}assets/images/logo.png'
-            "
+            onerror="this.src='${BASE_PATH}assets/images/logo.png'"
 
         >
 
-
         <div class="card-content">
-
 
             <h3>
 
@@ -252,10 +173,7 @@ function createRecipeCard(recipe){
 
             </h3>
 
-
-
             <div class="card-footer">
-
 
                 <span class="recipe-category">
 
@@ -263,74 +181,46 @@ function createRecipeCard(recipe){
 
                 </span>
 
-
-
                 <span class="recipe-id">
 
                     #${recipe.id}
 
                 </span>
 
-
             </div>
-
 
         </div>
 
     `;
 
+    card.addEventListener("click", () => {
 
+        if (!recipe.file)
+            return;
 
-    card.addEventListener(
-        "click",
-        ()=>{
+        window.location.href =
+            BASE_PATH +
+            "recipe.html?file=" +
+            encodeURIComponent(recipe.file);
 
-
-            if(!recipe.file)
-                return;
-
-
-
-            window.location.href =
-
-                BASE_PATH +
-
-                "recipe.html?file=" +
-
-                encodeURIComponent(
-                    recipe.file
-                );
-
-
-        }
-    );
-
+    });
 
     return card;
 
-
 }
 
-
-
 /* ==========================================
-   RENDER
+   RENDER RECIPES
 ========================================== */
 
-function renderRecipes(list){
+function renderRecipes(list) {
 
-
-    if(!recipeList)
+    if (!recipeList)
         return;
-
-
 
     recipeList.innerHTML = "";
 
-
-
-    if(!list.length){
-
+    if (!list.length) {
 
         recipeList.innerHTML = `
 
@@ -342,20 +232,14 @@ function renderRecipes(list){
 
         `;
 
-
         return;
 
     }
 
-
-
     const fragment =
         document.createDocumentFragment();
 
-
-
-    list.forEach(recipe=>{
-
+    list.forEach(recipe => {
 
         fragment.appendChild(
 
@@ -363,168 +247,99 @@ function renderRecipes(list){
 
         );
 
+    });
+
+    recipeList.appendChild(fragment);
+
+}
+   /* ==========================================
+   APPLY FILTERS
+========================================== */
+
+function applyFilters() {
+
+    const filteredRecipes = homeRecipes.filter(recipe => {
+
+        const category =
+            (recipe.category || "")
+                .toLowerCase();
+
+        const title =
+            (recipe.title || "")
+                .toLowerCase();
+
+        const matchesCategory =
+            selectedCategory === "all" ||
+            category === selectedCategory.toLowerCase();
+
+        const matchesSearch =
+            searchQuery === "" ||
+            title.includes(searchQuery) ||
+            category.includes(searchQuery);
+
+        return (
+            matchesCategory &&
+            matchesSearch
+        );
 
     });
 
-
-
-    recipeList.appendChild(
-        fragment
-    );
-
+    renderRecipes(filteredRecipes);
 
 }
-
-
-
-/* ==========================================
-   FILTER
-========================================== */
-
-function applyFilters(){
-
-
-    const filteredRecipes =
-        homeRecipes.filter(recipe=>{
-
-
-            const category =
-                (recipe.category || "")
-                .toLowerCase();
-
-
-
-            const title =
-                (recipe.title || "")
-                .toLowerCase();
-
-
-
-            const matchCategory =
-
-                selectedCategory === "all"
-
-                ||
-
-                category ===
-                selectedCategory.toLowerCase();
-
-
-
-            const matchSearch =
-
-                searchQuery === ""
-
-                ||
-
-                title.includes(searchQuery)
-
-                ||
-
-                category.includes(searchQuery);
-
-
-
-            return (
-
-                matchCategory
-
-                &&
-
-                matchSearch
-
-            );
-
-
-        });
-
-
-
-    renderRecipes(
-        filteredRecipes
-    );
-
-
-}
-
-
 
 /* ==========================================
    SEARCH
 ========================================== */
 
-searchInput?.addEventListener(
-    "input",
-    event=>{
+if (searchInput) {
 
+    searchInput.addEventListener(
+        "input",
+        event => {
 
-        searchQuery =
-            event.target.value
-            .trim()
-            .toLowerCase();
-
-
-
-        applyFilters();
-
-
-    }
-);
-
-
-
-/* ==========================================
-   FILTER BUTTONS
-========================================== */
-
-filterButtons.forEach(button=>{
-
-
-    button.addEventListener(
-        "click",
-        ()=>{
-
-
-            filterButtons.forEach(btn=>{
-
-                btn.classList.remove(
-                    "active"
-                );
-
-            });
-
-
-
-            button.classList.add(
-                "active"
-            );
-
-
-
-            selectedCategory =
-
-                button.dataset.cat ||
-
-                "all";
-
-
+            searchQuery =
+                event.target.value
+                    .trim()
+                    .toLowerCase();
 
             applyFilters();
-
 
         }
     );
 
+}
+
+/* ==========================================
+   CATEGORY BUTTONS
+========================================== */
+
+filterButtons.forEach(button => {
+
+    button.addEventListener(
+        "click",
+        () => {
+
+            filterButtons.forEach(btn =>
+                btn.classList.remove("active")
+            );
+
+            button.classList.add("active");
+
+            selectedCategory =
+                button.dataset.cat || "all";
+
+            applyFilters();
+
+        }
+    );
 
 });
-
-
 
 /* ==========================================
    START
 ========================================== */
 
 loadHomeRecipes();
-
 
 })();
