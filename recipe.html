@@ -1,100 +1,192 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Recipe Details</title>
+
+    <title>Recipe Details | Recipe Cookbook</title>
+
 
     <meta name="description"
-          content="View complete recipe details including ingredients, instructions, serving suggestions, and chef tips.">
+        content="View complete recipe details including ingredients, cooking instructions, serving suggestions, and professional chef tips.">
 
+
+    <meta name="keywords"
+        content="recipe details, cooking instructions, ingredients, chef recipes, cookbook">
+
+
+    <meta name="author"
+        content="Recipe Cookbook">
+
+
+    <!-- Styles -->
     <link rel="stylesheet" href="css/recipe.css">
+
+
 </head>
+
 
 <body>
 
-    <!-- ================= BACK BUTTON ================= -->
 
-    <button
-        class="back-btn"
+    <!-- ================= BACK NAVIGATION ================= -->
+
+    <button class="back-btn"
         type="button"
         onclick="history.back()"
-        aria-label="Go back">
+        aria-label="Return to previous page">
 
-        ← Back
+        <span aria-hidden="true">
+            ←
+        </span>
+
+        Back
 
     </button>
 
-    <!-- ================= HERO ================= -->
+
+
+    <!-- ================= HERO SECTION ================= -->
 
     <header id="hero">
 
+
         <div class="hero-overlay">
+
 
             <div class="hero-content">
 
-                <span
-                    class="recipe-category"
-                    id="category">
-                </span>
+
+                <!-- Recipe Category -->
+
+                <p class="recipe-category"
+                    id="category"
+                    aria-label="Recipe category">
+
+                </p>
+
+
+
+                <!-- Recipe Title -->
 
                 <h1 id="title">
                     Loading Recipe...
                 </h1>
 
-                <p
-                    class="recipe-description"
+
+
+                <!-- Recipe Introduction -->
+
+                <p class="recipe-description"
                     id="description">
+
                 </p>
 
-                <div class="recipe-meta">
 
-                    <span id="time"></span>
 
-                    <span id="difficulty"></span>
+                <!-- Recipe Information -->
+
+                <div class="recipe-meta"
+                    aria-label="Recipe information">
+
+
+                    <span id="time">
+                    </span>
+
+
+                    <span id="difficulty">
+                    </span>
+
 
                 </div>
 
+
             </div>
+
 
         </div>
 
+
     </header>
 
-    <!-- ================= MAIN CONTENT ================= -->
+
+
+
+    <!-- ================= RECIPE DETAILS ================= -->
+
 
     <main class="recipe-layout">
 
-        <!-- Ingredients -->
 
-        <aside
-            class="ingredients-panel"
-            aria-label="Ingredients">
 
-            <div id="ingredients"></div>
+        <!-- Ingredients Section -->
+
+        <aside class="ingredients-panel"
+            aria-labelledby="ingredients-title">
+
+
+            <h2 id="ingredients-title">
+                Ingredients
+            </h2>
+
+
+            <div id="ingredients">
+
+            </div>
+
 
         </aside>
 
-        <!-- Recipe Content -->
 
-        <section
-            class="instructions-panel"
-            aria-label="Recipe Instructions">
 
-            <div id="instructions"></div>
 
-            <div id="servingsuggestions"></div>
 
-            <div id="tips"></div>
+        <!-- Cooking Instructions Section -->
+
+        <section class="instructions-panel"
+            aria-label="Cooking instructions">
+
+
+            <article id="instructions">
+
+            </article>
+
+
+
+            <section id="servingsuggestions"
+                aria-label="Serving suggestions">
+
+            </section>
+
+
+
+            <section id="tips"
+                aria-label="Chef tips">
+
+            </section>
+
+
 
         </section>
 
+
+
     </main>
 
+
+
+
+    <!-- JavaScript -->
+
     <script src="js/recipe.js"></script>
+
 
 </body>
 
 </html>
+```
