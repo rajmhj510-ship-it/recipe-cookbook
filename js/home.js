@@ -315,15 +315,17 @@ function renderRecipes(list) {
             const fragment =
                 document.createDocumentFragment();
 
-            list.forEach(recipe => {
+list.forEach((recipe,index) => {
 
-                fragment.appendChild(
+    const card =
+        createRecipeCard(recipe);
 
-                    createRecipeCard(recipe)
+    card.style.animationDelay =
+        `${index * 40}ms`;
 
-                );
+    fragment.appendChild(card);
 
-            });
+});
 
             recipeList.appendChild(fragment);
 
