@@ -521,4 +521,36 @@ body{
         transform .25s ease;
 
 }
+/* ==========================================
+   RECIPE CARD ANIMATION
+========================================== */
 
+.explore-card{
+
+    opacity:0;
+
+    transform:translateY(20px);
+
+    animation:cardFade .45s ease forwards;
+
+}
+
+@keyframes cardFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
