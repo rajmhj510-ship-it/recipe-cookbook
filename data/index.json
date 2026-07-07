@@ -1,56 +1,5 @@
 [
   {
-    "id": 601,
-    "title": "Chimichanga",
-    "category": "Mexican",
-    "file": "data/mexican/chimichanga.json",
-    "image": "assets/images/mexican/chimichanga.png",
-    "description": "",
-    "time": "1 hr 20 min",
-    "difficulty": "Medium"
-  },
-  {
-    "id": 602,
-    "title": "Salsa Roja",
-    "category": "Mexican",
-    "file": "data/mexican/salsa-roja.json",
-    "image": "assets/images/mexican/salsa-roja.png",
-    "description": "",
-    "time": "1 hr 20 min",
-    "difficulty": "Medium"
-  },
-  {
-    "id": 603,
-    "title": "Salsa Verde",
-    "category": "Mexican",
-    "file": "data/mexican/salsa-verde.json",
-    "image": "assets/images/mexican/salsa-verde.png",
-    "description": "",
-    "time": "20 min",
-    "difficulty": "Easy"
-  },
-  {
-    "id": 604,
-    "title": "Guacamole",
-    "category": "Mexican",
-    "file": "data/mexican/guacamole.json",
-    "image": "assets/images/mexican/guacamole.png",
-    "description": "",
-    "time": "15 min",
-    "difficulty": "Easy"
-  },
-  {
-    "id": 605,
-    "title": "Mexican Sour Cream",
-    "category": "Mexican",
-    "file": "data/mexican/sour-cream.json",
-    "image": "assets/images/mexican/sour-cream.png",
-    "description": "",
-    "time": "12–24 hrs",
-    "difficulty": "Medium"
-  },
-
-  {
     "id": 701,
     "title": "Jhol Mo:Mo",
     "category": "Nepali",
