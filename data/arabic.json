@@ -1,1 +1,222 @@
-
+[
+    {
+    "id": 101,
+    "title": "Falafel",
+    "category": "Arabic",
+    "file": "data/arabic/falafel.json",
+    "image": "assets/images/arabic/falafel.png",
+    "description": "Golden and crispy chickpea fritters seasoned with fresh herbs and aromatic Middle Eastern spices.",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 102,
+    "title": "Hummus",
+    "category": "Arabic",
+    "file": "data/arabic/hummus.json",
+    "image": "assets/images/arabic/hummus.png",
+    "description": "Creamy chickpea dip blended with tahini, garlic, lemon juice, and extra virgin olive oil.",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 103,
+    "title": "Chicken Shawarma",
+    "category": "Arabic",
+    "file": "data/arabic/chicken-shawarma.json",
+    "image": "assets/images/arabic/chicken-shawarma.png",
+    "description": "Juicy marinated chicken roasted with bold spices and served with classic shawarma accompaniments.",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 104,
+    "title": "Tahini Paste",
+    "category": "Arabic",
+    "file": "data/arabic/tahini-paste.json",
+    "image": "assets/images/arabic/tahini-paste.png",
+    "description": "Smooth sesame seed paste that adds rich, nutty flavor to countless Middle Eastern recipes.",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 105,
+    "title": "Tahini Sauce",
+    "category": "Arabic",
+    "file": "data/arabic/tahini-sauce.json",
+    "image": "assets/images/arabic/tahini-sauce.png",
+    "description": "Creamy sesame sauce blended with lemon, garlic, and seasonings for dipping and drizzling.",
+    "time": "10 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 106,
+    "title": "Baba Ghanoush",
+    "category": "Arabic",
+    "file": "data/arabic/baba-ghanoush.json",
+    "image": "assets/images/arabic/baba-ghanoush.png",
+    "description": "Smoky roasted eggplant dip mixed with tahini, garlic, lemon, and olive oil.",
+    "time": "45 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 107,
+    "title": "Labneh",
+    "category": "Arabic",
+    "file": "data/arabic/labneh.json",
+    "image": "assets/images/arabic/labneh.png",
+    "description": "Thick and creamy strained yogurt traditionally served with olive oil, herbs, and warm bread.",
+    "time": "24–48 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 108,
+    "title": "Pita Bread",
+    "category": "Arabic",
+    "file": "data/arabic/pita-bread.json",
+    "image": "assets/images/arabic/pita-bread.png",
+    "description": "Soft, fluffy pocket bread perfect for wraps, sandwiches, and dipping into flavorful spreads.",
+    "time": "2 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 109,
+    "title": "Grilled Vegetable Pita",
+    "category": "Arabic",
+    "file": "data/arabic/grilled-vegetable-pita.json",
+    "image": "assets/images/arabic/grilled-vegetable-pita.png",
+    "description": "Warm pita stuffed with smoky grilled vegetables and fresh Mediterranean-inspired flavors.",
+    "time": "40 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 110,
+    "title": "Khubz (Arabic Flatbread)",
+    "category": "Arabic",
+    "file": "data/arabic/khubz.json",
+    "image": "assets/images/arabic/khubz.png",
+    "description": "Traditional Arabic flatbread with a soft interior and lightly crisp golden crust.",
+    "time": "2 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 111,
+    "title": "Saj Bread",
+    "category": "Arabic",
+    "file": "data/arabic/saj-bread.json",
+    "image": "assets/images/arabic/saj-bread.png",
+    "description": "Thin and flexible flatbread cooked on a saj griddle, ideal for wraps and sandwiches.",
+    "time": "1 hr",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 112,
+    "title": "Tabouleh",
+    "category": "Arabic",
+    "file": "data/arabic/tabouleh.json",
+    "image": "assets/images/arabic/tabouleh.png",
+    "description": "Refreshing parsley salad with bulgur, tomatoes, mint, and a bright lemon dressing.",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 113,
+    "title": "Fattoush Salad",
+    "category": "Arabic",
+    "file": "data/arabic/fattoush-salad.json",
+    "image": "assets/images/arabic/fattoush-salad.png",
+    "description": "Fresh garden vegetables tossed with crispy pita chips and tangy sumac vinaigrette.",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 114,
+    "title": "Kabsa",
+    "category": "Arabic",
+    "file": "data/arabic/kabsa.json",
+    "image": "assets/images/arabic/kabsa.png",
+    "description": "Classic Arabian rice dish cooked with fragrant spices and tender meat for rich flavor.",
+    "time": "2.5–3 hrs",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 115,
+    "title": "Chicken Kabsa",
+    "category": "Arabic",
+    "file": "data/arabic/chicken-kabsa.json",
+    "image": "assets/images/arabic/chicken-kabsa.png",
+    "description": "Aromatic spiced rice served with juicy chicken in a comforting traditional Arabian style.",
+    "time": "2 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 116,
+    "title": "Maklouba (Upside-Down Rice)",
+    "category": "Arabic",
+    "file": "data/arabic/maklouba.json",
+    "image": "assets/images/arabic/maklouba.png",
+    "description": "Layered rice, vegetables, and meat flipped upside down for an impressive presentation.",
+    "time": "1.5–2 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 117,
+    "title": "Mansaf (Lamb with Jameed Yogurt Sauce)",
+    "category": "Arabic",
+    "file": "data/arabic/mansaf.json",
+    "image": "assets/images/arabic/mansaf.png",
+    "description": "Jordan's national dish featuring tender lamb, aromatic rice, and creamy fermented yogurt sauce.",
+    "time": "2 hrs",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 118,
+    "title": "Mandi (Spiced Rice with Meat)",
+    "category": "Arabic",
+    "file": "data/arabic/mandi.json",
+    "image": "assets/images/arabic/mandi.png",
+    "description": "Traditional Yemeni-style spiced rice served with slow-cooked, tender, and flavorful meat.",
+    "time": "3 hrs",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 119,
+    "title": "Kofta",
+    "category": "Arabic",
+    "file": "data/arabic/kofta.json",
+    "image": "assets/images/arabic/kofta.png",
+    "description": "Perfectly seasoned minced meat shaped into skewers or patties and grilled until juicy.",
+    "time": "45 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 120,
+    "title": "Shakshuka",
+    "category": "Arabic",
+    "file": "data/arabic/shakshuka.json",
+    "image": "assets/images/arabic/shakshuka.png",
+    "description": "Poached eggs simmered in a rich tomato sauce with peppers, garlic, and warming spices.",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 121,
+    "title": "Kibbeh",
+    "category": "Arabic",
+    "file": "data/arabic/kibbeh.json",
+    "image": "assets/images/arabic/kibbeh.png",
+    "description": "Crispy bulgur shells filled with savory minced meat, onions, herbs, and pine nuts.",
+    "time": "1.5 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 122,
+    "title": "Shish Tawook",
+    "category": "Arabic",
+    "file": "data/arabic/shish-tawook.json",
+    "image": "assets/images/arabic/shish-tawook.png",
+    "description": "Tender grilled chicken skewers marinated with yogurt, garlic, lemon, and aromatic spices.",
+    "time": "1 hr 30 min",
+    "difficulty": "Medium"
+  },
+]
