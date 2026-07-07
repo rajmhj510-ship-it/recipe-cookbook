@@ -176,31 +176,11 @@ renderRecipes(homeRecipes);
 ========================================== */
 
 if (
-    window.initCarousel &&
-    typeof window.initCarousel === "function"
+    window.loadCarousel &&
+    typeof window.loadCarousel === "function"
 ) {
 
-    window.initCarousel(homeRecipes);
-
-}
-
-    }
-
-    catch (error) {
-
-        console.error(error);
-
-        recipeList.innerHTML = `
-
-            <p class="error">
-
-                Failed to load recipes.
-
-            </p>
-
-        `;
-
-    }
+    window.loadCarousel(homeRecipes);
 
 }
 
