@@ -1,26 +1,5 @@
 [
-  {
-    "id": 301,
-    "title": "Fried Fish with Tartar Sauce",
-    "category": "Continental",
-    "file": "data/continental/fried-fish-with-tartar-sauce.json",
-    "image": "assets/images/continental/fried-fish-with-tartar-sauce.png",
-    "description": "",
-    "time": "40 min",
-    "difficulty": "Medium"
-  },
-  {
-    "id": 302,
-    "title": "Pancakes",
-    "category": "Continental",
-    "file": "data/continental/pancakes.json",
-    "image": "assets/images/continental/pancakes.png",
-    "description": "",
-    "time": "40 min",
-    "difficulty": "Medium"
-  },
-
-  {
+    {
     "id": 401,
     "title": "Chicken Chettinad",
     "category": "Indian",
