@@ -1,79 +1,95 @@
 {
   "id": 810,
   "title": "Tofu Larb",
+  "description": "Tofu Larb is a vibrant Thai Isaan-style salad featuring crispy tofu tossed with toasted rice powder, roasted chili, fresh herbs, and a bold lime-fish sauce dressing. This plant-based version of the classic larb delivers a refreshing combination of spicy, sour, savory, and aromatic flavors with a satisfying contrast of textures.",
   "category": "Thai",
-  "description": "",
-  "image": "assets/images/thai/tofu-larb.png",
   "time": "20 min",
   "difficulty": "Easy",
-  "servings": "Serves 2–3 as a main, 4–5 as part of a shared meal",
+  "image": "assets/images/thai/tofu-larb.png",
+
   "ingredients": [
     {
-      "section": "Tofu & Base",
+      "title": "For the Tofu & Larb Base",
       "items": [
-        "400 g (14 oz) firm tofu",
-        "2 tbsp neutral oil (rice bran or grapeseed preferred)",
-        "1 tbsp toasted rice powder (khao khua)",
-        "2 tbsp roasted ground dried chili",
-        "2 tbsp lime juice (freshly squeezed)",
-        "1 ½ tbsp Thai fish sauce (or light soy sauce for vegetarian)",
-        "1 tsp palm sugar (optional, for balance)"
+        "Firm tofu – 400 g (14 oz), drained and crumbled",
+        "Neutral oil – 2 tbsp (rice bran or grapeseed preferred)",
+        "Toasted rice powder (khao khua) – 1 tbsp",
+        "Roasted ground dried chili – 2 tbsp",
+        "Fresh lime juice – 2 tbsp",
+        "Thai fish sauce – 1½ tbsp (or light soy sauce for vegetarian version)",
+        "Palm sugar – 1 tsp (optional, for balance)"
       ]
     },
     {
-      "section": "Aromatics & Herbs",
+      "title": "For Aromatics & Fresh Herbs",
       "items": [
-        "2 small shallots, thinly sliced",
-        "2–3 sprigs fresh mint leaves",
-        "1–2 sprigs Thai basil (optional, adds depth)",
-        "1 sprig culantro (optional, for authentic Northeastern aroma)",
-        "2 spring onions, finely sliced",
-        "1 small handful coriander leaves (cilantro), roughly chopped"
+        "Shallots – 2 small, thinly sliced",
+        "Fresh mint leaves – 2–3 sprigs",
+        "Thai basil – 1–2 sprigs (optional)",
+        "Culantro – 1 sprig (optional, for authentic Northeastern aroma)",
+        "Spring onions – 2, finely sliced",
+        "Coriander leaves (cilantro) – 1 small handful, roughly chopped"
       ]
     },
     {
-      "section": "Garnish & Serving",
+      "title": "For Garnish & Serving",
       "items": [
-        "Crisp lettuce or cabbage leaves (for wrapping)",
-        "Long beans or cucumbers (as cooling sides)"
+        "Crisp lettuce or cabbage leaves for wrapping",
+        "Long beans or cucumber slices as refreshing sides",
+        "Warm sticky rice for traditional serving"
       ]
     }
   ],
-  "instructions": [
+
+  "instruction": [
     {
-      "title": "1. Prepare the tofu",
+      "title": "Step 1 – Preparing the Tofu",
       "steps": [
-        "Drain tofu well, then crumble by hand or with a fork into small, irregular pieces (like minced meat).",
-        "Heat oil in a wok or skillet over medium-high.",
-        "Add tofu and cook until golden and slightly crisp at the edges, about 6–8 minutes. Remove from heat."
+        "Drain tofu thoroughly and crumble it by hand or with a fork into small irregular pieces similar to minced meat.",
+        "Heat oil in a wok or skillet over medium-high heat.",
+        "Add tofu and cook for 6–8 minutes until lightly golden and crisp around the edges.",
+        "Remove from heat and keep warm."
       ]
     },
     {
-      "title": "2. Season the larb",
+      "title": "Step 2 – Seasoning the Larb",
       "steps": [
-        "While tofu is still warm, add toasted rice powder, chili flakes, fish sauce (or soy), lime juice, and optional palm sugar.",
-        "Mix gently but thoroughly so every piece is coated. Adjust seasoning: more lime for sourness, more fish sauce for salt, more chili for heat."
+        "While the tofu is still warm, add toasted rice powder, roasted chili, fish sauce or soy sauce, lime juice, and palm sugar if using.",
+        "Mix gently until the tofu is evenly coated.",
+        "Adjust seasoning according to taste: add more lime for acidity, fish sauce for saltiness, or chili for extra heat."
       ]
     },
     {
-      "title": "3. Add herbs & aromatics",
+      "title": "Step 3 – Adding Herbs & Aromatics",
       "steps": [
-        "Fold in sliced shallots, spring onion, coriander, mint, and optional culantro/Thai basil.",
-        "Toss lightly to preserve the freshness of the herbs."
+        "Fold in sliced shallots, spring onions, coriander, mint, and optional Thai basil or culantro.",
+        "Toss gently to keep the herbs fresh and aromatic."
       ]
     },
     {
-      "title": "4. Serve immediately",
+      "title": "Step 4 – Serving the Tofu Larb",
       "steps": [
-        "Present in a chilled bowl or on a platter with crisp lettuce leaves, cabbage, and raw vegetables.",
-        "Traditionally enjoyed with warm sticky rice."
+        "Transfer larb to a chilled bowl or serving platter.",
+        "Arrange lettuce leaves, cabbage, cucumber, and other fresh vegetables alongside.",
+        "Serve immediately with warm sticky rice for a traditional Thai Isaan-style meal."
       ]
     }
   ],
-  "tips": [
-    "Rice powder: Toast raw sticky rice in a dry pan until deep golden, then grind to a coarse powder for a nutty aroma.",
-    "Heat control: A top Thai restaurant larb is fiery but balanced—use roasted chili flakes for depth, not raw powder.",
-    "Texture contrast: Keep tofu slightly crisp; pair with cold, crunchy vegetables for the classic Isaan feel.",
-    "Plating: Serve in a wide shallow bowl, herbs fanned on top, with side vegetables neatly arranged. A dusting of extra toasted rice adds fragrance at the table."
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve wrapped in crisp lettuce leaves for a refreshing bite.",
+      "Pair with warm sticky rice, fresh cabbage, cucumber, and long beans.",
+      "Garnish with extra toasted rice powder and fresh herbs for a restaurant-style presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Make authentic toasted rice powder by dry-toasting sticky rice until golden and grinding it into a coarse powder for a nutty aroma.",
+    "Use roasted chili flakes instead of raw chili powder for deeper flavor and a more balanced heat.",
+    "Keep tofu slightly crisp before mixing with herbs to create the ideal texture contrast.",
+    "Add fresh herbs at the end and toss lightly to preserve their fragrance.",
+    "A great larb should balance spicy, sour, salty, and lightly sweet flavors rather than overpowering heat."
   ]
 }
