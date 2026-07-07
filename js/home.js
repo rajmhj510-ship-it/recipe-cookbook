@@ -168,16 +168,21 @@ async function loadHomeRecipes() {
         homeRecipes =
             recipeArrays.flat();
 
-        renderRecipes(homeRecipes);
+renderRecipes(homeRecipes);
 
-        if (
-            typeof loadCarousel ===
-            "function"
-        ) {
 
-            loadCarousel(homeRecipes);
+/* ==========================================
+   SEND DATA TO CAROUSEL
+========================================== */
 
-        }
+if (
+    window.initCarousel &&
+    typeof window.initCarousel === "function"
+) {
+
+    window.initCarousel(homeRecipes);
+
+}
 
     }
 
