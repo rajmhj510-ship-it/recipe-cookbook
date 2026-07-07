@@ -290,9 +290,7 @@ function renderRecipes(list) {
         return;
 
     recipeList.style.opacity = "0";
-
-    recipeList.style.transform =
-        "translateY(12px)";
+    recipeList.style.transform = "translateY(10px)";
 
     setTimeout(() => {
 
@@ -334,13 +332,11 @@ function renderRecipes(list) {
         requestAnimationFrame(() => {
 
             recipeList.style.opacity = "1";
-
-            recipeList.style.transform =
-                "translateY(0)";
+            recipeList.style.transform = "translateY(0)";
 
         });
 
-    }, 150);
+    }, 200);
 
 }
    /* ==========================================
