@@ -2,19 +2,19 @@
    GLOBAL
 ========================================== */
 
-:root {
+:root{
 
-    --primary: #082a7b;
-    --primary-dark: #061d57;
+    --primary:#082a7b;
+    --primary-dark:#061d57;
 
-    --background: #f5f5f5;
+    --background:#f5f5f5;
 
-    --white: #ffffff;
+    --white:#ffffff;
 
-    --text: #222;
-    --text-light: #666;
+    --text:#222;
+    --text-light:#666;
 
-    --radius: 12px;
+    --radius:12px;
 
     --shadow:
         0 10px 20px rgba(0,0,0,.08);
@@ -22,13 +22,18 @@
 }
 
 *{
+
     margin:0;
     padding:0;
+
     box-sizing:border-box;
+
 }
 
 html{
+
     scroll-behavior:smooth;
+
 }
 
 body{
@@ -73,9 +78,9 @@ body{
 
     font-weight:900;
 
-    color:rgba(8,42,123,.12);
-
     letter-spacing:2px;
+
+    color:rgba(8,42,123,.12);
 
 }
 
@@ -99,9 +104,9 @@ body{
 
 .recipe-meta{
 
-    color:var(--text-light);
-
     font-size:1rem;
+
+    color:var(--text-light);
 
 }
 
@@ -119,13 +124,15 @@ body{
 
     background:var(--primary);
 
-    color:white;
+    color:var(--white);
 
     cursor:pointer;
 
     font-size:15px;
 
-    transition:.3s;
+    transition:
+        background .3s,
+        transform .3s;
 
 }
 
@@ -159,11 +166,12 @@ body{
 
     top:0;
 
-    background:var(--background);
-
     z-index:1000;
 
-    box-shadow:0 2px 8px rgba(0,0,0,.06);
+    background:var(--background);
+
+    box-shadow:
+        0 2px 8px rgba(0,0,0,.06);
 
 }
 
@@ -208,7 +216,6 @@ body{
     color:var(--primary);
 
 }
-
 /* ==========================================
    SEARCH
 ========================================== */
@@ -226,26 +233,29 @@ body{
 .search-wrapper input{
 
     width:100%;
-
     max-width:520px;
 
     padding:12px 16px;
 
     border:1px solid #ddd;
-
     border-radius:10px;
 
     outline:none;
 
     font-size:15px;
 
-    transition:.25s;
+    transition:
+        border-color .25s,
+        box-shadow .25s;
 
 }
 
 .search-wrapper input:focus{
 
     border-color:var(--primary);
+
+    box-shadow:
+        0 0 0 3px rgba(8,42,123,.08);
 
 }
 
@@ -277,9 +287,14 @@ body{
 
     background:#e7e7e7;
 
+    color:var(--text);
+
     cursor:pointer;
 
-    transition:.25s;
+    transition:
+        background .25s,
+        color .25s,
+        transform .25s;
 
 }
 
@@ -287,13 +302,15 @@ body{
 
     background:#d7d7d7;
 
+    transform:translateY(-2px);
+
 }
 
 .filters button.active{
 
     background:var(--primary);
 
-    color:white;
+    color:var(--white);
 
 }
 
@@ -306,12 +323,15 @@ body{
     display:grid;
 
     grid-template-columns:
-
         repeat(auto-fill,minmax(220px,1fr));
 
     gap:20px;
 
     padding:25px;
+
+    transition:
+        opacity .25s ease,
+        transform .25s ease;
 
 }
 
@@ -321,7 +341,7 @@ body{
 
 .explore-card{
 
-    background:white;
+    background:var(--white);
 
     border-radius:var(--radius);
 
@@ -329,15 +349,28 @@ body{
 
     cursor:pointer;
 
-    transition:.3s;
-
     box-shadow:var(--shadow);
+
+    transition:
+        transform .3s,
+        box-shadow .3s;
+
+    opacity:0;
+
+    transform:translateY(20px);
+
+    animation:
+        cardFade .45s ease forwards;
 
 }
 
 .explore-card:hover{
 
-    transform:translateY(-6px);
+    transform:
+        translateY(-6px);
+
+    box-shadow:
+        0 16px 28px rgba(0,0,0,.12);
 
 }
 
@@ -348,6 +381,8 @@ body{
     height:170px;
 
     object-fit:cover;
+
+    display:block;
 
 }
 
@@ -361,9 +396,9 @@ body{
 
     margin-bottom:10px;
 
-    color:var(--primary);
-
     font-size:1.05rem;
+
+    color:var(--primary);
 
 }
 
@@ -375,15 +410,17 @@ body{
 
     align-items:center;
 
+    gap:10px;
+
 }
 
 .recipe-category{
 
-    background:#efefef;
+    padding:4px 10px;
 
     border-radius:20px;
 
-    padding:4px 10px;
+    background:#efefef;
 
     font-size:12px;
 
@@ -391,13 +428,13 @@ body{
 
 .recipe-id{
 
-    background:var(--primary);
-
-    color:white;
-
     padding:4px 10px;
 
     border-radius:20px;
+
+    background:var(--primary);
+
+    color:var(--white);
 
     font-size:12px;
 
@@ -406,10 +443,33 @@ body{
 }
 
 /* ==========================================
+   CARD ANIMATION
+========================================== */
+
+@keyframes cardFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+/* ==========================================
    TABLET
 ========================================== */
 
-@media(max-width:992px){
+@media (max-width:992px){
 
     .about-title{
 
@@ -423,7 +483,7 @@ body{
    MOBILE
 ========================================== */
 
-@media(max-width:768px){
+@media (max-width:768px){
 
     .about-title{
 
@@ -434,7 +494,6 @@ body{
     #recipeList{
 
         grid-template-columns:
-
             repeat(2,1fr);
 
         gap:15px;
@@ -447,11 +506,13 @@ body{
 
         flex-wrap:nowrap;
 
-        overflow-x:auto;
-
         justify-content:flex-start;
 
+        overflow-x:auto;
+
         scrollbar-width:none;
+
+        -ms-overflow-style:none;
 
     }
 
@@ -463,9 +524,9 @@ body{
 
     .filters button{
 
-        white-space:nowrap;
-
         flex-shrink:0;
+
+        white-space:nowrap;
 
     }
 
@@ -481,7 +542,7 @@ body{
    SMALL PHONE
 ========================================== */
 
-@media(max-width:480px){
+@media (max-width:480px){
 
     .about-title{
 
@@ -509,47 +570,12 @@ body{
 
     }
 
-}
-/* ==========================================
-   RECIPE GRID ANIMATION
-========================================== */
+    .recipe-category,
+    .recipe-id{
 
-#recipeList{
+        font-size:11px;
 
-    transition:
-        opacity .25s ease,
-        transform .25s ease;
-
-}
-/* ==========================================
-   RECIPE CARD ANIMATION
-========================================== */
-
-.explore-card{
-
-    opacity:0;
-
-    transform:translateY(20px);
-
-    animation:cardFade .45s ease forwards;
-
-}
-
-@keyframes cardFade{
-
-    from{
-
-        opacity:0;
-
-        transform:translateY(20px);
-
-    }
-
-    to{
-
-        opacity:1;
-
-        transform:translateY(0);
+        padding:4px 8px;
 
     }
 
