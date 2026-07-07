@@ -1,117 +1,131 @@
 {
   "id": 813,
   "title": "Khao Moo Daeng – Thai Red BBQ Pork with Rice",
+  "description": "Khao Moo Daeng is a famous Thai street-food dish featuring tender red-charred BBQ pork served over fragrant jasmine rice with a rich sweet-savory red sauce. Traditionally accompanied by Chinese sausage, soft-boiled egg, fresh cucumber, and herbs, this dish balances caramelized pork, umami sauce, and refreshing garnishes for a complete Thai comfort meal.",
   "category": "Thai",
-  "description": "",
-  "image": "assets/images/thai/khao-moo-daeng.png",
   "time": "1 hr 5 min",
   "difficulty": "Medium",
-  "servings": "4",
+  "image": "assets/images/thai/khao-moo-daeng.png",
+
   "ingredients": [
     {
-      "section": "Moo Daeng (BBQ Red Pork)",
+      "title": "For Moo Daeng (Red BBQ Pork)",
       "items": [
-        "Pork shoulder or neck – 1 kg (well-marbled, tender)",
+        "Pork shoulder or pork neck – 1 kg, well-marbled and tender",
         "Light soy sauce – 3 tbsp",
         "Oyster sauce – 2 tbsp",
         "Hoisin sauce – 2 tbsp",
         "Honey – 2 tbsp",
         "Palm sugar – 1½ tbsp",
-        "Shaoxing wine (or dry sherry) – 2 tbsp",
-        "Five-spice powder – 1 tsp",
+        "Shaoxing wine or dry sherry – 2 tbsp",
+        "Chinese five-spice powder – 1 tsp",
         "White pepper – ½ tsp",
         "Garlic – 4 cloves, minced",
-        "Red food coloring – a drop (optional, for authentic color)",
+        "Red food coloring – a drop (optional, for traditional color)",
         "Sesame oil – 1 tbsp"
       ]
     },
     {
-      "section": "Nam Daeng (Red Sauce)",
+      "title": "For Nam Daeng (Red Sauce)",
       "items": [
-        "Pork drippings (from roasting) – 2 tbsp",
+        "Pork roasting drippings – 2 tbsp",
         "Chicken or pork stock – 2 cups",
         "Oyster sauce – 3 tbsp",
         "Dark soy sauce – 1 tsp",
         "Sweet soy sauce – 2 tsp",
         "Hoisin sauce – 1 tbsp",
         "Palm sugar – 2 tbsp",
-        "Tomato paste – 1 tsp (for depth and color)",
+        "Tomato paste – 1 tsp",
         "Chinese five-spice powder – ½ tsp",
-        "Cornstarch slurry – 2 tsp cornstarch + 2 tbsp water"
+        "Cornstarch slurry – 2 tsp cornstarch mixed with 2 tbsp water"
       ]
     },
     {
-      "section": "Rice",
+      "title": "For Jasmine Rice",
       "items": [
-        "Thai jasmine rice – rinse well, steam until fluffy.",
-        "Keep warm for plating."
+        "Thai jasmine rice – rinsed well and steamed until fluffy",
+        "Keep warm before plating"
       ]
     },
     {
-      "section": "Accompaniments & Garnish",
+      "title": "For Accompaniments & Garnish",
       "items": [
         "Fresh cucumber slices",
-        "Scallions (julienned)",
-        "Cilantro leaves",
-        "Soft-boiled egg (6 minutes, slightly runny yolk)",
-        "Chinese sausage (lap cheong) – steamed and sliced thin",
-        "Optional: crispy pork belly slices for texture contrast"
+        "Scallions – julienned",
+        "Fresh cilantro leaves",
+        "Soft-boiled egg – cooked for 6 minutes with slightly runny yolk",
+        "Chinese sausage (lap cheong) – steamed and thinly sliced",
+        "Crispy pork belly slices – optional"
       ]
     }
   ],
-  "instructions": [
+
+  "instruction": [
     {
-      "title": "1. Moo Daeng (BBQ Red Pork)",
+      "title": "Step 1 – Preparing Moo Daeng (Red BBQ Pork)",
       "steps": [
-        "Slice pork into long strips (~4 cm thick).",
-        "Mix marinade, coat pork, cover, and refrigerate 6–12 hours.",
-        "Roast at 200°C (390°F) for 20 minutes, basting with marinade every 10 minutes.",
-        "Lower heat to 160°C (320°F) and roast for another 20–25 minutes until caramelized.",
-        "Rest, then slice thinly for serving."
+        "Slice pork into long strips approximately 4 cm thick.",
+        "Combine all marinade ingredients and coat the pork thoroughly.",
+        "Cover and refrigerate for 6–12 hours to allow the flavors to penetrate.",
+        "Roast at 200°C (390°F) for 20 minutes, brushing with marinade every 10 minutes.",
+        "Reduce heat to 160°C (320°F) and continue roasting for another 20–25 minutes until caramelized and glossy.",
+        "Rest the pork before slicing thinly for serving."
       ]
     },
     {
-      "title": "2. Nam Daeng (Red Sauce)",
+      "title": "Step 2 – Preparing Nam Daeng (Red Sauce)",
       "steps": [
-        "Heat drippings in saucepan, add sauces, sugar, spices, and stock.",
-        "Simmer 10–15 minutes until glossy.",
-        "Adjust sweetness/saltiness (sauce should be rich, slightly sweet, with umami depth).",
-        "Thicken with cornstarch slurry. Strain for a smooth, restaurant-quality finish."
+        "Heat pork roasting drippings in a saucepan.",
+        "Add stock, oyster sauce, soy sauces, hoisin sauce, palm sugar, tomato paste, and spices.",
+        "Simmer for 10–15 minutes until the sauce becomes rich and glossy.",
+        "Adjust sweetness and seasoning until balanced.",
+        "Add cornstarch slurry to lightly thicken the sauce.",
+        "Strain the sauce for a smooth restaurant-style finish."
       ]
     },
     {
-      "title": "3. Rice",
+      "title": "Step 3 – Preparing the Rice",
       "steps": [
-        "Use Thai jasmine rice – rinse well, steam until fluffy.",
-        "Keep warm for plating."
+        "Cook Thai jasmine rice until soft, fluffy, and aromatic.",
+        "Keep the rice warm until ready for plating."
       ]
     },
     {
-      "title": "4. Accompaniments & Garnish",
+      "title": "Step 4 – Preparing Accompaniments",
       "steps": [
-        "Prepare fresh cucumber slices.",
-        "Julienne the scallions.",
-        "Steam and slice the Chinese sausage if using.",
-        "Cook a soft-boiled egg (6 minutes) and halve it.",
-        "Prepare crispy pork belly slices if using."
+        "Slice fresh cucumber and prepare scallion julienne.",
+        "Steam and thinly slice Chinese sausage if using.",
+        "Prepare soft-boiled eggs by cooking for 6 minutes, then halving them.",
+        "Prepare crispy pork belly slices if adding extra texture."
       ]
     },
     {
-      "title": "5. Plating (Restaurant Style)",
+      "title": "Step 5 – Restaurant-Style Plating",
       "steps": [
-        "Mold jasmine rice in a neat dome on the plate.",
-        "Arrange Moo Daeng slices fanned out across rice.",
-        "Add a few slices of Chinese sausage and crispy pork belly.",
-        "Place half a soft-boiled egg neatly.",
-        "Spoon glossy red sauce generously over the meat, leaving rice partly exposed.",
-        "Garnish with cucumber slices, cilantro sprigs, and scallion julienne.",
-        "Optional: serve with chili-vinegar dipping sauce on the side for acidity."
+        "Shape jasmine rice into a neat dome on the plate.",
+        "Arrange Moo Daeng slices over the rice in a fan shape.",
+        "Add Chinese sausage slices, crispy pork belly, and half a soft-boiled egg.",
+        "Spoon the glossy red sauce generously over the pork while keeping some rice visible.",
+        "Garnish with cucumber slices, cilantro, and scallion julienne.",
+        "Serve with chili vinegar dipping sauce on the side for extra acidity if desired."
       ]
     }
   ],
-  "tips": [
-    "Charcoal roasting adds authentic smokiness if possible. Glazing pork with diluted honey in the last 5 minutes gives professional shine.",
-    "Sauce should have silky texture – strain for refinement.",
-    "Balance is crucial: slightly sweet pork + savory-salty sauce + fresh cucumbers + soft rice."
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot over jasmine rice with plenty of red sauce for the classic Thai street-food experience.",
+      "Pair with cucumber slices and fresh herbs to balance the sweetness and richness of the pork.",
+      "Add chili vinegar or Nam Jim-style dipping sauce for a spicy and tangy contrast."
+    ]
+  },
+
+  "chefTips": [
+    "Charcoal roasting adds authentic smoky flavor; brush the pork with diluted honey during the final minutes for a professional glaze.",
+    "Rest the roasted pork before slicing to keep the meat juicy and tender.",
+    "The red sauce should be silky and glossy — straining it creates a refined restaurant-quality finish.",
+    "Balance is essential: sweet caramelized pork, savory sauce, refreshing cucumber, and fluffy rice should complement each other.",
+    "Choose well-marbled pork shoulder or neck for the most tender texture."
   ]
 }
