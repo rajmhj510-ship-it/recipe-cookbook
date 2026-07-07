@@ -1,1 +1,62 @@
-
+[
+    {
+    "id": 701,
+    "title": "Jhol Mo:Mo",
+    "category": "Nepali",
+    "file": "data/nepali/jhol-momo.json",
+    "image": "assets/images/nepali/jhol-momo.png",
+    "description": "",
+    "time": "1 hr 20 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 702,
+    "title": "Buff Steamed Mo:Mo",
+    "category": "Nepali",
+    "file": "data/nepali/buff-steamed-momo.json",
+    "image": "assets/images/nepali/buff-steamed-momo.png",
+    "description": "",
+    "time": "1 hr 20 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 703,
+    "title": "Chicken Kurkure",
+    "category": "Nepali",
+    "file": "data/nepali/chicke-kurkure.json",
+    "image": "assets/images/nepali/chicken-kurkure.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
+  {
+    "id": 704,
+    "title": "Ultimate Restaurant-Style Chicken Kurkure",
+    "category": "Nepali",
+    "file": "data/nepali/ultimate-restaurant-style-chicken-kurkure.json",
+    "image": "assets/images/nepali/ultimate-restaurant-style-chicken-kurkure.png",
+    "description": "",
+    "time": "",
+    "difficulty": ""
+  },
+    {
+    "id": 705,
+    "title": "Lal Mohan",
+    "category": "Nepali",
+    "file": "data/nepali/lal-mohan.json",
+    "image": "assets/images/nepali/lal-mohan.png",
+    "description": "",
+    "time": "50 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 706,
+    "title": "Malpua",
+    "category": "Nepali",
+    "file": "data/nepali/malpuwa.json",
+    "image": "assets/images/nepali/malpuwa.png",
+    "description": "",
+    "time": "60 min",
+    "difficulty": "Easy"
+  },
+]
