@@ -1,3 +1,5 @@
+(() => {
+
 /* ==========================================
    ELEMENTS
 ========================================== */
@@ -16,8 +18,8 @@ const exploreSection = document.getElementById("explore");
    STATE
 ========================================== */
 
-let recipes = [];
-let cards = [];
+let carouselRecipes = [];
+let carouselCards = [];
 
 let currentIndex = 0;
 let isAnimating = false;
@@ -30,22 +32,20 @@ const isRecipePage =
     window.location.pathname.includes("recipe.html");
 
 /* ==========================================
-   LOAD ALL RECIPES
+   LOAD RECIPES
 ========================================== */
 
-async function loadRecipes() {
+async function loadCarouselRecipes() {
 
     try {
 
-        // Load master index
         const indexResponse = await fetch("data/index.json");
 
         if (!indexResponse.ok)
-            throw new Error("Cannot load index.json");
+            throw new Error("Cannot load data/index.json");
 
         const categories = await indexResponse.json();
 
-        // Load every cuisine file in parallel
         const recipeArrays = await Promise.all(
 
             categories.map(async category => {
@@ -61,10 +61,9 @@ async function loadRecipes() {
 
         );
 
-        // Merge into one array
-        recipes = recipeArrays.flat();
+        carouselRecipes = recipeArrays.flat();
 
-        if (!recipes.length)
+        if (!carouselRecipes.length)
             return;
 
         createCarousel();
@@ -78,13 +77,11 @@ async function loadRecipes() {
 
     catch (error) {
 
-        console.error(error);
+        console.error("Carousel:", error);
 
     }
 
 }
-
-loadRecipes();
 
 /* ==========================================
    CREATE CAROUSEL
@@ -92,9 +89,12 @@ loadRecipes();
 
 function createCarousel() {
 
+    if (!track)
+        return;
+
     track.innerHTML = "";
 
-    recipes.forEach((recipe, index) => {
+    carouselRecipes.forEach((recipe, index) => {
 
         const card = document.createElement("div");
 
@@ -126,12 +126,20 @@ function createCarousel() {
 
     });
 
-    cards = [...document.querySelectorAll(".card")];
+    carouselCards = [...track.querySelectorAll(".card")];
 
-    const container = document.querySelector(".carousel-container");
+    const container =
+        document.querySelector(".carousel-container");
 
-    container?.addEventListener("mouseenter", stopAutoSlide);
-    container?.addEventListener("mouseleave", startAutoSlide);
+    container?.addEventListener(
+        "mouseenter",
+        stopAutoSlide
+    );
+
+    container?.addEventListener(
+        "mouseleave",
+        startAutoSlide
+    );
 
 }
 
@@ -141,19 +149,23 @@ function createCarousel() {
 
 function updateCarousel(index) {
 
-    if (isAnimating || !cards.length)
+    if (
+        isAnimating ||
+        !carouselCards.length
+    )
         return;
 
     isAnimating = true;
 
     currentIndex =
-        (index + recipes.length) % recipes.length;
+        (index + carouselRecipes.length) %
+        carouselRecipes.length;
 
-    cards.forEach((card, i) => {
+    carouselCards.forEach((card, i) => {
 
         const offset =
-            (i - currentIndex + recipes.length) %
-            recipes.length;
+            (i - currentIndex + carouselRecipes.length) %
+            carouselRecipes.length;
 
         card.className = "card";
 
@@ -171,11 +183,11 @@ function updateCarousel(index) {
                 card.classList.add("right-2");
                 break;
 
-            case recipes.length - 1:
+            case carouselRecipes.length - 1:
                 card.classList.add("left-1");
                 break;
 
-            case recipes.length - 2:
+            case carouselRecipes.length - 2:
                 card.classList.add("left-2");
                 break;
 
@@ -186,11 +198,14 @@ function updateCarousel(index) {
 
     });
 
-    const recipe = recipes[currentIndex];
+    const recipe = carouselRecipes[currentIndex];
 
-    titleEl.textContent = recipe.title;
-    metaEl.textContent =
-        `${recipe.time} • ${recipe.difficulty}`;
+    if (titleEl)
+        titleEl.textContent = recipe.title;
+
+    if (metaEl)
+        metaEl.textContent =
+            `${recipe.time} • ${recipe.difficulty}`;
 
     setTimeout(() => {
 
@@ -231,7 +246,7 @@ function stopAutoSlide() {
 }
 
 /* ==========================================
-   PAGE VISIBILITY
+   EVENTS
 ========================================== */
 
 document.addEventListener("visibilitychange", () => {
@@ -242,10 +257,6 @@ document.addEventListener("visibilitychange", () => {
         startAutoSlide();
 
 });
-
-/* ==========================================
-   SCROLL
-========================================== */
 
 scrollBtn?.addEventListener("click", () => {
 
@@ -262,7 +273,8 @@ window.addEventListener("scroll", () => {
     if (!exploreSection)
         return;
 
-    const rect = exploreSection.getBoundingClientRect();
+    const rect =
+        exploreSection.getBoundingClientRect();
 
     const visible =
         rect.top < window.innerHeight &&
@@ -274,10 +286,6 @@ window.addEventListener("scroll", () => {
         startAutoSlide();
 
 });
-
-/* ==========================================
-   NAVIGATION
-========================================== */
 
 leftArrow?.addEventListener("click", () => {
 
@@ -300,3 +308,11 @@ document.addEventListener("keydown", e => {
         updateCarousel(currentIndex + 1);
 
 });
+
+/* ==========================================
+   START
+========================================== */
+
+loadCarouselRecipes();
+
+})();
