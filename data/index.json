@@ -5,7 +5,7 @@
     "category": "Arabic",
     "file": "data/arabic/falafel.json",
     "image": "assets/images/arabic/falafel.png",
-    "description": "",
+    "description": "Golden and crispy chickpea fritters seasoned with fresh herbs and aromatic Middle Eastern spices.",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -15,7 +15,7 @@
     "category": "Arabic",
     "file": "data/arabic/hummus.json",
     "image": "assets/images/arabic/hummus.png",
-    "description": "",
+    "description": "Creamy chickpea dip blended with tahini, garlic, lemon juice, and extra virgin olive oil.",
     "time": "15 min",
     "difficulty": "Easy"
   },
@@ -25,7 +25,7 @@
     "category": "Arabic",
     "file": "data/arabic/chicken-shawarma.json",
     "image": "assets/images/arabic/chicken-shawarma.png",
-    "description": "",
+    "description": "Juicy marinated chicken roasted with bold spices and served with classic shawarma accompaniments.",
     "time": "15 min",
     "difficulty": "Easy"
   },
@@ -35,7 +35,7 @@
     "category": "Arabic",
     "file": "data/arabic/tahini-paste.json",
     "image": "assets/images/arabic/tahini-paste.png",
-    "description": "",
+    "description": "Smooth sesame seed paste that adds rich, nutty flavor to countless Middle Eastern recipes.",
     "time": "20 min",
     "difficulty": "Easy"
   },
@@ -45,7 +45,7 @@
     "category": "Arabic",
     "file": "data/arabic/tahini-sauce.json",
     "image": "assets/images/arabic/tahini-sauce.png",
-    "description": "",
+    "description": "Creamy sesame sauce blended with lemon, garlic, and seasonings for dipping and drizzling.",
     "time": "10 min",
     "difficulty": "Easy"
   },
@@ -55,7 +55,7 @@
     "category": "Arabic",
     "file": "data/arabic/baba-ghanoush.json",
     "image": "assets/images/arabic/baba-ghanoush.png",
-    "description": "",
+    "description": "Smoky roasted eggplant dip mixed with tahini, garlic, lemon, and olive oil.",
     "time": "45 min",
     "difficulty": "Easy"
   },
@@ -65,7 +65,7 @@
     "category": "Arabic",
     "file": "data/arabic/labneh.json",
     "image": "assets/images/arabic/labneh.png",
-    "description": "",
+    "description": "Thick and creamy strained yogurt traditionally served with olive oil, herbs, and warm bread.",
     "time": "24–48 hrs",
     "difficulty": "Medium"
   },
@@ -75,7 +75,7 @@
     "category": "Arabic",
     "file": "data/arabic/pita-bread.json",
     "image": "assets/images/arabic/pita-bread.png",
-    "description": "",
+    "description": "Soft, fluffy pocket bread perfect for wraps, sandwiches, and dipping into flavorful spreads.",
     "time": "2 hrs",
     "difficulty": "Medium"
   },
@@ -85,7 +85,7 @@
     "category": "Arabic",
     "file": "data/arabic/grilled-vegetable-pita.json",
     "image": "assets/images/arabic/grilled-vegetable-pita.png",
-    "description": "",
+    "description": "Warm pita stuffed with smoky grilled vegetables and fresh Mediterranean-inspired flavors.",
     "time": "40 min",
     "difficulty": "Easy"
   },
@@ -95,7 +95,7 @@
     "category": "Arabic",
     "file": "data/arabic/khubz.json",
     "image": "assets/images/arabic/khubz.png",
-    "description": "",
+    "description": "Traditional Arabic flatbread with a soft interior and lightly crisp golden crust.",
     "time": "2 hrs",
     "difficulty": "Medium"
   },
@@ -105,7 +105,7 @@
     "category": "Arabic",
     "file": "data/arabic/saj-bread.json",
     "image": "assets/images/arabic/saj-bread.png",
-    "description": "",
+    "description": "Thin and flexible flatbread cooked on a saj griddle, ideal for wraps and sandwiches.",
     "time": "1 hr",
     "difficulty": "Easy"
   },
@@ -115,7 +115,7 @@
     "category": "Arabic",
     "file": "data/arabic/tabouleh.json",
     "image": "assets/images/arabic/tabouleh.png",
-    "description": "",
+    "description": "Refreshing parsley salad with bulgur, tomatoes, mint, and a bright lemon dressing.",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -125,7 +125,7 @@
     "category": "Arabic",
     "file": "data/arabic/fattoush-salad.json",
     "image": "assets/images/arabic/fattoush-salad.png",
-    "description": "",
+    "description": "Fresh garden vegetables tossed with crispy pita chips and tangy sumac vinaigrette.",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -135,7 +135,7 @@
     "category": "Arabic",
     "file": "data/arabic/kabsa.json",
     "image": "assets/images/arabic/kabsa.png",
-    "description": "",
+    "description": "Classic Arabian rice dish cooked with fragrant spices and tender meat for rich flavor.",
     "time": "2.5–3 hrs",
     "difficulty": "Hard"
   },
@@ -145,7 +145,7 @@
     "category": "Arabic",
     "file": "data/arabic/chicken-kabsa.json",
     "image": "assets/images/arabic/chicken-kabsa.png",
-    "description": "",
+    "description": "Aromatic spiced rice served with juicy chicken in a comforting traditional Arabian style.",
     "time": "2 hrs",
     "difficulty": "Medium"
   },
@@ -155,7 +155,7 @@
     "category": "Arabic",
     "file": "data/arabic/maklouba.json",
     "image": "assets/images/arabic/maklouba.png",
-    "description": "",
+    "description": "Layered rice, vegetables, and meat flipped upside down for an impressive presentation.",
     "time": "1.5–2 hrs",
     "difficulty": "Medium"
   },
@@ -165,7 +165,7 @@
     "category": "Arabic",
     "file": "data/arabic/mansaf.json",
     "image": "assets/images/arabic/mansaf.png",
-    "description": "",
+    "description": "Jordan's national dish featuring tender lamb, aromatic rice, and creamy fermented yogurt sauce.",
     "time": "2 hrs",
     "difficulty": "Hard"
   },
@@ -175,7 +175,7 @@
     "category": "Arabic",
     "file": "data/arabic/mandi.json",
     "image": "assets/images/arabic/mandi.png",
-    "description": "",
+    "description": "Traditional Yemeni-style spiced rice served with slow-cooked, tender, and flavorful meat.",
     "time": "3 hrs",
     "difficulty": "Hard"
   },
@@ -185,7 +185,7 @@
     "category": "Arabic",
     "file": "data/arabic/kofta.json",
     "image": "assets/images/arabic/kofta.png",
-    "description": "",
+    "description": "Perfectly seasoned minced meat shaped into skewers or patties and grilled until juicy.",
     "time": "45 min",
     "difficulty": "Easy"
   },
@@ -195,7 +195,7 @@
     "category": "Arabic",
     "file": "data/arabic/shakshuka.json",
     "image": "assets/images/arabic/shakshuka.png",
-    "description": "",
+    "description": "Poached eggs simmered in a rich tomato sauce with peppers, garlic, and warming spices.",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -205,7 +205,7 @@
     "category": "Arabic",
     "file": "data/arabic/kibbeh.json",
     "image": "assets/images/arabic/kibbeh.png",
-    "description": "",
+    "description": "Crispy bulgur shells filled with savory minced meat, onions, herbs, and pine nuts.",
     "time": "1.5 hrs",
     "difficulty": "Medium"
   },
@@ -215,11 +215,11 @@
     "category": "Arabic",
     "file": "data/arabic/shish-tawook.json",
     "image": "assets/images/arabic/shish-tawook.png",
-    "description": "",
+    "description": "Tender grilled chicken skewers marinated with yogurt, garlic, lemon, and aromatic spices.",
     "time": "1 hr 30 min",
     "difficulty": "Medium"
   },
-
+  
   {
     "id": 201,
     "title": "Szechuan Fish",
@@ -1839,117 +1839,117 @@
     "category": "Thai",
     "file": "data/thai/pad-thai.json",
     "image": "assets/images/thai/pad-thai.png",
-    "description": "",
+    "description": "Thailand's iconic stir-fried rice noodles tossed with shrimp, tofu, eggs, peanuts, and tamarind sauce.",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
   },
   {
-    "id": 804,
+    "id": 802,
     "title": "Gaeng Garee",
     "category": "Thai",
     "file": "data/thai/gaeng-garee.json",
     "image": "assets/images/thai/gaeng-garee.png",
-    "description": "",
+    "description": "Mild and creamy Thai yellow curry paste made with aromatic spices and fragrant herbs.",
     "time": "15 min",
     "difficulty": "Easy"
   },
   {
-    "id": 805,
+    "id": 803,
     "title": "Nam Prik Gaeng Kiew Wan",
     "category": "Thai",
     "file": "data/thai/nam-prik-gaeng-kiew-wan.json",
     "image": "assets/images/thai/nam-prik-gaeng-kiew-wan.png",
-    "description": "",
+    "description": "Traditional Thai green curry paste bursting with fresh herbs, chilies, and aromatic spices.",
     "time": "15 min",
     "difficulty": "Easy"
   },
   {
-    "id": 806,
+    "id": 804,
     "title": "Chicken Satay with Peanut Sauce",
     "category": "Thai",
     "file": "data/thai/chicken-satay-with-peanut-sauce.json",
     "image": "assets/images/thai/chicken-satay-with-peanut-sauce.png",
-    "description": "",
+    "description": "Grilled marinated chicken skewers served with a rich, creamy, and flavorful peanut dipping sauce.",
     "time": "40 min",
     "difficulty": "Medium"
   },
   {
-    "id": 807,
+    "id": 805,
     "title": "Tom Yam Kai",
     "category": "Thai",
     "file": "data/thai/tom-yam-kai-spicy-sour-chicken-soup.json",
     "image": "assets/images/thai/tom-yam-kai-spicy-sour-chicken-soup.png",
-    "description": "",
+    "description": "Spicy and sour Thai chicken soup infused with lemongrass, lime leaves, and fresh herbs.",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 806,
+    "title": "Sweet Eggplant and Oyster Mushroom Stir-Fry",
+    "category": "Thai",
+    "file": "data/thai/sweet-eggplant-and-oyster-mushroom-stir-fry.json",
+    "image": "assets/images/thai/sweet-eggplant-and-oyster-mushroom-stir-fry.png",
+    "description": "Tender eggplant and oyster mushrooms stir-fried in a sweet, savory, and aromatic sauce.",
+    "time": "25 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 807,
+    "title": "Tom Kha Gai",
+    "category": "Thai",
+    "file": "data/thai/tom-kha-gai.json",
+    "image": "assets/images/thai/tom-kha-gai-thai.png",
+    "description": "Creamy coconut chicken soup flavored with galangal, lemongrass, lime leaves, and mushrooms.",
     "time": "35 min",
     "difficulty": "Medium"
   },
   {
     "id": 808,
-    "title": "Sweet Eggplant and Oyster Mushroom Stir-Fry",
-    "category": "Thai",
-    "file": "data/thai/sweet-eggplant-and-oyster-mushroom-stir-fry.json",
-    "image": "assets/images/thai/sweet-eggplant-and-oyster-mushroom-stir-fry.png",
-    "description": "",
-    "time": "25 min",
-    "difficulty": "Easy"
-  },
-  {
-    "id": 809,
-    "title": "Tom Kha Gai",
-    "category": "Thai",
-    "file": "data/thai/tom-kha-gai.json",
-    "image": "assets/images/thai/tom-kha-gai-thai.png",
-    "description": "",
-    "time": "35 min",
-    "difficulty": "Medium"
-  },
-  {
-    "id": 810,
     "title": "Por Pia Tod",
     "category": "Thai",
     "file": "data/thai/por-pia-tod.json",
     "image": "assets/images/thai/por-pia-tod.png",
-    "description": "",
+    "description": "Crispy deep-fried Thai spring rolls filled with vegetables, glass noodles, and savory seasonings.",
     "time": "45 min",
     "difficulty": "Medium"
   },
   {
-    "id": 811,
+    "id": 809,
     "title": "Fresh Thai Spring Rolls",
     "category": "Thai",
     "file": "data/thai/fresh-thai-spring-rolls.json",
     "image": "assets/images/thai/fresh-thai-spring-rolls.png",
-    "description": "",
+    "description": "Fresh rice paper rolls packed with crisp vegetables, herbs, and served with flavorful dipping sauce.",
     "time": "35 min",
     "difficulty": "Easy"
   },
   {
-    "id": 812,
+    "id": 810,
     "title": "Hokkien Mee",
     "category": "Thai",
     "file": "data/thai/hokkien-mee-hokkien-noodles.json",
     "image": "assets/images/thai/hokkien-mee-hokkien-noodles.png",
-    "description": "",
+    "description": "Thick yellow noodles stir-fried with seafood, vegetables, and a rich savory soy-based sauce.",
     "time": "25 min",
     "difficulty": "Medium"
   },
   {
-    "id": 813,
+    "id": 811,
     "title": "Tofu Larb",
     "category": "Thai",
     "file": "data/thai/tofu-larb.json",
     "image": "assets/images/thai/tofu-larb.png",
-    "description": "",
+    "description": "A vibrant Thai salad featuring seasoned tofu, fresh herbs, lime juice, and toasted rice.",
     "time": "20 min",
     "difficulty": "Easy"
   },
   {
-    "id": 814,
+    "id": 812,
     "title": "Khao Soi Kai",
     "category": "Thai",
     "file": "data/thai/khao-soi-kai.json",
     "image": "assets/images/thai/khao-soi-kai.png",
-    "description": "",
+    "description": "Northern Thai coconut curry noodle soup topped with tender chicken and crispy fried noodles.",
     "time": "60 min",
     "difficulty": "Medium"
   },
