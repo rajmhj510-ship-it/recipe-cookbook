@@ -1,1 +1,34 @@
-
+[
+  {
+    "category": "Arabic",
+    "file": "data/arabic.json"
+  },
+  {
+    "category": "Chinese",
+    "file": "data/chinese.json"
+  },
+  {
+    "category": "Indian",
+    "file": "data/indian.json"
+  },
+  {
+    "category": "Continental",
+    "file": "data/continental.json"
+  },
+  {
+    "category": "Mexican",
+    "file": "data/mexican.json"
+  },
+  {
+    "category": "Nepali",
+    "file": "data/nepali.json"
+  },
+  {
+    "category": "Thai",
+    "file": "data/thai.json"
+  },
+  {
+    "category": "Italian",
+    "file": "data/italian.json"
+  }
+]
