@@ -1,9 +1,4 @@
 /* ==========================================
-   RECIPE COOKBOOK - HOME CSS
-========================================== */
-
-
-/* ==========================================
    GLOBAL
 ========================================== */
 
@@ -26,15 +21,14 @@
 
 }
 
-
 *{
 
     margin:0;
     padding:0;
+
     box-sizing:border-box;
 
 }
-
 
 html{
 
@@ -42,29 +36,21 @@ html{
 
 }
 
-
 body{
 
-    font-family:
-        Arial,
-        sans-serif;
+    font-family:Arial,sans-serif;
 
-    background:
-        var(--background);
+    background:var(--background);
 
-    color:
-        var(--text);
+    color:var(--text);
 
     overflow-x:hidden;
 
 }
 
-
-
 /* ==========================================
    HERO
 ========================================== */
-
 
 #hero{
 
@@ -86,7 +72,6 @@ body{
 
 }
 
-
 .about-title{
 
     font-size:4rem;
@@ -95,11 +80,9 @@ body{
 
     letter-spacing:2px;
 
-    color:
-        rgba(8,42,123,.12);
+    color:rgba(8,42,123,.12);
 
 }
-
 
 .recipe-info{
 
@@ -111,91 +94,71 @@ body{
 
 }
 
-
 .hero-recipe-title{
 
     font-size:1.8rem;
 
-    color:
-        var(--primary);
+    color:var(--primary);
 
 }
-
 
 .recipe-meta{
 
-    color:
-        var(--text-light);
-
     font-size:1rem;
 
+    color:var(--text-light);
+
 }
-
-
 
 /* ==========================================
    SCROLL BUTTON
 ========================================== */
 
-
 .scroll-down{
 
-    padding:
-        14px 24px;
+    padding:14px 24px;
 
     border:none;
 
-    border-radius:
-        999px;
+    border-radius:999px;
 
-    background:
-        var(--primary);
+    background:var(--primary);
 
-    color:
-        white;
+    color:var(--white);
 
     cursor:pointer;
 
     font-size:15px;
 
     transition:
-        .3s;
+        background .3s,
+        transform .3s;
 
 }
-
 
 .scroll-down:hover{
 
-    background:
-        var(--primary-dark);
+    background:var(--primary-dark);
 
-    transform:
-        translateY(3px);
+    transform:translateY(3px);
 
 }
-
-
 
 /* ==========================================
    EXPLORE
 ========================================== */
 
-
 #explore{
 
     min-height:100vh;
 
-    background:
-        var(--background);
+    background:var(--background);
 
 }
-
-
 
 /* ==========================================
    STICKY HEADER
 ========================================== */
-
 
 .sticky-block{
 
@@ -205,20 +168,16 @@ body{
 
     z-index:1000;
 
-    background:
-        var(--background);
+    background:var(--background);
 
     box-shadow:
         0 2px 8px rgba(0,0,0,.06);
 
 }
 
-
-
 /* ==========================================
    HEADER
 ========================================== */
-
 
 .explore-header{
 
@@ -228,11 +187,9 @@ body{
 
     align-items:center;
 
-    padding:
-        18px 24px 8px;
+    padding:18px 24px 8px;
 
 }
-
 
 .brand-small{
 
@@ -244,7 +201,6 @@ body{
 
 }
 
-
 .logo{
 
     width:42px;
@@ -255,25 +211,18 @@ body{
 
 }
 
-
 .brand-small h2{
 
-    color:
-        var(--primary);
+    color:var(--primary);
 
 }
-
-
-
 /* ==========================================
    SEARCH
 ========================================== */
 
-
 .search-wrapper{
 
-    padding:
-        12px 20px;
+    padding:12px 20px;
 
     display:flex;
 
@@ -281,48 +230,38 @@ body{
 
 }
 
-
 .search-wrapper input{
 
     width:100%;
-
     max-width:520px;
 
-    padding:
-        12px 16px;
+    padding:12px 16px;
 
-    border:
-        1px solid #ddd;
-
-    border-radius:
-        10px;
+    border:1px solid #ddd;
+    border-radius:10px;
 
     outline:none;
 
     font-size:15px;
 
     transition:
-        .25s;
+        border-color .25s,
+        box-shadow .25s;
 
 }
-
 
 .search-wrapper input:focus{
 
-    border-color:
-        var(--primary);
+    border-color:var(--primary);
 
     box-shadow:
-        0 0 0 3px rgba(8,42,123,.1);
+        0 0 0 3px rgba(8,42,123,.08);
 
 }
-
-
 
 /* ==========================================
    FILTERS
 ========================================== */
-
 
 .filters{
 
@@ -334,113 +273,96 @@ body{
 
     gap:10px;
 
-    padding:
-        10px 20px 18px;
+    padding:10px 20px 18px;
 
 }
 
-
 .filters button{
 
-    padding:
-        8px 18px;
+    padding:8px 18px;
 
     border:none;
 
-    border-radius:
-        999px;
+    border-radius:999px;
 
-    background:
-        #e7e7e7;
+    background:#e7e7e7;
+
+    color:var(--text);
 
     cursor:pointer;
 
     transition:
-        .25s;
+        background .25s,
+        color .25s,
+        transform .25s;
 
 }
-
 
 .filters button:hover{
 
-    background:
-        #d7d7d7;
+    background:#d7d7d7;
 
-    transform:
-        translateY(-2px);
+    transform:translateY(-2px);
 
 }
-
 
 .filters button.active{
 
-    background:
-        var(--primary);
+    background:var(--primary);
 
-    color:white;
+    color:var(--white);
 
 }
-
-
 
 /* ==========================================
    RECIPE GRID
 ========================================== */
-
 
 #recipeList{
 
     display:grid;
 
     grid-template-columns:
-        repeat(
-            auto-fill,
-            minmax(220px,1fr)
-        );
+        repeat(auto-fill,minmax(220px,1fr));
 
     gap:20px;
 
     padding:25px;
 
     transition:
-
         opacity .25s ease,
-
         transform .25s ease;
 
 }
 
-
-
 /* ==========================================
-   RECIPE CARD
+   CARD
 ========================================== */
-
 
 .explore-card{
 
-    background:
-        var(--white);
+    background:var(--white);
 
-    border-radius:
-        var(--radius);
+    border-radius:var(--radius);
 
     overflow:hidden;
 
     cursor:pointer;
 
-    box-shadow:
-        var(--shadow);
+    box-shadow:var(--shadow);
 
     transition:
         transform .3s,
         box-shadow .3s;
 
+    opacity:0;
+
+    transform:translateY(20px);
+
     animation:
         cardFade .45s ease forwards;
 
 }
-
 
 .explore-card:hover{
 
@@ -451,16 +373,6 @@ body{
         0 16px 28px rgba(0,0,0,.12);
 
 }
-
-
-.explore-card:focus{
-
-    outline:
-        3px solid var(--primary);
-
-}
-
-
 
 .explore-card img{
 
@@ -474,29 +386,21 @@ body{
 
 }
 
-
-
 .card-content{
 
-    padding:
-        14px;
+    padding:14px;
 
 }
-
 
 .card-content h3{
 
     margin-bottom:10px;
 
-    color:
-        var(--primary);
+    font-size:1.05rem;
 
-    font-size:
-        1.05rem;
+    color:var(--primary);
 
 }
-
-
 
 .card-footer{
 
@@ -506,54 +410,41 @@ body{
 
     align-items:center;
 
+    gap:10px;
+
 }
-
-
 
 .recipe-category{
 
-    background:
-        #efefef;
+    padding:4px 10px;
 
-    border-radius:
-        20px;
+    border-radius:20px;
 
-    padding:
-        4px 10px;
+    background:#efefef;
 
-    font-size:
-        12px;
+    font-size:12px;
 
 }
 
-
-
 .recipe-id{
 
-    background:
-        var(--primary);
+    padding:4px 10px;
 
-    color:white;
+    border-radius:20px;
 
-    padding:
-        4px 10px;
+    background:var(--primary);
 
-    border-radius:
-        20px;
+    color:var(--white);
 
-    font-size:
-        12px;
+    font-size:12px;
 
     font-weight:bold;
 
 }
 
-
-
 /* ==========================================
    CARD ANIMATION
 ========================================== */
-
 
 @keyframes cardFade{
 
@@ -561,90 +452,24 @@ body{
 
         opacity:0;
 
-        transform:
-            translateY(20px);
+        transform:translateY(20px);
 
     }
-
 
     to{
 
         opacity:1;
 
-        transform:
-            translateY(0);
+        transform:translateY(0);
 
     }
 
 }
-
-
-
-/* ==========================================
-   SKELETON LOADER
-========================================== */
-
-
-.skeleton-card{
-
-    pointer-events:none;
-
-}
-
-
-.skeleton-image{
-
-    height:170px;
-
-    background:#ddd;
-
-}
-
-
-.skeleton-title{
-
-    height:18px;
-
-    width:70%;
-
-    background:#ddd;
-
-    border-radius:5px;
-
-}
-
-
-.skeleton-chip{
-
-    width:60px;
-
-    height:18px;
-
-    background:#ddd;
-
-    border-radius:20px;
-
-}
-
-
-.skeleton-footer{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    margin-top:15px;
-
-}
-
-
-
 /* ==========================================
    TABLET
 ========================================== */
 
-
-@media(max-width:992px){
+@media (max-width:992px){
 
     .about-title{
 
@@ -654,22 +479,17 @@ body{
 
 }
 
-
-
 /* ==========================================
    MOBILE
 ========================================== */
 
-
-@media(max-width:768px){
-
+@media (max-width:768px){
 
     .about-title{
 
         font-size:2rem;
 
     }
-
 
     #recipeList{
 
@@ -682,19 +502,19 @@ body{
 
     }
 
-
     .filters{
 
         flex-wrap:nowrap;
 
-        overflow-x:auto;
-
         justify-content:flex-start;
+
+        overflow-x:auto;
 
         scrollbar-width:none;
 
-    }
+        -ms-overflow-style:none;
 
+    }
 
     .filters::-webkit-scrollbar{
 
@@ -702,15 +522,13 @@ body{
 
     }
 
-
     .filters button{
-
-        white-space:nowrap;
 
         flex-shrink:0;
 
-    }
+        white-space:nowrap;
 
+    }
 
     .explore-card img{
 
@@ -718,25 +536,19 @@ body{
 
     }
 
-
 }
-
-
 
 /* ==========================================
    SMALL PHONE
 ========================================== */
 
-
-@media(max-width:480px){
-
+@media (max-width:480px){
 
     .about-title{
 
         font-size:1.6rem;
 
     }
-
 
     #recipeList{
 
@@ -746,13 +558,11 @@ body{
 
     }
 
-
     .card-content{
 
         padding:10px;
 
     }
-
 
     .card-content h3{
 
@@ -760,13 +570,13 @@ body{
 
     }
 
-
     .recipe-category,
     .recipe-id{
 
         font-size:11px;
 
-    }
+        padding:4px 8px;
 
+    }
 
 }
