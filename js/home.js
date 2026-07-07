@@ -32,17 +32,16 @@ function renderRecipes(list) {
 
             const fragment =
                 document.createDocumentFragment();
-list.forEach((recipe,index) => {
 
-    const card =
-        createRecipeCard(recipe);
+            list.forEach(recipe => {
 
-    card.style.animationDelay =
-        `${index * 40}ms`;
+                fragment.appendChild(
 
-    fragment.appendChild(card);
+                    createRecipeCard(recipe)
 
-});
+                );
+
+            });
 
             recipeList.appendChild(fragment);
 
