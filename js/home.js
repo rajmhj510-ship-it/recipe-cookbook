@@ -1,105 +1,209 @@
-document.addEventListener("DOMContentLoaded", () => {
+/* ==========================================
+   ELEMENTS
+========================================== */
 
-let recipes = [];
-let selectedCategory = "all";
-let searchQuery = "";
-
-/* ================= ELEMENTS ================= */
 const recipeList = document.getElementById("recipeList");
 const searchInput = document.getElementById("searchInput");
 const filterButtons = document.querySelectorAll(".filters button");
 
-/* ================= LOAD DATA ================= */
-fetch("./data/index.json")
-	.then(res => {
-		if (!res.ok) throw new Error("HTTP " + res.status);
-		return res.json();
-	})
-	.then(data => {
-		recipes = Array.isArray(data) ? data : [];
-		render(recipes);
-	})
-	.catch(err => {
-		console.error("JSON ERROR:", err);
-		recipeList.innerHTML =
-			"<p style='text-align:center'>Failed to load recipes</p>";
-	});
+/* ==========================================
+   STATE
+========================================== */
 
-/* ================= RENDER GRID ================= */
-function render(list) {
-	recipeList.innerHTML = "";
+let recipes = [];
 
-	if (!list.length) {
-		recipeList.innerHTML =
-			"<p style='text-align:center; grid-column:1/-1;'>No recipes found</p>";
-		return;
-	}
+let selectedCategory = "all";
+let searchQuery = "";
 
-	list.forEach(recipe => {
-		const card = document.createElement("div");
-		card.className = "explore-card";
+/* ==========================================
+   LOAD RECIPES
+========================================== */
 
-		card.innerHTML = `
-    <img src="${recipe.image}" alt="${recipe.title}">
+async function loadRecipes() {
 
-    <div class="card-content">
-        <h3>${recipe.title}</h3>
+    try {
 
-        <div class="card-footer">
-            <span class="recipe-category">${recipe.category}</span>
-            <span class="recipe-id">#${recipe.id}</span>
-        </div>
-    </div>
-`;
+        const response = await fetch("./data/index.json");
 
-		card.addEventListener("click", () => {
-			window.location.href =
-				`recipe.html?file=${encodeURIComponent(recipe.file)}`;
-		});
+        if (!response.ok)
+            throw new Error(`HTTP ${response.status}`);
 
-		recipeList.appendChild(card);
-	});
+        recipes = await response.json();
+
+        if (!Array.isArray(recipes))
+            recipes = [];
+
+        renderRecipes(recipes);
+
+    }
+
+    catch (error) {
+
+        console.error(error);
+
+        recipeList.innerHTML = `
+            <p class="error">
+                Failed to load recipes.
+            </p>
+        `;
+
+    }
+
 }
 
-/* ================= FILTER LOGIC ================= */
+loadRecipes();
+
+/* ==========================================
+   RENDER
+========================================== */
+
+function renderRecipes(list) {
+
+    recipeList.innerHTML = "";
+
+    if (!list.length) {
+
+        recipeList.innerHTML = `
+            <p class="error">
+                No recipes found.
+            </p>
+        `;
+
+        return;
+
+    }
+
+    const fragment = document.createDocumentFragment();
+
+    list.forEach(recipe => {
+
+        const card = createRecipeCard(recipe);
+
+        fragment.appendChild(card);
+
+    });
+
+    recipeList.appendChild(fragment);
+
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+function createRecipeCard(recipe) {
+
+    const card = document.createElement("article");
+
+    card.className = "explore-card";
+
+    card.innerHTML = `
+
+        <img
+            src="${recipe.image}"
+            alt="${recipe.title}"
+            loading="lazy">
+
+        <div class="card-content">
+
+            <h3>${recipe.title}</h3>
+
+            <div class="card-footer">
+
+                <span class="recipe-category">
+                    ${recipe.category}
+                </span>
+
+                <span class="recipe-id">
+                    #${recipe.id}
+                </span>
+
+            </div>
+
+        </div>
+
+    `;
+
+    card.addEventListener("click", () => {
+
+        window.location.href =
+            `recipe.html?file=${encodeURIComponent(recipe.file)}`;
+
+    });
+
+    return card;
+
+}
+
+/* ==========================================
+   FILTER
+========================================== */
+
 function applyFilters() {
 
-	let filtered = recipes;
+    const filtered = recipes.filter(recipe => {
 
-	// CATEGORY FILTER
-	if (selectedCategory !== "all") {
-		filtered = filtered.filter(r =>
-			r.category &&
-			r.category.toLowerCase() === selectedCategory.toLowerCase()
-		);
-	}
+        const categoryMatch =
 
-	// SEARCH FILTER
-	if (searchQuery.trim()) {
-		filtered = filtered.filter(r =>
-			r.title.toLowerCase().includes(searchQuery.toLowerCase())
-		);
-	}
+            selectedCategory === "all" ||
 
-	render(filtered);
+            recipe.category?.toLowerCase() ===
+            selectedCategory.toLowerCase();
+
+        const searchMatch =
+
+            !searchQuery ||
+
+            recipe.title
+                ?.toLowerCase()
+                .includes(searchQuery.toLowerCase()) ||
+
+            recipe.category
+                ?.toLowerCase()
+                .includes(searchQuery.toLowerCase());
+
+        return categoryMatch && searchMatch;
+
+    });
+
+    filtered.sort((a, b) =>
+        a.title.localeCompare(b.title)
+    );
+
+    renderRecipes(filtered);
+
 }
 
-/* ================= SEARCH ================= */
-searchInput.addEventListener("input", (e) => {
-	searchQuery = e.target.value;
-	applyFilters();
+/* ==========================================
+   SEARCH
+========================================== */
+
+searchInput?.addEventListener("input", e => {
+
+    searchQuery = e.target.value.trim();
+
+    applyFilters();
+
 });
 
-/* ================= CATEGORY BUTTONS ================= */
-filterButtons.forEach(btn => {
-	btn.addEventListener("click", () => {
+/* ==========================================
+   CATEGORY
+========================================== */
 
-		filterButtons.forEach(b => b.classList.remove("active"));
-		btn.classList.add("active");
+filterButtons.forEach(button => {
 
-		selectedCategory = btn.dataset.cat;
-		applyFilters();
-	});
-});
+    button.addEventListener("click", () => {
+
+        filterButtons.forEach(btn =>
+            btn.classList.remove("active")
+        );
+
+        button.classList.add("active");
+
+        selectedCategory = button.dataset.cat;
+
+        applyFilters();
+
+    });
 
 });
