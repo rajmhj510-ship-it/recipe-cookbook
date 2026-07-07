@@ -11,27 +11,43 @@ const filterButtons = document.querySelectorAll(".filters button");
 ========================================== */
 
 let recipes = [];
-
 let selectedCategory = "all";
 let searchQuery = "";
 
 /* ==========================================
-   LOAD RECIPES
+   LOAD ALL RECIPES
 ========================================== */
 
 async function loadRecipes() {
 
     try {
 
-        const response = await fetch("./data/index.json");
+        // Load master index
+        const indexResponse = await fetch("data/index.json");
 
-        if (!response.ok)
-            throw new Error(`HTTP ${response.status}`);
+        if (!indexResponse.ok)
+            throw new Error("Cannot load index.json");
 
-        recipes = await response.json();
+        const categories = await indexResponse.json();
 
-        if (!Array.isArray(recipes))
-            recipes = [];
+        // Load all cuisine files
+        const recipeArrays = await Promise.all(
+
+            categories.map(async category => {
+
+                const response = await fetch(category.file);
+
+                if (!response.ok)
+                    return [];
+
+                return await response.json();
+
+            })
+
+        );
+
+        // Merge recipes
+        recipes = recipeArrays.flat();
 
         renderRecipes(recipes);
 
@@ -77,9 +93,7 @@ function renderRecipes(list) {
 
     list.forEach(recipe => {
 
-        const card = createRecipeCard(recipe);
-
-        fragment.appendChild(card);
+        fragment.appendChild(createRecipeCard(recipe));
 
     });
 
@@ -88,7 +102,7 @@ function renderRecipes(list) {
 }
 
 /* ==========================================
-   CARD
+   CREATE CARD
 ========================================== */
 
 function createRecipeCard(recipe) {
@@ -147,28 +161,20 @@ function applyFilters() {
 
             selectedCategory === "all" ||
 
-            recipe.category?.toLowerCase() ===
+            recipe.category.toLowerCase() ===
             selectedCategory.toLowerCase();
 
         const searchMatch =
 
-            !searchQuery ||
+            searchQuery === "" ||
 
-            recipe.title
-                ?.toLowerCase()
-                .includes(searchQuery.toLowerCase()) ||
+            recipe.title.toLowerCase().includes(searchQuery) ||
 
-            recipe.category
-                ?.toLowerCase()
-                .includes(searchQuery.toLowerCase());
+            recipe.category.toLowerCase().includes(searchQuery);
 
         return categoryMatch && searchMatch;
 
     });
-
-    filtered.sort((a, b) =>
-        a.title.localeCompare(b.title)
-    );
 
     renderRecipes(filtered);
 
@@ -180,7 +186,7 @@ function applyFilters() {
 
 searchInput?.addEventListener("input", e => {
 
-    searchQuery = e.target.value.trim();
+    searchQuery = e.target.value.trim().toLowerCase();
 
     applyFilters();
 
