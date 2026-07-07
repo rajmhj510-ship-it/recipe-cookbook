@@ -30,22 +30,39 @@ const isRecipePage =
     window.location.pathname.includes("recipe.html");
 
 /* ==========================================
-   LOAD RECIPES
+   LOAD ALL RECIPES
 ========================================== */
 
 async function loadRecipes() {
 
     try {
 
-        const response = await fetch("data/index.json");
+        // Load master index
+        const indexResponse = await fetch("data/index.json");
 
-        if (!response.ok)
-            throw new Error(`HTTP ${response.status}`);
+        if (!indexResponse.ok)
+            throw new Error("Cannot load index.json");
 
-        recipes = await response.json();
+        const categories = await indexResponse.json();
 
-        if (!Array.isArray(recipes))
-            recipes = [];
+        // Load every cuisine file in parallel
+        const recipeArrays = await Promise.all(
+
+            categories.map(async category => {
+
+                const response = await fetch(category.file);
+
+                if (!response.ok)
+                    return [];
+
+                return await response.json();
+
+            })
+
+        );
+
+        // Merge into one array
+        recipes = recipeArrays.flat();
 
         if (!recipes.length)
             return;
@@ -61,7 +78,7 @@ async function loadRecipes() {
 
     catch (error) {
 
-        console.error("Failed to load recipes:", error);
+        console.error(error);
 
     }
 
@@ -75,8 +92,6 @@ loadRecipes();
 
 function createCarousel() {
 
-    if (!track) return;
-
     track.innerHTML = "";
 
     recipes.forEach((recipe, index) => {
@@ -84,8 +99,6 @@ function createCarousel() {
         const card = document.createElement("div");
 
         card.className = "card";
-
-        card.dataset.index = index;
 
         card.innerHTML = `
             <img
@@ -102,6 +115,7 @@ function createCarousel() {
                     `recipe.html?file=${encodeURIComponent(recipe.file)}`;
 
                 return;
+
             }
 
             updateCarousel(index);
@@ -114,16 +128,10 @@ function createCarousel() {
 
     cards = [...document.querySelectorAll(".card")];
 
-    const container =
-        document.querySelector(".carousel-container");
+    const container = document.querySelector(".carousel-container");
 
-    if (container) {
-
-        container.addEventListener("mouseenter", stopAutoSlide);
-
-        container.addEventListener("mouseleave", startAutoSlide);
-
-    }
+    container?.addEventListener("mouseenter", stopAutoSlide);
+    container?.addEventListener("mouseleave", startAutoSlide);
 
 }
 
@@ -178,40 +186,17 @@ function updateCarousel(index) {
 
     });
 
-    updateInfo();
+    const recipe = recipes[currentIndex];
+
+    titleEl.textContent = recipe.title;
+    metaEl.textContent =
+        `${recipe.time} • ${recipe.difficulty}`;
 
     setTimeout(() => {
 
         isAnimating = false;
 
     }, 700);
-
-}
-
-/* ==========================================
-   UPDATE INFO
-========================================== */
-
-function updateInfo() {
-
-    const recipe = recipes[currentIndex];
-
-    if (!recipe) return;
-
-    titleEl.style.opacity = "0";
-    metaEl.style.opacity = "0";
-
-    setTimeout(() => {
-
-        titleEl.textContent = recipe.title;
-
-        metaEl.textContent =
-            `${recipe.time} • ${recipe.difficulty}`;
-
-        titleEl.style.opacity = "1";
-        metaEl.style.opacity = "1";
-
-    }, 180);
 
 }
 
@@ -251,17 +236,10 @@ function stopAutoSlide() {
 
 document.addEventListener("visibilitychange", () => {
 
-    if (document.hidden) {
-
+    if (document.hidden)
         stopAutoSlide();
-
-    }
-
-    else {
-
+    else
         startAutoSlide();
-
-    }
 
 });
 
@@ -269,31 +247,22 @@ document.addEventListener("visibilitychange", () => {
    SCROLL
 ========================================== */
 
-if (scrollBtn && exploreSection) {
+scrollBtn?.addEventListener("click", () => {
 
-    scrollBtn.addEventListener("click", () => {
+    exploreSection?.scrollIntoView({
 
-        exploreSection.scrollIntoView({
-
-            behavior: "smooth"
-
-        });
+        behavior: "smooth"
 
     });
 
-}
-
-/* ==========================================
-   STOP DURING EXPLORE
-========================================== */
+});
 
 window.addEventListener("scroll", () => {
 
     if (!exploreSection)
         return;
 
-    const rect =
-        exploreSection.getBoundingClientRect();
+    const rect = exploreSection.getBoundingClientRect();
 
     const visible =
         rect.top < window.innerHeight &&
