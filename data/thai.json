@@ -94,8 +94,8 @@
     "id": 810,
     "title": "Hokkien Mee",
     "category": "Thai",
-    "file": "data/thai/hokkien-mee-hokkien-noodles.json",
-    "image": "assets/images/thai/hokkien-mee-hokkien-noodles.png",
+    "file": "data/thai/hokkien-mee.json",
+    "image": "assets/images/thai/hokkien-mee.png",
     "description": "Thick yellow noodles stir-fried with seafood, vegetables, and a rich savory soy-based sauce.",
     "time": "25 min",
     "difficulty": "Medium"
