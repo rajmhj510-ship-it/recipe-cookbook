@@ -44,8 +44,8 @@
     "id": 805,
     "title": "Tom Yam Kai",
     "category": "Thai",
-    "file": "data/thai/tom-yam-kai-spicy-sour-chicken-soup.json",
-    "image": "assets/images/thai/tom-yam-kai-spicy-sour-chicken-soup.png",
+    "file": "data/thai/tom-yam-kai.json",
+    "image": "assets/images/thai/tom-yam-kai.png",
     "description": "Spicy and sour Thai chicken soup infused with lemongrass, lime leaves, and fresh herbs.",
     "time": "35 min",
     "difficulty": "Medium"
