@@ -1,653 +1,318 @@
-/* ==========================================
-   RECIPE COOKBOOK - CAROUSEL.JS
-   STEP 5.1 UPDATE
-
-   Data source:
-   home.js only
-
-========================================== */
-
 (() => {
-
-"use strict";
-
 
 /* ==========================================
    ELEMENTS
 ========================================== */
 
-const track =
-    document.querySelector(".carousel-track");
+const track = document.querySelector(".carousel-track");
+const leftArrow = document.querySelector(".nav-arrow.left");
+const rightArrow = document.querySelector(".nav-arrow.right");
 
+const titleEl = document.querySelector(".hero-recipe-title");
+const metaEl = document.querySelector(".recipe-meta");
 
-const leftArrow =
-    document.querySelector(".nav-arrow.left");
-
-
-const rightArrow =
-    document.querySelector(".nav-arrow.right");
-
-
-const titleEl =
-    document.querySelector(".hero-recipe-title");
-
-
-const metaEl =
-    document.querySelector(".recipe-meta");
-
-
-const scrollBtn =
-    document.querySelector(".scroll-down");
-
-
-const exploreSection =
-    document.getElementById("explore");
-
+const scrollBtn = document.querySelector(".scroll-down");
+const exploreSection = document.getElementById("explore");
 
 /* ==========================================
    STATE
 ========================================== */
 
 let carouselRecipes = [];
-
 let carouselCards = [];
 
 let currentIndex = 0;
-
 let isAnimating = false;
 
 let autoSlide = null;
 
-let eventsAttached = false;
-
-
 const AUTO_TIME = 3000;
-
-
-const BASE_PATH =
-    window.location.pathname.includes("recipe-cookbook")
-        ? "/recipe-cookbook/"
-        : "./";
-
 
 const isRecipePage =
     window.location.pathname.includes("recipe.html");
 
-
-
 /* ==========================================
-   RECEIVE DATA FROM HOME.JS
-
-   home.js calls:
-
-   window.initCarousel(recipes)
-
+   LOAD RECIPES
 ========================================== */
 
+async function loadCarouselRecipes() {
 
-window.initCarousel = function(recipes){
+    try {
 
+        const indexResponse = await fetch("data/index.json");
 
-    if(!track)
-        return;
+        if (!indexResponse.ok)
+            throw new Error("Cannot load data/index.json");
 
+        const categories = await indexResponse.json();
 
-    if(!recipes || !recipes.length)
-        return;
+        const recipeArrays = await Promise.all(
 
+            categories.map(async category => {
 
-    carouselRecipes =
-        [...recipes];
+                const response = await fetch(category.file);
 
+                if (!response.ok)
+                    return [];
 
-    createCarousel();
+                return await response.json();
 
+            })
 
-    updateCarousel(0);
+        );
 
+        carouselRecipes = recipeArrays.flat();
 
-    if(!isRecipePage)
-        startAutoSlide();
+        if (!carouselRecipes.length)
+            return;
 
+        createCarousel();
 
-};
+        updateCarousel(0);
 
+        if (!isRecipePage)
+            startAutoSlide();
 
+    }
+
+    catch (error) {
+
+        console.error("Carousel:", error);
+
+    }
+
+}
 
 /* ==========================================
    CREATE CAROUSEL
 ========================================== */
 
+function createCarousel() {
 
-function createCarousel(){
-
-
-    if(!track)
+    if (!track)
         return;
-
 
     track.innerHTML = "";
 
+    carouselRecipes.forEach((recipe, index) => {
 
-    carouselRecipes.forEach((recipe,index)=>{
+        const card = document.createElement("div");
 
-
-        const card =
-            document.createElement("div");
-
-
-        card.className =
-            "card";
-
-
-
-        const image =
-            recipe.image
-                ? BASE_PATH + recipe.image
-                : BASE_PATH +
-                  "assets/images/logo.png";
-
-
+        card.className = "card";
 
         card.innerHTML = `
-
             <img
-
-                src="${image}"
-
+                src="${recipe.image}"
                 alt="${recipe.title}"
-
-                loading="eager"
-
-                onerror="
-                this.src='${BASE_PATH}assets/images/logo.png'
-                "
-
-            >
-
+                loading="lazy">
         `;
 
+        card.addEventListener("click", () => {
 
+            if (index === currentIndex) {
 
-        card.addEventListener(
-            "click",
-            ()=>{
+                window.location.href =
+                    `recipe.html?file=${encodeURIComponent(recipe.file)}`;
 
-
-                if(index === currentIndex){
-
-
-                    window.location.href =
-
-                        BASE_PATH +
-
-                        "recipe.html?file=" +
-
-                        encodeURIComponent(
-                            recipe.file
-                        );
-
-
-                    return;
-
-                }
-
-
-
-                updateCarousel(index);
-
+                return;
 
             }
-        );
 
+            updateCarousel(index);
+
+        });
 
         track.appendChild(card);
 
-
     });
 
-
-
-    carouselCards =
-        [
-            ...track.querySelectorAll(".card")
-        ];
-
-
-
-    attachCarouselEvents();
-
-
-}
-
-
-
-/* ==========================================
-   EVENTS
-========================================== */
-
-
-function attachCarouselEvents(){
-
-
-    if(eventsAttached)
-        return;
-
-
+    carouselCards = [...track.querySelectorAll(".card")];
 
     const container =
-        document.querySelector(
-            ".carousel-container"
-        );
-
-
+        document.querySelector(".carousel-container");
 
     container?.addEventListener(
-
         "mouseenter",
-
         stopAutoSlide
-
     );
-
-
 
     container?.addEventListener(
-
         "mouseleave",
-
         startAutoSlide
-
     );
-
-
-
-    eventsAttached = true;
-
 
 }
 
-
-
 /* ==========================================
-   UPDATE CAROUSEL
+   UPDATE
 ========================================== */
 
+function updateCarousel(index) {
 
-function updateCarousel(index){
-
-
-    if(
-
+    if (
         isAnimating ||
-
         !carouselCards.length
-
     )
-
         return;
-
-
 
     isAnimating = true;
 
-
-
     currentIndex =
-
-        (
-
-            index +
-
-            carouselRecipes.length
-
-        )
-
-        %
-
+        (index + carouselRecipes.length) %
         carouselRecipes.length;
 
+    carouselCards.forEach((card, i) => {
 
+        const offset =
+            (i - currentIndex + carouselRecipes.length) %
+            carouselRecipes.length;
 
+        card.className = "card";
 
-    carouselCards.forEach(
-        (card,i)=>{
+        switch (offset) {
 
+            case 0:
+                card.classList.add("center");
+                break;
 
-            const offset =
+            case 1:
+                card.classList.add("right-1");
+                break;
 
-                (
+            case 2:
+                card.classList.add("right-2");
+                break;
 
-                    i -
+            case carouselRecipes.length - 1:
+                card.classList.add("left-1");
+                break;
 
-                    currentIndex +
+            case carouselRecipes.length - 2:
+                card.classList.add("left-2");
+                break;
 
-                    carouselRecipes.length
-
-                )
-
-                %
-
-                carouselRecipes.length;
-
-
-
-            card.className =
-                "card";
-
-
-
-            switch(offset){
-
-
-                case 0:
-
-                    card.classList.add(
-                        "center"
-                    );
-
-                    break;
-
-
-
-                case 1:
-
-                    card.classList.add(
-                        "right-1"
-                    );
-
-                    break;
-
-
-
-                case 2:
-
-                    card.classList.add(
-                        "right-2"
-                    );
-
-                    break;
-
-
-
-                case carouselRecipes.length - 1:
-
-                    card.classList.add(
-                        "left-1"
-                    );
-
-                    break;
-
-
-
-                case carouselRecipes.length - 2:
-
-                    card.classList.add(
-                        "left-2"
-                    );
-
-                    break;
-
-
-
-                default:
-
-
-                    card.classList.add(
-                        "hidden"
-                    );
-
-
-            }
-
+            default:
+                card.classList.add("hidden");
 
         }
 
-    );
+    });
 
+    const recipe = carouselRecipes[currentIndex];
 
+    if (titleEl)
+        titleEl.textContent = recipe.title;
 
-    const recipe =
-        carouselRecipes[currentIndex];
-
-
-
-    if(titleEl)
-
-        titleEl.textContent =
-            recipe.title;
-
-
-
-    if(metaEl)
-
+    if (metaEl)
         metaEl.textContent =
-
             `${recipe.time} • ${recipe.difficulty}`;
 
-
-
-    setTimeout(()=>{
+    setTimeout(() => {
 
         isAnimating = false;
 
-    },700);
-
-
+    }, 700);
 
 }
-
-
 
 /* ==========================================
    AUTO SLIDE
 ========================================== */
 
+function startAutoSlide() {
 
-function startAutoSlide(){
-
-
-    if(isRecipePage)
+    if (isRecipePage)
         return;
-
-
 
     stopAutoSlide();
 
+    autoSlide = setInterval(() => {
 
+        updateCarousel(currentIndex + 1);
 
-    autoSlide =
-
-        setInterval(()=>{
-
-
-            updateCarousel(
-                currentIndex + 1
-            );
-
-
-        },AUTO_TIME);
-
+    }, AUTO_TIME);
 
 }
 
+function stopAutoSlide() {
 
-
-function stopAutoSlide(){
-
-
-    if(!autoSlide)
+    if (!autoSlide)
         return;
-
-
 
     clearInterval(autoSlide);
 
-
     autoSlide = null;
-
 
 }
 
-
-
 /* ==========================================
-   VISIBILITY
+   EVENTS
 ========================================== */
 
+document.addEventListener("visibilitychange", () => {
 
-document.addEventListener(
-    "visibilitychange",
-    ()=>{
+    if (document.hidden)
+        stopAutoSlide();
+    else
+        startAutoSlide();
 
+});
 
-        if(document.hidden)
+scrollBtn?.addEventListener("click", () => {
 
-            stopAutoSlide();
+    exploreSection?.scrollIntoView({
 
+        behavior: "smooth"
 
-        else
+    });
 
-            startAutoSlide();
+});
 
+window.addEventListener("scroll", () => {
 
-    }
-);
+    if (!exploreSection)
+        return;
 
+    const rect =
+        exploreSection.getBoundingClientRect();
 
+    const visible =
+        rect.top < window.innerHeight &&
+        rect.bottom > 0;
 
-/* ==========================================
-   SCROLL BUTTON
-========================================== */
+    if (visible)
+        stopAutoSlide();
+    else
+        startAutoSlide();
 
+});
 
-scrollBtn?.addEventListener(
-    "click",
-    ()=>{
+leftArrow?.addEventListener("click", () => {
 
+    updateCarousel(currentIndex - 1);
 
-        exploreSection?.scrollIntoView({
+});
 
-            behavior:"smooth"
+rightArrow?.addEventListener("click", () => {
 
-        });
+    updateCarousel(currentIndex + 1);
 
+});
 
-    }
-);
+document.addEventListener("keydown", e => {
 
+    if (e.key === "ArrowLeft")
+        updateCarousel(currentIndex - 1);
 
+    if (e.key === "ArrowRight")
+        updateCarousel(currentIndex + 1);
 
-/* ==========================================
-   STOP WHEN EXPLORE VISIBLE
-========================================== */
-
-
-window.addEventListener(
-    "scroll",
-    ()=>{
-
-
-        if(!exploreSection)
-            return;
-
-
-
-        const rect =
-
-            exploreSection.getBoundingClientRect();
-
-
-
-        const visible =
-
-            rect.top < window.innerHeight &&
-
-            rect.bottom > 0;
-
-
-
-        if(visible)
-
-            stopAutoSlide();
-
-
-        else
-
-            startAutoSlide();
-
-
-
-    }
-);
-
-
-
+});
 
 /* ==========================================
-   ARROWS
+   START
 ========================================== */
 
-
-leftArrow?.addEventListener(
-    "click",
-    ()=>{
-
-
-        updateCarousel(
-            currentIndex - 1
-        );
-
-
-    }
-);
-
-
-
-rightArrow?.addEventListener(
-    "click",
-    ()=>{
-
-
-        updateCarousel(
-            currentIndex + 1
-        );
-
-
-    }
-);
-
-
-
-
-/* ==========================================
-   KEYBOARD
-========================================== */
-
-
-document.addEventListener(
-    "keydown",
-    e=>{
-
-
-        if(e.key === "ArrowLeft")
-
-            updateCarousel(
-                currentIndex - 1
-            );
-
-
-
-        if(e.key === "ArrowRight")
-
-            updateCarousel(
-                currentIndex + 1
-            );
-
-
-    }
-);
-
-
+loadCarouselRecipes();
 
 })();
