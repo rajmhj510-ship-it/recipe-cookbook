@@ -1,482 +1,794 @@
-/* ==========================================
-   GLOBAL
-========================================== */
+```css
+/* ==========================================================
+   GLOBAL VARIABLES
+========================================================== */
 
-:root{
-    --primary:#082a7b;
-    --primary-light:#eef3ff;
-    --background:#f6f7fb;
-    --white:#ffffff;
-    --text:#222;
-    --text-light:#666;
+:root {
 
-    --warning:#ffb300;
-    --warning-bg:#fff8e6;
+    --primary: #082a7b;
+    --primary-dark: #061d57;
 
-    --radius:16px;
+    --primary-soft: #eef3ff;
 
-    --shadow:0 6px 18px rgba(0,0,0,.08);
+    --background: #f6f7fb;
+    --surface: #ffffff;
 
-    --transition:.3s ease;
+    --text: #222222;
+    --text-muted: #666666;
+
+    --border: #e7e7e7;
+
+    --warning: #ffb300;
+    --warning-bg: #fff8e6;
+
+    --radius: 16px;
+
+    --shadow:
+        0 8px 25px rgba(0,0,0,.08);
+
+    --transition:
+        .3s ease;
+
 }
 
-*{
+
+
+/* ==========================================================
+   RESET
+========================================================== */
+
+* {
+
     margin:0;
     padding:0;
+
     box-sizing:border-box;
+
 }
 
-html{
+
+
+html {
+
     scroll-behavior:smooth;
-}
-
-body{
-    font-family:Arial,sans-serif;
-    background:var(--background);
-    color:var(--text);
-    line-height:1.6;
-}
-
-/* ==========================================
-   BACK BUTTON
-========================================== */
-
-.back-btn{
-
-    position:fixed;
-
-    top:20px;
-    left:20px;
-
-    z-index:1000;
-
-    padding:10px 18px;
-
-    border:none;
-    border-radius:999px;
-
-    background:rgba(255,255,255,.95);
-
-    box-shadow:var(--shadow);
-
-    cursor:pointer;
-
-    font-weight:600;
-
-    transition:var(--transition);
 
 }
 
-.back-btn:hover{
 
-    transform:translateY(-2px);
 
-}
+body {
 
-/* ==========================================
-   HERO
-========================================== */
-
-#hero{
-
-    height:55vh;
-
-    min-height:360px;
-
-    background-size:cover;
-
-    background-position:center;
-
-    position:relative;
-
-}
-
-.hero-overlay{
-
-    position:absolute;
-
-    inset:0;
+    font-family:
+        "Inter",
+        Arial,
+        sans-serif;
 
     background:
-    linear-gradient(
-        to top,
-        rgba(0,0,0,.8),
-        rgba(0,0,0,.15)
-    );
+        var(--background);
 
-    display:flex;
+    color:
+        var(--text);
 
-    align-items:flex-end;
+    line-height:
+        1.6;
 
 }
 
-.hero-content{
 
-    width:100%;
-    max-width:1200px;
 
-    margin:auto;
+/* ==========================================================
+   BACK BUTTON
+========================================================== */
 
-    padding:40px;
+.back-btn {
 
-    color:white;
+    position:
+        fixed;
 
-}
 
-.hero-content h1{
+    top:
+        20px;
 
-    font-size:3rem;
 
-    font-weight:900;
+    left:
+        20px;
 
-    margin-bottom:10px;
 
-}
+    z-index:
+        1000;
 
-.recipe-category{
 
-    display:inline-block;
+    display:
+        flex;
 
-    padding:6px 14px;
 
-    margin-bottom:15px;
+    align-items:
+        center;
 
-    border-radius:30px;
 
-    background:rgba(255,255,255,.2);
+    gap:
+        8px;
 
-    backdrop-filter:blur(6px);
 
-}
+    padding:
+        10px 18px;
 
-.recipe-description{
 
-    max-width:760px;
+    border:
+        none;
 
-    margin-top:15px;
 
-    padding-left:14px;
+    border-radius:
+        999px;
 
-    border-left:4px solid rgba(255,255,255,.45);
 
-    color:rgba(255,255,255,.9);
+    background:
+        rgba(255,255,255,.95);
 
-    line-height:1.8;
 
-}
+    box-shadow:
+        var(--shadow);
 
-.recipe-meta{
 
-    display:flex;
+    cursor:
+        pointer;
 
-    gap:20px;
 
-    margin-top:20px;
+    font-weight:
+        600;
 
-    font-size:.95rem;
 
-}
-
-/* ==========================================
-   MAIN LAYOUT
-========================================== */
-
-.recipe-layout{
-
-    max-width:1200px;
-
-    margin:auto;
-
-    padding:30px;
-
-    display:grid;
-
-    grid-template-columns:320px 1fr;
-
-    gap:30px;
+    transition:
+        var(--transition);
 
 }
 
-/* ==========================================
-   INGREDIENTS
-========================================== */
 
-.ingredients-panel{
 
-    position:sticky;
+.back-btn:hover {
 
-    top:20px;
-
-    align-self:start;
+    transform:
+        translateY(-3px);
 
 }
 
-.ingredients-panel ul{
 
-    list-style:none;
 
-}
+.back-btn:focus-visible {
 
-.ingredients-panel li{
-
-    padding:10px 0;
-
-    border-bottom:1px solid #eee;
+    outline:
+        3px solid rgba(8,42,123,.3);
 
 }
 
-/* ==========================================
-   CONTENT
-========================================== */
 
-.instructions-panel{
 
-    display:flex;
+/* ==========================================================
+   HERO SECTION
+========================================================== */
 
-    flex-direction:column;
+#hero {
 
-    gap:25px;
+    height:
+        55vh;
 
-}
 
-/* ==========================================
-   SECTION
-========================================== */
+    min-height:
+        360px;
 
-.section{
 
-    background:var(--white);
+    position:
+        relative;
 
-    border-radius:var(--radius);
 
-    padding:22px;
+    background-size:
+        cover;
 
-    box-shadow:var(--shadow);
 
-}
-
-.section h3{
-
-    color:var(--primary);
-
-    margin-bottom:18px;
-
-    font-size:1.5rem;
-
-    border-bottom:2px solid #edf2f7;
-
-    padding-bottom:10px;
+    background-position:
+        center;
 
 }
 
-.section h4{
 
-    color:var(--primary);
 
-    margin:18px 0 10px;
+.hero-overlay {
 
-}
+    position:
+        absolute;
 
-/* ==========================================
-   STEP
-========================================== */
 
-.step{
+    inset:
+        0;
 
-    background:#fafbff;
 
-    border-left:5px solid var(--primary);
+    display:
+        flex;
 
-    padding:16px;
 
-    margin-bottom:14px;
+    align-items:
+        flex-end;
 
-    border-radius:10px;
 
-    cursor:pointer;
-
-    transition:var(--transition);
-
-}
-
-.step:hover{
-
-    background:var(--primary-light);
-
-    transform:translateX(5px);
+    background:
+        linear-gradient(
+            to top,
+            rgba(0,0,0,.85),
+            rgba(0,0,0,.15)
+        );
 
 }
 
-.step.done{
 
-    opacity:.55;
 
-    text-decoration:line-through;
+.hero-content {
+
+    width:
+        100%;
+
+
+    max-width:
+        1200px;
+
+
+    margin:
+        auto;
+
+
+    padding:
+        45px 40px;
+
+
+    color:
+        white;
 
 }
 
-/* ==========================================
+
+
+.hero-content h1 {
+
+    font-size:
+        clamp(2rem,5vw,3.2rem);
+
+
+    font-weight:
+        900;
+
+
+    line-height:
+        1.2;
+
+
+    margin-bottom:
+        12px;
+
+}
+
+
+
+/* Category Badge */
+
+.recipe-category {
+
+    display:
+        inline-flex;
+
+
+    align-items:
+        center;
+
+
+    padding:
+        6px 15px;
+
+
+    margin-bottom:
+        15px;
+
+
+    border-radius:
+        999px;
+
+
+    background:
+        rgba(255,255,255,.18);
+
+
+    backdrop-filter:
+        blur(8px);
+
+
+    font-size:
+        .9rem;
+
+}
+
+
+
+/* Description */
+
+.recipe-description {
+
+    max-width:
+        760px;
+
+
+    margin-top:
+        15px;
+
+
+    padding-left:
+        15px;
+
+
+    border-left:
+        4px solid rgba(255,255,255,.45);
+
+
+    color:
+        rgba(255,255,255,.9);
+
+}
+
+
+
+/* Meta Information */
+
+.recipe-meta {
+
+    display:
+        flex;
+
+
+    flex-wrap:
+        wrap;
+
+
+    gap:
+        20px;
+
+
+    margin-top:
+        22px;
+
+
+    font-size:
+        .95rem;
+
+}
+
+
+
+/* ==========================================================
+   MAIN RECIPE LAYOUT
+========================================================== */
+
+.recipe-layout {
+
+    max-width:
+        1200px;
+
+
+    margin:
+        auto;
+
+
+    padding:
+        35px 30px;
+
+
+    display:
+        grid;
+
+
+    grid-template-columns:
+        320px 1fr;
+
+
+    gap:
+        35px;
+
+}
+
+
+
+/* ==========================================================
+   INGREDIENT PANEL
+========================================================== */
+
+.ingredients-panel {
+
+    position:
+        sticky;
+
+
+    top:
+        20px;
+
+
+    align-self:
+        start;
+
+}
+
+
+
+.ingredients-panel ul {
+
+    list-style:
+        none;
+
+}
+
+
+
+.ingredients-panel li {
+
+    padding:
+        11px 0;
+
+
+    border-bottom:
+        1px solid var(--border);
+
+}
+
+
+
+/* ==========================================================
+   CONTENT AREA
+========================================================== */
+
+.instructions-panel {
+
+    display:
+        flex;
+
+
+    flex-direction:
+        column;
+
+
+    gap:
+        25px;
+
+}
+
+
+
+/* ==========================================================
+   CONTENT CARD
+========================================================== */
+
+.section {
+
+    background:
+        var(--surface);
+
+
+    border-radius:
+        var(--radius);
+
+
+    padding:
+        24px;
+
+
+    box-shadow:
+        var(--shadow);
+
+}
+
+
+
+.section h3 {
+
+    color:
+        var(--primary);
+
+
+    font-size:
+        1.5rem;
+
+
+    margin-bottom:
+        18px;
+
+
+    padding-bottom:
+        10px;
+
+
+    border-bottom:
+        2px solid #edf2f7;
+
+}
+
+
+
+.section h4 {
+
+    color:
+        var(--primary);
+
+
+    margin:
+        18px 0 10px;
+
+}
+
+
+
+/* ==========================================================
+   COOKING STEPS
+========================================================== */
+
+.step {
+
+    background:
+        #fafbff;
+
+
+    border-left:
+        5px solid var(--primary);
+
+
+    padding:
+        16px;
+
+
+    margin-bottom:
+        14px;
+
+
+    border-radius:
+        10px;
+
+
+    cursor:
+        pointer;
+
+
+    transition:
+        var(--transition);
+
+}
+
+
+
+.step:hover {
+
+    background:
+        var(--primary-soft);
+
+
+    transform:
+        translateX(6px);
+
+}
+
+
+
+.step.done {
+
+    opacity:
+        .55;
+
+
+    text-decoration:
+        line-through;
+
+}
+
+
+
+/* ==========================================================
    SERVING SUGGESTIONS
-========================================== */
+========================================================== */
 
-#servingsuggestions ul{
+#servingsuggestions ul {
 
-    padding-left:20px;
-
-}
-
-#servingsuggestions li{
-
-    margin-bottom:8px;
+    padding-left:
+        20px;
 
 }
 
-/* ==========================================
+
+
+#servingsuggestions li {
+
+    margin-bottom:
+        8px;
+
+}
+
+
+
+/* ==========================================================
    CHEF TIPS
-========================================== */
+========================================================== */
 
-#tips .section{
+#tips .section {
 
-    background:var(--warning-bg);
+    background:
+        var(--warning-bg);
 
-    border-left:6px solid var(--warning);
 
-}
-
-#tips ul{
-
-    padding-left:20px;
+    border-left:
+        6px solid var(--warning);
 
 }
 
-#tips li{
 
-    margin-bottom:8px;
+
+#tips ul {
+
+    padding-left:
+        20px;
 
 }
 
-/* ==========================================
+
+
+#tips li {
+
+    margin-bottom:
+        8px;
+
+}
+
+
+
+/* ==========================================================
    TABLET
-========================================== */
+========================================================== */
 
-@media(max-width:992px){
+@media(max-width:992px) {
 
-    .recipe-layout{
 
-        grid-template-columns:1fr;
+    .recipe-layout {
+
+        grid-template-columns:
+            1fr;
 
     }
 
-    .ingredients-panel{
 
-        position:static;
+    .ingredients-panel {
+
+        position:
+            static;
 
     }
 
 }
 
-/* ==========================================
+
+
+/* ==========================================================
    MOBILE
-========================================== */
+========================================================== */
 
-@media(max-width:768px){
+@media(max-width:768px) {
 
-    #hero{
 
-        min-height:300px;
+    #hero {
 
-        height:50vh;
+        height:
+            50vh;
 
-    }
 
-    .hero-content{
-
-        padding:25px;
+        min-height:
+            300px;
 
     }
 
-    .hero-content h1{
 
-        font-size:2rem;
 
-    }
+    .hero-content {
 
-    .recipe-description{
-
-        font-size:.95rem;
+        padding:
+            25px;
 
     }
 
-    .recipe-layout{
 
-        padding:18px;
 
-        gap:20px;
+    .recipe-layout {
 
-    }
+        padding:
+            20px;
 
-    .section{
 
-        padding:18px;
-
-    }
-
-    .recipe-meta{
-
-        flex-wrap:wrap;
-
-        gap:10px;
+        gap:
+            20px;
 
     }
 
-}
 
-/* ==========================================
-   SMALL PHONE
-========================================== */
 
-@media(max-width:480px){
+    .section {
 
-    .back-btn{
-
-        top:12px;
-
-        left:12px;
-
-        padding:8px 14px;
-
-        font-size:14px;
+        padding:
+            18px;
 
     }
 
-    .hero-content{
 
-        padding:18px;
 
-    }
+    .recipe-meta {
 
-    .hero-content h1{
-
-        font-size:1.6rem;
-
-    }
-
-    .recipe-description{
-
-        font-size:.9rem;
-
-    }
-
-    .recipe-layout{
-
-        padding:12px;
-
-    }
-
-    .section{
-
-        padding:15px;
+        gap:
+            10px;
 
     }
 
 }
+
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media(max-width:480px) {
+
+
+    .back-btn {
+
+        top:
+            12px;
+
+
+        left:
+            12px;
+
+
+        padding:
+            8px 14px;
+
+
+        font-size:
+            14px;
+
+    }
+
+
+
+    .hero-content {
+
+        padding:
+            18px;
+
+    }
+
+
+
+    .hero-content h1 {
+
+        font-size:
+            1.6rem;
+
+    }
+
+
+
+    .recipe-layout {
+
+        padding:
+            12px;
+
+    }
+
+
+
+    .section {
+
+        padding:
+            15px;
+
+    }
+
+}
+```
