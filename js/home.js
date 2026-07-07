@@ -289,38 +289,58 @@ function renderRecipes(list) {
     if (!recipeList)
         return;
 
-    recipeList.innerHTML = "";
+    recipeList.style.opacity = "0";
 
-    if (!list.length) {
+    recipeList.style.transform =
+        "translateY(12px)";
 
-        recipeList.innerHTML = `
+    setTimeout(() => {
 
-            <p class="error">
+        recipeList.innerHTML = "";
 
-                No recipes found.
+        if (!list.length) {
 
-            </p>
+            recipeList.innerHTML = `
 
-        `;
+                <p class="error">
 
-        return;
+                    No recipes found.
 
-    }
+                </p>
 
-    const fragment =
-        document.createDocumentFragment();
+            `;
 
-    list.forEach(recipe => {
+        }
 
-        fragment.appendChild(
+        else {
 
-            createRecipeCard(recipe)
+            const fragment =
+                document.createDocumentFragment();
 
-        );
+            list.forEach(recipe => {
 
-    });
+                fragment.appendChild(
 
-    recipeList.appendChild(fragment);
+                    createRecipeCard(recipe)
+
+                );
+
+            });
+
+            recipeList.appendChild(fragment);
+
+        }
+
+        requestAnimationFrame(() => {
+
+            recipeList.style.opacity = "1";
+
+            recipeList.style.transform =
+                "translateY(0)";
+
+        });
+
+    }, 150);
 
 }
    /* ==========================================
