@@ -1,94 +1,113 @@
 {
   "id": 814,
   "title": "Gai Pad Khing – Thai Ginger Chicken Stir-Fry",
+  "description": "Gai Pad Khing is a classic Thai stir-fry known for its bold ginger aroma, tender chicken, earthy mushrooms, and perfectly balanced savory sauce. Quick-cooked over high heat, this dish combines fresh ginger warmth, umami-rich seasonings, and crisp vegetables for an authentic Thai wok experience.",
   "category": "Thai",
-  "description": "",
-  "image": "assets/images/thai/gai-pad-khing.png",
   "time": "20 min",
   "difficulty": "Easy",
-  "servings": "2–3 portions",
+  "image": "assets/images/thai/gai-pad-khing.png",
+
   "ingredients": [
     {
-      "section": "Protein & Vegetables",
+      "title": "For the Chicken & Vegetables",
       "items": [
-        "300 g (10 oz) chicken breast or thigh, thinly sliced",
-        "100 g (3.5 oz) fresh ginger, julienned into fine matchsticks",
-        "1 medium yellow onion, sliced",
-        "150 g (5 oz) straw mushrooms or oyster mushrooms, halved",
-        "1 small red chili (prik chee faa), sliced thinly",
-        "2 spring onions, cut into 1-inch pieces",
-        "1 handful wood ear mushrooms (optional, soaked if dried)"
+        "Chicken breast or thigh – 300 g, thinly sliced",
+        "Fresh ginger – 100 g, julienned into fine matchsticks",
+        "Yellow onion – 1 medium, sliced",
+        "Straw mushrooms or oyster mushrooms – 150 g, halved",
+        "Red chili (prik chee faa) – 1 small, thinly sliced",
+        "Spring onions – 2, cut into 1-inch pieces",
+        "Wood ear mushrooms – 1 handful, soaked if dried (optional)"
       ]
     },
     {
-      "section": "Sauce Mix",
+      "title": "For the Sauce Mix",
       "items": [
-        "1 ½ tbsp oyster sauce",
-        "1 tbsp light soy sauce",
-        "½ tbsp fish sauce",
-        "½ tsp dark soy sauce (for color)",
-        "1 tsp sugar (preferably palm sugar)",
-        "2 tbsp chicken stock or water"
+        "Oyster sauce – 1½ tbsp",
+        "Light soy sauce – 1 tbsp",
+        "Fish sauce – ½ tbsp",
+        "Dark soy sauce – ½ tsp (for color)",
+        "Palm sugar or regular sugar – 1 tsp",
+        "Chicken stock or water – 2 tbsp"
       ]
     },
     {
-      "section": "Aromatics & Cooking",
+      "title": "For Aromatics & Cooking",
       "items": [
-        "2 cloves garlic, finely chopped",
-        "2 tbsp neutral oil (rice bran, soybean, or canola)",
-        "White pepper, freshly ground, to finish"
+        "Garlic – 2 cloves, finely chopped",
+        "Neutral cooking oil – 2 tbsp (rice bran, soybean, or canola)",
+        "Freshly ground white pepper – to finish"
       ]
     }
   ],
-  "instructions": [
+
+  "instruction": [
     {
-      "title": "1. Prepare Sauce",
+      "title": "Step 1 – Preparing the Sauce",
       "steps": [
-        "In a small bowl, combine oyster sauce, light soy, fish sauce, dark soy, sugar, and chicken stock. Stir until sugar dissolves."
+        "Combine oyster sauce, light soy sauce, fish sauce, dark soy sauce, sugar, and chicken stock in a small bowl.",
+        "Stir well until the sugar dissolves completely. Set aside."
       ]
     },
     {
-      "title": "2. Heat the Wok",
+      "title": "Step 2 – Heating the Wok",
       "steps": [
-        "Place a well-seasoned wok over high heat until lightly smoking. Add oil and swirl to coat."
+        "Heat a seasoned wok over high heat until lightly smoking.",
+        "Add oil and swirl it around the wok to coat the surface evenly."
       ]
     },
     {
-      "title": "3. Fry Aromatics",
+      "title": "Step 3 – Cooking the Aromatics & Chicken",
       "steps": [
-        "Add garlic and stir-fry briefly (5–7 seconds) until fragrant, not browned. Immediately add chicken slices. Stir-fry until chicken is about 70% cooked."
+        "Add chopped garlic and stir-fry for 5–7 seconds until fragrant without browning.",
+        "Add sliced chicken and stir-fry quickly until the chicken is about 70% cooked."
       ]
     },
     {
-      "title": "4. Add Vegetables",
+      "title": "Step 4 – Adding Ginger & Vegetables",
       "steps": [
-        "Toss in onion, mushrooms, and half the ginger. Stir-fry quickly, keeping wok heat high for wok hei (charred aroma)."
+        "Add onion, mushrooms, and half of the julienned ginger.",
+        "Stir-fry over high heat, allowing the vegetables to develop a light char while maintaining their texture."
       ]
     },
     {
-      "title": "5. Sauce It",
+      "title": "Step 5 – Building the Flavor",
       "steps": [
-        "Add the premixed sauce. Toss everything together until chicken is fully cooked and sauce lightly coats ingredients."
+        "Pour in the prepared sauce mixture.",
+        "Toss everything together until the chicken is fully cooked and the sauce lightly coats all ingredients."
       ]
     },
     {
-      "title": "6. Finish with Fresh Ginger & Onion Greens",
+      "title": "Step 6 – Fresh Ginger Finish",
       "steps": [
-        "Add the remaining ginger and spring onions. Toss briefly (10–15 seconds) to keep them crisp and aromatic."
+        "Add the remaining ginger, spring onions, and sliced chili.",
+        "Toss briefly for 10–15 seconds to preserve freshness and aroma."
       ]
     },
     {
-      "title": "7. Plate & Serve",
+      "title": "Step 7 – Serving",
       "steps": [
-        "Transfer immediately to a hot plate. Sprinkle with white pepper before serving."
+        "Transfer immediately to a serving plate.",
+        "Finish with freshly ground white pepper and serve hot."
       ]
     }
   ],
-  "tips": [
-    "Knife Work: Cut ginger into fine, uniform matchsticks — not chunks — for a refined texture.",
-    "Layering Ginger: Cook half early for mellow warmth, add half at the end for fresh bite.",
-    "High Heat: True Thai wok technique relies on fast, high-heat cooking — avoid overcrowding.",
-    "Protein Tenderness: For extra succulence, marinate chicken with ½ tsp cornstarch and a dash of light soy for 10 minutes before cooking.",
-    "Balance: Taste the sauce before cooking; adjust fish sauce (saltiness) and sugar (balance)."
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve traditionally with steamed jasmine rice to absorb the savory ginger sauce.",
+      "Pair with Thai cucumber salad or a light soup for a balanced meal.",
+      "Serve immediately after cooking to enjoy the fresh ginger aroma and wok-fired texture."
+    ]
+  },
+
+  "chefTips": [
+    "Slice ginger into thin, even matchsticks rather than chunks for the best texture and flavor release.",
+    "Add ginger in two stages — early cooking creates deep warmth, while late addition preserves freshness and spice.",
+    "Maintain high heat throughout cooking to achieve authentic Thai wok hei (smoky wok aroma).",
+    "Avoid overcrowding the wok, as excess moisture will steam the ingredients instead of stir-frying them.",
+    "For extra tender chicken, marinate with a little cornstarch and light soy sauce for 10 minutes before cooking.",
+    "Balance the sauce carefully — fish sauce adds saltiness, while sugar rounds out the flavors."
   ]
 }
