@@ -1,106 +1,121 @@
 {
   "id": 801,
   "title": "Pad Thai",
+  "description": "Pad Thai is Thailand’s iconic stir-fried noodle dish, known for its perfect balance of sweet, sour, salty, and savory flavors. Made with chewy rice noodles, tamarind-based sauce, shrimp, tofu, eggs, fresh vegetables, and crushed peanuts, this classic street-food favorite delivers the signature flavors of Thai cuisine in every bite.",
   "category": "Thai",
-  "time": "",
-  "difficulty": "",
+  "time": "35 min",
+  "difficulty": "Medium",
   "image": "assets/images/thai/pad-thai.png",
 
   "ingredients": [
     {
-      "title": "For the sauce",
+      "title": "For the Pad Thai Sauce",
       "items": [
-        "3 tbsp tamarind paste",
-        "3 tbsp fish sauce",
-        "2 tbsp palm sugar (or brown sugar)",
-        "1 tbsp lime juice",
-        "1 tsp soy sauce (optional, for color and umami)"
+        "Tamarind paste – 3 tbsp",
+        "Fish sauce – 3 tbsp",
+        "Palm sugar or brown sugar – 2 tbsp",
+        "Lime juice – 1 tbsp",
+        "Soy sauce – 1 tsp (optional, for extra color and umami)"
       ]
     },
     {
       "title": "For the Pad Thai",
       "items": [
-        "200g (7 oz) rice noodles (medium-width flat noodles)",
-        "2 tbsp vegetable oil (peanut or canola works well)",
-        "2 cloves garlic, minced",
-        "2 shallots, thinly sliced",
-        "150g (5 oz) shrimp, peeled and deveined (or chicken/tofu)",
-        "2 eggs, lightly beaten",
-        "100g (3.5 oz) firm tofu, cut into small cubes",
-        "1 cup bean sprouts",
-        "3 spring onions, chopped",
-        "1/4 cup roasted peanuts, crushed",
-        "Fresh cilantro, chopped (for garnish)",
-        "Lime wedges (for serving)",
-        "Red chili flakes (optional)"
+        "Rice noodles – 200 g (7 oz), medium-width flat noodles",
+        "Vegetable oil – 2 tbsp (peanut or canola oil preferred)",
+        "Garlic – 2 cloves, minced",
+        "Shallots – 2, thinly sliced",
+        "Shrimp – 150 g (5 oz), peeled and deveined (or chicken/tofu)",
+        "Eggs – 2, lightly beaten",
+        "Firm tofu – 100 g (3.5 oz), cut into small cubes",
+        "Bean sprouts – 1 cup",
+        "Spring onions – 3, chopped",
+        "Roasted peanuts – ¼ cup, crushed",
+        "Fresh cilantro – chopped, for garnish",
+        "Lime wedges – for serving",
+        "Red chili flakes – optional"
       ]
     }
   ],
 
   "instruction": [
     {
-      "title": "Prepare the noodles",
+      "title": "Step 1 – Preparing the Rice Noodles",
       "steps": [
-        "Soak rice noodles in warm water for about 30 minutes until pliable but still firm.",
-        "Drain and set aside."
+        "Soak rice noodles in warm water for about 30 minutes until flexible but still slightly firm.",
+        "Drain well and set aside before stir-frying."
       ]
     },
     {
-      "title": "Make the sauce",
+      "title": "Step 2 – Making the Pad Thai Sauce",
       "steps": [
-        "Mix tamarind paste, fish sauce, palm sugar, lime juice, and soy sauce in a bowl.",
-        "Stir until sugar dissolves and balance sweet, sour, and salty flavors."
+        "Combine tamarind paste, fish sauce, palm sugar, lime juice, and soy sauce in a bowl.",
+        "Stir until the sugar dissolves completely.",
+        "Taste and adjust to achieve a balanced sweet, sour, and salty flavor."
       ]
     },
     {
-      "title": "Cook the protein",
+      "title": "Step 3 – Cooking the Protein",
       "steps": [
-        "Heat 1 tbsp oil in a wok or skillet over medium-high heat.",
-        "Stir-fry tofu and shrimp until cooked, then remove and set aside."
+        "Heat 1 tablespoon of oil in a wok over medium-high heat.",
+        "Add tofu and shrimp, then stir-fry until cooked through.",
+        "Remove from the wok and set aside."
       ]
     },
     {
-      "title": "Sauté aromatics",
+      "title": "Step 4 – Sautéing Aromatics",
       "steps": [
-        "Add remaining oil, then garlic and shallots.",
-        "Stir-fry for about 30 seconds until fragrant."
+        "Add the remaining oil to the wok.",
+        "Add garlic and shallots, then stir-fry for about 30 seconds until fragrant."
       ]
     },
     {
-      "title": "Add eggs",
+      "title": "Step 5 – Cooking the Eggs",
       "steps": [
-        "Push aromatics to the side and pour in beaten eggs.",
-        "Scramble gently until just set."
+        "Push the aromatics to one side of the wok.",
+        "Pour in beaten eggs and scramble gently until just set."
       ]
     },
     {
-      "title": "Add noodles and sauce",
+      "title": "Step 6 – Adding Noodles & Sauce",
       "steps": [
-        "Add drained noodles and pour sauce over them.",
-        "Toss quickly to coat evenly."
+        "Add drained rice noodles to the wok.",
+        "Pour the prepared sauce over the noodles.",
+        "Toss quickly until the noodles are evenly coated and absorb the sauce."
       ]
     },
     {
-      "title": "Combine everything",
+      "title": "Step 7 – Combining the Dish",
       "steps": [
         "Return shrimp and tofu to the wok.",
         "Add bean sprouts and spring onions.",
-        "Toss everything together for 1–2 minutes until heated through."
+        "Stir-fry everything together for 1–2 minutes until heated through while keeping the vegetables fresh."
       ]
     },
     {
-      "title": "Serve",
+      "title": "Step 8 – Serving",
       "steps": [
-        "Plate Pad Thai and top with crushed peanuts, cilantro, and chili flakes.",
-        "Serve with lime wedges."
+        "Transfer Pad Thai to serving plates.",
+        "Top with crushed peanuts, cilantro, and chili flakes.",
+        "Serve immediately with lime wedges on the side."
       ]
     }
   ],
 
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with extra crushed peanuts and lime wedges for a traditional Thai presentation.",
+      "Add chili flakes or fresh chili for guests who prefer extra heat.",
+      "Pair with Thai iced tea or a refreshing cucumber salad for a complete meal."
+    ]
+  },
+
   "chefTips": [
-    "Use fresh tamarind paste for authentic flavor.",
-    "Balance sweet, sour, and salty carefully.",
-    "Do not over-soak noodles; they should stay slightly firm.",
-    "Cook quickly on high heat for best wok flavor (wok hei)."
+    "Use good-quality tamarind paste for authentic Pad Thai flavor and natural acidity.",
+    "Balance the sauce carefully — sweetness from palm sugar, sourness from tamarind and lime, and saltiness from fish sauce should work together.",
+    "Avoid over-soaking noodles; slightly firm noodles absorb sauce better and maintain the ideal chewy texture.",
+    "Cook quickly over high heat to create authentic wok hei and prevent soggy noodles.",
+    "Prepare all ingredients before cooking because Pad Thai comes together very quickly in the wok."
   ]
 }
