@@ -39,15 +39,69 @@ const BASE_PATH =
         : "./";
 
 /* ==========================================
+   SKELETON LOADER
+========================================== */
+
+function showSkeleton(count = 12) {
+
+    if (!recipeList)
+        return;
+
+    recipeList.innerHTML = "";
+
+    const fragment =
+        document.createDocumentFragment();
+
+    for (let i = 0; i < count; i++) {
+
+        const card =
+            document.createElement("article");
+
+        card.className =
+            "explore-card skeleton-card";
+
+        card.innerHTML = `
+
+            <div class="skeleton-image"></div>
+
+            <div class="card-content">
+
+                <div class="skeleton-title"></div>
+
+                <div class="skeleton-footer">
+
+                    <div class="skeleton-chip"></div>
+
+                    <div class="skeleton-chip small"></div>
+
+                </div>
+
+            </div>
+
+        `;
+
+        fragment.appendChild(card);
+
+    }
+
+    recipeList.appendChild(fragment);
+
+}
+
+/* ==========================================
    LOAD RECIPES
 ========================================== */
 
 async function loadHomeRecipes() {
 
+    showSkeleton();
+
     try {
 
         const indexResponse =
-            await fetch(BASE_PATH + "data/index.json");
+            await fetch(
+                BASE_PATH + "data/index.json"
+            );
 
         if (!indexResponse.ok) {
 
@@ -69,7 +123,8 @@ async function loadHomeRecipes() {
 
                         const response =
                             await fetch(
-                                BASE_PATH + category.file
+                                BASE_PATH +
+                                category.file
                             );
 
                         if (!response.ok) {
@@ -115,6 +170,15 @@ async function loadHomeRecipes() {
 
         renderRecipes(homeRecipes);
 
+        if (
+            typeof loadCarousel ===
+            "function"
+        ) {
+
+            loadCarousel(homeRecipes);
+
+        }
+
     }
 
     catch (error) {
@@ -147,9 +211,11 @@ function createRecipeCard(recipe) {
     card.className =
         "explore-card";
 
-    const image = recipe.image
-        ? BASE_PATH + recipe.image
-        : BASE_PATH + "assets/images/logo.png";
+    const image =
+        recipe.image
+            ? BASE_PATH + recipe.image
+            : BASE_PATH +
+              "assets/images/logo.png";
 
     card.innerHTML = `
 
@@ -193,17 +259,22 @@ function createRecipeCard(recipe) {
 
     `;
 
-    card.addEventListener("click", () => {
+    card.addEventListener(
+        "click",
+        () => {
 
-        if (!recipe.file)
-            return;
+            if (!recipe.file)
+                return;
 
-        window.location.href =
-            BASE_PATH +
-            "recipe.html?file=" +
-            encodeURIComponent(recipe.file);
+            window.location.href =
+                BASE_PATH +
+                "recipe.html?file=" +
+                encodeURIComponent(
+                    recipe.file
+                );
 
-    });
+        }
+    );
 
     return card;
 
@@ -258,31 +329,49 @@ function renderRecipes(list) {
 
 function applyFilters() {
 
-    const filteredRecipes = homeRecipes.filter(recipe => {
+    const filteredRecipes =
+        homeRecipes.filter(recipe => {
 
-        const category =
-            (recipe.category || "")
-                .toLowerCase();
+            const category =
+                (recipe.category || "")
+                    .toLowerCase();
 
-        const title =
-            (recipe.title || "")
-                .toLowerCase();
+            const title =
+                (recipe.title || "")
+                    .toLowerCase();
 
-        const matchesCategory =
-            selectedCategory === "all" ||
-            category === selectedCategory.toLowerCase();
+            const matchesCategory =
 
-        const matchesSearch =
-            searchQuery === "" ||
-            title.includes(searchQuery) ||
-            category.includes(searchQuery);
+                selectedCategory === "all"
 
-        return (
-            matchesCategory &&
-            matchesSearch
-        );
+                ||
 
-    });
+                category ===
+                selectedCategory.toLowerCase();
+
+            const matchesSearch =
+
+                searchQuery === ""
+
+                ||
+
+                title.includes(searchQuery)
+
+                ||
+
+                category.includes(searchQuery);
+
+            return (
+
+                matchesCategory
+
+                &&
+
+                matchesSearch
+
+            );
+
+        });
 
     renderRecipes(filteredRecipes);
 
@@ -295,10 +384,13 @@ function applyFilters() {
 if (searchInput) {
 
     searchInput.addEventListener(
+
         "input",
+
         event => {
 
             searchQuery =
+
                 event.target.value
                     .trim()
                     .toLowerCase();
@@ -306,6 +398,7 @@ if (searchInput) {
             applyFilters();
 
         }
+
     );
 
 }
@@ -317,21 +410,33 @@ if (searchInput) {
 filterButtons.forEach(button => {
 
     button.addEventListener(
+
         "click",
+
         () => {
 
-            filterButtons.forEach(btn =>
-                btn.classList.remove("active")
+            filterButtons.forEach(btn => {
+
+                btn.classList.remove(
+                    "active"
+                );
+
+            });
+
+            button.classList.add(
+                "active"
             );
 
-            button.classList.add("active");
-
             selectedCategory =
-                button.dataset.cat || "all";
+
+                button.dataset.cat ||
+
+                "all";
 
             applyFilters();
 
         }
+
     );
 
 });
