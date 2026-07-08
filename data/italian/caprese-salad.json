@@ -1,0 +1,83 @@
+{
+  "id": "911",
+  "title": "Caprese Salad",
+  "description": "Caprese Salad is a timeless Italian classic that celebrates the beauty of simplicity. Juicy ripe tomatoes, creamy buffalo mozzarella, fragrant fresh basil, and premium extra virgin olive oil come together to create a light yet elegant dish. Finished with aged balsamic vinegar, sea salt, and freshly ground black pepper, this refreshing salad showcases the quality of each ingredient and is a staple of fine Italian dining.",
+
+  "category": "Italian",
+  "time": "15 min",
+  "difficulty": "Easy",
+  "image": "assets/images/italian/caprese-salad.png",
+
+  "ingredients": [
+    {
+      "title": "Main Ingredients",
+      "items": [
+        "3 ripe heirloom tomatoes (mixed colors for visual impact: red, yellow, green)",
+        "250g (9 oz) fresh buffalo mozzarella (or burrata for a luxurious twist)",
+        "1 bunch fresh basil (small leaves preferred)",
+        "2 tbsp extra virgin olive oil (cold-pressed, single origin if possible)",
+        "1 tbsp aged balsamic vinegar (traditional, syrupy consistency)",
+        "Fleur de sel (or Maldon sea salt flakes)",
+        "Freshly ground black pepper"
+      ]
+    },
+    {
+      "title": "Optional Enhancements for Fine Dining Presentation",
+      "items": [
+        "Basil oil (blend basil leaves with olive oil, strain for a vivid green drizzle)",
+        "Microgreens or basil sprouts for garnish",
+        "Crushed pistachios or pine nuts for texture",
+        "Edible flowers (e.g., nasturtium, viola) for elegance"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Tomatoes",
+      "steps": [
+        "Slice heirloom tomatoes into even rounds (~½ cm thick).",
+        "Season lightly with salt and let rest 5 minutes to release juices and intensify flavor."
+      ]
+    },
+    {
+      "title": "Step 2 – Mozzarella/Burrata",
+      "steps": [
+        "If using mozzarella: slice into rounds of similar thickness.",
+        "If using burrata: tear gently into rustic chunks for creaminess."
+      ]
+    },
+    {
+      "title": "Step 3 – Assembly",
+      "steps": [
+        "On a chilled plate, alternate tomato and mozzarella slices in a circular pattern.",
+        "Nestle basil leaves between layers."
+      ]
+    },
+    {
+      "title": "Step 4 – Finishing Touches",
+      "steps": [
+        "Drizzle with extra virgin olive oil and aged balsamic (or dot artistically around the plate).",
+        "Sprinkle with sea salt and freshly cracked pepper.",
+        "For refinement: add drops of basil oil, scatter microgreens, and a few edible flowers."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as an appetizer or light lunch.",
+      "Pairs beautifully with crusty Italian bread or focaccia.",
+      "Enjoy alongside grilled meats, seafood, or a glass of chilled white wine."
+    ]
+  },
+
+  "chefTips": [
+    "Use tomatoes at room temperature (never refrigerated) for maximum flavor.",
+    "If possible, source PDO-certified Buffalo Mozzarella from Campania.",
+    "For dramatic plating, serve on a black slate or white porcelain plate to contrast colors.",
+    "Balance flavors: sweet tomatoes, creamy mozzarella, bright basil, umami balsamic.",
+    "Apply olive oil just before serving so it glistens, not soggy."
+  ]
+}
