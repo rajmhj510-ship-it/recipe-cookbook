@@ -75,7 +75,13 @@ function createCarousel() {
 		card.className = "card";
 		card.dataset.index = i;
 
-		card.innerHTML = `<img src="${recipe.image}" alt="${recipe.title}">`;
+card.innerHTML = `
+    <img
+        src="${recipe.image}"
+        alt="${recipe.title}"
+        loading="eager"
+        decoding="async">
+`;
 
 		card.addEventListener("click", () => updateCarousel(i));
 		track.appendChild(card);
