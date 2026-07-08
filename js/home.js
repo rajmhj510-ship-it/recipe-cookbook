@@ -108,11 +108,30 @@ function applyFilters() {
 	}
 
 	// SEARCH FILTER
-	if (searchQuery.trim()) {
-		filtered = filtered.filter(r =>
-			r.title.toLowerCase().includes(searchQuery.toLowerCase())
-		);
-	}
+if (searchQuery.trim()) {
+
+    const q = searchQuery.trim().toLowerCase();
+
+    filtered = filtered.filter(recipe => {
+
+        return [
+
+            recipe.title,
+            recipe.category,
+            recipe.description,
+            recipe.time,
+            recipe.difficulty,
+            String(recipe.id)
+
+        ]
+        .filter(Boolean)
+        .some(value =>
+            value.toLowerCase().includes(q)
+        );
+
+    });
+
+}
 
 	render(filtered);
 }
