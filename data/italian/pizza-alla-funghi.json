@@ -1,0 +1,103 @@
+{
+  "id": "907",
+  "title": "Pizza alla Funghi (Mushroom Pizza)",
+  "description": "Pizza alla Funghi (Mushroom Pizza)",
+
+  "category": "Italian",
+  "time": "2 hr",
+  "difficulty": "Medium",
+  "image": "assets/images/italian/pizza-alla-funghi.png",
+
+  "ingredients": [
+    {
+      "title": "Dough (Classic Neapolitan Style)",
+      "items": [
+        "250 g (2 cups) “00” flour (or strong bread flour)",
+        "160 ml (⅔ cup) water, room temperature",
+        "2 g (½ tsp) fine sea salt",
+        "2 g (½ tsp) sugar",
+        "2 g (½ tsp) instant yeast",
+        "1 tbsp extra virgin olive oil"
+      ]
+    },
+    {
+      "title": "Toppings",
+      "items": [
+        "150 g (5 oz) fresh mozzarella (preferably fior di latte or bufala), drained and torn",
+        "200 g (7 oz) fresh mushrooms (mixed porcini, cremini, and champignons for depth), thinly sliced",
+        "2 tbsp extra virgin olive oil",
+        "1 clove garlic, finely minced",
+        "2 sprigs fresh thyme (or oregano leaves)",
+        "30 g (2 tbsp) Parmigiano Reggiano, freshly grated",
+        "Salt & freshly ground black pepper to taste"
+      ]
+    },
+    {
+      "title": "Optional Finishing",
+      "items": [
+        "Truffle oil (few drops, optional but elevates to fine-dining level)",
+        "Fresh parsley, finely chopped"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Dough",
+      "steps": [
+        "In a bowl, dissolve yeast and sugar in water. Let sit 5 minutes until slightly foamy.",
+        "Mix in flour and salt, knead until a smooth dough forms (~10 minutes by hand, 5 minutes with mixer).",
+        "Add olive oil and knead until elastic and glossy.",
+        "Cover and rest for 1–2 hours, or until doubled in size."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Mushrooms",
+      "steps": [
+        "Heat olive oil in a skillet over medium heat.",
+        "Add garlic, sauté until fragrant (not browned).",
+        "Add mushrooms, season lightly with salt and pepper. Cook 3–4 minutes until softened and aromatic.",
+        "Add thyme leaves, toss, and set aside to cool slightly."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Pizza",
+      "steps": [
+        "Preheat oven to its highest setting (250°C / 480°F) with a pizza stone or steel if available.",
+        "Stretch dough gently into a 12-inch circle.",
+        "Spread mozzarella evenly.",
+        "Top with sautéed mushrooms.",
+        "Sprinkle Parmigiano Reggiano."
+      ]
+    },
+    {
+      "title": "Step 4 – Bake",
+      "steps": [
+        "Transfer to preheated stone/steel and bake 6–8 minutes, until crust is puffed and charred in spots, cheese melted and bubbling."
+      ]
+    },
+    {
+      "title": "Step 5 – Finish & Serve",
+      "steps": [
+        "Drizzle with a touch of truffle oil (optional).",
+        "Garnish with fresh parsley.",
+        "Slice and serve immediately while hot."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Yield",
+    "items": [
+      "1 large 12-inch pizza",
+      "Serves: 2"
+    ]
+  },
+
+  "chefTips": [
+    "Mushroom mix: Porcini add earthiness, cremini for body, champignon for freshness.",
+    "Cheese balance: Avoid overloading mozzarella—less is more for proper melt and flavor clarity.",
+    "Stone-baking: A hot stone or steel ensures authentic restaurant-quality blistered crust.",
+    "Pairing: Best enjoyed with a glass of Chianti or Barbera red wine."
+  ]
+}
