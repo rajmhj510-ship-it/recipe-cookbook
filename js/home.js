@@ -67,8 +67,12 @@ function render(list) {
 		const card = document.createElement("div");
 		card.className = "explore-card";
 
-		card.innerHTML = `
-    <img src="${recipe.image}" alt="${recipe.title}">
+card.innerHTML = `
+    <img
+        src="${recipe.image}"
+        alt="${recipe.title}"
+        loading="lazy"
+        decoding="async">
 
     <div class="card-content">
         <h3>${recipe.title}</h3>
