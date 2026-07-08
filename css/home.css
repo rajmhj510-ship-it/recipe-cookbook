@@ -224,7 +224,10 @@ body {
 	overflow: hidden;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 	cursor: pointer;
-	transition: transform 0.3s ease;
+
+	transition:
+		transform .35s ease,
+		box-shadow .35s ease;
 }
 
 .explore-card:hover {
