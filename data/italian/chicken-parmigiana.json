@@ -1,0 +1,119 @@
+{
+  "id": "919",
+  "title": "Chicken Parmigiana",
+  "description": "Chicken Parmigiana is a beloved Italian-American classic featuring tender breaded chicken breasts, crispy on the outside and topped with rich San Marzano tomato sauce, fresh mozzarella, and Parmesan cheese. Baked until golden and bubbling, this restaurant-quality dish is comforting, flavorful, and perfect when served with pasta or crusty bread.",
+
+  "category": "Italian",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "image": "assets/images/italian/chicken-parmigiana.png",
+
+  "ingredients": [
+    {
+      "title": "Chicken",
+      "items": [
+        "4 boneless, skinless chicken breasts (about 6 oz each)",
+        "Salt and freshly ground black pepper",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1 cup all-purpose flour",
+        "2 large eggs, beaten",
+        "1 cup Italian-style breadcrumbs (preferably fresh)",
+        "½ cup grated Parmesan cheese",
+        "½ tsp dried oregano",
+        "Olive oil and a bit of butter for frying"
+      ]
+    },
+    {
+      "title": "Sauce",
+      "items": [
+        "2 tbsp extra virgin olive oil",
+        "2 cloves garlic, finely minced",
+        "1 small onion, finely diced",
+        "1 can (28 oz) San Marzano tomatoes, crushed by hand",
+        "1 tsp sugar (optional, to balance acidity)",
+        "½ tsp red pepper flakes (optional)",
+        "Salt and freshly ground black pepper",
+        "½ cup fresh basil leaves, chopped",
+        "1 tbsp tomato paste (optional, for richness)"
+      ]
+    },
+    {
+      "title": "Cheese & Topping",
+      "items": [
+        "8 oz fresh mozzarella, sliced thin",
+        "¼ cup grated Parmesan cheese",
+        "2 tbsp fresh parsley, chopped (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken",
+      "steps": [
+        "Butterfly each chicken breast if thick, then pound to ~½ inch thickness using a meat mallet.",
+        "Season both sides with salt, pepper, garlic powder, and onion powder.",
+        "Set up a breading station:",
+        "Bowl 1: Flour",
+        "Bowl 2: Beaten eggs",
+        "Bowl 3: Breadcrumbs + Parmesan + oregano",
+        "Dredge each chicken breast in flour → egg → breadcrumb mixture, pressing lightly to coat evenly.",
+        "Heat a mixture of olive oil and butter in a large skillet over medium-high heat.",
+        "Fry the chicken 2–3 minutes per side until golden brown (it will finish cooking in the oven). Drain on paper towels."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Tomato Sauce",
+      "steps": [
+        "In a medium saucepan, heat olive oil over medium heat.",
+        "Add onion and sauté until translucent, 3–4 minutes.",
+        "Add garlic and cook 30 seconds until fragrant.",
+        "Stir in crushed tomatoes, tomato paste, sugar, red pepper flakes, salt, and pepper.",
+        "Simmer gently for 15–20 minutes until thickened.",
+        "Remove from heat and stir in fresh basil."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Parmigiana",
+      "steps": [
+        "Preheat oven to 400°F (200°C).",
+        "Spoon a thin layer of tomato sauce into a baking dish.",
+        "Place fried chicken on top.",
+        "Spoon more tomato sauce over each piece of chicken.",
+        "Layer mozzarella slices evenly over the chicken.",
+        "Sprinkle with Parmesan cheese."
+      ]
+    },
+    {
+      "title": "Step 4 – Bake",
+      "steps": [
+        "Bake in the preheated oven for 15–20 minutes, until the cheese is bubbly and golden.",
+        "For a perfect golden crust, switch to broil for 1–2 minutes at the end (watch carefully)."
+      ]
+    },
+    {
+      "title": "Step 5 – Serve",
+      "steps": [
+        "Garnish with chopped fresh parsley.",
+        "Serve hot with spaghetti, garlic bread, or a simple arugula salad."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with spaghetti tossed in tomato sauce.",
+      "Pair with garlic bread and a fresh arugula salad.",
+      "Finish with extra grated Parmesan and fresh basil for restaurant-style presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Breadcrumbs: Use fresh, panko-style Italian breadcrumbs for a crispier crust. Toast them lightly before breading.",
+    "Chicken: Pounding ensures even cooking and tenderness.",
+    "Cheese: Fresh mozzarella gives creamy, melty perfection. Avoid pre-shredded mozzarella—it has anti-caking agents that affect melt.",
+    "Sauce: San Marzano tomatoes give authentic Italian flavor. Simmer slowly for depth."
+  ]
+}
