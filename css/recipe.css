@@ -156,6 +156,38 @@ body {
 	border-bottom: 1px solid #f0f0f0;
 }
 
+/* ================= CHECKABLE INGREDIENTS ================= */
+
+.ingredient-item {
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.ingredient-item label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.ingredient-check {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.ingredient-item span {
+    transition: .25s ease;
+}
+
+.ingredient-check:checked + span {
+    text-decoration: line-through;
+    color: #999;
+    opacity: .7;
+}
+
 /* ================= STEPS ================= */
 
 .step {
