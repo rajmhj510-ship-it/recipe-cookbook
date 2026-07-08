@@ -85,9 +85,11 @@ body {
 		0 35px 70px rgba(0,0,0,.28),
 		0 0 30px rgba(11,42,123,.18);
 
-	animation:
-		featuredFloat 3.5s ease-in-out infinite,
-		featuredGlow 2.5s ease-in-out infinite;
+    /*
+    animation:
+        featuredFloat 3.5s ease-in-out infinite,
+        featuredGlow 2.5s ease-in-out infinite;
+    */
 }
 /* ================= FEATURED GLOW ================= */
 
