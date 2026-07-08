@@ -84,7 +84,7 @@
     "title": "Neapolitan Pizza",
     "category": "Italian",
     "file": "data/italian/neapolitan-pizza.json",
-    "image": "assets/images/italian/neapolitan-pizza.png",
+    "image": "assets/images/italian/pizza-napoletana.png",
     "description": "Traditional Pizza Napoletana with an airy cornicione and simple toppings.",
     "time": "14 hrs",
     "difficulty": "Medium"
