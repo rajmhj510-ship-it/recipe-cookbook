@@ -94,7 +94,7 @@
     "title": "Poulet à la Pizza (Chicken Pizza)",
     "category": "Italian",
     "file": "data/italian/poulet-a-la-pizza-chicken-pizza.json",
-    "image": "assets/images/italian/poulet-a-la-pizza-chicken-pizza.png",
+    "image": "assets/images/italian/poulet-à-la-pizza.png",
     "description": "Wood-fired style chicken pizza with mozzarella and San Marzano tomato sauce.",
     "time": "32 min",
     "difficulty": "Medium"
