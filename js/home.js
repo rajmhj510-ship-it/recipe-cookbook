@@ -9,21 +9,49 @@ const recipeList = document.getElementById("recipeList");
 const searchInput = document.getElementById("searchInput");
 const filterButtons = document.querySelectorAll(".filters button");
 
-/* ================= LOAD DATA ================= */
-fetch("./data/index.json")
-	.then(res => {
-		if (!res.ok) throw new Error("HTTP " + res.status);
-		return res.json();
-	})
-	.then(data => {
-		recipes = Array.isArray(data) ? data : [];
-		render(recipes);
-	})
-	.catch(err => {
-		console.error("JSON ERROR:", err);
-		recipeList.innerHTML =
-			"<p style='text-align:center'>Failed to load recipes</p>";
-	});
+/* ================= LOAD ALL CATEGORY FILES ================= */
+
+async function loadRecipes() {
+    try {
+
+        const indexRes = await fetch("./data/index.json");
+        if (!indexRes.ok) throw new Error("Failed to load index.json");
+
+        const categories = await indexRes.json();
+
+        const recipeArrays = await Promise.all(
+            categories.map(async category => {
+
+                const res = await fetch(category.file);
+
+                if (!res.ok) {
+                    console.warn("Cannot load", category.file);
+                    return [];
+                }
+
+                return await res.json();
+
+            })
+        );
+
+        recipes = recipeArrays.flat();
+
+        recipes.sort((a, b) => a.id - b.id);
+
+        render(recipes);
+
+    }
+    catch (err) {
+
+        console.error(err);
+
+        recipeList.innerHTML =
+            "<p style='text-align:center'>Failed to load recipes</p>";
+
+    }
+}
+
+loadRecipes();
 
 /* ================= RENDER GRID ================= */
 function render(list) {
