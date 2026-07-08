@@ -1,0 +1,95 @@
+{
+  "id": "918",
+  "title": "Fettuccine with Basil Pesto",
+  "description": "Fettuccine with Basil Pesto is a vibrant Italian pasta dish that highlights the fresh flavors of basil, toasted pine nuts, Parmigiano-Reggiano, Pecorino Romano, and premium extra virgin olive oil. Tossed with perfectly cooked fettuccine, this restaurant-quality recipe delivers a silky, aromatic sauce that is both simple and elegant.",
+
+  "category": "Italian",
+  "time": "25 min",
+  "difficulty": "Easy",
+  "image": "assets/images/italian/fettuccine-with-basil-pesto.png",
+
+  "ingredients": [
+    {
+      "title": "For the Pesto",
+      "items": [
+        "2 cups fresh basil leaves, packed",
+        "1/2 cup extra virgin olive oil",
+        "1/3 cup pine nuts, lightly toasted",
+        "2 garlic cloves, peeled",
+        "1/2 cup freshly grated Parmigiano-Reggiano cheese",
+        "1/4 cup freshly grated Pecorino Romano cheese",
+        "Salt, to taste",
+        "Freshly ground black pepper, to taste",
+        "Optional: 1 tsp lemon juice (for brightness)"
+      ]
+    },
+    {
+      "title": "For the Fettuccine",
+      "items": [
+        "400g fresh fettuccine (or high-quality dried fettuccine)",
+        "Salted water for boiling"
+      ]
+    },
+    {
+      "title": "To Finish",
+      "items": [
+        "Extra grated Parmigiano-Reggiano",
+        "Light drizzle of extra virgin olive oil",
+        "Fresh basil leaves, for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Pesto",
+      "steps": [
+        "Toast the pine nuts lightly in a dry skillet over medium heat until golden and fragrant. Let cool.",
+        "In a food processor, combine basil, toasted pine nuts, garlic, and a pinch of salt. Pulse until finely chopped.",
+        "With the processor running, slowly drizzle in the olive oil until smooth and emulsified.",
+        "Add the cheeses and pulse briefly until incorporated. Adjust seasoning with salt, pepper, and optional lemon juice.",
+        "Chef’s Tip: For a silkier texture, add 1–2 tbsp of warm pasta water to loosen the pesto before serving."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Fettuccine",
+      "steps": [
+        "Bring a large pot of salted water to a rolling boil.",
+        "Cook the fettuccine according to package instructions until al dente. Reserve 1/2 cup pasta water before draining."
+      ]
+    },
+    {
+      "title": "Step 3 – Combine Pasta and Pesto",
+      "steps": [
+        "Return the drained fettuccine to the pot (off the heat).",
+        "Add the pesto and 2–3 tbsp of reserved pasta water. Toss gently until pasta is evenly coated.",
+        "Taste and adjust seasoning if needed."
+      ]
+    },
+    {
+      "title": "Step 4 – Plate and Serve",
+      "steps": [
+        "Twirl the pasta into nests on warm plates.",
+        "Drizzle with a touch of extra virgin olive oil and sprinkle extra Parmigiano-Reggiano.",
+        "Garnish with fresh basil leaves and freshly cracked black pepper."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately while the pesto is fresh and vibrant.",
+      "Pair with garlic bread or a crisp green salad.",
+      "Enjoy with a chilled glass of Italian white wine like Vermentino or Pinot Grigio."
+    ]
+  },
+
+  "chefTips": [
+    "For a silkier texture, add 1–2 tbsp of warm pasta water to loosen the pesto before serving.",
+    "Toast the pine nuts lightly to enhance their nutty aroma without burning them.",
+    "Use freshly grated Parmigiano-Reggiano and Pecorino Romano for the best flavor and texture.",
+    "Never heat pesto directly over high heat, as it dulls the fresh basil flavor.",
+    "Serve immediately for the freshest taste and brightest color."
+  ]
+}
