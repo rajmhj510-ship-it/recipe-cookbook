@@ -72,7 +72,8 @@ card.innerHTML = `
         src="${recipe.image}"
         alt="${recipe.title}"
         loading="lazy"
-        decoding="async">
+        decoding="async"
+		onerror="this.onerror=null;this.src='assets/images/placeholder.png';">
 
     <div class="card-content">
         <h3>${recipe.title}</h3>
