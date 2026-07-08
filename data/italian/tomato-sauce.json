@@ -1,0 +1,94 @@
+{
+  "id": "903",
+  "title": "Tomato Sauce",
+  "description": "Tomato Sauce",
+
+  "category": "Italian",
+  "time": "90 min",
+  "difficulty": "Easy",
+  "image": "assets/images/italian/tomato-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Extra virgin olive oil – 80 ml (about ⅓ cup)",
+        "Yellow onion – 1 large, finely diced",
+        "Carrot – 1 medium, finely diced",
+        "Celery stalk – 1, finely diced",
+        "Garlic – 4 cloves, sliced thin",
+        "Tomato paste – 2 tbsp (concentrated flavor boost)",
+        "San Marzano tomatoes (DOP, whole peeled) – 2 x 800g cans (or the best quality you can source)",
+        "Sea salt – to taste",
+        "Freshly cracked black pepper – to taste",
+        "Fresh basil leaves – 1 small bunch, tied with string (bouquet)",
+        "Fresh thyme sprigs – 2–3",
+        "Bay leaf – 1",
+        "Pinch of sugar – optional, only if acidity is harsh",
+        "Unsalted butter – 2 tbsp (for finishing, silky texture)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Build the soffritto (foundation)",
+      "steps": [
+        "In a heavy-bottomed pot, warm the olive oil over medium heat.",
+        "Add onion, carrot, and celery.",
+        "Sweat gently (do not brown) for 10–12 minutes until soft and sweet."
+      ]
+    },
+    {
+      "title": "Step 2 – Garlic & tomato paste",
+      "steps": [
+        "Add garlic, cook for 1 minute until fragrant.",
+        "Stir in tomato paste, and cook slowly for 2–3 minutes to caramelize—this deepens the sauce’s base."
+      ]
+    },
+    {
+      "title": "Step 3 – Tomatoes",
+      "steps": [
+        "Crush the San Marzano tomatoes by hand (or pass through a food mill for a smoother texture).",
+        "Add them to the pot along with their juices."
+      ]
+    },
+    {
+      "title": "Step 4 – Season & infuse",
+      "steps": [
+        "Add salt, pepper, basil bouquet, thyme, and bay leaf.",
+        "Bring to a gentle simmer."
+      ]
+    },
+    {
+      "title": "Step 5 – Slow reduction",
+      "steps": [
+        "Simmer uncovered over low heat for 60–90 minutes, stirring occasionally.",
+        "The sauce should thicken, concentrate, and lose any raw tomato taste."
+      ]
+    },
+    {
+      "title": "Step 6 – Finish",
+      "steps": [
+        "Remove herb stems and bay leaf.",
+        "Adjust seasoning.",
+        "For a luxurious texture, swirl in 2 tbsp of butter just before serving."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Storage",
+    "items": [
+      "Keeps 5 days in the fridge.",
+      "Keeps 3 months frozen.",
+      "Improves after a day’s rest."
+    ]
+  },
+
+  "chefTips": [
+    "Tomatoes matter: Always use San Marzano DOP or high-quality canned plum tomatoes. They define the depth and balance of true Italian sauces.",
+    "Texture choice: For a rustic feel, leave it chunky. For fine dining, pass the sauce through a chinois or blend until silky.",
+    "No shortcuts: Resist adding oregano, heavy spices, or sugar (except a tiny pinch if tomatoes are overly acidic). True Italian sauces are about purity and restraint."
+  ]
+}
