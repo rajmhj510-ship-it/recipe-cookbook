@@ -1,0 +1,121 @@
+{
+  "id": "916",
+  "title": "Mushroom Ravioli with Cream Sauce",
+  "description": "Mushroom Ravioli with Cream Sauce is a gourmet Italian pasta dish featuring delicate handmade ravioli filled with a rich blend of mushrooms, Parmesan, and fresh herbs. Finished with a silky cream sauce infused with white wine and Parmesan, this elegant restaurant-quality recipe delivers luxurious flavors and a beautifully balanced texture.",
+
+  "category": "Italian",
+  "time": "1 hr 30 min",
+  "difficulty": "Hard",
+  "image": "assets/images/italian/mushroom-ravioli-with-cream-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "For the Pasta Dough (yields ~4 servings)",
+      "items": [
+        "200g (1 2/3 cup) all-purpose flour, plus extra for dusting",
+        "2 large eggs",
+        "1 tbsp olive oil",
+        "Pinch of salt"
+      ]
+    },
+    {
+      "title": "For the Mushroom Filling",
+      "items": [
+        "300g mixed mushrooms (cremini, shiitake, porcini), finely chopped",
+        "1 small shallot, finely diced",
+        "2 cloves garlic, minced",
+        "2 tbsp unsalted butter",
+        "2 tbsp olive oil",
+        "2 tbsp heavy cream",
+        "2 tbsp grated Parmesan cheese",
+        "Salt and freshly ground black pepper",
+        "1 tsp fresh thyme leaves"
+      ]
+    },
+    {
+      "title": "For the Cream Sauce",
+      "items": [
+        "200ml heavy cream",
+        "50ml dry white wine",
+        "1 small shallot, finely chopped",
+        "1 tbsp unsalted butter",
+        "2 tbsp grated Parmesan cheese",
+        "Salt and white pepper to taste",
+        "Fresh parsley, finely chopped (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Make the Pasta Dough",
+      "steps": [
+        "On a clean surface, mound the flour and make a well in the center.",
+        "Crack eggs into the well, add olive oil and salt.",
+        "Gradually mix flour into the eggs with a fork, then knead until smooth and elastic (8–10 min).",
+        "Wrap in plastic wrap, rest for 30 minutes at room temperature."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Mushroom Filling",
+      "steps": [
+        "Heat butter and olive oil in a skillet over medium heat.",
+        "Sauté shallot and garlic until translucent.",
+        "Add mushrooms and thyme; cook until liquid evaporates and mushrooms are caramelized (~8 min).",
+        "Stir in heavy cream and Parmesan, season with salt and pepper. Cool completely before using."
+      ]
+    },
+    {
+      "title": "Step 3 – Roll and Fill the Ravioli",
+      "steps": [
+        "Roll pasta thinly (2mm) using a pasta machine or rolling pin.",
+        "Place teaspoons of mushroom filling about 2 inches apart on one sheet.",
+        "Brush edges with water, lay another sheet on top, and press around filling to seal.",
+        "Cut into squares or circles, press edges with fork for a clean seal.",
+        "Dust with flour to prevent sticking."
+      ]
+    },
+    {
+      "title": "Step 4 – Cook the Ravioli",
+      "steps": [
+        "Bring a large pot of salted water to a gentle boil.",
+        "Cook ravioli in batches for 3–4 minutes or until al dente.",
+        "Drain carefully and set aside."
+      ]
+    },
+    {
+      "title": "Step 5 – Make the Cream Sauce",
+      "steps": [
+        "In a pan, melt butter over medium heat. Sauté shallot until soft.",
+        "Deglaze with white wine, simmer until reduced by half.",
+        "Add heavy cream and Parmesan, simmer until thickened (2–3 min).",
+        "Season with salt and white pepper."
+      ]
+    },
+    {
+      "title": "Step 6 – Plate the Dish",
+      "steps": [
+        "Spoon sauce onto the plate.",
+        "Place ravioli neatly on top.",
+        "Drizzle with extra sauce, sprinkle with finely chopped parsley and a touch of Parmesan.",
+        "Optional: garnish with a few sautéed mushroom slices or microgreens for elegance."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately while the ravioli is hot and the cream sauce is silky.",
+      "Pair with garlic bread or a crisp green salad.",
+      "Enjoy with a glass of dry white wine for an authentic Italian dining experience."
+    ]
+  },
+
+  "chefTips": [
+    "Use a combination of mushrooms for depth of flavor.",
+    "Dry mushrooms slightly before filling to avoid soggy pasta.",
+    "Make pasta and filling ahead of time; assemble just before cooking.",
+    "Finish with a drizzle of truffle oil for a luxurious touch."
+  ]
+}
