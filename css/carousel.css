@@ -74,6 +74,8 @@ body {
 .card.center {
 	transform: translate(-50%, -50%) scale(1.15);
 	z-index: 10;
+
+	animation: featuredFloat 3.5s ease-in-out infinite;
 }
 
 /* ================= LEFT ================= */
@@ -194,4 +196,21 @@ body {
 	.card.left-2 { transform: translate(-50%, -50%) translateX(-240px) scale(0.8); }
 	.card.right-1 { transform: translate(-50%, -50%) translateX(120px) scale(0.9); }
 	.card.right-2 { transform: translate(-50%, -50%) translateX(240px) scale(0.8); }
+}
+/* ================= FEATURED CARD FLOAT ================= */
+
+@keyframes featuredFloat {
+
+	0% {
+		transform: translate(-50%, -50%) scale(1.15);
+	}
+
+	50% {
+		transform: translate(-50%, calc(-50% - 6px)) scale(1.15);
+	}
+
+	100% {
+		transform: translate(-50%, -50%) scale(1.15);
+	}
+
 }
