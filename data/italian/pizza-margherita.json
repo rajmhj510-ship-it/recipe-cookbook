@@ -1,0 +1,93 @@
+{
+  "id": "908",
+  "title": "Pizza Margherita",
+  "description": "Pizza Margherita",
+
+  "category": "Italian",
+  "time": "48 hr",
+  "difficulty": "Medium",
+  "image": "assets/images/italian/pizza-margherita.png",
+
+  "ingredients": [
+    {
+      "title": "Dough (Neapolitan-Style, 48h Fermentation for Best Flavor)",
+      "items": [
+        "500 g “00” flour (finely milled Italian pizza flour; substitute bread flour if unavailable)",
+        "325 ml cold water",
+        "10 g fine sea salt",
+        "2 g fresh yeast (or 1 g instant yeast)"
+      ]
+    },
+    {
+      "title": "Sauce (San Marzano Tomato Base)",
+      "items": [
+        "400 g canned San Marzano tomatoes (DOP if possible)",
+        "1 tbsp extra virgin olive oil",
+        "1 small garlic clove, lightly crushed (optional, traditional recipes skip it)",
+        "Pinch of fine sea salt",
+        "2–3 fresh basil leaves"
+      ]
+    },
+    {
+      "title": "Toppings",
+      "items": [
+        "250 g fresh mozzarella di bufala (buffalo mozzarella), drained and torn into chunks",
+        "Extra virgin olive oil (high quality, for drizzling)",
+        "Fresh basil leaves (8–10 leaves, hand-torn just before baking)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Dough Preparation",
+      "steps": [
+        "Dissolve yeast in water. Gradually mix in flour and salt.",
+        "Knead gently until smooth (about 10 minutes by hand or 5 minutes with a mixer).",
+        "Cover and let rest for 1 hour at room temperature.",
+        "Transfer to the fridge for 24–48 hours cold fermentation (this develops flavor and airy texture).",
+        "Remove from fridge 2 hours before baking. Divide into 2 balls and rest at room temp, covered."
+      ]
+    },
+    {
+      "title": "Step 2 – Sauce Preparation",
+      "steps": [
+        "Blend San Marzano tomatoes briefly (keep texture, don't over-purée).",
+        "Mix with olive oil, pinch of salt, and basil.",
+        "Do not cook the sauce—true Neapolitan style uses raw tomato sauce."
+      ]
+    },
+    {
+      "title": "Step 3 – Shaping & Assembly",
+      "steps": [
+        "Preheat oven to 250–300°C (480–570°F) with a pizza stone or steel (at least 45 min).",
+        "Gently stretch dough ball into a 10–12 inch round, leaving a slightly raised edge (cornicione). Avoid using a rolling pin.",
+        "Spread a thin layer of tomato sauce (about 3 tbsp) evenly.",
+        "Add torn mozzarella pieces.",
+        "Place fresh basil leaves sparingly.",
+        "Drizzle lightly with extra virgin olive oil."
+      ]
+    },
+    {
+      "title": "Step 4 – Baking",
+      "steps": [
+        "Bake on stone/steel for 6–8 minutes until crust is puffed and charred in spots, cheese melted, and sauce bubbling.",
+        "In a wood-fired oven (~430°C / 800°F), it will bake in 60–90 seconds."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Yield",
+    "items": [
+      "2 medium pizzas (10–12 inch each)"
+    ]
+  },
+
+  "chefTips": [
+    "Use buffalo mozzarella for authenticity, but fior di latte (cow's milk mozzarella) works well.",
+    "Always drain mozzarella well to avoid soggy pizza.",
+    "A drizzle of high-quality olive oil after baking elevates flavor.",
+    "For a restaurant-level touch, serve immediately on a warm pizza plate."
+  ]
+}
