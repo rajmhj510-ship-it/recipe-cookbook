@@ -1,0 +1,89 @@
+{
+  "id": "915",
+  "title": "Fresh Pasta Dough",
+  "description": "Fresh Pasta Dough is the foundation of authentic Italian pasta, prized for its silky texture, delicate bite, and rich flavor. Made with finely milled \"00\" flour and fresh eggs, this classic dough can be rolled into tagliatelle, fettuccine, lasagna sheets, ravioli, and countless other handmade pasta shapes. Proper kneading and resting create a smooth, elastic dough that cooks in just minutes.",
+
+  "category": "Italian",
+  "time": "1 hr",
+  "difficulty": "Medium",
+  "image": "assets/images/italian/fresh-pasta-dough.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (Classic Egg Pasta)",
+      "items": [
+        "400 g (3 1/4 cups) “00” flour (Italian finely milled flour; substitute with all-purpose if unavailable, but 00 gives the best texture)",
+        "4 large extra-large eggs, room temperature",
+        "1 tsp fine sea salt",
+        "1 tbsp extra virgin olive oil (optional, for extra elasticity)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Flour",
+      "steps": [
+        "Place the flour on a clean work surface or in a large bowl. Make a well in the center large enough to hold the eggs.",
+        "Sprinkle the salt around the flour edges."
+      ]
+    },
+    {
+      "title": "Step 2 – Incorporate the Eggs",
+      "steps": [
+        "Crack eggs into the well. Add olive oil if using.",
+        "Using a fork, gently whisk the eggs, gradually pulling flour from the sides into the eggs."
+      ]
+    },
+    {
+      "title": "Step 3 – Form the Dough",
+      "steps": [
+        "Once eggs and flour are combined, use your hands to knead into a rough dough.",
+        "Knead 10–12 minutes until smooth, elastic, and slightly tacky.",
+        "Dough should spring back when pressed.",
+        "If too sticky, dust with a little flour (avoid over-flouring)."
+      ]
+    },
+    {
+      "title": "Step 4 – Rest the Dough",
+      "steps": [
+        "Wrap in plastic wrap or cover with a clean towel.",
+        "Rest 30–60 minutes at room temperature.",
+        "This allows gluten to relax, making it easier to roll thin."
+      ]
+    },
+    {
+      "title": "Step 5 – Roll and Shape",
+      "steps": [
+        "Use a pasta machine or rolling pin. Roll progressively thinner: start at setting 1 (thickest) and reduce step by step.",
+        "For tagliatelle: cut long ribbons about 1/4 inch wide.",
+        "For ravioli: roll very thin, almost translucent sheets."
+      ]
+    },
+    {
+      "title": "Step 6 – Cook",
+      "steps": [
+        "Boil in salted water for 2–3 minutes (fresh pasta cooks very quickly).",
+        "Toss immediately with your sauce."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Notes on Gluten",
+    "items": [
+      "Semolina flour is the secret to extra chew and elasticity—critical for filled pasta like ravioli.",
+      "Long kneading + resting = a strong gluten network that allows thin, durable pasta sheets.",
+      "Hydration: Eggs provide moisture and protein; if dough is too stiff, a teaspoon of water can help, but avoid over-hydrating—it weakens gluten."
+    ]
+  },
+
+  "chefTips": [
+    "Use high-quality, fresh eggs. For richer pasta, you can use 3 whole eggs + 1 yolk.",
+    "Flour choice: “00” flour for silkiness; semolina can add bite for rustic pasta.",
+    "Eggs: Use the freshest possible; yolk-rich eggs = richer pasta.",
+    "Resting: Never skip resting; it prevents tearing and keeps texture tender.",
+    "Cooking: Fresh pasta cooks faster than dried—watch closely.",
+    "Serving: Toss immediately with sauce—never let it sit plain for long, or it will dry."
+  ]
+}
