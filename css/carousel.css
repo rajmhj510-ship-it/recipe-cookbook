@@ -1,628 +1,183 @@
-```css id="carousel-pro1"
-/* ==========================================================
-   CAROUSEL VARIABLES
-========================================================== */
-
-:root {
-
-    --primary:
-        #082a7b;
-
-    --primary-dark:
-        #061d57;
-
-    --shadow:
-        0 20px 45px rgba(0,0,0,.18);
-
-    --card-width:
-        280px;
-
-    --card-height:
-        380px;
-
-    --transition:
-        .7s cubic-bezier(.22,.61,.36,1);
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
 }
 
+body {
+	background: #f5f5f5;
+	overflow-x: hidden;
+}
 
+/* ================= HERO CENTER ================= */
+#hero {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
 
-/* ==========================================================
-   CAROUSEL CONTAINER
-========================================================== */
+/* ================= TITLE ================= */
+.about-title {
+	font-size: 4rem;
+	font-weight: 900;
+	color: rgba(0,0,0,0.08);
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
 
+/* ================= CAROUSEL ================= */
 .carousel-container {
+	width: 100%;
+	max-width: 1200px;
+	height: 450px;
+	position: relative;
+	perspective: 1000px;
 
-    width:
-        100%;
-
-
-    max-width:
-        1200px;
-
-
-    height:
-        450px;
-
-
-    margin:
-        auto;
-
-
-    position:
-        relative;
-
-
-    display:
-        flex;
-
-
-    justify-content:
-        center;
-
-
-    align-items:
-        center;
-
-
-    perspective:
-        1400px;
-
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
 }
-
-
-
-/* ==========================================================
-   TRACK
-========================================================== */
 
 .carousel-track {
-
-    width:
-        100%;
-
-
-    height:
-        100%;
-
-
-    position:
-        relative;
-
-
+	width: 100%;
+	height: 100%;
+	position: relative;
 }
 
-
-
-/* ==========================================================
-   CARDS
-========================================================== */
-
+/* ================= CARD ================= */
 .card {
-
-    position:
-        absolute;
-
-
-    top:
-        50%;
-
-
-    left:
-        50%;
-
-
-    width:
-        var(--card-width);
-
-
-    height:
-        var(--card-height);
-
-
-    overflow:
-        hidden;
-
-
-    border-radius:
-        22px;
-
-
-    cursor:
-        pointer;
-
-
-    transform:
-        translate(-50%,-50%);
-
-
-    transition:
-
-        transform var(--transition),
-        opacity var(--transition),
-        filter var(--transition);
-
-
-    box-shadow:
-        var(--shadow);
-
-
-    user-select:
-        none;
-
-
-    background:
-        white;
-
-
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 280px;
+	height: 380px;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+	transition: all 0.8s ease;
+	cursor: pointer;
 }
-
-
 
 .card img {
-
-    width:
-        100%;
-
-
-    height:
-        100%;
-
-
-    object-fit:
-        cover;
-
-
-    display:
-        block;
-
-
-    transition:
-        transform .5s ease;
-
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
-
-
-.card:hover img {
-
-    transform:
-        scale(1.05);
-
-}
-
-
-
-/* ==========================================================
-   ACTIVE CENTER CARD
-========================================================== */
-
+/* ================= CENTER ================= */
 .card.center {
-
-    transform:
-        translate(-50%,-50%)
-        scale(1.15);
-
-
-    z-index:
-        10;
-
-
-    filter:
-        none;
-
+	transform: translate(-50%, -50%) scale(1.15);
+	z-index: 10;
 }
 
-
-
-/* ==========================================================
-   LEFT CARDS
-========================================================== */
-
+/* ================= LEFT ================= */
 .card.left-1 {
-
-    transform:
-        translate(-250px,-50%)
-        scale(.92);
-
-
-    opacity:
-        .85;
-
-
-    filter:
-        grayscale(80%);
-
-
-    z-index:
-        5;
-
+	transform: translate(-50%, -50%) translateX(-200px) scale(0.9);
+	z-index: 5;
+	opacity: 0.9;
+	filter: grayscale(100%);
 }
-
-
 
 .card.left-2 {
-
-    transform:
-        translate(-470px,-50%)
-        scale(.78);
-
-
-    opacity:
-        .4;
-
-
-    filter:
-        grayscale(100%);
-
-
-    z-index:
-        2;
-
+	transform: translate(-50%, -50%) translateX(-400px) scale(0.8);
+	z-index: 1;
+	opacity: 0.6;
+	filter: grayscale(100%);
 }
 
-
-
-/* ==========================================================
-   RIGHT CARDS
-========================================================== */
-
+/* ================= RIGHT ================= */
 .card.right-1 {
-
-    transform:
-        translate(150px,-50%)
-        scale(.92);
-
-
-    opacity:
-        .85;
-
-
-    filter:
-        grayscale(80%);
-
-
-    z-index:
-        5;
-
+	transform: translate(-50%, -50%) translateX(200px) scale(0.9);
+	z-index: 5;
+	opacity: 0.9;
+	filter: grayscale(100%);
 }
-
-
 
 .card.right-2 {
-
-    transform:
-        translate(370px,-50%)
-        scale(.78);
-
-
-    opacity:
-        .4;
-
-
-    filter:
-        grayscale(100%);
-
-
-    z-index:
-        2;
-
+	transform: translate(-50%, -50%) translateX(400px) scale(0.8);
+	z-index: 1;
+	opacity: 0.6;
+	filter: grayscale(100%);
 }
-
-
-
-/* ==========================================================
-   HIDDEN CARDS
-========================================================== */
 
 .card.hidden {
-
-    opacity:
-        0;
-
-
-    pointer-events:
-        none;
-
-
-    transform:
-        translate(-50%,-50%)
-        scale(.5);
-
+	opacity: 0;
+	pointer-events: none;
 }
 
+/* ================= INFO ================= */
+.recipe-info {
+	margin-top: 20px;
+}
 
+.hero-recipe-title {
+	font-size: 1.5rem;
+	color: #0b2a7b;
+}
 
-/* ==========================================================
-   NAVIGATION BUTTONS
-========================================================== */
+.recipe-meta {
+	font-size: 1rem;
+	color: #777;
+	margin-top: 5px;
+}
 
+/* ================= SCROLL BUTTON ================= */
+.scroll-down {
+	margin-top: 25px;
+	padding: 12px 22px;
+	border: none;
+	border-radius: 30px;
+	background: #0b2a7b;
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.scroll-down:hover {
+	transform: translateY(3px);
+	background: #081f5c;
+}
+
+/* ================= NAV ================= */
 .nav-arrow {
-
-    position:
-        absolute;
-
-
-    top:
-        50%;
-
-
-    transform:
-        translateY(-50%);
-
-
-    width:
-        50px;
-
-
-    height:
-        50px;
-
-
-    border:
-        none;
-
-
-    border-radius:
-        50%;
-
-
-    background:
-        rgba(8,42,123,.92);
-
-
-    color:
-        white;
-
-
-    cursor:
-        pointer;
-
-
-    font-size:
-        24px;
-
-
-    display:
-        flex;
-
-
-    align-items:
-        center;
-
-
-    justify-content:
-        center;
-
-
-    transition:
-        .25s ease;
-
-
-    z-index:
-        20;
-
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: none;
+	background: rgba(0,0,0,0.6);
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	z-index: 20;
 }
 
+.nav-arrow.left { left: 20px; }
+.nav-arrow.right { right: 20px; }
 
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
 
-.nav-arrow:hover {
+	.about-title {
+		font-size: 3.5rem;
+	}
 
-    background:
-        var(--primary-dark);
+	.card {
+		width: 200px;
+		height: 280px;
+	}
 
-
-    transform:
-        translateY(-50%)
-        scale(1.12);
-
+	.card.left-1 { transform: translate(-50%, -50%) translateX(-120px) scale(0.9); }
+	.card.left-2 { transform: translate(-50%, -50%) translateX(-240px) scale(0.8); }
+	.card.right-1 { transform: translate(-50%, -50%) translateX(120px) scale(0.9); }
+	.card.right-2 { transform: translate(-50%, -50%) translateX(240px) scale(0.8); }
 }
-
-
-
-.nav-arrow:focus-visible {
-
-    outline:
-        3px solid rgba(8,42,123,.4);
-
-}
-
-
-
-.nav-arrow.left {
-
-    left:
-        20px;
-
-}
-
-
-
-.nav-arrow.right {
-
-    right:
-        20px;
-
-}
-
-
-
-/* ==========================================================
-   TABLET
-========================================================== */
-
-@media(max-width:992px) {
-
-
-    :root {
-
-        --card-width:
-            220px;
-
-
-        --card-height:
-            310px;
-
-    }
-
-
-
-    .carousel-container {
-
-        height:
-            370px;
-
-    }
-
-
-
-    .card.left-2 {
-
-        transform:
-            translate(-360px,-50%)
-            scale(.75);
-
-    }
-
-
-
-    .card.right-2 {
-
-        transform:
-            translate(280px,-50%)
-            scale(.75);
-
-    }
-
-}
-
-
-
-/* ==========================================================
-   MOBILE
-========================================================== */
-
-@media(max-width:768px) {
-
-
-    :root {
-
-        --card-width:
-            170px;
-
-
-        --card-height:
-            240px;
-
-    }
-
-
-
-    .carousel-container {
-
-        height:
-            290px;
-
-    }
-
-
-
-    .card.left-2,
-    .card.right-2 {
-
-        display:
-            none;
-
-    }
-
-
-
-    .card.left-1 {
-
-        transform:
-            translate(-150px,-50%)
-            scale(.9);
-
-    }
-
-
-
-    .card.right-1 {
-
-        transform:
-            translate(50px,-50%)
-            scale(.9);
-
-    }
-
-
-
-    .nav-arrow {
-
-        width:
-            42px;
-
-
-        height:
-            42px;
-
-
-        font-size:
-            20px;
-
-    }
-
-
-}
-
-
-
-/* ==========================================================
-   SMALL PHONE
-========================================================== */
-
-@media(max-width:480px) {
-
-
-    :root {
-
-        --card-width:
-            145px;
-
-
-        --card-height:
-            205px;
-
-    }
-
-
-
-    .carousel-container {
-
-        height:
-            240px;
-
-    }
-
-
-
-    .nav-arrow.left {
-
-        left:
-            8px;
-
-    }
-
-
-
-    .nav-arrow.right {
-
-        right:
-            8px;
-
-    }
-
-
-}
-```
