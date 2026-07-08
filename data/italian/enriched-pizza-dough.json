@@ -1,0 +1,89 @@
+{
+  "id": "905",
+  "title": "Enriched Pizza Dough",
+  "description": "Enriched Pizza Dough",
+
+  "category": "Italian",
+  "time": "48 hr",
+  "difficulty": "Medium",
+  "image": "assets/images/italian/enriched-pizza-dough.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "00 Pizza Flour – 1000 g (high-protein Italian flour, ~12.5% protein)",
+        "Water (cool, filtered) – 600 g (60%)",
+        "Whole Milk – 100 g (10%)",
+        "Olive Oil (extra-virgin, delicate) – 50 g (5%)",
+        "Unsalted Butter (softened) – 30 g (3%)",
+        "Egg Yolk – 40 g (about 2 yolks, optional – gives rich color/flavor)",
+        "Sugar (fine) – 20 g (2%)",
+        "Salt (fine sea salt) – 20 g (2%)",
+        "Fresh Yeast – 10 g (or 3.5 g instant dry yeast)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Autolyse",
+      "steps": [
+        "In a spiral mixer or by hand, combine flour, water, and milk until no dry spots remain.",
+        "Rest 30 minutes, covered, to hydrate the flour."
+      ]
+    },
+    {
+      "title": "Step 2 – Mix & Develop Gluten",
+      "steps": [
+        "Add yeast, sugar, and egg yolk. Mix on low speed until incorporated.",
+        "Gradually add salt, then olive oil and butter in small portions, mixing until the dough is smooth, silky, and moderately strong (windowpane test).",
+        "Final dough temperature: 24–25°C (75–77°F)."
+      ]
+    },
+    {
+      "title": "Step 3 – Bulk Fermentation",
+      "steps": [
+        "Place in a lightly oiled container.",
+        "Bulk rise 2–3 hours at 24°C (75°F) until just doubled."
+      ]
+    },
+    {
+      "title": "Step 4 – Cold Fermentation",
+      "steps": [
+        "Gently degas, divide into 250 g portions, shape into tight balls.",
+        "Place in lightly oiled dough trays, cover.",
+        "Refrigerate at 4°C (39°F) for 24–48 hours (flavor develops)."
+      ]
+    },
+    {
+      "title": "Step 5 – Final Proof",
+      "steps": [
+        "Remove dough balls from fridge 2–3 hours before baking.",
+        "Dough should be airy, extensible, but still hold structure."
+      ]
+    },
+    {
+      "title": "Step 6 – Baking",
+      "steps": [
+        "Preheat oven with baking steel/stone to 300°C (575°F) or as hot as possible.",
+        "Stretch dough gently into round, maintaining air in edges.",
+        "Top minimally (this dough shines with quality ingredients).",
+        "Bake 90–120 seconds in a pizza oven or 5–7 minutes in a deck/stone oven until golden, puffed, and slightly caramelized."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Yield",
+    "items": [
+      "~4 x 250 g dough balls (for 4 pizzas, 10–12 inch each)."
+    ]
+  },
+
+  "chefTips": [
+    "Texture: Enriched dough gives a tender crumb, slightly brioche-like but still structured enough for pizza.",
+    "Best Pairings: White pizzas (bianca), truffle, prosciutto, burrata, smoked mozzarella, roasted vegetables, or delicate seafood toppings.",
+    "Restaurant Tip: Brush crust edges lightly with olive oil or clarified butter before baking for enhanced sheen and flavor."
+  ]
+}
