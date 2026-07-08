@@ -1,0 +1,73 @@
+{
+  "id": "902",
+  "title": "Pizza Sauce",
+  "description": "Pizza Sauce",
+
+  "category": "Italian",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/italian/pizza-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "1 can (28 oz / 800 g) San Marzano whole peeled tomatoes (DOP if possible)",
+        "2 tbsp extra virgin olive oil",
+        "2 cloves garlic, thinly sliced",
+        "1 tsp sea salt (to taste)",
+        "½ tsp freshly ground black pepper",
+        "1 tsp dried oregano (or 2 tsp fresh, finely chopped)",
+        "6–8 fresh basil leaves, torn by hand",
+        "½ tsp sugar (optional, only if tomatoes are overly acidic)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Drain & Crush Tomatoes",
+      "steps": [
+        "Drain excess liquid from canned tomatoes (reserve in case you need to loosen sauce).",
+        "Crush tomatoes by hand or use a food mill for a smooth texture. Avoid over-pureeing; sauce should be rustic."
+      ]
+    },
+    {
+      "title": "Step 2 – Infuse Oil with Garlic",
+      "steps": [
+        "In a saucepan over medium-low heat, warm olive oil.",
+        "Add garlic slices and gently cook until fragrant (do not brown)."
+      ]
+    },
+    {
+      "title": "Step 3 – Simmer the Sauce",
+      "steps": [
+        "Add crushed tomatoes, salt, pepper, and oregano.",
+        "Stir gently and bring to a soft simmer.",
+        "Cook 20–25 minutes, uncovered, until slightly thickened but still spreadable."
+      ]
+    },
+    {
+      "title": "Step 4 – Finish with Basil",
+      "steps": [
+        "Remove from heat.",
+        "Stir in fresh basil leaves and a final drizzle of olive oil."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Storage",
+    "items": [
+      "Fridge: 3–4 days in airtight container.",
+      "Freezer: Up to 2 months."
+    ]
+  },
+
+  "chefTips": [
+    "Do not overcook. Unlike pasta sauce, pizza sauce should remain fresh and vibrant. Long cooking dulls the flavor.",
+    "Consistency matters: Sauce should cling lightly to a spoon, not runny but not paste-like.",
+    "No onions or butter – keep it authentic Neapolitan-style.",
+    "For wood-fired pizza ovens: Keep the sauce slightly looser, as high heat will reduce it quickly."
+  ]
+}
