@@ -83,6 +83,29 @@ body {
 		featuredFloat 3.5s ease-in-out infinite,
 		featuredGlow 2.5s ease-in-out infinite;
 }
+/* ================= FEATURED GLOW ================= */
+
+@keyframes featuredGlow {
+
+	0%{
+		box-shadow:
+			0 35px 70px rgba(0,0,0,.28),
+			0 0 20px rgba(11,42,123,.12);
+	}
+
+	50%{
+		box-shadow:
+			0 40px 80px rgba(0,0,0,.32),
+			0 0 40px rgba(11,42,123,.28);
+	}
+
+	100%{
+		box-shadow:
+			0 35px 70px rgba(0,0,0,.28),
+			0 0 20px rgba(11,42,123,.12);
+	}
+
+}
 
 /* ================= LEFT ================= */
 .card.left-1 {
