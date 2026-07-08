@@ -1,0 +1,121 @@
+{
+  "id": "910",
+  "title": "Poulet à la Pizza (Chicken Pizza)",
+  "description": "Poulet à la Pizza (Chicken Pizza)",
+
+  "category": "Italian",
+  "time": "24 hr",
+  "difficulty": "Medium",
+  "image": "assets/images/italian/poulet-a-la-pizza.png",
+
+  "ingredients": [
+    {
+      "title": "Pizza Dough (Classic Neapolitan Style)",
+      "items": [
+        "500 g “00” flour (Italian finely milled pizza flour)",
+        "325 ml water, cold",
+        "12 g fine sea salt",
+        "2 g fresh yeast (or 1 g active dry yeast)"
+      ]
+    },
+    {
+      "title": "Sauce",
+      "items": [
+        "250 g San Marzano tomatoes (peeled, canned)",
+        "1 tbsp extra virgin olive oil",
+        "Pinch of sea salt",
+        "2–3 fresh basil leaves"
+      ]
+    },
+    {
+      "title": "Chicken Topping",
+      "items": [
+        "200 g chicken breast, thinly sliced",
+        "1 tbsp olive oil",
+        "1 garlic clove, minced",
+        "½ tsp dried oregano",
+        "Pinch of chili flakes (optional)",
+        "Salt & freshly ground black pepper"
+      ]
+    },
+    {
+      "title": "Cheese & Garnish",
+      "items": [
+        "150 g fresh mozzarella di bufala, torn into pieces",
+        "30 g Parmigiano-Reggiano, freshly grated",
+        "Fresh basil leaves (for garnish)",
+        "Drizzle of extra virgin olive oil"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Dough Preparation (24 hrs ahead)",
+      "steps": [
+        "Dissolve yeast in cold water.",
+        "Gradually add flour, mixing gently until combined.",
+        "Add salt last, knead until smooth (10 mins by hand, 5 mins with mixer).",
+        "Rest covered at room temperature for 1 hr.",
+        "Transfer to airtight container, refrigerate 20–24 hrs (cold fermentation for flavor & texture).",
+        "Remove 2 hrs before baking, divide into 2 x 250 g balls, rest covered."
+      ]
+    },
+    {
+      "title": "Step 2 – Sauce",
+      "steps": [
+        "Hand-crush San Marzano tomatoes.",
+        "Mix with olive oil, basil, and a pinch of salt.",
+        "Keep raw (traditional Neapolitan style)."
+      ]
+    },
+    {
+      "title": "Step 3 – Chicken",
+      "steps": [
+        "Heat olive oil in pan, add garlic, then sliced chicken.",
+        "Season with oregano, chili flakes, salt & pepper.",
+        "Sear quickly until just cooked (avoid drying).",
+        "Set aside to cool slightly."
+      ]
+    },
+    {
+      "title": "Step 4 – Assembly",
+      "steps": [
+        "Preheat oven with pizza stone to 480–500°C (900–930°F) if wood-fired, or as hot as possible (at least 250°C / 480°F) in a home oven.",
+        "Stretch dough ball into a 10–12 inch round.",
+        "Spread a thin layer of tomato sauce.",
+        "Add torn mozzarella evenly.",
+        "Arrange seared chicken slices.",
+        "Sprinkle Parmigiano-Reggiano."
+      ]
+    },
+    {
+      "title": "Step 5 – Baking",
+      "steps": [
+        "Bake in wood-fired oven: 60–90 seconds (rotate halfway).",
+        "Bake in home oven with stone/steel: 6–8 minutes until crust is blistered and cheese melted."
+      ]
+    },
+    {
+      "title": "Step 6 – Finishing Touch",
+      "steps": [
+        "Garnish with fresh basil leaves.",
+        "Drizzle with extra virgin olive oil.",
+        "Serve immediately."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving",
+    "items": [
+      "Servings: 2 (individual pizzas)"
+    ]
+  },
+
+  "chefTips": [
+    "For extra depth, marinate chicken with a splash of white wine & rosemary before searing.",
+    "Use smoked mozzarella (scamorza affumicata) for a gourmet variation.",
+    "A drizzle of chili oil at service adds a professional touch."
+  ]
+}
