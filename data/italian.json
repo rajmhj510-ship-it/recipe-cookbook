@@ -8,5 +8,205 @@
     "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
+  },
+  {
+    "id": 902,
+    "title": "Pizza Sauce",
+    "category": "Italian",
+    "file": "data/italian/pizza-sauce.json",
+    "image": "assets/images/italian/pizza-sauce.png",
+    "description": "Authentic Neapolitan-style pizza sauce made with San Marzano tomatoes.",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 903,
+    "title": "Tomato Sauce",
+    "category": "Italian",
+    "file": "data/italian/tomato-sauce.json",
+    "image": "assets/images/italian/tomato-sauce.png",
+    "description": "Classic slow-simmered Italian tomato sauce with San Marzano tomatoes.",
+    "time": "90 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 904,
+    "title": "Pizza Dough",
+    "category": "Italian",
+    "file": "data/italian/pizza-dough.json",
+    "image": "assets/images/italian/pizza-dough.png",
+    "description": "Traditional Neapolitan pizza dough with long cold fermentation.",
+    "time": "48 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 905,
+    "title": "Enriched Pizza Dough",
+    "category": "Italian",
+    "file": "data/italian/enriched-pizza-dough.json",
+    "image": "assets/images/italian/enriched-pizza-dough.png",
+    "description": "Rich, buttery pizza dough with milk and olive oil for a tender crust.",
+    "time": "48 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 906,
+    "title": "Hawaiian Pizza",
+    "category": "Italian",
+    "file": "data/italian/hawaiian-pizza.json",
+    "image": "assets/images/italian/hawaiian-pizza.png",
+    "description": "Classic pizza topped with mozzarella, ham, and grilled pineapple.",
+    "time": "32 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 907,
+    "title": "Pizza alla Funghi",
+    "category": "Italian",
+    "file": "data/italian/pizza-alla-funghi.json",
+    "image": "assets/images/italian/pizza-alla-funghi.png",
+    "description": "Restaurant-quality mushroom pizza with mozzarella and Parmigiano-Reggiano.",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 908,
+    "title": "Pizza Margherita",
+    "category": "Italian",
+    "file": "data/italian/pizza-margherita.json",
+    "image": "assets/images/italian/pizza-margherita.png",
+    "description": "Authentic Neapolitan pizza with tomato, mozzarella, basil, and olive oil.",
+    "time": "48 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 909,
+    "title": "Neapolitan Pizza",
+    "category": "Italian",
+    "file": "data/italian/neapolitan-pizza.json",
+    "image": "assets/images/italian/neapolitan-pizza.png",
+    "description": "Traditional Pizza Napoletana with an airy cornicione and simple toppings.",
+    "time": "14 hrs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 910,
+    "title": "Poulet à la Pizza (Chicken Pizza)",
+    "category": "Italian",
+    "file": "data/italian/poulet-a-la-pizza-chicken-pizza.json",
+    "image": "assets/images/italian/poulet-a-la-pizza-chicken-pizza.png",
+    "description": "Wood-fired style chicken pizza with mozzarella and San Marzano tomato sauce.",
+    "time": "32 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 911,
+    "title": "Caprese Salad",
+    "category": "Italian",
+    "file": "data/italian/caprese-salad.json",
+    "image": "assets/images/italian/caprese-salad.png",
+    "description": "Fresh heirloom tomatoes, buffalo mozzarella, basil, and aged balsamic.",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 912,
+    "title": "Spaghetti Carbonara",
+    "category": "Italian",
+    "file": "data/italian/spaghetti-carbonara.json",
+    "image": "assets/images/italian/spaghetti-carbonara.png",
+    "description": "Authentic Roman pasta with guanciale, Pecorino Romano, eggs, and black pepper.",
+    "time": "25 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 913,
+    "title": "Mac and Cheese",
+    "category": "Italian",
+    "file": "data/italian/mac-and-cheese.json",
+    "image": "assets/images/italian/mac-and-cheese.png",
+    "description": "Creamy baked pasta with a blend of premium Italian cheeses.",
+    "time": "45 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 914,
+    "title": "Spaghetti Aglio e Olio",
+    "category": "Italian",
+    "file": "data/italian/spaghetti-aglio-e-olio.json",
+    "image": "assets/images/italian/spaghetti-aglio-e-olio.png",
+    "description": "Simple Italian spaghetti with garlic, olive oil, parsley, and chili flakes.",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 915,
+    "title": "Fresh Pasta Dough",
+    "category": "Italian",
+    "file": "data/italian/fresh-pasta-dough.json",
+    "image": "assets/images/italian/fresh-pasta-dough.png",
+    "description": "Classic Italian egg pasta dough for fresh homemade pasta.",
+    "time": "1 hr",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 916,
+    "title": "Mushroom Ravioli with Cream Sauce",
+    "category": "Italian",
+    "file": "data/italian/mushroom-ravioli-with-cream-sauce.json",
+    "image": "assets/images/italian/mushroom-ravioli-with-cream-sauce.png",
+    "description": "Homemade mushroom-filled ravioli served with a rich Parmesan cream sauce.",
+    "time": "90 min",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 917,
+    "title": "Fettuccine Alfredo Sauce",
+    "category": "Italian",
+    "file": "data/italian/fettuccine-alfredo-sauce.json",
+    "image": "assets/images/italian/fettuccine-alfredo-sauce.png",
+    "description": "Silky, restaurant-quality Alfredo sauce with butter, cream, and Parmigiano-Reggiano.",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 918,
+    "title": "Fettuccine with Basil Pesto",
+    "category": "Italian",
+    "file": "data/italian/fettuccine-with-basil-pesto.json",
+    "image": "assets/images/italian/fettuccine-with-basil-pesto.png",
+    "description": "Fresh fettuccine tossed with classic basil pesto and Italian cheeses.",
+    "time": "25 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 919,
+    "title": "Chicken Parmigiana",
+    "category": "Italian",
+    "file": "data/italian/chicken-parmigiana.json",
+    "image": "assets/images/italian/chicken-parmigiana.png",
+    "description": "Breaded chicken baked with tomato sauce, mozzarella, and Parmesan cheese.",
+    "time": "55 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 920,
+    "title": "Chicken Piccata",
+    "category": "Italian",
+    "file": "data/italian/chicken-piccata.json",
+    "image": "assets/images/italian/chicken-piccata.png",
+    "description": "Pan-seared chicken in a buttery lemon, white wine, and caper sauce.",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 921,
+    "title": "Italian Seasoning",
+    "category": "Italian",
+    "file": "data/italian/italian-seasoning.json",
+    "image": "assets/images/italian/italian-seasoning.png",
+    "description": "Restaurant-quality Italian herb blend for pasta, pizza, marinades, and roasted vegetables.",
+    "time": "10 min",
+    "difficulty": "Easy"
   }
 ]
