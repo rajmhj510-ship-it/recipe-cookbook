@@ -60,7 +60,13 @@ body {
 	border-radius: 20px;
 	overflow: hidden;
 	box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-	transition: all 0.8s ease;
+
+	transition:
+    transform .8s cubic-bezier(.22,.61,.36,1),
+    opacity .5s ease,
+    filter .5s ease,
+    box-shadow .5s ease;
+	
 	cursor: pointer;
 }
 
