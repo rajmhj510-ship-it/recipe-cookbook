@@ -1,0 +1,78 @@
+{
+  "id": "917",
+  "title": "Fettuccine Alfredo Sauce",
+  "description": "Fettuccine Alfredo is a luxurious Italian pasta dish known for its velvety sauce made from butter, heavy cream, and freshly grated Parmigiano-Reggiano. Perfectly coating tender fettuccine, this restaurant-quality classic delivers rich, creamy flavor with exceptional simplicity, relying on premium ingredients and careful technique for its signature silky texture.",
+
+  "category": "Italian",
+  "time": "15 min",
+  "difficulty": "Easy",
+  "image": "assets/images/italian/fettuccine-alfredo-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "12 oz (340 g) fettuccine pasta",
+        "1 cup (240 ml) heavy cream, cold",
+        "1/2 cup (1 stick / 113 g) unsalted butter, cubed, cold",
+        "1 1/2 cups (150 g) freshly grated Parmigiano-Reggiano cheese",
+        "1/4 tsp freshly grated nutmeg (optional, for depth)",
+        "Salt, to taste",
+        "Freshly ground black pepper, to taste",
+        "Chopped fresh parsley, for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Cook the Pasta",
+      "steps": [
+        "Bring a large pot of salted water to a boil. Cook fettuccine until al dente (firm to the bite). Reserve 1 cup of pasta water before draining."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Alfredo Sauce",
+      "steps": [
+        "In a large skillet over medium heat, add the cold butter and cream. Slowly whisk until butter melts and the mixture begins to thicken slightly.",
+        "Reduce heat to low to prevent breaking the sauce. Stir in the nutmeg (if using)."
+      ]
+    },
+    {
+      "title": "Step 3 – Add Cheese",
+      "steps": [
+        "Gradually add the Parmigiano-Reggiano, whisking constantly to prevent clumping. The sauce should be silky and smooth."
+      ]
+    },
+    {
+      "title": "Step 4 – Combine Pasta and Sauce",
+      "steps": [
+        "Add drained fettuccine to the skillet, tossing gently to coat.",
+        "Use reserved pasta water, 1–2 tbsp at a time, to loosen the sauce if necessary. The sauce should cling beautifully to the pasta."
+      ]
+    },
+    {
+      "title": "Step 5 – Season and Serve",
+      "steps": [
+        "Taste and adjust seasoning with salt and freshly ground black pepper.",
+        "Plate immediately, garnish with parsley, and optionally sprinkle extra Parmigiano on top."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately while the sauce is hot and silky.",
+      "Pair with garlic bread or a crisp Caesar salad.",
+      "Finish with extra Parmigiano-Reggiano and freshly cracked black pepper."
+    ]
+  },
+
+  "chefTips": [
+    "Cold butter and cream: Using cold ingredients prevents the fat from separating and creates a luxuriously smooth sauce.",
+    "Freshly grated Parmigiano-Reggiano: Pre-grated cheese often contains anti-caking agents that can make the sauce grainy.",
+    "Finishing with pasta water: Adds silkiness and helps the sauce adhere to the pasta perfectly.",
+    "Serve immediately: Alfredo sauce thickens as it cools, so timing is crucial."
+  ]
+}
