@@ -22,17 +22,49 @@ const AUTO_TIME = 3000; // 3 seconds (change this value)
 const isRecipePage = window.location.pathname.includes("recipe.html");
 
 /* ================= LOAD JSON ================= */
-fetch("data/index.json")
-	.then(res => res.json())
-	.then(data => {
-		recipes = Array.isArray(data) ? data : [data];
-		createCarousel();
-		updateCarousel(0);
+async function loadCarouselRecipes() {
 
-		if (!isRecipePage) {
-			startAutoSlide(); // start only on home page
-		}
-	});
+    try {
+
+        const indexRes = await fetch("data/index.json");
+
+        const categories = await indexRes.json();
+
+        const recipeArrays = await Promise.all(
+
+            categories.map(async category => {
+
+                const res = await fetch(category.file);
+
+                if (!res.ok) return [];
+
+                return await res.json();
+
+            })
+
+        );
+
+        recipes = recipeArrays.flat();
+
+        recipes.sort((a, b) => a.id - b.id);
+
+        createCarousel();
+        updateCarousel(0);
+
+        if (!isRecipePage) {
+            startAutoSlide();
+        }
+
+    }
+    catch (err) {
+
+        console.error("Carousel Load Error:", err);
+
+    }
+
+}
+
+loadCarouselRecipes();
 
 /* ================= CREATE CARDS ================= */
 function createCarousel() {
