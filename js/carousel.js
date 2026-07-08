@@ -80,7 +80,8 @@ card.innerHTML = `
         src="${recipe.image}"
         alt="${recipe.title}"
         loading="eager"
-        decoding="async">
+        decoding="async"
+		onerror="this.onerror=null;this.src='assets/images/placeholder.png';">
 `;
 
 		card.addEventListener("click", () => updateCarousel(i));
