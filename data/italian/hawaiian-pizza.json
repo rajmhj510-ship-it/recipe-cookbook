@@ -1,0 +1,101 @@
+{
+  "id": "906",
+  "title": "Hawaiian Pizza",
+  "description": "Hawaiian Pizza",
+
+  "category": "Italian",
+  "time": "24 hr",
+  "difficulty": "Medium",
+  "image": "assets/images/italian/hawaiian-pizza.png",
+
+  "ingredients": [
+    {
+      "title": "Dough (Neapolitan-Style)",
+      "items": [
+        "250 g (2 cups) “00” flour (or bread flour if unavailable)",
+        "160 ml (⅔ cup) cold water",
+        "5 g (1 tsp) fine sea salt",
+        "2 g (½ tsp) fresh yeast (or ¾ tsp instant yeast)",
+        "1 tsp extra virgin olive oil"
+      ]
+    },
+    {
+      "title": "Sauce (Light Italian Tomato Base)",
+      "items": [
+        "150 g (½ cup) San Marzano tomatoes (canned, hand-crushed)",
+        "1 tbsp extra virgin olive oil",
+        "1 small garlic clove, crushed",
+        "Pinch of dried oregano",
+        "Pinch of fine sea salt"
+      ]
+    },
+    {
+      "title": "Toppings",
+      "items": [
+        "150 g (5 oz) fresh mozzarella (fior di latte), torn into small pieces",
+        "70 g (2½ oz) thinly sliced Italian prosciutto cotto (ham)",
+        "60 g (2 oz) fresh pineapple, small cubes (ripe, lightly char-grilled for extra depth)",
+        "Fresh basil leaves (2–3)",
+        "Extra virgin olive oil, to drizzle"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Dough Preparation (24 hrs fermentation for best flavor)",
+      "steps": [
+        "In a bowl, dissolve yeast in water. Add flour gradually, mixing by hand or mixer until shaggy dough forms.",
+        "Add salt and olive oil; knead until smooth and elastic (8–10 minutes).",
+        "Rest dough in a covered container at room temperature for 1 hour.",
+        "Refrigerate 12–24 hours (slow fermentation enhances flavor and digestibility).",
+        "Remove 2–3 hours before baking, shape into a ball, and allow to rise at room temp."
+      ]
+    },
+    {
+      "title": "Step 2 – Sauce",
+      "steps": [
+        "Heat olive oil gently in a pan, add garlic clove, and lightly infuse. Remove garlic.",
+        "Add crushed tomatoes, oregano, and salt. Simmer 10 minutes, then cool."
+      ]
+    },
+    {
+      "title": "Step 3 – Assembly",
+      "steps": [
+        "Preheat oven with pizza stone or steel to 250°C (480°F) (or as hot as possible).",
+        "Stretch dough gently into a 12-inch circle—avoid using a rolling pin (keeps air pockets).",
+        "Spread thin layer of sauce (don't over-sauce).",
+        "Scatter mozzarella evenly.",
+        "Add prosciutto cotto slices and charred pineapple pieces.",
+        "Drizzle lightly with olive oil."
+      ]
+    },
+    {
+      "title": "Step 4 – Baking",
+      "steps": [
+        "Bake 6–8 minutes on pizza stone/steel until crust is golden with charred spots, cheese bubbling.",
+        "If using wood-fired oven: bake at 430°C (800°F) for ~90 seconds."
+      ]
+    },
+    {
+      "title": "Step 5 – Finish & Serve",
+      "steps": [
+        "Garnish with fresh basil.",
+        "Slice and serve hot, with crust crisp outside and airy inside."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Yield",
+    "items": [
+      "1 Large Pizza (30 cm / 12 inch)",
+      "Serves: 2–3"
+    ]
+  },
+
+  "chefTips": [
+    "Lightly grilling pineapple caramelizes sugars, avoiding excess sweetness and giving balance with the savory ham and creamy mozzarella.",
+    "Use fior di latte mozzarella instead of pre-shredded cheese for authentic texture and flavor."
+  ]
+}
