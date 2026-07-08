@@ -63,9 +63,10 @@ function render(list) {
 		return;
 	}
 
-	list.forEach(recipe => {
+	list.forEach((recipe, index) => {
 		const card = document.createElement("div");
 		card.className = "explore-card";
+		card.style.animationDelay = `${index * 40}ms`;
 
 card.innerHTML = `
     <img
