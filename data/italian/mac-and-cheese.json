@@ -1,0 +1,110 @@
+{
+  "id": "913",
+  "title": "Mac and Cheese",
+  "description": "Mac and Cheese is a comforting baked pasta dish featuring tender macaroni coated in a rich, velvety cheese sauce made with Parmigiano-Reggiano, Fontina, and mozzarella. Finished with a golden, crispy panko topping, this restaurant-quality version delivers the perfect balance of creamy, cheesy, and crunchy textures.",
+
+  "category": "Italian",
+  "time": "45 min",
+  "difficulty": "Easy",
+  "image": "assets/images/italian/mac-and-cheese.png",
+
+  "ingredients": [
+    {
+      "title": "Pasta",
+      "items": [
+        "400 g (14 oz) elbow macaroni or cavatappi",
+        "Salted water, for boiling"
+      ]
+    },
+    {
+      "title": "Cheese Sauce",
+      "items": [
+        "3 tbsp unsalted butter",
+        "3 tbsp all-purpose flour",
+        "3 cups whole milk, warm",
+        "1/2 cup heavy cream",
+        "1 tsp Dijon mustard",
+        "1/4 tsp freshly grated nutmeg",
+        "Salt and freshly ground black pepper, to taste",
+        "1 cup grated Parmigiano-Reggiano",
+        "1 cup shredded Fontina",
+        "1 cup shredded mozzarella",
+        "Optional: 1/2 cup Pecorino Romano for extra sharpness"
+      ]
+    },
+    {
+      "title": "Topping",
+      "items": [
+        "1/2 cup panko breadcrumbs",
+        "2 tbsp unsalted butter, melted",
+        "1/4 cup grated Parmigiano-Reggiano",
+        "1 tsp finely chopped fresh parsley"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Cook the Pasta",
+      "steps": [
+        "Boil pasta in salted water until al dente.",
+        "Drain, toss with a tiny drizzle of olive oil to prevent sticking, and set aside."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Cheese Sauce",
+      "steps": [
+        "In a medium saucepan, melt butter over medium heat.",
+        "Whisk in flour and cook for 1–2 minutes to form a roux.",
+        "Gradually whisk in warm milk and cream until smooth and thickened (about 5–6 minutes).",
+        "Stir in Dijon mustard, nutmeg, salt, and pepper.",
+        "Lower heat and fold in Parmigiano-Reggiano, Fontina, mozzarella, and Pecorino Romano until creamy and silky. Taste and adjust seasoning."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble",
+      "steps": [
+        "Preheat oven to 375°F (190°C).",
+        "Combine pasta with cheese sauce, ensuring every piece is coated.",
+        "Pour into a buttered baking dish."
+      ]
+    },
+    {
+      "title": "Step 4 – Prepare the Topping",
+      "steps": [
+        "Mix panko breadcrumbs with melted butter, Parmigiano-Reggiano, and parsley.",
+        "Sprinkle evenly over the mac and cheese."
+      ]
+    },
+    {
+      "title": "Step 5 – Bake",
+      "steps": [
+        "Bake uncovered for 20–25 minutes until golden and bubbling.",
+        "Optional: broil 1–2 minutes for an extra-crispy top."
+      ]
+    },
+    {
+      "title": "Step 6 – Serve",
+      "steps": [
+        "Let sit 5 minutes before serving to set slightly.",
+        "Garnish with extra grated Parmigiano-Reggiano or parsley for presentation."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as a main course or side dish.",
+      "Pair with roasted vegetables or a crisp green salad.",
+      "Enjoy with garlic bread for a complete meal."
+    ]
+  },
+
+  "chefTips": [
+    "Cheese selection: Fontina gives creaminess, Parmigiano adds sharpness, mozzarella ensures stretchiness, Pecorino Romano adds bold flavor.",
+    "Roux care: Don't let it brown; keep it pale for a silky sauce.",
+    "Texture: Use panko for crunch—freshly made breadcrumbs give the best results.",
+    "Finishing touch: A light drizzle of truffle oil before serving elevates it to gourmet level."
+  ]
+}
