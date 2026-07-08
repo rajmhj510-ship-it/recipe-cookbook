@@ -1,345 +1,105 @@
-/* ==========================================
-   RECIPE COOKBOOK - HOME.JS
-========================================== */
+document.addEventListener("DOMContentLoaded", () => {
 
-(() => {
-
-"use strict";
-
-/* ==========================================
-   ELEMENTS
-========================================== */
-
-const recipeList =
-    document.getElementById("recipeList");
-
-const searchInput =
-    document.getElementById("searchInput");
-
-const filterButtons =
-    document.querySelectorAll(".filters button");
-
-/* ==========================================
-   STATE
-========================================== */
-
-let homeRecipes = [];
-
+let recipes = [];
 let selectedCategory = "all";
-
 let searchQuery = "";
 
-/* ==========================================
-   BASE PATH
-========================================== */
-
-const BASE_PATH =
-    window.location.pathname.includes("recipe-cookbook")
-        ? "/recipe-cookbook/"
-        : "./";
-
-/* ==========================================
-   LOAD RECIPES
-========================================== */
-
-async function loadHomeRecipes() {
-
-    try {
-
-        const indexResponse =
-            await fetch(BASE_PATH + "data/index.json");
-
-        if (!indexResponse.ok) {
-
-            throw new Error(
-                "Unable to load data/index.json"
-            );
-
-        }
-
-        const categories =
-            await indexResponse.json();
-
-        const recipeArrays =
-            await Promise.all(
-
-                categories.map(async category => {
-
-                    try {
-
-                        const response =
-                            await fetch(
-                                BASE_PATH + category.file
-                            );
-
-                        if (!response.ok) {
-
-                            console.warn(
-                                "Missing file:",
-                                category.file
-                            );
-
-                            return [];
-
-                        }
-
-                        const data =
-                            await response.json();
-
-                        return data.map(recipe => ({
-
-                            ...recipe,
-
-                            category:
-                                recipe.category ??
-                                category.category
-
-                        }));
-
-                    }
-
-                    catch (error) {
-
-                        console.error(error);
-
-                        return [];
-
-                    }
-
-                })
-
-            );
-
-        homeRecipes =
-            recipeArrays.flat();
-
-        renderRecipes(homeRecipes);
-
-    }
-
-    catch (error) {
-
-        console.error(error);
-
-        recipeList.innerHTML = `
-
-            <p class="error">
-
-                Failed to load recipes.
-
-            </p>
-
-        `;
-
-    }
-
-}
-
-/* ==========================================
-   CREATE RECIPE CARD
-========================================== */
-
-function createRecipeCard(recipe) {
-
-    const card =
-        document.createElement("article");
-
-    card.className =
-        "explore-card";
-
-    const image = recipe.image
-        ? BASE_PATH + recipe.image
-        : BASE_PATH + "assets/images/logo.png";
-
-    card.innerHTML = `
-
-        <img
-
-            src="${image}"
-
-            alt="${recipe.title}"
-
-            loading="lazy"
-
-            onerror="this.src='${BASE_PATH}assets/images/logo.png'"
-
-        >
-
-        <div class="card-content">
-
-            <h3>
-
-                ${recipe.title}
-
-            </h3>
-
-            <div class="card-footer">
-
-                <span class="recipe-category">
-
-                    ${recipe.category}
-
-                </span>
-
-                <span class="recipe-id">
-
-                    #${recipe.id}
-
-                </span>
-
-            </div>
-
+/* ================= ELEMENTS ================= */
+const recipeList = document.getElementById("recipeList");
+const searchInput = document.getElementById("searchInput");
+const filterButtons = document.querySelectorAll(".filters button");
+
+/* ================= LOAD DATA ================= */
+fetch("./data/index.json")
+	.then(res => {
+		if (!res.ok) throw new Error("HTTP " + res.status);
+		return res.json();
+	})
+	.then(data => {
+		recipes = Array.isArray(data) ? data : [];
+		render(recipes);
+	})
+	.catch(err => {
+		console.error("JSON ERROR:", err);
+		recipeList.innerHTML =
+			"<p style='text-align:center'>Failed to load recipes</p>";
+	});
+
+/* ================= RENDER GRID ================= */
+function render(list) {
+	recipeList.innerHTML = "";
+
+	if (!list.length) {
+		recipeList.innerHTML =
+			"<p style='text-align:center; grid-column:1/-1;'>No recipes found</p>";
+		return;
+	}
+
+	list.forEach(recipe => {
+		const card = document.createElement("div");
+		card.className = "explore-card";
+
+		card.innerHTML = `
+    <img src="${recipe.image}" alt="${recipe.title}">
+
+    <div class="card-content">
+        <h3>${recipe.title}</h3>
+
+        <div class="card-footer">
+            <span class="recipe-category">${recipe.category}</span>
+            <span class="recipe-id">#${recipe.id}</span>
         </div>
+    </div>
+`;
 
-    `;
+		card.addEventListener("click", () => {
+			window.location.href =
+				`recipe.html?file=${encodeURIComponent(recipe.file)}`;
+		});
 
-    card.addEventListener("click", () => {
-
-        if (!recipe.file)
-            return;
-
-        window.location.href =
-            BASE_PATH +
-            "recipe.html?file=" +
-            encodeURIComponent(recipe.file);
-
-    });
-
-    return card;
-
+		recipeList.appendChild(card);
+	});
 }
 
-/* ==========================================
-   RENDER RECIPES
-========================================== */
-
-function renderRecipes(list) {
-
-    if (!recipeList)
-        return;
-
-    recipeList.innerHTML = "";
-
-    if (!list.length) {
-
-        recipeList.innerHTML = `
-
-            <p class="error">
-
-                No recipes found.
-
-            </p>
-
-        `;
-
-        return;
-
-    }
-
-    const fragment =
-        document.createDocumentFragment();
-
-    list.forEach(recipe => {
-
-        fragment.appendChild(
-
-            createRecipeCard(recipe)
-
-        );
-
-    });
-
-    recipeList.appendChild(fragment);
-
-}
-   /* ==========================================
-   APPLY FILTERS
-========================================== */
-
+/* ================= FILTER LOGIC ================= */
 function applyFilters() {
 
-    const filteredRecipes = homeRecipes.filter(recipe => {
+	let filtered = recipes;
 
-        const category =
-            (recipe.category || "")
-                .toLowerCase();
+	// CATEGORY FILTER
+	if (selectedCategory !== "all") {
+		filtered = filtered.filter(r =>
+			r.category &&
+			r.category.toLowerCase() === selectedCategory.toLowerCase()
+		);
+	}
 
-        const title =
-            (recipe.title || "")
-                .toLowerCase();
+	// SEARCH FILTER
+	if (searchQuery.trim()) {
+		filtered = filtered.filter(r =>
+			r.title.toLowerCase().includes(searchQuery.toLowerCase())
+		);
+	}
 
-        const matchesCategory =
-            selectedCategory === "all" ||
-            category === selectedCategory.toLowerCase();
-
-        const matchesSearch =
-            searchQuery === "" ||
-            title.includes(searchQuery) ||
-            category.includes(searchQuery);
-
-        return (
-            matchesCategory &&
-            matchesSearch
-        );
-
-    });
-
-    renderRecipes(filteredRecipes);
-
+	render(filtered);
 }
 
-/* ==========================================
-   SEARCH
-========================================== */
-
-if (searchInput) {
-
-    searchInput.addEventListener(
-        "input",
-        event => {
-
-            searchQuery =
-                event.target.value
-                    .trim()
-                    .toLowerCase();
-
-            applyFilters();
-
-        }
-    );
-
-}
-
-/* ==========================================
-   CATEGORY BUTTONS
-========================================== */
-
-filterButtons.forEach(button => {
-
-    button.addEventListener(
-        "click",
-        () => {
-
-            filterButtons.forEach(btn =>
-                btn.classList.remove("active")
-            );
-
-            button.classList.add("active");
-
-            selectedCategory =
-                button.dataset.cat || "all";
-
-            applyFilters();
-
-        }
-    );
-
+/* ================= SEARCH ================= */
+searchInput.addEventListener("input", (e) => {
+	searchQuery = e.target.value;
+	applyFilters();
 });
 
-/* ==========================================
-   START
-========================================== */
+/* ================= CATEGORY BUTTONS ================= */
+filterButtons.forEach(btn => {
+	btn.addEventListener("click", () => {
 
-loadHomeRecipes();
+		filterButtons.forEach(b => b.classList.remove("active"));
+		btn.classList.add("active");
 
-})();
+		selectedCategory = btn.dataset.cat;
+		applyFilters();
+	});
+});
+
+});
