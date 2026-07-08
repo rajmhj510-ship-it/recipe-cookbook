@@ -1,0 +1,89 @@
+{
+  "id": "914",
+  "title": "Spaghetti Aglio e Olio",
+  "description": "Spaghetti Aglio e Olio is one of Italy's simplest and most iconic pasta dishes. Made with premium extra virgin olive oil, gently toasted garlic, red chili flakes, and fresh parsley, this classic recipe relies on quality ingredients and proper technique to create a silky, aromatic pasta with bold yet elegant flavor.",
+
+  "category": "Italian",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "image": "assets/images/italian/spaghetti-aglio-e-olio.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Spaghetti: 400 g (preferably 100% durum wheat, high-quality brand)",
+        "Garlic: 6–8 cloves, thinly sliced",
+        "Extra Virgin Olive Oil: 120 ml (use the best Italian EVOO available)",
+        "Red Chili Flakes: 1 tsp (adjust to taste)",
+        "Fresh Flat-Leaf Parsley: 20 g, finely chopped",
+        "Salt: for pasta water",
+        "Black Pepper: freshly ground, to taste",
+        "Optional Garnish: finely grated Parmigiano-Reggiano or Pecorino Romano (traditionalists often skip cheese)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Pasta Water",
+      "steps": [
+        "Bring a large pot of water to a rolling boil.",
+        "Salt generously (like seawater)."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Pasta",
+      "steps": [
+        "Add spaghetti and cook 1–2 minutes less than package instructions (al dente).",
+        "Reserve 1 cup of pasta water before draining."
+      ]
+    },
+    {
+      "title": "Step 3 – Infuse the Oil",
+      "steps": [
+        "In a large, heavy-bottomed skillet, warm the olive oil over medium-low heat.",
+        "Add garlic slices and sauté slowly until golden (not brown, about 2–3 minutes).",
+        "Add chili flakes and stir for 30 seconds to release aroma."
+      ]
+    },
+    {
+      "title": "Step 4 – Combine Pasta and Oil",
+      "steps": [
+        "Add drained spaghetti directly into the skillet.",
+        "Toss gently over low heat, adding reserved pasta water gradually to create a silky emulsion."
+      ]
+    },
+    {
+      "title": "Step 5 – Finish with Parsley",
+      "steps": [
+        "Stir in chopped parsley.",
+        "Adjust seasoning with salt and freshly ground black pepper."
+      ]
+    },
+    {
+      "title": "Step 6 – Serve Immediately",
+      "steps": [
+        "Optionally, sprinkle a tiny amount of high-quality cheese for non-traditional touch.",
+        "Drizzle a few drops of premium EVOO on top for shine."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately while hot.",
+      "Pair with crusty Italian bread or a fresh green salad.",
+      "Enjoy as a light main course or alongside grilled seafood."
+    ]
+  },
+
+  "chefTips": [
+    "Garlic slicing: Thin slices give a gentle, roasted flavor. Avoid mincing, which can burn.",
+    "Pasta water: Starchy water is key to binding the oil to spaghetti.",
+    "Olive oil quality: Invest in a fruity, peppery EVOO—it’s the main flavor.",
+    "Heat control: Keep garlic at low temperature; burnt garlic ruins the dish.",
+    "Serving timing: Serve immediately; this pasta doesn’t wait well."
+  ]
+}
