@@ -14,6 +14,16 @@ const exploreSection = document.querySelector("#explore");
 
 let cards = [];
 
+/* ================= POSITION CLASSES ================= */
+const POSITION_CLASSES = [
+    "center",
+    "left-1",
+    "left-2",
+    "right-1",
+    "right-2",
+    "hidden"
+];
+
 /* ================= AUTO SLIDE CONTROL ================= */
 let autoSlideTimer = null;
 const AUTO_TIME = 3000; // 3 seconds (change this value)
