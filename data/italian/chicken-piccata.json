@@ -1,0 +1,105 @@
+{
+  "id": "920",
+  "title": "Chicken Piccata",
+  "description": "Chicken Piccata is a classic Italian dish featuring tender pan-seared chicken breasts finished in a bright, velvety sauce made with white wine, fresh lemon juice, capers, and butter. Elegant yet simple, this restaurant-quality recipe delivers the perfect balance of richness, citrus, and briny flavors, making it an ideal choice for both casual dinners and fine dining.",
+
+  "category": "Italian",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/italian/chicken-piccata.png",
+
+  "ingredients": [
+    {
+      "title": "Chicken",
+      "items": [
+        "4 boneless, skinless chicken breasts (about 6 oz each)",
+        "Salt and freshly ground black pepper",
+        "½ cup all-purpose flour, for dredging",
+        "3 tbsp olive oil",
+        "2 tbsp unsalted butter"
+      ]
+    },
+    {
+      "title": "Sauce",
+      "items": [
+        "¾ cup dry white wine (e.g., Pinot Grigio)",
+        "1 cup low-sodium chicken stock",
+        "2 tbsp fresh lemon juice (from 1-2 lemons)",
+        "2 tbsp capers, rinsed",
+        "2 tbsp unsalted butter (cold, for finishing)",
+        "2 tbsp finely chopped fresh parsley"
+      ]
+    },
+    {
+      "title": "Optional Garnish",
+      "items": [
+        "Lemon slices, lightly seared or fresh",
+        "Microgreens or small parsley sprigs"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken",
+      "steps": [
+        "Place chicken breasts between two sheets of plastic wrap.",
+        "Gently pound to ½-inch thickness using a meat mallet, ensuring even cooking.",
+        "Season both sides generously with salt and pepper.",
+        "Lightly dredge each piece in flour, shaking off excess."
+      ]
+    },
+    {
+      "title": "Step 2 – Sear the Chicken",
+      "steps": [
+        "Heat olive oil in a large skillet over medium-high heat until shimmering.",
+        "Add chicken, cooking 3–4 minutes per side, until golden brown.",
+        "Remove chicken from the pan and keep warm on a plate covered loosely with foil."
+      ]
+    },
+    {
+      "title": "Step 3 – Make the Piccata Sauce",
+      "steps": [
+        "In the same pan, reduce heat to medium.",
+        "Deglaze with white wine, scraping the browned bits from the pan.",
+        "Simmer for 2–3 minutes until wine reduces slightly.",
+        "Add chicken stock, lemon juice, and capers. Simmer for 4–5 minutes until slightly thickened.",
+        "Remove from heat and whisk in cold butter pieces to create a glossy, velvety sauce. Taste and adjust seasoning."
+      ]
+    },
+    {
+      "title": "Step 4 – Finish the Dish",
+      "steps": [
+        "Return chicken to the pan briefly to warm, coating with sauce.",
+        "Sprinkle with fresh parsley.",
+        "Optionally, garnish with lemon slices or microgreens."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating",
+      "steps": [
+        "Place chicken breast slightly off-center on a warm plate.",
+        "Spoon sauce generously over the top, ensuring capers are visible.",
+        "Add lemon slice or microgreens for color contrast.",
+        "Serve immediately, paired with risotto, angel hair pasta, or sautéed vegetables."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with creamy risotto, angel hair pasta, or buttery mashed potatoes.",
+      "Pair with sautéed seasonal vegetables or roasted asparagus.",
+      "Garnish with fresh parsley and lemon slices for an elegant presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Pound evenly: Ensures the chicken cooks uniformly without drying out.",
+    "Deglaze with wine: Adds depth and acidity; never skip it.",
+    "Finish with cold butter: Emulsifies the sauce for a silky, glossy texture.",
+    "Capers: Rinse to remove excess salt; they provide a briny punch.",
+    "Heat management: Medium-high for searing, medium for sauce to avoid burning butter."
+  ]
+}
