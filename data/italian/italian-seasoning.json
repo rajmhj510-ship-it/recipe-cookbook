@@ -1,0 +1,74 @@
+{
+  "id": "921",
+  "title": "Italian Seasoning",
+  "description": "Italian Seasoning is a classic herb blend that combines fragrant Mediterranean herbs into a versatile, restaurant-quality seasoning. Balanced, aromatic, and herb-forward, this blend enhances pasta sauces, pizzas, roasted vegetables, marinades, dressings, and grilled meats while delivering authentic Italian flavor without overpowering the dish.",
+
+  "category": "Italian",
+  "time": "10 min",
+  "difficulty": "Easy",
+  "image": "assets/images/italian/italian-seasoning.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (by weight—chef standard for accuracy)",
+      "items": [
+        "10 g dried oregano (about 3 tbsp)",
+        "8 g dried basil (about 3 tbsp)",
+        "6 g dried thyme (about 2 tbsp)",
+        "5 g dried marjoram (about 2 tbsp)",
+        "4 g dried rosemary, lightly crushed (about 1 tbsp)",
+        "3 g dried sage (about 1 tbsp)",
+        "2 g dried savory (about 2 tsp) — optional but adds depth",
+        "1 g crushed red pepper (about ½ tsp) — subtle restaurant heat",
+        "1 g garlic granules (about ½ tsp) — very light, so it enhances without dominating"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Crush the Robust Herbs",
+      "steps": [
+        "Place rosemary and sage in your hand and rub to break them slightly; this releases aroma and gives a more refined texture."
+      ]
+    },
+    {
+      "title": "Step 2 – Mix All Herbs Evenly",
+      "steps": [
+        "Combine all herbs thoroughly.",
+        "A small whisk or gloved hand works best."
+      ]
+    },
+    {
+      "title": "Step 3 – Rest the Blend",
+      "steps": [
+        "Seal in an airtight container and let it sit 12–24 hours before use.",
+        "This allows volatile aromas to marry—standard restaurant practice."
+      ]
+    },
+    {
+      "title": "Step 4 – Store Properly",
+      "steps": [
+        "Keep sealed, away from heat and light.",
+        "Best flavor: 3–4 months, though safe up to a year."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "How Chefs Use This Blend (Pro Tips)",
+    "items": [
+      "Bloom the herbs: Add the seasoning to warm olive oil for 20–30 seconds before adding anything else. This wakes up the dried herbs and produces a deeper, rounder flavor.",
+      "Use late in cooking for bright dishes: For tomato sauces and seafood, add the blend in the last 5 minutes to avoid bitterness.",
+      "Use early for roasted meats/veg: Dry herbs develop beautifully with heat.",
+      "Add fresh herbs at the end (restaurant secret): A pinch of fresh basil, parsley, or thyme at plating elevates the dried blend into fine dining territory."
+    ]
+  },
+
+  "chefTips": [
+    "High-end kitchens avoid strong powdered garlic/onion. They use a touch only for balance.",
+    "Balanced, aromatic, herb-forward, not overly “Americanized,” with professional subtlety.",
+    "Works exceptionally well for pasta sauces, pizza, roasted vegetables, pasta salads, dressings & marinades.",
+    "Excellent as an Italian-style rub for chicken, pork, or fish."
+  ]
+}
