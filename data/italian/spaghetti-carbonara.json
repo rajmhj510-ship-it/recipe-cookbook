@@ -1,0 +1,84 @@
+{
+  "id": "912",
+  "title": "Spaghetti Carbonara",
+  "description": "Spaghetti Carbonara is one of Rome’s most iconic pasta dishes, celebrated for its rich yet simple combination of eggs, Pecorino Romano, guanciale, and freshly cracked black pepper. Made without cream, authentic Carbonara relies on proper technique to create a silky, glossy sauce that perfectly coats every strand of spaghetti.",
+
+  "category": "Italian",
+  "time": "25 min",
+  "difficulty": "Medium",
+  "image": "assets/images/italian/spaghetti-carbonara.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "200 g spaghetti (high-quality, bronze-cut if possible)",
+        "100 g guanciale (cured pork cheek, traditional; pancetta as substitute)",
+        "2 egg yolks (very fresh, room temperature)",
+        "1 whole egg",
+        "60 g Pecorino Romano, finely grated (plus extra for garnish)",
+        "Freshly cracked black pepper",
+        "Salt (for pasta water only)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Guanciale",
+      "steps": [
+        "Cut guanciale into lardons (matchstick strips).",
+        "Place in a cold heavy pan and slowly render over low-medium heat until golden and crisp.",
+        "Remove from heat, reserving the rendered fat in the pan."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Pasta",
+      "steps": [
+        "Bring a large pot of water to a rolling boil. Salt generously.",
+        "Cook spaghetti until al dente (1 minute less than package instructions).",
+        "Reserve at least 150 ml of pasta cooking water before draining."
+      ]
+    },
+    {
+      "title": "Step 3 – Make the Carbonara Cream",
+      "steps": [
+        "In a mixing bowl, whisk egg yolks + whole egg with finely grated Pecorino Romano until thick.",
+        "Add a generous grind of black pepper.",
+        "To prevent scrambling later, temper with a spoonful of warm pasta water until smooth and creamy."
+      ]
+    },
+    {
+      "title": "Step 4 – Combine",
+      "steps": [
+        "Return drained spaghetti to the pan with guanciale and rendered fat. Toss over low heat.",
+        "Remove pan from direct heat and quickly stir in the egg-cheese mixture, tossing vigorously.",
+        "Adjust consistency by adding reserved pasta water a little at a time until sauce is glossy and clings to each strand."
+      ]
+    },
+    {
+      "title": "Step 5 – Finish & Serve",
+      "steps": [
+        "Plate immediately.",
+        "Dust with extra Pecorino Romano and fresh cracked black pepper."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately while the sauce is silky and creamy.",
+      "Garnish with extra Pecorino Romano and freshly cracked black pepper.",
+      "Pair with crusty Italian bread and a fresh green salad."
+    ]
+  },
+
+  "chefTips": [
+    "Guanciale is key – it gives authentic depth of flavor that pancetta cannot match.",
+    "Never add cream – true Roman carbonara relies on eggs, cheese, and technique.",
+    "Control the heat – emulsify off the flame to avoid scrambled eggs.",
+    "Use Pecorino Romano – its sharpness balances the richness.",
+    "Work fast – the sauce should be silky, not clumpy."
+  ]
+}
