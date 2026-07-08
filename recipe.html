@@ -1,192 +1,62 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Recipe</title>
 
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <title>Recipe Details | Recipe Cookbook</title>
-
-
-    <meta name="description"
-        content="View complete recipe details including ingredients, cooking instructions, serving suggestions, and professional chef tips.">
-
-
-    <meta name="keywords"
-        content="recipe details, cooking instructions, ingredients, chef recipes, cookbook">
-
-
-    <meta name="author"
-        content="Recipe Cookbook">
-
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/recipe.css">
-
-
+	<link rel="stylesheet" href="css/recipe.css">
 </head>
-
 
 <body>
 
+	<!-- BACK BUTTON -->
+	<button class="back-btn" onclick="history.back()">
+		← Back
+	</button>
 
-    <!-- ================= BACK NAVIGATION ================= -->
+	<!-- HERO -->
+	<header id="hero">
+		<div class="hero-overlay">
+			<div class="hero-content">
 
-    <button class="back-btn"
-        type="button"
-        onclick="history.back()"
-        aria-label="Return to previous page">
+				<span class="recipe-category" id="category"></span>
 
-        <span aria-hidden="true">
-            ←
-        </span>
+				<h1 id="title">Loading Recipe...</h1>
 
-        Back
+				<!-- INTRO DESCRIPTION -->
+				<p class="recipe-description" id="description"></p>
 
-    </button>
+				<div class="recipe-meta">
+					<span id="time"></span>
+					<span id="difficulty"></span>
+				</div>
 
+			</div>
+		</div>
+	</header>
 
+	<!-- MAIN LAYOUT -->
+	<main class="recipe-layout">
 
-    <!-- ================= HERO SECTION ================= -->
+		<!-- INGREDIENTS -->
+		<aside class="ingredients-panel">
+			<div id="ingredients"></div>
+		</aside>
 
-    <header id="hero">
+		<!-- INSTRUCTIONS + TIPS -->
+		<section class="instructions-panel">
+    <div id="instructions"></div>
 
+    <div id="servingsuggestions"></div>
 
-        <div class="hero-overlay">
+    <div id="tips"></div>
+</section>
 
+	</main>
 
-            <div class="hero-content">
-
-
-                <!-- Recipe Category -->
-
-                <p class="recipe-category"
-                    id="category"
-                    aria-label="Recipe category">
-
-                </p>
-
-
-
-                <!-- Recipe Title -->
-
-                <h1 id="title">
-                    Loading Recipe...
-                </h1>
-
-
-
-                <!-- Recipe Introduction -->
-
-                <p class="recipe-description"
-                    id="description">
-
-                </p>
-
-
-
-                <!-- Recipe Information -->
-
-                <div class="recipe-meta"
-                    aria-label="Recipe information">
-
-
-                    <span id="time">
-                    </span>
-
-
-                    <span id="difficulty">
-                    </span>
-
-
-                </div>
-
-
-            </div>
-
-
-        </div>
-
-
-    </header>
-
-
-
-
-    <!-- ================= RECIPE DETAILS ================= -->
-
-
-    <main class="recipe-layout">
-
-
-
-        <!-- Ingredients Section -->
-
-        <aside class="ingredients-panel"
-            aria-labelledby="ingredients-title">
-
-
-            <h2 id="ingredients-title">
-                Ingredients
-            </h2>
-
-
-            <div id="ingredients">
-
-            </div>
-
-
-        </aside>
-
-
-
-
-
-        <!-- Cooking Instructions Section -->
-
-        <section class="instructions-panel"
-            aria-label="Cooking instructions">
-
-
-            <article id="instructions">
-
-            </article>
-
-
-
-            <section id="servingsuggestions"
-                aria-label="Serving suggestions">
-
-            </section>
-
-
-
-            <section id="tips"
-                aria-label="Chef tips">
-
-            </section>
-
-
-
-        </section>
-
-
-
-    </main>
-
-
-
-
-    <!-- JavaScript -->
-
-    <script src="js/recipe.js"></script>
-
+	<script src="js/recipe.js"></script>
 
 </body>
-
 </html>
-```
