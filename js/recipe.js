@@ -54,7 +54,14 @@ async function loadRecipe() {
 						${group.title ? `<h4>${group.title}</h4>` : ""}
 						<ul>
 							${(group.items || [])
-								.map(i => `<li>${safeText(i)}</li>`)
+								.map(i => `
+<li class="ingredient-item">
+    <label>
+        <input type="checkbox" class="ingredient-check">
+        <span>${safeText(i)}</span>
+    </label>
+</li>
+`)
 								.join("")}
 						</ul>
 					`).join("")}
