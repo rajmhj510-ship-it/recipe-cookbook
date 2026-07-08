@@ -1,0 +1,98 @@
+{
+  "id": "909",
+  "title": "Neapolitan Pizza",
+  "description": "Neapolitan Pizza",
+
+  "category": "Italian",
+  "time": "12 hr",
+  "difficulty": "Medium",
+  "image": "assets/images/italian/neapolitan-pizza.png",
+
+  "ingredients": [
+    {
+      "title": "For the Dough",
+      "items": [
+        "600 g “00” flour (finely milled Italian flour; Caputo is ideal)",
+        "380 ml water (room temperature, ~62–65% hydration)",
+        "15 g fine sea salt",
+        "2 g fresh yeast (or 1 g active dry yeast)"
+      ]
+    },
+    {
+      "title": "For the Sauce",
+      "items": [
+        "400 g San Marzano DOP tomatoes (whole, peeled)",
+        "1 tbsp extra virgin olive oil",
+        "Pinch of fine sea salt",
+        "2–3 fresh basil leaves"
+      ]
+    },
+    {
+      "title": "For the Topping (per pizza)",
+      "items": [
+        "80–100 g fresh mozzarella di bufala (buffalo mozzarella), drained and torn into pieces",
+        "2–3 fresh basil leaves",
+        "1–2 tsp extra virgin olive oil (for drizzling)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Dough Preparation",
+      "steps": [
+        "In a large bowl, dissolve yeast in the water.",
+        "Gradually add flour, mixing gently by hand or with a dough scraper.",
+        "Once half the flour is incorporated, add the salt. Continue mixing until a shaggy dough forms.",
+        "Knead on a clean surface for 10–15 minutes until smooth, elastic, and slightly tacky (or use a stand mixer on low speed for ~8 minutes).",
+        "Cover and let rest at room temperature for 2 hours.",
+        "Divide dough into 4 balls (~250 g each), shape tightly, and place in a proofing box or lightly floured tray.",
+        "Cover and ferment at room temperature for 8–12 hours (or cold ferment in the fridge for 24 hours for deeper flavor)."
+      ]
+    },
+    {
+      "title": "Step 2 – Tomato Sauce",
+      "steps": [
+        "Crush San Marzano tomatoes by hand or with a food mill.",
+        "Stir in olive oil, salt, and torn basil.",
+        "Do not overcook or puree smooth—texture is key."
+      ]
+    },
+    {
+      "title": "Step 3 – Shaping",
+      "steps": [
+        "Preheat oven with a pizza stone/steel to its maximum temperature (ideally 450–500°C in a wood-fired oven, or 280–300°C in a home oven with steel).",
+        "On a floured surface, gently press one dough ball from the center outward, leaving a 2–3 cm rim for the cornicione (crust).",
+        "Stretch to ~25–28 cm (10–11 inches) without using a rolling pin."
+      ]
+    },
+    {
+      "title": "Step 4 – Assembly",
+      "steps": [
+        "Spread 2–3 tbsp of tomato sauce over the base.",
+        "Add torn mozzarella evenly.",
+        "Place fresh basil leaves and drizzle lightly with olive oil."
+      ]
+    },
+    {
+      "title": "Step 5 – Baking",
+      "steps": [
+        "Wood-fired oven: Bake for 60–90 seconds at ~450–500°C until the crust is leopard-spotted, puffy, and slightly charred.",
+        "Home oven with stone/steel: Bake for 5–7 minutes at maximum heat, finishing with a quick broil if needed for blistering."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Yield",
+    "items": [
+      "4 Pizzas (about 250 g each)"
+    ]
+  },
+
+  "chefTips": [
+    "The hallmark of Pizza Napoletana is the airy cornicione (puffed crust) with leopard spotting.",
+    "Keep toppings minimal—simplicity is key to balance.",
+    "Always use high-quality ingredients (Caputo “00” flour, San Marzano tomatoes, buffalo mozzarella, extra virgin olive oil)."
+  ]
+}
