@@ -119,12 +119,26 @@ body {
 .hero-recipe-title {
 	font-size: 1.5rem;
 	color: #0b2a7b;
+
+	opacity: 1;
+	transform: translateY(0);
+
+	transition:
+		opacity .35s ease,
+		transform .35s ease;
 }
 
 .recipe-meta {
 	font-size: 1rem;
 	color: #777;
 	margin-top: 5px;
+
+	opacity: 1;
+	transform: translateY(0);
+
+	transition:
+		opacity .35s ease,
+		transform .35s ease;
 }
 
 /* ================= SCROLL BUTTON ================= */
