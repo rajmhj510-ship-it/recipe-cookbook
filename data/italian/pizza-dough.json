@@ -1,0 +1,80 @@
+{
+  "id": "904",
+  "title": "Pizza Dough",
+  "description": "Pizza Dough",
+
+  "category": "Italian",
+  "time": "48 hr",
+  "difficulty": "Medium",
+  "image": "assets/images/italian/pizza-dough.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "500 g (3 ¾ cups) Italian “00” flour (ideal for pizza; substitute bread flour if unavailable)",
+        "325 ml (1 ⅓ cups + 1 tbsp) cold water",
+        "2 g (½ tsp) fresh yeast (or 1 g dry yeast — very little is used for slow fermentation)",
+        "15 g (1 tbsp) fine sea salt",
+        "15 ml (1 tbsp) extra virgin olive oil (optional, for tenderness)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Mixing",
+      "steps": [
+        "Dissolve the yeast in the cold water.",
+        "Add about 10% of the flour and mix to form a slurry.",
+        "Gradually incorporate the remaining flour and salt until the dough comes together.",
+        "Knead by hand (15 min) or mixer (8 min, low speed) until smooth and elastic.",
+        "The dough should be soft, slightly tacky, but not sticky."
+      ]
+    },
+    {
+      "title": "Step 2 – First Rest (Bulk Fermentation)",
+      "steps": [
+        "Shape into a ball, cover, and rest at room temperature for 1 hour.",
+        "Refrigerate (covered) for 12–48 hours.",
+        "This slow cold fermentation develops deep flavor and digestibility."
+      ]
+    },
+    {
+      "title": "Step 3 – Portioning & Proofing",
+      "steps": [
+        "Remove from fridge, divide into 4 equal dough balls (~200–220 g each).",
+        "Shape tightly into balls, place in a floured tray or covered box.",
+        "Let rise at room temperature 4–6 hours until doubled, soft, and airy."
+      ]
+    },
+    {
+      "title": "Step 4 – Stretching & Baking",
+      "steps": [
+        "Preheat oven to its maximum (250–300 °C / 480–570 °F).",
+        "If possible, use a pizza stone or steel preheated for at least 45 min.",
+        "Lightly flour the surface, press dough gently from the center outward — do not use a rolling pin.",
+        "This preserves the airy cornicione (puffy crust).",
+        "Top with high-quality Italian ingredients (San Marzano tomatoes, mozzarella di bufala, fresh basil, drizzle of olive oil).",
+        "Home oven (with stone/steel): Bake for 6–8 minutes.",
+        "Professional wood-fired oven (450–480 °C): Bake for 60–90 seconds."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Top with your favorite pizza sauce, cheese, and fresh toppings before baking.",
+      "Best baked on a preheated pizza stone or steel for an authentic crust."
+    ]
+  },
+
+  "chefTips": [
+    "Flour: Italian “00” with high W value (280–320) gives elasticity and chew.",
+    "Water: Cold water slows fermentation and strengthens gluten.",
+    "Yeast: Minimal yeast, long fermentation = better flavor and digestibility.",
+    "Hydration: This recipe is ~65% hydration (water-to-flour ratio) for softness and airy texture.",
+    "Fermentation: 24–48 hours cold ferment is the secret to top pizzerias."
+  ]
+}
