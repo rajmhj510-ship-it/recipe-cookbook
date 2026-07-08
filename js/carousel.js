@@ -124,8 +124,11 @@ function updateCarousel(newIndex) {
 		else card.classList.add("hidden");
 	});
 
-	titleEl.style.opacity = "0";
-	metaEl.style.opacity = "0";
+titleEl.style.opacity = "0";
+metaEl.style.opacity = "0";
+
+titleEl.style.transform = "translateY(12px)";
+metaEl.style.transform = "translateY(12px)";
 
 	setTimeout(() => {
 		const r = recipes[currentIndex];
@@ -133,8 +136,11 @@ function updateCarousel(newIndex) {
 		titleEl.textContent = r.title;
 		metaEl.textContent = `${r.time} • ${r.difficulty}`;
 
-		titleEl.style.opacity = "1";
-		metaEl.style.opacity = "1";
+titleEl.style.opacity = "1";
+metaEl.style.opacity = "1";
+
+titleEl.style.transform = "translateY(0)";
+metaEl.style.transform = "translateY(0)";
 	}, 250);
 
 	setTimeout(() => {
