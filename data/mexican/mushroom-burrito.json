@@ -1,0 +1,104 @@
+{
+  "id": "622",
+  "title": "Mushroom Burrito",
+  "description": "Mushroom Burritos are packed with sautéed mixed mushrooms, vegetables, warm spices, and fresh herbs, then wrapped in soft flour tortillas. Finished with avocado, salsa, and a lightly toasted exterior, they make a hearty vegetarian Mexican meal.",
+
+  "category": "Mexican",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/mushroom-burrito.png",
+
+  "ingredients": [
+    {
+      "title": "For the Burrito Filling",
+      "items": [
+        "Mixed mushrooms (cremini, shiitake, oyster), sliced – 500 g",
+        "Medium onion, finely diced – 1",
+        "Garlic cloves, minced – 2",
+        "Red bell pepper, diced – 1",
+        "Small zucchini, diced – 1",
+        "Olive oil – 1 tbsp",
+        "Smoked paprika – 1 tsp",
+        "Ground cumin – 1 tsp",
+        "Chili powder – ½ tsp (adjust to taste)",
+        "Salt & freshly ground black pepper",
+        "Fresh cilantro, chopped – 2 tbsp",
+        "Lime juice – 1 tbsp"
+      ]
+    },
+    {
+      "title": "Optional Add-ins",
+      "items": [
+        "Black beans (cooked or canned) – 1 cup",
+        "Corn kernels – ½ cup",
+        "Shredded cheese (queso fresco or Oaxaca)"
+      ]
+    },
+    {
+      "title": "For the Burrito Wrap",
+      "items": [
+        "Large flour tortillas (10–12 inch) – 4",
+        "Sour cream or crema – for drizzling",
+        "Salsa verde or roja – for serving",
+        "Fresh avocado slices"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Sauté the Vegetables",
+      "steps": [
+        "Heat olive oil in a large skillet over medium-high heat.",
+        "Add onion and garlic; sauté until translucent (2–3 min).",
+        "Add bell pepper, zucchini, and mushrooms; cook until mushrooms release moisture and it evaporates, about 7–8 min.",
+        "Season with smoked paprika, cumin, chili powder, salt, and pepper. Stir well."
+      ]
+    },
+    {
+      "title": "Step 2 – Finish the Filling",
+      "steps": [
+        "Remove from heat.",
+        "Stir in lime juice and chopped cilantro.",
+        "If using, fold in black beans and corn at this stage."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Burrito",
+      "steps": [
+        "Warm tortillas lightly in a skillet or oven.",
+        "Place a generous amount of mushroom mixture in the center.",
+        "Add shredded cheese if using, avocado slices, and a drizzle of sour cream.",
+        "Fold sides over the filling and roll tightly into a burrito."
+      ]
+    },
+    {
+      "title": "Step 4 – Optional Pan-Seared Finish",
+      "steps": [
+        "Heat a dry skillet over medium heat and lightly toast each burrito, seam side down, for 1–2 minutes per side for a crispy, restaurant-style finish."
+      ]
+    },
+    {
+      "title": "Step 5 – Serve",
+      "steps": [
+        "Serve with salsa verde or roja on the side, with extra cilantro and lime wedges for garnish."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with salsa verde or roja, guacamole, and sour cream.",
+      "Pair with Mexican rice, black beans, or a fresh salad.",
+      "Garnish with extra cilantro and lime wedges."
+    ]
+  },
+
+  "chefTips": [
+    "Use a mix of mushrooms for depth of flavor.",
+    "Roast or sauté vegetables at high heat to get caramelization.",
+    "Fresh lime juice and cilantro at the end brighten the dish.",
+    "Toasting the burrito adds a professional touch and texture."
+  ]
+}
