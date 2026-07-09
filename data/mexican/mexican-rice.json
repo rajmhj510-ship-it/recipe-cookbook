@@ -1,0 +1,83 @@
+{
+  "id": "619",
+  "title": "Mexican Rice (Arroz Rojo)",
+  "description": "Mexican Rice (Arroz Rojo) is a classic side dish made with toasted long-grain rice simmered in a flavorful tomato and stock base. Light, fluffy, and aromatic, it pairs beautifully with tacos, enchiladas, grilled meats, and many traditional Mexican dishes.",
+
+  "category": "Mexican",
+  "time": "40 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/mexican-rice.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Long-grain white rice (preferably extra-long, not parboiled) – 1 cup",
+        "Neutral oil (vegetable, canola, or rendered chicken fat for depth) – 2 tbsp",
+        "Medium white onion, finely chopped – 1 (about ½ cup)",
+        "Garlic cloves, minced – 2",
+        "Medium ripe tomato (or ½ cup tomato purée) – 1",
+        "Chicken stock (unsalted, or vegetable stock for vegetarian option) – 1½ cups",
+        "Ground cumin – ½ tsp",
+        "Kosher salt – ½ tsp (adjust to taste)",
+        "Black pepper – ¼ tsp",
+        "Whole serrano chiles – 1–2 (optional, for aroma & light heat, not chopped)",
+        "Frozen peas & carrots – ¼ cup (optional, traditional in many Mexican homes)",
+        "Fresh cilantro, chopped – 1 tbsp (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prep the Base",
+      "steps": [
+        "In a blender, purée the tomato, onion, and garlic until smooth. Add a splash of stock if needed. You should have about 1 cup purée."
+      ]
+    },
+    {
+      "title": "Step 2 – Toast the Rice",
+      "steps": [
+        "Heat oil in a heavy-bottomed saucepan or sauté pan over medium heat.",
+        "Add rice and toast, stirring constantly, until golden and nutty (6–8 min). This step ensures a fluffy, non-sticky texture."
+      ]
+    },
+    {
+      "title": "Step 3 – Build Flavor",
+      "steps": [
+        "Stir in the tomato purée, letting it fry with the rice until it thickens and deepens in color (3–4 min).",
+        "Add cumin, salt, and pepper."
+      ]
+    },
+    {
+      "title": "Step 4 – Simmer",
+      "steps": [
+        "Pour in the stock, add the serrano chiles (whole), and bring to a gentle boil.",
+        "Reduce to low heat, cover tightly, and cook for 18 minutes without lifting the lid."
+      ]
+    },
+    {
+      "title": "Step 5 – Rest & Finish",
+      "steps": [
+        "Turn off heat, leave covered, and let rest for 10 minutes to finish steaming.",
+        "Fluff gently with a fork, fold in peas & carrots if using, and garnish with cilantro."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve as a side dish with enchiladas, carne asada, mole, or roasted chicken.",
+      "For a fine-dining plating: mold rice into a ring mold or ramekin for elegant presentation, topped with micro-cilantro."
+    ]
+  },
+
+  "chefTips": [
+    "Rice selection matters: Use long-grain rice, never short-grain. Rinse 2–3 times until water runs clear to remove excess starch.",
+    "Oil-toasting step is key: Creates separation of grains.",
+    "Stock vs. water: Always use a flavorful stock for depth, but ensure it's low sodium so salt can be controlled.",
+    "Whole chile infusion: Traditional in top kitchens for subtle heat & aroma. Remove before serving.",
+    "No peeking while cooking: Steam escapes and rice becomes uneven."
+  ]
+}
