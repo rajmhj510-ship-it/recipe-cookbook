@@ -1,0 +1,111 @@
+{
+  "id": "507",
+  "title": "Authentic Nepali Mustang Aloo",
+  "description": "Mustang Aloo is a traditional Nepali potato dish from the high-altitude Mustang region, famous for its bold Himalayan flavors. Made with locally grown potatoes, mustard oil, timur, garlic, and aromatic spices, this dish delivers a perfect balance of crispy texture, spicy heat, and earthy mountain flavors.",
+  "category": "Nepali",
+  "time": "40 min",
+  "difficulty": "Easy",
+  "image": "assets/images/nepali/mustang-aloo.png",
+
+  "ingredients": [
+    {
+      "title": "For the Potatoes",
+      "items": [
+        "Mustang potatoes (or baby potatoes) – 800 g, washed and cleaned",
+        "Salt – 1½ tsp for boiling",
+        "Water – enough for boiling"
+      ]
+    },
+    {
+      "title": "For the Spiced Mustard Oil Base",
+      "items": [
+        "Mustard oil – 4 tbsp",
+        "Garlic – 6 cloves, finely chopped",
+        "Ginger – 1 inch piece, finely chopped",
+        "Dried red chilies – 3–4, broken into pieces",
+        "Timur (Nepali Sichuan pepper) – 1½ tsp, lightly crushed"
+      ]
+    },
+    {
+      "title": "For the Himalayan Spice Mix",
+      "items": [
+        "Cumin powder – 1 tsp",
+        "Coriander powder – 1½ tsp",
+        "Turmeric powder – ½ tsp",
+        "Kashmiri red chili powder – 1½ tsp",
+        "Black pepper powder – ½ tsp",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "For Finishing",
+      "items": [
+        "Fresh coriander leaves – small handful, chopped",
+        "Spring onions – 2 tbsp, chopped (optional)",
+        "Fresh lemon juice – 1½ tbsp",
+        "Roasted sesame seeds – 1 tbsp (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Potatoes",
+      "steps": [
+        "Wash Mustang potatoes thoroughly to remove soil.",
+        "Boil potatoes in salted water until just tender but still firm.",
+        "Drain, cool slightly, and cut into large bite-sized pieces. Keep the skin on for authentic rustic flavor."
+      ]
+    },
+    {
+      "title": "Step 2 – Creating the Mustard Oil Flavor",
+      "steps": [
+        "Heat mustard oil in a heavy pan until it reaches smoking point, then reduce the heat.",
+        "Add garlic, ginger, and dried red chilies. Fry until aromatic and lightly golden.",
+        "Add crushed timur and allow it to release its citrusy Himalayan aroma."
+      ]
+    },
+    {
+      "title": "Step 3 – Spicing the Potatoes",
+      "steps": [
+        "Add turmeric, cumin powder, coriander powder, chili powder, black pepper, and salt.",
+        "Stir the spices quickly in the oil to bloom their flavors without burning.",
+        "Add boiled potatoes and gently toss until every piece is coated with the spice mixture."
+      ]
+    },
+    {
+      "title": "Step 4 – Crisping the Mustang Aloo",
+      "steps": [
+        "Cook on medium heat for 8–12 minutes, turning occasionally.",
+        "Allow the potatoes to develop a golden crispy exterior while absorbing the Himalayan spices.",
+        "Avoid stirring too aggressively to keep the potato pieces intact."
+      ]
+    },
+    {
+      "title": "Step 5 – Final Touch",
+      "steps": [
+        "Turn off the heat and add lemon juice.",
+        "Garnish with fresh coriander, spring onions, and roasted sesame seeds.",
+        "Rest for 5 minutes before serving to allow flavors to settle."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with traditional Nepali dal bhat.",
+      "Enjoy as a snack with chiura (beaten rice) and achar.",
+      "Pairs beautifully with sekuwa, grilled meat, or Himalayan tea.",
+      "Serve as a rustic side dish for a Nepali mountain-style meal."
+    ]
+  },
+
+  "chefTips": [
+    "Use firm potatoes like Mustang potatoes because they hold their shape and become crispy outside.",
+    "Mustard oil should be heated properly before cooking to remove its raw pungency.",
+    "Timur is the signature spice that gives authentic Nepali mountain flavor.",
+    "Keep potato pieces slightly large to achieve a rustic traditional texture.",
+    "For deeper flavor, rest the cooked Mustang Aloo for 10–15 minutes before serving."
+  ]
+}
