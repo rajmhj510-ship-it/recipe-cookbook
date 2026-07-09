@@ -3,10 +3,10 @@
   "title": "Fried Eggs",
   "description": "Fried Eggs are a timeless breakfast favorite featuring perfectly set whites and rich, runny yolks. Cooked gently over low heat with butter or olive oil, they deliver a delicate texture and are ideal for a classic continental breakfast or brunch.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "10 min",
   "difficulty": "Easy",
-  "image": "assets/images/breakfast/fried-eggs.png",
+  "image": "assets/images/continental/fried-eggs.png",
 
   "ingredients": [
     {
