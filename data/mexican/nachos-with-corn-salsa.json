@@ -1,0 +1,101 @@
+{
+  "id": "612",
+  "title": "Nachos with Corn Salsa",
+  "description": "Crispy tortilla chips layered with melted cheese and topped with fresh roasted corn salsa create a colorful and flavorful Mexican appetizer. The smoky sweetness of roasted corn perfectly complements the gooey cheese and crunchy chips for a restaurant-quality dish.",
+
+  "category": "Mexican",
+  "time": "25 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/nachos-with-corn-salsa.png",
+
+  "ingredients": [
+    {
+      "title": "For the Nachos",
+      "items": [
+        "High-quality corn tortilla chips (homemade preferred) – 300 g",
+        "Shredded cheese blend (cheddar, Monterey Jack, and Oaxaca) – 200 g",
+        "Cooked shredded chicken or slow-cooked beef – 150 g (optional)",
+        "Butter, melted – 2 tbsp",
+        "Smoked paprika – 1 tsp",
+        "Chili powder – 1 tsp",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "For the Corn Salsa",
+      "items": [
+        "Fresh corn kernels (or roasted if possible) – 1 cup",
+        "Small red bell pepper, finely diced – 1",
+        "Small red onion, finely diced – ½",
+        "Small jalapeño, deseeded and finely chopped – 1",
+        "Fresh cilantro, chopped – 2 tbsp",
+        "Freshly squeezed lime juice – 1 tbsp",
+        "Olive oil – 1 tsp",
+        "Salt and pepper – to taste"
+      ]
+    },
+    {
+      "title": "Optional Garnishes",
+      "items": [
+        "Sour cream or Mexican crema",
+        "Guacamole or sliced avocado",
+        "Pickled red onions",
+        "Extra fresh cilantro",
+        "Sliced radishes"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Corn Salsa",
+      "steps": [
+        "Heat a small skillet over medium heat with 1 tsp olive oil.",
+        "Add corn kernels and roast lightly until slightly charred (~5 min).",
+        "In a mixing bowl, combine roasted corn, red bell pepper, red onion, jalapeño, and cilantro.",
+        "Add lime juice, salt, and pepper. Mix well and set aside to allow flavors to meld."
+      ]
+    },
+    {
+      "title": "Step 2 – Season the Nachos",
+      "steps": [
+        "Preheat the oven to 180°C (350°F).",
+        "Toss tortilla chips lightly in melted butter, smoked paprika, chili powder, and a pinch of salt.",
+        "Spread chips evenly on a baking sheet or oven-safe platter."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble and Bake",
+      "steps": [
+        "Sprinkle shredded cheese evenly over chips.",
+        "Add cooked chicken or beef evenly if using.",
+        "Bake in the oven for 5–7 minutes, or until cheese melts and becomes slightly bubbly."
+      ]
+    },
+    {
+      "title": "Step 4 – Finish and Serve",
+      "steps": [
+        "Remove nachos from the oven.",
+        "Spoon generous amounts of corn salsa over the top.",
+        "Add optional garnishes like sour cream, guacamole, pickled onions, or fresh cilantro.",
+        "Serve immediately while warm and crisp."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately while warm and crisp.",
+      "Pair with salsa verde, salsa roja, or extra guacamole.",
+      "Perfect as an appetizer, party snack, or casual meal."
+    ]
+  },
+
+  "chefTips": [
+    "Chips: For ultimate crunch, lightly fry fresh corn tortillas at home instead of store-bought chips.",
+    "Cheese: A mix of melting cheeses and a touch of sharp cheddar gives both gooey texture and flavor depth.",
+    "Corn Salsa: Roast the corn for a smoky, restaurant-quality taste.",
+    "Presentation: Layer toppings carefully to avoid soggy chips and make the dish visually striking."
+  ]
+}
