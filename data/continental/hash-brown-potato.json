@@ -1,0 +1,86 @@
+{
+  "id": "311",
+  "title": "Hash Brown Potato",
+  "description": "Hash Brown Potato is a classic continental breakfast side made from grated potatoes cooked until perfectly golden and crisp on the outside while remaining tender inside. This professional restaurant-style method produces a beautifully lacy crust with exceptional texture and flavor.",
+
+  "category": "Breakfast",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/hash-brown-potato.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (Serves 4)",
+      "items": [
+        "4 medium Russet potatoes (starchy variety, ~600 g)",
+        "2 tbsp clarified butter (or unsalted butter + oil mix for flavor & stability)",
+        "2 tbsp neutral oil (canola, sunflower, or grapeseed)",
+        "1 small shallot, very finely minced (optional, for aromatic depth)",
+        "1 tsp fine sea salt",
+        "½ tsp freshly ground black pepper",
+        "1 tsp fresh chives or parsley, finely chopped (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prep the Potatoes",
+      "steps": [
+        "Peel the potatoes and grate them on the large holes of a box grater.",
+        "Immediately rinse the grated potatoes in ice-cold water until the water runs clear (this removes excess starch and prevents gumminess).",
+        "Drain and squeeze out moisture thoroughly using a clean kitchen towel or cheesecloth—dryness is key to crispness."
+      ]
+    },
+    {
+      "title": "2. Par-Cook (for Extra Crispness)",
+      "steps": [
+        "Place the squeezed potatoes in a bowl and cover with boiling water for 1–2 minutes.",
+        "Drain and chill in ice water, then squeeze dry again.",
+        "This step gelatinizes starch slightly, giving a restaurant-style crust."
+      ]
+    },
+    {
+      "title": "3. Season & Bind",
+      "steps": [
+        "Mix the potatoes with a little salt, pepper, and optional shallots.",
+        "Optional: Add 1 tbsp flour or 1 lightly beaten egg if you want a more uniform patty, but purists use only potatoes."
+      ]
+    },
+    {
+      "title": "4. Cook",
+      "steps": [
+        "Heat a non-stick pan or cast-iron skillet over medium heat.",
+        "Add butter and oil mixture.",
+        "Spread a thin, even layer of potatoes (about ½ inch thick) and gently press with a spatula.",
+        "Cook slowly for 6–8 minutes per side, resisting the urge to flip too early.",
+        "The exterior should be golden brown, crisp, and lacy, while the inside remains tender."
+      ]
+    },
+    {
+      "title": "5. Finish & Plate",
+      "steps": [
+        "Transfer to a paper towel briefly to remove excess oil.",
+        "Plate as a round or square portion, garnish with fresh chives or parsley.",
+        "Serve hot."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Breakfast Plate: With poached eggs, smoked salmon, or classic English breakfast elements.",
+      "Fine Dining: As a crisp potato base for seared beef medallions or grilled fish.",
+      "Garnish Upgrade: Top with crème fraîche and caviar for a luxurious touch."
+    ]
+  },
+
+  "chefTips": [
+    "Immediately rinse the grated potatoes in ice-cold water until the water runs clear (this removes excess starch and prevents gumminess).",
+    "Drain and squeeze out moisture thoroughly using a clean kitchen towel or cheesecloth—dryness is key to crispness.",
+    "This step gelatinizes starch slightly, giving a restaurant-style crust.",
+    "Cook slowly for 6–8 minutes per side, resisting the urge to flip too early.",
+    "The exterior should be golden brown, crisp, and lacy, while the inside remains tender."
+  ]
+}
