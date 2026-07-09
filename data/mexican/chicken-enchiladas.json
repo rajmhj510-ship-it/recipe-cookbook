@@ -1,0 +1,102 @@
+{
+  "id": "620",
+  "title": "Chicken Enchiladas (Enchiladas de Pollo)",
+  "description": "Chicken Enchiladas (Enchiladas de Pollo) are tender corn tortillas filled with shredded chicken, rolled in a rich homemade red chile sauce, topped with melted cheese, and baked until bubbly. A classic Mexican comfort dish perfect for a restaurant-quality meal at home.",
+
+  "category": "Mexican",
+  "time": "75 min",
+  "difficulty": "Medium",
+  "image": "assets/images/mexican/chicken-enchiladas.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Chicken breasts or thighs, boneless – 2 lbs (900 g)",
+        "Small onion, quartered – 1",
+        "Garlic cloves – 2",
+        "Salt – 1 tsp",
+        "Black pepper – ½ tsp",
+        "Chicken broth or water – 2 cups (480 ml)"
+      ]
+    },
+    {
+      "title": "For the Enchilada Sauce (Red Chile Sauce)",
+      "items": [
+        "Dried guajillo chiles, stems and seeds removed – 4",
+        "Dried ancho chiles, stems and seeds removed – 2",
+        "Garlic cloves – 2",
+        "Small onion – ½",
+        "Cumin – 1 tsp",
+        "Dried oregano – 1 tsp",
+        "Chicken broth – 2 cups (480 ml)",
+        "Salt and pepper – to taste",
+        "Vegetable oil – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Enchiladas",
+      "items": [
+        "Corn tortillas (softened in oil or steamed) – 12",
+        "Shredded cheese (Mexican blend, Oaxaca, or Chihuahua cheese) – 1½ cups (170 g)",
+        "Sour cream or Mexican crema – ½ cup (120 ml)",
+        "Fresh cilantro, chopped – for garnish",
+        "Optional: diced onions, sliced avocado, pickled jalapeños"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Cook the Chicken",
+      "steps": [
+        "In a medium pot, combine chicken, onion, garlic, salt, pepper, and chicken broth.",
+        "Bring to a boil, then reduce to a simmer for 20–25 minutes, until chicken is fully cooked.",
+        "Remove chicken, shred finely with two forks, and set aside. Reserve 1 cup of broth for sauce if needed."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Red Enchilada Sauce",
+      "steps": [
+        "Toast dried chiles lightly in a dry skillet over medium heat for 1–2 minutes (don't burn).",
+        "Soak the chiles in hot water for 15–20 minutes until soft. Drain.",
+        "In a blender, combine softened chiles, garlic, onion, cumin, oregano, and 1 cup chicken broth. Blend until smooth.",
+        "Heat 1 tbsp oil in a saucepan over medium heat. Pour in blended sauce, simmer for 10–12 minutes.",
+        "Season with salt and pepper. If sauce is too thick, add reserved chicken broth."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Enchiladas",
+      "steps": [
+        "Preheat oven to 375°F (190°C).",
+        "Lightly oil a baking dish.",
+        "Dip each tortilla into the warm sauce to coat, then fill with shredded chicken and a sprinkle of cheese. Roll tightly and place seam-side down in the baking dish.",
+        "Pour remaining sauce over the top of the rolled enchiladas. Sprinkle remaining cheese evenly."
+      ]
+    },
+    {
+      "title": "Step 4 – Bake and Serve",
+      "steps": [
+        "Bake in preheated oven for 15–20 minutes until cheese is melted and bubbly.",
+        "Garnish with chopped cilantro, a drizzle of crema, and optional avocado slices or pickled jalapeños.",
+        "Serve immediately with Mexican rice or refried beans for a full restaurant-quality experience."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with Mexican rice or refried beans for a complete meal.",
+      "Pair with guacamole, fresh salsa, and tortilla chips.",
+      "Garnish with extra cilantro, crema, and lime wedges before serving."
+    ]
+  },
+
+  "chefTips": [
+    "Tortillas: Use fresh corn tortillas and lightly fry or steam before rolling to prevent cracking.",
+    "Sauce Depth: Toasting chiles and simmering the sauce develops complex flavors.",
+    "Cheese: Oaxaca cheese melts beautifully and adds an authentic Mexican touch.",
+    "Presentation: Drizzle crema in a zig-zag, sprinkle finely chopped cilantro, and place avocado slices symmetrically for a professional finish."
+  ]
+}
