@@ -1,0 +1,84 @@
+{
+  "id": "606",
+  "title": "Flour Tortillas (Soft & Chewy)",
+  "description": "Soft, chewy, and beautifully pliable, these traditional flour tortillas are made using a simple dough of flour, fat, and warm water. Resting the dough and cooking on a hot skillet creates tender tortillas perfect for tacos, burritos, wraps, and quesadillas.",
+
+  "category": "Mexican",
+  "time": "70 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/flour-tortillas.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "All-purpose flour (high quality, 11–12% protein preferred) – 500 g (4 cups)",
+        "Fine sea salt – 10 g (2 tsp)",
+        "Baking powder – 7 g (2 tsp, optional, for a slightly puffier tortilla)",
+        "Lard – 75 g (⅓ cup, traditional) or neutral vegetable shortening (substitute: butter or neutral oil, but lard gives the best flavor & chew)",
+        "Warm water (around 45°C / 110°F) – 300 ml (1¼ cups)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Mix the Dough",
+      "steps": [
+        "In a large bowl, whisk together flour, salt, and baking powder.",
+        "Add the lard and rub it into the flour with fingertips until the texture resembles coarse sand.",
+        "Slowly add warm water while mixing until a shaggy dough forms."
+      ]
+    },
+    {
+      "title": "Step 2 – Knead for Gluten Development",
+      "steps": [
+        "Transfer to a clean surface and knead 8–10 minutes until smooth, elastic, and slightly tacky but not sticky.",
+        "Dough should pass a soft windowpane test (stretches without tearing).",
+        "Cover with a damp towel and rest 30 minutes (allows gluten to relax for better rolling)."
+      ]
+    },
+    {
+      "title": "Step 3 – Divide and Rest",
+      "steps": [
+        "Divide dough into 12 equal portions (about 65–70 g each).",
+        "Roll into tight balls.",
+        "Cover and rest 20 minutes at room temp."
+      ]
+    },
+    {
+      "title": "Step 4 – Rolling",
+      "steps": [
+        "On a lightly floured surface, roll each ball into a thin circle, 8–9 inches wide.",
+        "Aim for 1–2 mm thickness.",
+        "Rotate often to keep shape even."
+      ]
+    },
+    {
+      "title": "Step 5 – Cooking",
+      "steps": [
+        "Heat a heavy cast iron skillet or flat comal over medium-high heat until very hot.",
+        "Place one tortilla on the skillet; cook 30–45 seconds until bubbles form and golden brown spots appear.",
+        "Flip and cook 20–30 seconds more.",
+        "Stack cooked tortillas in a clean towel to keep warm and steamy (this keeps them soft)."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve warm with tacos, burritos, fajitas, quesadillas, or wraps.",
+      "Excellent alongside grilled meats, beans, rice, or Mexican stews.",
+      "Brush lightly with butter for extra richness if serving on their own."
+    ]
+  },
+
+  "chefTips": [
+    "Fat choice matters: Lard = authentic flavor + chew; shortening = neutral; butter = richer but slightly less chewy.",
+    "Hydration is key: Slightly wetter dough makes softer tortillas. Adjust water if flour is very dry.",
+    "Resting twice: First rest builds extensibility; second rest ensures thin rolling without shrinkage.",
+    "Keep warm: Stacking in a towel keeps tortillas pliable for hours.",
+    "Reheat properly: Briefly on a hot skillet, never microwave uncovered (they’ll dry out)."
+  ]
+}
