@@ -1,0 +1,98 @@
+{
+  "id": "615",
+  "title": "Spicy Beans with Tortilla Chips",
+  "description": "Spicy Beans with Tortilla Chips is a hearty Mexican appetizer featuring creamy, smoky black beans served with crispy homemade tortilla chips and topped with queso fresco, avocado, cilantro, and sour cream. Perfect for sharing as a snack or starter.",
+
+  "category": "Mexican",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/spicy-beans-with-tortilla-chips.png",
+
+  "ingredients": [
+    {
+      "title": "For the Beans",
+      "items": [
+        "Cooked black beans (or 1 can, drained & rinsed) – 2 cups",
+        "Small onion, finely diced – 1",
+        "Garlic cloves, minced – 2",
+        "Small jalapeño, finely chopped (remove seeds for milder heat) – 1",
+        "Smoked paprika – ½ tsp",
+        "Cumin – ½ tsp",
+        "Chipotle chili powder – ¼ tsp (optional, for smoky heat)",
+        "Tomato paste – 1 tbsp",
+        "Vegetable or chicken stock – ½ cup",
+        "Olive oil – 1 tbsp",
+        "Salt & freshly ground black pepper – to taste",
+        "Juice of ½ lime"
+      ]
+    },
+    {
+      "title": "For the Toppings",
+      "items": [
+        "Crumbled queso fresco or Cotija cheese – ½ cup",
+        "Chopped fresh cilantro – ¼ cup",
+        "Sour cream or Mexican crema – ¼ cup",
+        "Small avocado, diced – 1",
+        "Small red onion, thinly sliced – 1",
+        "Fresh lime wedges – 1–2"
+      ]
+    },
+    {
+      "title": "For the Tortilla Chips",
+      "items": [
+        "Corn tortillas, cut into triangles – 6–8",
+        "Vegetable oil – 2–3 tbsp",
+        "Salt – to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Tortilla Chips (homemade for best texture)",
+      "steps": [
+        "Preheat oven to 375°F (190°C).",
+        "Toss tortilla triangles with oil and a pinch of salt.",
+        "Arrange in a single layer on a baking sheet.",
+        "Bake for 10–12 minutes, flipping halfway, until crisp and golden.",
+        "Tip: For extra flavor, sprinkle with smoked paprika or chili powder before baking."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Spicy Beans",
+      "steps": [
+        "Heat olive oil in a medium skillet over medium heat.",
+        "Sauté onion, garlic, and jalapeño until soft and fragrant (3–4 minutes).",
+        "Stir in tomato paste, cumin, smoked paprika, and chipotle powder; cook 1 minute to bloom the spices.",
+        "Add the beans and stock; simmer for 5–7 minutes until thickened.",
+        "Mash slightly with a potato masher or the back of a spoon for a creamy, rustic texture.",
+        "Season with salt, pepper, and lime juice to taste."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Dish",
+      "steps": [
+        "Spread the warm spicy beans on a serving platter or individual bowls.",
+        "Arrange tortilla chips around or on top of the beans.",
+        "Garnish with queso fresco, diced avocado, cilantro, red onion, and a drizzle of sour cream.",
+        "Serve with lime wedges for squeezing."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve warm with freshly baked tortilla chips.",
+      "Pair with guacamole, salsa roja, or pico de gallo.",
+      "Enjoy as a shared appetizer or a light meal."
+    ]
+  },
+
+  "chefTips": [
+    "Beans: Use freshly cooked beans for deeper flavor; canned is fine but rinse well to reduce excess salt.",
+    "Texture: Slightly mashing the beans keeps a rustic, creamy texture. Over-mashing makes it paste-like.",
+    "Spice Balance: Adjust jalapeño and chipotle powder to your desired heat level; add a pinch of sugar if beans taste too acidic.",
+    "Presentation: Serve in a shallow bowl with chips arranged around the edges and toppings artfully scattered."
+  ]
+}
