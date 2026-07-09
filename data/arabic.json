@@ -91,7 +91,7 @@
   },
   {
     "id": 110,
-    "title": "Khubz (Arabic Flatbread)",
+    "title": "Khubz",
     "category": "Arabic",
     "file": "data/arabic/khubz.json",
     "image": "assets/images/arabic/khubz.png",
@@ -151,7 +151,7 @@
   },
   {
     "id": 116,
-    "title": "Maklouba (Upside-Down Rice)",
+    "title": "Maklouba",
     "category": "Arabic",
     "file": "data/arabic/maklouba.json",
     "image": "assets/images/arabic/maklouba.png",
@@ -161,7 +161,7 @@
   },
   {
     "id": 117,
-    "title": "Mansaf (Lamb with Jameed Yogurt Sauce)",
+    "title": "Mansaf",
     "category": "Arabic",
     "file": "data/arabic/mansaf.json",
     "image": "assets/images/arabic/mansaf.png",
@@ -171,7 +171,7 @@
   },
   {
     "id": 118,
-    "title": "Mandi (Spiced Rice with Meat)",
+    "title": "Mandi",
     "category": "Arabic",
     "file": "data/arabic/mandi.json",
     "image": "assets/images/arabic/mandi.png",
