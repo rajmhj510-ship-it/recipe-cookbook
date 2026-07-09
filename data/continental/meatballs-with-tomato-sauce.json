@@ -1,0 +1,105 @@
+{
+  "id": "320",
+  "title": "Meatballs with Tomato Sauce",
+  "description": "Meatballs with Tomato Sauce is a classic continental comfort dish featuring tender, juicy beef meatballs gently simmered in a rich, aromatic tomato sauce. Finished with Parmesan and fresh parsley, this restaurant-style recipe pairs perfectly with pasta, mashed potatoes, or crusty artisan bread.",
+
+  "category": "Breakfast",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/meatballs-with-tomato-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "For the Meatballs",
+      "items": [
+        "500g ground beef (or a mix of beef and pork for extra flavor)",
+        "1 small onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1/2 cup fresh breadcrumbs",
+        "1/4 cup grated Parmesan cheese",
+        "1 large egg",
+        "2 tbsp fresh parsley, chopped",
+        "1 tsp dried oregano",
+        "1 tsp salt",
+        "1/2 tsp black pepper",
+        "1/4 tsp nutmeg (optional)",
+        "2 tbsp olive oil (for frying)"
+      ]
+    },
+    {
+      "title": "For the Tomato Sauce",
+      "items": [
+        "2 cups canned crushed tomatoes",
+        "1 small onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 tbsp olive oil",
+        "1 tsp dried basil",
+        "Salt and pepper to taste",
+        "A pinch of sugar (to balance acidity)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Meatball Mixture",
+      "steps": [
+        "In a large bowl, combine ground meat, chopped onion, minced garlic, breadcrumbs, Parmesan, egg, parsley, oregano, salt, pepper, and nutmeg.",
+        "Mix gently but thoroughly until well combined. Avoid overmixing to keep the meatballs tender."
+      ]
+    },
+    {
+      "title": "2. Form the Meatballs",
+      "steps": [
+        "Using your hands or a scoop, shape the mixture into uniform balls, about 1.5 inches in diameter."
+      ]
+    },
+    {
+      "title": "3. Cook the Meatballs",
+      "steps": [
+        "Heat olive oil in a large skillet over medium heat.",
+        "Brown the meatballs on all sides (about 5–7 minutes). They don’t need to be fully cooked through at this point.",
+        "Remove and set aside."
+      ]
+    },
+    {
+      "title": "4. Make the Tomato Sauce",
+      "steps": [
+        "In the same skillet, add a bit more olive oil if needed.",
+        "Sauté chopped onion and garlic until translucent.",
+        "Add crushed tomatoes, basil, salt, pepper, and sugar.",
+        "Simmer for 10 minutes."
+      ]
+    },
+    {
+      "title": "5. Combine Meatballs and Sauce",
+      "steps": [
+        "Gently place the browned meatballs into the sauce.",
+        "Cover and simmer for 10–15 minutes until meatballs are cooked through and tender."
+      ]
+    },
+    {
+      "title": "6. Serve",
+      "steps": [
+        "Garnish with fresh parsley or extra Parmesan.",
+        "Serve with pasta, mashed potatoes, or crusty bread."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with freshly cooked pasta for a classic continental meal.",
+      "Pair with creamy mashed potatoes for a comforting alternative.",
+      "Enjoy with warm crusty artisan bread to soak up the rich tomato sauce."
+    ]
+  },
+
+  "chefTips": [
+    "Mix the meat gently to keep the meatballs tender and juicy.",
+    "Brown the meatballs well before simmering to develop deep flavor.",
+    "Allow the meatballs to finish cooking slowly in the tomato sauce for maximum tenderness.",
+    "Finish with freshly grated Parmesan and chopped parsley just before serving for restaurant-quality presentation."
+  ]
+}
