@@ -3,10 +3,10 @@
   "title": "Hamburger",
   "description": "Hamburger is a timeless continental classic featuring a juicy, perfectly seasoned beef patty served on a toasted brioche bun with melted cheese, fresh vegetables, and a rich herb aioli. This professional chef's recipe delivers restaurant-quality flavor, texture, and presentation.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "35 min",
   "difficulty": "Medium",
-  "image": "assets/images/breakfast/hamburger.png",
+  "image": "assets/images/continental/hamburger.png",
 
   "ingredients": [
     {
