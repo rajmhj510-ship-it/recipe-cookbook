@@ -1,0 +1,118 @@
+{
+  "id": "507",
+  "title": "Jeri",
+  "description": "Authentic Nepali Jeri is a traditional deep-fried fermented sweet with a distinctive thick flower-shaped pattern, crisp exterior, light chewy interior, and delicate sugar glaze. Commonly enjoyed with fresh buffalo-milk dahi, this classic Nepali mithai is a popular breakfast and festive delicacy throughout Nepal.",
+
+  "category": "Nepali",
+  "time": "16 hrs",
+  "difficulty": "Hard",
+  "image": "assets/images/nepali/jeri.png",
+
+  "ingredients": [
+    {
+      "title": "For the Batter",
+      "items": [
+        "Refined flour (Maida) – 500 g",
+        "Cornflour – 40 g",
+        "Rice flour – 25 g",
+        "Plain yogurt (fresh curd) – 75 g",
+        "Sugar – 10 g",
+        "Salt – ½ tsp",
+        "Turmeric powder – ½ tsp (or a tiny pinch of orange food color)",
+        "Ghee – 1 tsp",
+        "Lukewarm water – 420–450 ml"
+      ]
+    },
+    {
+      "title": "Before Frying",
+      "items": [
+        "Baking powder – ½ tsp",
+        "Baking soda – ¼ tsp",
+        "Lemon juice – 2 tsp"
+      ]
+    },
+    {
+      "title": "For the Sugar Syrup",
+      "items": [
+        "Sugar – 700 g",
+        "Water – 350 ml",
+        "Green cardamoms – 5, lightly crushed",
+        "Lemon juice – 1 tsp",
+        "Rose water – 1 tsp",
+        "Saffron strands – few (optional)"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Pure ghee – as required",
+        "or 70% ghee + 30% neutral vegetable oil"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Batter",
+      "steps": [
+        "In a large bowl, combine maida, cornflour, rice flour, sugar, salt, and turmeric.",
+        "Add yogurt, ghee, and gradually pour in lukewarm water while whisking continuously until smooth.",
+        "Beat the batter vigorously for 8–10 minutes until light and lump-free.",
+        "Cover and ferment for 12–16 hours at room temperature (26–30°C) until bubbly with a mild fermented aroma."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Sugar Syrup",
+      "steps": [
+        "Combine sugar and water in a saucepan and bring to a gentle boil.",
+        "Add crushed cardamoms and saffron if using.",
+        "Cook until one-thread consistency (104–106°C).",
+        "Remove from heat and stir in lemon juice and rose water.",
+        "Keep the syrup warm (60–70°C) until ready to use."
+      ]
+    },
+    {
+      "title": "Step 3 – Finishing the Batter",
+      "steps": [
+        "Just before frying, gently fold baking powder, baking soda, and lemon juice into the fermented batter.",
+        "Mix only until combined. The batter should be thick yet pipe smoothly."
+      ]
+    },
+    {
+      "title": "Step 4 – Shaping & Frying",
+      "steps": [
+        "Heat ghee or the ghee-oil mixture to 165–170°C.",
+        "Transfer the batter into a cloth piping bag with an 8–10 mm opening.",
+        "Pipe one thick outer circle, decorative flower-like loops around the edge, one bold inner ring, and a few center loops to create the traditional Nepali Jeri pattern.",
+        "Fry slowly for 6–8 minutes, turning once, until deep amber-golden, crisp, and fully cooked."
+      ]
+    },
+    {
+      "title": "Step 5 – Syrup Coating",
+      "steps": [
+        "Transfer the hot jeri immediately into the warm sugar syrup.",
+        "Soak for only 20–30 seconds, turning once for even coating.",
+        "Remove and drain on a wire rack until lightly glazed."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve warm with thick buffalo-milk dahi (traditional Jeri-Dahi).",
+      "Pair with freshly brewed Nepali milk tea (Chiya).",
+      "Best enjoyed fresh while the exterior remains crisp.",
+      "Ideal for breakfast, festivals, and special occasions."
+    ]
+  },
+
+  "chefTips": [
+    "Natural fermentation develops the authentic flavor and airy interior.",
+    "Use a thick batter and a large piping opening (8–10 mm) to achieve the traditional flower-shaped Nepali jeri.",
+    "Maintain frying temperature between 165–170°C for an evenly cooked, crisp texture.",
+    "Do not over-soak in syrup—20–30 seconds is enough for a light glossy coating.",
+    "One-thread sugar syrup produces the perfect balance of sweetness without making the jeri soggy.",
+    "Allow the jeri to rest for 2–3 minutes after draining so the syrup sets into a delicate glaze."
+  ]
+}
