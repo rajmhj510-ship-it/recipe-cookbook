@@ -1,0 +1,106 @@
+{
+  "id": "624",
+  "title": "Mushroom Tostadas",
+  "description": "Mushroom Tostadas feature crispy corn tortillas topped with savory sautéed mixed mushrooms, a creamy lime topping, crumbled queso fresco, and fresh garnishes. This vegetarian Mexican dish is full of earthy flavors, vibrant textures, and restaurant-quality presentation.",
+
+  "category": "Mexican",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/mushroom-tostadas.png",
+
+  "ingredients": [
+    {
+      "title": "For the Tostadas",
+      "items": [
+        "Small corn tortillas – 4",
+        "Vegetable oil – 2 tbsp (for frying) or use oven-baked method for crispier tortillas"
+      ]
+    },
+    {
+      "title": "For the Mushroom Filling",
+      "items": [
+        "Mixed mushrooms (cremini, shiitake, oyster), sliced – 400 g (about 14 oz)",
+        "Unsalted butter – 2 tbsp",
+        "Olive oil – 1 tbsp",
+        "Small shallot, finely diced – 1",
+        "Garlic cloves, minced – 2",
+        "Smoked paprika – 1 tsp",
+        "Ground cumin – ½ tsp",
+        "Salt and freshly ground black pepper – to taste",
+        "Soy sauce – 1 tbsp (optional, for umami depth)",
+        "Fresh lime juice – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Creamy Topping",
+      "items": [
+        "Mexican crema or sour cream – 100 g (½ cup)",
+        "Lime zest – 1 tsp",
+        "Smoked chili powder (chipotle or ancho) – ½ tsp"
+      ]
+    },
+    {
+      "title": "For Garnishes",
+      "items": [
+        "Crumbled queso fresco or Cotija cheese – ½ cup",
+        "Microgreens or cilantro leaves – ¼ cup",
+        "Radishes, thinly sliced – 2",
+        "Pickled red onions (optional)",
+        "Drizzle of high-quality extra virgin olive oil"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Tostadas",
+      "steps": [
+        "Heat oil in a skillet over medium heat. Fry tortillas 1–2 minutes per side until golden and crispy.",
+        "Alternative: Bake at 375°F (190°C) for 8–10 minutes, brushing lightly with oil for crunch.",
+        "Drain on paper towels and set aside."
+      ]
+    },
+    {
+      "title": "Step 2 – Sauté the Mushrooms",
+      "steps": [
+        "In a large skillet, heat butter and olive oil over medium-high heat.",
+        "Add shallots, sauté 2–3 minutes until soft and translucent.",
+        "Add garlic, cook 30 seconds until fragrant.",
+        "Add mushrooms, season with smoked paprika, cumin, salt, and pepper. Sauté until mushrooms release their moisture and become golden brown (~6–8 minutes).",
+        "Stir in soy sauce (optional) and lime juice. Adjust seasoning. Remove from heat."
+      ]
+    },
+    {
+      "title": "Step 3 – Make the Creamy Topping",
+      "steps": [
+        "Mix crema with lime zest and smoked chili powder in a small bowl. Adjust to taste."
+      ]
+    },
+    {
+      "title": "Step 4 – Assemble the Tostadas",
+      "steps": [
+        "Spread a thin layer of the crema mixture on each crispy tortilla.",
+        "Pile sautéed mushrooms on top.",
+        "Sprinkle with crumbled cheese, radishes, microgreens, and pickled onions.",
+        "Finish with a light drizzle of extra virgin olive oil and an extra squeeze of lime if desired."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately while the tostadas are crisp.",
+      "Pair with Mexican rice, black beans, or a fresh salad.",
+      "Enjoy with salsa verde, guacamole, and lime wedges."
+    ]
+  },
+
+  "chefTips": [
+    "Use a mix of mushrooms for earthy depth and visual appeal.",
+    "Don't overcrowd the pan while sautéing mushrooms; you want them to brown, not steam.",
+    "Make the tostadas just before serving for maximum crunch.",
+    "Garnish with microgreens and a drizzle of olive oil for elevated plating.",
+    "For extra flavor, lightly toast the tortillas on an open flame before frying or baking—they gain a smoky aroma."
+  ]
+}
