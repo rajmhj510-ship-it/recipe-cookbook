@@ -3,10 +3,10 @@
   "title": "Club Sandwich",
   "description": "Club Sandwich is a classic continental favorite made with three layers of toasted bread, tender chicken, crispy bacon, fresh vegetables, and creamy mayonnaise. This hotel-style sandwich is served with golden French fries and a fresh salad for a satisfying restaurant-quality meal.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "20 min",
   "difficulty": "Easy",
-  "image": "assets/images/breakfast/club-sandwich.png",
+  "image": "assets/images/continental/club-sandwich.png",
 
   "ingredients": [
     {
