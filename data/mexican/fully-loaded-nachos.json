@@ -1,0 +1,113 @@
+{
+  "id": "611",
+  "title": "Fully Loaded Nachos",
+  "description": "Fully Loaded Nachos are layered with crispy tortilla chips, melted cheeses, seasoned protein, beans, fresh vegetables, and creamy sauces for the ultimate shareable Mexican appetizer. Every layer is packed with flavor, texture, and restaurant-quality appeal.",
+
+  "category": "Mexican",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/fully-loaded-nachos.png",
+
+  "ingredients": [
+    {
+      "title": "For the Nachos Base",
+      "items": [
+        "High-quality tortilla chips (homemade or store-bought) – 200 g",
+        "Sharp cheddar cheese, grated – 1 cup",
+        "Monterey Jack cheese, grated – 1 cup",
+        "Queso fresco, crumbled – ½ cup"
+      ]
+    },
+    {
+      "title": "For the Protein (optional but recommended)",
+      "items": [
+        "Ground beef, chicken, or pulled pork – 300 g",
+        "Smoked paprika – 1 tsp",
+        "Cumin – 1 tsp",
+        "Chili powder – ½ tsp",
+        "Salt & pepper – to taste",
+        "Small onion, finely chopped – 1",
+        "Garlic clove, minced – 1",
+        "Olive oil – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Toppings",
+      "items": [
+        "Black beans, rinsed and drained – ½ cup",
+        "Sweet corn kernels – ½ cup",
+        "Medium tomato, diced – 1",
+        "Pickled jalapeños, sliced – ¼ cup",
+        "Fresh cilantro, chopped – ¼ cup",
+        "Small red onion, finely chopped – 1",
+        "Avocado, diced – ½"
+      ]
+    },
+    {
+      "title": "For the Sauces",
+      "items": [
+        "Sour cream or Mexican crema – ½ cup",
+        "Guacamole – ½ cup",
+        "Salsa verde or roja – ¼ cup"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Protein",
+      "steps": [
+        "Heat olive oil in a skillet over medium heat.",
+        "Add onion and garlic; sauté until translucent.",
+        "Add ground meat and spices. Cook until browned and fully cooked.",
+        "Taste and adjust seasoning. Set aside."
+      ]
+    },
+    {
+      "title": "Step 2 – Layer the Nachos",
+      "steps": [
+        "Preheat oven to 180°C (350°F).",
+        "On a large baking sheet or oven-safe dish, spread a layer of tortilla chips.",
+        "Sprinkle evenly with cheddar and Monterey Jack cheeses.",
+        "Scatter protein, black beans, corn, and a few diced tomatoes over the cheese.",
+        "Add a second layer of chips and repeat the cheese and toppings."
+      ]
+    },
+    {
+      "title": "Step 3 – Bake",
+      "steps": [
+        "Bake in the oven for 8–10 minutes, or until cheese is fully melted and bubbling."
+      ]
+    },
+    {
+      "title": "Step 4 – Add Fresh Toppings",
+      "steps": [
+        "Remove from oven and top with avocado, pickled jalapeños, red onion, and cilantro.",
+        "Drizzle with sour cream, guacamole, and salsa."
+      ]
+    },
+    {
+      "title": "Step 5 – Serve",
+      "steps": [
+        "Serve immediately while warm and cheesy. Perfect for sharing!"
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately while hot and cheesy.",
+      "Pair with extra salsa, guacamole, or Mexican crema.",
+      "Perfect for parties, game nights, or sharing as a hearty appetizer."
+    ]
+  },
+
+  "chefTips": [
+    "Use homemade tortilla chips for the crispest base.",
+    "Layer cheese between layers of chips to prevent sogginess.",
+    "Add a squeeze of lime over the top for a fresh kick.",
+    "Serve on a heated cast-iron skillet for that authentic restaurant feel.",
+    "Optional: drizzle a chipotle crema for smoky depth."
+  ]
+}
