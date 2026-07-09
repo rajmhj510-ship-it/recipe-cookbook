@@ -1,0 +1,105 @@
+{
+  "id": "623",
+  "title": "Entomatado de Pollo (Pollo en Salsa de Tomate)",
+  "description": "Entomatado de Pollo (Pollo en Salsa de Tomate) is a traditional Mexican chicken dish featuring tender bone-in chicken simmered in a rich tomato sauce flavored with garlic, onion, oregano, and cumin. Finished with fresh cilantro and optional crema, it is comforting, flavorful, and perfect with rice or warm tortillas.",
+
+  "category": "Mexican",
+  "time": "60 min",
+  "difficulty": "Medium",
+  "image": "assets/images/mexican/entomatado-de-pollo.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Chicken thighs (bone-in, skin removed) – 4",
+        "Chicken drumsticks – 4",
+        "Salt – to taste",
+        "Black pepper – 1 tsp",
+        "Vegetable oil – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Tomato Sauce",
+      "items": [
+        "Ripe Roma tomatoes (or 1½ cups canned crushed tomatoes) – 6",
+        "Medium white onion, quartered – 1",
+        "Garlic cloves – 2",
+        "Medium poblano pepper – 1 (optional, for mild heat)",
+        "Vegetable oil – 1 tbsp",
+        "Chicken stock (preferably homemade) – 1 cup",
+        "Dried Mexican oregano – ½ tsp",
+        "Ground cumin – ½ tsp",
+        "Bay leaf – 1",
+        "Salt and black pepper – to taste"
+      ]
+    },
+    {
+      "title": "For Finishing",
+      "items": [
+        "Chopped fresh cilantro – 2 tbsp",
+        "Mexican crema or heavy cream – ½ cup (optional)",
+        "Thinly sliced white onion – ¼ cup (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken",
+      "steps": [
+        "Pat chicken dry and season generously with salt and pepper.",
+        "In a large skillet or heavy-bottomed pot, heat 1 tbsp vegetable oil over medium-high heat.",
+        "Brown the chicken on all sides until golden, about 5–7 minutes per side. Remove and set aside."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Tomato Sauce",
+      "steps": [
+        "Boil tomatoes, onion, garlic, and poblano pepper in water for 10 minutes, or until softened.",
+        "Transfer vegetables to a blender, add a pinch of salt, and blend until smooth. Strain for a silky texture (optional, for restaurant quality).",
+        "In the same skillet, heat 1 tbsp oil over medium heat. Add blended tomato mixture and cook for 5–7 minutes, stirring frequently.",
+        "Add chicken stock, oregano, cumin, bay leaf, and adjust salt and pepper. Bring to a simmer."
+      ]
+    },
+    {
+      "title": "Step 3 – Cook the Chicken in the Sauce",
+      "steps": [
+        "Return the browned chicken to the sauce.",
+        "Cover and simmer gently over low heat for 25–30 minutes, or until the chicken is fully cooked and tender.",
+        "Occasionally spoon sauce over the chicken to keep it moist."
+      ]
+    },
+    {
+      "title": "Step 4 – Finish the Dish",
+      "steps": [
+        "Remove bay leaf. Stir in crema for richness, if desired.",
+        "Sprinkle chopped cilantro over the chicken."
+      ]
+    },
+    {
+      "title": "Step 5 – Serve",
+      "steps": [
+        "Plate the chicken with sauce generously spooned over it.",
+        "Garnish with thinly sliced onions and extra cilantro.",
+        "Best served with Mexican white rice or warm corn tortillas."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with Mexican white rice or warm corn tortillas.",
+      "Pair with refried beans and a fresh green salad.",
+      "Garnish with extra cilantro and a drizzle of Mexican crema before serving."
+    ]
+  },
+
+  "chefTips": [
+    "Tomatoes: Roasting the tomatoes before blending adds a smoky depth.",
+    "Chicken: Bone-in chicken ensures more flavor; remove skin for a cleaner presentation.",
+    "Sauce: Straining the sauce is optional but gives a restaurant-level smoothness.",
+    "Garnish: A drizzle of crema and a sprig of cilantro elevates the visual appeal."
+  ]
+}
