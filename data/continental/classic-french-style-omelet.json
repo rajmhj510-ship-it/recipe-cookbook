@@ -1,0 +1,79 @@
+{
+  "id": "306",
+  "title": "Classic French-style Omelet",
+  "description": "Classic French-style Omelet is an elegant breakfast dish known for its delicate, silky texture and smooth pale-yellow exterior. Gently cooked over low heat and folded into a tender oval, this timeless French classic showcases the richness of eggs with minimal ingredients and refined technique.",
+
+  "category": "Breakfast",
+  "time": "10 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/classic-french-style-omelet.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (per omelet)",
+      "items": [
+        "3 large eggs",
+        "1 tablespoon unsalted butter (plus extra for the pan)",
+        "Pinch of salt",
+        "Pinch of white pepper (optional)",
+        "Fresh herbs (chives, parsley, tarragon) for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Beat the eggs gently",
+      "steps": [
+        "Crack eggs into a bowl. Add a pinch of salt (and white pepper if using).",
+        "Beat lightly with a fork or whisk—just enough to combine yolks and whites evenly. Avoid over-beating; you want some air but not a frothy foam."
+      ]
+    },
+    {
+      "title": "2. Prepare the pan",
+      "steps": [
+        "Use a small, nonstick, or well-seasoned 8-inch sauté pan.",
+        "Heat over medium-low heat. Add 1 tablespoon butter and let it melt slowly. The butter should foam gently but not brown."
+      ]
+    },
+    {
+      "title": "3. Cook slowly, stir gently",
+      "steps": [
+        "Pour the eggs into the pan.",
+        "With a silicone spatula, stir continuously in small circles while shaking the pan gently, keeping the eggs moving.",
+        "The goal is to create tiny curds that are very soft and creamy."
+      ]
+    },
+    {
+      "title": "4. Shape the omelet",
+      "steps": [
+        "When eggs are mostly set but still slightly runny on top (the residual heat will finish cooking), stop stirring.",
+        "Tilt the pan to let the eggs gather into a smooth oval shape.",
+        "Fold one side over the other with the spatula or gently roll the omelet onto a plate seam-side down."
+      ]
+    },
+    {
+      "title": "5. Finishing touch",
+      "steps": [
+        "Add a small pat of butter on top if desired for shine.",
+        "Sprinkle finely chopped fresh herbs.",
+        "Serve immediately—French omelets are best warm and just off the stove."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately—French omelets are best warm and just off the stove."
+    ]
+  },
+
+  "chefTips": [
+    "Low and slow is key: cooking over high heat will toughen the eggs.",
+    "Use unsalted butter for a clean, creamy flavor.",
+    "Avoid browning: a French omelet should be pale yellow and smooth.",
+    "No fillings are needed for pure silkiness, but delicate options like fine herbs, soft cheese, or smoked salmon can be added sparingly.",
+    "Serve on a pre-warmed plate for that 5-star presentation."
+  ]
+}
