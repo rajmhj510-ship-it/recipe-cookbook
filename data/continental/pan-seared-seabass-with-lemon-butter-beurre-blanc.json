@@ -1,0 +1,95 @@
+{
+  "id": "317",
+  "title": "Pan-Seared Seabass with Lemon Butter Beurre Blanc",
+  "description": "Pan-Seared Seabass with Lemon Butter Beurre Blanc is a refined continental seafood dish featuring perfectly crisp skin, tender flaky flesh, and a silky French beurre blanc enriched with fresh lemon and herbs. Elegant accompaniments and precise technique make it a signature fine-dining restaurant classic.",
+
+  "category": "Breakfast",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/pan-seared-seabass-with-lemon-butter-beurre-blanc.png",
+
+  "ingredients": [
+    {
+      "title": "For the Seabass",
+      "items": [
+        "2 seabass fillets, skin on (about 6 oz / 170 g each), pin bones removed",
+        "Maldon sea salt (or fine sea salt), to taste",
+        "Freshly cracked white pepper",
+        "2 tbsp clarified butter or light olive oil"
+      ]
+    },
+    {
+      "title": "For the Lemon Butter Beurre Blanc",
+      "items": [
+        "1 small shallot, finely minced",
+        "½ cup dry white wine (Sauvignon Blanc or Chardonnay)",
+        "2 tbsp white wine vinegar",
+        "Juice of ½ a lemon (reserve the other half for garnish)",
+        "4 tbsp cold unsalted butter, diced",
+        "1 tbsp heavy cream (optional, for extra silkiness)",
+        "1 tsp fresh parsley, finely chopped",
+        "1 tsp fresh chives, finely chopped"
+      ]
+    },
+    {
+      "title": "For Garnish & Accompaniments",
+      "items": [
+        "Microgreens or pea shoots",
+        "Lemon zest curls",
+        "Seasonal vegetables (e.g., butter-glazed asparagus or baby carrots)",
+        "Potato purée or a cauliflower velouté"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Seabass",
+      "steps": [
+        "Pat fillets dry thoroughly; moisture prevents crisp skin.",
+        "Season both sides lightly with sea salt and white pepper."
+      ]
+    },
+    {
+      "title": "2. Pan-Sear the Seabass",
+      "steps": [
+        "Heat clarified butter in a heavy-bottom skillet (preferably stainless steel) over medium-high heat.",
+        "Place seabass skin-side down; gently press with a fish spatula for 15 seconds to prevent curling.",
+        "Cook undisturbed for 4–5 minutes until the skin is golden and crisp.",
+        "Flip carefully and cook the flesh side for 1–2 minutes until just opaque and tender.",
+        "Remove from the pan and rest on a warm plate."
+      ]
+    },
+    {
+      "title": "3. Prepare the Lemon Butter Beurre Blanc",
+      "steps": [
+        "In a small saucepan, combine minced shallot, white wine, and vinegar.",
+        "Reduce over medium heat until only 2–3 tbsp of liquid remain (a syrupy consistency).",
+        "Add lemon juice, then whisk in cold butter cubes gradually over low heat to form a smooth, glossy sauce.",
+        "Optional: Stir in a splash of cream for added stability.",
+        "Strain sauce through a fine sieve for elegance, then finish with parsley and chives."
+      ]
+    },
+    {
+      "title": "4. Plating & Garnish",
+      "steps": [
+        "Spoon a pool of beurre blanc onto each warm plate.",
+        "Place the seabass fillet skin-side up (to showcase crispness).",
+        "Arrange glazed vegetables and a quenelle of potato purée (or cauliflower velouté) alongside.",
+        "Garnish with microgreens, a curl of lemon zest, and a drizzle of extra virgin olive oil."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Wine pairing: Sauvignon Blanc (citrusy, crisp) or lightly oaked Chardonnay."
+    ]
+  },
+
+  "chefTips": [
+    "Variation: For more depth, infuse the beurre blanc with a touch of saffron or a sprig of tarragon.",
+    "Texture balance: Crisp skin, velvety sauce, and creamy purée create contrast."
+  ]
+}
