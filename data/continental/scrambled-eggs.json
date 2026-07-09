@@ -1,0 +1,95 @@
+{
+  "id": "304",
+  "title": "Scrambled Eggs",
+  "description": "Scrambled Eggs are a breakfast classic made by gently cooking whisked eggs over low heat until soft, creamy, and delicately set. This professional chef's method creates rich, velvety curds with exceptional texture and flavor.",
+
+  "category": "Breakfast",
+  "time": "10 min",
+  "difficulty": "Easy",
+  "image": "assets/images/breakfast/scrambled-eggs.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (serves 2)",
+      "items": [
+        "4 large farm-fresh eggs",
+        "2 tbsp unsalted butter (room temperature)",
+        "2 tbsp whole milk or heavy cream (optional, for extra creaminess)",
+        "Salt: pinch, preferably flaky sea salt",
+        "White pepper: pinch (optional)",
+        "Fresh chives or parsley, finely chopped (for garnish)"
+      ]
+    },
+    {
+      "title": "Equipment",
+      "items": [
+        "Non-stick skillet or heavy-bottomed pan",
+        "Silicone spatula or wooden spoon",
+        "Mixing bowl",
+        "Whisk or fork"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prep the eggs",
+      "steps": [
+        "Crack eggs into a bowl. Add milk/cream if using. Season lightly with salt and pepper. Whisk gently until yolks and whites are combined. Do not overbeat; you want a slightly streaky mixture for texture."
+      ]
+    },
+    {
+      "title": "2. Heat the pan",
+      "steps": [
+        "Place the skillet over low to medium-low heat. Add butter and let it melt slowly. The butter should foam but not brown."
+      ]
+    },
+    {
+      "title": "3. Cook gently",
+      "steps": [
+        "Pour the eggs into the pan. Let them sit undisturbed for a few seconds, then gently stir with a spatula, moving from the edges to the center.",
+        "Key: Low, slow cooking is essential for creamy texture. Avoid high heat; it will make the eggs rubbery."
+      ]
+    },
+    {
+      "title": "4. Create creamy curds",
+      "steps": [
+        "Continuously but gently stir and fold the eggs. Stop cooking just before they’re fully set, as residual heat will finish them (carryover cooking)."
+      ]
+    },
+    {
+      "title": "5. Finish",
+      "steps": [
+        "Remove the pan from heat while the eggs are slightly runny. Give a final gentle stir. Taste and adjust salt/pepper if needed."
+      ]
+    },
+    {
+      "title": "6. Plating",
+      "steps": [
+        "Serve immediately on a warm plate. Garnish with finely chopped chives or parsley.",
+        "For a continental flair, you can add:",
+        "A slice of toasted brioche or sourdough",
+        "A dollop of crème fraîche",
+        "Thinly sliced smoked salmon or prosciutto"
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately on a warm plate.",
+      "Garnish with finely chopped chives or parsley.",
+      "A slice of toasted brioche or sourdough.",
+      "A dollop of crème fraîche.",
+      "Thinly sliced smoked salmon or prosciutto."
+    ]
+  },
+
+  "chefTips": [
+    "Low and slow is the secret; never rush.",
+    "Use fresh, high-quality eggs for the best flavor and color.",
+    "Butter and cream make the texture luxurious; don’t skimp.",
+    "Serve immediately; scrambled eggs lose their texture quickly."
+  ]
+}
