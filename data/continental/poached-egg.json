@@ -3,10 +3,10 @@
   "title": "Poached Egg",
   "description": "Poached Egg is a classic preparation where fresh eggs are gently cooked in simmering water until the whites are delicately set while the yolk remains perfectly runny. A staple of professional kitchens, it is commonly served with toasted sourdough, seasonal vegetables, or as the centerpiece of Eggs Benedict.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "10 min",
   "difficulty": "Medium",
-  "image": "assets/images/breakfast/poached-egg.png",
+  "image": "assets/images/continental/poached-egg.png",
 
   "ingredients": [
     {
