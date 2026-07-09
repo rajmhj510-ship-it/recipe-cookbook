@@ -3,10 +3,10 @@
   "title": "Eggs Benedict",
   "description": "Eggs Benedict is a classic continental breakfast featuring toasted English muffins topped with Canadian bacon, perfectly poached eggs, and silky Hollandaise sauce. This elegant brunch favorite is finished with refined garnishes for a restaurant-quality presentation.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "35 min",
   "difficulty": "Advanced",
-  "image": "assets/images/breakfast/eggs-benedict.png",
+  "image": "assets/images/continental/eggs-benedict.png",
 
   "ingredients": [
     {
