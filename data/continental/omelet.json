@@ -3,10 +3,10 @@
   "title": "Omelet",
   "description": "Omelet is a classic breakfast dish made by gently cooking whisked eggs until tender and fluffy, then folding them around a variety of delicious fillings. This continental-style recipe creates a soft, creamy omelet with a delicate texture and perfectly melted cheese.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "15 min",
   "difficulty": "Easy",
-  "image": "assets/images/breakfast/omelet.png",
+  "image": "assets/images/continental/omelet.png",
 
   "ingredients": [
     {
