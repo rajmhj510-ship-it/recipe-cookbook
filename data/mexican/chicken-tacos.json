@@ -1,0 +1,102 @@
+{
+  "id": "616",
+  "title": "Chicken Tacos",
+  "description": "Chicken Tacos are made with juicy marinated chicken, smoky roasted salsa, crisp cabbage, and crumbled queso fresco wrapped in warm corn tortillas. Fresh, flavorful, and perfect for a restaurant-quality Mexican meal at home.",
+
+  "category": "Mexican",
+  "time": "90 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/chicken-tacos.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Marinade",
+      "items": [
+        "Boneless, skinless chicken thighs – 500 g (1 lb)",
+        "Olive oil – 2 tbsp",
+        "Garlic cloves, minced – 2",
+        "Smoked paprika – 1 tsp",
+        "Ground cumin – 1 tsp",
+        "Chili powder – ½ tsp (adjust to taste)",
+        "Dried oregano – ½ tsp",
+        "Juice of 1 lime",
+        "Salt & black pepper – to taste"
+      ]
+    },
+    {
+      "title": "For the Salsa",
+      "items": [
+        "Medium tomatoes, roasted or grilled – 2",
+        "Small white onion, finely chopped – 1",
+        "Fresh jalapeño, deseeded – 1",
+        "Fresh cilantro – ½ cup",
+        "Juice of 1 lime",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "For the Tacos",
+      "items": [
+        "Small corn tortillas – 8",
+        "Red cabbage, thinly sliced – ½",
+        "Crumbled queso fresco – ½ cup",
+        "Mexican crema (or sour cream) – 2 tbsp",
+        "Extra lime wedges – for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinate the Chicken",
+      "steps": [
+        "In a bowl, mix olive oil, garlic, smoked paprika, cumin, chili powder, oregano, lime juice, salt, and pepper.",
+        "Add chicken thighs, coat evenly, and let marinate for at least 1 hour (overnight is ideal for deeper flavor)."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Salsa",
+      "steps": [
+        "Roast tomatoes until slightly charred (oven or stovetop).",
+        "Blend roasted tomatoes, onion, jalapeño, cilantro, lime juice, and salt until smooth. Adjust seasoning to taste."
+      ]
+    },
+    {
+      "title": "Step 3 – Cook the Chicken",
+      "steps": [
+        "Heat a cast-iron skillet or grill over medium-high heat.",
+        "Cook chicken 4–6 minutes per side until fully cooked and slightly charred.",
+        "Let rest 5 minutes, then slice thinly."
+      ]
+    },
+    {
+      "title": "Step 4 – Warm the Tortillas",
+      "steps": [
+        "Lightly char tortillas on a dry skillet or directly over a flame for 10–15 seconds per side. Keep warm in a clean towel."
+      ]
+    },
+    {
+      "title": "Step 5 – Assemble the Tacos",
+      "steps": [
+        "Layer tortillas with sliced chicken, shredded cabbage, a drizzle of crema, and crumbled queso fresco.",
+        "Spoon fresh salsa on top and garnish with lime wedges."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately with extra salsa and lime wedges.",
+      "Pair with Mexican rice, refried beans, or corn on the cob.",
+      "Enjoy with guacamole and tortilla chips for a complete meal."
+    ]
+  },
+
+  "chefTips": [
+    "Chicken: Thighs are juicier than breasts; char marks add authentic flavor.",
+    "Tortillas: Use fresh, high-quality corn tortillas, and heat them just before serving.",
+    "Salsa: Char tomatoes and jalapeño for smoky depth.",
+    "Presentation: Serve on a long wooden board or slate with lime wedges and extra salsa on the side."
+  ]
+}
