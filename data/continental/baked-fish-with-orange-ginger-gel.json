@@ -1,0 +1,111 @@
+{
+  "id": "318",
+  "title": "Baked Fish with Orange-Ginger Gel",
+  "description": "Baked Fish with Orange-Ginger Gel is a contemporary continental seafood dish featuring perfectly baked fish complemented by a vibrant citrus-ginger gel and an optional silky beurre blanc. Finished with seasonal vegetables and elegant garnishes, this fine-dining recipe delivers delicate flavors with refined restaurant-style presentation.",
+
+  "category": "Breakfast",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/baked-fish-with-orange-ginger-gel.png",
+
+  "ingredients": [
+    {
+      "title": "For the Fish",
+      "items": [
+        "4 fillets of sea bass, halibut, or cod (skin on, ~150g each)",
+        "2 tbsp olive oil",
+        "Sea salt flakes, to taste",
+        "White pepper, to taste"
+      ]
+    },
+    {
+      "title": "For the Orange-Ginger Gel",
+      "items": [
+        "300 ml fresh orange juice (strained)",
+        "30 g fresh ginger (sliced)",
+        "10 g sugar (adjust based on orange sweetness)",
+        "½ tsp lemon juice",
+        "2 g agar-agar powder (approx. 1 tsp)"
+      ]
+    },
+    {
+      "title": "For the Beurre Blanc (Optional Sauce Base)",
+      "items": [
+        "100 ml dry white wine",
+        "2 tbsp white wine vinegar",
+        "1 shallot, finely chopped",
+        "100 g cold unsalted butter, cubed",
+        "Sea salt, to taste"
+      ]
+    },
+    {
+      "title": "Garnishes & Accompaniments",
+      "items": [
+        "Blanched baby carrots, asparagus tips, or baby courgettes",
+        "Micro herbs (coriander, basil, or pea shoots)",
+        "Edible flowers (optional, for plating)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Orange-Ginger Gel",
+      "steps": [
+        "In a small saucepan, combine orange juice, ginger slices, and sugar.",
+        "Simmer gently for 8–10 minutes to infuse, then strain.",
+        "Stir in lemon juice and agar-agar. Bring back to a boil for 1–2 minutes.",
+        "Pour into a shallow tray and refrigerate until set.",
+        "Once firm, blend into a smooth gel. Pass through a fine sieve into a squeeze bottle for plating."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Fish",
+      "steps": [
+        "Preheat oven to 170°C (fan) / 185°C (conventional).",
+        "Pat fish dry, season with sea salt and white pepper.",
+        "Heat olive oil in a non-stick pan. Sear fish skin-side down for 2 minutes until crisp.",
+        "Transfer pan to oven and bake for 6–8 minutes (depending on thickness). The fish should be just cooked, moist, and flaky."
+      ]
+    },
+    {
+      "title": "Step 3 – Beurre Blanc (Optional)",
+      "steps": [
+        "In a saucepan, reduce wine, vinegar, and shallot until about 2 tbsp remain.",
+        "Lower heat and whisk in butter cubes gradually, ensuring sauce stays emulsified.",
+        "Strain and keep warm."
+      ]
+    },
+    {
+      "title": "Step 4 – Vegetables",
+      "steps": [
+        "Blanch baby vegetables in salted water until just tender.",
+        "Shock in ice water to preserve color, then reheat gently in butter before serving."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating (Fine Dining Style)",
+      "steps": [
+        "Place fish slightly off-center on the plate.",
+        "Dot or swipe orange-ginger gel artistically around the fish.",
+        "Arrange baby vegetables neatly, adding height and color contrast.",
+        "Spoon beurre blanc lightly around (not over) the fish for refinement.",
+        "Finish with micro herbs and, if available, a small edible flower for elegance."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately with the orange-ginger gel, beurre blanc, and seasonal vegetables for an elegant fine-dining presentation."
+    ]
+  },
+
+  "chefTips": [
+    "The balance of the dish comes from the citrus freshness, the subtle heat of ginger, and the richness of the beurre blanc.",
+    "Do not overpower the fish—keep flavors delicate and precise.",
+    "Blend and strain the gel thoroughly for a perfectly smooth restaurant-quality finish.",
+    "Serve on warm plates to maintain the ideal serving temperature."
+  ]
+}
