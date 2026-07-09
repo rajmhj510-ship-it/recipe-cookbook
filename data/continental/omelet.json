@@ -1,0 +1,102 @@
+{
+  "id": "305",
+  "title": "Omelet",
+  "description": "Omelet is a classic breakfast dish made by gently cooking whisked eggs until tender and fluffy, then folding them around a variety of delicious fillings. This continental-style recipe creates a soft, creamy omelet with a delicate texture and perfectly melted cheese.",
+
+  "category": "Breakfast",
+  "time": "15 min",
+  "difficulty": "Easy",
+  "image": "assets/images/breakfast/omelet.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (per omelet)",
+      "items": [
+        "3 large eggs (farm fresh, at room temperature)",
+        "1 tbsp whole milk or cream",
+        "Salt and freshly ground black pepper, to taste",
+        "1 tbsp unsalted butter"
+      ]
+    },
+    {
+      "title": "Fillings (choose a combination for continental style)",
+      "items": [
+        "50g cooked smoked ham or turkey, diced",
+        "30g Gruyère or Swiss cheese, grated",
+        "5 cherry tomatoes, halved",
+        "1 small handful fresh spinach leaves",
+        "Fresh herbs: parsley, chives, or tarragon, finely chopped"
+      ]
+    },
+    {
+      "title": "Equipment",
+      "items": [
+        "Non-stick skillet (8-inch recommended)",
+        "Silicone spatula",
+        "Mixing bowl and fork/whisk"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prep the Eggs",
+      "steps": [
+        "Crack the eggs into a bowl, add milk/cream, and whisk gently until slightly frothy.",
+        "Season with a pinch of salt and pepper."
+      ]
+    },
+    {
+      "title": "2. Heat the Pan",
+      "steps": [
+        "Place the skillet over medium-low heat.",
+        "Add butter and allow it to melt, swirling to coat the pan evenly without letting it brown."
+      ]
+    },
+    {
+      "title": "3. Cook the Omelet Base",
+      "steps": [
+        "Pour in the egg mixture.",
+        "Let it sit undisturbed for 10–15 seconds, then gently stir with the spatula, pulling the cooked edges to the center while tilting the pan to allow uncooked egg to flow underneath.",
+        "Stop stirring when the eggs are mostly set but still slightly soft on top (this keeps it tender and creamy)."
+      ]
+    },
+    {
+      "title": "4. Add Fillings",
+      "steps": [
+        "Sprinkle cheese, diced ham/turkey, tomatoes, spinach, and herbs over one half of the omelet."
+      ]
+    },
+    {
+      "title": "5. Fold and Finish",
+      "steps": [
+        "Carefully fold the omelet in half using the spatula.",
+        "Let it sit for 30 seconds to allow cheese to melt and fillings to warm through.",
+        "Optional: Cover with a lid for perfect melting."
+      ]
+    },
+    {
+      "title": "6. Plate and Garnish",
+      "steps": [
+        "Slide the omelet onto a warm plate.",
+        "Garnish with extra herbs and a drizzle of truffle oil or light cream if desired."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately on a warm plate.",
+      "Pair with toasted bread, roasted tomatoes, or a fresh green salad.",
+      "Enjoy with freshly brewed coffee or orange juice for a complete continental breakfast."
+    ]
+  },
+
+  "chefTips": [
+    "Eggs: Use fresh eggs at room temperature for the fluffiest texture.",
+    "Heat: Medium-low heat is key; high heat can brown the eggs and ruin the creamy texture.",
+    "Fillings: Pre-cook or pre-warm heavier ingredients (mushrooms, ham, sausage) to avoid releasing water and making the omelet soggy.",
+    "Presentation: Keep the fold clean, and serve immediately for that glossy, silky finish."
+  ]
+}
