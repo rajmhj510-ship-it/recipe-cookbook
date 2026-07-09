@@ -3,10 +3,10 @@
   "title": "Hash Brown Potato",
   "description": "Hash Brown Potato is a classic continental breakfast side made from grated potatoes cooked until perfectly golden and crisp on the outside while remaining tender inside. This professional restaurant-style method produces a beautifully lacy crust with exceptional texture and flavor.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "35 min",
   "difficulty": "Medium",
-  "image": "assets/images/breakfast/hash-brown-potato.png",
+  "image": "assets/images/continental/hash-brown-potato.png",
 
   "ingredients": [
     {
