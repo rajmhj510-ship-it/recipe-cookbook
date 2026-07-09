@@ -3,10 +3,10 @@
   "title": "Meatballs with Tomato Sauce",
   "description": "Meatballs with Tomato Sauce is a classic continental comfort dish featuring tender, juicy beef meatballs gently simmered in a rich, aromatic tomato sauce. Finished with Parmesan and fresh parsley, this restaurant-style recipe pairs perfectly with pasta, mashed potatoes, or crusty artisan bread.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "45 min",
   "difficulty": "Medium",
-  "image": "assets/images/breakfast/meatballs-with-tomato-sauce.png",
+  "image": "assets/images/continental/meatballs-with-tomato-sauce.png",
 
   "ingredients": [
     {
