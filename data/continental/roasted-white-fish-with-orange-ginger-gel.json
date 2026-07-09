@@ -1,0 +1,97 @@
+{
+  "id": "319",
+  "title": "Roasted White Fish with Orange–Ginger Gel",
+  "description": "Roasted White Fish with Orange–Ginger Gel is a modern continental seafood dish featuring tender oven-roasted premium white fish paired with a vibrant citrus-ginger gel. Finished with elegant garnishes and optional cauliflower purée or saffron jasmine rice, this refined recipe showcases professional fine-dining techniques and balanced flavors.",
+
+  "category": "Breakfast",
+  "time": "50 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/roasted-white-fish-with-orange-ginger-gel.png",
+
+  "ingredients": [
+    {
+      "title": "For the Fish",
+      "items": [
+        "2 skinless fillets of premium white fish (cod, halibut, or seabass), ~150 g each",
+        "1 tbsp extra-virgin olive oil",
+        "Maldon sea salt, to taste",
+        "Freshly ground white pepper, to taste",
+        "2 sprigs fresh thyme or dill"
+      ]
+    },
+    {
+      "title": "For the Orange–Ginger Gel",
+      "items": [
+        "200 ml freshly squeezed orange juice (strained)",
+        "1 tsp finely grated orange zest",
+        "10 g fresh ginger, finely grated",
+        "1 tsp acacia honey (optional, for balance)",
+        "Pinch of fine sea salt",
+        "2 g agar-agar powder (approx. 1 tsp)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Micro herbs (e.g., micro coriander, basil, or shiso)",
+        "Citrus supremes (segments of orange or grapefruit, membrane removed)",
+        "Edible flowers (optional, for refinement)"
+      ]
+    },
+    {
+      "title": "Optional Accompaniment",
+      "items": [
+        "Cauliflower purée or saffron-infused jasmine rice"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Fish",
+      "steps": [
+        "Preheat oven to 190°C (375°F).",
+        "Pat fish fillets dry with a kitchen towel (crisp presentation starts with a dry surface).",
+        "Season delicately with sea salt and white pepper.",
+        "Heat an oven-safe pan over medium heat with olive oil. Place fish presentation side down for 1–2 minutes to achieve light coloration.",
+        "Transfer pan to oven, add thyme sprigs, and roast for 6–8 minutes until fish is just opaque and flakes with gentle pressure. Rest briefly before plating."
+      ]
+    },
+    {
+      "title": "2. Create the Orange–Ginger Gel",
+      "steps": [
+        "In a small saucepan, combine orange juice, zest, ginger, honey, and salt.",
+        "Bring gently to a simmer, infusing for 2–3 minutes.",
+        "Whisk in agar-agar and cook at simmer for another 2 minutes to fully activate.",
+        "Strain through a fine chinois to remove zest and ginger fibers (ensures a clean, silky gel).",
+        "Pour into a shallow tray, chill for 30–40 minutes until set.",
+        "Once firm, blend until smooth to achieve a glossy gel suitable for quenelles, dots, or artistic swipes."
+      ]
+    },
+    {
+      "title": "3. Plate with Precision",
+      "steps": [
+        "Base: Place a quenelle of cauliflower purée or a spoon of saffron jasmine rice slightly off-center.",
+        "Protein: Position the roasted fish fillet at an angle for height and elegance.",
+        "Accent: Apply dots or brush strokes of orange–ginger gel around the fish to create visual flow.",
+        "Garnish: Add citrus supremes for brightness, a few micro herbs for freshness, and edible flowers for finesse.",
+        "Final Touch: Lightly drizzle with high-quality olive oil or a citrus reduction for sheen."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with cauliflower purée or saffron-infused jasmine rice for an elegant restaurant presentation.",
+      "Present on a wide-rim white porcelain plate, ensuring negative space for a refined, modern aesthetic."
+    ]
+  },
+
+  "chefTips": [
+    "Balance: The sweetness of the orange gel contrasts the ginger’s heat and the fish’s delicate brininess.",
+    "Technique: Straining the gel ensures a professional finish. Agar-agar creates a stable gel that holds at room temperature, perfect for fine plating.",
+    "Wine Pairing: A crisp, mineral-driven Sauvignon Blanc, Chablis, or Albariño complements the citrus-driven profile.",
+    "Pat the fish completely dry before roasting to achieve the best texture and presentation."
+  ]
+}
