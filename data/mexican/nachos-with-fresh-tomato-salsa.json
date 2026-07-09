@@ -1,0 +1,96 @@
+{
+  "id": "609",
+  "title": "Nachos with Fresh Tomato Salsa",
+  "description": "Crispy tortilla chips layered with melted cheese and topped with smoky fresh tomato salsa make this classic Mexican appetizer irresistible. Perfect for sharing, these nachos combine fresh ingredients with bold flavors for a restaurant-quality snack.",
+
+  "category": "Mexican",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/nachos-with-fresh-tomato-salsa.png",
+
+  "ingredients": [
+    {
+      "title": "For the Nachos",
+      "items": [
+        "High-quality corn tortilla chips (homemade or artisan store-bought) – 200 g",
+        "Shredded Oaxaca cheese (or a mix of Monterey Jack & mild Cheddar) – 150 g",
+        "Cooked black beans – 100 g (optional, for layering)",
+        "Unsalted butter – 2 tbsp",
+        "Smoked paprika – 1 tsp",
+        "Chili powder – 1 tsp",
+        "Salt – to taste",
+        "Fresh cilantro leaves – for garnish",
+        "Sliced jalapeños – optional, for heat"
+      ]
+    },
+    {
+      "title": "For the Tomato Salsa (Salsa Roja)",
+      "items": [
+        "Ripe medium tomatoes – 4",
+        "Small white onion – 1",
+        "Garlic cloves – 2",
+        "Fresh jalapeño (or serrano for more heat) – 1",
+        "Olive oil – 1 tbsp",
+        "Ground cumin – 1 tsp",
+        "Smoked paprika – ½ tsp",
+        "Salt & black pepper – to taste",
+        "Juice of 1 lime",
+        "Fresh coriander (cilantro) leaves, chopped"
+      ]
+    },
+    {
+      "title": "Optional Toppings",
+      "items": [
+        "Sour cream or Mexican crema",
+        "Guacamole",
+        "Pickled red onions",
+        "Fresh radish slices"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Make the Tomato Salsa",
+      "steps": [
+        "Preheat a skillet over medium heat. Dry-roast the tomatoes, onion, garlic, and jalapeño until lightly charred on all sides.",
+        "Transfer to a blender. Add olive oil, cumin, smoked paprika, salt, pepper, and lime juice. Blend until smooth.",
+        "Adjust seasoning. Garnish with chopped cilantro. Set aside."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare Nachos",
+      "steps": [
+        "Preheat oven to 180°C (350°F).",
+        "Spread tortilla chips evenly on a baking tray.",
+        "If using black beans, sprinkle over chips.",
+        "Mix shredded cheese with butter, paprika, chili powder, and a pinch of salt. Distribute over the chips.",
+        "Bake for 8–10 minutes, until cheese melts and turns slightly golden."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble & Serve",
+      "steps": [
+        "Remove nachos from oven and drizzle with fresh tomato salsa.",
+        "Add optional toppings: sour cream, guacamole, radish slices, and jalapeños.",
+        "Garnish with fresh cilantro leaves. Serve immediately while crispy."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately while the chips are hot and crispy.",
+      "Pair with extra salsa, guacamole, or Mexican crema on the side.",
+      "Enjoy as an appetizer, party snack, or game-day favorite."
+    ]
+  },
+
+  "chefTips": [
+    "Tortilla Chips: For ultimate crunch, lightly fry homemade corn tortillas cut into triangles instead of using store-bought.",
+    "Cheese: Mix a soft melting cheese (Oaxaca) with a slightly tangy one (Cheddar) for a balanced flavor.",
+    "Salsa: Char the tomatoes and peppers for a smoky depth, not just raw blending.",
+    "Presentation: Serve on a wooden board or a stylish platter, layering chips and cheese in tiers to prevent sogginess."
+  ]
+}
