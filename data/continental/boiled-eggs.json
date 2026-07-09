@@ -1,0 +1,87 @@
+{
+  "id": "309",
+  "title": "Boiled Eggs",
+  "description": "Boiled Eggs are a simple yet versatile breakfast staple prepared by cooking eggs to soft, medium, or hard consistency. Using precise timing and proper cooling techniques ensures tender whites, creamy yolks, and easy peeling for professional-quality results.",
+
+  "category": "Breakfast",
+  "time": "15 min",
+  "difficulty": "Easy",
+  "image": "assets/images/breakfast/boiled-eggs.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Fresh large eggs (as many as needed)",
+        "Cold filtered water",
+        "Ice cubes (for an ice bath)",
+        "Salt (optional, prevents cracking)",
+        "White vinegar (optional, for easy peeling)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prep the Eggs",
+      "steps": [
+        "Take the eggs out of the fridge 10–15 minutes before cooking to reduce cracking from temperature shock.",
+        "Optional: Add a pinch of salt or a splash of vinegar to the water."
+      ]
+    },
+    {
+      "title": "2. Boiling Water Method (Chef's Precision)",
+      "steps": [
+        "Fill a saucepan with enough water to cover eggs by 1 inch.",
+        "Bring the water to a gentle boil (not a rolling, furious boil).",
+        "Reduce heat to maintain a gentle simmer."
+      ]
+    },
+    {
+      "title": "3. Cooking Times (Restaurant Standard)",
+      "steps": [
+        "Soft-Boiled: 6–7 minutes → firm whites, runny yolk.",
+        "Medium-Boiled: 8–9 minutes → custard-like yolk, slightly set.",
+        "Hard-Boiled: 11–12 minutes → fully set yolk, creamy texture."
+      ]
+    },
+    {
+      "title": "4. Shock in Ice Bath",
+      "steps": [
+        "Immediately transfer eggs to an ice bath (cold water + ice cubes) for 5–10 minutes.",
+        "Stops cooking instantly, prevents overcooking, and makes peeling effortless."
+      ]
+    },
+    {
+      "title": "5. Peeling (Chef's Tip)",
+      "steps": [
+        "Tap gently on a hard surface, roll to crack, then peel under running cold water.",
+        "Older eggs peel easier; if eggs are very fresh, let them rest in the fridge for 3–5 days for easier peeling."
+      ]
+    },
+    {
+      "title": "6. Serving Suggestions (Continental Style)",
+      "steps": [
+        "Soft-boiled in egg cups, sprinkle with fleur de sel and cracked black pepper.",
+        "Medium or hard-boiled sliced on salads, avocado toast, or gourmet breakfast plates.",
+        "Pair with smoked salmon, fresh herbs, or hollandaise sauce for elevated presentation."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Soft-boiled in egg cups, sprinkle with fleur de sel and cracked black pepper.",
+      "Medium or hard-boiled sliced on salads, avocado toast, or gourmet breakfast plates.",
+      "Pair with smoked salmon, fresh herbs, or hollandaise sauce for elevated presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Gentle simmer, not a violent boil → prevents cracks and rubbery whites.",
+    "Ice bath → ensures vibrant yolk color and perfect texture.",
+    "Time precisely → use a timer for consistency in restaurant-quality results.",
+    "For presentation: cut with a serrated knife for neat slices."
+  ]
+}
