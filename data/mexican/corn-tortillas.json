@@ -1,0 +1,97 @@
+{
+  "id": "607",
+  "title": "Corn Tortillas (Gluten-Free)",
+  "description": "Traditional corn tortillas are made from nixtamalized masa harina, producing a naturally gluten-free tortilla with authentic corn flavor and a soft, tender texture. Freshly cooked tortillas are perfect for tacos, tostadas, enchiladas, and countless Mexican dishes.",
+
+  "category": "Mexican",
+  "time": "45 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/corn-tortillas.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Masa harina (high-quality, nixtamalized corn flour – e.g., Masienda or Maseca) – 2 cups (240 g)",
+        "Warm water (filtered, ~100°F / 38°C) – 1½ cups (360 ml)",
+        "Sea salt (fine) – ½ tsp",
+        "Neutral oil (like avocado or sunflower) – 1 tsp (optional, for added pliability)"
+      ]
+    },
+    {
+      "title": "Equipment",
+      "items": [
+        "Tortilla press (lined with plastic or cut freezer bag)",
+        "Cast-iron comal or heavy skillet",
+        "Damp towel"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Mix the Dough (Masa)",
+      "steps": [
+        "In a large bowl, combine masa harina and salt.",
+        "Slowly add warm water, mixing with your hand until a soft, pliable dough forms.",
+        "The dough should feel like playdough — moist but not sticky.",
+        "If too dry, add 1 tsp water at a time. If too wet, sprinkle in a little more masa harina."
+      ]
+    },
+    {
+      "title": "Step 2 – Rest",
+      "steps": [
+        "Cover the dough with a damp towel and let it rest for 20–30 minutes at room temperature.",
+        "This allows the masa to fully hydrate, improving texture."
+      ]
+    },
+    {
+      "title": "Step 3 – Portion",
+      "steps": [
+        "Divide dough into 12–15 golf ball-sized pieces (about 30 g each).",
+        "Keep them covered with a damp towel to prevent drying."
+      ]
+    },
+    {
+      "title": "Step 4 – Press",
+      "steps": [
+        "Place one dough ball between sheets of plastic in the tortilla press.",
+        "Press firmly to form a 5–6 inch (12–15 cm) tortilla, about 2 mm thick."
+      ]
+    },
+    {
+      "title": "Step 5 – Cook (Professional Technique)",
+      "steps": [
+        "Heat a cast-iron comal or heavy skillet over medium-high until very hot.",
+        "Place tortilla on the dry comal.",
+        "First side: 40–50 seconds until edges begin to release.",
+        "Second side: 50–60 seconds.",
+        "Third flip: 20–30 seconds — the tortilla should puff slightly (a sign of perfect hydration and pressing).",
+        "Adjust timing depending on heat; tortillas should develop light brown spots but not burn."
+      ]
+    },
+    {
+      "title": "Step 6 – Hold & Serve",
+      "steps": [
+        "Stack tortillas in a clean kitchen towel to keep warm and pliable.",
+        "Serve within 30 minutes for best texture, or store wrapped in a towel inside a tortilla warmer."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Perfect for tacos, tostadas, enchiladas, and quesadillas.",
+      "Pair with tacos al pastor, carnitas, grilled vegetables, or mole-based dishes.",
+      "Serve warm straight from the comal for the best flavor and texture."
+    ]
+  },
+
+  "chefTips": [
+    "Hydration is key: Different masa harina brands absorb water differently; always adjust slightly.",
+    "Puffing: Indicates steam expansion — essential for tenderness. If tortillas don’t puff, knead dough more or adjust hydration.",
+    "Make ahead: Tortillas can be reheated on a comal for 10–15 seconds per side.",
+    "Pairing: Ideal for tacos al pastor, carnitas, grilled vegetables, or mole-based dishes."
+  ]
+}
