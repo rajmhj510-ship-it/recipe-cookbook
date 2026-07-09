@@ -3,10 +3,10 @@
   "title": "Classic Hamburger",
   "description": "Classic Hamburger is a premium beef burger featuring a juicy homemade patty, melted Swiss cheese, crispy bacon, caramelized onions, fresh vegetables, and creamy garlic aioli served on a toasted brioche bun. This restaurant-style recipe delivers rich flavor and an elegant continental presentation.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "30 min",
   "difficulty": "Medium",
-  "image": "assets/images/breakfast/classic-hamburger.png",
+  "image": "assets/images/continental/classic-hamburger.png",
 
   "ingredients": [
     {
