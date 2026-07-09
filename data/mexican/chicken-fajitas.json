@@ -1,0 +1,104 @@
+{
+  "id": "618",
+  "title": "Chicken Fajitas",
+  "description": "Chicken Fajitas feature juicy marinated chicken, colorful sautéed peppers, and onions served on warm tortillas with fresh toppings. This sizzling Mexican classic is packed with smoky flavors and is perfect for a family meal or casual gathering.",
+
+  "category": "Mexican",
+  "time": "50 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/chicken-fajitas.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Marinade",
+      "items": [
+        "Boneless, skinless chicken breasts – 4",
+        "Olive oil – 3 tbsp",
+        "Chili powder – 2 tsp",
+        "Smoked paprika – 1 tsp",
+        "Ground cumin – 1 tsp",
+        "Garlic powder – ½ tsp",
+        "Onion powder – ½ tsp",
+        "Dried oregano – ½ tsp",
+        "Salt – ½ tsp (adjust to taste)",
+        "Black pepper – ¼ tsp",
+        "Juice of 1 lime"
+      ]
+    },
+    {
+      "title": "For the Vegetables",
+      "items": [
+        "Red bell pepper, sliced thin – 1",
+        "Yellow bell pepper, sliced thin – 1",
+        "Green bell pepper, sliced thin – 1",
+        "Large onion, sliced thin – 1",
+        "Olive oil – 2 tbsp",
+        "Pinch of salt and pepper"
+      ]
+    },
+    {
+      "title": "For Serving",
+      "items": [
+        "Warm flour or corn tortillas",
+        "Fresh cilantro, chopped",
+        "Lime wedges",
+        "Sour cream or Mexican crema",
+        "Salsa or pico de gallo",
+        "Guacamole (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinate the Chicken",
+      "steps": [
+        "In a bowl, combine olive oil, chili powder, paprika, cumin, garlic powder, onion powder, oregano, salt, pepper, and lime juice.",
+        "Add chicken breasts and coat evenly.",
+        "Cover and refrigerate for at least 30 minutes, ideally 2–3 hours for maximum flavor."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Chicken",
+      "steps": [
+        "Heat a large skillet or cast-iron pan over medium-high heat.",
+        "Add a drizzle of olive oil.",
+        "Cook chicken for 5–7 minutes per side, or until fully cooked (internal temp 165°F / 74°C).",
+        "Remove chicken and let rest for 5 minutes, then slice thinly against the grain."
+      ]
+    },
+    {
+      "title": "Step 3 – Sauté the Vegetables",
+      "steps": [
+        "In the same skillet, add olive oil.",
+        "Sauté onions and bell peppers over medium-high heat for 5–7 minutes until tender-crisp with slight caramelization.",
+        "Season with a pinch of salt and pepper."
+      ]
+    },
+    {
+      "title": "Step 4 – Assemble the Fajitas",
+      "steps": [
+        "Warm tortillas on a dry skillet or oven.",
+        "Layer sliced chicken and sautéed vegetables on each tortilla.",
+        "Garnish with cilantro, a squeeze of lime, and optional toppings like sour cream, salsa, or guacamole."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately on warm flour or corn tortillas.",
+      "Pair with Mexican rice, refried beans, or grilled corn.",
+      "Offer salsa, guacamole, sour cream, and lime wedges on the side."
+    ]
+  },
+
+  "chefTips": [
+    "Use a cast-iron skillet for the best sear and flavor.",
+    "Slice chicken and peppers thinly for quick, even cooking.",
+    "Don't overcrowd the pan; cook in batches if necessary.",
+    "Finish with a squeeze of fresh lime just before serving for brightness.",
+    "Serve on a hot, slightly charred tortilla for an authentic touch."
+  ]
+}
