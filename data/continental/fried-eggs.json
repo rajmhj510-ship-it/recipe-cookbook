@@ -1,0 +1,90 @@
+{
+  "id": "307",
+  "title": "Fried Eggs",
+  "description": "Fried Eggs are a timeless breakfast favorite featuring perfectly set whites and rich, runny yolks. Cooked gently over low heat with butter or olive oil, they deliver a delicate texture and are ideal for a classic continental breakfast or brunch.",
+
+  "category": "Breakfast",
+  "time": "10 min",
+  "difficulty": "Easy",
+  "image": "assets/images/breakfast/fried-eggs.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients (per serving)",
+      "items": [
+        "2 large free-range eggs",
+        "1 tbsp unsalted butter (or light olive oil for a lighter taste)",
+        "Salt, to taste (preferably flaky sea salt)",
+        "Freshly ground black pepper, to taste",
+        "Optional: fresh herbs (chives, parsley, or tarragon)",
+        "Optional: a drizzle of truffle oil for a luxurious touch"
+      ]
+    },
+    {
+      "title": "Equipment",
+      "items": [
+        "Non-stick or well-seasoned stainless steel skillet",
+        "Spatula (preferably thin and flexible)",
+        "Lid for gentle steaming"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Preheat the Pan",
+      "steps": [
+        "Place the pan on medium-low heat.",
+        "Add butter and let it melt slowly, forming a thin foam without browning. This ensures gentle cooking."
+      ]
+    },
+    {
+      "title": "2. Crack and Prepare Eggs",
+      "steps": [
+        "Crack each egg into a small bowl to check for freshness and avoid shell fragments."
+      ]
+    },
+    {
+      "title": "3. Cooking the Eggs",
+      "steps": [
+        "Gently slide the eggs into the pan, keeping yolks intact.",
+        "Cook slowly on low heat for 2–3 minutes for sunny-side-up, until whites are mostly set.",
+        "For a slightly runny yolk with cooked tops, cover with a lid for 30–60 seconds to steam lightly."
+      ]
+    },
+    {
+      "title": "4. Seasoning",
+      "steps": [
+        "Sprinkle salt and freshly cracked black pepper.",
+        "Optional: add finely chopped fresh herbs for aroma and visual appeal."
+      ]
+    },
+    {
+      "title": "5. Finishing Touch",
+      "steps": [
+        "Carefully lift the eggs with a spatula onto a pre-warmed plate.",
+        "Optional: drizzle a few drops of high-quality extra virgin olive oil or truffle oil."
+      ]
+    },
+    {
+      "title": "6. Serving",
+      "steps": [
+        "Serve immediately with toasted artisan bread, sautéed mushrooms, or as part of a continental breakfast plate."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately with toasted artisan bread, sautéed mushrooms, or as part of a continental breakfast plate."
+    ]
+  },
+
+  "chefTips": [
+    "Use fresh, high-quality eggs—this is the most important factor.",
+    "Cook low and slow; high heat makes whites rubbery.",
+    "For restaurant plating, use a ring mold to shape toast or sautéed vegetables elegantly around the eggs.",
+    "Experiment with finishing salts like fleur de sel for that delicate crunch."
+  ]
+}
