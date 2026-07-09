@@ -1,0 +1,93 @@
+{
+  "id": "316",
+  "title": "Pan-Seared Seabass with Lemon Butter Sauce",
+  "description": "Pan-Seared Seabass with Lemon Butter Sauce is a refined continental seafood dish featuring crispy skin, moist flaky flesh, and a silky beurre blanc-style lemon butter sauce. Finished with seasonal vegetables and elegant garnishes, it is a classic fine-dining restaurant favorite.",
+
+  "category": "Breakfast",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/pan-seared-seabass-with-lemon-butter-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "For the Seabass",
+      "items": [
+        "2 fillets fresh seabass (skin-on, ~180–200 g each)",
+        "1 tbsp olive oil",
+        "1 tbsp unsalted butter",
+        "Salt (fine sea salt, to taste)",
+        "Freshly ground black pepper (to taste)"
+      ]
+    },
+    {
+      "title": "For the Lemon Butter Sauce (Beurre Blanc style)",
+      "items": [
+        "2 tbsp shallots, finely minced",
+        "100 ml dry white wine",
+        "2 tbsp white wine vinegar (or champagne vinegar)",
+        "120 g unsalted cold butter (cut into small cubes)",
+        "Juice of ½ fresh lemon",
+        "Zest of 1 lemon (finely grated)",
+        "1 tbsp heavy cream (optional, stabilizes sauce)",
+        "Salt, to taste",
+        "White pepper, to taste"
+      ]
+    },
+    {
+      "title": "For Garnish / Presentation",
+      "items": [
+        "Fresh dill sprigs or microgreens",
+        "Lemon wedges or thin lemon slices (charred for sophistication)",
+        "Seasonal vegetables (blanched asparagus, baby carrots, or French beans)",
+        "Micro herbs or edible flowers (optional for fine dining plating)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Seabass",
+      "steps": [
+        "Pat the seabass fillets dry with paper towels to ensure crispy skin.",
+        "Season both sides lightly with salt and pepper.",
+        "Heat a heavy-bottomed skillet (preferably stainless steel or cast iron) over medium-high heat.",
+        "Add olive oil and let it shimmer. Place the seabass skin-side down.",
+        "Press gently with a spatula to prevent curling. Cook 3–4 minutes until the skin is golden and crisp.",
+        "Flip, add 1 tbsp butter, and baste for 1–2 minutes until flesh is opaque and moist.",
+        "Remove from pan and rest briefly on a warm plate."
+      ]
+    },
+    {
+      "title": "2. Make the Lemon Butter Sauce",
+      "steps": [
+        "In a saucepan, combine shallots, white wine, and vinegar. Reduce over medium heat until only 2–3 tbsp of liquid remain.",
+        "Stir in heavy cream (optional) to stabilize the emulsion.",
+        "Lower heat to very gentle and whisk in butter cubes, one at a time, until the sauce is smooth and glossy. Do not let it boil.",
+        "Add lemon juice and zest, season with salt and white pepper. Strain through a fine sieve for a silky texture."
+      ]
+    },
+    {
+      "title": "3. Plate & Serve (Restaurant Style)",
+      "steps": [
+        "Spoon a pool of lemon butter sauce onto a warm plate.",
+        "Place the seabass fillet skin-side up for crispness.",
+        "Arrange seasonal vegetables neatly to the side (blanched and glazed lightly in butter).",
+        "Garnish with dill sprigs, charred lemon wedge, and microgreens for an elegant finish."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Pair with a crisp dry white wine (e.g., Sauvignon Blanc or Chardonnay)."
+    ]
+  },
+
+  "chefTips": [
+    "Use super fresh seabass – skin should be crisp, flesh moist and tender.",
+    "Rest the fish briefly before plating to retain juiciness.",
+    "Sauce should be velvety, glossy, and smooth – strain for finesse.",
+    "Serve on warm plates to maintain texture and temperature."
+  ]
+}
