@@ -3,10 +3,10 @@
   "title": "Classic French-style Omelet",
   "description": "Classic French-style Omelet is an elegant breakfast dish known for its delicate, silky texture and smooth pale-yellow exterior. Gently cooked over low heat and folded into a tender oval, this timeless French classic showcases the richness of eggs with minimal ingredients and refined technique.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "10 min",
   "difficulty": "Medium",
-  "image": "assets/images/breakfast/classic-french-style-omelet.png",
+  "image": "assets/images/continental/classic-french-style-omelet.png",
 
   "ingredients": [
     {
