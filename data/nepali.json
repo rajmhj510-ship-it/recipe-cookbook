@@ -68,5 +68,15 @@
     "description": "",
     "time": "16 hrs",
     "difficulty": "Easy"
+  },
+          {
+    "id": 708,
+    "title": "Mustang Aloo",
+    "category": "Nepali",
+    "file": "data/nepali/mustang-aloo.json",
+    "image": "assets/images/nepali/mustang-aloo.png",
+    "description": "",
+    "time": "40 min",
+    "difficulty": "Easy"
   }
 ]
