@@ -1,0 +1,115 @@
+{
+  "id": "614",
+  "title": "Mexican Chicken Salad",
+  "description": "Mexican Chicken Salad is a fresh, colorful combination of seasoned chicken, crisp greens, black beans, sweet corn, creamy avocado, and a smoky lime dressing. Finished with crunchy tortilla strips, it's perfect as a light lunch or satisfying main course.",
+
+  "category": "Mexican",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/mexican-chicken-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Chicken breasts (skinless, boneless) – 2 large",
+        "Smoked paprika – 1 tsp",
+        "Ground cumin – 1 tsp",
+        "Chili powder – ½ tsp",
+        "Salt & black pepper – to taste",
+        "Olive oil – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Salad",
+      "items": [
+        "Cherry tomatoes, halved – 1 cup",
+        "Sweet corn kernels (fresh or roasted) – 1 cup",
+        "Red onion, finely diced – ½",
+        "Avocado, diced – 1",
+        "Black beans, rinsed and drained – 1 cup",
+        "Chopped fresh cilantro – ½ cup",
+        "Mixed greens (arugula, romaine, baby spinach) – 4 cups",
+        "Red bell pepper, thinly sliced – ½ cup",
+        "Shredded Monterey Jack or Cotija cheese – ½ cup (optional for richness)"
+      ]
+    },
+    {
+      "title": "For the Dressing",
+      "items": [
+        "Greek yogurt or Mexican crema – 3 tbsp",
+        "Mayonnaise – 2 tbsp (optional for creaminess)",
+        "Freshly squeezed lime juice – 1 tbsp",
+        "Honey or agave – 1 tsp",
+        "Smoked paprika – ½ tsp",
+        "Ground cumin – ½ tsp",
+        "Small jalapeño, finely minced – 1 (optional, adjust for spice)",
+        "Salt & black pepper – to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Crispy tortilla strips or crushed tortilla chips",
+        "Extra cilantro leaves",
+        "Lime wedges"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Cook the Chicken",
+      "steps": [
+        "Season chicken breasts with smoked paprika, cumin, chili powder, salt, and pepper.",
+        "Heat olive oil in a skillet over medium-high heat.",
+        "Sear chicken 4–5 minutes per side until golden and cooked through (internal temp 165°F / 74°C).",
+        "Let rest 5 minutes, then slice thinly or shred."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Dressing",
+      "steps": [
+        "In a small bowl, whisk together Greek yogurt, mayonnaise, lime juice, honey, paprika, cumin, and minced jalapeño.",
+        "Season with salt and pepper to taste. Adjust lime or honey if needed."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Salad",
+      "steps": [
+        "In a large salad bowl, combine mixed greens, cherry tomatoes, corn, red onion, avocado, black beans, bell pepper, and cilantro.",
+        "Add sliced or shredded chicken on top.",
+        "Drizzle the dressing over the salad and toss gently until evenly coated."
+      ]
+    },
+    {
+      "title": "Step 4 – Plate & Garnish",
+      "steps": [
+        "Transfer salad to a serving platter or individual plates.",
+        "Sprinkle with shredded cheese, crispy tortilla strips, extra cilantro, and a wedge of lime."
+      ]
+    },
+    {
+      "title": "Step 5 – Serve Immediately",
+      "steps": [
+        "Fresh, colorful, and restaurant-ready!"
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately while the greens are crisp and fresh.",
+      "Pair with warm tortillas, tortilla chips, or Mexican rice.",
+      "Enjoy as a light lunch or a satisfying main course."
+    ]
+  },
+
+  "chefTips": [
+    "Roasting the corn adds a subtle smoky sweetness.",
+    "Marinating chicken for 30 minutes in a bit of lime juice and olive oil enhances flavor.",
+    "Make it ahead: Keep dressing separate until serving to prevent greens from wilting.",
+    "Presentation: Use a ring mold to stack salad for a clean, high-end look."
+  ]
+}
