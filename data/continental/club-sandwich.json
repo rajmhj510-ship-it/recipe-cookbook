@@ -1,0 +1,91 @@
+{
+  "id": "313",
+  "title": "Club Sandwich",
+  "description": "Club Sandwich is a classic continental favorite made with three layers of toasted bread, tender chicken, crispy bacon, fresh vegetables, and creamy mayonnaise. This hotel-style sandwich is served with golden French fries and a fresh salad for a satisfying restaurant-quality meal.",
+
+  "category": "Breakfast",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "image": "assets/images/breakfast/club-sandwich.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "3 slices white sandwich bread (lightly toasted, edges trimmed)",
+        "100 g cooked chicken breast (grilled or roasted, thinly sliced)",
+        "2 slices crispy bacon",
+        "1 boiled egg (sliced) or 1 fried egg (optional, depending on style)",
+        "2 slices ripe tomato",
+        "2–3 leaves iceberg or romaine lettuce",
+        "1 slice cheddar or Swiss cheese (optional but common in hotels)",
+        "2 tbsp mayonnaise (lightly seasoned with lemon juice & pepper)",
+        "Butter (for toasting bread, optional)",
+        "Salt & black pepper, to taste"
+      ]
+    },
+    {
+      "title": "For service (side)",
+      "items": [
+        "French fries or potato wedges",
+        "Small salad (coleslaw or mixed greens)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare Ingredients",
+      "steps": [
+        "Toast the bread slices lightly and keep warm.",
+        "Cook bacon until crisp.",
+        "Slice chicken, tomato, and egg. Wash and dry lettuce leaves."
+      ]
+    },
+    {
+      "title": "2. Assemble First Layer",
+      "steps": [
+        "Place the first slice of bread on a board.",
+        "Spread mayonnaise evenly.",
+        "Add lettuce, sliced chicken, and tomato."
+      ]
+    },
+    {
+      "title": "3. Assemble Second Layer",
+      "steps": [
+        "Place the second slice of bread on top. Spread mayo.",
+        "Add bacon, egg slices, and cheese (if using)."
+      ]
+    },
+    {
+      "title": "4. Finish",
+      "steps": [
+        "Top with the third slice of bread. Press gently.",
+        "Secure with 4 cocktail sticks (to hold shape).",
+        "Cut the sandwich diagonally into 4 triangles."
+      ]
+    },
+    {
+      "title": "5. Serve",
+      "steps": [
+        "Arrange neatly on a plate.",
+        "Add French fries and a small side salad for a true continental hotel presentation."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "French fries or potato wedges.",
+      "Small salad (coleslaw or mixed greens)."
+    ]
+  },
+
+  "chefTips": [
+    "Use farm-fresh eggs for brighter color.",
+    "Grill chicken with a touch of paprika & olive oil for flavor.",
+    "Keep fillings balanced and not too heavy, so layers stay neat.",
+    "Plate with a small ramekin of ketchup or aioli beside the fries."
+  ]
+}
