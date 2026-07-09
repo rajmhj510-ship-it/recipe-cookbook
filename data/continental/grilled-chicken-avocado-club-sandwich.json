@@ -3,10 +3,10 @@
   "title": "Grilled Chicken & Avocado Club Sandwich",
   "description": "Grilled Chicken & Avocado Club Sandwich is a premium continental sandwich layered with juicy grilled chicken, creamy avocado, crisp vegetables, melted cheese, and garlic aioli between toasted artisan bread. This professional chef's recipe delivers a perfectly balanced combination of textures and flavors for a top restaurant-quality meal.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "30 min",
   "difficulty": "Medium",
-  "image": "assets/images/breakfast/grilled-chicken-avocado-club-sandwich.png",
+  "image": "assets/images/continental/grilled-chicken-avocado-club-sandwich.png",
 
   "ingredients": [
     {
