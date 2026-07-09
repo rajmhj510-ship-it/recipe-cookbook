@@ -1,0 +1,73 @@
+{
+  "id": "608",
+  "title": "Homemade Tortilla Chips (Totopos)",
+  "description": "Totopos are traditional Mexican tortilla chips made by frying corn tortillas until crisp and golden. Freshly made tortilla chips offer superior flavor and texture, making them perfect for serving with salsa, guacamole, queso fundido, or your favorite Mexican dips.",
+
+  "category": "Mexican",
+  "time": "40 min",
+  "difficulty": "Easy–Intermediate",
+  "image": "assets/images/mexican/tortilla-chips.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Fresh corn tortillas (day-old preferred for better crisping) – 12",
+        "Neutral oil (corn, canola, or peanut) – 1½–2 cups, for frying",
+        "Fine sea salt – 1 tsp (or more, to taste)",
+        "Optional seasoning: smoked paprika, chili powder, or lime zest"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare Tortillas",
+      "steps": [
+        "Cut each tortilla into 6 even wedges (triangular pieces).",
+        "Leave uncovered for 30–60 minutes to slightly dry—this helps achieve a crispier chip."
+      ]
+    },
+    {
+      "title": "Step 2 – Heat the Oil",
+      "steps": [
+        "In a heavy-bottomed pot or cast-iron skillet, heat oil to 175–180°C (350–360°F).",
+        "Test by dipping a tortilla piece: it should bubble immediately but not burn."
+      ]
+    },
+    {
+      "title": "Step 3 – Fry in Batches",
+      "steps": [
+        "Add a handful of tortilla wedges (do not overcrowd).",
+        "Fry 2–3 minutes, turning once, until golden and crisp."
+      ]
+    },
+    {
+      "title": "Step 4 – Drain & Season",
+      "steps": [
+        "Remove chips with a slotted spoon, place on a paper towel-lined tray.",
+        "Immediately sprinkle with fine sea salt (and optional spices)."
+      ]
+    },
+    {
+      "title": "Step 5 – Serve",
+      "steps": [
+        "Serve warm with salsa roja, guacamole, or queso fundido.",
+        "Can be stored in an airtight container for up to 2 days, but best enjoyed fresh."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve warm with salsa roja, guacamole, or queso fundido.",
+      "Enjoy alongside tacos, burritos, fajitas, or Mexican appetizers.",
+      "Use as a crunchy topping for soups, salads, or chilaquiles."
+    ]
+  },
+
+  "chefTips": [
+    "For restaurant-level flavor, lightly squeeze fresh lime juice over the hot chips before salting, or dust with a mix of salt + chili powder."
+  ]
+}
