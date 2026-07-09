@@ -1,0 +1,75 @@
+{
+  "id": "322",
+  "title": "Waldorf Salad",
+  "description": "Waldorf Salad is a timeless continental classic featuring crisp apples, celery, grapes, toasted walnuts, and a creamy mayonnaise dressing. Served over fresh lettuce and finished with parsley, this elegant salad offers the perfect balance of sweetness, crunch, and richness.",
+
+  "category": "Breakfast",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/waldorf-salad.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Apples – 500 grams",
+        "Celery stalks – 80 grams",
+        "Mayonnaise – 4–5 tbsp (as needed)",
+        "Walnuts – 80 grams",
+        "Seedless grapes – 80 g (halved, red or green)",
+        "Salt & ground pepper – to taste",
+        "Crisp lettuce leaves – for bed of salad",
+        "Fresh parsley – finely chopped, for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Ingredients",
+      "steps": [
+        "Wash and core the apples. Dice them into bite-sized cubes.",
+        "Thinly slice the celery.",
+        "Halve the grapes lengthwise.",
+        "Toast the walnuts briefly in a dry skillet (2–3 minutes), then cool and chop."
+      ]
+    },
+    {
+      "title": "2. Mix the Salad",
+      "steps": [
+        "In a large bowl, combine diced apples, sliced celery, halved grapes, and chopped walnuts.",
+        "Add mayonnaise and gently mix until everything is well coated.",
+        "Season with salt and pepper to taste."
+      ]
+    },
+    {
+      "title": "3. Chill (Optional but Recommended)",
+      "steps": [
+        "Cover the bowl and refrigerate for 15–30 minutes to let the flavors meld."
+      ]
+    },
+    {
+      "title": "4. Serve",
+      "steps": [
+        "Line a serving plate or bowl with crisp lettuce leaves.",
+        "Spoon the salad mixture on top.",
+        "Garnish with fresh chopped parsley."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled on a bed of crisp lettuce.",
+      "Pair with grilled chicken, roasted turkey, or freshly baked artisan bread for a light continental meal."
+    ]
+  },
+
+  "chefTips": [
+    "Use crisp apples such as Gala, Fuji, or Granny Smith for the best texture.",
+    "Toast the walnuts lightly to enhance their flavor and crunch.",
+    "For a lighter version, replace half of the mayonnaise with Greek yogurt.",
+    "Add a teaspoon of lemon juice to prevent the apples from browning."
+  ]
+}
