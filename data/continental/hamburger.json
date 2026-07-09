@@ -1,0 +1,102 @@
+{
+  "id": "314",
+  "title": "Hamburger",
+  "description": "Hamburger is a timeless continental classic featuring a juicy, perfectly seasoned beef patty served on a toasted brioche bun with melted cheese, fresh vegetables, and a rich herb aioli. This professional chef's recipe delivers restaurant-quality flavor, texture, and presentation.",
+
+  "category": "Breakfast",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/hamburger.png",
+
+  "ingredients": [
+    {
+      "title": "For the Patties",
+      "items": [
+        "600 g high-quality beef chuck (20% fat, freshly ground)",
+        "200 g dry-aged beef ribeye trim (optional, for depth of flavor)",
+        "1 tbsp Dijon mustard",
+        "1 tsp Worcestershire sauce",
+        "½ tsp smoked paprika",
+        "Sea salt & freshly cracked black pepper"
+      ]
+    },
+    {
+      "title": "For the Brioche Buns",
+      "items": [
+        "4 butter brioche buns, lightly toasted"
+      ]
+    },
+    {
+      "title": "For the Sauce (Continental Herb Aioli)",
+      "items": [
+        "3 tbsp mayonnaise (or homemade aioli)",
+        "1 tsp Dijon mustard",
+        "1 tsp lemon juice",
+        "1 tbsp finely chopped cornichons",
+        "1 tbsp chopped fresh tarragon",
+        "1 tbsp chopped fresh parsley"
+      ]
+    },
+    {
+      "title": "Garnishes",
+      "items": [
+        "4 slices of aged cheddar or Gruyère",
+        "1 large beefsteak tomato, sliced",
+        "Butter lettuce leaves",
+        "Caramelized onions (optional: slow-cooked in butter and balsamic)",
+        "Cornichons or pickled cucumber slices"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Patties",
+      "steps": [
+        "Mix ground beef gently with Dijon, Worcestershire, paprika, salt, and pepper.",
+        "Form into 4 patties, slightly wider than the buns. Press a small dimple in the center (prevents puffing).",
+        "Chill in the fridge for 20 minutes to firm up."
+      ]
+    },
+    {
+      "title": "2. Cook the Patties",
+      "steps": [
+        "Heat a cast-iron skillet or grill pan until smoking hot.",
+        "Cook patties 3–4 minutes per side for medium-rare, adding cheese in the final minute so it melts perfectly.",
+        "Rest the patties for 2–3 minutes before assembling."
+      ]
+    },
+    {
+      "title": "3. Toast the Buns",
+      "steps": [
+        "Lightly butter brioche buns and toast cut side down until golden."
+      ]
+    },
+    {
+      "title": "4. Make the Sauce",
+      "steps": [
+        "Combine all sauce ingredients. Adjust acidity with extra lemon juice if desired."
+      ]
+    },
+    {
+      "title": "5. Assemble",
+      "steps": [
+        "Spread herb aioli on both bun halves.",
+        "Layer lettuce → patty with cheese → caramelized onions → tomato slice → pickles.",
+        "Cap with the top bun and gently press."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with truffle-parmesan fries or a small mesclun salad with vinaigrette."
+    ]
+  },
+
+  "chefTips": [
+    "For added refinement, brush patties with a touch of beef jus or red wine glaze before assembling.",
+    "Always rest patties before serving—this is what keeps them juicy in fine-dining kitchens."
+  ]
+}
