@@ -1,0 +1,100 @@
+{
+  "id": "315",
+  "title": "Classic Hamburger",
+  "description": "Classic Hamburger is a premium beef burger featuring a juicy homemade patty, melted Swiss cheese, crispy bacon, caramelized onions, fresh vegetables, and creamy garlic aioli served on a toasted brioche bun. This restaurant-style recipe delivers rich flavor and an elegant continental presentation.",
+
+  "category": "Breakfast",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/classic-hamburger.png",
+
+  "ingredients": [
+    {
+      "title": "For the Patty",
+      "items": [
+        "500g high-quality ground beef (80% lean, 20% fat)",
+        "1 small shallot, finely minced",
+        "1 garlic clove, minced",
+        "1 tbsp Worcestershire sauce",
+        "Salt and freshly ground black pepper, to taste"
+      ]
+    },
+    {
+      "title": "For the Bun",
+      "items": [
+        "2 brioche burger buns, lightly toasted"
+      ]
+    },
+    {
+      "title": "Toppings",
+      "items": [
+        "2 slices Swiss cheese or Gruyère",
+        "4 slices crispy smoked bacon",
+        "1 small red onion, thinly sliced and caramelized",
+        "Fresh butter lettuce leaves",
+        "2-3 slices ripe tomato",
+        "Dill pickles, sliced"
+      ]
+    },
+    {
+      "title": "Sauce (Aioli)",
+      "items": [
+        "3 tbsp mayonnaise",
+        "1 tsp Dijon mustard",
+        "1 tsp lemon juice",
+        "1 small garlic clove, minced",
+        "Salt and pepper, to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Patty",
+      "steps": [
+        "In a bowl, gently mix ground beef with shallot, garlic, Worcestershire sauce, salt, and pepper.",
+        "Shape into two equal patties, slightly larger than the buns (they will shrink when cooked).",
+        "Chill patties for 15 minutes to help them hold shape."
+      ]
+    },
+    {
+      "title": "2. Cook the Patties",
+      "steps": [
+        "Heat a grill pan or skillet over medium-high heat.",
+        "Cook patties for about 3-4 minutes per side for medium doneness.",
+        "During the last minute, place cheese slices on top of patties and cover the pan to melt."
+      ]
+    },
+    {
+      "title": "3. Prepare the Sauce",
+      "steps": [
+        "Combine mayonnaise, Dijon mustard, lemon juice, and garlic in a small bowl.",
+        "Season with salt and pepper to taste. Mix well."
+      ]
+    },
+    {
+      "title": "4. Assemble the Burger",
+      "steps": [
+        "Spread a generous layer of aioli on both bun halves.",
+        "On the bottom bun, layer lettuce, tomato, and pickles.",
+        "Add the cheesy beef patty.",
+        "Top with caramelized onions and crispy bacon slices.",
+        "Close with the toasted top bun."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestion",
+    "items": [
+      "Serve immediately with hand-cut fries or a light mixed green salad dressed with a mustard vinaigrette."
+    ]
+  },
+
+  "chefTips": [
+    "Use high-quality ground beef with 20% fat for a juicy burger.",
+    "Chill the patties before cooking to help them hold their shape.",
+    "Rest the cooked patties for a few minutes before assembling to retain their juices.",
+    "Toast the brioche buns lightly for the best texture and flavor."
+  ]
+}
