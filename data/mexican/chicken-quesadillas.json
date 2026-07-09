@@ -1,0 +1,103 @@
+{
+  "id": "617",
+  "title": "Chicken Quesadillas",
+  "description": "Chicken Quesadillas are filled with juicy seasoned chicken, sautéed peppers, onions, and melted cheese inside crispy golden flour tortillas. Served with salsa, guacamole, and sour cream, they make a classic Mexican favorite that's perfect for lunch, dinner, or sharing.",
+
+  "category": "Mexican",
+  "time": "40 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/chicken-quesadillas.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Chicken breasts (~500 g), boneless, skinless – 2 large",
+        "Olive oil – 2 tbsp",
+        "Smoked paprika – 1 tsp",
+        "Ground cumin – 1 tsp",
+        "Chili powder – ½ tsp",
+        "Garlic powder – ½ tsp",
+        "Salt & black pepper – to taste",
+        "Juice of ½ lime"
+      ]
+    },
+    {
+      "title": "For the Quesadillas",
+      "items": [
+        "Large flour tortillas (10–12 inch) – 4",
+        "Shredded cheese (Mexican blend, Chihuahua, or Oaxaca) – 1½ cups",
+        "Red bell pepper, thinly sliced – ½",
+        "Yellow bell pepper, thinly sliced – ½",
+        "Small red onion, thinly sliced – 1",
+        "Fresh cilantro leaves – for garnish"
+      ]
+    },
+    {
+      "title": "Optional Toppings & Sides",
+      "items": [
+        "Sour cream or Mexican crema",
+        "Guacamole or sliced avocado",
+        "Pico de gallo or fresh salsa",
+        "Lime wedges"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken",
+      "steps": [
+        "Slice chicken breasts into thin strips for even cooking.",
+        "In a medium bowl, toss chicken with olive oil, smoked paprika, cumin, chili powder, garlic powder, salt, pepper, and lime juice. Let marinate for 15–30 minutes (optional for deeper flavor).",
+        "Heat a skillet or grill pan over medium-high heat. Sear chicken strips 3–4 minutes per side until cooked through and slightly charred. Remove and set aside."
+      ]
+    },
+    {
+      "title": "Step 2 – Sauté the Vegetables",
+      "steps": [
+        "In the same skillet, lightly sauté the bell peppers and onion for 2–3 minutes until slightly tender but still crisp. Set aside."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Quesadillas",
+      "steps": [
+        "Lay a tortilla flat and sprinkle a generous layer of shredded cheese on half of it.",
+        "Add cooked chicken strips and sautéed vegetables on top of the cheese.",
+        "Sprinkle a little more cheese over the filling (helps it stick).",
+        "Fold the tortilla in half to cover the filling."
+      ]
+    },
+    {
+      "title": "Step 4 – Cook the Quesadillas",
+      "steps": [
+        "Heat a clean skillet over medium heat (lightly oil or butter if desired).",
+        "Cook the folded quesadilla 2–3 minutes per side until golden brown and the cheese melts. Press gently with a spatula for a crisp crust.",
+        "Remove and let rest 1–2 minutes."
+      ]
+    },
+    {
+      "title": "Step 5 – Serve",
+      "steps": [
+        "Slice each quesadilla into 3–4 wedges.",
+        "Garnish with fresh cilantro and serve with sour cream, guacamole, salsa, and lime wedges on the side."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with sour cream, guacamole, pico de gallo, or fresh salsa.",
+      "Pair with Mexican rice, refried beans, or a fresh salad.",
+      "Enjoy with lime wedges for an extra burst of freshness."
+    ]
+  },
+
+  "chefTips": [
+    "Use a mix of cheeses: a mild melting cheese (like Oaxaca or mozzarella) and a sharper cheese for depth of flavor.",
+    "Don't overload the quesadilla—too much filling prevents proper browning.",
+    "Finish with a squeeze of lime and a sprinkle of fresh cilantro for a fresh, vibrant finish.",
+    "For an extra touch, lightly butter the skillet or brush the tortilla with oil before cooking for a perfectly golden, crispy exterior."
+  ]
+}
