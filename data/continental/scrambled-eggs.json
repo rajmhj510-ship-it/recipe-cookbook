@@ -3,10 +3,10 @@
   "title": "Scrambled Eggs",
   "description": "Scrambled Eggs are a breakfast classic made by gently cooking whisked eggs over low heat until soft, creamy, and delicately set. This professional chef's method creates rich, velvety curds with exceptional texture and flavor.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "10 min",
   "difficulty": "Easy",
-  "image": "assets/images/breakfast/scrambled-eggs.png",
+  "image": "assets/images/continental/scrambled-eggs.png",
 
   "ingredients": [
     {
