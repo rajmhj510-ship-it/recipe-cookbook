@@ -81,7 +81,7 @@
   },
   {
     "id": 209,
-    "title": "Mantou (Chinese Steamed Buns)",
+    "title": "Mantou",
     "category": "Chinese",
     "file": "data/chinese/mantou.json",
     "image": "assets/images/chinese/mantou.png",
@@ -161,7 +161,7 @@
   },
   {
     "id": 217,
-    "title": "Soft Fried Chicken with Hot Bean Sauce",
+    "title": "Fried Chicken with Hot Bean Sauce",
     "category": "Chinese",
     "file": "data/chinese/soft-fried-chicken-with-hot-bean-sauce.json",
     "image": "assets/images/chinese/soft-fried-chicken-with-hot-bean-sauce.png",
@@ -211,7 +211,7 @@
   },
   {
     "id": 222,
-    "title": "Stir-Fried Vegetables with Oyster Sauce & Noodles",
+    "title": "Vegetables with Oyster Sauce & Noodles",
     "category": "Chinese",
     "file": "data/chinese/stir-fried-vegetables-oyster-noodles.json",
     "image": "assets/images/chinese/stir-fried-vegetables-oyster-noodles.png",
