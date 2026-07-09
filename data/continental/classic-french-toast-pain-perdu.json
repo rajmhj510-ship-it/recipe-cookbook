@@ -3,10 +3,10 @@
   "title": "Classic French Toast (Pain Perdu)",
   "description": "Classic French Toast (Pain Perdu) is a timeless French breakfast made by soaking thick slices of brioche or challah in a rich vanilla custard before pan-frying to golden perfection. Crisp on the outside and soft, custardy within, it is elegantly finished with powdered sugar, maple syrup, and seasonal berries.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "20 min",
   "difficulty": "Medium",
-  "image": "assets/images/breakfast/classic-french-toast-pain-perdu.png",
+  "image": "assets/images/continental/classic-french-toast-pain-perdu.png",
 
   "ingredients": [
     {
