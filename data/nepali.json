@@ -58,5 +58,15 @@
     "description": "",
     "time": "60 min",
     "difficulty": "Easy"
+  },
+      {
+    "id": 707,
+    "title": "Jeri",
+    "category": "Nepali",
+    "file": "data/nepali/jeri.json",
+    "image": "assets/images/nepali/jeri.png",
+    "description": "",
+    "time": "16 hrs",
+    "difficulty": "Easy"
   }
 ]
