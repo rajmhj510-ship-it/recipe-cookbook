@@ -22,7 +22,7 @@
   {
     "id": 303,
     "title": "Poached Egg",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/poached-egg.json",
     "image": "assets/images/continental/poached-egg.png",
     "description": "A perfectly poached egg with delicate, tender whites and a rich, silky runny yolk, prepared using classic continental culinary techniques.",
@@ -32,7 +32,7 @@
   {
     "id": 304,
     "title": "Scrambled Eggs",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/scrambled-eggs.json",
     "image": "assets/images/continental/scrambled-eggs.png",
     "description": "Creamy, soft scrambled eggs cooked gently over low heat with butter for a luxurious restaurant-quality breakfast.",
@@ -42,7 +42,7 @@
   {
     "id": 305,
     "title": "Omelet",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/omelet.json",
     "image": "assets/images/continental/omelet.png",
     "description": "A light and fluffy omelet filled with premium ingredients, delivering a classic continental breakfast with a tender, creamy texture.",
@@ -52,7 +52,7 @@
   {
     "id": 306,
     "title": "Classic French-style Omelet",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/classic-french-style-omelet.json",
     "image": "assets/images/continental/classic-french-style-omelet.png",
     "description": "An authentic French-style omelet featuring a silky, pale-yellow exterior and a soft, creamy center prepared with classic culinary precision.",
@@ -62,7 +62,7 @@
   {
     "id": 307,
     "title": "Fried Eggs",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/fried-eggs.json",
     "image": "assets/images/continental/fried-eggs.png",
     "description": "Perfectly fried eggs with tender whites and rich golden yolks, cooked gently for a classic continental breakfast.",
@@ -72,7 +72,7 @@
   {
     "id": 308,
     "title": "Eggs Benedict",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/eggs-benedict.json",
     "image": "assets/images/continental/eggs-benedict.png",
     "description": "A luxurious Eggs Benedict featuring toasted English muffins, poached eggs, Canadian bacon, and silky homemade Hollandaise sauce.",
@@ -82,7 +82,7 @@
   {
     "id": 309,
     "title": "Boiled Eggs",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/boiled-eggs.json",
     "image": "assets/images/continental/boiled-eggs.png",
     "description": "Perfectly boiled eggs with precise cooking times for soft, medium, or hard centers, ideal for breakfast or elegant brunch dishes.",
@@ -92,7 +92,7 @@
   {
     "id": 310,
     "title": "Classic French Toast (Pain Perdu)",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/classic-french-toast-pain-perdu.json",
     "image": "assets/images/continental/classic-french-toast-pain-perdu.png",
     "description": "Classic French Pain Perdu featuring buttery brioche soaked in rich vanilla custard and pan-fried until golden with a creamy interior.",
@@ -102,7 +102,7 @@
   {
     "id": 311,
     "title": "Hash Brown Potato",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/hash-brown-potato.json",
     "image": "assets/images/continental/hash-brown-potato.png",
     "description": "Golden, crispy hash browns with a tender potato center, prepared using professional techniques for maximum crunch and flavor.",
@@ -112,7 +112,7 @@
   {
     "id": 312,
     "title": "Grilled Chicken & Avocado Club Sandwich",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/grilled-chicken-avocado-club-sandwich.json",
     "image": "assets/images/continental/grilled-chicken-avocado-club-sandwich.png",
     "description": "A premium grilled chicken and avocado club sandwich layered with fresh vegetables, artisan bread, and creamy garlic aioli.",
@@ -122,7 +122,7 @@
   {
     "id": 313,
     "title": "Club Sandwich",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/club-sandwich.json",
     "image": "assets/images/continental/club-sandwich.png",
     "description": "A classic triple-layer club sandwich filled with grilled chicken, crispy bacon, fresh vegetables, and creamy mayonnaise.",
@@ -132,7 +132,7 @@
   {
     "id": 314,
     "title": "Hamburger",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/hamburger.json",
     "image": "assets/images/continental/hamburger.png",
     "description": "A gourmet hamburger featuring a juicy handcrafted beef patty, brioche bun, aged cheese, and fresh premium toppings.",
@@ -142,7 +142,7 @@
   {
     "id": 315,
     "title": "Classic Hamburger",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/classic-hamburger.json",
     "image": "assets/images/continental/classic-hamburger.png",
     "description": "A classic beef hamburger served on toasted brioche with melted cheese, crispy bacon, caramelized onions, and homemade aioli.",
@@ -152,7 +152,7 @@
   {
     "id": 316,
     "title": "Pan-Seared Seabass with Lemon Butter Sauce",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/pan-seared-seabass-with-lemon-butter-sauce.json",
     "image": "assets/images/continental/pan-seared-seabass-with-lemon-butter-sauce.png",
     "description": "Pan-seared seabass with crisp golden skin, served alongside a silky lemon butter sauce for an elegant restaurant-quality seafood dish.",
@@ -162,7 +162,7 @@
   {
     "id": 317,
     "title": "Pan-Seared Seabass with Lemon Butter Beurre Blanc",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/pan-seared-seabass-with-lemon-butter-beurre-blanc.json",
     "image": "assets/images/continental/pan-seared-seabass-with-lemon-butter-beurre-blanc.png",
     "description": "Perfectly pan-seared seabass paired with a rich, velvety lemon butter beurre blanc, finished with refined continental presentation.",
@@ -172,7 +172,7 @@
   {
     "id": 318,
     "title": "Baked Fish with Orange-Ginger Gel",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/baked-fish-with-orange-ginger-gel.json",
     "image": "assets/images/continental/baked-fish-with-orange-ginger-gel.png",
     "description": "Oven-baked white fish complemented by a vibrant orange-ginger gel and delicate beurre blanc, creating a refined modern seafood plate.",
@@ -182,7 +182,7 @@
   {
     "id": 319,
     "title": "Roasted White Fish with Orange–Ginger Gel",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/roasted-white-fish-with-orange-ginger-gel.json",
     "image": "assets/images/continental/roasted-white-fish-with-orange-ginger-gel.png",
     "description": "Roasted premium white fish served with a smooth orange–ginger gel, citrus accents, and elegant fine-dining presentation.",
@@ -192,7 +192,7 @@
   {
     "id": 320,
     "title": "Meatballs with Tomato Sauce",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/meatballs-with-tomato-sauce.json",
     "image": "assets/images/continental/meatballs-with-tomato-sauce.png",
     "description": "Tender homemade meatballs gently simmered in a rich tomato sauce, finished with Parmesan and fresh herbs for classic comfort.",
@@ -202,7 +202,7 @@
   {
     "id": 321,
     "title": "Meat Balls (Deep-Fried, Ketchup-Glazed)",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/meat-balls-deep-fried-ketchup-glazed.json",
     "image": "assets/images/continental/meat-balls-deep-fried-ketchup-glazed.png",
     "description": "Golden deep-fried meatballs glazed with warm tomato ketchup, featuring a crisp exterior and juicy, flavorful center.",
@@ -212,7 +212,7 @@
   {
     "id": 322,
     "title": "Waldorf Salad",
-    "category": "Breakfast",
+    "category": "Continental",
     "file": "data/continental/waldorf-salad.json",
     "image": "assets/images/continental/waldorf-salad.png",
     "description": "A timeless Waldorf salad combining crisp apples, celery, grapes, toasted walnuts, and creamy mayonnaise over fresh lettuce.",
