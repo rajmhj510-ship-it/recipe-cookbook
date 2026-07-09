@@ -1,0 +1,109 @@
+{
+  "id": "621",
+  "title": "Paneer Enchiladas",
+  "description": "Paneer Enchiladas combine flavorful spiced paneer wrapped in soft tortillas, topped with a rich homemade enchilada sauce and melted cheese, then baked until golden. A delicious vegetarian fusion of Mexican flavors with Indian paneer.",
+
+  "category": "Mexican",
+  "time": "50 min",
+  "difficulty": "Medium",
+  "image": "assets/images/mexican/paneer-enchiladas.png",
+
+  "ingredients": [
+    {
+      "title": "For the Paneer Filling",
+      "items": [
+        "Paneer, crumbled or cubed – 250 g",
+        "Olive oil – 1 tbsp",
+        "Small onion, finely chopped – 1",
+        "Small red bell pepper, finely chopped – 1",
+        "Garlic cloves, minced – 2",
+        "Cumin seeds – 1 tsp",
+        "Smoked paprika – ½ tsp",
+        "Chili powder – ½ tsp (adjust to taste)",
+        "Dried oregano – ½ tsp",
+        "Salt – to taste",
+        "Fresh coriander, chopped – 2 tbsp"
+      ]
+    },
+    {
+      "title": "For the Enchilada Sauce",
+      "items": [
+        "Olive oil – 2 tbsp",
+        "All-purpose flour – 2 tbsp",
+        "Tomato puree – 2 cups",
+        "Vegetable broth – 1 cup",
+        "Chili powder – 1 tsp",
+        "Smoked paprika – 1 tsp",
+        "Cumin powder – ½ tsp",
+        "Salt & black pepper – to taste",
+        "Sugar – ½ tsp (optional, balances acidity)"
+      ]
+    },
+    {
+      "title": "Other Ingredients",
+      "items": [
+        "Small flour tortillas (or corn, lightly warmed) – 6–8",
+        "Grated cheese (Mexican blend, cheddar, or mozzarella) – 1 cup",
+        "Fresh coriander, chopped – for garnish",
+        "Optional: sour cream or yogurt for serving"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Filling",
+      "steps": [
+        "Heat oil in a pan over medium heat. Add cumin seeds and let them sizzle for 30 seconds.",
+        "Add onions and sauté until translucent. Add garlic and bell pepper; cook 2–3 minutes.",
+        "Add crumbled paneer, smoked paprika, chili powder, oregano, and salt. Cook for 5 minutes, stirring gently.",
+        "Finish with fresh coriander. Remove from heat."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Enchilada Sauce",
+      "steps": [
+        "In a saucepan, heat olive oil and whisk in flour to form a roux (cook 1–2 min).",
+        "Gradually add tomato puree and vegetable broth, whisking continuously.",
+        "Add chili powder, smoked paprika, cumin, salt, pepper, and sugar. Simmer for 10 minutes until slightly thickened."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Enchiladas",
+      "steps": [
+        "Preheat oven to 180°C (350°F).",
+        "Spread a thin layer of enchilada sauce on the bottom of a baking dish.",
+        "Take a tortilla, fill with 2–3 tbsp of paneer filling, roll tightly, and place seam-side down in the dish. Repeat with remaining tortillas.",
+        "Pour remaining sauce over the rolled enchiladas and sprinkle generously with cheese."
+      ]
+    },
+    {
+      "title": "Step 4 – Bake",
+      "steps": [
+        "Bake in the preheated oven for 15–20 minutes, or until cheese is melted and slightly golden."
+      ]
+    },
+    {
+      "title": "Step 5 – Serve",
+      "steps": [
+        "Garnish with fresh coriander and a dollop of sour cream or yogurt. Serve hot with Mexican rice or a fresh salad."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with Mexican rice or a fresh salad.",
+      "Pair with guacamole, salsa, or refried beans.",
+      "Finish with sour cream or yogurt and extra fresh coriander."
+    ]
+  },
+
+  "chefTips": [
+    "Use fresh, high-quality paneer and sauté lightly to retain its texture.",
+    "Homemade enchilada sauce tastes richer than canned – simmer slowly for depth.",
+    "Toast tortillas lightly on a skillet to prevent sogginess after baking.",
+    "Add a touch of lime juice to the sauce before baking for bright acidity."
+  ]
+}
