@@ -1,0 +1,85 @@
+{
+  "id": "312",
+  "title": "Grilled Chicken & Avocado Club Sandwich",
+  "description": "Grilled Chicken & Avocado Club Sandwich is a premium continental sandwich layered with juicy grilled chicken, creamy avocado, crisp vegetables, melted cheese, and garlic aioli between toasted artisan bread. This professional chef's recipe delivers a perfectly balanced combination of textures and flavors for a top restaurant-quality meal.",
+
+  "category": "Breakfast",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/grilled-chicken-avocado-club-sandwich.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "2 boneless chicken breasts (120–150 g each)",
+        "1 tbsp olive oil",
+        "½ tsp smoked paprika",
+        "½ tsp garlic powder",
+        "½ tsp onion powder",
+        "½ tsp black pepper, freshly ground",
+        "½ tsp sea salt"
+      ]
+    },
+    {
+      "title": "For the Sandwich",
+      "items": [
+        "6 slices artisanal sourdough or multigrain bread (lightly toasted)",
+        "1 ripe avocado, sliced",
+        "2 slices Emmental or Gruyère cheese",
+        "2 slices crisp romaine lettuce leaves",
+        "2 vine-ripened tomatoes, thinly sliced",
+        "4–6 strips crispy smoked bacon (optional, for non-veg version)",
+        "2 tbsp garlic aioli (or mayonnaise with a touch of roasted garlic purée)",
+        "1 tbsp Dijon mustard",
+        "A handful of microgreens (arugula or baby spinach)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Chicken",
+      "steps": [
+        "Marinate chicken breasts with olive oil, paprika, garlic powder, onion powder, pepper, and salt.",
+        "Grill on medium-high heat for 4–5 minutes per side until cooked through and slightly charred.",
+        "Rest for 5 minutes, then slice thinly on a bias."
+      ]
+    },
+    {
+      "title": "Toast the Bread",
+      "steps": [
+        "Lightly butter and toast the bread slices until golden and crisp on the edges."
+      ]
+    },
+    {
+      "title": "Assemble the Layers",
+      "steps": [
+        "Base slice: Spread garlic aioli, top with lettuce, tomato, and sliced chicken.",
+        "Middle slice: Add Dijon mustard, avocado slices, cheese, and bacon (if using).",
+        "Top slice: Spread a thin layer of aioli, place on top, and press gently."
+      ]
+    },
+    {
+      "title": "Finishing Touch",
+      "steps": [
+        "Secure with bamboo picks or skewers.",
+        "Slice diagonally into halves or quarters.",
+        "Serve with a side of truffle fries or a small mixed salad."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with a side of truffle fries or a small mixed salad."
+    ]
+  },
+
+  "chefTips": [
+    "Replace chicken with grilled portobello mushrooms for a vegetarian option.",
+    "Use freshly baked sourdough or pain de campagne for a true continental flair.",
+    "A touch of pickled red onions elevates acidity and balances the richness."
+  ]
+}
