@@ -1,0 +1,106 @@
+{
+  "id": "308",
+  "title": "Eggs Benedict",
+  "description": "Eggs Benedict is a classic continental breakfast featuring toasted English muffins topped with Canadian bacon, perfectly poached eggs, and silky Hollandaise sauce. This elegant brunch favorite is finished with refined garnishes for a restaurant-quality presentation.",
+
+  "category": "Breakfast",
+  "time": "35 min",
+  "difficulty": "Advanced",
+  "image": "assets/images/breakfast/eggs-benedict.png",
+
+  "ingredients": [
+    {
+      "title": "For the Hollandaise Sauce",
+      "items": [
+        "3 large egg yolks",
+        "1 tbsp fresh lemon juice",
+        "½ cup (115 g) unsalted butter, melted and warm",
+        "Pinch of cayenne pepper or white pepper",
+        "Salt to taste",
+        "(Optional) ½ tsp white wine vinegar reduction for extra depth"
+      ]
+    },
+    {
+      "title": "For the Poached Eggs",
+      "items": [
+        "4 large eggs (fresh, cold)",
+        "1 tbsp white vinegar",
+        "1 liter water"
+      ]
+    },
+    {
+      "title": "For the Base",
+      "items": [
+        "2 English muffins, halved and lightly toasted",
+        "4 slices Canadian bacon or smoked ham (alternatively, pancetta or prosciutto)",
+        "Butter for toasting"
+      ]
+    },
+    {
+      "title": "For Garnish (Restaurant Touch)",
+      "items": [
+        "Microgreens or chervil sprigs",
+        "Paprika dust or lemon zest",
+        "A drizzle of truffle oil (optional, for luxury plating)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Make the Hollandaise",
+      "steps": [
+        "In a stainless-steel bowl, whisk egg yolks and lemon juice until pale and slightly thickened.",
+        "Place the bowl over a pot of simmering water (bain-marie). The bottom should not touch the water.",
+        "Whisk constantly while slowly drizzling in the warm melted butter.",
+        "Continue whisking until the sauce is thick, smooth, and glossy.",
+        "Add salt, white pepper, and a touch of cayenne.",
+        "Keep warm (around 55–60°C / 130–140°F) until service.",
+        "Chef's Tip: If the sauce thickens too much, whisk in 1 tsp of warm water to loosen it."
+      ]
+    },
+    {
+      "title": "2. Poach the Eggs",
+      "steps": [
+        "Bring water and vinegar to a gentle simmer (not a boil).",
+        "Crack each egg into a small bowl.",
+        "Swirl the water to create a vortex and slide in one egg at a time.",
+        "Poach for 2½–3 minutes for a soft center.",
+        "Remove with a slotted spoon, drain on a paper towel, and trim edges neatly for clean presentation.",
+        "Chef's Tip: Use only very fresh eggs—the whites will hold shape beautifully."
+      ]
+    },
+    {
+      "title": "3. Prepare the Base",
+      "steps": [
+        "Toast English muffins until golden brown.",
+        "Lightly butter each half.",
+        "Pan-sear or warm the Canadian bacon until slightly caramelized."
+      ]
+    },
+    {
+      "title": "4. Assemble the Dish",
+      "steps": [
+        "On each plate, place two muffin halves.",
+        "Top each with a slice of bacon, then a poached egg.",
+        "Spoon warm Hollandaise generously over the top.",
+        "Garnish with microgreens, a dusting of paprika, and a drizzle of truffle oil for an elegant finish."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Suggested Pairing",
+    "items": [
+      "Drink: Classic Mimosa or a crisp Sauvignon Blanc.",
+      "Side: Sautéed asparagus tips or truffled potato rösti."
+    ]
+  },
+
+  "chefTips": [
+    "Serve on a pre-warmed white porcelain plate.",
+    "Spoon the sauce in a controlled pour — don't drown the egg.",
+    "Add a few dots of chive oil or balsamic glaze on the side for visual contrast.",
+    "A small salad of baby greens dressed with lemon vinaigrette pairs beautifully."
+  ]
+}
