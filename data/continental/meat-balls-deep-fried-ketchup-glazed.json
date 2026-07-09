@@ -1,0 +1,95 @@
+{
+  "id": "321",
+  "title": "Meat Balls (Deep-Fried, Ketchup-Glazed)",
+  "description": "Meat Balls (Deep-Fried, Ketchup-Glazed) are crisp, golden meatballs with a tender, juicy center, finished in a warm tomato ketchup glaze. This classic continental-style appetizer is ideal for buffets, cocktail parties, or as a hearty main course served with mashed potatoes and seasonal vegetables.",
+
+  "category": "Breakfast",
+  "time": "40 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/meat-balls-deep-fried-ketchup-glazed.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "Minced meat – 500 grams (beef or beef-pork mix recommended)",
+        "Onion, finely chopped – 50 grams",
+        "Parsley, fresh, finely chopped – 1 tsp",
+        "Salt – 1 tsp (adjust to taste)",
+        "Black pepper, ground – ½ tsp",
+        "Nutmeg powder – a pinch",
+        "Egg – 1 whole",
+        "Breadcrumbs (dry) – 50 g"
+      ]
+    },
+    {
+      "title": "For Glazing",
+      "items": [
+        "Tomato ketchup – 80 ml"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Neutral oil (sunflower or canola) – as needed for deep frying"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Meatball Mix",
+      "steps": [
+        "In a mixing bowl, combine the minced meat, chopped onion, parsley, salt, pepper, nutmeg, egg, and breadcrumbs.",
+        "Mix gently by hand until just combined. Do not overwork the mixture.",
+        "Optional: Rest the mixture in the refrigerator for 15–20 minutes for easier shaping and better binding."
+      ]
+    },
+    {
+      "title": "2. Shape",
+      "steps": [
+        "Portion the mixture into even balls (25–30g each). Lightly moisten hands with water or oil to prevent sticking.",
+        "Optional: Roll each meatball in extra breadcrumbs for a crispier crust."
+      ]
+    },
+    {
+      "title": "3. Frying",
+      "steps": [
+        "Heat oil in a deep fryer or heavy-bottomed pan to 170–180°C (340–355°F).",
+        "Fry meatballs in small batches for 3–5 minutes, turning occasionally, until golden brown and fully cooked.",
+        "Remove with a slotted spoon and drain on paper towels or a wire rack."
+      ]
+    },
+    {
+      "title": "4. Glazing",
+      "steps": [
+        "Warm the tomato ketchup in a small pan over low heat.",
+        "Once meatballs are fried, toss them in the warm ketchup or brush lightly to glaze just before serving."
+      ]
+    },
+    {
+      "title": "5. Serving Suggestions",
+      "steps": [
+        "Serve hot as an appetizer with cocktail picks.",
+        "Pair with creamy mashed potatoes or buttered vegetables for a plated main course.",
+        "Ideal for buffets or hors d’oeuvres service with a small herb garnish (e.g. parsley or chive)."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as an appetizer with cocktail picks.",
+      "Pair with creamy mashed potatoes or buttered vegetables for a plated main course.",
+      "Ideal for buffets or hors d’oeuvres service with a small herb garnish such as parsley or chive."
+    ]
+  },
+
+  "chefTips": [
+    "Lightly sautéing the onion before mixing adds sweetness and improves flavor.",
+    "For extra tenderness, soak breadcrumbs in 30 ml milk before mixing.",
+    "To elevate the glaze, mix ketchup with a dash of Worcestershire sauce, honey, or Dijon mustard.",
+    "Fry in small batches to maintain the oil temperature and ensure even browning."
+  ]
+}
