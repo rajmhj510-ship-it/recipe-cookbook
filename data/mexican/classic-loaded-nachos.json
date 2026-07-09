@@ -1,0 +1,101 @@
+{
+  "id": "610",
+  "title": "Classic Loaded Nachos",
+  "description": "Classic Loaded Nachos are layered with seasoned taco-style beef, black beans, melted cheese, and fresh toppings for the ultimate Mexican appetizer or casual main. Every bite delivers crispy tortilla chips, gooey cheese, and vibrant garnishes.",
+
+  "category": "Mexican",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/classic-loaded-nachos.png",
+
+  "ingredients": [
+    {
+      "title": "For the Nachos",
+      "items": [
+        "Tortilla chips – 1 large bag (restaurant-style, thick-cut for sturdiness)",
+        "Cheddar cheese – 1 cup, shredded",
+        "Monterey Jack cheese – 1 cup, shredded",
+        "Queso fresco – ½ cup, crumbled (for garnish)"
+      ]
+    },
+    {
+      "title": "For the Toppings",
+      "items": [
+        "Ground beef (or chorizo) – 1 lb",
+        "Onion – 1 small, finely diced",
+        "Garlic – 2 cloves, minced",
+        "Black beans – 1 cup, rinsed and drained",
+        "Fresh jalapeños – 2, thinly sliced (or pickled, for milder flavor)",
+        "Tomatoes – 1 large, seeded and diced",
+        "Avocado – 1 large, diced (or guacamole)",
+        "Fresh cilantro – handful, roughly chopped",
+        "Scallions – 2, sliced thin",
+        "Sour cream or Mexican crema – ½ cup, for drizzling"
+      ]
+    },
+    {
+      "title": "For the Seasoning (Taco-Style Beef)",
+      "items": [
+        "Chili powder – 2 tsp",
+        "Smoked paprika – 1 tsp",
+        "Ground cumin – 1 tsp",
+        "Ground coriander – ½ tsp",
+        "Oregano – ½ tsp",
+        "Salt & pepper – to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Beef",
+      "steps": [
+        "Heat a skillet over medium-high heat.",
+        "Sauté onion in a little oil until translucent, then add garlic.",
+        "Add beef (or chorizo) and cook until browned, breaking it into crumbles.",
+        "Stir in the spices, season with salt and pepper, then fold in black beans.",
+        "Set aside, keeping warm."
+      ]
+    },
+    {
+      "title": "Step 2 – Build the Nachos",
+      "steps": [
+        "Preheat oven to 400°F (200°C).",
+        "On a sheet pan, spread half the chips in an even layer.",
+        "Top with half the beef-bean mixture and half the cheeses.",
+        "Repeat with the remaining chips, meat, and cheese."
+      ]
+    },
+    {
+      "title": "Step 3 – Bake",
+      "steps": [
+        "Place in the oven for 7–10 minutes, until cheese is fully melted and bubbling."
+      ]
+    },
+    {
+      "title": "Step 4 – Finish & Garnish",
+      "steps": [
+        "Remove from oven.",
+        "Scatter over jalapeños, tomatoes, avocado, scallions, and cilantro.",
+        "Drizzle with crema or serve sour cream on the side.",
+        "Sprinkle queso fresco on top for authentic flavor."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately while the cheese is hot and melted.",
+      "Pair with salsa, guacamole, or pico de gallo.",
+      "Enjoy as an appetizer for 4–6 people or a main course for 2–3."
+    ]
+  },
+
+  "chefTips": [
+    "Layering is key: Building nachos in two layers ensures every chip gets toppings.",
+    "Cheese blend: Sharp cheddar for flavor, Monterey Jack for melt, queso fresco for authenticity.",
+    "Optional upgrades: Pickled red onions, roasted corn, or a drizzle of chipotle aioli.",
+    "Presentation: Serve directly on the sheet tray lined with parchment, or on a wooden board for a rustic restaurant look."
+  ]
+}
