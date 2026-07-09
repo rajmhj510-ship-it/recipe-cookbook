@@ -26,7 +26,7 @@ const POSITION_CLASSES = [
 
 /* ================= AUTO SLIDE CONTROL ================= */
 let autoSlideTimer = null;
-const AUTO_TIME = 3000; // 3 seconds (change this value)
+const AUTO_TIME = 1500; // 1.5 seconds (change this value)
 
 /* ================= PAGE CHECK ================= */
 const isRecipePage = window.location.pathname.includes("recipe.html");
