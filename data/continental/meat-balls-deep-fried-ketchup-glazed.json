@@ -3,10 +3,10 @@
   "title": "Meat Balls (Deep-Fried, Ketchup-Glazed)",
   "description": "Meat Balls (Deep-Fried, Ketchup-Glazed) are crisp, golden meatballs with a tender, juicy center, finished in a warm tomato ketchup glaze. This classic continental-style appetizer is ideal for buffets, cocktail parties, or as a hearty main course served with mashed potatoes and seasonal vegetables.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "40 min",
   "difficulty": "Medium",
-  "image": "assets/images/breakfast/meat-balls-deep-fried-ketchup-glazed.png",
+  "image": "assets/images/continental/meat-balls-deep-fried-ketchup-glazed.png",
 
   "ingredients": [
     {
