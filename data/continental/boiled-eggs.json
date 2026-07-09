@@ -3,10 +3,10 @@
   "title": "Boiled Eggs",
   "description": "Boiled Eggs are a simple yet versatile breakfast staple prepared by cooking eggs to soft, medium, or hard consistency. Using precise timing and proper cooling techniques ensures tender whites, creamy yolks, and easy peeling for professional-quality results.",
 
-  "category": "Breakfast",
+  "category": "Continental",
   "time": "15 min",
   "difficulty": "Easy",
-  "image": "assets/images/breakfast/boiled-eggs.png",
+  "image": "assets/images/continental/boiled-eggs.png",
 
   "ingredients": [
     {
