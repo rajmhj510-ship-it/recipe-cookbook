@@ -1,0 +1,83 @@
+{
+  "id": "303",
+  "title": "Poached Egg",
+  "description": "Poached Egg is a classic preparation where fresh eggs are gently cooked in simmering water until the whites are delicately set while the yolk remains perfectly runny. A staple of professional kitchens, it is commonly served with toasted sourdough, seasonal vegetables, or as the centerpiece of Eggs Benedict.",
+
+  "category": "Breakfast",
+  "time": "10 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/poached-egg.png",
+
+  "ingredients": [
+    {
+      "title": "Ingredients",
+      "items": [
+        "4 fresh large eggs (the fresher, the better)",
+        "2 liters water",
+        "2 tbsp white wine vinegar (or champagne vinegar for refinement)",
+        "1 tsp fine sea salt"
+      ]
+    },
+    {
+      "title": "For serving (optional, restaurant-style plating)",
+      "items": [
+        "Sourdough bread slices, toasted",
+        "Wilted spinach or asparagus tips",
+        "Hollandaise sauce (classic pairing)",
+        "Fresh herbs: chives, tarragon, or parsley"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Poaching Liquid",
+      "steps": [
+        "In a wide saucepan, bring water to a gentle simmer (82–85 °C / 180–185 °F).",
+        "Add vinegar and salt. The vinegar helps the egg white set quickly and neatly."
+      ]
+    },
+    {
+      "title": "2. Prepare the Eggs",
+      "steps": [
+        "Crack each egg into a small ramekin or cup (to ensure no broken yolks).",
+        "Use the freshest eggs possible—firm whites wrap better around the yolk."
+      ]
+    },
+    {
+      "title": "3. Poach the Eggs",
+      "steps": [
+        "Stir the simmering water gently to create a mild whirlpool (for one egg at a time).",
+        "Slide the egg carefully into the center of the whirlpool.",
+        "Cook for 2 ½ to 3 minutes until the white is set but the yolk is still runny.",
+        "Lift gently with a slotted spoon, and place on a paper towel to drain."
+      ]
+    },
+    {
+      "title": "4. Finishing Touch",
+      "steps": [
+        "Trim ragged edges of the egg white for a clean restaurant presentation.",
+        "Plate on buttered sourdough with spinach or asparagus.",
+        "Spoon over a silky hollandaise.",
+        "Garnish with microgreens or herbs."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Plate on buttered sourdough with spinach or asparagus.",
+      "Spoon over a silky hollandaise.",
+      "Garnish with microgreens or herbs.",
+      "Poached eggs are central to Eggs Benedict, Florentine, or served atop seasonal vegetables."
+    ]
+  },
+
+  "chefTips": [
+    "Egg freshness is critical: older eggs spread and won’t hold shape.",
+    "Temperature control ensures delicate whites and runny yolk.",
+    "Vinegar type: White wine vinegar gives a clean finish; champagne vinegar adds elegance.",
+    "Serving suggestion: Poached eggs are central to Eggs Benedict, Florentine, or served atop seasonal vegetables."
+  ]
+}
