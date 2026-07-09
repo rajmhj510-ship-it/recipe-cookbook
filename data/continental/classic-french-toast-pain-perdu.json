@@ -1,0 +1,102 @@
+{
+  "id": "310",
+  "title": "Classic French Toast (Pain Perdu)",
+  "description": "Classic French Toast (Pain Perdu) is a timeless French breakfast made by soaking thick slices of brioche or challah in a rich vanilla custard before pan-frying to golden perfection. Crisp on the outside and soft, custardy within, it is elegantly finished with powdered sugar, maple syrup, and seasonal berries.",
+
+  "category": "Breakfast",
+  "time": "20 min",
+  "difficulty": "Medium",
+  "image": "assets/images/breakfast/classic-french-toast-pain-perdu.png",
+
+  "ingredients": [
+    {
+      "title": "For the Custard Base",
+      "items": [
+        "4 slices of brioche or challah (day-old, 1-inch thick)",
+        "3 large eggs",
+        "120 ml (½ cup) heavy cream",
+        "60 ml (¼ cup) whole milk",
+        "1 tbsp caster sugar",
+        "½ tsp pure vanilla extract",
+        "¼ tsp ground cinnamon (optional, for warmth)",
+        "A pinch of fine sea salt"
+      ]
+    },
+    {
+      "title": "For Cooking",
+      "items": [
+        "1 tbsp unsalted butter",
+        "1 tsp neutral oil (e.g., grapeseed, canola)"
+      ]
+    },
+    {
+      "title": "For Garnish / Plating",
+      "items": [
+        "Powdered sugar, for dusting",
+        "Maple syrup or honey",
+        "Seasonal berries (strawberries, blueberries, raspberries)",
+        "Mint leaves (optional)",
+        "Whipped cream or crème fraîche (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "1. Prepare the Custard",
+      "steps": [
+        "In a mixing bowl, whisk together eggs, cream, milk, sugar, vanilla, cinnamon, and salt until smooth and slightly frothy.",
+        "Chef's Tip: Strain the mixture through a fine sieve for an extra-silky custard."
+      ]
+    },
+    {
+      "title": "2. Soak the Bread",
+      "steps": [
+        "Pour the custard into a shallow dish. Lay the brioche slices in it and let them soak for 20–30 seconds per side, just until the bread is saturated but not falling apart.",
+        "Professional Trick: Day-old bread holds shape better and absorbs custard more evenly."
+      ]
+    },
+    {
+      "title": "3. Preheat the Pan",
+      "steps": [
+        "Heat a large non-stick skillet or griddle over medium-low heat. Add butter and oil — the oil prevents the butter from burning."
+      ]
+    },
+    {
+      "title": "4. Cook to Golden Perfection",
+      "steps": [
+        "Place the soaked bread slices onto the pan. Cook for 2–3 minutes per side, or until deep golden brown and slightly crisp on the outside."
+      ]
+    },
+    {
+      "title": "5. Finish in the Oven (Optional, Restaurant Method)",
+      "steps": [
+        "Transfer the toast to a 180°C (350°F) oven for 3–5 minutes to ensure the interior is warm and custardy."
+      ]
+    },
+    {
+      "title": "6. Plate Elegantly",
+      "steps": [
+        "Stack two slices on a pre-warmed plate. Dust lightly with powdered sugar, drizzle with warm maple syrup, and garnish with berries and mint. Add a quenelle of whipped cream or crème fraîche on the side."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestion",
+    "items": [
+      "Serve with:",
+      "Caramelized bananas or berry compote",
+      "Candied nuts",
+      "Espresso or cappuccino on the side for a full Continental brunch experience."
+    ]
+  },
+
+  "chefTips": [
+    "Chef's Notes",
+    "Flavor Variations:",
+    "Add a splash of Grand Marnier, Cointreau, or dark rum to the custard for a French bistro twist.",
+    "Infuse the milk with a split vanilla bean or orange zest before whisking.",
+    "Texture Tip: The perfect French toast is crisp outside, custardy inside, never soggy."
+  ]
+}
