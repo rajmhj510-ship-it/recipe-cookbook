@@ -1,0 +1,110 @@
+{
+  "id": "613",
+  "title": "Mexican Chopped Salad",
+  "description": "A fresh and colorful Mexican chopped salad packed with crisp vegetables, roasted corn, black beans, Cotija cheese, and crunchy tortilla strips, all tossed in a zesty lime vinaigrette. Perfect as a refreshing side dish or a satisfying main with your favorite protein.",
+
+  "category": "Mexican",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/mexican/mexican-chopped-salad.png",
+
+  "ingredients": [
+    {
+      "title": "Salad Base",
+      "items": [
+        "Romaine lettuce, finely chopped – 4 cups",
+        "Red cabbage, finely shredded – 1 cup",
+        "Radicchio or iceberg, finely chopped – 1 cup",
+        "Corn kernels, roasted or grilled – 1 cup",
+        "Black beans, rinsed and drained – 1 cup",
+        "Large red bell pepper, finely diced – 1",
+        "Large yellow bell pepper, finely diced – 1",
+        "Medium cucumber, seeded and diced – 1",
+        "Medium red onion, finely diced – 1",
+        "Cherry tomatoes, quartered – 1 cup",
+        "Jicama, finely diced – ½ cup (optional, for crunch)",
+        "Fresh cilantro, chopped – ½ cup",
+        "Radishes, thinly sliced – ¼ cup (optional garnish)"
+      ]
+    },
+    {
+      "title": "Cheese & Crunch",
+      "items": [
+        "Cotija cheese, crumbled – ½ cup",
+        "Tortilla strips or crispy baked tortilla chips, lightly salted – ½ cup"
+      ]
+    },
+    {
+      "title": "Dressing (Zesty Lime Vinaigrette)",
+      "items": [
+        "Extra virgin olive oil – ¼ cup",
+        "Freshly squeezed lime juice – 2 tbsp",
+        "Apple cider vinegar – 1 tbsp",
+        "Honey or agave syrup – 1 tsp",
+        "Dijon mustard – 1 tsp",
+        "Garlic clove, minced – 1",
+        "Smoked paprika – ½ tsp",
+        "Salt & freshly ground black pepper – to taste",
+        "Chipotle chili powder – ½ tsp (optional, for a smoky kick)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prep the Vegetables",
+      "steps": [
+        "Finely chop all lettuce, cabbage, and radicchio. Dice cucumbers, bell peppers, and jicama. Quarter cherry tomatoes. Keep ingredients separate if making ahead to maintain crispness."
+      ]
+    },
+    {
+      "title": "Step 2 – Roast the Corn (Optional but Recommended)",
+      "steps": [
+        "Toss corn kernels with a touch of olive oil, salt, and smoked paprika. Roast at 400°F (200°C) for 10–12 minutes until slightly charred. This adds depth and sweetness."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Dressing",
+      "steps": [
+        "Whisk together lime juice, apple cider vinegar, honey, Dijon mustard, garlic, smoked paprika, salt, and pepper. Slowly drizzle in olive oil while whisking to emulsify. Adjust seasoning to taste."
+      ]
+    },
+    {
+      "title": "Step 4 – Assemble the Salad",
+      "steps": [
+        "In a large bowl, combine all chopped vegetables, beans, roasted corn, and cilantro. Toss lightly with 2–3 tbsp of the dressing, keeping some dressing aside for serving. The salad should be lightly coated, not drenched."
+      ]
+    },
+    {
+      "title": "Step 5 – Plate Like a Top Restaurant",
+      "steps": [
+        "Serve on chilled plates for a fresh presentation.",
+        "Sprinkle crumbled Cotija cheese evenly over the top.",
+        "Add crunchy tortilla strips or chips just before serving to retain texture.",
+        "Garnish with thinly sliced radishes and extra cilantro for color."
+      ]
+    },
+    {
+      "title": "Step 6 – Optional Protein Upgrade",
+      "steps": [
+        "Top with grilled shrimp, chicken, or skirt steak for a main-course version."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as a refreshing side dish.",
+      "Pair with tacos, grilled meats, enchiladas, or fajitas.",
+      "Top with grilled shrimp, chicken, or skirt steak for a complete meal."
+    ]
+  },
+
+  "chefTips": [
+    "Knife Skills: Uniform, fine chopping ensures each bite has every flavor.",
+    "Layer Textures: Combine crisp, soft, creamy, and crunchy elements.",
+    "Balance Flavors: Sweet (corn), tangy (lime), smoky (paprika), salty (Cotija) – all should be present.",
+    "Freshness: Assemble just before serving; dressing too early wilts the greens."
+  ]
+}
