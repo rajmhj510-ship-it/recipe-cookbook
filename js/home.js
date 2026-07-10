@@ -38,7 +38,26 @@ async function loadRecipes() {
 
         recipes.sort((a, b) => a.id - b.id);
 
-        render(recipes);
+const savedCategory = sessionStorage.getItem("selectedCategory");
+
+if (savedCategory) {
+
+    selectedCategory = savedCategory;
+
+    filterButtons.forEach(btn => {
+        btn.classList.toggle(
+            "active",
+            btn.dataset.cat.toLowerCase() === selectedCategory.toLowerCase()
+        );
+    });
+
+    applyFilters();
+
+} else {
+
+    render(recipes);
+
+}
 
     }
     catch (err) {
