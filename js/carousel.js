@@ -94,7 +94,16 @@ card.innerHTML = `
 		onerror="this.onerror=null;this.src='assets/images/placeholder.png';">
 `;
 
-		card.addEventListener("click", () => updateCarousel(i));
+card.addEventListener("click", () => {
+
+    if (i === currentIndex) {
+        window.location.href =
+            `recipe.html?file=${encodeURIComponent(recipes[currentIndex].file)}`;
+    } else {
+        updateCarousel(i);
+    }
+
+});
 		track.appendChild(card);
 	});
 
