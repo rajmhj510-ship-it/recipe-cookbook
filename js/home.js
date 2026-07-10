@@ -86,13 +86,13 @@ card.innerHTML = `
     </div>
 `;
 
-		card.addEventListener("click", () => {
-			window.location.href =
-				`recipe.html?file=${encodeURIComponent(recipe.file)}`;
-		});
+card.addEventListener("click", () => {
 
-		recipeList.appendChild(card);
-	});
+    sessionStorage.setItem("selectedCategory", selectedCategory);
+
+    window.location.href =
+        `recipe.html?file=${encodeURIComponent(recipe.file)}`;
+});
 }
 
 /* ================= FILTER LOGIC ================= */
