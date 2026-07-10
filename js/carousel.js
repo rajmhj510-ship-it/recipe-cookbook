@@ -64,9 +64,23 @@ const savedIndex = parseInt(sessionStorage.getItem("carouselIndex") || "0", 10);
 
 updateCarousel(savedIndex);
 
-        if (!isRecipePage) {
-            startAutoSlide();
-        }
+if (!isRecipePage) {
+
+    const hasSavedIndex = sessionStorage.getItem("carouselIndex") !== null;
+
+    if (hasSavedIndex) {
+
+        sessionStorage.removeItem("carouselIndex");
+
+        setTimeout(startAutoSlide, 3000); // wait 3 seconds before auto-slide
+
+    } else {
+
+        startAutoSlide();
+
+    }
+
+}
 
     }
     catch (err) {
