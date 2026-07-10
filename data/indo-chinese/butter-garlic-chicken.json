@@ -1,12 +1,105 @@
 {
   "id": 1001,
   "title": "Butter Garlic Chicken",
+  "description": "Butter Garlic Chicken is a popular Indo-Chinese dish featuring crispy fried chicken tossed in a rich, buttery garlic sauce with green chilies, aromatic herbs, and black pepper. Creamy, savory, and packed with bold garlic flavor, it pairs perfectly with fried rice, noodles, or Indian breads.",
+
   "category": "Indo-Chinese",
-  "description": "Crispy golden chicken tossed in a rich butter garlic sauce infused with aromatic garlic, black pepper, herbs, and fresh lime for a restaurant-style Indo-Chinese favorite.",
-  "prepTime": "30 min",
-  "cookTime": "20 min",
-  "totalTime": "50 min",
-  "servings": "4",
+  "time": "50 min",
   "difficulty": "Medium",
+  "image": "assets/images/indo-chinese/butter-garlic-chicken.png",
+
   "ingredients": [
     {
+      "title": "For the Chicken Marinade",
+      "items": [
+        "Boneless chicken – 500 g, cut into bite-sized cubes",
+        "Ginger-garlic paste – 1 tbsp",
+        "Black pepper powder – 1 tsp",
+        "Salt – 1 tsp"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Refined flour (all-purpose flour) – 3 tbsp",
+        "Vegetable oil – ½ cup"
+      ]
+    },
+    {
+      "title": "For the Butter Garlic Sauce",
+      "items": [
+        "Salted butter – 3 tbsp",
+        "Garlic – 4 tbsp, finely diced",
+        "Green chilies – 2 medium, finely chopped",
+        "Refined flour – 1 tbsp",
+        "Chicken stock – 1 cup (250 ml)",
+        "Black pepper powder – ½ tsp",
+        "Dried Italian seasoning – 1 tsp",
+        "Lime juice – 1 tsp",
+        "Salt – to taste",
+        "Fresh coriander – 1 tsp, chopped",
+        "Spring onion – 1 tbsp, chopped"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinate the Chicken",
+      "steps": [
+        "In a mixing bowl, combine the chicken with ginger-garlic paste, black pepper powder, and salt.",
+        "Mix thoroughly until evenly coated.",
+        "Cover and marinate for at least 30 minutes for maximum flavor."
+      ]
+    },
+    {
+      "title": "Step 2 – Fry the Chicken",
+      "steps": [
+        "Lightly coat the marinated chicken with refined flour.",
+        "Heat the oil in a deep frying pan over medium heat.",
+        "Fry the chicken pieces for 6–8 minutes until golden brown and fully cooked.",
+        "Transfer to a paper towel to drain excess oil."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Butter Garlic Sauce",
+      "steps": [
+        "Melt the butter in a clean pan over medium heat.",
+        "Add the diced garlic and sauté until fragrant and lightly golden.",
+        "Stir in the chopped green chilies and cook for about 30 seconds.",
+        "Sprinkle in the refined flour and cook for another 30 seconds, stirring continuously.",
+        "Gradually whisk in the chicken stock until smooth and lump-free.",
+        "Season with black pepper, Italian seasoning, and salt.",
+        "Simmer for 2–3 minutes until the sauce thickens slightly."
+      ]
+    },
+    {
+      "title": "Step 4 – Finish the Dish",
+      "steps": [
+        "Add the fried chicken to the butter garlic sauce.",
+        "Toss gently until every piece is evenly coated.",
+        "Finish with lime juice, chopped coriander, and spring onions.",
+        "Serve immediately while hot."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Steamed jasmine rice",
+      "Egg or chicken fried rice",
+      "Garlic butter noodles",
+      "Hakka noodles",
+      "Warm naan or flaky parathas"
+    ]
+  },
+
+  "chefTips": [
+    "Use unsalted butter and adjust the seasoning at the end for better flavor control.",
+    "For a richer restaurant-style sauce, stir in 1–2 tbsp fresh cream before adding the chicken.",
+    "Cook the garlic until lightly golden—not dark brown—to avoid bitterness.",
+    "Freshly prepared chicken stock provides the best flavor and body.",
+    "Serve immediately after tossing to keep the chicken crispy."
+  ]
+}
