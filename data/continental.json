@@ -93,8 +93,8 @@
     "id": 310,
     "title": "Classic French Toast (Pain Perdu)",
     "category": "Continental",
-    "file": "data/continental/classic-french-toast-pain-perdu.json",
-    "image": "assets/images/continental/classic-french-toast.png.png",
+    "file": "data/continental/classic-french-toast.json",
+    "image": "assets/images/continental/classic-french-toast.png",
     "description": "Classic French Pain Perdu featuring buttery brioche soaked in rich vanilla custard and pan-fried until golden with a creamy interior.",
     "time": "20 min",
     "difficulty": "Easy"
