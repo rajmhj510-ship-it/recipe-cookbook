@@ -60,7 +60,7 @@ async function loadCarouselRecipes() {
 
 createCarousel();
 
-const savedIndex = parseInt(sessionStorage.getItem("carouselIndex") || "0", 10);
+const savedIndex = Number(sessionStorage.getItem("carouselIndex")) || 0;
 
 updateCarousel(savedIndex);
 
