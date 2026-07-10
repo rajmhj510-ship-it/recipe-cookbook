@@ -147,6 +147,7 @@ function updateCarousel(newIndex) {
 	isAnimating = true;
 
 	currentIndex = (newIndex + recipes.length) % recipes.length;
+	sessionStorage.setItem("carouselIndex", currentIndex);
 
 	cards.forEach((card, i) => {
 		const offset = (i - currentIndex + recipes.length) % recipes.length;
