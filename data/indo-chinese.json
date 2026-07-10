@@ -1,1 +1,12 @@
-
+ [
+   {
+    "id": 921,
+    "title": "Butter Garlic Chicken",
+    "category": "Indo-Chinese",
+    "file": "data/indo-chinese/hot-garlic-chicken.json",
+    "image": "assets/images/indo-chinese/hot-garlic-chicken.png",
+    "description": "Crispy golden chicken tossed in a rich butter garlic sauce infused with aromatic garlic, black pepper, herbs, and fresh lime for a restaurant-style Indo-Chinese favorite.",
+    "time": "100 min",
+    "difficulty": "Medium"
+  }
+]
