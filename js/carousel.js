@@ -97,10 +97,16 @@ card.innerHTML = `
 card.addEventListener("click", () => {
 
     if (i === currentIndex) {
+
+        sessionStorage.setItem("selectedCategory", "all");
+
         window.location.href =
             `recipe.html?file=${encodeURIComponent(recipes[currentIndex].file)}`;
+
     } else {
+
         updateCarousel(i);
+
     }
 
 });
