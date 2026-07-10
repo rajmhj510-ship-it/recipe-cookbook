@@ -58,8 +58,11 @@ async function loadCarouselRecipes() {
 
         recipes.sort((a, b) => a.id - b.id);
 
-        createCarousel();
-        updateCarousel(0);
+createCarousel();
+
+const savedIndex = parseInt(sessionStorage.getItem("carouselIndex") || "0", 10);
+
+updateCarousel(savedIndex);
 
         if (!isRecipePage) {
             startAutoSlide();
@@ -100,8 +103,10 @@ card.addEventListener("click", () => {
 
         sessionStorage.setItem("selectedCategory", "all");
 
-        window.location.href =
-            `recipe.html?file=${encodeURIComponent(recipes[currentIndex].file)}`;
+sessionStorage.setItem("carouselIndex", currentIndex);
+
+window.location.href =
+    `recipe.html?file=${encodeURIComponent(recipes[currentIndex].file)}`;
 
     } else {
 
