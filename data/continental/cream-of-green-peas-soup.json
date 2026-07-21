@@ -1,0 +1,87 @@
+{
+  "id": "329",
+  "title": "Cream of Green Peas Soup",
+  "description": "Cream of Green Peas Soup is a smooth and velvety Continental soup made with tender green peas, aromatic vegetables, and finished with fresh cream. It offers a delicate sweetness, vibrant green color, and a rich, creamy texture, making it an elegant appetizer.",
+
+  "category": "Continental",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/cream-of-green-peas-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Soup",
+      "items": [
+        "Green peas (fresh or frozen) – 500 g",
+        "Butter – 40 g",
+        "Onion, finely chopped – 1 medium (about 100 g)",
+        "Leek, white part only, sliced – 1 (optional, for depth of flavor)",
+        "Garlic, minced – 1 clove",
+        "Vegetable or chicken stock – 750 ml",
+        "Fresh cream (heavy cream) – 120 ml",
+        "Salt – to taste",
+        "White pepper powder – to taste",
+        "Nutmeg, freshly grated – a pinch (optional)",
+        "Fresh parsley or mint leaves – for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Aromatics",
+      "steps": [
+        "Heat butter in a heavy-bottomed saucepan over medium heat.",
+        "Add onion and leek, sauté gently until translucent (do not brown).",
+        "Add minced garlic and cook for another 30 seconds until fragrant."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Peas",
+      "steps": [
+        "Add the green peas and stir for 2–3 minutes to coat with the butter and aromatics.",
+        "Pour in the stock, bring to a gentle boil, then reduce heat to a simmer.",
+        "Cook for 10–12 minutes, until peas are tender but still vibrant in color."
+      ]
+    },
+    {
+      "title": "Step 3 – Blend to Smoothness",
+      "steps": [
+        "Remove from heat and let cool slightly.",
+        "Blend the soup in batches in a high-speed blender until silky smooth.",
+        "Strain through a fine mesh sieve if you want an extra-smooth, velvety texture."
+      ]
+    },
+    {
+      "title": "Step 4 – Finish with Cream",
+      "steps": [
+        "Return the soup to low heat.",
+        "Stir in fresh cream, season with salt, white pepper, and nutmeg.",
+        "Heat gently—do not boil after adding cream to avoid curdling."
+      ]
+    },
+    {
+      "title": "Step 5 – Serve",
+      "steps": [
+        "Ladle into warm soup bowls.",
+        "Garnish with a swirl of cream, a few whole blanched peas, and fresh parsley or mint leaves."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with crusty bread or garlic crostini.",
+      "Garnish with a swirl of fresh cream and blanched peas.",
+      "Enjoy as an elegant appetizer or a light meal."
+    ]
+  },
+
+  "chefTips": [
+    "Add a pinch of baking soda to the cooking water or stock to keep the peas bright green.",
+    "Strain the blended soup through a fine mesh sieve for an extra-smooth texture.",
+    "For a lighter version, replace part of the cream with milk or omit it entirely for a Potage Saint-Germain style.",
+    "Do not boil the soup after adding the cream to prevent curdling."
+  ]
+}
