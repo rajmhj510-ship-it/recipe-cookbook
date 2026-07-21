@@ -1,0 +1,78 @@
+{
+  "id": "326",
+  "title": "Pomme Purée (French Mashed Potatoes) – Joël Robuchon Style",
+  "description": "Pomme Purée is a classic French mashed potato preparation renowned for its exceptionally smooth, silky texture and rich buttery flavor. Made famous by Joël Robuchon, it is the perfect accompaniment to roasted meats, poultry, and fine dining dishes.",
+
+  "category": "Continental",
+  "time": "40 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/pomme-puree-french-mashed-potatoes.png",
+
+  "ingredients": [
+    {
+      "title": "For the Pomme Purée",
+      "items": [
+        "Yukon Gold potatoes (waxy potatoes work best; avoid starchy ones like Russet) – 1 kg (2.2 lbs)",
+        "Unsalted butter, cold and cubed – 125 g",
+        "Whole milk, warmed – 100 ml",
+        "Salt – to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Potatoes",
+      "steps": [
+        "Peel and cut the potatoes into large, even chunks.",
+        "Rinse under cold water to remove excess starch.",
+        "Place potatoes in a pot with cold salted water.",
+        "Bring to a gentle simmer and cook until very tender (about 25–30 minutes)."
+      ]
+    },
+    {
+      "title": "Step 2 – Drain and Dry",
+      "steps": [
+        "Drain the potatoes and return them to the pot.",
+        "Place over low heat for 1–2 minutes, stirring, to evaporate any moisture."
+      ]
+    },
+    {
+      "title": "Step 3 – Mash Thoroughly",
+      "steps": [
+        "Pass through a food mill or fine ricer for an ultra-smooth texture.",
+        "Avoid a blender or food processor—they'll turn it gluey."
+      ]
+    },
+    {
+      "title": "Step 4 – Incorporate Butter",
+      "steps": [
+        "Over very low heat, stir in the cold butter gradually, mixing constantly until fully absorbed.",
+        "The key is to emulsify it slowly for a creamy finish."
+      ]
+    },
+    {
+      "title": "Step 5 – Finish the Purée",
+      "steps": [
+        "Gradually pour in the warm milk, mixing until it reaches a silky consistency.",
+        "Adjust seasoning with salt."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with roasted chicken, grilled steak, or braised meats.",
+      "Pairs perfectly with rich sauces such as mushroom velouté, demi-glace, or jus.",
+      "Serve immediately while hot for the best texture."
+    ]
+  },
+
+  "chefTips": [
+    "Pass the finished purée through a fine mesh tamis or sieve for an extra smooth finish.",
+    "For a slightly lighter version, reduce the butter to 150 g—but Robuchon used a 2:1 potato-to-butter ratio.",
+    "Always use warm milk to maintain a smooth emulsion.",
+    "Avoid using a blender or food processor, as it will make the potatoes gluey."
+  ]
+}
