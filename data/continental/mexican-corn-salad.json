@@ -1,0 +1,103 @@
+{
+  "id": "349",
+  "title": "Mexican Corn Salad",
+  "description": "Mexican Corn Salad is a vibrant dish made with charred sweet corn, creamy mayonnaise and Mexican crema, Cotija cheese, lime, and aromatic spices. Finished with fresh cilantro, it delivers a perfect balance of smoky, tangy, and creamy flavors.",
+
+  "category": "Continental",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/mexican-corn-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Salad",
+      "items": [
+        "Fresh corn cobs – 4 (or 3 cups corn kernels)",
+        "Unsalted butter – 2 tbsp",
+        "Olive oil – 2 tbsp",
+        "Garlic – 1 clove, finely minced",
+        "Shallot – 1 medium, finely diced",
+        "Red chili (or jalapeño) – 1 small, finely chopped",
+        "Mayonnaise – ½ cup",
+        "Mexican crema or sour cream – ¼ cup",
+        "Cotija cheese (or Feta) – ½ cup, finely crumbled",
+        "Smoked paprika – ½ tsp",
+        "Ground cumin – ½ tsp, lightly toasted",
+        "Lime zest – 1 tsp",
+        "Juice of 2 limes",
+        "Sea salt – to taste",
+        "Freshly cracked black pepper – to taste",
+        "Fresh cilantro – 2 tbsp, finely chopped"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Micro cilantro or baby coriander leaves",
+        "Cotija cheese shavings",
+        "Paprika dust or chili powder",
+        "Charred lime wedge"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Corn",
+      "steps": [
+        "Grill the corn cobs over an open flame or hot grill pan for 8–10 minutes until lightly charred.",
+        "Allow to cool slightly, then cut the kernels from the cobs."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Base",
+      "steps": [
+        "Heat the butter and olive oil in a sauté pan over medium heat.",
+        "Add the garlic and shallot and cook until fragrant without browning.",
+        "Stir in the chopped chili."
+      ]
+    },
+    {
+      "title": "Step 3 – Build the Salad",
+      "steps": [
+        "Add the grilled corn kernels to the pan.",
+        "Season with smoked paprika, cumin, salt, and black pepper.",
+        "Remove from the heat and allow to cool slightly.",
+        "Whisk together the mayonnaise, Mexican crema, lime juice, and lime zest.",
+        "Fold the warm corn mixture into the dressing along with half of the Cotija cheese."
+      ]
+    },
+    {
+      "title": "Step 4 – Adjust the Seasoning",
+      "steps": [
+        "Taste the salad and adjust with extra lime juice, salt, pepper, or chili if required."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating",
+      "steps": [
+        "Arrange the salad neatly on a serving plate using a ring mold if desired.",
+        "Top with the remaining Cotija cheese.",
+        "Garnish with micro cilantro.",
+        "Finish with a light dusting of smoked paprika or chili powder and serve with a charred lime wedge."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve warm as a starter or side dish.",
+      "Pair with grilled chicken, prawns, or seared scallops.",
+      "Enjoy with grilled meats or as part of a continental buffet."
+    ]
+  },
+
+  "chefTips": [
+    "Grill the corn until lightly charred for the best smoky flavor.",
+    "Serve warm rather than chilled to enhance the sweetness of the corn.",
+    "Use freshly squeezed lime juice for a brighter flavor.",
+    "Add crispy tortilla strips or puffed quinoa for extra texture.",
+    "Finish with finely grated Cotija cheese for an elegant presentation."
+  ]
+}
