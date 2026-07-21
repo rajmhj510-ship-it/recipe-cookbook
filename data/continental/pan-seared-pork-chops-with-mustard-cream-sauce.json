@@ -1,0 +1,99 @@
+{
+  "id": "330",
+  "title": "Pan-Seared Pork Chops with Mustard Cream Sauce",
+  "description": "Pan-Seared Pork Chops with Mustard Cream Sauce is a classic Continental main course featuring juicy, golden-brown pork chops served with a rich Dijon mustard cream sauce. Paired with buttery mashed potatoes and seasonal vegetables, it is a comforting yet elegant dish.",
+
+  "category": "Continental",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/pan-seared-pork-chops-with-mustard-cream-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "For the Pork Chops",
+      "items": [
+        "Bone-in pork chops (about 200–250 g each, 2.5 cm thick) – 4",
+        "Olive oil – 1 tbsp",
+        "Unsalted butter – 1 tbsp",
+        "Salt (preferably kosher) – to taste",
+        "Freshly ground black pepper – to taste",
+        "Fresh rosemary or thyme – 1 sprig (optional, for aroma)"
+      ]
+    },
+    {
+      "title": "For the Mustard Cream Sauce",
+      "items": [
+        "Unsalted butter – 2 tbsp",
+        "Shallot, finely minced – 1 medium",
+        "Dry white wine (e.g., Sauvignon Blanc) – 120 ml",
+        "Chicken stock (unsalted) – 150 ml",
+        "Heavy cream (minimum 30% fat) – 150 ml",
+        "Dijon mustard – 1½ tbsp",
+        "Whole-grain mustard – 1 tsp (optional, for texture)",
+        "Salt – to taste",
+        "Black pepper – to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Fresh parsley, finely chopped"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Pork Chops",
+      "steps": [
+        "Pat pork chops dry with paper towels (important for browning).",
+        "Season generously with salt and pepper on both sides."
+      ]
+    },
+    {
+      "title": "Step 2 – Sear the Pork",
+      "steps": [
+        "Heat olive oil and butter in a heavy skillet over medium-high heat until shimmering.",
+        "Add pork chops and sear 3–4 minutes per side, until golden brown and the internal temperature reaches 63°C (145°F).",
+        "In the last minute, add rosemary or thyme for fragrance, basting chops with the butter.",
+        "Transfer pork to a warm plate and cover loosely with foil to rest."
+      ]
+    },
+    {
+      "title": "Step 3 – Make the Sauce",
+      "steps": [
+        "Discard excess fat from the skillet, leaving about 1 tsp.",
+        "Add butter and sauté shallots over medium heat until soft (about 1–2 minutes).",
+        "Deglaze with white wine, scraping up browned bits; reduce by half.",
+        "Stir in chicken stock and reduce slightly.",
+        "Lower heat, add cream, and simmer gently until the sauce thickens to coat a spoon.",
+        "Whisk in Dijon mustard (and whole-grain mustard if using).",
+        "Season with salt and pepper."
+      ]
+    },
+    {
+      "title": "Step 4 – Serve",
+      "steps": [
+        "Return pork chops to the skillet briefly to coat with sauce, or plate chops and spoon sauce over them.",
+        "Garnish with chopped parsley.",
+        "Serve with buttery mashed potatoes, steamed green beans, or sautéed spinach."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with buttery mashed potatoes or pomme purée.",
+      "Pair with steamed green beans or sautéed spinach.",
+      "Enjoy with a glass of dry white wine such as Sauvignon Blanc."
+    ]
+  },
+
+  "chefTips": [
+    "Pat the pork chops dry before searing for a perfect golden crust.",
+    "Allow the pork to rest for a few minutes after cooking to retain its juices.",
+    "For deeper flavor, brine pork chops in a 5% salt solution (50 g salt per liter of water) for 2–4 hours before cooking. Pat dry before searing.",
+    "Do not boil the cream sauce after adding the mustard to maintain its smooth texture."
+  ]
+}
