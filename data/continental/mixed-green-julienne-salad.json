@@ -1,0 +1,101 @@
+{
+  "id": "341",
+  "title": "Mixed Green Julienne Salad",
+  "description": "Mixed Green Julienne Salad is a refined Continental salad featuring crisp mixed greens, finely julienned vegetables, toasted pine nuts, and Parmesan shavings, lightly dressed with a classic vinaigrette. Fresh, colorful, and elegantly plated, it is perfect as a fine dining starter.",
+
+  "category": "Continental",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/mixed-green-julienne-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Salad Base",
+      "items": [
+        "Mesclun mix (young mixed greens: arugula, frisée, oak leaf, baby spinach, red chard) – 60 g",
+        "Belgian endive, thin julienne – 30 g",
+        "Carrots, fine julienne – 40 g",
+        "Cucumber, fine julienne (seeds removed) – 40 g",
+        "Red bell pepper, fine julienne – 30 g",
+        "Yellow bell pepper, fine julienne – 30 g",
+        "Radish, fine julienne – 20 g"
+      ]
+    },
+    {
+      "title": "For Garnish & Accents",
+      "items": [
+        "Parmesan shavings (or aged Manchego) – 30 g",
+        "Toasted pine nuts (or candied walnuts for variation) – 20 g",
+        "Microgreens (e.g., red amaranth or micro basil)",
+        "Edible flowers (optional)"
+      ]
+    },
+    {
+      "title": "For the Continental Vinaigrette",
+      "items": [
+        "Extra virgin olive oil (cold-pressed, fruity) – 40 ml",
+        "White wine vinegar (or champagne vinegar) – 15 ml",
+        "Dijon mustard – 1 tsp",
+        "Honey (or agave) – ½ tsp",
+        "Sea salt – a pinch",
+        "Freshly ground black pepper – a pinch"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Vegetables",
+      "steps": [
+        "Wash and pat dry all greens.",
+        "Julienne carrots, cucumber, peppers, radish, and endive into fine, uniform matchsticks."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Vinaigrette",
+      "steps": [
+        "In a bowl, whisk together Dijon mustard, honey, vinegar, salt, and pepper.",
+        "Slowly drizzle in olive oil, whisking continuously until emulsified.",
+        "Taste and adjust the seasoning."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Salad",
+      "steps": [
+        "In a chilled stainless-steel bowl, lightly toss the mixed greens with the julienned vegetables.",
+        "Dress with just enough vinaigrette to coat evenly."
+      ]
+    },
+    {
+      "title": "Step 4 – Plate Like Fine Dining",
+      "steps": [
+        "Using a ring mold, neatly layer the salad in the center of a chilled white plate.",
+        "Sprinkle toasted pine nuts and Parmesan shavings over the top.",
+        "Garnish with microgreens and edible flowers if available."
+      ]
+    },
+    {
+      "title": "Step 5 – Final Touch",
+      "steps": [
+        "Drizzle a few decorative drops of vinaigrette around the plate.",
+        "Serve immediately while crisp and fresh."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as a light appetizer or accompaniment.",
+      "Pair with grilled chicken, seafood, or roasted meats.",
+      "Enjoy with Sauvignon Blanc or Pinot Grigio, or sparkling water with citrus zest."
+    ]
+  },
+
+  "chefTips": [
+    "Keep all vegetables uniformly julienned for a refined presentation.",
+    "Dress the salad just before serving to maintain freshness and crispness.",
+    "Use chilled plates for a professional restaurant-style presentation.",
+    "Finish with edible flowers and microgreens for an elegant fine dining touch."
+  ]
+}
