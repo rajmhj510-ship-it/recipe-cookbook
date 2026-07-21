@@ -1,0 +1,115 @@
+{
+  "id": "339",
+  "title": "Lamb Stew Printanière",
+  "description": "Lamb Stew Printanière is a classic Continental dish featuring slow-braised lamb cooked in a rich white wine and stock-based sauce, complemented by colorful spring vegetables. Tender, flavorful, and elegantly presented, it is a refined main course perfect for fine dining.",
+
+  "category": "Continental",
+  "time": "150 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/lamb-stew-printaniere.png",
+
+  "ingredients": [
+    {
+      "title": "For the Lamb",
+      "items": [
+        "Lamb shoulder or neck, cut into 2–3 cm cubes – 1.2 kg (2.6 lbs)",
+        "Olive oil – 2 tbsp",
+        "Salt – to taste",
+        "Freshly ground black pepper – to taste",
+        "Garlic, crushed – 2 cloves",
+        "Onion, finely chopped – 1 large",
+        "Carrots, diced – 2 medium",
+        "Celery, diced – 1 stalk",
+        "Tomato paste – 2 tbsp",
+        "Dry white wine – 250 ml (1 cup)",
+        "Lamb or veal stock – 500 ml (2 cups)",
+        "Bouquet garni (thyme, bay leaf, parsley stalks) – 1"
+      ]
+    },
+    {
+      "title": "For the Vegetables (Printanière Style)",
+      "items": [
+        "Baby carrots – 150 g (1 cup)",
+        "Baby turnips – 150 g (1 cup)",
+        "Green peas – 150 g (1 cup)",
+        "French beans, trimmed – 150 g (1 cup)",
+        "Pearl onions, peeled – 100 g (½ cup)",
+        "Butter – 2 tbsp",
+        "Salt – to taste",
+        "Black pepper – to taste"
+      ]
+    },
+    {
+      "title": "For Finishing",
+      "items": [
+        "Fresh parsley, chopped – 2 tbsp",
+        "Lemon juice – 1 tsp (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Lamb",
+      "steps": [
+        "Pat lamb dry and season generously with salt and pepper.",
+        "Heat olive oil in a heavy-bottomed Dutch oven over medium-high heat.",
+        "Brown lamb in batches to ensure a caramelized crust.",
+        "Remove and set aside."
+      ]
+    },
+    {
+      "title": "Step 2 – Build the Flavor Base",
+      "steps": [
+        "Reduce heat to medium and add garlic, onion, carrot, and celery.",
+        "Sauté until softened (about 5 minutes).",
+        "Stir in tomato paste and cook for 1–2 minutes to remove the raw taste.",
+        "Deglaze the pan with white wine, scraping up the browned bits."
+      ]
+    },
+    {
+      "title": "Step 3 – Braise the Lamb",
+      "steps": [
+        "Return the lamb to the pot.",
+        "Add stock and bouquet garni.",
+        "Bring to a simmer, cover partially, and reduce heat to low.",
+        "Cook gently for 1.5–2 hours until the lamb is tender, stirring occasionally."
+      ]
+    },
+    {
+      "title": "Step 4 – Prepare the Printanière Vegetables",
+      "steps": [
+        "Blanch peas, beans, baby carrots, and turnips in lightly salted water until just tender.",
+        "Shock in ice water to retain their color.",
+        "Sauté pearl onions in butter until lightly golden.",
+        "Toss all vegetables together and season lightly with salt and pepper."
+      ]
+    },
+    {
+      "title": "Step 5 – Finish the Stew",
+      "steps": [
+        "Remove the bouquet garni from the lamb stew.",
+        "Adjust seasoning with salt and pepper.",
+        "Gently fold in the vegetables to keep them crisp and colorful.",
+        "Sprinkle with chopped parsley and a touch of lemon juice for brightness."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve in pre-warmed deep plates.",
+      "Arrange lamb cubes in the center and surround with colorful spring vegetables.",
+      "Drizzle with glossy braising sauce and garnish with a sprig of fresh thyme or microgreens.",
+      "Pair with crusty bread, buttered potatoes, or steamed rice."
+    ]
+  },
+
+  "chefTips": [
+    "Use lamb shoulder or neck for rich flavor and tenderness.",
+    "Blanch the vegetables just before serving to maintain their vibrant color.",
+    "For a silky sauce, strain the braising liquid and reduce it slightly before combining with the lamb.",
+    "Serve in pre-warmed deep plates for a restaurant-style presentation."
+  ]
+}
