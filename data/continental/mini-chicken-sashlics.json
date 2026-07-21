@@ -1,0 +1,110 @@
+{
+  "id": "348",
+  "title": "Mini Chicken Sashlics",
+  "description": "Mini Chicken Sashlics are flavorful Continental-style grilled chicken skewers marinated in yogurt, herbs, and mustard, paired with colorful vegetables and finished with a buttery balsamic glaze. They make an elegant appetizer for parties and fine dining.",
+
+  "category": "Continental",
+  "time": "150 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/mini-chicken-sashlics.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Marinade",
+      "items": [
+        "Boneless chicken breast or thigh – 500 g, cut into 2 cm cubes",
+        "Greek yogurt (thick) – 2 tbsp",
+        "Olive oil (extra virgin) – 1 tbsp",
+        "Dijon mustard – 1 tbsp",
+        "Garlic paste – 1 tsp",
+        "Ginger paste – 1 tsp",
+        "Paprika (sweet) – 1 tsp",
+        "White pepper powder – ½ tsp",
+        "Crushed thyme – ½ tsp",
+        "Oregano – ½ tsp",
+        "Juice of ½ lemon",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "For the Vegetables",
+      "items": [
+        "Red bell pepper – 1, cut into 2 cm cubes",
+        "Yellow bell pepper – 1, cut into 2 cm cubes",
+        "Zucchini – 1, sliced into 1 cm thick rounds",
+        "Red onion – 1, cut into petals"
+      ]
+    },
+    {
+      "title": "For the Continental Glaze",
+      "items": [
+        "Butter – 1 tbsp",
+        "Olive oil – 1 tbsp",
+        "Worcestershire sauce – 1 tsp",
+        "Balsamic glaze (or reduction) – 1 tsp",
+        "Sea salt – a pinch"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinate the Chicken",
+      "steps": [
+        "In a stainless steel bowl, mix yogurt, olive oil, Dijon mustard, garlic paste, ginger paste, paprika, thyme, oregano, lemon juice, salt, and white pepper.",
+        "Add the chicken cubes and coat evenly with the marinade.",
+        "Cover and refrigerate for at least 2 hours or overnight for deeper flavor."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Skewers",
+      "steps": [
+        "Thread the marinated chicken alternately with bell peppers, zucchini, and onion petals onto mini cocktail skewers.",
+        "Arrange the vegetables evenly for a colorful presentation."
+      ]
+    },
+    {
+      "title": "Step 3 – Grill the Sashlics",
+      "steps": [
+        "Heat a cast iron grill pan or charcoal grill over medium-high heat.",
+        "Brush lightly with olive oil.",
+        "Grill the skewers for 8–10 minutes, turning occasionally until the chicken is golden and fully cooked.",
+        "Baste lightly with butter during grilling."
+      ]
+    },
+    {
+      "title": "Step 4 – Prepare the Glaze",
+      "steps": [
+        "Melt the butter with olive oil in a small pan.",
+        "Stir in Worcestershire sauce and balsamic glaze.",
+        "Brush the glaze over the hot skewers before serving."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating",
+      "steps": [
+        "Serve the mini sashlics upright in a shot glass or arrange them on a slate platter.",
+        "Drizzle the plate with micro-herb oil if desired.",
+        "Serve with a quenelle of garlic aioli or smoked paprika mayonnaise.",
+        "Garnish with microgreens or edible flowers."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as an appetizer with garlic aioli or smoked paprika mayonnaise.",
+      "Pair with a fresh green salad or grilled vegetables.",
+      "Arrange on a slate platter for an elegant continental presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Marinate the chicken overnight for maximum tenderness and flavor.",
+    "Use a charcoal grill for an authentic smoky taste.",
+    "Baste with butter during grilling to keep the chicken juicy.",
+    "Brush the glaze over the skewers just before serving for a glossy finish.",
+    "Alternate colorful vegetables for an attractive presentation."
+  ]
+}
