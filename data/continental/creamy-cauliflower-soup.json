@@ -1,0 +1,104 @@
+{
+  "id": "334",
+  "title": "Creamy Cauliflower Soup",
+  "description": "Creamy Cauliflower Soup is a rich and velvety Continental soup made with tender cauliflower, aromatic vegetables, and finished with fresh cream. Smooth, comforting, and elegant, it is perfect as a starter or a light meal.",
+
+  "category": "Continental",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/creamy-cauliflower-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Soup",
+      "items": [
+        "Cauliflower, chopped into florets – 1 medium",
+        "Onion, finely chopped – 1 small",
+        "Leek (white part only), thinly sliced – 1",
+        "Potato, peeled and diced – 1 medium",
+        "Garlic, minced – 2 cloves",
+        "Unsalted butter – 3 tbsp",
+        "Olive oil – 1 tbsp",
+        "Vegetable or chicken stock (preferably homemade) – 1 liter (4 cups)",
+        "Heavy cream (or crème fraîche for extra richness) – 200 ml",
+        "Salt – to taste",
+        "Freshly ground white pepper – to taste",
+        "Nutmeg, freshly grated – a pinch",
+        "Fresh chives or parsley, finely chopped – for garnish",
+        "Truffle oil – optional, for finishing"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Sweat the Aromatics",
+      "steps": [
+        "In a large saucepan, heat butter and olive oil over medium heat.",
+        "Add onion, leek, and garlic.",
+        "Sauté gently for 5–7 minutes until soft but not browned."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Vegetables",
+      "steps": [
+        "Add cauliflower florets and diced potato to the pan.",
+        "Stir for 2–3 minutes to coat with the butter and aromatics."
+      ]
+    },
+    {
+      "title": "Step 3 – Add Stock and Simmer",
+      "steps": [
+        "Pour in the stock and bring to a gentle boil.",
+        "Reduce heat, cover, and simmer for 20 minutes until the cauliflower and potato are tender."
+      ]
+    },
+    {
+      "title": "Step 4 – Blend to Perfection",
+      "steps": [
+        "Use an immersion blender (or transfer in batches to a countertop blender) to purée the soup until completely smooth.",
+        "For an ultra-silky texture, strain through a fine sieve."
+      ]
+    },
+    {
+      "title": "Step 5 – Enrich the Soup",
+      "steps": [
+        "Return the soup to low heat.",
+        "Stir in the heavy cream and season with salt, white pepper, and a pinch of nutmeg.",
+        "Warm gently—do not boil."
+      ]
+    },
+    {
+      "title": "Step 6 – Finish Like a Chef",
+      "steps": [
+        "Drizzle with a few drops of truffle oil if desired.",
+        "Adjust seasoning.",
+        "Keep warm until serving."
+      ]
+    },
+    {
+      "title": "Step 7 – Plating",
+      "steps": [
+        "Serve in pre-warmed bowls.",
+        "Garnish with finely chopped chives or parsley.",
+        "For a restaurant touch, add a swirl of cream or a small cauliflower floret on top."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with crusty bread, garlic crostini, or buttered rolls.",
+      "Garnish with fresh herbs and a swirl of cream.",
+      "Finish with a drizzle of truffle oil for an elegant presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Roast the cauliflower lightly before cooking for a nuttier, deeper flavor.",
+    "For a vegan version, substitute butter with olive oil and cream with coconut or cashew cream.",
+    "A squeeze of lemon juice at the end brightens the soup beautifully.",
+    "Strain the soup through a fine sieve for an ultra-smooth restaurant-quality texture."
+  ]
+}
