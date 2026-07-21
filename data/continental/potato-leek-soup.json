@@ -1,0 +1,104 @@
+{
+  "id": "345",
+  "title": "Potato & Leek Soup",
+  "description": "Potato & Leek Soup is a classic Continental soup featuring sweet leeks, tender potatoes, and a rich, velvety broth finished with milk and cream. Smooth, elegant, and comforting, it is ideal as a refined starter served with crispy leek garnish and fresh chives.",
+
+  "category": "Continental",
+  "time": "55 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/potato-leek-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Soup Base",
+      "items": [
+        "Leeks (white and light green parts only), finely sliced and washed – 500 g",
+        "Floury potatoes (Yukon Gold / Maris Piper / Desiree), peeled and diced – 400 g",
+        "Medium onion, finely chopped – 1",
+        "Unsalted butter – 50 g",
+        "Extra virgin olive oil – 1 tbsp",
+        "Chicken stock or vegetable stock – 1 L",
+        "Full-fat milk – 250 ml",
+        "Double cream (optional) – 100 ml",
+        "Bay leaf – 1",
+        "Fresh thyme – 2–3 sprigs",
+        "Fine sea salt – to taste",
+        "White pepper – to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Finely snipped chives or chive batons",
+        "Crispy fried leek julienne or potato strings",
+        "Herb oil or truffle oil – a light drizzle (optional)",
+        "Microgreens (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Sweat the Aromatics",
+      "steps": [
+        "Heat the butter and olive oil in a heavy-bottomed saucepan over low heat.",
+        "Add the chopped onion and sliced leeks with a pinch of salt.",
+        "Cook gently for 8–10 minutes until softened without allowing any colour to develop."
+      ]
+    },
+    {
+      "title": "Step 2 – Build the Soup",
+      "steps": [
+        "Add the diced potatoes, bay leaf, and thyme.",
+        "Stir well to coat the vegetables in the butter mixture.",
+        "Pour in the hot stock and bring to a gentle simmer.",
+        "Cook for 20–25 minutes until the potatoes are completely tender."
+      ]
+    },
+    {
+      "title": "Step 3 – Blend the Soup",
+      "steps": [
+        "Remove the bay leaf and thyme sprigs.",
+        "Blend the soup using a high-speed blender or immersion blender until completely smooth.",
+        "For an ultra-silky finish, strain through a fine chinois or muslin cloth."
+      ]
+    },
+    {
+      "title": "Step 4 – Finish the Soup",
+      "steps": [
+        "Return the soup to the saucepan over low heat.",
+        "Stir in the milk and gently reheat without boiling.",
+        "Add the cream if using.",
+        "Season with fine sea salt and freshly ground white pepper.",
+        "Adjust the consistency with a little extra warm stock or milk if required."
+      ]
+    },
+    {
+      "title": "Step 5 – Presentation",
+      "steps": [
+        "Ladle the hot soup into pre-warmed shallow bowls.",
+        "Garnish with crispy fried leek julienne or potato strings.",
+        "Sprinkle with finely snipped chives.",
+        "Finish with a drizzle of herb oil or truffle oil and garnish with microgreens if desired.",
+        "Serve immediately."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with warm artisan sourdough and cultured butter.",
+      "Pair with Gruyère gougères or Parmesan crisps for an elegant starter.",
+      "Garnish with crispy leek, fresh chives, and a drizzle of herb or truffle oil for a fine dining presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Sweat the leeks gently without browning to preserve their delicate sweetness and colour.",
+    "Use a high-quality stock for the best depth of flavour.",
+    "Blend while the soup is still hot and strain through a fine chinois for a silky-smooth texture.",
+    "Do not boil after adding the milk and cream to prevent splitting.",
+    "The soup base can be prepared in advance; add the milk, cream, and garnishes just before serving."
+  ]
+}
