@@ -1,0 +1,80 @@
+{
+  "id": "327",
+  "title": "Pineapple, Cheese & Cherry Sticks",
+  "description": "Pineapple, Cheese & Cherry Sticks are a classic Continental canapé featuring juicy pineapple, mild cheese, and bright maraschino cherries. Quick to prepare and visually appealing, they make an ideal appetizer for buffets, cocktail parties, and festive occasions.",
+
+  "category": "Continental",
+  "time": "15 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/pineapple-cheese-cherry-sticks.png",
+
+  "ingredients": [
+    {
+      "title": "For the Canapés",
+      "items": [
+        "Cheese (mild cheddar or Emmental), cut into 1.5 cm cubes – 200 g",
+        "Pineapple (fresh or canned), well-drained – 200 g",
+        "Maraschino cherries – 12–15 pieces",
+        "Fresh herbs (finely chopped parsley or mint) – 1 tbsp (optional garnish)",
+        "Freshly ground black pepper – a pinch",
+        "Toothpicks or canapé skewers – as required"
+      ]
+    },
+    {
+      "title": "Optional Continental Garnishes",
+      "items": [
+        "Light balsamic glaze – for drizzling",
+        "Microgreens or edible flowers – for plating"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Ingredients",
+      "steps": [
+        "Pat dry the pineapple chunks to avoid excess moisture.",
+        "Cut the cheese into even cubes for uniform presentation."
+      ]
+    },
+    {
+      "title": "Step 2 – Assemble the Sticks",
+      "steps": [
+        "On each skewer, place one pineapple chunk followed by one cheese cube.",
+        "Top with one maraschino cherry.",
+        "Arrange on a serving platter in neat rows or a circular pattern."
+      ]
+    },
+    {
+      "title": "Step 3 – Finishing Touches",
+      "steps": [
+        "Lightly sprinkle freshly ground black pepper over the assembled sticks.",
+        "Garnish the platter with chopped parsley or mint.",
+        "Drizzle with balsamic glaze if desired."
+      ]
+    },
+    {
+      "title": "Step 4 – Serving",
+      "steps": [
+        "Serve chilled as part of a continental canapé platter.",
+        "Best consumed within 1–2 hours for maximum freshness."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as a canapé or party appetizer.",
+      "Arrange alongside assorted cheese, olives, crackers, and fresh fruit.",
+      "Garnish with microgreens or edible flowers for an elegant presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Pat the pineapple dry to prevent the cheese from becoming slippery.",
+    "Use smoked cheese for a deeper flavor.",
+    "For a gourmet twist, briefly torch the cheese surface before skewering.",
+    "Assemble shortly before serving to maintain freshness and appearance."
+  ]
+}
