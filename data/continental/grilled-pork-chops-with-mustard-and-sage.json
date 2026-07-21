@@ -1,0 +1,84 @@
+{
+  "id": "331",
+  "title": "Grilled Pork Chops with Mustard & Sage",
+  "description": "Grilled Pork Chops with Mustard & Sage is a classic Continental dish featuring tender pork chops marinated with Dijon mustard, Worcestershire sauce, garlic, and fresh sage, then grilled to perfection. Served with brown sauce, seasonal vegetables, grilled tomato, and French fries, it makes a hearty and flavorful main course.",
+
+  "category": "Continental",
+  "time": "140 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/grilled-pork-chops-with-mustard-and-sage.png",
+
+  "ingredients": [
+    {
+      "title": "For the Pork Chops",
+      "items": [
+        "Pork chops, trimmed (80 g each) – 8 pieces",
+        "Vegetable oil – 10 ml",
+        "Garlic – 3 cloves, crushed",
+        "Dijon mustard paste – 1 tbsp",
+        "Worcestershire sauce – 2 tbsp",
+        "Fresh sage leaves, finely chopped – a few",
+        "Sea salt – to taste",
+        "Freshly ground black pepper – to taste"
+      ]
+    },
+    {
+      "title": "Accompaniments (Optional)",
+      "items": [
+        "Sautéed seasonal vegetables",
+        "Brown sauce",
+        "Grilled tomato halves",
+        "French fries"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparation of Chops",
+      "steps": [
+        "Pat dry the pork chops and trim any excess fat.",
+        "Arrange the pork chops on a tray."
+      ]
+    },
+    {
+      "title": "Step 2 – Marination",
+      "steps": [
+        "In a small bowl, mix the oil, crushed garlic, Dijon mustard, Worcestershire sauce, chopped sage, salt, and pepper.",
+        "Coat the pork chops evenly with the marinade.",
+        "Cover and refrigerate for 2 hours to allow the flavors to penetrate."
+      ]
+    },
+    {
+      "title": "Step 3 – Grilling",
+      "steps": [
+        "Preheat a griddle or grill pan and lightly brush with oil to prevent sticking.",
+        "Grill the pork chops over medium-high heat for 3–4 minutes per side (depending on thickness) until well-browned and cooked through, reaching an internal temperature of 63°C."
+      ]
+    },
+    {
+      "title": "Step 4 – Plating",
+      "steps": [
+        "Place two chops per warmed dinner plate.",
+        "Arrange sautéed vegetables neatly to one side.",
+        "Add a grilled tomato half and serve with French fries.",
+        "Accompany with a small sauceboat of brown sauce."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with sautéed seasonal vegetables and French fries.",
+      "Accompany with grilled tomato halves and brown sauce.",
+      "Pair with a medium-bodied red wine or a crisp lager."
+    ]
+  },
+
+  "chefTips": [
+    "Allow the grilled chops to rest for 2–3 minutes before serving for maximum juiciness.",
+    "Fresh herbs such as thyme or rosemary can be substituted for sage for variation.",
+    "Ensure the griddle is sufficiently hot before placing the chops to achieve a good sear and lock in juices."
+  ]
+}
