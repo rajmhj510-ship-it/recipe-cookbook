@@ -218,5 +218,265 @@
     "description": "A timeless Waldorf salad combining crisp apples, celery, grapes, toasted walnuts, and creamy mayonnaise over fresh lettuce.",
     "time": "20 min",
     "difficulty": "Easy"
+  },
+    {
+    "id": 323,
+    "title": "Supreme of Chicken with Mushroom Velouté & Truffle Mash",
+    "category": "Continental",
+    "file": "data/continental/supreme-of-chicken-with-mushroom-veloute-truffle-mash.json",
+    "image": "assets/images/continental/supreme-of-chicken-with-mushroom-veloute-truffle-mash.png",
+    "description": "Pan-seared chicken supreme served with silky mushroom velouté, truffle mashed potatoes, and glazed seasonal vegetables.",
+    "time": "45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 324,
+    "title": "Pomme Purée (Joël Robuchon Style)",
+    "category": "Continental",
+    "file": "data/continental/pomme-puree-joel-robuchon-style.json",
+    "image": "assets/images/continental/pomme-puree-joel-robuchon-style.png",
+    "description": "Classic French mashed potatoes enriched with butter and warm milk for an ultra-silky texture.",
+    "time": "40 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 325,
+    "title": "Pineapple, Cheese & Cherry Sticks",
+    "category": "Continental",
+    "file": "data/continental/pineapple-cheese-cherry-sticks.json",
+    "image": "assets/images/continental/pineapple-cheese-cherry-sticks.png",
+    "description": "Simple continental canapé made with pineapple, cheese cubes, and maraschino cherries.",
+    "time": "15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 326,
+    "title": "Chicken Hawaii Salad",
+    "category": "Continental",
+    "file": "data/continental/chicken-hawaii-salad.json",
+    "image": "assets/images/continental/chicken-hawaii-salad.png",
+    "description": "Fresh salad with grilled chicken, pineapple, crisp vegetables, and creamy Hawaiian dressing.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 327,
+    "title": "Cream of Green Peas Soup",
+    "category": "Continental",
+    "file": "data/continental/cream-of-green-peas-soup.json",
+    "image": "assets/images/continental/cream-of-green-peas-soup.png",
+    "description": "Smooth and creamy green peas soup finished with fresh cream and herbs.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 328,
+    "title": "Pan-Seared Pork Chops with Mustard Cream Sauce",
+    "category": "Continental",
+    "file": "data/continental/pan-seared-pork-chops-with-mustard-cream-sauce.json",
+    "image": "assets/images/continental/pan-seared-pork-chops-with-mustard-cream-sauce.png",
+    "description": "Juicy pork chops served with a rich Dijon mustard cream sauce.",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 329,
+    "title": "Grilled Pork Chops with Mustard & Sage",
+    "category": "Continental",
+    "file": "data/continental/grilled-pork-chops-with-mustard-and-sage.json",
+    "image": "assets/images/continental/grilled-pork-chops-with-mustard-and-sage.png",
+    "description": "Herb-marinated grilled pork chops with Dijon mustard and fresh sage.",
+    "time": "2 hr 30 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 330,
+    "title": "Cheese & Potato Balls",
+    "category": "Continental",
+    "file": "data/continental/cheese-and-potato-balls.json",
+    "image": "assets/images/continental/cheese-and-potato-balls.png",
+    "description": "Golden crispy potato balls stuffed with melted cheese and coated in crunchy breadcrumbs.",
+    "time": "45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 331,
+    "title": "Potato Egg Salad",
+    "category": "Continental",
+    "file": "data/continental/potato-egg-salad.json",
+    "image": "assets/images/continental/potato-egg-salad.png",
+    "description": "Creamy potato and egg salad with Dijon dressing and fresh herbs.",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 332,
+    "title": "Creamy Cauliflower Soup",
+    "category": "Continental",
+    "file": "data/continental/creamy-cauliflower-soup.json",
+    "image": "assets/images/continental/creamy-cauliflower-soup.png",
+    "description": "Velvety cauliflower soup enriched with cream and aromatic vegetables.",
+    "time": "40 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 333,
+    "title": "Cilantro Yogurt Chicken",
+    "category": "Continental",
+    "file": "data/continental/cilantro-yogurt-chicken.json",
+    "image": "assets/images/continental/cilantro-yogurt-chicken.png",
+    "description": "Tender yogurt-marinated chicken infused with cilantro and herbs.",
+    "time": "3 hr",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 334,
+    "title": "Onion Rings",
+    "category": "Continental",
+    "file": "data/continental/onion-rings.json",
+    "image": "assets/images/continental/onion-rings.png",
+    "description": "Classic crispy onion rings coated with a light batter and panko breadcrumbs.",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 335,
+    "title": "Russian Salad",
+    "category": "Continental",
+    "file": "data/continental/russian-salad.json",
+    "image": "assets/images/continental/russian-salad.png",
+    "description": "Traditional Russian salad with vegetables, creamy dressing, and optional chicken.",
+    "time": "40 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 336,
+    "title": "Mutton Broth",
+    "category": "Continental",
+    "file": "data/continental/mutton-broth.json",
+    "image": "assets/images/continental/mutton-broth.png",
+    "description": "Clear and flavorful mutton broth simmered with aromatic vegetables and herbs.",
+    "time": "2 hr 30 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 337,
+    "title": "Lamb Stew Printanière",
+    "category": "Continental",
+    "file": "data/continental/lamb-stew-printaniere.json",
+    "image": "assets/images/continental/lamb-stew-printaniere.png",
+    "description": "Slow-braised lamb stew with spring vegetables in a rich aromatic sauce.",
+    "time": "2 hr 30 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 338,
+    "title": "Fish Fingers",
+    "category": "Continental",
+    "file": "data/continental/fish-fingers.json",
+    "image": "assets/images/continental/fish-fingers.png",
+    "description": "Golden crispy fish fingers served with tartar sauce and lemon wedges.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 339,
+    "title": "Mixed Green Julienne Salad",
+    "category": "Continental",
+    "file": "data/continental/mixed-green-julienne-salad.json",
+    "image": "assets/images/continental/mixed-green-julienne-salad.png",
+    "description": "Elegant mixed greens and julienned vegetables with classic continental vinaigrette.",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 340,
+    "title": "Cream of Spinach Soup",
+    "category": "Continental",
+    "file": "data/continental/cream-of-spinach-soup.json",
+    "image": "assets/images/continental/cream-of-spinach-soup.png",
+    "description": "Smooth spinach soup finished with cream, nutmeg, and fresh herbs.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 342,
+    "title": "Potato Croquettes",
+    "category": "Continental",
+    "file": "data/continental/potato-croquettes.json",
+    "image": "assets/images/continental/potato-croquettes.png",
+    "description": "Crispy golden potato croquettes with Parmesan and herb filling.",
+    "time": "50 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 343,
+    "title": "Vegetable Rice Salad",
+    "category": "Continental",
+    "file": "data/continental/vegetable-rice-salad.json",
+    "image": "assets/images/continental/vegetable-rice-salad.png",
+    "description": "Colorful rice salad with fresh vegetables and a light Dijon vinaigrette.",
+    "time": "40 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 344,
+    "title": "Chicken Broth",
+    "category": "Continental",
+    "file": "data/continental/chicken-broth.json",
+    "image": "assets/images/continental/chicken-broth.png",
+    "description": "Classic clear chicken broth slowly simmered with aromatic vegetables and herbs.",
+    "time": "3 hr",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 345,
+    "title": "Grilled Chicken Sizzler",
+    "category": "Continental",
+    "file": "data/continental/grilled-chicken-sizzler.json",
+    "image": "assets/images/continental/grilled-chicken-sizzler.png",
+    "description": "Grilled chicken served on a sizzling platter with vegetables, mashed potatoes, and demi-glace sauce.",
+    "time": "3 hr",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 346,
+    "title": "Mini Chicken Sashlics",
+    "category": "Continental",
+    "file": "data/continental/mini-chicken-sashlics.json",
+    "image": "assets/images/continental/mini-chicken-sashlics.png",
+    "description": "Mini grilled chicken skewers with colorful vegetables and balsamic glaze.",
+    "time": "2 hr 30 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 347,
+    "title": "Mexican Corn Salad",
+    "category": "Continental",
+    "file": "data/continental/mexican-corn-salad.json",
+    "image": "assets/images/continental/mexican-corn-salad.png",
+    "description": "Charred corn salad with Cotija cheese, lime, cilantro, and creamy dressing.",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 348,
+    "title": "Potato & Leek Soup",
+    "category": "Continental",
+    "file": "data/continental/potato-and-leek-soup.json",
+    "image": "assets/images/continental/potato-and-leek-soup.png",
+    "description": "Classic creamy potato and leek soup finished with herbs and optional truffle oil.",
+    "time": "45 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 349,
+    "title": "Waldorf Salad",
+    "category": "Continental",
+    "file": "data/continental/waldorf-salad.json",
+    "image": "assets/images/continental/waldorf-salad.png",
+    "description": "A timeless Waldorf salad combining crisp apples, celery, grapes, toasted walnuts, and creamy mayonnaise over fresh lettuce.",
+    "time": "20 min",
+    "difficulty": "Easy"
   }
 ]
