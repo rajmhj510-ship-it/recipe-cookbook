@@ -1,0 +1,98 @@
+{
+  "id": "346",
+  "title": "Chicken Broth",
+  "description": "Chicken Broth is a classic Continental stock prepared by slowly simmering chicken with aromatic vegetables and herbs to create a clear, flavorful broth. It can be served on its own or used as the foundation for soups and sauces.",
+
+  "category": "Continental",
+  "time": "180 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/chicken-broth.png",
+
+  "ingredients": [
+    {
+      "title": "For the Broth Base",
+      "items": [
+        "Whole chicken (free-range, about 1.2–1.5 kg) OR chicken bones + wings – 1.5 kg",
+        "Cold water – 2.5 liters",
+        "Carrot – 2 medium, peeled and roughly chopped",
+        "Onion – 1 large, halved (charred for deeper flavor, optional)",
+        "Leek – 1, white part only, sliced",
+        "Celery stalk – 2, roughly chopped",
+        "Garlic – 2 cloves, lightly crushed",
+        "Bay leaves – 2",
+        "Fresh thyme – 2–3 sprigs",
+        "Fresh parsley stems – 6–8",
+        "Whole black peppercorns – 6–8",
+        "Sea salt – to taste"
+      ]
+    },
+    {
+      "title": "For Finishing",
+      "items": [
+        "Clarified broth (strained through muslin)",
+        "Fresh herbs: chervil, parsley, or thyme",
+        "Fine brunoise of carrots or leeks (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken",
+      "steps": [
+        "Rinse the chicken or bones under cold water.",
+        "If using bones, blanch them in boiling water for 5 minutes, then rinse to remove impurities."
+      ]
+    },
+    {
+      "title": "Step 2 – Build the Broth",
+      "steps": [
+        "Place the chicken or bones in a large stockpot and cover with cold water.",
+        "Bring slowly to a gentle simmer.",
+        "Skim off any foam and impurities that rise to the surface."
+      ]
+    },
+    {
+      "title": "Step 3 – Add the Aromatics",
+      "steps": [
+        "Add carrots, onion, leek, celery, garlic, bay leaves, thyme, parsley stems, and peppercorns.",
+        "Maintain a gentle simmer and avoid boiling to keep the broth clear."
+      ]
+    },
+    {
+      "title": "Step 4 – Slow Simmer",
+      "steps": [
+        "Simmer uncovered for 2–3 hours.",
+        "Skim occasionally as needed.",
+        "Do not stir the broth during cooking."
+      ]
+    },
+    {
+      "title": "Step 5 – Strain and Finish",
+      "steps": [
+        "Remove the chicken or bones from the pot.",
+        "Strain the broth through a fine chinois or cheesecloth.",
+        "For a clearer broth, chill, remove the fat, and clarify with egg whites if desired.",
+        "Adjust seasoning with salt before serving."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot in a porcelain soup cup or clear bowl.",
+      "Garnish with fine vegetable brunoise and fresh herbs.",
+      "Pair with freshly baked baguette crisps or a Parmesan tuile.",
+      "Use as a base for soups, sauces, and risottos."
+    ]
+  },
+
+  "chefTips": [
+    "Always start with cold water to extract maximum flavor.",
+    "Maintain a gentle simmer to produce a crystal-clear broth.",
+    "Skim impurities regularly for a cleaner taste and appearance.",
+    "Strain through muslin for a refined restaurant-quality finish.",
+    "For consommé-style broth, clarify with egg whites before serving."
+  ]
+}
