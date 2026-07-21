@@ -1,0 +1,87 @@
+{
+  "id": "336",
+  "title": "Onion Rings",
+  "description": "Onion Rings are a classic Continental appetizer featuring thick onion rings coated in a light, crispy batter and crunchy panko breadcrumbs, then deep-fried until golden brown. They are best served hot with aioli, garlic mayo, or spicy ketchup.",
+
+  "category": "Continental",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/onion-rings.png",
+
+  "ingredients": [
+    {
+      "title": "For the Onion Rings",
+      "items": [
+        "Large onions (preferably sweet onions like Vidalia or Walla Walla) – 2",
+        "All-purpose flour – 1 cup",
+        "Cornstarch – ¼ cup",
+        "Baking powder – 1 tsp",
+        "Salt – 1 tsp (plus extra for seasoning)",
+        "Black pepper – ½ tsp",
+        "Paprika – ½ tsp (optional)",
+        "Eggs – 2 large",
+        "Buttermilk – ½ cup (or milk with 1 tsp lemon juice)",
+        "Cold sparkling water – ½ cup",
+        "Panko breadcrumbs – 1½ cups",
+        "Vegetable oil – for deep frying"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Onions",
+      "steps": [
+        "Peel and slice onions into ½-inch thick rings.",
+        "Separate them gently."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Batter",
+      "steps": [
+        "In a bowl, sift together flour, cornstarch, baking powder, salt, pepper, and paprika.",
+        "In another bowl, whisk eggs with buttermilk and cold sparkling water.",
+        "Combine wet and dry ingredients, mixing gently until smooth.",
+        "Avoid overmixing—lumps are okay."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Coating",
+      "steps": [
+        "Place panko breadcrumbs in a shallow plate.",
+        "Dip each onion ring first into the batter, letting excess drip off, then coat evenly with breadcrumbs."
+      ]
+    },
+    {
+      "title": "Step 4 – Fry to Perfection",
+      "steps": [
+        "Heat oil in a deep fryer or heavy-bottomed pan to 175°C (350°F).",
+        "Fry onion rings in batches for 2–3 minutes until golden brown and crisp.",
+        "Drain on a wire rack or paper towels."
+      ]
+    },
+    {
+      "title": "Step 5 – Serve Immediately",
+      "steps": [
+        "Sprinkle lightly with salt while hot.",
+        "Serve with a continental-style aioli, garlic mayo, or spicy ketchup if desired."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with aioli, garlic mayonnaise, or spicy ketchup.",
+      "Pair with burgers, grilled meats, or sandwiches.",
+      "Enjoy as a crispy appetizer or snack."
+    ]
+  },
+
+  "chefTips": [
+    "For extra crunch, double dredge by dipping in batter, breadcrumbs, batter, and breadcrumbs again.",
+    "Maintain the oil temperature at 175°C (350°F) for evenly cooked onion rings.",
+    "Rest the batter for 10–15 minutes before coating for a lighter, airy texture.",
+    "Serve immediately, as onion rings lose their crispness quickly."
+  ]
+}
