@@ -1,0 +1,106 @@
+{
+  "id": "337",
+  "title": "Russian Salad",
+  "description": "Russian Salad is a classic Continental salad made with tender vegetables, a creamy mayonnaise dressing, and optional chicken for added richness. Chilled before serving, it is a refreshing appetizer or side dish with a smooth, creamy texture and vibrant colors.",
+
+  "category": "Continental",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/russian-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Vegetables",
+      "items": [
+        "Potatoes, peeled and diced – 2 medium",
+        "Carrots, peeled and diced – 2 medium",
+        "Green peas (fresh or frozen) – 1/2 cup",
+        "Sweet corn (fresh or frozen) – 1/2 cup",
+        "Cucumber, finely diced – 1/2 cup (optional)"
+      ]
+    },
+    {
+      "title": "For the Protein (Optional)",
+      "items": [
+        "Cooked chicken breast, finely diced – 100 g",
+        "Ham, turkey, or crab meat – optional substitute"
+      ]
+    },
+    {
+      "title": "For the Dressing",
+      "items": [
+        "Mayonnaise (preferably homemade or high-quality store-bought) – 1/2 cup",
+        "Fresh lemon juice – 2–3 tsp",
+        "Dijon mustard – 1 tsp",
+        "Salt – to taste",
+        "White pepper – to taste",
+        "Sugar – a pinch (optional)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Fresh parsley, finely chopped",
+        "Pomegranate seeds or microgreens"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Cook the Vegetables",
+      "steps": [
+        "Boil potatoes and carrots separately until just tender (al dente), about 8–10 minutes.",
+        "Avoid overcooking to prevent mushiness.",
+        "Boil peas and corn for 2–3 minutes.",
+        "Drain and cool all vegetables immediately in ice water to retain color and texture."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Dressing",
+      "steps": [
+        "In a bowl, mix mayonnaise, lemon juice, Dijon mustard, salt, white pepper, and sugar.",
+        "Taste and adjust seasoning."
+      ]
+    },
+    {
+      "title": "Step 3 – Combine the Ingredients",
+      "steps": [
+        "In a large bowl, gently toss the cooled vegetables and protein with the dressing.",
+        "Avoid overmixing; maintain the shape and texture of the vegetables."
+      ]
+    },
+    {
+      "title": "Step 4 – Chill",
+      "steps": [
+        "Cover and refrigerate for at least 1–2 hours.",
+        "Chilling enhances flavor and firmness."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating",
+      "steps": [
+        "Use a ring mold to shape the salad on a plate.",
+        "Garnish with parsley, microgreens, and pomegranate seeds.",
+        "Drizzle a tiny bit of high-quality olive oil around the plate for extra flair."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as an appetizer or side dish.",
+      "Pair with grilled meats, roasted chicken, or seafood.",
+      "Garnish with fresh parsley, microgreens, or pomegranate seeds for an elegant presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Homemade mayonnaise gives a fresh, silky texture.",
+    "Cut vegetables into uniform 0.5–1 cm cubes for a professional presentation.",
+    "Do not overcook the vegetables to maintain a slight crunch.",
+    "Top with smoked salmon or caviar for an ultra-fine dining variation.",
+    "Chill the salad for at least 1–2 hours before serving for the best flavor."
+  ]
+}
