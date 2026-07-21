@@ -1,0 +1,102 @@
+{
+  "id": "340",
+  "title": "Fish Fingers",
+  "description": "Fish Fingers are a classic Continental appetizer made with firm white fish coated in a crispy panko breadcrumb crust and fried until golden brown. Served with tartar sauce or lemon-dill aioli, they are crunchy on the outside and tender inside.",
+
+  "category": "Continental",
+  "time": "40 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/fish-fingers.png",
+
+  "ingredients": [
+    {
+      "title": "For the Fish Fingers",
+      "items": [
+        "Firm white fish fillets (cod, haddock, halibut, or seabass), skinless and boneless – 500 g",
+        "Sea salt – 1 tsp",
+        "White pepper – ½ tsp",
+        "Lemon zest – 1 tsp",
+        "Fresh parsley, finely chopped – 1 tbsp",
+        "All-purpose flour (seasoned lightly with salt & pepper) – 2 tbsp",
+        "Eggs, beaten with 1 tbsp cold water – 2",
+        "Panko breadcrumbs – 100 g",
+        "Parmesan, finely grated – 30 g (optional)",
+        "Smoked paprika – ½ tsp"
+      ]
+    },
+    {
+      "title": "For the Accompaniment",
+      "items": [
+        "Homemade tartar sauce or lemon-dill aioli – 150 g",
+        "Lemon – 1, cut into wedges",
+        "Microgreens or lightly dressed mesclun salad"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Neutral oil with a high smoke point (sunflower, grapeseed, or peanut oil)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Fish",
+      "steps": [
+        "Cut fish fillets into even batons (approx. 2 cm × 8 cm).",
+        "Pat dry thoroughly with kitchen towel.",
+        "Season with salt, pepper, lemon zest, and parsley.",
+        "Let rest for 10 minutes."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Coating",
+      "steps": [
+        "Mix panko breadcrumbs, Parmesan, and smoked paprika.",
+        "Set up a dredging station with flour, egg wash, and breadcrumb mixture."
+      ]
+    },
+    {
+      "title": "Step 3 – Coat the Fish",
+      "steps": [
+        "Dredge each fish baton in flour and shake off the excess.",
+        "Dip into the egg wash, then coat generously in the panko mixture.",
+        "Press lightly so the crumbs adhere.",
+        "Lay on parchment and refrigerate for 20 minutes to help the crust set."
+      ]
+    },
+    {
+      "title": "Step 4 – Frying",
+      "steps": [
+        "Heat oil in a deep pan to 180°C (350°F).",
+        "Fry fish fingers in small batches for 2–3 minutes until golden brown and crisp.",
+        "Remove and drain on a wire rack."
+      ]
+    },
+    {
+      "title": "Step 5 – Serving",
+      "steps": [
+        "Plate with a quenelle of tartar sauce or lemon-dill aioli.",
+        "Serve with lemon wedges and microgreens.",
+        "Optional: Dust the plate rim with smoked paprika or serve atop a pea purée."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with tartar sauce or lemon-dill aioli.",
+      "Pair with French fries, coleslaw, or a fresh green salad.",
+      "Garnish with lemon wedges and microgreens for an elegant presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Panko breadcrumbs create a light, crispy coating, while Parmesan adds extra umami flavor.",
+    "Refrigerate the coated fish for 20 minutes before frying to help the coating stay intact.",
+    "Drain on a wire rack instead of paper towels to maintain crispness.",
+    "For a lighter version, bake at 200°C (400°F) with a drizzle of olive oil, turning once for even browning."
+  ]
+}
