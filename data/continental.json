@@ -468,5 +468,16 @@
     "description": "Classic creamy potato and leek soup finished with herbs and optional truffle oil.",
     "time": "45 min",
     "difficulty": "Easy"
+  },
+  {
+    "id": 349,
+    "title": "Potato & Leek Soup",
+    "category": "Continental",
+    "file": "data/continental/potato-and-leek-soup-potage-parmentier.json",
+    "image": "assets/images/continental/potato-and-leek-soup-potage-parmentier",
+    "description": "Classic creamy potato and leek soup finished with herbs and optional truffle oil.",
+    "time": "45 min",
+    "difficulty": "Easy"
   }
+
 ]
