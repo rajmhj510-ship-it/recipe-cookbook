@@ -233,8 +233,8 @@
     "id": 324,
     "title": "Pomme Purée (Joël Robuchon Style)",
     "category": "Continental",
-    "file": "data/continental/pomme-puree-joel-robuchon-style.json",
-    "image": "assets/images/continental/pomme-puree-joel-robuchon-style.png",
+    "file": "data/continental/pomme-puree-french-mashed-potatoes.json",
+    "image": "assets/images/continental/pomme-puree-french-mashed-potatoes.png",
     "description": "Classic French mashed potatoes enriched with butter and warm milk for an ultra-silky texture.",
     "time": "40 min",
     "difficulty": "Medium"
