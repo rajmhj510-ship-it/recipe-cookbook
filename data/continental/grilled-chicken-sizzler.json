@@ -1,0 +1,125 @@
+{
+  "id": "347",
+  "title": "Grilled Chicken Sizzler",
+  "description": "Grilled Chicken Sizzler is a classic Continental main course featuring juicy marinated grilled chicken served on a hot sizzling platter with mashed potatoes or buttered rice, seasonal vegetables, and a rich demi-glace style sauce.",
+
+  "category": "Continental",
+  "time": "180 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/grilled-chicken-sizzler.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Boneless chicken breast – 2 (approx. 180–200 g each)",
+        "Olive oil – 2 tbsp",
+        "Lemon juice – 1 tbsp",
+        "Garlic – 2 cloves, minced",
+        "Fresh thyme – 1 tsp (or rosemary)",
+        "Paprika – ½ tsp",
+        "Salt – to taste",
+        "Black pepper – ½ tsp, freshly ground"
+      ]
+    },
+    {
+      "title": "For the Sizzler Vegetables",
+      "items": [
+        "Baby carrots – 6–8",
+        "French beans – 8–10",
+        "Zucchini – ½, sliced",
+        "Broccoli florets – 6–8",
+        "Olive oil – 1 tbsp",
+        "Salt – to taste",
+        "Black pepper – to taste"
+      ]
+    },
+    {
+      "title": "For the Side",
+      "items": [
+        "Mashed potatoes – 1 cup",
+        "OR Buttered herbed rice – 1 cup"
+      ]
+    },
+    {
+      "title": "For the Sizzler Sauce",
+      "items": [
+        "Butter – 1 tbsp",
+        "Onion – 2 tbsp, finely chopped",
+        "Garlic – 1 clove, minced",
+        "Tomato paste – 1 tbsp",
+        "Brown stock (beef or chicken) – 1 cup",
+        "Worcestershire sauce – 1 tsp",
+        "Red wine – 2 tbsp (optional)",
+        "Salt – to taste",
+        "Black pepper – to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinate the Chicken",
+      "steps": [
+        "Mix olive oil, lemon juice, garlic, thyme, paprika, salt, and pepper.",
+        "Coat the chicken breasts evenly with the marinade.",
+        "Cover and refrigerate for 2–3 hours or overnight for best flavor."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Vegetables",
+      "steps": [
+        "Blanch the carrots, French beans, and broccoli in salted boiling water for 2–3 minutes.",
+        "Drain and toss with olive oil, salt, and pepper.",
+        "Keep aside until required."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Sizzler Sauce",
+      "steps": [
+        "Heat butter in a saucepan and sauté the onion and garlic until golden.",
+        "Add tomato paste and cook briefly.",
+        "Deglaze with red wine if using.",
+        "Pour in the brown stock and Worcestershire sauce.",
+        "Simmer until the sauce thickens to a glossy consistency.",
+        "Adjust seasoning and keep warm."
+      ]
+    },
+    {
+      "title": "Step 4 – Grill the Chicken",
+      "steps": [
+        "Heat a grill pan or charcoal grill until hot.",
+        "Grill the marinated chicken for 5–6 minutes on each side until cooked through (internal temperature 75°C).",
+        "Allow the chicken to rest for 3–4 minutes before slicing."
+      ]
+    },
+    {
+      "title": "Step 5 – Assemble the Sizzler",
+      "steps": [
+        "Heat a cast iron sizzler plate until smoking hot.",
+        "Place a cabbage leaf on the plate.",
+        "Arrange mashed potatoes or buttered rice on one side.",
+        "Place the grilled chicken in the center and arrange the vegetables around it.",
+        "Pour the hot sizzler sauce over the chicken and serve immediately."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately on a hot sizzling platter.",
+      "Pair with mashed potatoes or buttered herbed rice.",
+      "Accompany with grilled seasonal vegetables.",
+      "Enjoy with a fresh green salad or garlic bread."
+    ]
+  },
+
+  "chefTips": [
+    "Marinate the chicken overnight for deeper flavor.",
+    "Charcoal grilling provides an authentic smoky aroma.",
+    "Brush the grilled chicken with butter before serving for extra shine.",
+    "Heat the sizzler plate until smoking hot to achieve the signature sizzling effect.",
+    "Pour the sauce just before serving to maintain the dramatic presentation."
+  ]
+}
