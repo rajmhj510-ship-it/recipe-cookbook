@@ -468,15 +468,5 @@
     "description": "Classic creamy potato and leek soup finished with herbs and optional truffle oil.",
     "time": "45 min",
     "difficulty": "Easy"
-  },
-  {
-    "id": 349,
-    "title": "Waldorf Salad",
-    "category": "Continental",
-    "file": "data/continental/waldorf-salad.json",
-    "image": "assets/images/continental/waldorf-salad.png",
-    "description": "A timeless Waldorf salad combining crisp apples, celery, grapes, toasted walnuts, and creamy mayonnaise over fresh lettuce.",
-    "time": "20 min",
-    "difficulty": "Easy"
   }
 ]
