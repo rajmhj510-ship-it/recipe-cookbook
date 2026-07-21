@@ -1,0 +1,111 @@
+{
+  "id": "342",
+  "title": "Cream of Spinach Soup",
+  "description": "Cream of Spinach Soup is a classic Continental soup made with fresh spinach, aromatic vegetables, and a rich blend of cream and milk. Smooth, velvety, and vibrant in color, it is an elegant starter finished with crème fraîche and crisp garnishes.",
+
+  "category": "Continental",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/cream-of-spinach-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Soup Base",
+      "items": [
+        "Fresh spinach leaves (cleaned, stems trimmed) – 400 g",
+        "Unsalted butter – 40 g",
+        "Olive oil – 1 tbsp",
+        "Shallots, finely chopped – 2",
+        "Leek (white part only), thinly sliced – 1 small",
+        "Garlic, lightly crushed – 2 cloves",
+        "Celery stalk, finely diced – 1 small",
+        "Potato, peeled and diced – 1 medium",
+        "Vegetable stock (or light chicken stock), hot – 750 ml",
+        "Heavy cream – 150 ml",
+        "Whole milk – 150 ml",
+        "Fresh nutmeg, grated – a pinch",
+        "Salt – to taste",
+        "White pepper – to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Crème fraîche or lightly whipped cream – 2 tbsp",
+        "Extra virgin olive oil – a drizzle",
+        "Crisp Parmesan tuile or croutons",
+        "Microgreens or chive tips"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Spinach",
+      "steps": [
+        "Blanch spinach leaves for 30–40 seconds in boiling salted water.",
+        "Immediately shock in ice water to preserve the color.",
+        "Drain and squeeze dry gently."
+      ]
+    },
+    {
+      "title": "Step 2 – Build the Flavor Base",
+      "steps": [
+        "Heat butter and olive oil in a heavy-bottom saucepan over medium-low heat.",
+        "Sweat shallots, leek, garlic, and celery until soft and translucent without browning.",
+        "Add diced potato, season lightly with salt, and cook for 2–3 minutes."
+      ]
+    },
+    {
+      "title": "Step 3 – Add the Stock",
+      "steps": [
+        "Pour in the hot vegetable stock and bring to a gentle simmer.",
+        "Cook until the potato is tender, about 12–15 minutes."
+      ]
+    },
+    {
+      "title": "Step 4 – Incorporate the Spinach",
+      "steps": [
+        "Add the blanched spinach to the pot.",
+        "Stir and cook for 2–3 minutes to preserve the color and freshness."
+      ]
+    },
+    {
+      "title": "Step 5 – Blend",
+      "steps": [
+        "Transfer the soup to a high-speed blender and blend until silky smooth.",
+        "Return the soup to the pot.",
+        "Stir in the cream and milk, then season with salt, white pepper, and a pinch of nutmeg."
+      ]
+    },
+    {
+      "title": "Step 6 – Strain for Fineness",
+      "steps": [
+        "Pass the soup through a fine chinois or muslin-lined sieve for a luxurious texture."
+      ]
+    },
+    {
+      "title": "Step 7 – Finish & Serve",
+      "steps": [
+        "Ladle the soup into pre-warmed bowls.",
+        "Swirl in crème fraîche, drizzle with olive oil, top with a Parmesan tuile or crisp croutons, and finish with microgreens."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with crusty bread or garlic crostini.",
+      "Garnish with crème fraîche, Parmesan tuile, and microgreens.",
+      "Pair with a light white wine or sparkling water."
+    ]
+  },
+
+  "chefTips": [
+    "Blanching the spinach before blending helps maintain its vibrant emerald color.",
+    "Replace half the cream with mascarpone or add a touch of truffle oil for a luxurious variation.",
+    "Use a high-powered blender for a smooth, velvety texture.",
+    "Strain the soup through a fine sieve for a restaurant-quality finish."
+  ]
+}
