@@ -1,0 +1,96 @@
+{
+  "id": "328",
+  "title": "Chicken Hawaii Salad",
+  "description": "Chicken Hawaii Salad is a refreshing Continental salad featuring tender chicken breast, crisp vegetables, sweet pineapple, and a creamy Hawaiian-inspired dressing. It is a colorful and light dish, perfect as an appetizer or healthy main course.",
+
+  "category": "Continental",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/chicken-hawaii-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Salad",
+      "items": [
+        "Boneless chicken breast, skinless – 250 g",
+        "Salt – ½ tsp",
+        "Freshly ground black pepper – ¼ tsp",
+        "Olive oil – 1 tbsp",
+        "Fresh pineapple chunks (½-inch cubes) – 1 cup",
+        "Iceberg lettuce, torn into bite-size pieces – 1 cup",
+        "Romaine lettuce, torn – 1 cup",
+        "Red bell pepper, julienned – ½ cup",
+        "Cucumber, thinly sliced – ½ cup",
+        "Celery, thinly sliced – ½ cup",
+        "Red onion, thin rings – ¼ cup",
+        "Cherry tomatoes, halved – ¼ cup",
+        "Toasted cashews or almonds – ¼ cup (optional)"
+      ]
+    },
+    {
+      "title": "For the Dressing (Hawaiian-inspired)",
+      "items": [
+        "Mayonnaise – 4 tbsp",
+        "Greek yogurt – 2 tbsp",
+        "Honey – 1 tbsp",
+        "Lemon juice (freshly squeezed) – 1 tbsp",
+        "Dijon mustard – 1 tsp",
+        "Apple cider vinegar – ½ tsp",
+        "Salt – to taste",
+        "White pepper – to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken",
+      "steps": [
+        "Season chicken breast with salt and pepper.",
+        "Heat olive oil in a skillet over medium-high heat.",
+        "Sear chicken for 4–5 minutes on each side until golden brown and fully cooked (internal temperature 75°C / 165°F).",
+        "Rest for 5 minutes, then slice into thin strips or cubes."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Dressing",
+      "steps": [
+        "In a bowl, whisk together mayonnaise, Greek yogurt, honey, lemon juice, Dijon mustard, and apple cider vinegar.",
+        "Season with salt and white pepper.",
+        "Chill until ready to serve."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Salad",
+      "steps": [
+        "On a chilled plate, arrange iceberg and romaine lettuce as the base.",
+        "Layer bell pepper, cucumber, celery, onion, tomatoes, and pineapple.",
+        "Place chicken slices attractively on top."
+      ]
+    },
+    {
+      "title": "Step 4 – Finishing Touch",
+      "steps": [
+        "Drizzle dressing evenly over the salad or serve in a small ramekin on the side.",
+        "Sprinkle toasted nuts for extra crunch.",
+        "Garnish with a pineapple wedge and fresh mint sprig for presentation."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as a light main course or appetizer.",
+      "Pair with crusty bread or garlic toast.",
+      "Accompany with a light white wine like Sauvignon Blanc or Chardonnay."
+    ]
+  },
+
+  "chefTips": [
+    "Plate in layers so each ingredient is visible, not just tossed.",
+    "Use white or neutral-colored plates to make colors pop.",
+    "Chill salad plates before serving to keep freshness.",
+    "Sprinkle toasted cashews or almonds just before serving to retain their crunch."
+  ]
+}
