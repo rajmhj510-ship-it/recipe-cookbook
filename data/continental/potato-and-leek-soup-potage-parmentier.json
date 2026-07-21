@@ -1,0 +1,101 @@
+{
+  "id": "349",
+  "title": "Potato and Leek Soup (Potage Parmentier)",
+  "description": "Potage Parmentier is a classic French Continental soup made with sweet leeks, floury potatoes, and rich stock, blended into a silky smooth purée and finished with cream. Elegant and comforting, it can be served hot as a refined starter or chilled as the classic Vichyssoise.",
+
+  "category": "Continental",
+  "time": "55 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/potato-and-leek-soup-potage-parmentier.png",
+
+  "ingredients": [
+    {
+      "title": "For the Soup",
+      "items": [
+        "Leeks (white and light green parts only), cleaned and thinly sliced – 500 g",
+        "Floury potatoes (Russet or Yukon Gold), peeled and diced – 600 g",
+        "Unsalted butter – 60 g",
+        "Olive oil – 1 tbsp",
+        "Small onion, finely chopped – 1 (optional)",
+        "Garlic, crushed – 1 clove (optional)",
+        "Chicken or vegetable stock – 1.5 L",
+        "Bouquet garni (thyme, parsley stems, bay leaf) – 1",
+        "Heavy (double) cream – 200 ml",
+        "Sea salt – to taste",
+        "White pepper – to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Finely snipped chives",
+        "Extra virgin olive oil or truffle oil – a few drops",
+        "Crème fraîche – optional",
+        "Crispy leek julienne – optional",
+        "Microgreens – optional"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Leeks",
+      "steps": [
+        "Trim off the dark green tops of the leeks.",
+        "Slice the leeks lengthwise, wash thoroughly to remove any grit, and cut into thin half-moons."
+      ]
+    },
+    {
+      "title": "Step 2 – Sweat the Aromatics",
+      "steps": [
+        "Heat the butter and olive oil in a heavy-bottomed saucepan over medium-low heat.",
+        "Add the leeks and onion with a pinch of salt.",
+        "Cook gently for 8–10 minutes until softened without browning."
+      ]
+    },
+    {
+      "title": "Step 3 – Cook the Soup",
+      "steps": [
+        "Add the diced potatoes and crushed garlic (if using).",
+        "Pour in the hot stock and add the bouquet garni.",
+        "Bring to a gentle simmer, skim any foam, and cook for 20–25 minutes until the potatoes are completely tender."
+      ]
+    },
+    {
+      "title": "Step 4 – Blend and Finish",
+      "steps": [
+        "Remove and discard the bouquet garni.",
+        "Blend the soup until completely smooth using a high-speed blender or immersion blender.",
+        "Pass through a fine chinois or sieve for an ultra-silky texture.",
+        "Return to the saucepan and stir in the heavy cream.",
+        "Adjust the consistency if necessary and season with sea salt and white pepper."
+      ]
+    },
+    {
+      "title": "Step 5 – Presentation",
+      "steps": [
+        "Serve the soup hot in warm bowls.",
+        "Garnish with finely snipped chives.",
+        "Finish with a drizzle of extra virgin olive oil or truffle oil.",
+        "Add a quenelle of crème fraîche, crispy leek julienne, or microgreens for an elegant restaurant-style presentation."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with warm crusty sourdough or artisan bread.",
+      "Pair with Gruyère gougères or Parmesan crisps for a refined starter.",
+      "Serve chilled as Vichyssoise during summer, garnished with crème fraîche and fresh chives."
+    ]
+  },
+
+  "chefTips": [
+    "Sweat the leeks gently without browning to preserve their delicate sweetness and pale colour.",
+    "Use homemade chicken or vegetable stock for the best depth of flavour.",
+    "Pass the blended soup through a fine chinois for a luxurious restaurant-quality texture.",
+    "Do not boil after adding the cream to maintain a smooth finish.",
+    "For an elegant variation, chill the soup and serve as Vichyssoise with crème fraîche and caviar."
+  ]
+}
