@@ -1,0 +1,112 @@
+{
+  "id": "345",
+  "title": "Vegetable Rice Salad",
+  "description": "Vegetable Rice Salad is a light and refreshing Continental salad made with fluffy long-grain rice, colorful vegetables, and a tangy Dijon vinaigrette. Perfect as a healthy appetizer, side dish, or light meal.",
+
+  "category": "Continental",
+  "time": "40 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/vegetable-rice-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Rice Base",
+      "items": [
+        "Long-grain rice (preferably Basmati or Jasmine) – 200 g (1 cup)",
+        "Vegetable stock – 500 ml",
+        "Salt – to taste",
+        "Olive oil – 1 tbsp"
+      ]
+    },
+    {
+      "title": "Fresh Vegetables",
+      "items": [
+        "Red bell pepper – ½ cup, diced",
+        "Yellow bell pepper – ½ cup, diced",
+        "Green beans – ½ cup, cut into small pieces and blanched",
+        "Carrot – ½ cup, diced and blanched",
+        "Green peas – ½ cup, blanched",
+        "Cucumber – ½ cup, diced (seeds removed)",
+        "Cherry tomatoes – 6–8, halved",
+        "Fresh parsley – 2 tbsp, finely chopped",
+        "Fresh chives – 1 tbsp, finely chopped"
+      ]
+    },
+    {
+      "title": "For the Dressing",
+      "items": [
+        "Extra virgin olive oil – 4 tbsp",
+        "White wine vinegar – 2 tbsp (or lemon juice)",
+        "Dijon mustard – 1 tsp",
+        "Honey – 1 tsp",
+        "Garlic – 1 small clove, minced",
+        "Salt – to taste",
+        "Black pepper – freshly ground, to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Toasted pine nuts or almonds – 2 tbsp",
+        "Microgreens – for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Rice",
+      "steps": [
+        "Rinse the rice under cold water until the water runs clear.",
+        "Cook in vegetable stock with olive oil and salt until fluffy (12–15 minutes).",
+        "Spread the cooked rice on a tray and allow it to cool completely."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Vegetables",
+      "steps": [
+        "Dice the bell peppers, cucumber, and cherry tomatoes.",
+        "Blanch the carrots, green beans, and peas until just tender.",
+        "Transfer immediately to ice water, then drain well."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Dressing",
+      "steps": [
+        "Whisk together olive oil, white wine vinegar (or lemon juice), Dijon mustard, honey, garlic, salt, and black pepper until well emulsified."
+      ]
+    },
+    {
+      "title": "Step 4 – Assemble the Salad",
+      "steps": [
+        "Combine the cooled rice and prepared vegetables in a large bowl.",
+        "Pour the dressing over the salad and toss gently until evenly coated.",
+        "Adjust seasoning to taste."
+      ]
+    },
+    {
+      "title": "Step 5 – Finishing Touches",
+      "steps": [
+        "Arrange the salad neatly on a serving plate using a ring mold if desired.",
+        "Garnish with toasted pine nuts or almonds and fresh herbs.",
+        "Finish with microgreens before serving."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as a light appetizer or side dish.",
+      "Pair with grilled chicken, fish, or roasted vegetables.",
+      "Enjoy with chilled white wine for a complete continental meal."
+    ]
+  },
+
+  "chefTips": [
+    "Cool the rice completely before mixing to prevent a sticky salad.",
+    "Blanch vegetables briefly to retain their color and crunch.",
+    "Add crumbled feta cheese or grilled zucchini for extra flavor.",
+    "Toss the salad gently to keep the vegetables intact."
+  ]
+}
