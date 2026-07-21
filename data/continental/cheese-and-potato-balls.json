@@ -1,0 +1,107 @@
+{
+  "id": "332",
+  "title": "Cheese & Potato Balls",
+  "description": "Cheese & Potato Balls are crispy golden appetizers made with creamy mashed potatoes, cheese, herbs, and a crunchy breadcrumb coating. They are served hot with marinara, cheese dip, or a creamy sauce, making them a perfect Continental starter.",
+
+  "category": "Continental",
+  "time": "45 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/cheese-and-potato-balls.png",
+
+  "ingredients": [
+    {
+      "title": "For the Potato Mixture",
+      "items": [
+        "Potatoes – 500 g, boiled and mashed",
+        "Butter – 30 g (2 tbsp)",
+        "Garlic paste – 1 tsp",
+        "Cream cheese – 75 g",
+        "Grated Parmesan cheese – 40 g",
+        "Mixed herbs – 1 tsp",
+        "Nutmeg – a pinch",
+        "Salt – to taste",
+        "Black pepper – to taste",
+        "Mozzarella cheese – 100 g, cut into small cubes"
+      ]
+    },
+    {
+      "title": "For the Coating",
+      "items": [
+        "All-purpose flour – as required (optional)",
+        "Eggs – 2, beaten",
+        "Breadcrumbs (preferably panko) – 1½ cups",
+        "Grated Parmesan cheese – 2 tbsp",
+        "Paprika – 1 tsp"
+      ]
+    },
+    {
+      "title": "For Frying & Garnish",
+      "items": [
+        "Vegetable oil – for deep frying",
+        "Fresh parsley or chives – for garnish",
+        "Marinara sauce, cheese dip, or creamy sauce – for serving",
+        "Truffle oil – optional"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Potato Mixture",
+      "steps": [
+        "Boil potatoes until tender. Drain and mash smoothly; ensure no lumps.",
+        "Add butter, garlic paste, cream cheese, grated Parmesan, herbs, nutmeg, salt, and pepper. Mix until creamy.",
+        "Let the mixture cool slightly for easier handling."
+      ]
+    },
+    {
+      "title": "Step 2 – Shape the Balls",
+      "steps": [
+        "Take a small portion of the potato mixture (about 1–2 tbsp) in your hand.",
+        "Flatten slightly, place a cube of mozzarella in the center, and gently roll to enclose the cheese completely.",
+        "Roll into a smooth ball, about the size of a golf ball."
+      ]
+    },
+    {
+      "title": "Step 3 – Coat the Balls",
+      "steps": [
+        "Set up a breading station: flour (optional), beaten eggs, and breadcrumb mixture (breadcrumbs + Parmesan + paprika).",
+        "Roll each potato ball in egg, then coat evenly with the breadcrumb mixture.",
+        "For extra crunch, double coat by dipping in egg and breadcrumbs again."
+      ]
+    },
+    {
+      "title": "Step 4 – Fry to Perfection",
+      "steps": [
+        "Heat oil to 170–180°C (340–355°F).",
+        "Fry balls in batches until golden brown and crispy (approx. 3–4 mins).",
+        "Remove with a slotted spoon and drain on paper towels."
+      ]
+    },
+    {
+      "title": "Step 5 – Presentation",
+      "steps": [
+        "Sprinkle with fresh parsley or chives.",
+        "Serve hot with a small portion of marinara, cheese dip, or creamy sauce on the side.",
+        "Optional: Drizzle lightly with truffle oil for an upscale twist."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with marinara sauce, cheese dip, or a creamy sauce.",
+      "Garnish with fresh parsley or chives.",
+      "Pair with a fresh green salad for a complete starter."
+    ]
+  },
+
+  "chefTips": [
+    "Ensure mashed potatoes are smooth; lumps make rolling difficult.",
+    "Mix cheeses for flavor—mozzarella for melt, Parmesan for sharpness.",
+    "Panko crumbs give a light, crunchy coating. Double coating ensures crunch.",
+    "Use a small ice cream scoop for consistent ball size.",
+    "Assemble balls and freeze on a tray, then fry directly from frozen for catering or service prep."
+  ]
+}
