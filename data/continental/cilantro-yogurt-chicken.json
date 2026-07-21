@@ -1,0 +1,98 @@
+{
+  "id": "335",
+  "title": "Cilantro Yogurt Chicken",
+  "description": "Cilantro Yogurt Chicken is a Continental-inspired modern fusion dish featuring tender chicken marinated in Greek yogurt, fresh cilantro, garlic, and aromatic spices. Finished with a refreshing cilantro yogurt sauce, it is a light, flavorful, and elegant main course.",
+
+  "category": "Continental",
+  "time": "50 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/cilantro-yogurt-chicken.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Marinade",
+      "items": [
+        "Boneless chicken thighs or breasts, trimmed – 600 g",
+        "Greek yogurt (thick, unsweetened) – 1 cup",
+        "Fresh cilantro leaves, chopped – 1/2 cup",
+        "Garlic, minced – 2–3 cloves",
+        "Fresh ginger, grated – 1-inch piece",
+        "Lemon juice – 1 tbsp",
+        "Smoked paprika – 1 tsp",
+        "Ground cumin – 1/2 tsp",
+        "White pepper (or black pepper) – 1/2 tsp",
+        "Salt – 1/2 tsp (adjust to taste)",
+        "Olive oil – 2 tbsp (optional, for richness)"
+      ]
+    },
+    {
+      "title": "For the Cilantro Yogurt Sauce",
+      "items": [
+        "Greek yogurt – 1/2 cup",
+        "Fresh cilantro, finely chopped – 2 tbsp",
+        "Lemon juice – 1 tsp",
+        "Salt – to taste",
+        "Sugar – a pinch (optional, to balance acidity)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Microgreens or fresh cilantro sprigs",
+        "Lemon wedges"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinate the Chicken",
+      "steps": [
+        "In a large bowl, combine yogurt, cilantro, garlic, ginger, lemon juice, paprika, cumin, pepper, salt, and olive oil.",
+        "Coat the chicken evenly with the marinade.",
+        "Cover and refrigerate for 2–4 hours, ideally overnight for maximum flavor."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Chicken",
+      "steps": [
+        "Option 1: Preheat oven to 200°C (400°F). Place marinated chicken on a lined baking tray. Roast for 20–25 minutes until cooked through and slightly golden. Optional: Broil for 2–3 minutes for a crispy top.",
+        "Option 2: Heat 2 tbsp olive oil in a non-stick pan over medium-high heat. Sear chicken for 4–5 minutes per side until golden and cooked through."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Cilantro Yogurt Sauce",
+      "steps": [
+        "Mix Greek yogurt, chopped cilantro, lemon juice, salt, and a pinch of sugar.",
+        "Chill until serving."
+      ]
+    },
+    {
+      "title": "Step 4 – Plating",
+      "steps": [
+        "Slice chicken into medallions.",
+        "Drizzle a thin layer of cilantro yogurt sauce on the plate.",
+        "Place chicken over the sauce.",
+        "Garnish with microgreens or cilantro sprigs and lemon wedges.",
+        "Serve with roasted vegetables, quinoa, or a light salad for a continental touch."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with roasted vegetables, quinoa, or a fresh green salad.",
+      "Pair with buttered baby potatoes or herb rice.",
+      "Garnish with fresh cilantro sprigs and lemon wedges before serving."
+    ]
+  },
+
+  "chefTips": [
+    "Marinate the chicken overnight for deeper flavor and tenderness.",
+    "Use thick Greek yogurt to prevent the marinade from becoming runny.",
+    "Add half the cilantro to the marinade and the remaining half fresh in the sauce for a vibrant herbaceous note.",
+    "Slice the chicken at an angle and drizzle the sauce artistically for a fine-dining presentation.",
+    "For a modern European twist, add a subtle hint of truffle oil or smoked paprika."
+  ]
+}
