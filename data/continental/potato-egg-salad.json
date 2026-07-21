@@ -1,0 +1,104 @@
+{
+  "id": "333",
+  "title": "Potato Egg Salad",
+  "description": "Potato Egg Salad is a classic Continental salad made with tender baby potatoes, hard-boiled eggs, fresh herbs, and a creamy Dijon dressing. It is a refreshing and flavorful dish, perfect as a light meal, side dish, or appetizer.",
+
+  "category": "Continental",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/potato-egg-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Salad Base",
+      "items": [
+        "Baby potatoes (preferably Yukon Gold or new potatoes) – 500 g",
+        "Large eggs – 4",
+        "Fine green peas (optional, blanched) – 50 g",
+        "Red onion, finely diced – 1 small",
+        "Celery stalk, finely diced – 1",
+        "Fresh chives, finely chopped – 1 tbsp",
+        "Fresh parsley, finely chopped – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Dressing",
+      "items": [
+        "High-quality mayonnaise – 3 tbsp",
+        "Dijon mustard – 1 tsp",
+        "White wine vinegar – 1 tsp",
+        "Lemon juice (freshly squeezed) – 1 tsp",
+        "Extra virgin olive oil – 1 tsp",
+        "Salt – to taste",
+        "Freshly ground black pepper – to taste",
+        "Smoked paprika – a pinch (optional)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Microgreens or fresh herbs (chervil, parsley)",
+        "Paprika or smoked paprika",
+        "Olive oil – for drizzling"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Potatoes",
+      "steps": [
+        "Wash potatoes thoroughly.",
+        "Boil in salted water until just tender (about 12–15 min depending on size).",
+        "Drain and cool slightly, then peel if desired.",
+        "Cut into uniform bite-sized cubes."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Eggs",
+      "steps": [
+        "Place eggs in a saucepan, cover with water, and bring to a boil.",
+        "Once boiling, turn off the heat, cover, and let sit for 9–10 minutes for hard-boiled perfection.",
+        "Cool in ice water, peel, and cut into quarters or cubes."
+      ]
+    },
+    {
+      "title": "Step 3 – Make the Dressing",
+      "steps": [
+        "In a small bowl, whisk together mayonnaise, Dijon mustard, white wine vinegar, lemon juice, olive oil, salt, pepper, and smoked paprika.",
+        "Adjust seasoning to taste."
+      ]
+    },
+    {
+      "title": "Step 4 – Assemble the Salad",
+      "steps": [
+        "In a large mixing bowl, combine potatoes, eggs, peas, onion, celery, and herbs.",
+        "Gently fold in the dressing until everything is lightly coated.",
+        "Avoid overmixing to keep the potatoes intact."
+      ]
+    },
+    {
+      "title": "Step 5 – Plate Professionally",
+      "steps": [
+        "Use a ring mold to plate for a clean, restaurant-style presentation.",
+        "Garnish with microgreens, a light sprinkle of paprika, and a drizzle of olive oil."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as a light meal, appetizer, or side dish.",
+      "Pair with grilled chicken, roasted meats, or seafood.",
+      "Accompany with crusty bread or toasted baguette slices."
+    ]
+  },
+
+  "chefTips": [
+    "Keep potatoes slightly firm; overcooked potatoes make the salad mushy.",
+    "Use Dijon mustard and a hint of vinegar to balance the richness of eggs and mayonnaise.",
+    "Serve on a chilled plate or platter, adding microgreens for a fresh, upscale look.",
+    "Add a few slices of smoked salmon or roasted bell peppers for a premium variation."
+  ]
+}
