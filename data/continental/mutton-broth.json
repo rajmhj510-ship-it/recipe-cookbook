@@ -1,0 +1,102 @@
+{
+  "id": "338",
+  "title": "Mutton Broth",
+  "description": "Mutton Broth is a classic Continental soup made by slowly simmering mutton bones, meat, and aromatic vegetables to create a rich, clear, and flavorful broth. Light yet nourishing, it is perfect as a starter or as a base for other soups.",
+
+  "category": "Continental",
+  "time": "150 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/mutton-broth.png",
+
+  "ingredients": [
+    {
+      "title": "For the Broth",
+      "items": [
+        "Mutton bones with some meat – 500 g",
+        "Mutton meat (boneless, optional) – 200 g",
+        "Onion, peeled and halved – 1 large",
+        "Carrot, roughly chopped – 1 medium",
+        "Celery, chopped – 1 stalk",
+        "Leek, chopped – 1 small",
+        "Garlic, lightly crushed – 2 cloves",
+        "Fresh thyme – 2 sprigs",
+        "Fresh parsley – 1 sprig",
+        "Bay leaf – 1",
+        "Black peppercorns – 8–10",
+        "Cloves – 2",
+        "Water – 2 liters",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Julienned carrots or herbs (parsley or chives)",
+        "Olive oil or truffle oil – light drizzle (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Roast the Bones",
+      "steps": [
+        "Preheat oven to 200°C.",
+        "Place mutton bones on a baking tray and roast for 20–25 minutes until golden brown."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Broth",
+      "steps": [
+        "In a large pot, combine roasted bones, mutton meat, onion, carrot, celery, leek, garlic, bay leaf, thyme, parsley, peppercorns, and cloves.",
+        "Cover with 2 liters of cold water."
+      ]
+    },
+    {
+      "title": "Step 3 – Simmer Slowly",
+      "steps": [
+        "Bring to a gentle boil.",
+        "Skim off any foam or impurities.",
+        "Reduce heat to low and simmer for 2–2.5 hours.",
+        "Maintain a gentle simmer; avoid rapid boiling to keep the broth clear."
+      ]
+    },
+    {
+      "title": "Step 4 – Strain the Broth",
+      "steps": [
+        "Remove bones, meat, and vegetables.",
+        "Strain through a fine sieve or cheesecloth for a clear broth."
+      ]
+    },
+    {
+      "title": "Step 5 – Season and Finish",
+      "steps": [
+        "Taste and adjust salt.",
+        "Optional: skim off excess fat for a cleaner finish or leave a little for richness."
+      ]
+    },
+    {
+      "title": "Step 6 – Serve",
+      "steps": [
+        "Serve hot in pre-warmed bowls.",
+        "Garnish with finely chopped herbs, thin julienned vegetables, or a few drops of premium olive or truffle oil."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with crusty bread or dinner rolls.",
+      "Use as a base for continental mutton soups and stews.",
+      "Garnish with fresh herbs and julienned vegetables before serving."
+    ]
+  },
+
+  "chefTips": [
+    "Roast the bones for a deeper, nuttier flavor.",
+    "Slow, gentle simmering is key to producing a crystal-clear broth.",
+    "For extra richness, add a splash of dry white wine during simmering.",
+    "Skim the surface regularly to keep the broth clear and refined."
+  ]
+}
