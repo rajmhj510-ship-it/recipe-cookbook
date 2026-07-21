@@ -1,0 +1,110 @@
+{
+  "id": "344",
+  "title": "Potato Croquettes",
+  "description": "Potato Croquettes are a classic Continental appetizer made with creamy mashed potatoes, Parmesan cheese, and herbs, coated in crispy panko breadcrumbs and deep-fried until golden brown. Crisp on the outside and soft on the inside, they are perfect with aioli or herb cream sauce.",
+
+  "category": "Continental",
+  "time": "70 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/potato-croquettes.png",
+
+  "ingredients": [
+    {
+      "title": "For the Croquette Base",
+      "items": [
+        "Starchy potatoes (Yukon Gold / Russet), peeled and boiled – 600 g",
+        "Unsalted butter – 40 g",
+        "Egg yolks – 2",
+        "Parmesan cheese, finely grated – 40 g",
+        "Nutmeg, freshly grated – a pinch (optional)",
+        "Salt – to taste",
+        "White pepper – to taste",
+        "Fresh parsley, finely chopped – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Coating",
+      "items": [
+        "All-purpose flour – ½ cup",
+        "Whole eggs, beaten – 2",
+        "Panko breadcrumbs – 1½ cups"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Neutral oil (grapeseed, canola, or refined sunflower) – for deep frying"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Microgreens or chervil sprigs",
+        "Truffle oil – a few drops (optional)",
+        "Aioli, saffron mayo, or herb cream sauce"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Potato Mixture",
+      "steps": [
+        "Boil potatoes until tender. Drain well and return to the pot over low heat to evaporate excess moisture.",
+        "Pass the potatoes through a ricer or fine sieve until smooth.",
+        "While still warm, fold in butter, Parmesan, egg yolks, nutmeg, salt, white pepper, and parsley.",
+        "Spread the mixture on a tray, cover, and refrigerate for 30–40 minutes until firm."
+      ]
+    },
+    {
+      "title": "Step 2 – Shape the Croquettes",
+      "steps": [
+        "Using cold hands or a piping bag, form the mixture into cylinders or quenelle shapes (about 30–35 g each).",
+        "Place on a tray and refrigerate for another 15 minutes."
+      ]
+    },
+    {
+      "title": "Step 3 – Coat the Croquettes",
+      "steps": [
+        "Roll each croquette in flour and shake off the excess.",
+        "Dip into the beaten eggs.",
+        "Coat evenly with panko breadcrumbs.",
+        "For an extra crispy finish, repeat the egg and breadcrumb coating."
+      ]
+    },
+    {
+      "title": "Step 4 – Fry",
+      "steps": [
+        "Heat the oil to 175–180°C (350–355°F).",
+        "Fry the croquettes in small batches for about 3 minutes until golden brown and crisp.",
+        "Drain on paper towels or a wire rack."
+      ]
+    },
+    {
+      "title": "Step 5 – Presentation",
+      "steps": [
+        "Arrange 3–4 croquettes on a white serving plate.",
+        "Serve with a quenelle of aioli or saffron mayonnaise.",
+        "Garnish with microgreens and a light drizzle of truffle oil.",
+        "Serve immediately while hot and crisp."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with aioli, saffron mayonnaise, or herb cream sauce.",
+      "Pair with a fresh green salad or roasted vegetables.",
+      "Garnish with microgreens and a drizzle of truffle oil for a fine dining presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Ensure the potatoes are completely dry before mixing to prevent soggy croquettes.",
+    "Use a potato ricer for a smooth, lump-free texture.",
+    "Double breading creates an extra crispy crust.",
+    "Maintain the oil temperature between 175–180°C for even frying.",
+    "Serve immediately to enjoy maximum crispness."
+  ]
+}
