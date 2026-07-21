@@ -1,0 +1,103 @@
+{
+  "id": "323",
+  "title": "Cream of Tomato Soup",
+  "description": "Cream of Tomato Soup is a smooth, velvety soup made with tomatoes, mirepoix, stock, and finished with milk and fresh cream. It is a classic soup with a rich flavor and silky texture, commonly served as an appetizer.",
+
+  "category": "Continental",
+  "time": "45 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/cream-of-tomato-soup.png",
+
+  "ingredients": [
+    {
+      "title": "Base",
+      "items": [
+        "Butter – 40 g",
+        "All-purpose flour – 30 g",
+        "Mirepoix – 80 g (finely chopped onions, carrots, and celery in 2:1:1 ratio)",
+        "Chopped tomatoes (fresh or canned) – 150 g",
+        "Tomato purée – 100 ml",
+        "Chicken or vegetable stock – 1 L"
+      ]
+    },
+    {
+      "title": "Flavoring & Seasoning",
+      "items": [
+        "Garlic – 2–3 cloves, finely chopped",
+        "Fresh basil leaves – a few",
+        "Bouquet garni – 1 bundle (thyme, bay leaf, parsley stems)",
+        "Ham or bacon skin – 1 small piece (optional, for extra depth)",
+        "Salt – to taste",
+        "Freshly ground black pepper – to taste"
+      ]
+    },
+    {
+      "title": "Finishing & Garnish",
+      "items": [
+        "Milk – 150 ml",
+        "Fresh cream – 60 ml",
+        "Fresh parsley – a few sprigs, chopped (for garnish)",
+        "Bread croutons – as required (toasted or fried)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Base",
+      "steps": [
+        "Heat the butter in a heavy-bottomed saucepan over medium heat.",
+        "Add the mirepoix (onion, carrot, celery) and sauté until soft and translucent.",
+        "Stir in the garlic and cook briefly (about 30 seconds), without allowing it to brown.",
+        "Sprinkle in the flour and cook gently, stirring constantly, to form a blond roux (do not let it color)."
+      ]
+    },
+    {
+      "title": "Step 2 – Building the Soup",
+      "steps": [
+        "Gradually whisk in the stock to avoid lumps.",
+        "Add the chopped tomatoes and cook until softened.",
+        "Stir in the tomato purée and mix well.",
+        "Add the bouquet garni, basil leaves, and ham/bacon skin (if using)."
+      ]
+    },
+    {
+      "title": "Step 3 – Simmering",
+      "steps": [
+        "Bring to a boil, then reduce to a gentle simmer for 25–30 minutes.",
+        "Remove the bouquet garni and ham/bacon skin."
+      ]
+    },
+    {
+      "title": "Step 4 – Finishing",
+      "steps": [
+        "Purée the soup using a hand blender, or pass it through a fine sieve for a smooth texture.",
+        "Return the soup to the pan, stir in the milk and cream, and reheat gently (do not boil).",
+        "Season to taste with salt and freshly ground black pepper."
+      ]
+    },
+    {
+      "title": "Step 5 – Serving",
+      "steps": [
+        "Serve hot, garnished with chopped parsley and croutons."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot, garnished with chopped parsley and croutons.",
+      "Accompany with toasted garlic bread or crusty bread.",
+      "Enjoy as an appetizer or a light meal."
+    ]
+  },
+
+  "chefTips": [
+    "Do not allow the roux to brown; it should remain blond.",
+    "Gradually whisk in the stock to avoid lumps.",
+    "Pass the soup through a fine sieve for an extra smooth texture.",
+    "Do not boil after adding the milk and cream.",
+    "Use fresh basil for the best aroma and flavor."
+  ]
+}
