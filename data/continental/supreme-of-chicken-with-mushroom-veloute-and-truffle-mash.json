@@ -1,0 +1,124 @@
+{
+  "id": "325",
+  "title": "Supreme of Chicken with Mushroom Velouté & Truffle Mash",
+  "description": "Supreme of Chicken with Mushroom Velouté & Truffle Mash is a refined Continental main course featuring pan-seared chicken supreme served with a silky mushroom velouté, creamy truffle mashed potatoes, and glazed seasonal vegetables. This elegant dish is perfect for fine dining and special occasions.",
+
+  "category": "Continental",
+  "time": "60 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/supreme-of-chicken-with-mushroom-veloute-and-truffle-mash.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Supreme",
+      "items": [
+        "Chicken supremes (breast with first wing bone attached, skin on) – 2",
+        "Salt – to taste",
+        "Freshly ground white pepper – to taste",
+        "Clarified butter or neutral oil – 1 tbsp",
+        "Butter – 1 tsp (to finish)",
+        "Fresh thyme sprig – optional"
+      ]
+    },
+    {
+      "title": "For the Mushroom Velouté",
+      "items": [
+        "Unsalted butter – 1 tbsp",
+        "Flour – 1 tbsp",
+        "Chicken stock (preferably homemade, double strength) – 250 ml",
+        "Cream – 100 ml",
+        "Mushrooms, finely chopped – 100 g",
+        "Shallot, minced – 1",
+        "White wine – 1 tsp",
+        "Salt – to taste",
+        "White pepper – to taste",
+        "Lemon juice – a few drops"
+      ]
+    },
+    {
+      "title": "For Truffle Mashed Potatoes",
+      "items": [
+        "Yukon Gold potatoes – 300 g",
+        "Unsalted butter – 40 g",
+        "Warm cream – 50 ml",
+        "Truffle oil or finely chopped black truffle – 1 tsp",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Seasonal baby vegetables (blanched and glazed)",
+        "Micro herbs or pea shoots",
+        "Truffle oil or herb oil – for drizzling"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken Supreme",
+      "steps": [
+        "Trim the chicken supreme neatly, leaving skin intact.",
+        "Season lightly with salt and pepper.",
+        "Heat clarified butter in a sauté pan over medium heat.",
+        "Place the chicken skin-side down; sear gently until golden brown (about 4–5 minutes).",
+        "Turn over, add a knob of butter and thyme; baste until cooked through (internal temp 74°C / 165°F).",
+        "Rest for 5 minutes before slicing."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Mushroom Velouté",
+      "steps": [
+        "In a saucepan, melt butter and sauté shallots and mushrooms until tender and lightly browned.",
+        "Stir in flour and cook for 1 minute to make a roux.",
+        "Gradually whisk in hot chicken stock until smooth.",
+        "Simmer gently for 8–10 minutes.",
+        "Strain through a fine sieve, pressing to extract flavor.",
+        "Add cream, white wine, and a touch of lemon juice; reduce to coating consistency.",
+        "Adjust seasoning and keep warm."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare Truffle Mash",
+      "steps": [
+        "Boil potatoes in salted water until tender.",
+        "Drain and mash while hot.",
+        "Stir in butter and warm cream until smooth and silky.",
+        "Add truffle oil (or minced truffle) and season to taste."
+      ]
+    },
+    {
+      "title": "Step 4 – Glaze the Vegetables",
+      "steps": [
+        "Lightly blanch baby vegetables (carrot, beans, zucchini) until just tender.",
+        "Toss in butter, salt, and a drop of stock until shiny."
+      ]
+    },
+    {
+      "title": "Step 5 – Plate Like a Pro",
+      "steps": [
+        "Spoon a quenelle of truffle mash at one side of the plate.",
+        "Slice the rested chicken diagonally and fan beside the mash.",
+        "Nap (coat) with mushroom velouté, letting it cascade gently.",
+        "Arrange baby vegetables artfully and finish with micro herbs and a fine drizzle of truffle or herb oil."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with truffle mashed potatoes and glazed seasonal vegetables.",
+      "Pair with Chardonnay (lightly oaked) or Viognier.",
+      "Finish with a light drizzle of truffle oil before serving."
+    ]
+  },
+
+  "chefTips": [
+    "Rest the chicken for 5 minutes before slicing to retain its juices.",
+    "Strain the mushroom velouté for an extra smooth, restaurant-quality finish.",
+    "Use warm cream when preparing mashed potatoes for a silky texture.",
+    "For a Michelin-style touch, brush the plate edge with a streak of mushroom purée or a drop of parsley oil before service."
+  ]
+}
