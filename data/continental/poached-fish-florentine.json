@@ -1,0 +1,124 @@
+{
+  "id": "356",
+  "title": "Poached Fish Florentine",
+  "description": "Poached Fish Florentine is a classic Continental dish featuring delicately poached white fish served on a Florentine spinach base and finished with a rich Mornay sauce for an elegant restaurant-style presentation.",
+
+  "category": "Continental",
+  "time": "55 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/poached-fish-florentine.png",
+
+  "ingredients": [
+    {
+      "title": "Fish & Court Bouillon",
+      "items": [
+        "White fish fillets (sole, halibut, or cod – skinless, boneless) – 800 g (200 g each)",
+        "Water – 750 ml",
+        "Dry white wine – 250 ml",
+        "Onion – 1 medium, sliced",
+        "Carrot – 1 small, sliced",
+        "Celery stalk – 1, sliced",
+        "Lemon – ½, sliced",
+        "Bay leaf – 1",
+        "Parsley stems – a handful",
+        "Black peppercorns – 8–10, lightly crushed",
+        "Cloves – 2 (optional, for depth)",
+        "Salt – 1½ tsp"
+      ]
+    },
+    {
+      "title": "Florentine Spinach Base",
+      "items": [
+        "Fresh spinach – 400 g",
+        "Butter – 40 g",
+        "Shallots – 2, finely chopped",
+        "Nutmeg – a pinch (freshly grated)",
+        "Salt & white pepper – to taste"
+      ]
+    },
+    {
+      "title": "Mornay Sauce (Cheese-enriched Béchamel)",
+      "items": [
+        "Butter – 40 g",
+        "All-purpose flour – 40 g",
+        "Warm milk – 400 ml",
+        "Gruyère cheese – 60 g, grated",
+        "Parmesan cheese – 30 g, grated",
+        "Dijon mustard – ½ tsp (optional)",
+        "Salt & white pepper – to taste"
+      ]
+    },
+    {
+      "title": "Garnish",
+      "items": [
+        "Lemon wedges",
+        "Chive batons or microgreens"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Court Bouillon",
+      "steps": [
+        "Combine water, white wine, onion, carrot, celery, lemon, herbs, peppercorns, cloves, and salt in a wide pan.",
+        "Bring to a boil, reduce to a gentle simmer, and cook for 20–25 minutes.",
+        "Strain, reserving the aromatic liquid for poaching."
+      ]
+    },
+    {
+      "title": "Step 2 – Poach the Fish",
+      "steps": [
+        "Return the strained court bouillon to the poaching pan.",
+        "Bring to 80–85°C (gentle simmer, never boiling).",
+        "Slide in the fish fillets carefully.",
+        "Poach gently for 6–8 minutes, until the flesh turns opaque and flakes easily.",
+        "Lift out fillets with a slotted spatula, keep warm. Reserve a little bouillon for thinning the sauce if needed."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Spinach Florentine Base",
+      "steps": [
+        "Blanch spinach briefly in salted boiling water, shock in ice water, then squeeze dry.",
+        "In a sauté pan, melt butter, add shallots, and sweat until translucent.",
+        "Add spinach, season with salt, white pepper, and nutmeg.",
+        "Cook just until tender and aromatic. Keep warm."
+      ]
+    },
+    {
+      "title": "Step 4 – Make the Mornay Sauce",
+      "steps": [
+        "Melt butter in a saucepan, stir in flour, and cook 1–2 minutes (no browning).",
+        "Gradually whisk in warm milk until smooth and slightly thick.",
+        "Add Gruyère and Parmesan, whisking until melted.",
+        "Season with salt, white pepper, and Dijon mustard (optional).",
+        "For elegance, pass sauce through a fine chinois for silkiness."
+      ]
+    },
+    {
+      "title": "Step 5 – Assemble & Plate",
+      "steps": [
+        "On each warm plate, spoon a neat bed of spinach (use a ring mold for precision).",
+        "Place a poached fish fillet gently on top.",
+        "Nap generously with Mornay sauce.",
+        "Garnish with microgreens or chive batons, serve with a lemon wedge."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with a lemon wedge.",
+      "Pair with a crisp Sancerre or Chablis."
+    ]
+  },
+
+  "chefTips": [
+    "Temperature control: Gentle poaching avoids tough, dry fish.",
+    "Color balance: Shocked spinach ensures a vibrant green base.",
+    "Sauce refinement: Always strain sauces for a professional silky finish.",
+    "Plating: Use clean lines; fish centered, spinach as base, sauce draped with control (not drowning).",
+    "Wine pairing: A crisp Sancerre or Chablis complements beautifully."
+  ]
+}
