@@ -1,0 +1,116 @@
+{
+  "id": "358",
+  "title": "Fried Ravioli",
+  "description": "Fried Ravioli is a Continental / Italian-inspired fine dining dish featuring breaded and deep-fried ravioli with an elegant garnish, served with roasted tomato coulis or truffle aioli.",
+
+  "category": "Continental",
+  "time": "1 hr 10 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/fried-ravioli.png",
+
+  "ingredients": [
+    {
+      "title": "For the Ravioli (fresh pasta dough)",
+      "items": [
+        "250 g Tipo \"00\" flour (or all-purpose flour, sifted)",
+        "2 whole eggs (large, free-range)",
+        "1 egg yolk",
+        "1 tsp olive oil",
+        "Pinch of sea salt"
+      ]
+    },
+    {
+      "title": "Filling (classic ricotta & spinach)",
+      "items": [
+        "200 g ricotta cheese (well-drained)",
+        "100 g blanched spinach, finely chopped & squeezed dry",
+        "40 g Parmigiano Reggiano, finely grated",
+        "1 garlic clove, minced",
+        "Fresh nutmeg, finely grated (a pinch)",
+        "Salt & cracked black pepper, to taste"
+      ]
+    },
+    {
+      "title": "For Coating & Frying",
+      "items": [
+        "100 g plain flour (seasoned lightly)",
+        "2 large eggs, beaten with 1 tbsp milk",
+        "150 g panko breadcrumbs (for extra crunch)",
+        "50 g fine Italian breadcrumbs (for texture balance)",
+        "1 tsp dried oregano or thyme (optional, mixed into breadcrumbs)",
+        "Sunflower oil or light olive oil (for frying, 170–175°C)"
+      ]
+    },
+    {
+      "title": "Garnishes & Accompaniments",
+      "items": [
+        "Basil or microgreens",
+        "Shaved Parmigiano Reggiano",
+        "Truffle aioli or roasted tomato coulis (for dipping/sauce)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare Pasta Dough",
+      "steps": [
+        "Make a well in the flour, add eggs, yolk, olive oil, and salt.",
+        "Knead until smooth (10 minutes), wrap in cling film, and rest 30 minutes."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare Filling",
+      "steps": [
+        "Mix ricotta, chopped spinach, Parmesan, garlic, nutmeg, salt, and pepper until smooth.",
+        "Taste and adjust seasoning—must be flavorful but balanced."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble Ravioli",
+      "steps": [
+        "Roll dough thin (1 mm) using a pasta machine.",
+        "Pipe or spoon filling onto one sheet, cover with another, press edges to seal.",
+        "Cut into ravioli shapes (square or round). Chill 10 minutes to firm up."
+      ]
+    },
+    {
+      "title": "Step 4 – Breading",
+      "steps": [
+        "Dredge each raviolo in seasoned flour → egg wash → breadcrumb mix.",
+        "Rest on a tray for 15 minutes to set coating."
+      ]
+    },
+    {
+      "title": "Step 5 – Frying",
+      "steps": [
+        "Heat oil to 170–175°C.",
+        "Fry in small batches until golden brown (about 2 minutes each).",
+        "Drain on paper towels, season lightly with sea salt."
+      ]
+    },
+    {
+      "title": "Step 6 – Plating (Restaurant Style)",
+      "steps": [
+        "Swipe or pool tomato coulis / truffle aioli on plate.",
+        "Arrange 3–4 ravioli per portion, slightly stacked.",
+        "Garnish with micro basil, shaved Parmesan, and a drizzle of extra virgin olive oil."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with roasted tomato coulis or truffle aioli.",
+      "Serve as a fine dining starter with 3–5 ravioli per portion."
+    ]
+  },
+
+  "chefTips": [
+    "Crisp-Coating Balance: Mix panko with fine breadcrumbs for a refined crunch, not overly rustic.",
+    "Sauce Pairing: A roasted tomato coulis brings acidity; truffle aioli adds luxury. Choose depending on menu style.",
+    "Portioning: Fine dining plating usually features 3–5 ravioli as a starter, not a heavy serving.",
+    "Wine Pairing: A crisp Pinot Grigio or sparkling Prosecco complements beautifully."
+  ]
+}
