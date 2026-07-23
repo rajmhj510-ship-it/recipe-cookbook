@@ -1,0 +1,109 @@
+{
+  "id": "353",
+  "title": "Grilled Eggplant Salad",
+  "description": "Grilled Eggplant Salad is a Continental salad featuring tender grilled eggplants, fresh vegetables, Kalamata olives, basil, and arugula, tossed in a classic chef's vinaigrette and finished with crumbled feta cheese for a refined restaurant-style presentation.",
+
+  "category": "Continental",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/grilled-eggplant-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Eggplants",
+      "items": [
+        "Eggplants (medium, firm) – 2 (about 500 g)",
+        "Olive oil – 3 tbsp",
+        "Sea salt – 1 tsp",
+        "Black pepper, freshly ground – ½ tsp",
+        "Garlic – 2 cloves, minced",
+        "Fresh thyme – 1 tsp (or oregano)"
+      ]
+    },
+    {
+      "title": "For the Salad Mix",
+      "items": [
+        "Cherry tomatoes – 150 g, halved",
+        "Red onion – ½ small, thinly sliced",
+        "Roasted red bell pepper – 1, cut into strips",
+        "Kalamata olives – 8–10, pitted and halved",
+        "Fresh basil leaves – handful, torn",
+        "Arugula or baby greens – 2 cups"
+      ]
+    },
+    {
+      "title": "Dressing (Chef’s Vinaigrette)",
+      "items": [
+        "Extra virgin olive oil – 3 tbsp",
+        "Red wine vinegar – 1 tbsp",
+        "Dijon mustard – ½ tsp",
+        "Honey – ½ tsp",
+        "Salt – to taste",
+        "Cracked black pepper – to taste"
+      ]
+    },
+    {
+      "title": "Garnish",
+      "items": [
+        "Crumbled feta cheese – 50 g",
+        "Microgreens – small handful (optional, for restaurant touch)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Eggplants",
+      "steps": [
+        "Slice eggplants lengthwise into 1 cm thick slices.",
+        "Sprinkle lightly with salt and let sit for 10 minutes to draw out excess moisture. Pat dry.",
+        "Brush with olive oil, season with salt, pepper, garlic, and thyme."
+      ]
+    },
+    {
+      "title": "Step 2 – Grill the Eggplants",
+      "steps": [
+        "Heat a grill pan or outdoor grill until hot.",
+        "Grill eggplant slices 2–3 minutes per side until tender with defined grill marks.",
+        "Remove and let cool slightly, then cut into bite-sized strips."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Dressing",
+      "steps": [
+        "In a bowl, whisk together olive oil, red wine vinegar, Dijon mustard, honey, salt, and pepper until emulsified."
+      ]
+    },
+    {
+      "title": "Step 4 – Assemble the Salad",
+      "steps": [
+        "In a large bowl, combine grilled eggplant strips, cherry tomatoes, red onion, roasted red pepper, olives, and basil.",
+        "Toss gently with the dressing."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating (Restaurant Style)",
+      "steps": [
+        "On a chilled plate, create a bed of arugula/baby greens.",
+        "Place the grilled eggplant salad mixture on top.",
+        "Sprinkle with crumbled feta cheese.",
+        "Garnish with microgreens and a light drizzle of olive oil."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as a salad or appetizer.",
+      "Pair with grilled meats, seafood, or crusty artisan bread.",
+      "Enjoy with a crisp Sauvignon Blanc or a light rosé."
+    ]
+  },
+
+  "chefTips": [
+    "For a fine-dining touch, serve with a balsamic reduction drizzle around the plate.",
+    "Smoked paprika or chili flakes can be added for depth of flavor.",
+    "Pair with a crisp Sauvignon Blanc or a light rosé."
+  ]
+}
