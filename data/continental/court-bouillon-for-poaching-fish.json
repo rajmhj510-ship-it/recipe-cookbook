@@ -1,0 +1,70 @@
+{
+  "id": "357",
+  "title": "Court Bouillon (for Poaching Fish)",
+  "description": "Court Bouillon is a classic Continental aromatic poaching liquid made with water, white wine, vegetables, herbs, and spices. It provides delicate flavor and moisture, making it ideal for poaching fish while preserving its natural texture.",
+
+  "category": "Continental",
+  "time": "25 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/court-bouillon-for-poaching-fish.png",
+
+  "ingredients": [
+    {
+      "title": "For the Court Bouillon",
+      "items": [
+        "Water – 750 ml",
+        "Dry white wine – 250 ml",
+        "Onion – 1 medium, sliced",
+        "Carrot – 1 small, sliced",
+        "Celery stalk – 1, sliced",
+        "Lemon – ½ (sliced)",
+        "Bay leaf – 1",
+        "Parsley stems – a small handful",
+        "Black peppercorns – 8–10, lightly crushed",
+        "Cloves – 2 (optional, studded into onion for depth)",
+        "Salt – 1½ tsp"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Combine aromatics",
+      "steps": [
+        "Place water, white wine, onion, carrot, celery, lemon slices, herbs, and spices in a saucepan. Add salt."
+      ]
+    },
+    {
+      "title": "Step 2 – Simmer gently",
+      "steps": [
+        "Bring to a boil, then reduce heat and simmer gently for 20–25 minutes."
+      ]
+    },
+    {
+      "title": "Step 3 – Strain",
+      "steps": [
+        "Pass through a fine strainer to remove solids, leaving a clear, aromatic liquid."
+      ]
+    },
+    {
+      "title": "Step 4 – Use immediately",
+      "steps": [
+        "Keep hot and use for poaching fish, or cool quickly and refrigerate for up to 2 days."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Use immediately for poaching fish.",
+      "Cool quickly and refrigerate for up to 2 days if not using immediately."
+    ]
+  },
+
+  "chefTips": [
+    "Always simmer, never boil, to avoid harsh flavors.",
+    "For extra finesse, add a splash of Champagne vinegar just before straining.",
+    "If poaching delicate white fish, you can enrich the bouillon with a small knob of butter at the end."
+  ]
+}
