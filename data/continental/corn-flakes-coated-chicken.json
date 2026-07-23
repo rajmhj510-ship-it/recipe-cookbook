@@ -1,0 +1,125 @@
+{
+  "id": "352",
+  "title": "Cornflakes-Coated Chicken",
+  "description": "Cornflakes-Coated Chicken is a Continental-style crispy chicken dish featuring tender chicken breast fillets coated in crunchy cornflakes, Parmesan, and herbs. It is served with a Continental herb dip, fresh microgreens, and lemon wedges for a refined restaurant-quality presentation.",
+
+  "category": "Continental",
+  "time": "50 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/cornflakes-coated-chicken.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Chicken breast fillets – 4 pieces (about 180–200 g each), skinless, boneless",
+        "Salt – to taste",
+        "Cracked black pepper – to taste",
+        "Garlic powder – 1 tsp",
+        "Paprika (sweet or smoked) – 1 tsp",
+        "Lemon juice – 2 tsp",
+        "Dijon mustard – 1 tsp"
+      ]
+    },
+    {
+      "title": "For the Coating",
+      "items": [
+        "Cornflakes – 150 g (lightly crushed, not powdered; should remain flaky for crunch)",
+        "All-purpose flour – 60 g",
+        "Eggs – 2 large, lightly beaten with 2 tbsp milk",
+        "Parmesan cheese – 30 g, finely grated (optional, adds umami depth)",
+        "Fresh parsley – 1 tbsp, finely chopped"
+      ]
+    },
+    {
+      "title": "For Frying / Baking",
+      "items": [
+        "Neutral oil (grapeseed, sunflower, or canola) – for shallow frying",
+        "Melted butter + a drizzle of oil – for baking"
+      ]
+    },
+    {
+      "title": "For Garnish & Service",
+      "items": [
+        "Microgreens or watercress",
+        "Lemon wedges",
+        "Aioli or a Continental herb dip (see below)"
+      ]
+    },
+    {
+      "title": "Continental Herb Dip (Optional but Recommended)",
+      "items": [
+        "Mayonnaise – 3 tbsp",
+        "Sour cream – 2 tbsp",
+        "Dijon mustard – 1 tsp",
+        "Lemon juice – 1 tsp",
+        "Fresh dill or chives – 1 tbsp, finely chopped",
+        "Mix until smooth; keep chilled."
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken",
+      "steps": [
+        "Lightly pound the chicken breasts to even thickness (about 1.5 cm).",
+        "Season with salt, pepper, garlic powder, paprika, lemon juice, and Dijon mustard.",
+        "Let marinate for 20–30 minutes for deeper flavor."
+      ]
+    },
+    {
+      "title": "Step 2 – Set Up Breading Station",
+      "steps": [
+        "Bowl 1: Seasoned flour.",
+        "Bowl 2: Egg wash (eggs + milk).",
+        "Bowl 3: Cornflakes, parmesan, parsley (lightly crushed, not too fine)."
+      ]
+    },
+    {
+      "title": "Step 3 – Coat the Chicken",
+      "steps": [
+        "Dredge chicken in flour (shake off excess).",
+        "Dip into egg wash.",
+        "Press firmly into cornflake mixture so flakes adhere evenly."
+      ]
+    },
+    {
+      "title": "Step 4 – Cooking Options",
+      "steps": [
+        "Shallow Frying (restaurant crispness): Heat oil in a sauté pan to 170–175°C. Fry chicken fillets 3–4 minutes per side until golden brown and internal temp reaches 74°C. Drain on paper towel.",
+        "Oven-Baking (lighter option): Preheat oven to 200°C. Place coated chicken on a rack set over a tray. Brush lightly with melted butter + oil mix. Bake 18–20 minutes, flipping once, until golden crisp."
+      ]
+    },
+    {
+      "title": "Step 5 – Rest & Serve",
+      "steps": [
+        "Rest chicken briefly (2–3 min).",
+        "Plate with microgreens, lemon wedge, and a quenelle of herb dip."
+      ]
+    },
+    {
+      "title": "Step 6 – Presentation",
+      "steps": [
+        "Slice chicken diagonally into 3 thick strips and fan out on the plate.",
+        "Add a small salad of mesclun leaves dressed with lemon vinaigrette.",
+        "Drizzle a fine line of herb dip or aioli beside the chicken.",
+        "Finish with a sprinkle of micro herbs or edible flowers."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with aioli or the Continental herb dip.",
+      "Pair with a small salad of mesclun leaves dressed with lemon vinaigrette.",
+      "Garnish with microgreens or watercress and lemon wedges."
+    ]
+  },
+
+  "chefTips": [
+    "For extra crunch, double-dip (egg wash → cornflakes → egg wash → cornflakes) but keep flakes coarse.",
+    "Parmesan in the crust adds depth, giving it a Continental flair beyond classic fried chicken."
+  ]
+}
