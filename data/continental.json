@@ -478,6 +478,106 @@
     "description": "Classic creamy potato and leek soup finished with herbs and optional truffle oil.",
     "time": "45 min",
     "difficulty": "Easy"
+  },
+    {
+    "id": 350,
+    "title": "Kentucky Fried Chicken",
+    "category": "Continental",
+    "file": "data/continental/kentucky-fried-chicken.json",
+    "image": "assets/images/continental/kentucky-fried-chicken.png",
+    "description": "Classic Continental-style crispy fried chicken marinated in buttermilk, coated in seasoned flour, and fried until golden brown.",
+    "time": "50 min (plus marination)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 351,
+    "title": "Cornflakes Coated Chicken",
+    "category": "Continental",
+    "file": "data/continental/cornflakes-coated-chicken.json",
+    "image": "assets/images/continental/cornflakes-coated-chicken.png",
+    "description": "Crispy chicken breast coated with crunchy cornflakes and served with garlic aioli and fresh greens.",
+    "time": "55 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 352,
+    "title": "Cornflakes-Coated Chicken",
+    "category": "Continental",
+    "file": "data/continental/cornflakes-coated-chicken.json",
+    "image": "assets/images/continental/cornflakes-coated-chicken.png",
+    "description": "Crispy cornflakes-coated chicken breast served with Continental herb dip and fresh garnish.",
+    "time": "50 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 353,
+    "title": "Grilled Eggplant Salad",
+    "category": "Continental",
+    "file": "data/continental/grilled-eggplant-salad.json",
+    "image": "assets/images/continental/grilled-eggplant-salad.png",
+    "description": "Fresh grilled eggplant salad with vegetables, feta cheese, and chef's vinaigrette.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 354,
+    "title": "French Onion Soup (Soupe à l’Oignon Gratinée)",
+    "category": "Continental",
+    "file": "data/continental/french-onion-soup.json",
+    "image": "assets/images/continental/french-onion-soup.png",
+    "description": "Classic French onion soup topped with toasted baguette and melted Gruyère cheese.",
+    "time": "1 hr 30 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 355,
+    "title": "Fish Florentine",
+    "category": "Continental",
+    "file": "data/continental/fish-florentine.json",
+    "image": "assets/images/continental/fish-florentine.png",
+    "description": "Pan-seared white fish served over creamy Florentine spinach and baked with Mornay sauce.",
+    "time": "45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 356,
+    "title": "Poached Fish Florentine",
+    "category": "Continental",
+    "file": "data/continental/poached-fish-florentine.json",
+    "image": "assets/images/continental/poached-fish-florentine.png",
+    "description": "Delicately poached white fish served on Florentine spinach with rich Mornay sauce.",
+    "time": "55 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 357,
+    "title": "Court Bouillon (for Poaching Fish)",
+    "category": "Continental",
+    "file": "data/continental/court-bouillon-for-poaching-fish.json",
+    "image": "assets/images/continental/court-bouillon-for-poaching-fish.png",
+    "description": "Classic aromatic poaching liquid for fish made with white wine, vegetables, herbs, and spices.",
+    "time": "25 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 358,
+    "title": "Fried Ravioli",
+    "category": "Continental",
+    "file": "data/continental/fried-ravioli.json",
+    "image": "assets/images/continental/fried-ravioli.png",
+    "description": "Breaded and deep-fried ravioli served with roasted tomato coulis or truffle aioli.",
+    "time": "1 hr 10 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 359,
+    "title": "Minestrone Soup",
+    "category": "Continental",
+    "file": "data/continental/minestrone-soup.json",
+    "image": "assets/images/continental/minestrone-soup.png",
+    "description": "Classic Continental soup featuring seasonal vegetables, beans, pasta, and a flavorful vegetable broth.",
+    "time": "50 min",
+    "difficulty": "Medium"
   }
 
 ]
