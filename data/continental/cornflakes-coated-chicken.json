@@ -1,0 +1,114 @@
+{
+  "id": "351",
+  "title": "Cornflakes Coated Chicken",
+  "description": "Cornflakes Coated Chicken is a crispy Continental classic featuring tender chicken breast fillets coated in crunchy cornflakes and lightly seasoned for maximum flavor. Golden and crisp on the outside while juicy inside, it is elegantly served with fresh greens, garlic aioli, and lemon wedges for a restaurant-quality presentation.",
+
+  "category": "Continental",
+  "time": "55 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/cornflakes-coated-chicken.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Chicken breast fillets (skinless, boneless, 150–180 g each) – 4 pieces",
+        "Salt – 1 tsp",
+        "White pepper – ½ tsp",
+        "Garlic powder – ½ tsp",
+        "Paprika – ½ tsp",
+        "Lemon juice – 1 tbsp",
+        "Olive oil – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Coating",
+      "items": [
+        "All-purpose flour – 100 g",
+        "Eggs – 2, beaten with 1 tbsp milk",
+        "Cornflakes, lightly crushed – 200 g",
+        "Parmesan cheese, finely grated (optional) – 2 tbsp",
+        "Dried thyme – ½ tsp",
+        "Salt – ½ tsp"
+      ]
+    },
+    {
+      "title": "For Frying or Baking",
+      "items": [
+        "Cooking oil for shallow or deep frying – as required",
+        "Oil spray (for baking option) – as required"
+      ]
+    },
+    {
+      "title": "For Garnish & Accompaniments",
+      "items": [
+        "Microgreens or fresh parsley",
+        "Lemon wedges",
+        "Garlic aioli or herbed mayonnaise",
+        "Mesclun salad or sautéed seasonal vegetables"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinate the Chicken",
+      "steps": [
+        "Pat the chicken dry with paper towels.",
+        "Season with salt, white pepper, garlic powder, paprika, lemon juice, and olive oil.",
+        "Marinate for at least 30 minutes or up to 4 hours in the refrigerator."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Coating Station",
+      "steps": [
+        "Place seasoned flour on one plate.",
+        "Whisk the eggs with milk in a second bowl.",
+        "Mix the crushed cornflakes with Parmesan cheese, dried thyme, and salt in a third plate."
+      ]
+    },
+    {
+      "title": "Step 3 – Coat the Chicken",
+      "steps": [
+        "Lightly coat each chicken fillet in flour and shake off the excess.",
+        "Dip into the egg mixture until fully coated.",
+        "Press firmly into the cornflake mixture until evenly coated on all sides.",
+        "Allow the coated chicken to rest for 5–10 minutes before cooking."
+      ]
+    },
+    {
+      "title": "Step 4 – Cook the Chicken",
+      "steps": [
+        "For frying: Heat oil to 170–175°C and fry the chicken for 6–7 minutes until golden brown and fully cooked. Drain on a wire rack or paper towels.",
+        "For baking: Preheat the oven to 200°C. Arrange the coated chicken on a parchment-lined baking tray, lightly spray with oil, and bake for 18–22 minutes until golden and crisp."
+      ]
+    },
+    {
+      "title": "Step 5 – Plate Like Fine Dining",
+      "steps": [
+        "Place the chicken over a bed of mesclun salad or sautéed vegetables.",
+        "Serve with garlic aioli, mustard dip, or herb-infused sour cream.",
+        "Garnish with lemon wedges and fresh microgreens or parsley.",
+        "Serve immediately while hot and crispy."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with garlic aioli, herbed mayonnaise, or honey mustard dip.",
+      "Pair with mashed potatoes, roasted vegetables, or French fries.",
+      "Accompany with a fresh green salad for a balanced meal.",
+      "Enjoy with iced tea, sparkling lemonade, or a crisp white wine."
+    ]
+  },
+
+  "chefTips": [
+    "Lightly crush the cornflakes by hand to create a rustic, crunchy coating.",
+    "Rest the coated chicken for 5–10 minutes before cooking to help the crust adhere better.",
+    "Do not overcrowd the pan while frying to maintain a crisp texture.",
+    "For extra flavor, drizzle a small amount of truffle oil over the finished dish before serving.",
+    "Always serve immediately for the best crunch and restaurant-quality presentation."
+  ]
+}
