@@ -1,0 +1,118 @@
+{
+  "id": "355",
+  "title": "Fish Florentine",
+  "description": "Fish Florentine is a classic Continental dish featuring pan-seared white fish fillets served over a creamy Florentine spinach base, topped with rich Mornay sauce and baked until golden for an elegant restaurant-style presentation.",
+
+  "category": "Continental",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/fish-florentine.png",
+
+  "ingredients": [
+    {
+      "title": "For the Fish",
+      "items": [
+        "White fish fillets (halibut, cod, sole, or sea bass) – 4 pieces (180–200 g each, skinless & boneless)",
+        "Lemon juice – 1 tbsp",
+        "Salt – ½ tsp",
+        "White pepper – ¼ tsp",
+        "Olive oil – 2 tbsp",
+        "Unsalted butter – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Florentine Spinach Base",
+      "items": [
+        "Fresh spinach leaves – 400 g",
+        "Shallots – 2, finely chopped",
+        "Garlic – 2 cloves, minced",
+        "Unsalted butter – 2 tbsp",
+        "Heavy cream – 100 ml",
+        "Nutmeg – a pinch",
+        "Salt – to taste",
+        "Black pepper – to taste"
+      ]
+    },
+    {
+      "title": "For the Mornay Sauce (Cheesy White Sauce)",
+      "items": [
+        "Unsalted butter – 2 tbsp",
+        "All-purpose flour – 2 tbsp",
+        "Warm milk – 250 ml",
+        "Gruyère or Parmesan cheese – 50 g, grated",
+        "Salt – to taste",
+        "White pepper – pinch",
+        "Dijon mustard – ½ tsp (optional, for depth)"
+      ]
+    },
+    {
+      "title": "Garnish",
+      "items": [
+        "Lemon wedges",
+        "Microgreens or parsley sprigs",
+        "Extra grated Parmesan"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Fish",
+      "steps": [
+        "Pat the fish fillets dry.",
+        "Drizzle with lemon juice, season with salt and white pepper.",
+        "Heat olive oil and butter in a pan over medium-high heat.",
+        "Sear the fillets for 2–3 minutes per side until golden but just undercooked in the center (they will finish in the oven). Set aside."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Florentine Spinach",
+      "steps": [
+        "In a sauté pan, melt butter. Add shallots and garlic, cook until fragrant.",
+        "Add spinach, sauté until wilted.",
+        "Stir in cream, nutmeg, salt, and pepper.",
+        "Cook until creamy but not watery. Keep warm."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Mornay Sauce",
+      "steps": [
+        "In a saucepan, melt butter, stir in flour to make a roux.",
+        "Gradually whisk in warm milk until smooth.",
+        "Add cheese, whisk until melted and velvety.",
+        "Season with salt, pepper, and mustard if using."
+      ]
+    },
+    {
+      "title": "Step 4 – Assemble & Bake",
+      "steps": [
+        "Preheat oven to 190°C (375°F).",
+        "In individual gratin dishes or a large baking dish, spread a layer of spinach Florentine.",
+        "Place seared fish fillets on top.",
+        "Spoon Mornay sauce generously over fish.",
+        "Sprinkle extra cheese.",
+        "Bake for 8–10 minutes until bubbling and golden on top."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating (Restaurant Style)",
+      "steps": [
+        "Place each fillet with its spinach base at the center of a warm plate.",
+        "Drizzle lightly with olive oil.",
+        "Garnish with microgreens, a lemon wedge, and a delicate Parmesan crisp if available.",
+        "Serve with a side of duchess potatoes or buttered asparagus for a complete fine dining plate."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with a side of duchess potatoes or buttered asparagus for a complete fine dining plate."
+    ]
+  },
+
+  "chefTips": [
+    "For Michelin-level refinement, you can pipe the spinach base neatly into a ring mold before topping with fish and sauce, ensuring precision and elegance on the plate."
+  ]
+}
