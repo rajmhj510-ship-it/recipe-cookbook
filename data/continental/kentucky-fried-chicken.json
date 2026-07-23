@@ -1,0 +1,126 @@
+{
+  "id": "350",
+  "title": "Kentucky Fried Chicken",
+  "description": "Kentucky Fried Chicken is a classic Continental-style crispy fried chicken featuring tender, buttermilk-marinated chicken coated in a flavorful seasoned crust and deep-fried until perfectly golden. Served with creamy mashed potatoes, charred vegetables, and a spiced aioli, it delivers a refined restaurant-quality dining experience.",
+
+  "category": "Continental",
+  "time": "50 min (plus marination)",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/kentucky-fried-chicken.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Marinade",
+      "items": [
+        "Whole chicken (1.2–1.5 kg), cut into 8–10 pieces – 1",
+        "Buttermilk (or whole milk + 1 tbsp lemon juice) – 500 ml",
+        "Garlic powder – 2 tsp",
+        "Onion powder – 2 tsp",
+        "Smoked paprika – 1 tsp",
+        "Cayenne pepper – 1 tsp",
+        "Salt – 2 tsp",
+        "Cracked black pepper – 1 tsp",
+        "Worcestershire sauce – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Coating",
+      "items": [
+        "All-purpose flour – 2 cups",
+        "Cornstarch – ½ cup",
+        "Baking powder – 1 tsp",
+        "Salt – 2 tsp",
+        "White pepper – 1 tsp",
+        "Black pepper – 1 tsp",
+        "Smoked paprika – 1 tsp",
+        "Ground mustard seed – 1 tsp",
+        "Celery salt – 1 tsp",
+        "Dried oregano – 1 tsp",
+        "Dried thyme – 1 tsp",
+        "Ground ginger – ½ tsp",
+        "Ground nutmeg – ½ tsp"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Neutral frying oil (peanut, sunflower, or refined canola) – as required",
+        "Clarified butter (ghee), optional – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For Continental Plating & Accompaniments",
+      "items": [
+        "Truffle mashed potatoes or garlic mashed potatoes",
+        "Charred seasonal vegetables (asparagus, baby carrots, zucchini)",
+        "Spiced aioli or paprika mayonnaise",
+        "Microgreens or fresh parsley for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinate the Chicken",
+      "steps": [
+        "In a large bowl, combine buttermilk, garlic powder, onion powder, smoked paprika, cayenne pepper, salt, black pepper, and Worcestershire sauce.",
+        "Add the chicken pieces and coat thoroughly.",
+        "Cover and refrigerate for at least 6 hours, preferably overnight."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Coating",
+      "steps": [
+        "Mix the flour, cornstarch, baking powder, salt, peppers, paprika, mustard seed, celery salt, oregano, thyme, ginger, and nutmeg in a large bowl.",
+        "Remove the chicken from the marinade and shake off excess liquid.",
+        "Coat each piece generously in the seasoned flour mixture, pressing firmly to create a thick, craggy crust.",
+        "Place the coated chicken on a wire rack and let it rest for 15 minutes."
+      ]
+    },
+    {
+      "title": "Step 3 – Fry the Chicken",
+      "steps": [
+        "Heat the oil to 165–170°C (325–340°F).",
+        "Add the optional clarified butter for additional flavor.",
+        "Fry the chicken in batches without overcrowding the pan.",
+        "Cook until the coating is golden brown and the internal temperature reaches 74°C (165°F).",
+        "Drain on a wire rack to maintain maximum crispness."
+      ]
+    },
+    {
+      "title": "Step 4 – Plate Like Fine Dining",
+      "steps": [
+        "Arrange 2–3 pieces of crispy fried chicken on a warm serving plate.",
+        "Add a quenelle of truffle or garlic mashed potatoes.",
+        "Neatly arrange the charred seasonal vegetables alongside.",
+        "Serve with a small ramekin of spiced aioli or paprika mayonnaise."
+      ]
+    },
+    {
+      "title": "Step 5 – Final Touch",
+      "steps": [
+        "Garnish with fresh microgreens or chopped parsley.",
+        "Optionally drizzle parsley oil around the plate for an elegant finish.",
+        "Serve immediately while the chicken is hot and crispy."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with garlic or truffle mashed potatoes.",
+      "Pair with charred seasonal vegetables for a balanced meal.",
+      "Enjoy with spiced aioli, paprika mayonnaise, or classic gravy.",
+      "Pair with Chardonnay, sparkling wine, or iced lemonade."
+    ]
+  },
+
+  "chefTips": [
+    "Double dredge the chicken by dipping it back into the buttermilk and flour for an extra crispy crust.",
+    "Maintain the oil temperature between 165–170°C to ensure even cooking and a crisp coating.",
+    "Drain fried chicken on a wire rack instead of paper towels to preserve its crunch.",
+    "Allow the chicken to marinate overnight for maximum tenderness and flavor.",
+    "Serve immediately after frying for the best texture and restaurant-quality presentation."
+  ]
+}
