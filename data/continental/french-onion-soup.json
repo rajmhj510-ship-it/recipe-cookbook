@@ -1,0 +1,87 @@
+{
+  "id": "354",
+  "title": "French Onion Soup (Soupe à l’Oignon Gratinée)",
+  "description": "French Onion Soup (Soupe à l’Oignon Gratinée) is a classic French Continental soup made with slowly caramelized onions simmered in rich beef stock, finished with toasted baguette slices topped with Gruyère cheese and broiled until golden and bubbling.",
+
+  "category": "Continental",
+  "time": "1 hr 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/french-onion-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Soup",
+      "items": [
+        "Yellow onions – 1 kg (about 6 large), thinly sliced",
+        "Unsalted butter – 60 g (4 tbsp)",
+        "Olive oil – 2 tbsp",
+        "Garlic – 2 cloves, finely minced",
+        "Fresh thyme – 2–3 sprigs",
+        "Bay leaf – 1",
+        "Dry white wine – 150 ml",
+        "Beef stock – 1.2 L (rich, homemade preferred; chicken stock if lighter flavor is desired)",
+        "Salt – to taste",
+        "Freshly ground black pepper – to taste"
+      ]
+    },
+    {
+      "title": "For the Topping",
+      "items": [
+        "French baguette – 8 slices, about 1.5 cm thick",
+        "Gruyère cheese – 200 g, grated (Emmental or Comté as substitutes)",
+        "Parmesan – 40 g, finely grated (optional, for extra sharpness)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Caramelize the Onions",
+      "steps": [
+        "In a heavy-bottomed pot, melt the butter with olive oil over medium-low heat.",
+        "Add the sliced onions with a pinch of salt. Cook slowly, stirring often, until deep golden brown and caramelized (35–40 minutes).",
+        "Chef’s tip: Keep the heat low and steady—patience creates sweetness and depth."
+      ]
+    },
+    {
+      "title": "Step 2 – Build the Soup",
+      "steps": [
+        "Add the garlic, thyme, and bay leaf; cook for 1–2 minutes until fragrant.",
+        "Deglaze with white wine, scraping up caramelized bits from the bottom. Reduce by half.",
+        "Pour in hot beef stock, stir, and bring to a simmer. Cover loosely and cook 25–30 minutes.",
+        "Adjust seasoning with salt and pepper. Remove thyme sprigs and bay leaf."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Bread & Cheese",
+      "steps": [
+        "Lightly toast baguette slices until crisp.",
+        "Top each slice generously with Gruyère (and a touch of Parmesan)."
+      ]
+    },
+    {
+      "title": "Step 4 – Assemble & Finish",
+      "steps": [
+        "Ladle hot soup into oven-proof bowls.",
+        "Place cheesy baguette slices on top.",
+        "Place bowls under a hot broiler until the cheese melts, bubbles, and turns golden brown."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as a starter or soup course.",
+      "Pair with a crisp green salad or crusty French bread.",
+      "Enjoy with a glass of dry white wine."
+    ]
+  },
+
+  "chefTips": [
+    "Keep the heat low and steady—patience creates sweetness and depth.",
+    "Serve in traditional French onion soup bowls with handles.",
+    "Garnish with a small thyme sprig or a drizzle of extra virgin olive oil.",
+    "Ensure cheese slightly overflows the bowl’s rim for that authentic restaurant look."
+  ]
+}
