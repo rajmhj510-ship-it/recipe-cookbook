@@ -734,7 +734,7 @@
     "title": "Chicken à la King",
     "category": "Continental",
     "file": "data/continental/chicken-a-la-king.json",
-    "image": "assets/images/continental/chicken-a-la-king.png",
+    "image": "assets/images/continental/chicken-à-la-king.png",
     "description": "Tender chicken in a creamy velouté sauce with mushrooms, peppers, and herbs, served in a classic continental style.",
     "time": "50 min",
     "difficulty": "Medium"
