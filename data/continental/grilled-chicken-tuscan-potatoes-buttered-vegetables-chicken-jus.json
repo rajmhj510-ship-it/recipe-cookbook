@@ -1,0 +1,126 @@
+{
+  "id": "373",
+  "title": "Grilled Chicken with Tuscan Potatoes, Buttered Vegetables & Chicken Jus",
+  "description": "A classic Continental main course featuring herb-marinated grilled chicken served with crispy Tuscan potatoes, buttered seasonal vegetables, and a rich chicken jus.",
+
+  "category": "Continental",
+  "time": "2 hr 45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/grilled-chicken-tuscan-potatoes-buttered-vegetables-chicken-jus.png",
+
+  "ingredients": [
+    {
+      "title": "For the Grilled Chicken",
+      "items": [
+        "Boneless chicken breasts (skin-on preferred) – 4",
+        "Olive oil – 2 tbsp",
+        "Garlic paste – 2 tsp",
+        "Lemon zest – 1 tsp",
+        "Lemon juice – 1 tbsp",
+        "Smoked paprika – 1 tsp",
+        "Thyme leaves (fresh) – 1 tsp",
+        "Rosemary, finely chopped – 1 tsp",
+        "Salt & freshly ground pepper – to taste"
+      ]
+    },
+    {
+      "title": "For the Tuscan Potatoes",
+      "items": [
+        "Baby potatoes – 500 g, halved",
+        "Olive oil – 2 tbsp",
+        "Butter – 1 tbsp",
+        "Garlic – 2 cloves, smashed",
+        "Rosemary, chopped – 1 tsp",
+        "Chili flakes – ½ tsp (optional)",
+        "Salt & pepper – to taste"
+      ]
+    },
+    {
+      "title": "For the Buttered Vegetables",
+      "items": [
+        "Baby carrots – ½ cup",
+        "Green beans – ½ cup",
+        "Broccoli florets – ½ cup",
+        "Butter – 1 tbsp",
+        "Salt & pepper – to taste",
+        "Lemon juice – 1 tsp"
+      ]
+    },
+    {
+      "title": "For the Chicken Jus (Classic Reduction)",
+      "items": [
+        "Chicken stock (preferably homemade) – 1 cup",
+        "Onion – ½ small, chopped",
+        "Garlic – 1 clove, crushed",
+        "Butter – 1 tbsp",
+        "Thyme – ½ tsp",
+        "Red wine – 2 tbsp (optional)",
+        "Salt & pepper – to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Grilled Chicken",
+      "steps": [
+        "In a bowl, mix olive oil, garlic, lemon zest, lemon juice, paprika, thyme, rosemary, salt, and pepper.",
+        "Marinate chicken for at least 2 hours (or overnight for best flavor).",
+        "Preheat a grill pan or charcoal grill.",
+        "Grill chicken 4–5 minutes per side until golden, char-marked, and the internal temperature reaches 75°C (165°F).",
+        "Rest the chicken for 5 minutes before plating."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Tuscan Potatoes",
+      "steps": [
+        "Boil potatoes until just tender; drain well.",
+        "In a skillet, heat olive oil and butter, add garlic and rosemary.",
+        "Add potatoes, season, and sauté until golden and crisp.",
+        "Sprinkle chili flakes for a subtle kick."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Buttered Vegetables",
+      "steps": [
+        "Blanch vegetables in salted boiling water until just tender.",
+        "Refresh in ice water to retain color.",
+        "Toss in butter, season, and finish with lemon juice just before serving."
+      ]
+    },
+    {
+      "title": "Step 4 – Prepare the Chicken Jus",
+      "steps": [
+        "Sauté onion and garlic in butter until golden.",
+        "Add thyme and deglaze with red wine (if using).",
+        "Add chicken stock and simmer until reduced by half.",
+        "Strain and finish with a knob of cold butter for sheen and richness."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating & Presentation",
+      "steps": [
+        "Spoon a bed of Tuscan potatoes slightly off-center.",
+        "Slice grilled chicken on a bias and fan it neatly beside the potatoes.",
+        "Arrange buttered vegetables in a line or cluster for color balance.",
+        "Drizzle chicken jus elegantly around or under the chicken slices.",
+        "Finish with microgreens or a sprig of thyme, and a light drizzle of olive oil."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as a complete Continental main course.",
+      "Pair with crusty bread or a light green salad.",
+      "Enjoy with a glass of dry white wine or light red wine."
+    ]
+  },
+
+  "chefTips": [
+    "For a smoky note, grill over charcoal instead of a grill pan.",
+    "Keep the jus glossy by whisking in cold butter just before service (classic monter au beurre technique).",
+    "Always rest grilled meats to retain juices."
+  ]
+}
