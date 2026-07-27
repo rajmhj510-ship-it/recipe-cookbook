@@ -1,0 +1,101 @@
+{
+  "id": "371",
+  "title": "Chicken Schnitzel",
+  "description": "A classic Continental chicken schnitzel featuring thinly pounded chicken breasts coated in crisp golden breadcrumbs and shallow-fried until perfectly crunchy. Served with lemon wedges and traditional accompaniments.",
+
+  "category": "Continental",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/chicken-schnitzel.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Boneless chicken breasts – 4 pieces (approx. 180–200 g each)",
+        "Salt – to taste",
+        "White pepper – to taste",
+        "Lemon juice – 1 tbsp",
+        "Dijon mustard – 1 tsp (optional, for added flavor)"
+      ]
+    },
+    {
+      "title": "For the Coating",
+      "items": [
+        "All-purpose flour – ½ cup",
+        "Eggs – 2, lightly beaten",
+        "Milk – 2 tbsp (to loosen eggs)",
+        "Breadcrumbs – 1½ cups (preferably fine, golden crumbs)",
+        "Parmesan cheese (grated) – 2 tbsp (optional, for extra crispness and flavor)"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Clarified butter or neutral oil – for shallow frying (approx. 200 ml)"
+      ]
+    },
+    {
+      "title": "For Garnish & Serving",
+      "items": [
+        "Lemon wedges",
+        "Fresh parsley – chopped",
+        "Classic accompaniments: potato salad, mashed potatoes, or buttered vegetables"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken",
+      "steps": [
+        "Trim chicken breasts and butterfly them horizontally.",
+        "Place between two sheets of plastic wrap and gently pound with a meat mallet until about ¼ inch (6 mm) thick.",
+        "Season both sides with salt, pepper, lemon juice, and mustard (if using).",
+        "Rest for 5–10 minutes."
+      ]
+    },
+    {
+      "title": "Step 2 – Breading Procedure",
+      "steps": [
+        "Dredge each schnitzel in flour, shaking off excess.",
+        "Dip into the egg-milk mixture ensuring even coating.",
+        "Finally, coat with breadcrumbs (and Parmesan, if using).",
+        "Press gently to help the crumbs adhere well.",
+        "Lay on a tray and chill for 10–15 minutes (helps coating stay intact)."
+      ]
+    },
+    {
+      "title": "Step 3 – Cooking",
+      "steps": [
+        "Heat clarified butter or oil in a wide sauté pan over medium-high heat (approx. 170–175°C).",
+        "Fry schnitzels one or two at a time, 2–3 minutes per side, until golden brown and crisp.",
+        "Drain on paper towels."
+      ]
+    },
+    {
+      "title": "Step 4 – Serving & Presentation",
+      "steps": [
+        "Plate the schnitzel slightly overlapping or at an angle.",
+        "Garnish with a lemon wedge and fresh parsley.",
+        "Serve with potato salad, buttered vegetables, or a light cucumber-dill salad for a Continental-style presentation.",
+        "Optionally drizzle with a touch of brown butter and capers for an elevated restaurant finish."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with potato salad, mashed potatoes, or buttered vegetables.",
+      "Add a light cucumber-dill salad for a Continental-style presentation.",
+      "Serve immediately with fresh lemon wedges."
+    ]
+  },
+
+  "chefTips": [
+    "Use clarified butter for authentic flavor and even browning.",
+    "Rest the fried schnitzels on a wire rack to stay crisp.",
+    "For a gourmet twist, pair with cranberry compote or mustard cream sauce."
+  ]
+}
