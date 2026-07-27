@@ -1,0 +1,97 @@
+{
+  "id": "365",
+  "title": "Pineapple Gazpacho (Chilled Pineapple and Vegetable Soup)",
+  "description": "A refreshing chilled Continental soup made with fresh pineapple, vegetables, olive oil, and citrus. Served cold with elegant fine-dining garnishes for a bright and tropical appetizer.",
+
+  "category": "Continental",
+  "time": "2 hr 20 min",
+  "difficulty": "Professional",
+  "image": "assets/images/continental/pineapple-gazpacho.png",
+
+  "ingredients": [
+    {
+      "title": "Gazpacho Base",
+      "items": [
+        "Fresh ripe pineapple – 500 g (core removed, chopped)",
+        "Yellow bell pepper – 1 medium (chopped)",
+        "Cucumber – 1 small (peeled, deseeded, chopped)",
+        "Celery stalk – 1 (chopped)",
+        "Shallot – 1 small (finely chopped)",
+        "Fresh ginger – 10 g (peeled)",
+        "Garlic – ½ clove (microplaned)",
+        "Lime juice – 30 ml (freshly squeezed)",
+        "Extra virgin olive oil – 40 ml (cold-pressed, fruity profile)",
+        "Rice vinegar or white wine vinegar – 15 ml",
+        "Sea salt – to taste (approx. 3 g)",
+        "White pepper – a pinch",
+        "Ice cubes – a few, to chill during blending"
+      ]
+    },
+    {
+      "title": "For the Garnish (Fine-Dining Presentation)",
+      "items": [
+        "Micro herbs – a mix of basil, coriander, and red amaranth",
+        "Diced pineapple brunoise – 2 tbsp",
+        "Cucumber brunoise – 2 tbsp",
+        "Red chili – finely sliced (optional, for contrast)",
+        "Pickled shallot rings – few pieces",
+        "Olive oil pearls or basil oil – for finish",
+        "Edible flowers – optional, for presentation"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Base",
+      "steps": [
+        "In a blender, combine pineapple, yellow bell pepper, cucumber, celery, shallot, ginger, and garlic.",
+        "Add lime juice, vinegar, olive oil, salt, and pepper.",
+        "Blend until completely smooth — about 2–3 minutes on high speed.",
+        "Add ice cubes while blending to maintain a bright, fresh color and prevent oxidation."
+      ]
+    },
+    {
+      "title": "Step 2 – Refine the Texture",
+      "steps": [
+        "Pass the mixture through a fine chinois or muslin cloth to achieve a silky, velvety texture.",
+        "Adjust seasoning — balance sweetness, acidity, and salinity carefully.",
+        "Aim for a bright, tropical acidity with subtle vegetal depth."
+      ]
+    },
+    {
+      "title": "Step 3 – Chill",
+      "steps": [
+        "Refrigerate for at least 2 hours before serving.",
+        "Serve at 4–6°C for best mouthfeel and aromatic expression."
+      ]
+    },
+    {
+      "title": "Step 4 – Plating (Restaurant-Style Presentation)",
+      "steps": [
+        "Pour the chilled gazpacho into a pre-chilled glass bowl or white rimmed plate.",
+        "Arrange pineapple and cucumber brunoise at the center.",
+        "Add pickled shallot rings and a few micro herbs.",
+        "Drizzle with basil oil or place a few olive oil pearls.",
+        "Garnish with edible flowers for color contrast.",
+        "Optional fine-dining touch: serve with a compressed pineapple cube (vacuum-sealed with lime zest and a hint of chili) or a parmesan tuille on the side for texture."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Wine Pairing",
+    "items": [
+      "A chilled Sauvignon Blanc complements the tropical and vegetal notes.",
+      "Albariño is another excellent pairing.",
+      "Serve well chilled as an appetizer or amuse-bouche."
+    ]
+  },
+
+  "chefTips": [
+    "Flavor balance: The key is harmony between pineapple sweetness, cucumber freshness, and citrus-lime acidity.",
+    "Add ice cubes while blending to maintain a bright, fresh color and prevent oxidation.",
+    "Pass the gazpacho through a fine chinois for a silky, restaurant-quality texture.",
+    "Gazpacho base can be stored refrigerated (airtight) for up to 48 hours; stir before serving."
+  ]
+}
