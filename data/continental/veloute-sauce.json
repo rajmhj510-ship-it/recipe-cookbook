@@ -1,0 +1,39 @@
+{
+  "id": "388",
+  "title": "Velouté Sauce",
+  "category": "Continental",
+  "description": "A classic French mother sauce prepared with a blond roux and white stock, creating a smooth, delicate sauce that serves as the foundation for many refined poultry, seafood, and veal sauces.",
+  "image": "assets/images/continental/veloute-sauce.png",
+  "prepTime": "5 min",
+  "cookTime": "30 min",
+  "totalTime": "35 min",
+  "servings": "500 ml",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "section": "For the Velouté Sauce",
+      "items": [
+        "2 tbsp unsalted butter",
+        "2 tbsp all-purpose flour",
+        "500 ml (2 cups) hot white stock (chicken, veal, or fish)",
+        "Salt, to taste",
+        "White pepper, to taste"
+      ]
+    }
+  ],
+  "instructions": [
+    "Melt the butter in a saucepan over medium heat.",
+    "Add the flour and whisk continuously for 3–4 minutes until a pale blond roux forms without browning deeply.",
+    "Gradually whisk in the hot white stock, adding a little at a time until smooth and lump-free.",
+    "Bring the sauce to a gentle simmer and cook for 20–30 minutes, stirring occasionally until lightly thickened.",
+    "Strain the sauce through a fine sieve or chinois for a silky finish.",
+    "Season lightly with salt and white pepper before serving."
+  ],
+  "chefTips": [
+    "Use a high-quality homemade white stock for the best flavor.",
+    "Avoid over-browning the roux to preserve the sauce's light color.",
+    "Whisk continuously while adding stock to prevent lumps.",
+    "Velouté is the base for Suprême, Allemande, and Normande sauces.",
+    "Perfect with poultry, seafood, veal, and other delicate white meats."
+  ]
+}
