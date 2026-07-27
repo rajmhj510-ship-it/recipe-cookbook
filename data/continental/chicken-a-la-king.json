@@ -1,0 +1,116 @@
+{
+  "id": "375",
+  "title": "Chicken à la King",
+  "description": "A classic Continental chicken dish featuring tender poached chicken, mushrooms, and bell peppers in a rich velouté cream sauce, traditionally served over puff pastry, rice pilaf, or fresh egg noodles.",
+
+  "category": "Continental",
+  "time": "50 min",
+  "difficulty": "Intermediate",
+  "image": "assets/images/continental/chicken-a-la-king.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken & Stock",
+      "items": [
+        "Chicken breasts (skinless, boneless) – 2 large",
+        "Carrot – 1 small, roughly chopped",
+        "Onion – 1 small, roughly chopped",
+        "Celery stalk – 1, roughly chopped",
+        "Bay leaf – 1",
+        "Black peppercorns – 1 tsp",
+        "Fresh thyme – 1 sprig",
+        "Cold water – 1 L (4 cups)",
+        "Alternatively, use 500 g cooked roast chicken, cubed, and 1 L good-quality chicken stock."
+      ]
+    },
+    {
+      "title": "For the Sauté & Sauce",
+      "items": [
+        "Unsalted butter – 2 tbsp",
+        "Olive oil – 1 tbsp",
+        "Onion – 1 small, finely diced",
+        "Green bell pepper – 1 small, finely diced",
+        "Button mushrooms – 150 g, sliced thinly",
+        "All-purpose flour – 2 tbsp",
+        "Chicken stock – 250 ml (1 cup)",
+        "Heavy cream (35%) – 125 ml (½ cup)",
+        "Dry sherry or white wine – 60 ml (¼ cup) (optional but traditional)",
+        "Dijon mustard – ½ tsp",
+        "Lemon juice – 1 tsp",
+        "Salt & white pepper – to taste",
+        "Fresh parsley – 2 tbsp, chopped"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Poach the Chicken",
+      "steps": [
+        "In a saucepan, combine chicken, carrot, onion, celery, bay leaf, thyme, peppercorns, and water.",
+        "Bring to a gentle simmer (do not boil).",
+        "Poach for 12–15 minutes, until chicken is just cooked through.",
+        "Remove chicken and strain the stock.",
+        "Reserve the stock and dice the chicken into ¾-inch (2 cm) cubes."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Sauté Base",
+      "steps": [
+        "Heat butter and olive oil over medium heat.",
+        "Add onion and green pepper; sweat until translucent (about 3 minutes).",
+        "Add mushrooms and cook until softened and lightly browned.",
+        "Stir in flour and cook for 1–2 minutes to form a light roux."
+      ]
+    },
+    {
+      "title": "Step 3 – Make the Velouté Cream Sauce",
+      "steps": [
+        "Gradually whisk in chicken stock until smooth and slightly thickened.",
+        "Stir in cream, sherry, and Dijon mustard.",
+        "Simmer gently for 5 minutes until the sauce coats the back of a spoon.",
+        "Adjust seasoning with salt, white pepper, and lemon juice."
+      ]
+    },
+    {
+      "title": "Step 4 – Finish the Dish",
+      "steps": [
+        "Add diced chicken to the sauce and simmer gently for 2–3 minutes.",
+        "Stir in chopped parsley just before serving.",
+        "The texture should be velvety and rich, not too thick—like a light cream stew."
+      ]
+    },
+    {
+      "title": "Step 5 – Professional Presentation",
+      "steps": [
+        "Serve over buttered puff pastry shells (Vol-au-Vent style) for the classic presentation.",
+        "Alternatively, serve on a bed of buttered rice pilaf.",
+        "Or serve with fresh tagliatelle or egg noodles for a bistro-style presentation."
+      ]
+    },
+    {
+      "title": "Step 6 – Garnish",
+      "steps": [
+        "Garnish with chiffonade of parsley.",
+        "Add fine julienne of red pepper (blanched for color contrast).",
+        "Finish with a drizzle of cream or truffle oil (optional for haute cuisine plating)."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve over buttered puff pastry shells (Vol-au-Vent style).",
+      "Serve on a bed of buttered rice pilaf.",
+      "Serve with fresh tagliatelle or egg noodles."
+    ]
+  },
+
+  "chefTips": [
+    "Stock Quality: A clear, aromatic chicken stock defines the depth of flavor. Avoid using cubes for restaurant-standard results.",
+    "Mushroom Technique: Sauté until moisture evaporates before adding flour—this prevents a floury taste.",
+    "Sherry/Wine: Dry sherry (Fino or Amontillado) adds authentic Continental richness and aroma.",
+    "Consistency: Sauce should nappe the spoon—glossy, smooth, and flowing."
+  ]
+}
