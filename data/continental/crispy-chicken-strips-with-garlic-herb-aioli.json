@@ -1,0 +1,119 @@
+{
+  "id": "382",
+  "title": "Crispy Chicken Strips with Garlic-Herb Aioli",
+  "description": "Crispy golden chicken strips marinated in buttermilk, coated with a light double crust, and served with a rich garlic-herb aioli. Perfect as a Continental appetizer or main course.",
+
+  "category": "Continental",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/crispy-chicken-strips-with-garlic-herb-aioli.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Strips",
+      "items": [
+        "Chicken breast – 600 g (boneless, skinless, cut into 1.5 × 10 cm strips)",
+        "Buttermilk – 200 ml",
+        "Dijon mustard – 1 tbsp",
+        "Garlic powder – 1 tsp",
+        "Onion powder – ½ tsp",
+        "Smoked paprika – 1 tsp",
+        "Salt – 1 tsp",
+        "White pepper – ½ tsp"
+      ]
+    },
+    {
+      "title": "For the Coating",
+      "items": [
+        "All-purpose flour – 150 g",
+        "Cornstarch – 50 g",
+        "Baking powder – ½ tsp",
+        "Salt – 1 tsp",
+        "Cracked black pepper – ½ tsp",
+        "Dried thyme – ½ tsp",
+        "Cold sparkling water – as needed (about 100 ml, to create light dredge)"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Neutral oil (canola, sunflower, or grapeseed) – for deep frying"
+      ]
+    },
+    {
+      "title": "For the Garlic-Herb Aioli",
+      "items": [
+        "Egg yolks – 2",
+        "Dijon mustard – 1 tsp",
+        "Garlic – 2 cloves, roasted and finely minced",
+        "Lemon juice – 2 tsp",
+        "Olive oil – 120 ml",
+        "Neutral oil – 60 ml",
+        "Fresh parsley – 1 tbsp, finely chopped",
+        "Fresh chives – 1 tbsp, finely chopped",
+        "Salt – to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinate the Chicken",
+      "steps": [
+        "In a bowl, combine buttermilk, Dijon mustard, garlic powder, onion powder, paprika, salt, and pepper.",
+        "Add chicken strips, coat well, and refrigerate for at least 2 hours (or overnight for maximum tenderness)."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Coating",
+      "steps": [
+        "Mix flour, cornstarch, baking powder, salt, pepper, and thyme.",
+        "Remove chicken from marinade; let excess drip off.",
+        "Lightly dredge in dry mixture.",
+        "Dip in a splash of cold sparkling water, then dredge again for a crispy double crust."
+      ]
+    },
+    {
+      "title": "Step 3 – Fry",
+      "steps": [
+        "Heat oil to 175 °C (350 °F).",
+        "Fry strips in small batches for 4–5 minutes, until golden and internal temperature reaches 74 °C (165 °F).",
+        "Drain on paper towel and season lightly with sea salt while hot."
+      ]
+    },
+    {
+      "title": "Step 4 – Make the Garlic-Herb Aioli",
+      "steps": [
+        "Whisk egg yolks, mustard, garlic, and lemon juice.",
+        "Slowly drizzle in olive and neutral oils, whisking constantly until emulsified.",
+        "Fold in herbs and season with salt.",
+        "Chill until service."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating & Presentation",
+      "steps": [
+        "Serve chicken strips on a slate or textured plate.",
+        "Place aioli in a small ramekin or squeeze-bottle swirl.",
+        "Garnish with microgreens, smoked paprika dust, and a lemon wedge.",
+        "For a luxury touch: drizzle with truffle oil or serve with a parmesan crisp."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with Garlic-Herb Aioli.",
+      "Pair with a light herb salad or grilled asparagus.",
+      "Garnish with a lemon wedge for extra freshness."
+    ]
+  },
+
+  "chefTips": [
+    "Sparkling water keeps the batter light and airy.",
+    "Double dredge ensures crunch without greasiness.",
+    "Always rest the fried chicken for 2–3 minutes on a rack for oil to drain evenly.",
+    "For a refined twist, pair with a light herb salad or grilled asparagus."
+  ]
+}
