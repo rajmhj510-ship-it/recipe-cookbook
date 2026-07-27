@@ -1,0 +1,86 @@
+{
+  "id": "383",
+  "title": "Waffle",
+  "description": "Light and crisp homemade waffles with a fluffy interior, perfect for breakfast or dessert. Serve warm with your favorite toppings for a classic Continental treat.",
+
+  "category": "Continental",
+  "time": "27 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/waffle.png",
+
+  "ingredients": [
+    {
+      "title": "For the Waffle Batter",
+      "items": [
+        "All-purpose flour – 2 cups (250 g)",
+        "Sugar – 2 tbsp",
+        "Baking powder – 1 tbsp",
+        "Salt – ½ tsp",
+        "Large eggs – 2, separated",
+        "Whole milk – 1¾ cups (420 ml)",
+        "Unsalted butter – ½ cup (115 g), melted",
+        "Pure vanilla extract – 1 tsp",
+        "Optional: Cinnamon – ¼ tsp for subtle warmth"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Dry Ingredients",
+      "steps": [
+        "In a large bowl, whisk together flour, sugar, baking powder, salt, and cinnamon (if using)."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Wet Ingredients",
+      "steps": [
+        "In another bowl, whisk together egg yolks, milk, melted butter, and vanilla extract until smooth."
+      ]
+    },
+    {
+      "title": "Step 3 – Whip the Egg Whites",
+      "steps": [
+        "In a clean bowl, beat the egg whites until stiff peaks form. This gives the waffle extra lightness."
+      ]
+    },
+    {
+      "title": "Step 4 – Combine Batter",
+      "steps": [
+        "Slowly fold the wet ingredients into the dry ingredients until just combined.",
+        "Gently fold in the whipped egg whites, keeping as much air as possible."
+      ]
+    },
+    {
+      "title": "Step 5 – Cook the Waffles",
+      "steps": [
+        "Preheat your waffle iron and lightly grease with butter or oil.",
+        "Pour batter into the iron (usually about ¾ cup per waffle, depending on size).",
+        "Cook for 4–6 minutes, until golden brown and crisp."
+      ]
+    },
+    {
+      "title": "Step 6 – Serve",
+      "steps": [
+        "Serve immediately for the best texture.",
+        "Optional toppings: fresh berries, whipped cream, maple syrup, chocolate sauce, or a dusting of powdered sugar."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with fresh berries and whipped cream.",
+      "Drizzle with maple syrup or chocolate sauce.",
+      "Finish with a dusting of powdered sugar."
+    ]
+  },
+
+  "chefTips": [
+    "For crispier waffles, use a bit more melted butter or a touch of cornstarch in the flour.",
+    "Folding in the whipped egg whites at the end makes a noticeably fluffier interior.",
+    "Keep cooked waffles warm in a 90°C (200°F) oven on a rack to keep them crisp without steaming.",
+    "Serve with a small quenelle of butter or a drizzle of sauce for restaurant-quality plating."
+  ]
+}
