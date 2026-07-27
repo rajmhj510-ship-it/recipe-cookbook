@@ -1,0 +1,38 @@
+{
+  "id": "384",
+  "title": "Bouquet Garni",
+  "category": "Continental",
+  "description": "A classic French bundle of aromatic herbs used to infuse stocks, soups, sauces, and stews with subtle herbal flavor, then removed before serving.",
+  "image": "assets/images/continental/bouquet-garni.png",
+  "prepTime": "5 min",
+  "cookTime": "Varies",
+  "totalTime": "5 min",
+  "servings": "As Required",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "section": "Classic Bouquet Garni",
+      "items": [
+        "1 bay leaf",
+        "2–3 sprigs fresh thyme",
+        "4–5 parsley stems",
+        "1 small piece of leek (optional)",
+        "1 small celery stalk (optional)",
+        "1 small sprig rosemary (optional)"
+      ]
+    }
+  ],
+  "instructions": [
+    "Gather the bay leaf, thyme, parsley stems, and any optional herbs or vegetables.",
+    "Tie the herbs together securely with kitchen twine, or wrap them in cheesecloth and tie into a small bundle.",
+    "Add the bouquet garni to stocks, soups, sauces, braises, or stews at the beginning of cooking.",
+    "Allow it to simmer gently, releasing its aroma and flavor throughout the cooking process.",
+    "Remove and discard the bouquet garni before serving."
+  ],
+  "chefTips": [
+    "Use fresh herbs whenever possible for the best aroma.",
+    "Parsley stems contain excellent flavor—don't discard them.",
+    "Customize the bouquet with herbs such as tarragon, rosemary, or savory depending on the dish.",
+    "Always remove the bouquet garni before serving."
+  ]
+}
