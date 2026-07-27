@@ -1,0 +1,119 @@
+{
+  "id": "361",
+  "title": "Spaghetti Bolognese",
+  "description": "A classic Italian pasta dish featuring slow-cooked Bolognese sauce made with beef and pork mince, San Marzano tomatoes, red wine, and milk, tossed with perfectly cooked spaghetti and finished with Parmigiano Reggiano.",
+
+  "category": "Pasta",
+  "time": "3 hr 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/pasta/spaghetti-bolognese.png",
+
+  "ingredients": [
+    {
+      "title": "For the Bolognese Sauce",
+      "items": [
+        "Olive oil (extra virgin) – 3 tbsp",
+        "Unsalted butter – 2 tbsp",
+        "Onion – 1 large (finely chopped)",
+        "Carrot – 1 medium (finely diced)",
+        "Celery stalk – 1 stick (finely diced)",
+        "Garlic – 3 cloves (minced)",
+        "Beef mince (80% lean, freshly ground if possible) – 500 g",
+        "Pork mince – 250 g",
+        "Tomato paste – 2 tbsp",
+        "San Marzano tomatoes (canned, crushed by hand) – 400 g",
+        "Dry red wine (Chianti or Barolo preferred) – 250 ml",
+        "Whole milk – 150 ml",
+        "Beef stock (homemade, rich) – 250 ml",
+        "Fresh thyme – 2 sprigs",
+        "Bay leaf – 1",
+        "Nutmeg (freshly grated) – a pinch",
+        "Sea salt & freshly ground black pepper – to taste"
+      ]
+    },
+    {
+      "title": "For the Pasta",
+      "items": [
+        "Spaghetti (bronze-die, artisanal if possible) – 500 g",
+        "Sea salt – for pasta water"
+      ]
+    },
+    {
+      "title": "For Finishing",
+      "items": [
+        "Parmigiano Reggiano (24-month aged, freshly grated) – generous amount",
+        "Fresh flat-leaf parsley (finely chopped) – for garnish",
+        "Olive oil – a drizzle (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Base Preparation",
+      "steps": [
+        "Heat olive oil and butter in a wide, heavy-bottomed pan.",
+        "Sweat onion, carrot, celery, and garlic over medium-low heat until soft and translucent (about 10 minutes)."
+      ]
+    },
+    {
+      "title": "Step 2 – Browning the Meat",
+      "steps": [
+        "Increase heat to medium-high.",
+        "Add beef and pork mince, season lightly, and cook until browned and caramelized.",
+        "Break into small crumbles, but avoid over-stirring—allow fond (browned bits) to form for depth of flavor."
+      ]
+    },
+    {
+      "title": "Step 3 – Deglazing & Building Flavor",
+      "steps": [
+        "Stir in tomato paste and cook for 2 minutes to caramelize.",
+        "Deglaze with red wine, scraping up any browned bits.",
+        "Reduce until almost fully absorbed."
+      ]
+    },
+    {
+      "title": "Step 4 – Slow Cooking",
+      "steps": [
+        "Add crushed San Marzano tomatoes, beef stock, milk, thyme, bay leaf, and nutmeg.",
+        "Bring to a gentle simmer, then lower heat.",
+        "Cook uncovered on very low heat for 2.5–3 hours, stirring occasionally.",
+        "Add a splash of stock if drying out.",
+        "Season with salt and pepper towards the end."
+      ]
+    },
+    {
+      "title": "Step 5 – Pasta Cooking",
+      "steps": [
+        "Cook spaghetti in well-salted boiling water until just al dente.",
+        "Reserve ½ cup of pasta water before draining."
+      ]
+    },
+    {
+      "title": "Step 6 – Final Assembly",
+      "steps": [
+        "Add spaghetti to the Bolognese sauce with a splash of pasta water.",
+        "Toss until the pasta is fully coated and glossy.",
+        "Rest for 1 minute off the heat to allow flavors to meld."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Plating & Presentation",
+    "items": [
+      "Use a carving fork or tongs to twirl pasta into a neat mound in the center of a warm plate.",
+      "Spoon extra Bolognese sauce on top.",
+      "Dust generously with Parmigiano Reggiano.",
+      "Garnish with a few parsley leaves and a drizzle of fine olive oil."
+    ]
+  },
+
+  "chefTips": [
+    "Meat Balance: The mix of beef + pork creates depth and richness. Some chefs also add veal for delicacy.",
+    "Milk: Essential for softening the acidity of tomatoes and wine, giving a silky texture.",
+    "Slow Cooking: The hallmark of a true Bolognese. Flavors should meld into a deep, rich, almost sweet-savory sauce.",
+    "Wine Selection: Always cook with a wine you'd happily drink—its character defines the sauce.",
+    "Stock Quality: Homemade beef stock elevates the dish to restaurant-grade."
+  ]
+}
