@@ -1,0 +1,108 @@
+{
+  "id": "360",
+  "title": "Pasta Salad",
+  "description": "A refreshing pasta salad made with al dente pasta, fresh vegetables, feta cheese, and a light homemade dressing. Perfect as a side dish or a main course with optional protein upgrades.",
+
+  "category": "Salad",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/salad/pasta-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Pasta Base",
+      "items": [
+        "Farfalle or penne pasta – 250 g (al dente)",
+        "Olive oil – 1 tbsp",
+        "Salt – for boiling"
+      ]
+    },
+    {
+      "title": "For the Salad Mix",
+      "items": [
+        "Cherry tomatoes – 1 cup (halved)",
+        "Cucumber – 1 medium (deseeded, diced)",
+        "Red onion – 1 small (finely sliced, soaked in ice water)",
+        "Kalamata olives – ½ cup (pitted, halved)",
+        "Roasted bell peppers – ½ cup (julienned)",
+        "Feta cheese – 100 g (crumbled or cubed)",
+        "Fresh parsley – 2 tbsp (chopped)",
+        "Fresh basil leaves – 1 tbsp (hand-torn)"
+      ]
+    },
+    {
+      "title": "For the Dressing (Emulsion Style)",
+      "items": [
+        "Extra virgin olive oil – 60 ml (cold-pressed)",
+        "Red wine vinegar – 2 tbsp (or white balsamic for a softer touch)",
+        "Dijon mustard – 1 tsp",
+        "Honey – ½ tsp (optional, for balance)",
+        "Garlic – 1 clove (roasted, minced)",
+        "Salt & freshly cracked black pepper – to taste"
+      ]
+    },
+    {
+      "title": "Optional Upgrades (For Luxury Plating)",
+      "items": [
+        "Toasted pine nuts or walnuts (for crunch)",
+        "Grilled chicken, smoked salmon, or prawns (protein upgrade)",
+        "Microgreens for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Cook the Pasta",
+      "steps": [
+        "Boil pasta in salted water until just al dente.",
+        "Drain, toss with a drizzle of olive oil, and spread on a tray to cool (prevents sticking)."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare Vegetables",
+      "steps": [
+        "Roast bell peppers until slightly charred, peel skin, and slice.",
+        "Soak onions in ice water for 5 minutes to mellow sharpness."
+      ]
+    },
+    {
+      "title": "Step 3 – Make Dressing",
+      "steps": [
+        "In a bowl, whisk Dijon, vinegar, honey, garlic, salt, and pepper.",
+        "Slowly drizzle in olive oil while whisking to create a light emulsion."
+      ]
+    },
+    {
+      "title": "Step 4 – Assemble Salad",
+      "steps": [
+        "In a large chilled mixing bowl, combine pasta, vegetables, and herbs.",
+        "Gently fold in feta cheese.",
+        "Toss with dressing just before serving."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating (Restaurant Style)",
+      "steps": [
+        "Serve in shallow white bowls for contrast.",
+        "Garnish with microgreens, a drizzle of olive oil, and toasted pine nuts.",
+        "Add a protein upgrade if making a main course version."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Pairing Suggestions",
+    "items": [
+      "White wine: Sauvignon Blanc or Pinot Grigio (bright acidity balances richness).",
+      "Red wine: Light Pinot Noir (if served with smoked salmon or chicken)."
+    ]
+  },
+
+  "chefTips": [
+    "Cook the pasta just until al dente for the best texture.",
+    "Cool the pasta before mixing to prevent sticking.",
+    "Toss with dressing just before serving for the freshest flavor.",
+    "Use toasted pine nuts and microgreens for a restaurant-style finish."
+  ]
+}
