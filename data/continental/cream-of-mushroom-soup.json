@@ -1,0 +1,98 @@
+{
+  "id": "377",
+  "title": "Cream of Mushroom Soup",
+  "description": "A rich and velvety Continental soup made with fresh mushrooms, aromatics, cream, and stock, finished with elegant garnishes for a classic restaurant-style presentation.",
+
+  "category": "Continental",
+  "time": "30 min",
+  "difficulty": "Moderate",
+  "image": "assets/images/continental/cream-of-mushroom-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Soup Base",
+      "items": [
+        "Assorted fresh mushrooms (button, cremini, shiitake) – 300 g, finely sliced",
+        "Unsalted butter – 1 tbsp",
+        "Olive oil – 1 tbsp",
+        "Onion – 1 small, finely chopped",
+        "Garlic – 1 clove, minced",
+        "Fresh thyme – 1 sprig (or ¼ tsp dried thyme)",
+        "All-purpose flour – 1 tbsp",
+        "Vegetable or chicken stock – 500 ml (2 cups)",
+        "Heavy cream – 120 ml (½ cup)",
+        "Salt and freshly ground white pepper – to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "A drizzle of cream or truffle oil",
+        "Sautéed mushroom slices",
+        "Fresh thyme or microgreens"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Sauté the Aromatics",
+      "steps": [
+        "In a heavy-bottomed saucepan, heat butter and olive oil over medium heat.",
+        "Add onions and garlic; cook until soft and translucent."
+      ]
+    },
+    {
+      "title": "Step 2 – Cook the Mushrooms",
+      "steps": [
+        "Add sliced mushrooms and thyme.",
+        "Sauté for 8–10 minutes until mushrooms release their moisture and begin to caramelize."
+      ]
+    },
+    {
+      "title": "Step 3 – Build the Base",
+      "steps": [
+        "Sprinkle in the flour and cook for 1 minute to remove the raw taste.",
+        "Gradually add warm stock, stirring constantly to prevent lumps."
+      ]
+    },
+    {
+      "title": "Step 4 – Simmer & Blend",
+      "steps": [
+        "Simmer for 10–12 minutes.",
+        "Remove the thyme sprig and blend the soup until smooth (use a hand blender or countertop blender)."
+      ]
+    },
+    {
+      "title": "Step 5 – Finish with Cream",
+      "steps": [
+        "Return to the pot and stir in the cream.",
+        "Season with salt and white pepper.",
+        "Simmer gently for 2–3 minutes — do not boil."
+      ]
+    },
+    {
+      "title": "Step 6 – Presentation",
+      "steps": [
+        "Ladle into warm soup bowls.",
+        "Drizzle with cream or truffle oil.",
+        "Garnish with sautéed mushroom slices and thyme sprigs."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with crusty bread or garlic toast.",
+      "Pair with a light green salad for a complete meal.",
+      "Best enjoyed immediately while warm."
+    ]
+  },
+
+  "chefTips": [
+    "For deeper flavor, mix wild mushrooms (porcini, morels) with button mushrooms.",
+    "Add a splash of dry white wine before adding stock for a gourmet touch.",
+    "For a vegan variation, use plant-based cream and vegetable stock."
+  ]
+}
