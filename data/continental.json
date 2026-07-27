@@ -499,6 +499,16 @@
     "time": "55 min",
     "difficulty": "Easy"
   },
+  {
+  "id": 352,
+  "title": "Steam Fish with Hollandaise Sauce",
+  "category": "Continental",
+  "file": "data/continental/steam-fish-with-hollandaise-sauce.json",
+  "image": "assets/images/continental/steam-fish-with-hollandaise-sauce.png",
+  "description": "Delicately steamed white fish served with silky Hollandaise sauce and seasonal vegetables for an elegant continental seafood dish.",
+  "time": "35 min",
+  "difficulty": "Medium"
+},
     {
     "id": 353,
     "title": "Grilled Eggplant Salad",
@@ -828,16 +838,6 @@
   "description": "The traditional French aromatic vegetable base of onion, carrot, and celery, essential for building depth in stocks, soups, sauces, and braises.",
   "time": "10 min",
   "difficulty": "Easy"
-},
-{
-  "id": 386,
-  "title": "Steam Fish with Hollandaise Sauce",
-  "category": "Continental",
-  "file": "data/continental/steam-fish-with-hollandaise-sauce.json",
-  "image": "assets/images/continental/steam-fish-with-hollandaise-sauce.png",
-  "description": "Delicately steamed white fish served with silky Hollandaise sauce and seasonal vegetables for an elegant continental seafood dish.",
-  "time": "35 min",
-  "difficulty": "Medium"
 },
 {
   "id": 387,
