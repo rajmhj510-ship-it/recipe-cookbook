@@ -1,0 +1,94 @@
+{
+  "id": "362",
+  "title": "Prawn / Shrimp Cocktail",
+  "description": "A classic Continental appetizer featuring perfectly poached prawns served with crisp lettuce and a creamy Marie Rose sauce. Elegant, refreshing, and ideal for fine dining presentation.",
+
+  "category": "Continental",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "image": "assets/images/appetizer/prawn-shrimp-cocktail.png",
+
+  "ingredients": [
+    {
+      "title": "For the Prawns",
+      "items": [
+        "Large prawns / shrimp (peeled & deveined, tails on) – 400 g",
+        "Water – 1 liter",
+        "Lemon slices – 3–4",
+        "Bay leaf – 1",
+        "Black peppercorns – 6–8",
+        "Salt – 1 tsp"
+      ]
+    },
+    {
+      "title": "For the Marie Rose Sauce (Cocktail Sauce)",
+      "items": [
+        "Mayonnaise – 4 tbsp",
+        "Tomato ketchup – 2 tbsp",
+        "Worcestershire sauce – ½ tsp",
+        "Lemon juice – 1 tsp",
+        "Hot sauce (Tabasco or similar) – a few drops",
+        "Brandy or Cognac (optional, for authentic Continental style) – 1 tsp",
+        "Paprika – a pinch",
+        "Salt & white pepper – to taste"
+      ]
+    },
+    {
+      "title": "For Assembly",
+      "items": [
+        "Crisp iceberg lettuce – 2 cups (shredded finely)",
+        "Cucumber – ½ (julienned or diced)",
+        "Cherry tomatoes – 4–6 halves",
+        "Fresh dill or parsley – for garnish",
+        "Lemon wedges – to serve"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Poach the Prawns",
+      "steps": [
+        "In a pot, bring water, lemon slices, bay leaf, peppercorns, and salt to a gentle simmer.",
+        "Add prawns and cook for 2–3 minutes until just pink and firm.",
+        "Immediately transfer to ice water to stop cooking.",
+        "Pat dry and refrigerate until assembly."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare Marie Rose Sauce",
+      "steps": [
+        "Combine mayonnaise, ketchup, Worcestershire, lemon juice, hot sauce, brandy (if using), paprika, salt, and white pepper.",
+        "Mix until smooth and keep chilled."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble (Presentation Options)",
+      "steps": [
+        "Option A – Classic Glass Presentation: Place shredded lettuce at the base of a martini glass or coupe.",
+        "Spoon a little sauce.",
+        "Arrange prawns around the rim with tails facing outward.",
+        "Top with more sauce and garnish with dill & a lemon wedge.",
+        "Option B – Modern Plated Version: Spread lettuce in a neat circular mold.",
+        "Toss prawns lightly in sauce and stack elegantly on top.",
+        "Add cucumber, cherry tomatoes, microgreens & a drizzle of extra sauce around the base."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve well chilled in martini glasses or on chilled appetizer plates.",
+      "Accompany with lemon wedges for extra freshness.",
+      "Ideal as a fine dining starter or seafood appetizer."
+    ]
+  },
+
+  "chefTips": [
+    "Don't overcook the prawns — texture is key.",
+    "Use chilled plates/glasses for perfect serving temperature.",
+    "A tiny dash of horseradish in the sauce adds gourmet depth.",
+    "Upgrade with caviar or avocado slices for a luxury twist."
+  ]
+}
