@@ -1,0 +1,111 @@
+{
+  "id": "369",
+  "title": "Chicken Cordon Bleu",
+  "description": "A classic Continental dish featuring tender chicken breast stuffed with ham and Swiss cheese, coated in crisp breadcrumbs, and served with a rich Mornay or Dijon cream sauce.",
+
+  "category": "Continental",
+  "time": "60 min",
+  "difficulty": "Professional",
+  "image": "assets/images/continental/chicken-cordon-bleu.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Boneless chicken breasts – 4 pieces (about 180–200 g each)",
+        "Salt – to taste",
+        "White pepper – to taste",
+        "Dijon mustard – 2 tbsp (optional but recommended)",
+        "Sliced cooked ham – 4 slices (thin, good quality)",
+        "Swiss cheese (Emmental or Gruyère preferred) – 4 slices",
+        "All-purpose flour – ½ cup",
+        "Eggs – 2, beaten",
+        "Breadcrumbs (fine, preferably panko or fresh white) – 1 cup",
+        "Oil for shallow frying – as required",
+        "Butter – 1 tbsp (for richness during frying)"
+      ]
+    },
+    {
+      "title": "For the Sauce (Classic Mornay or Dijon Cream Sauce)",
+      "items": [
+        "Unsalted butter – 2 tbsp",
+        "All-purpose flour – 2 tbsp",
+        "Milk – 1 cup, warm",
+        "Grated Gruyère or Parmesan cheese – 2 tbsp",
+        "Dijon mustard – 1 tsp",
+        "Salt & white pepper – to taste",
+        "Lemon juice – a few drops (optional, to brighten the flavor)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken",
+      "steps": [
+        "Place each chicken breast between two sheets of plastic wrap or parchment paper.",
+        "Gently pound to an even thickness of about 1 cm (½ inch).",
+        "Season both sides with salt and white pepper.",
+        "Lightly brush one side with Dijon mustard."
+      ]
+    },
+    {
+      "title": "Step 2 – Assemble",
+      "steps": [
+        "Lay a slice of ham and a slice of cheese over each flattened chicken breast.",
+        "Roll tightly like a roulade, tucking the ends to seal the filling.",
+        "Secure with toothpicks or wrap tightly in cling film and chill for 20–30 minutes to firm up."
+      ]
+    },
+    {
+      "title": "Step 3 – Breading",
+      "steps": [
+        "Dredge each roll lightly in flour, shaking off excess.",
+        "Dip in beaten egg, then coat evenly with breadcrumbs.",
+        "Chill again for 10–15 minutes to set the coating (ensures crispness)."
+      ]
+    },
+    {
+      "title": "Step 4 – Frying & Finishing",
+      "steps": [
+        "Heat oil and butter in a pan over medium heat.",
+        "Shallow-fry each roll until golden brown on all sides.",
+        "Transfer to a baking tray and finish in a preheated oven at 180°C (350°F) for 10–12 minutes, ensuring the internal cheese melts and the chicken is cooked through (core temp: 74°C / 165°F).",
+        "Rest for 5 minutes before slicing."
+      ]
+    },
+    {
+      "title": "Step 5 – Sauce Preparation",
+      "steps": [
+        "Melt butter in a small saucepan, add flour, and cook for 1 minute without browning.",
+        "Gradually whisk in warm milk until smooth and thickened.",
+        "Add cheese, mustard, salt, and pepper.",
+        "Finish with a few drops of lemon juice for brightness."
+      ]
+    },
+    {
+      "title": "Step 6 – Plating & Presentation",
+      "steps": [
+        "Slice the Chicken Cordon Bleu diagonally to reveal the cheese and ham layers.",
+        "Nap (not drown) with Mornay or Dijon cream sauce.",
+        "Garnish with microgreens or finely chopped parsley.",
+        "Serve with buttered vegetables, mashed potatoes, or a light garden salad."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with buttered vegetables, mashed potatoes, or a light garden salad.",
+      "Serve immediately while the cheese is hot and melted.",
+      "Pair with a crisp green salad for a balanced meal."
+    ]
+  },
+
+  "chefTips": [
+    "Use Gruyère or Emmental for an authentic nutty melt; mozzarella can be used for a milder flavor.",
+    "Chilling before frying helps retain shape and prevent cheese leakage.",
+    "For a lighter version, bake entirely in the oven after brushing with melted butter."
+  ]
+}
