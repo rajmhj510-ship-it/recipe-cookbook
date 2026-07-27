@@ -1,0 +1,124 @@
+{
+  "id": "366",
+  "title": "Classic Chicken Ballotine",
+  "description": "A classic French chicken ballotine featuring tender chicken thighs stuffed with a light chicken mousse, gently poached, finished with a golden sear, and served with a velouté or jus.",
+
+  "category": "Continental",
+  "time": "1 hr 30 min",
+  "difficulty": "Professional",
+  "image": "assets/images/continental/classic-chicken-ballotine.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Boneless chicken thighs (skin on preferred) – 4",
+        "Salt and freshly ground black pepper – to taste",
+        "Olive oil – for searing",
+        "Butter – for basting"
+      ]
+    },
+    {
+      "title": "For the Chicken Mousse (Stuffing)",
+      "items": [
+        "Chicken breast – 150 g, cubed",
+        "Heavy cream (cold) – 80 ml",
+        "Egg white – 1",
+        "Shallots – 1 tbsp, finely chopped",
+        "Fresh thyme leaves – 1 tsp",
+        "Finely diced mushrooms (optional: wild or button) – 50 g",
+        "Salt and white pepper – to taste"
+      ]
+    },
+    {
+      "title": "For the Sauce (Velouté or Jus)",
+      "items": [
+        "Shallot – 1, finely chopped",
+        "White wine – 100 ml",
+        "Chicken stock (reduced) – 200 ml",
+        "Heavy cream – 50 ml (optional, for velouté style)",
+        "Cold butter – 1 tbsp (for finishing)"
+      ]
+    },
+    {
+      "title": "For Garnish (Optional)",
+      "items": [
+        "Fine baby vegetables (baby carrots, haricots verts, asparagus tips)",
+        "Microgreens or chervil sprigs",
+        "Mashed or fondant potatoes"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken",
+      "steps": [
+        "Lay the chicken thighs skin-side down on a cutting board.",
+        "Trim off any excess fat. Lightly flatten the meat to an even thickness.",
+        "Season with salt and pepper."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Chicken Mousse",
+      "steps": [
+        "In a food processor, blend chicken breast, egg white, salt, and white pepper into a smooth paste.",
+        "Slowly add cold cream while blending until a light mousse forms.",
+        "Fold in sautéed mushrooms, shallots, and thyme.",
+        "Chill for 20 minutes."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Ballotine",
+      "steps": [
+        "Spread a thin layer of mousse on each flattened chicken thigh.",
+        "Roll tightly into a cylinder, skin-side out.",
+        "Wrap each roll in plastic wrap or cling film, twisting the ends like a sausage.",
+        "Secure with kitchen twine if needed."
+      ]
+    },
+    {
+      "title": "Step 4 – Poach the Ballotine",
+      "steps": [
+        "Heat a pot of water to 85°C (185°F) — not boiling.",
+        "Submerge the wrapped ballotines and poach for 20–25 minutes until firm and cooked through.",
+        "Remove, cool slightly, then unwrap."
+      ]
+    },
+    {
+      "title": "Step 5 – Sear for Finish",
+      "steps": [
+        "Heat olive oil and butter in a pan over medium-high heat.",
+        "Sear the ballotines on all sides until the skin is golden and crisp.",
+        "Rest for 5 minutes before slicing."
+      ]
+    },
+    {
+      "title": "Step 6 – Prepare the Sauce",
+      "steps": [
+        "Sauté shallots in a little butter until translucent.",
+        "Deglaze with white wine, reducing by half.",
+        "Add chicken stock and reduce until thickened.",
+        "Stir in cream for a velouté-style sauce or whisk in butter off the heat for a glossy jus.",
+        "Season to taste."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Plating Suggestion (Fine Dining Style)",
+    "items": [
+      "Slice the ballotine into 3–4 medallions and fan them neatly on the plate.",
+      "Spoon the sauce artfully around the chicken.",
+      "Arrange baby vegetables and a quenelle of mashed potato alongside.",
+      "Garnish with microgreens or chervil sprigs."
+    ]
+  },
+
+  "chefTips": [
+    "Keep all mousse ingredients cold to prevent splitting.",
+    "You can sous-vide the ballotines at 75°C for 1 hour for perfect texture.",
+    "Add truffle oil or diced foie gras to the mousse for luxury.",
+    "Always rest the meat before slicing for clean presentation."
+  ]
+}
