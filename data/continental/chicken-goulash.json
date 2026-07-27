@@ -1,0 +1,114 @@
+{
+  "id": "372",
+  "title": "Chicken Goulash",
+  "description": "A rich and comforting Continental chicken goulash made with tender marinated chicken, slow-cooked onions, paprika, bell peppers, and a creamy sour cream finish. Perfect served with spaetzle, mashed potatoes, or herbed rice.",
+
+  "category": "Continental",
+  "time": "1 hr 40 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/chicken-goulash.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken & Marinade",
+      "items": [
+        "Boneless chicken thighs or breasts – 800 g (cut into 2-inch cubes)",
+        "Olive oil – 2 tbsp",
+        "Smoked paprika (preferably Hungarian) – 1 tbsp",
+        "Sweet paprika – 1 tsp",
+        "Cayenne pepper – ½ tsp (adjust to taste)",
+        "Salt and cracked black pepper – to taste",
+        "Lemon juice – 1 tsp"
+      ]
+    },
+    {
+      "title": "For the Goulash Base",
+      "items": [
+        "Butter – 2 tbsp",
+        "Olive oil – 1 tbsp",
+        "Onions – 2 medium, finely sliced",
+        "Garlic – 4 cloves, minced",
+        "Red bell pepper – 1, finely diced",
+        "Yellow bell pepper – 1, finely diced",
+        "Ripe tomatoes – 2 medium, peeled and chopped (or 200 ml tomato purée)",
+        "Tomato paste – 1 tbsp",
+        "Caraway seeds – 1 tsp, lightly crushed",
+        "Dried thyme – 1 tsp",
+        "Bay leaf – 1",
+        "Chicken stock – 1 cup (or more as needed)",
+        "Dry white wine – 150 ml (optional but recommended)",
+        "Sour cream or crème fraîche – 100 ml",
+        "All-purpose flour – 1 tsp (optional, to thicken)"
+      ]
+    },
+    {
+      "title": "For Finishing & Garnish",
+      "items": [
+        "Fresh parsley – finely chopped",
+        "A drizzle of sour cream or a quenelle for plating",
+        "Buttered spaetzle, mashed potatoes, or herbed rice as accompaniment"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinate the Chicken",
+      "steps": [
+        "Combine olive oil, both paprikas, cayenne, salt, pepper, and lemon juice.",
+        "Toss chicken pieces well and marinate for at least 30 minutes (or up to 4 hours in the refrigerator)."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Goulash Base",
+      "steps": [
+        "In a heavy-bottomed pan or Dutch oven, heat butter and olive oil over medium heat.",
+        "Add onions and sauté until golden brown (about 10–12 minutes).",
+        "Add garlic and caraway seeds, sauté for another 1 minute until fragrant.",
+        "Stir in the bell peppers and cook until soft, around 5–7 minutes.",
+        "Add tomato paste and cook until it deepens in color, then add chopped tomatoes.",
+        "Pour in white wine, deglaze the pan, and let it reduce by half."
+      ]
+    },
+    {
+      "title": "Step 3 – Cook the Chicken",
+      "steps": [
+        "Add marinated chicken pieces to the pan; sear lightly on all sides.",
+        "Add chicken stock and thyme, bring to a simmer.",
+        "Cover and cook gently on low heat for 40–45 minutes, stirring occasionally, until the chicken is tender and the sauce is rich."
+      ]
+    },
+    {
+      "title": "Step 4 – Finish the Sauce",
+      "steps": [
+        "Whisk sour cream with flour (if using), then temper it with a few tablespoons of the hot sauce before mixing it back into the goulash.",
+        "Simmer for another 5–7 minutes until creamy and well-blended.",
+        "Adjust seasoning with salt, pepper, or a hint more paprika."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating (Restaurant Style)",
+      "steps": [
+        "Spoon a portion of the chicken goulash neatly onto the center of a warm plate.",
+        "Serve with a side of buttered spaetzle or smooth mashed potatoes.",
+        "Drizzle a swirl of sour cream and garnish with microgreens or parsley.",
+        "Optional: Add a few drops of paprika oil for a vibrant finish."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with buttered spaetzle, mashed potatoes, or herbed rice.",
+      "Pair with a crisp Chardonnay or a light Pinot Noir.",
+      "Serve hot with a drizzle of sour cream."
+    ]
+  },
+
+  "chefTips": [
+    "Depth of flavor: Use smoked paprika and slow caramelized onions—they are key to a deep, authentic goulash flavor.",
+    "For a luxurious touch: Add a small knob of butter and a dash of cream just before serving.",
+    "Wine pairing: Serve with a crisp Chardonnay or a light Pinot Noir."
+  ]
+}
