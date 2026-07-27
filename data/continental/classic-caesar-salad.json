@@ -1,0 +1,98 @@
+{
+  "id": "367",
+  "title": "Classic Caesar Salad",
+  "description": "A timeless Continental salad made with crisp romaine lettuce, homemade croutons, authentic Caesar dressing, and freshly shaved Parmesan cheese. Perfect as an appetizer or with optional grilled chicken for a main course.",
+
+  "category": "Continental",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/classic-caesar-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Salad",
+      "items": [
+        "Romaine lettuce – 2 medium heads (fresh, crisp; inner leaves preferred)",
+        "Parmesan cheese – 60 g (freshly shaved or grated)",
+        "Croutons – 1 cup",
+        "Freshly ground black pepper – to taste"
+      ]
+    },
+    {
+      "title": "For the Croutons (Homemade)",
+      "items": [
+        "French baguette or country bread – 150 g (cut into 1.5 cm cubes)",
+        "Olive oil – 2 tbsp",
+        "Garlic – 1 clove, lightly crushed (optional, for aroma)",
+        "Salt – a pinch"
+      ]
+    },
+    {
+      "title": "For the Caesar Dressing (Authentic Version)",
+      "items": [
+        "Egg yolks – 2 large (pasteurized preferred)",
+        "Garlic – 1 clove, finely minced",
+        "Anchovy fillets – 3–4 (mashed into a paste)",
+        "Dijon mustard – 1 tsp",
+        "Lemon juice – 2 tbsp (freshly squeezed)",
+        "Worcestershire sauce – ½ tsp",
+        "Olive oil – 80 ml (extra virgin, cold pressed)",
+        "Parmesan cheese (finely grated) – 30 g",
+        "Salt – to taste",
+        "Freshly ground black pepper – to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Croutons",
+      "steps": [
+        "Toss bread cubes with olive oil, garlic, and salt.",
+        "Spread on a baking tray and toast at 180°C for 8–10 minutes, until golden and crisp.",
+        "Remove garlic after baking. Cool and set aside."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Caesar Dressing",
+      "steps": [
+        "In a stainless steel bowl, whisk together egg yolks, garlic, anchovy paste, mustard, lemon juice, and Worcestershire sauce until smooth.",
+        "Slowly drizzle in olive oil while whisking constantly to form a smooth, creamy emulsion.",
+        "Add grated Parmesan, adjust salt and pepper, and whisk to finish.",
+        "Chill until ready to serve."
+      ]
+    },
+    {
+      "title": "Step 3 – Assemble the Salad",
+      "steps": [
+        "Tear romaine lettuce into large bite-size pieces. Chill for 10 minutes for extra crispness.",
+        "In a chilled mixing bowl, toss lettuce gently with Caesar dressing until lightly coated.",
+        "Add half the croutons and Parmesan shavings; toss briefly again."
+      ]
+    },
+    {
+      "title": "Step 4 – Plating",
+      "steps": [
+        "Plate attractively — tall and layered for height.",
+        "Garnish with remaining Parmesan, a few croutons, and a light grind of black pepper.",
+        "Optional: Top with grilled chicken breast, poached egg, or anchovy fillets for variations."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately after tossing for maximum crispness.",
+      "Top with grilled chicken breast, poached egg, or anchovy fillets for variations.",
+      "Serve on chilled plates for a fine-dining presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Always use fresh, crisp romaine hearts — soggy leaves ruin the texture.",
+    "Anchovies are essential for the authentic Caesar umami flavor; don't skip them.",
+    "Use wooden salad bowls when possible to maintain temperature and aesthetic.",
+    "Chill your plates for fine-dining presentation."
+  ]
+}
