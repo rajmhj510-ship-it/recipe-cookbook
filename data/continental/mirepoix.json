@@ -1,0 +1,36 @@
+{
+  "id": "385",
+  "title": "Mirepoix",
+  "category": "Continental",
+  "description": "A classic French aromatic vegetable base of onion, carrot, and celery used to build flavor in stocks, soups, sauces, stews, and braised dishes.",
+  "image": "assets/images/continental/mirepoix.png",
+  "prepTime": "10 min",
+  "cookTime": "5 min",
+  "totalTime": "15 min",
+  "servings": "As Required",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "section": "Classic Mirepoix",
+      "items": [
+        "Onion – 50% of the mix (about 2 parts), diced",
+        "Carrot – 25% of the mix (about 1 part), diced",
+        "Celery – 25% of the mix (about 1 part), diced",
+        "1 tbsp butter or olive oil (optional, for sweating)"
+      ]
+    }
+  ],
+  "instructions": [
+    "Wash, peel if necessary, and dice the onion, carrot, and celery into uniform pieces.",
+    "Heat butter or olive oil in a heavy-bottomed saucepan over low to medium heat, if using.",
+    "Add the vegetables and sweat gently without browning for 5–10 minutes until softened and aromatic.",
+    "Use the mirepoix as the flavor base for stocks, soups, sauces, stews, braises, or roasts.",
+    "For stocks, combine the mirepoix with a bouquet garni to create a rich, balanced flavor foundation."
+  ],
+  "chefTips": [
+    "Maintain the classic French ratio of 2:1:1 (onion:carrot:celery) for balanced flavor.",
+    "Sweat the vegetables gently—avoid browning unless the recipe specifically calls for it.",
+    "Cut vegetables evenly to ensure consistent cooking and flavor extraction.",
+    "Pair mirepoix with a bouquet garni for authentic Continental and French cooking."
+  ]
+}
