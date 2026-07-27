@@ -82,7 +82,8 @@
     "items": [
       "Serve hot as an elegant Continental seafood main course.",
       "Pair with steamed asparagus, French beans, or buttered seasonal vegetables.",
-      "Serve on white porcelain plates for a refined restaurant-style presentation."
+      "Serve on white porcelain plates for a refined restaurant-style presentation.",
+      "WinePairing- White Burgundy (Chardonnay) or Sancerre (Sauvignon Blanc)"
     ]
   },
 
@@ -91,10 +92,6 @@
     "Hollandaise should be silky and warm, never hot, to prevent splitting.",
     "Pass the sauce through a fine mesh strainer for an ultra-smooth texture.",
     "Use high-quality butter and fresh herbs for the best flavor."
-  ],
-
-  "winePairing": [
-    "White Burgundy (Chardonnay)",
-    "Sancerre (Sauvignon Blanc)"
+  
   ]
 }
