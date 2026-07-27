@@ -1,0 +1,40 @@
+{
+  "id": "392",
+  "title": "Mayonnaise",
+  "category": "Continental",
+  "description": "A classic French cold emulsified mother sauce made from egg yolk, neutral oil, mustard, and lemon juice or vinegar, forming the base for countless dressings, dips, and derivative sauces.",
+  "image": "assets/images/continental/mayonnaise.png",
+  "prepTime": "10 min",
+  "cookTime": "0 min",
+  "totalTime": "10 min",
+  "servings": "180 ml",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "section": "For the Mayonnaise",
+      "items": [
+        "1 large egg yolk (room temperature)",
+        "1 tsp Dijon mustard",
+        "150 ml (⅔ cup) neutral oil (vegetable or grapeseed)",
+        "1–2 tsp fresh lemon juice or white wine vinegar",
+        "Salt, to taste",
+        "White pepper, to taste"
+      ]
+    }
+  ],
+  "instructions": [
+    "Place the egg yolk, Dijon mustard, and a pinch of salt into a mixing bowl and whisk until smooth.",
+    "Slowly drizzle in the neutral oil while whisking constantly to create a stable emulsion.",
+    "Once the mixture begins to thicken, continue adding the remaining oil in a thin, steady stream.",
+    "Whisk in the lemon juice or white wine vinegar until the desired acidity is reached.",
+    "Season with salt and white pepper, adjusting mustard or lemon juice if desired.",
+    "Transfer to a clean container, cover, and refrigerate until ready to use."
+  ],
+  "chefTips": [
+    "Ensure all ingredients are at room temperature for a stable emulsion.",
+    "Add the oil very slowly at the beginning to prevent the mayonnaise from splitting.",
+    "If the mayonnaise breaks, whisk a fresh egg yolk in a clean bowl and gradually incorporate the split mixture.",
+    "Mayonnaise is the base for Aioli, Tartar Sauce, and Rémoulade.",
+    "Ideal for sandwiches, potato salads, coleslaw, deviled eggs, seafood dips, and cold meat salads."
+  ]
+}
