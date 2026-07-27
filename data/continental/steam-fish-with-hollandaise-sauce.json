@@ -1,63 +1,100 @@
 {
   "id": "386",
   "title": "Steam Fish with Hollandaise Sauce",
+  "description": "A refined Continental seafood dish featuring delicately steamed white fish served with silky Hollandaise sauce, seasonal vegetables, and fresh herb garnishes.",
+
   "category": "Continental",
-  "description": "Delicately steamed white fish fillets served with a silky classic Hollandaise sauce and buttered seasonal vegetables for an elegant Continental main course.",
-  "image": "assets/images/continental/steam-fish-with-hollandaise-sauce.png",
-  "prepTime": "15 min",
-  "cookTime": "15 min",
-  "totalTime": "30 min",
-  "servings": "2",
+  "time": "35 min",
   "difficulty": "Medium",
+  "image": "assets/images/continental/steam-fish-with-hollandaise-sauce.png",
+
   "ingredients": [
     {
-      "section": "For the Fish",
+      "title": "For the Fish",
       "items": [
-        "2 fresh white fish fillets (sea bass, cod, or snapper, 160–180 g each)",
-        "Sea salt, to taste",
-        "Freshly ground white pepper, to taste",
-        "1 tbsp extra virgin olive oil",
-        "2 lemon slices",
-        "2 sprigs fresh dill or tarragon"
+        "Fresh white fish fillets (sea bass, cod, or snapper) – 2 pieces (160–180 g each)",
+        "Sea salt – to taste",
+        "Freshly ground white pepper – to taste",
+        "Extra virgin olive oil – 1 tbsp",
+        "Lemon slices – 2",
+        "Fresh dill or tarragon – 2 sprigs"
       ]
     },
     {
-      "section": "For the Hollandaise Sauce",
+      "title": "For the Hollandaise Sauce",
       "items": [
-        "3 egg yolks",
-        "125 g unsalted butter, melted and clarified",
-        "1 tbsp white wine vinegar",
-        "1 tbsp fresh lemon juice",
-        "A pinch of salt",
-        "A pinch of cayenne pepper or white pepper"
+        "Egg yolks – 3",
+        "Unsalted butter, melted and clarified – 125 g",
+        "White wine vinegar – 1 tbsp",
+        "Fresh lemon juice – 1 tbsp",
+        "Salt – a pinch",
+        "Cayenne pepper or white pepper – a pinch"
       ]
     },
     {
-      "section": "For the Garnish",
+      "title": "For the Garnish",
       "items": [
         "Steamed asparagus or French beans",
         "Baby carrots, blanched and sautéed in butter",
         "Microgreens or chervil leaves",
-        "Lemon zest oil (optional)"
+        "Lemon zest oil – optional"
       ]
     }
   ],
-  "instructions": [
-    "Season the fish fillets lightly with sea salt and white pepper.",
-    "Brush each fillet with olive oil and place on parchment paper or banana leaf. Top with a lemon slice and a sprig of dill or tarragon.",
-    "Steam at 85–90°C (185–195°F) for 6–8 minutes until the fish is opaque and flakes easily.",
-    "To prepare the Hollandaise, whisk the egg yolks and white wine vinegar in a heatproof bowl over a bain-marie until pale and thickened.",
-    "Gradually whisk in the warm clarified butter until fully emulsified and silky.",
-    "Season the sauce with salt, lemon juice, and cayenne or white pepper. Keep warm without overheating.",
-    "Arrange the steamed fish on warm serving plates.",
-    "Spoon the Hollandaise sauce over the fish.",
-    "Serve with steamed asparagus or French beans and buttered baby carrots.",
-    "Finish with microgreens, chervil, and a drizzle of lemon zest oil if desired."
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Fish",
+      "steps": [
+        "Lightly season the fish fillets with salt and white pepper.",
+        "Brush with olive oil and place each fillet on a small square of parchment or banana leaf.",
+        "Add a lemon slice and a sprig of dill or tarragon over each fillet.",
+        "Steam at 85–90°C (185–195°F) for 6–8 minutes until the fish is opaque and just begins to flake.",
+        "Avoid over-steaming to maintain a moist and delicate texture."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Hollandaise Sauce",
+      "steps": [
+        "Place egg yolks and white wine vinegar in a heatproof bowl over a barely simmering bain-marie.",
+        "Whisk continuously until the mixture becomes pale, thick, and slightly ribbon-like.",
+        "Slowly drizzle in warm clarified butter while whisking constantly to create a smooth emulsion.",
+        "Season with salt, lemon juice, and cayenne pepper or white pepper.",
+        "Keep warm at approximately 60°C (140°F) and avoid overheating.",
+        "Adjust consistency with a teaspoon of warm water if the sauce becomes too thick."
+      ]
+    },
+    {
+      "title": "Step 3 – Plating & Presentation",
+      "steps": [
+        "Place the steamed fish slightly off-center on a warm white porcelain plate.",
+        "Spoon Hollandaise sauce generously over the fish.",
+        "Arrange sautéed vegetables beside the fish in an elegant manner.",
+        "Drizzle with lemon zest oil for aromatic freshness.",
+        "Finish with microgreens, chervil leaves, or a small sprig of dill.",
+        "Add sea salt flakes just before serving for a refined finish."
+      ]
+    }
   ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as an elegant Continental seafood main course.",
+      "Pair with steamed asparagus, French beans, or buttered seasonal vegetables.",
+      "Serve on white porcelain plates for a refined restaurant-style presentation."
+    ]
+  },
+
   "chefTips": [
-    "Steam the fish gently to preserve its delicate texture and moisture.",
-    "Keep the Hollandaise around 60°C (140°F) to prevent splitting.",
-    "If the sauce becomes too thick, whisk in a teaspoon of warm water.",
-    "Serve immediately on warm plates for the best presentation and flavor."
+    "Use gentle moist steam to preserve the fish’s natural tenderness.",
+    "Hollandaise should be silky and warm, never hot, to prevent splitting.",
+    "Pass the sauce through a fine mesh strainer for an ultra-smooth texture.",
+    "Use high-quality butter and fresh herbs for the best flavor."
+  ],
+
+  "winePairing": [
+    "White Burgundy (Chardonnay)",
+    "Sancerre (Sauvignon Blanc)"
   ]
 }
