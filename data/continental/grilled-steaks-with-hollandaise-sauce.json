@@ -1,0 +1,108 @@
+{
+  "id": "364",
+  "title": "Grilled Steaks with Hollandaise Sauce",
+  "description": "Premium grilled beef steaks cooked to your preferred doneness and served with a classic French Hollandaise sauce. Finished with elegant garnishes for a true Continental fine-dining experience.",
+
+  "category": "Continental",
+  "time": "45 min",
+  "difficulty": "Professional",
+  "image": "assets/images/continental/grilled-steaks-with-hollandaise-sauce.png",
+
+  "ingredients": [
+    {
+      "title": "For the Steaks",
+      "items": [
+        "Premium beef tenderloin or ribeye steaks – 2 (200–250 g each, 1½ inches thick)",
+        "Olive oil – 2 tbsp",
+        "Clarified butter – 1 tbsp",
+        "Sea salt (flake preferred) – 2 tsp",
+        "Freshly ground black pepper – 1 tsp",
+        "Fresh rosemary – 1 sprig",
+        "Garlic – 1 clove, crushed (for basting)"
+      ]
+    },
+    {
+      "title": "For the Hollandaise Sauce",
+      "items": [
+        "Large egg yolks – 3",
+        "White wine vinegar – 2 tbsp (or lemon juice for a milder flavor)",
+        "Unsalted butter, clarified and warm – 150 g (10 tbsp)",
+        "Dijon mustard – ½ tsp (optional, for stability and depth)",
+        "Salt – ½ tsp",
+        "Cayenne or white pepper – a pinch",
+        "Lemon juice – a few drops (to finish)"
+      ]
+    },
+    {
+      "title": "For the Garnish (Optional)",
+      "items": [
+        "Grilled asparagus spears",
+        "Microgreens or watercress",
+        "Maldon sea salt flakes"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Steaks",
+      "steps": [
+        "Bring steaks to room temperature (about 30 minutes before cooking).",
+        "Pat dry thoroughly with paper towels — moisture prevents a good sear.",
+        "Brush both sides with olive oil and season generously with salt and pepper."
+      ]
+    },
+    {
+      "title": "Step 2 – Grill the Steaks",
+      "steps": [
+        "Use a heavy cast-iron grill pan or outdoor grill preheated to high heat.",
+        "Lightly oil the grill grates or pan.",
+        "Place steaks on the grill — do not move them for the first 2–3 minutes to ensure perfect grill marks.",
+        "Turn 90° for crosshatch marks, then flip after 4–5 minutes (depending on thickness).",
+        "Baste lightly with clarified butter infused with rosemary and garlic.",
+        "Cook to desired doneness: Rare – 50°C / 122°F, Medium-rare – 55°C / 131°F, Medium – 60°C / 140°F.",
+        "Rest steaks for 5–8 minutes, tented with foil. This allows juices to redistribute."
+      ]
+    },
+    {
+      "title": "Step 3 – Make the Hollandaise",
+      "steps": [
+        "Technique: Bain-Marie (Double Boiler Method).",
+        "In a heatproof bowl, whisk egg yolks and vinegar until slightly thickened.",
+        "Place the bowl over a pot of simmering water (not boiling).",
+        "Continue whisking until the mixture becomes pale and creamy — ribbons should form when the whisk is lifted.",
+        "Slowly drizzle in warm clarified butter while whisking continuously. Add a few drops at a time at first, then in a thin steady stream.",
+        "Once thick and glossy, season with salt, cayenne, and lemon juice to taste.",
+        "Keep warm (not hot) until service — ideally at 40–45°C (104–113°F).",
+        "Chef's Tip: If the sauce splits, whisk in a teaspoon of hot water or a new egg yolk to re-emulsify."
+      ]
+    },
+    {
+      "title": "Step 4 – Plating",
+      "steps": [
+        "Spoon a generous pool of Hollandaise onto a pre-warmed plate.",
+        "Slice or leave the steak whole; place it elegantly over the sauce.",
+        "Add grilled asparagus or your chosen sides.",
+        "Garnish with microgreens and Maldon sea salt flakes.",
+        "Serve immediately while the steak is juicy and the Hollandaise is silky."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Chef's Signature Touch",
+    "items": [
+      "Brush the steak with a touch of truffle oil before serving for a luxury aroma.",
+      "A sprinkle of smoked paprika or chive dust adds visual contrast and depth.",
+      "Serve with Dauphinoise potatoes or Pommes Anna for a true Continental fine-dining pairing."
+    ]
+  },
+
+  "chefTips": [
+    "Bring steaks to room temperature before grilling for even cooking.",
+    "Do not move the steaks too early to achieve perfect grill marks.",
+    "Rest the steaks before serving to retain their juices.",
+    "Keep the Hollandaise warm, not hot, to prevent splitting.",
+    "If the Hollandaise splits, whisk in a teaspoon of hot water or a fresh egg yolk to restore the emulsion."
+  ]
+}
