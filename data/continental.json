@@ -794,7 +794,7 @@
     "title": "Niçoise Salad",
     "category": "Continental",
     "file": "data/continental/nicoise-salad.json",
-    "image": "assets/images/continental/chicken-à-la-kiev.png",
+    "image": "assets/images/continental/niçoise-salad.png",
     "description": "A classic French salad featuring seared tuna, potatoes, green beans, olives, eggs, tomatoes, and a Dijon vinaigrette.",
     "time": "35 min",
     "difficulty": "Medium"
