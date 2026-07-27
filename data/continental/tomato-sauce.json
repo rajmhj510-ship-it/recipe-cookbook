@@ -11,7 +11,7 @@
   "difficulty": "Easy",
   "ingredients": [
     {
-      "section": "For the Tomate Sauce",
+      "title": "For the Tomate Sauce",
       "items": [
         "2 tbsp olive oil or pork fat",
         "1 onion, finely diced",
@@ -30,15 +30,20 @@
     }
   ],
   "instructions": [
-    "Heat the olive oil or pork fat in a heavy saucepan over medium heat.",
-    "Add the onion, carrot, and celery, then sauté until softened and aromatic.",
-    "Stir in the minced garlic and cook for about 1 minute.",
-    "Add the peeled tomatoes and tomato paste, then cook for several minutes until slightly thickened.",
-    "Pour in the stock or water, then add the bay leaf, thyme, and pork rind if using.",
-    "Bring the sauce to a gentle boil, then reduce the heat and simmer uncovered for 45–60 minutes, stirring occasionally.",
-    "Remove the bay leaf, thyme, and pork rind.",
-    "Blend or pass the sauce through a fine sieve for a smooth consistency if desired.",
-    "Season with salt and freshly ground black pepper before serving."
+    {
+      "title": "Instruction",
+      "steps": [
+        "Heat the olive oil or pork fat in a heavy saucepan over medium heat.",
+        "Add the onion, carrot, and celery, then sauté until softened and aromatic.",
+        "Stir in the minced garlic and cook for about 1 minute.",
+        "Add the peeled tomatoes and tomato paste, then cook for several minutes until slightly thickened.",
+        "Pour in the stock or water, then add the bay leaf, thyme, and pork rind if using.",
+        "Bring the sauce to a gentle boil, then reduce the heat and simmer uncovered for 45–60 minutes, stirring occasionally.",
+        "Remove the bay leaf, thyme, and pork rind.",
+        "Blend or pass the sauce through a fine sieve for a smooth consistency if desired.",
+        "Season with salt and freshly ground black pepper before serving."
+      ]
+    }
   ],
   "chefTips": [
     "Slow simmering develops a richer, sweeter tomato flavor.",
