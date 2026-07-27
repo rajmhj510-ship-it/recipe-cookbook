@@ -1,0 +1,93 @@
+{
+  "id": "381",
+  "title": "Niçoise Salad (Salade Niçoise)",
+  "description": "A classic French salad featuring lightly seared tuna, tender vegetables, soft-boiled eggs, olives, and a traditional vinaigrette. Fresh, elegant, and beautifully balanced for a restaurant-style presentation.",
+
+  "category": "Continental",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/nicoise-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Salad",
+      "items": [
+        "Yellowfin or Bluefin Tuna Loin – 200 g, fresh, sashimi grade",
+        "Baby New Potatoes – 6–8, halved",
+        "Fine Green Beans (Haricots Verts) – 100 g, trimmed",
+        "Heirloom Cherry Tomatoes – 6–8, halved",
+        "Kalamata or Niçoise Olives – 8–10, pitted",
+        "Soft-Boiled Quail Eggs – 6 (or 2 medium hen’s eggs)",
+        "Baby Gem Lettuce or Frisée Leaves – 1 small head",
+        "Anchovy Fillets (Optional) – 2–3, high-quality, oil-packed",
+        "Capers – 1 tbsp, rinsed",
+        "Fresh Herbs – chives, basil, tarragon (for garnish)"
+      ]
+    },
+    {
+      "title": "For the Dressing (Classic French Vinaigrette)",
+      "items": [
+        "Extra Virgin Olive Oil – 60 ml",
+        "Dijon Mustard – 1 tsp",
+        "Red Wine Vinegar – 20 ml",
+        "Lemon Juice – 10 ml",
+        "Shallot – 1 small, finely minced",
+        "Sea Salt & Cracked Black Pepper – to taste"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Tuna",
+      "steps": [
+        "Lightly season tuna loin with sea salt and black pepper.",
+        "Sear on a cast-iron skillet or grill for 30–45 seconds per side, leaving the center rare.",
+        "Rest briefly, then slice into ½-inch medallions."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Vegetables",
+      "steps": [
+        "Boil potatoes in salted water until tender, drain, and toss with a touch of vinaigrette while warm.",
+        "Blanch green beans in boiling salted water for 2 minutes, then shock in ice water to retain their bright green color.",
+        "Soft-boil quail eggs (2½–3 minutes) or hen's eggs (6 minutes), then cool and peel gently.",
+        "Keep tomatoes and lettuce chilled until plating for a crisp texture."
+      ]
+    },
+    {
+      "title": "Step 3 – Make the Vinaigrette",
+      "steps": [
+        "Whisk Dijon mustard, red wine vinegar, lemon juice, and shallot together.",
+        "Slowly drizzle in olive oil to emulsify.",
+        "Season with salt and pepper."
+      ]
+    },
+    {
+      "title": "Step 4 – Plating",
+      "steps": [
+        "On a chilled white plate, arrange lettuce as the base.",
+        "Artfully place alternating segments of tuna, potatoes, and green beans.",
+        "Add halved tomatoes, olives, capers, and eggs.",
+        "Drizzle vinaigrette in fine ribbons over and around the ingredients.",
+        "Garnish with micro herbs or chiffonade of basil and a few anchovy fillets if desired.",
+        "Optional: Finish with a few drops of aged balsamic reduction or lemon oil for aroma and sheen."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve slightly chilled for the best texture and flavor.",
+      "Pair with crusty French bread or a light baguette.",
+      "Enjoy with Provence Rosé, Chablis, or a light Sauvignon Blanc."
+    ]
+  },
+
+  "chefTips": [
+    "Always serve slightly chilled (not cold) to maintain tuna texture and vinaigrette aroma.",
+    "Use high-quality olive oil—it defines the salad's overall character.",
+    "For extra refinement, lightly brush the tuna with herb oil before searing."
+  ]
+}
