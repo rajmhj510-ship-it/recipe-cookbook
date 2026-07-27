@@ -1,0 +1,99 @@
+{
+  "id": "379",
+  "title": "Chicken Soup",
+  "description": "A classic Continental chicken soup made with a clear homemade stock, tender shredded chicken, and delicate vegetables. Light, refined, and perfect as a comforting starter or light main course.",
+
+  "category": "Continental",
+  "time": "95 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/chicken-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken Stock (Base)",
+      "items": [
+        "Whole chicken – 1 (about 1.2 kg), cut into pieces",
+        "Cold water – 2 L",
+        "Large onion – 1, halved (leave skin on for color)",
+        "Carrots – 2, roughly chopped",
+        "Celery stalks – 2, roughly chopped",
+        "Leek – 1, cleaned and sliced",
+        "Garlic cloves – 4, crushed",
+        "Whole peppercorns – 6–8",
+        "Bay leaves – 2",
+        "Fresh thyme – 2 sprigs",
+        "Parsley stems – 1 small bunch",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "For the Soup",
+      "items": [
+        "Unsalted butter – 1 tbsp",
+        "Olive oil – 1 tbsp",
+        "Small onion – 1, finely diced",
+        "Medium carrot – 1, finely diced",
+        "Celery stalk – 1, finely diced",
+        "Leek (white part) – 1, finely sliced",
+        "All-purpose flour – 1 tbsp (optional, for slight thickening)",
+        "Clarified chicken stock – 500 ml",
+        "Cooked shredded chicken breast – 200 g",
+        "Dry white wine – 100 ml (optional but adds refinement)",
+        "Cream – 1 tbsp (optional, for Continental richness)",
+        "Salt and white pepper – to taste",
+        "Fresh parsley or chives – finely chopped (for garnish)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Chicken Stock",
+      "steps": [
+        "Combine chicken, cold water, and all aromatics in a large stockpot.",
+        "Bring to a gentle simmer — never a rolling boil (this keeps the stock clear).",
+        "Skim foam frequently for the first 15 minutes.",
+        "Simmer uncovered for about 1 hour.",
+        "Strain through a fine sieve or muslin cloth.",
+        "Skim any fat off the surface. Set aside or refrigerate overnight for clarity."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Soup Base",
+      "steps": [
+        "In a heavy-bottomed pot, heat butter and olive oil over medium-low heat.",
+        "Add diced onion, carrot, celery, and leek — sweat gently until translucent (no browning).",
+        "Stir in flour (if using) and cook for 1 minute to form a light roux.",
+        "Deglaze with white wine; reduce by half.",
+        "Add hot clarified stock and simmer 10–15 minutes until vegetables are tender.",
+        "Stir in shredded chicken and cream (optional).",
+        "Season with salt and white pepper."
+      ]
+    },
+    {
+      "title": "Step 3 – To Serve",
+      "steps": [
+        "Ladle into pre-warmed soup bowls.",
+        "Garnish lightly with chopped parsley or chives.",
+        "Serve with toasted baguette slices or buttered brioche croutons."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with toasted baguette slices.",
+      "Pair with buttered brioche croutons.",
+      "Enjoy as a light main course or elegant starter."
+    ]
+  },
+
+  "chefTips": [
+    "A crystal-clear stock is the hallmark of a professional Continental soup.",
+    "Clarity and depth of flavor define Continental soups — avoid over-seasoning.",
+    "Use fresh herbs only; dried herbs dull the refined flavor profile.",
+    "A dash of sherry or white wine before serving adds sophistication.",
+    "For a luxury variant, add a poached quail egg or a few drops of truffle oil just before serving."
+  ]
+}
