@@ -1,0 +1,105 @@
+{
+  "id": "376",
+  "title": "Buffalo Wings",
+  "description": "Classic crispy Buffalo Wings made using the double-fry technique and tossed in a rich buttery hot sauce. Served with blue cheese dressing, celery, and carrot sticks for the authentic restaurant-style experience.",
+
+  "category": "Continental",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/buffalo-wings.png",
+
+  "ingredients": [
+    {
+      "title": "For the Wings",
+      "items": [
+        "Chicken wings – 2 lbs (1 kg), split into drumettes and flats, tips removed",
+        "Kosher salt – 2 tsp",
+        "Baking powder – 1 tsp (NOT baking soda — this helps crispiness)",
+        "Black pepper – ½ tsp",
+        "Garlic powder – ½ tsp"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Neutral oil (peanut, canola, or vegetable) – enough to submerge wings",
+        "Oil temperature – 350°F / 175°C"
+      ]
+    },
+    {
+      "title": "For the Buffalo Sauce",
+      "items": [
+        "Unsalted butter – ½ cup (120 g)",
+        "Frank's RedHot Original – ½ cup (120 ml)",
+        "White vinegar – 1 tbsp",
+        "Worcestershire sauce – 1 tsp",
+        "Cayenne pepper – ½ tsp (adjust to heat preference)",
+        "Smoked paprika – ½ tsp",
+        "Garlic powder – a pinch",
+        "Salt – a pinch"
+      ]
+    },
+    {
+      "title": "For Serving",
+      "items": [
+        "Blue cheese dressing or ranch",
+        "Celery sticks",
+        "Carrot sticks"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Dry and Season the Wings",
+      "steps": [
+        "Pat wings completely dry with paper towels — moisture prevents crisping.",
+        "Toss in a bowl with salt, baking powder, pepper, and garlic powder.",
+        "Lay out on a rack (over a tray) and refrigerate uncovered for at least 1 hour (up to 12 hours)."
+      ]
+    },
+    {
+      "title": "Step 2 – Fry the Wings (Double-Fry Technique)",
+      "steps": [
+        "Heat oil to 250°F / 120°C for the first fry.",
+        "Fry wings for 8 minutes, then remove to a rack or paper towel.",
+        "Increase oil temperature to 375°F / 190°C.",
+        "Fry wings again for 2–3 minutes, until golden brown and crisp.",
+        "Drain well."
+      ]
+    },
+    {
+      "title": "Step 3 – Make the Buffalo Sauce",
+      "steps": [
+        "In a small saucepan, melt butter over low heat.",
+        "Add Frank's RedHot, vinegar, Worcestershire, cayenne, paprika, garlic powder, and salt.",
+        "Whisk until smooth and emulsified (do not boil).",
+        "Keep warm."
+      ]
+    },
+    {
+      "title": "Step 4 – Toss and Serve",
+      "steps": [
+        "Immediately toss hot wings in the warm sauce until evenly coated.",
+        "Serve right away with blue cheese dressing, celery, and carrot sticks."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with blue cheese dressing or ranch.",
+      "Accompany with celery and carrot sticks.",
+      "Serve immediately while hot and crispy."
+    ]
+  },
+
+  "chefTips": [
+    "Pat wings completely dry before seasoning for maximum crispiness.",
+    "Double-frying gives the restaurant-level crispy texture without overcooking the meat.",
+    "Balance the sauce by adding more butter for a milder flavor or more hot sauce for extra heat.",
+    "Use clarified butter for an extra smooth, glossy sauce.",
+    "After saucing, flash the wings in a 425°F (220°C) oven for 2 minutes to lock in the glaze."
+  ]
+}
