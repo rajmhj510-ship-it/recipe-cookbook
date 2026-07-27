@@ -1,0 +1,130 @@
+{
+  "id": "374",
+  "title": "Grilled Chicken Breast with Hasselback Potato, Glazed Carrot & Savoury Beetroot Purée",
+  "description": "A refined Continental main course featuring smoky grilled chicken breast served with crispy Hasselback potatoes, honey-butter glazed carrots, and a silky savoury beetroot purée, finished with elegant fine-dining garnishes.",
+
+  "category": "Continental",
+  "time": "1 hr 15 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/grilled-chicken-breast-hasselback-potato-glazed-carrot-beetroot-puree.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Boneless, skinless chicken breasts – 2 (180–200 g each)",
+        "Olive oil – 1 tbsp",
+        "Lemon juice – 1 tsp",
+        "Dijon mustard – 1 tsp",
+        "Smoked paprika – ½ tsp",
+        "Garlic – 1 clove, minced",
+        "Salt & cracked black pepper – to taste",
+        "Fresh thyme or rosemary sprigs"
+      ]
+    },
+    {
+      "title": "For the Hasselback Potatoes",
+      "items": [
+        "Medium Yukon Gold or baby potatoes – 2",
+        "Melted butter – 2 tbsp",
+        "Olive oil – 1 tbsp",
+        "Garlic – 1 clove, crushed",
+        "Fresh rosemary or thyme",
+        "Salt & pepper"
+      ]
+    },
+    {
+      "title": "For the Glazed Carrots",
+      "items": [
+        "Baby carrots – 4 (peeled, tops trimmed)",
+        "Butter – 1 tbsp",
+        "Honey or maple syrup – 1 tsp",
+        "Lemon juice – ½ tsp",
+        "Pinch of salt"
+      ]
+    },
+    {
+      "title": "For the Beetroot Purée",
+      "items": [
+        "Medium beetroots – 2 (roasted or boiled)",
+        "Butter – 1 tbsp",
+        "Cream or crème fraîche – 1 tbsp",
+        "Balsamic vinegar – ½ tsp",
+        "Lemon juice – ½ tsp",
+        "Salt – to taste"
+      ]
+    },
+    {
+      "title": "Optional Garnish",
+      "items": [
+        "Microgreens",
+        "Sea salt flakes",
+        "Olive oil drizzle"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinate & Grill the Chicken",
+      "steps": [
+        "Combine olive oil, lemon juice, mustard, paprika, garlic, salt, pepper, and herbs.",
+        "Rub over chicken breasts and marinate for 30 minutes.",
+        "Preheat a grill or grill pan over medium-high heat.",
+        "Grill chicken for 4–5 minutes per side, until golden and cooked through (core temp ≈ 74°C).",
+        "Rest under foil for 5 minutes before slicing."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Hasselback Potatoes",
+      "steps": [
+        "Preheat oven to 200°C (400°F).",
+        "Slice potatoes thinly across the top (¾ through, not all the way).",
+        "Brush with butter-oil mixture, season with salt, pepper, herbs, and garlic.",
+        "Roast for 40–45 minutes, basting halfway, until crisp and golden."
+      ]
+    },
+    {
+      "title": "Step 3 – Glaze the Carrots",
+      "steps": [
+        "In a small sauté pan, melt butter and add carrots.",
+        "Add honey, lemon juice, and a tablespoon of water.",
+        "Cook over medium-low heat, rolling occasionally, until glossy and tender (8–10 minutes).",
+        "Season lightly with salt."
+      ]
+    },
+    {
+      "title": "Step 4 – Make the Beetroot Purée",
+      "steps": [
+        "Blend roasted beets with butter, cream, balsamic vinegar, and lemon juice until silky.",
+        "Adjust seasoning with salt and pass through a fine sieve for extra smoothness.",
+        "Keep warm."
+      ]
+    },
+    {
+      "title": "Step 5 – Plating (Fine Dining Style)",
+      "steps": [
+        "Swipe a spoonful of beetroot purée across the plate.",
+        "Slice the grilled chicken breast on a bias and fan it over the purée.",
+        "Place one Hasselback potato beside it.",
+        "Add glazed carrots neatly along one edge.",
+        "Drizzle a few drops of olive oil or chicken jus reduction.",
+        "Garnish with microgreens or a thyme sprig and a pinch of sea salt flakes."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Pairing Suggestions",
+    "items": [
+      "Wine: Light Chardonnay or Sauvignon Blanc.",
+      "Non-alcoholic: Sparkling elderflower tonic with lemon zest."
+    ]
+  },
+
+  "chefTips": [
+    "For extra finesse, finish the chicken with a light butter baste and herbs in the last minute of grilling.",
+    "You can add a crispy element (e.g., fried shallots or parsnip chips) for texture contrast.",
+    "The beetroot purée doubles as both color and flavor anchor — serve warm, not hot."
+  ]
+}
