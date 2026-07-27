@@ -578,6 +578,248 @@
     "description": "Classic Continental soup featuring seasonal vegetables, beans, pasta, and a flavorful vegetable broth.",
     "time": "50 min",
     "difficulty": "Medium"
+  },
+  [
+  {
+    "id": 360,
+    "title": "Pasta Salad",
+    "category": "Continental",
+    "file": "data/continental/pasta-salad.json",
+    "image": "assets/images/continental/pasta-salad.png",
+    "description": "A refreshing Mediterranean-style pasta salad featuring al dente pasta, crisp vegetables, creamy feta cheese, and a light homemade vinaigrette. Perfect as a side dish or a satisfying main course with optional protein additions.",
+    "time": "25 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 361,
+    "title": "Spaghetti Bolognese",
+    "category": "Continental",
+    "file": "data/continental/spaghetti-bolognese.json",
+    "image": "assets/images/continental/spaghetti-bolognese.png",
+    "description": "Classic Italian-style spaghetti served with a slow-cooked Bolognese sauce made with beef, pork, tomatoes, red wine, and herbs, finished with freshly grated Parmigiano Reggiano.",
+    "time": "3 hr 30 min",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 362,
+    "title": "Prawn Cocktail",
+    "category": "Continental",
+    "file": "data/continental/prawn-cocktail.json",
+    "image": "assets/images/continental/prawn-cocktail.png",
+    "description": "Poached prawns served with a classic Marie Rose sauce over crisp lettuce, finished with fresh herbs and lemon for a timeless continental appetizer.",
+    "time": "25 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 363,
+    "title": "Prawn Bisque",
+    "category": "Continental",
+    "file": "data/continental/prawn-bisque.json",
+    "image": "assets/images/continental/prawn-bisque.png",
+    "description": "A rich and velvety French-style prawn bisque prepared from roasted prawn shells, aromatic vegetables, cream, and finished with buttery seared prawns.",
+    "time": "2 hr",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 364,
+    "title": "Grilled Steaks with Hollandaise Sauce",
+    "category": "Continental",
+    "file": "data/continental/grilled-steaks-with-hollandaise-sauce.json",
+    "image": "assets/images/continental/grilled-steaks-with-hollandaise-sauce.png",
+    "description": "Perfectly grilled premium beef steaks paired with silky homemade Hollandaise sauce and classic continental accompaniments.",
+    "time": "45 min",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 365,
+    "title": "Pineapple Gazpacho",
+    "category": "Continental",
+    "file": "data/continental/pineapple-gazpacho.json",
+    "image": "assets/images/continental/pineapple-gazpacho.png",
+    "description": "A refreshing chilled pineapple and vegetable gazpacho with bright tropical flavors, finished with elegant fine-dining garnishes.",
+    "time": "2 hr 20 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 366,
+    "title": "Classic Chicken Ballotine",
+    "category": "Continental",
+    "file": "data/continental/classic-chicken-ballotine.json",
+    "image": "assets/images/continental/classic-chicken-ballotine.png",
+    "description": "Tender chicken thighs stuffed with a delicate chicken mousse, gently poached, pan-seared, and served with a rich velouté or jus.",
+    "time": "1 hr 30 min",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 367,
+    "title": "Classic Caesar Salad",
+    "category": "Continental",
+    "file": "data/continental/classic-caesar-salad.json",
+    "image": "assets/images/continental/classic-caesar-salad.png",
+    "description": "Crisp romaine lettuce tossed with authentic Caesar dressing, homemade croutons, and freshly shaved Parmesan cheese.",
+    "time": "30 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 368,
+    "title": "Chilled Watermelon & Feta Soup",
+    "category": "Continental",
+    "file": "data/continental/chilled-watermelon-and-feta-soup.json",
+    "image": "assets/images/continental/chilled-watermelon-and-feta-soup.png",
+    "description": "A refreshing chilled watermelon soup balanced with cucumber, feta cheese, herbs, and elegant fine-dining garnishes.",
+    "time": "3 hr",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 369,
+    "title": "Chicken Cordon Bleu",
+    "category": "Continental",
+    "file": "data/continental/chicken-cordon-bleu.json",
+    "image": "assets/images/continental/chicken-cordon-bleu.png",
+    "description": "Golden breaded chicken breast stuffed with premium ham and Swiss cheese, served with a creamy Dijon or Mornay sauce.",
+    "time": "1 hr",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 370,
+    "title": "Greek Salad",
+    "category": "Continental",
+    "file": "data/continental/greek-salad.json",
+    "image": "assets/images/continental/greek-salad.png",
+    "description": "A traditional Mediterranean salad featuring ripe tomatoes, cucumber, olives, crisp vegetables, and a slab of authentic feta cheese.",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 371,
+    "title": "Chicken Schnitzel",
+    "category": "Continental",
+    "file": "data/continental/chicken-schnitzel.json",
+    "image": "assets/images/continental/chicken-schnitzel.png",
+    "description": "Crispy golden chicken schnitzel coated in seasoned breadcrumbs and served with classic continental side dishes.",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 372,
+    "title": "Chicken Goulash",
+    "category": "Continental",
+    "file": "data/continental/chicken-goulash.json",
+    "image": "assets/images/continental/chicken-goulash.png",
+    "description": "Tender chicken simmered in a rich paprika-infused goulash sauce with peppers, onions, tomatoes, and sour cream.",
+    "time": "1 hr 45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 373,
+    "title": "Grilled Chicken with Tuscan Potatoes, Buttered Vegetables & Chicken Jus",
+    "category": "Continental",
+    "file": "data/continental/grilled-chicken-with-tuscan-potatoes-buttered-vegetables-and-chicken-jus.json",
+    "image": "assets/images/continental/grilled-chicken-with-tuscan-potatoes-buttered-vegetables-and-chicken-jus.png",
+    "description": "Juicy grilled chicken breast served with crispy Tuscan potatoes, buttered seasonal vegetables, and a classic chicken jus.",
+    "time": "2 hr 30 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 374,
+    "title": "Grilled Chicken Breast with Hasselback Potato, Glazed Carrot & Savoury Beetroot Purée",
+    "category": "Continental",
+    "file": "data/continental/grilled-chicken-breast-with-hasselback-potato-glazed-carrot-and-savoury-beetroot-puree.json",
+    "image": "assets/images/continental/grilled-chicken-breast-with-hasselback-potato-glazed-carrot-and-savoury-beetroot-puree.png",
+    "description": "Grilled chicken breast plated with crispy Hasselback potato, honey-glazed carrots, and smooth savoury beetroot purée.",
+    "time": "1 hr 15 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 375,
+    "title": "Chicken à la King",
+    "category": "Continental",
+    "file": "data/continental/chicken-a-la-king.json",
+    "image": "assets/images/continental/chicken-a-la-king.png",
+    "description": "Tender chicken in a creamy velouté sauce with mushrooms, peppers, and herbs, served in a classic continental style.",
+    "time": "50 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 376,
+    "title": "Buffalo Wings",
+    "category": "Continental",
+    "file": "data/continental/buffalo-wings.json",
+    "image": "assets/images/continental/buffalo-wings.png",
+    "description": "Extra crispy fried chicken wings tossed in a classic buttery Buffalo sauce and served with blue cheese dressing and fresh vegetables.",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 377,
+    "title": "Cream of Mushroom Soup",
+    "category": "Continental",
+    "file": "data/continental/cream-of-mushroom-soup.json",
+    "image": "assets/images/continental/cream-of-mushroom-soup.png",
+    "description": "A smooth and creamy mushroom soup prepared with sautéed mushrooms, herbs, stock, and fresh cream.",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 378,
+    "title": "Egg Mayonnaise",
+    "category": "Continental",
+    "file": "data/continental/egg-mayonnaise.json",
+    "image": "assets/images/continental/egg-mayonnaise.png",
+    "description": "Perfectly cooked eggs served with silky homemade mayonnaise, capers, herbs, and elegant continental garnishes.",
+    "time": "25 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 379,
+    "title": "Chicken Soup",
+    "category": "Continental",
+    "file": "data/continental/chicken-soup.json",
+    "image": "assets/images/continental/chicken-soup.png",
+    "description": "A comforting European-style chicken soup prepared with clarified homemade stock, tender chicken, vegetables, and fresh herbs.",
+    "time": "1 hr 35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 380,
+    "title": "Chicken à la Kiev",
+    "category": "Continental",
+    "file": "data/continental/chicken-a-la-kiev.json",
+    "image": "assets/images/continental/chicken-a-la-kiev.png",
+    "description": "Classic breaded chicken breast filled with garlic-herb butter that melts into a rich, flavorful center when sliced.",
+    "time": "1 hr 5 min",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 381,
+    "title": "Niçoise Salad",
+    "category": "Continental",
+    "file": "data/continental/nicoise-salad.json",
+    "image": "assets/images/continental/nicoise-salad.png",
+    "description": "A classic French salad featuring seared tuna, potatoes, green beans, olives, eggs, tomatoes, and a Dijon vinaigrette.",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 382,
+    "title": "Crispy Chicken Strips with Garlic-Herb Aioli",
+    "category": "Continental",
+    "file": "data/continental/crispy-chicken-strips-with-garlic-herb-aioli.json",
+    "image": "assets/images/continental/crispy-chicken-strips-with-garlic-herb-aioli.png",
+    "description": "Golden crispy chicken strips served with a creamy roasted garlic and herb aioli for a restaurant-style appetizer or main.",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 383,
+    "title": "Waffle",
+    "category": "Continental",
+    "file": "data/continental/waffle.json",
+    "image": "assets/images/continental/waffle.png",
+    "description": "Light, fluffy, and crisp homemade waffles served with classic toppings like maple syrup, berries, whipped cream, or chocolate sauce.",
+    "time": "25 min",
+    "difficulty": "Easy"
   }
+]
 
 ]
