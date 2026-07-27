@@ -1,0 +1,47 @@
+{
+  "id": "389",
+  "title": "Espagnole Sauce (Brown Sauce)",
+  "category": "Continental",
+  "description": "One of the five classic French mother sauces, made with a brown roux, mirepoix, tomato purée, and rich brown stock to create a deep, robust foundation for demi-glace and many traditional meat sauces.",
+  "image": "assets/images/continental/espagnole-sauce-brown-sauce.png",
+  "prepTime": "15 min",
+  "cookTime": "1 hr",
+  "totalTime": "1 hr 15 min",
+  "servings": "500 ml",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "section": "For the Espagnole Sauce",
+      "items": [
+        "2 tbsp unsalted butter",
+        "2 tbsp all-purpose flour",
+        "1 small carrot, diced",
+        "1 small onion, diced",
+        "1 celery stalk, diced",
+        "1 tbsp tomato purée",
+        "500 ml (2 cups) brown stock (veal or beef)",
+        "1 bouquet garni (thyme, bay leaf, parsley)",
+        "Salt, to taste",
+        "Freshly ground black pepper, to taste"
+      ]
+    }
+  ],
+  "instructions": [
+    "Melt the butter in a heavy saucepan over medium heat.",
+    "Add the flour and cook, whisking constantly, until a deep golden-brown roux forms.",
+    "Add the diced carrot, onion, and celery, then sauté until lightly caramelized.",
+    "Stir in the tomato purée and cook for 2–3 minutes to deepen the flavor and reduce acidity.",
+    "Gradually whisk in the hot brown stock until smooth and well combined.",
+    "Add the bouquet garni and bring to a gentle simmer.",
+    "Cook for 45–60 minutes, skimming any impurities from the surface as needed.",
+    "Remove the bouquet garni and strain the sauce through a fine sieve or chinois.",
+    "Adjust seasoning with salt and freshly ground black pepper before serving."
+  ],
+  "chefTips": [
+    "Caramelize the roux and mirepoix properly to achieve a rich, complex flavor.",
+    "Use high-quality homemade brown stock for authentic results.",
+    "Simmer gently rather than boiling to maintain a smooth texture.",
+    "Espagnole is the foundation for Demi-Glace, Bordelaise, and Chasseur sauces.",
+    "Ideal for roasted meats, braised dishes, steaks, and hearty stews."
+  ]
+}
