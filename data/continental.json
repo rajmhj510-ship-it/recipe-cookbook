@@ -499,17 +499,7 @@
     "time": "55 min",
     "difficulty": "Easy"
   },
-  {
-    "id": 352,
-    "title": "Cornflakes-Coated Chicken",
-    "category": "Continental",
-    "file": "data/continental/cornflakes-coated-chicken.json",
-    "image": "assets/images/continental/cornflakes-coated-chicken.png",
-    "description": "Crispy cornflakes-coated chicken breast served with Continental herb dip and fresh garnish.",
-    "time": "50 min",
-    "difficulty": "Easy"
-  },
-  {
+    {
     "id": 353,
     "title": "Grilled Eggplant Salad",
     "category": "Continental",
