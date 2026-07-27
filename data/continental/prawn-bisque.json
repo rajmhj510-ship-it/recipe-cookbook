@@ -1,0 +1,116 @@
+{
+  "id": "363",
+  "title": "Prawn Bisque",
+  "description": "A classic French-style prawn bisque made with a rich homemade prawn stock, aromatic vegetables, cream, and finished with perfectly seared prawns. Smooth, velvety, and full of deep seafood flavor.",
+
+  "category": "Continental",
+  "time": "1 hr 45 min",
+  "difficulty": "Professional",
+  "image": "assets/images/continental/prawn-bisque.png",
+
+  "ingredients": [
+    {
+      "title": "For the Prawn Stock",
+      "items": [
+        "Prawn heads & shells (from large prawns) – 600 g",
+        "Olive oil – 1 tbsp",
+        "Onion – 1 medium, roughly chopped",
+        "Carrot – 1, roughly chopped",
+        "Leek (white part) – 1, roughly chopped",
+        "Garlic – 2 cloves, crushed",
+        "Tomato paste – 1 tbsp",
+        "Brandy or Cognac – 60 ml",
+        "Dry white wine – 150 ml",
+        "Fish or light seafood stock (unsalted preferred) – 1 L",
+        "Thyme – 2 sprigs",
+        "Bay leaf – 1",
+        "Black peppercorns – 4–5"
+      ]
+    },
+    {
+      "title": "For the Bisque Base",
+      "items": [
+        "Unsalted butter – 2 tbsp",
+        "Shallot – 1 small, finely diced",
+        "Carrot – 1 small, finely diced",
+        "Celery stalk – 1 small, finely diced",
+        "Plain flour – 1 tbsp",
+        "Ripe tomatoes – 2 medium, peeled and chopped (or 150 g crushed canned tomatoes)",
+        "Cream (35% fat) – 150 ml",
+        "Salt and white pepper – to taste",
+        "Cayenne or Espelette pepper – a pinch (optional)",
+        "Lemon juice – 2 tsp"
+      ]
+    },
+    {
+      "title": "For the Garnish",
+      "items": [
+        "Prawn meat (tails), cleaned and deveined – 200 g",
+        "Butter – 1 tbsp",
+        "Olive oil – 1 tsp",
+        "Chives or dill, finely chopped – for garnish"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Prawn Stock",
+      "steps": [
+        "Heat olive oil in a large heavy saucepan.",
+        "Add prawn heads and shells; roast over medium-high heat until pink and aromatic (about 5–7 minutes).",
+        "Add onion, carrot, leek, and garlic; sauté 3–4 minutes.",
+        "Stir in tomato paste and cook 2 minutes to caramelize.",
+        "Deglaze with brandy—carefully ignite if desired to burn off alcohol.",
+        "Add white wine and reduce by half.",
+        "Add stock, thyme, bay leaf, and peppercorns.",
+        "Simmer gently for 30–40 minutes, skimming any foam.",
+        "Strain through a fine chinois, pressing well to extract flavor. Discard solids."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Bisque Base",
+      "steps": [
+        "In a clean pot, melt butter. Add shallot, carrot, and celery; sweat gently without browning (6–8 minutes).",
+        "Stir in flour and cook for 1 minute to make a light roux.",
+        "Add chopped tomatoes and the hot prawn stock gradually, stirring to avoid lumps.",
+        "Simmer uncovered for 25 minutes until thickened and flavors meld.",
+        "Blend until smooth (use a high-speed blender for a velvety texture).",
+        "Strain again through a fine sieve for a restaurant-smooth finish.",
+        "Return to the pot, add cream, and season with salt, white pepper, and cayenne.",
+        "Adjust acidity with lemon juice just before serving."
+      ]
+    },
+    {
+      "title": "Step 3 – Prepare the Garnish",
+      "steps": [
+        "Heat butter and olive oil in a sauté pan.",
+        "Sear prawns for 1–2 minutes per side until just cooked.",
+        "Season lightly."
+      ]
+    },
+    {
+      "title": "Step 4 – Serve",
+      "steps": [
+        "Ladle hot bisque into warmed bowls.",
+        "Arrange prawns in the center.",
+        "Drizzle a touch of cream or herb oil on top.",
+        "Finish with micro-chives or dill."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Wine Pairing",
+    "items": [
+      "White Burgundy (Chardonnay).",
+      "Dry Riesling or Pouilly-Fumé."
+    ]
+  },
+
+  "chefTips": [
+    "Depth of flavor: Roast shells well; don't rush the stock.",
+    "Texture: The double-straining step gives that signature silky French bisque finish.",
+    "Umami lift: A few drops of shellfish reduction or a dab of butter right before service enriches the mouthfeel."
+  ]
+}
