@@ -1,0 +1,100 @@
+{
+  "id": "378",
+  "title": "Egg Mayonnaise",
+  "description": "A classic Continental appetizer featuring perfectly cooked eggs served with silky homemade mayonnaise, finished with capers, herbs, and elegant garnishes for a refined restaurant-style presentation.",
+
+  "category": "Continental",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/egg-mayonnaise.png",
+
+  "ingredients": [
+    {
+      "title": "For the Eggs",
+      "items": [
+        "Free-range eggs – 8",
+        "White wine vinegar – 1 tsp (optional, for poaching-style shell cooking)",
+        "Ice water – for cooling"
+      ]
+    },
+    {
+      "title": "For the Mayonnaise",
+      "items": [
+        "Egg yolks – 2",
+        "Dijon mustard – 1 tsp",
+        "White wine vinegar or lemon juice – 1 tbsp",
+        "Salt – to taste",
+        "Freshly ground white pepper – to taste",
+        "Neutral oil (grapeseed, sunflower, or light olive oil) – 250 ml",
+        "Optional: a few drops of truffle oil or lemon zest for sophistication"
+      ]
+    },
+    {
+      "title": "For the Garnish",
+      "items": [
+        "Capers – 1 tbsp, rinsed",
+        "Cornichons or gherkins – finely chopped",
+        "Fresh chives or dill – finely chopped",
+        "Microgreens or baby lettuce – for plating",
+        "Cracked pink peppercorns – for garnish",
+        "Extra virgin olive oil – to drizzle"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Cook the Eggs",
+      "steps": [
+        "Bring a large pot of water to a gentle boil.",
+        "Lower the eggs in carefully and cook for 8½ minutes for perfectly set yolks (creamy but firm).",
+        "Immediately plunge into ice water to stop cooking.",
+        "Once cooled, peel carefully and pat dry."
+      ]
+    },
+    {
+      "title": "Step 2 – Make the Mayonnaise",
+      "steps": [
+        "In a mixing bowl, whisk together egg yolks, Dijon mustard, and vinegar or lemon juice until smooth.",
+        "Slowly drizzle in the oil in a thin stream, whisking constantly to emulsify.",
+        "When thick and creamy, season with salt and white pepper.",
+        "Optionally, whisk in a few drops of truffle oil or lemon zest for a luxurious finish."
+      ]
+    },
+    {
+      "title": "Step 3 – Assembly",
+      "steps": [
+        "Halve the eggs neatly lengthwise.",
+        "Arrange them on chilled plates or a light salad base of baby greens.",
+        "Spoon or pipe the mayonnaise generously over or beside the eggs.",
+        "Sprinkle with capers, cornichons, chives, and cracked pink peppercorns.",
+        "Drizzle lightly with extra virgin olive oil."
+      ]
+    },
+    {
+      "title": "Step 4 – Presentation",
+      "steps": [
+        "Use white porcelain plates or slate boards.",
+        "Place two or three egg halves per serving, slightly overlapping.",
+        "Pipe the mayonnaise in elegant dollops or quenelles beside the eggs.",
+        "Garnish with microgreens and a fine drizzle of oil for shine."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as a classic Continental appetizer.",
+      "Pair with toasted sourdough or crusty bread.",
+      "Accompany with a crisp green salad for a light meal."
+    ]
+  },
+
+  "chefTips": [
+    "Add a splash of vinegar to the boiling water — it helps prevent egg whites from seeping if any shells crack.",
+    "The mayonnaise should coat a spoon and hold a soft peak — silky, not greasy.",
+    "For a luxurious finish, whisk in a few drops of truffle oil or lemon zest.",
+    "Try variations such as smoked salmon, caviar, or herbed mayonnaise for an elevated presentation."
+  ]
+}
