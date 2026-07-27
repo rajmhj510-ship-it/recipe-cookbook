@@ -11,7 +11,7 @@
   "difficulty": "Medium",
   "ingredients": [
     {
-      "section": "For the Hollandaise Sauce",
+      "title": "For the Hollandaise Sauce",
       "items": [
         "3 egg yolks",
         "150 g (⅔ cup) warm clarified butter",
@@ -22,13 +22,18 @@
     }
   ],
   "instructions": [
-    "Fill a saucepan with a small amount of water and bring it to a gentle simmer.",
-    "Place the egg yolks and lemon juice in a heatproof stainless-steel bowl over the bain-marie, ensuring the bowl does not touch the water.",
-    "Whisk continuously until the mixture becomes pale, thick, and forms ribbons.",
-    "Remove the bowl from direct heat and slowly drizzle in the warm clarified butter while whisking constantly to create a smooth emulsion.",
-    "Continue whisking until the sauce is thick, glossy, and silky.",
-    "Season with salt, cayenne pepper or white pepper, and adjust the acidity with additional lemon juice if desired.",
-    "Serve immediately or keep warm over lukewarm water, avoiding excessive heat to prevent the sauce from splitting."
+    {
+      "title": "Instruction",
+      "steps": [
+        "Fill a saucepan with a small amount of water and bring it to a gentle simmer.",
+        "Place the egg yolks and lemon juice in a heatproof stainless-steel bowl over the bain-marie, ensuring the bowl does not touch the water.",
+        "Whisk continuously until the mixture becomes pale, thick, and forms ribbons.",
+        "Remove the bowl from direct heat and slowly drizzle in the warm clarified butter while whisking constantly to create a smooth emulsion.",
+        "Continue whisking until the sauce is thick, glossy, and silky.",
+        "Season with salt, cayenne pepper or white pepper, and adjust the acidity with additional lemon juice if desired.",
+        "Serve immediately or keep warm over lukewarm water, avoiding excessive heat to prevent the sauce from splitting."
+      ]
+    }
   ],
   "chefTips": [
     "Maintain gentle heat throughout the process to avoid scrambling the egg yolks.",
