@@ -1,0 +1,40 @@
+{
+  "id": "391",
+  "title": "Hollandaise Sauce",
+  "category": "Continental",
+  "description": "One of the five classic French mother sauces, made by emulsifying egg yolks with warm clarified butter and brightened with lemon juice, creating a rich, velvety sauce for eggs, fish, and vegetables.",
+  "image": "assets/images/continental/hollandaise-sauce.png",
+  "prepTime": "10 min",
+  "cookTime": "10 min",
+  "totalTime": "20 min",
+  "servings": "300 ml",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "section": "For the Hollandaise Sauce",
+      "items": [
+        "3 egg yolks",
+        "150 g (⅔ cup) warm clarified butter",
+        "1 tbsp fresh lemon juice (or white wine vinegar reduction)",
+        "Salt, to taste",
+        "A pinch of cayenne pepper or white pepper"
+      ]
+    }
+  ],
+  "instructions": [
+    "Fill a saucepan with a small amount of water and bring it to a gentle simmer.",
+    "Place the egg yolks and lemon juice in a heatproof stainless-steel bowl over the bain-marie, ensuring the bowl does not touch the water.",
+    "Whisk continuously until the mixture becomes pale, thick, and forms ribbons.",
+    "Remove the bowl from direct heat and slowly drizzle in the warm clarified butter while whisking constantly to create a smooth emulsion.",
+    "Continue whisking until the sauce is thick, glossy, and silky.",
+    "Season with salt, cayenne pepper or white pepper, and adjust the acidity with additional lemon juice if desired.",
+    "Serve immediately or keep warm over lukewarm water, avoiding excessive heat to prevent the sauce from splitting."
+  ],
+  "chefTips": [
+    "Maintain gentle heat throughout the process to avoid scrambling the egg yolks.",
+    "Add the clarified butter slowly to achieve a stable emulsion.",
+    "If the sauce becomes too thick, whisk in a teaspoon of warm water.",
+    "Hollandaise is the base for Béarnaise, Mousseline, and Maltaise sauces.",
+    "Best served with Eggs Benedict, steamed fish, asparagus, and other delicate vegetables."
+  ]
+}
