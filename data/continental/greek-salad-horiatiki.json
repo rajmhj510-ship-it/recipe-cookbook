@@ -1,0 +1,105 @@
+{
+  "id": "370",
+  "title": "Greek Salad (Horiatiki)",
+  "description": "A classic Mediterranean salad made with ripe tomatoes, cucumber, bell pepper, red onion, Kalamata olives, and a slab of authentic Greek feta, finished with a traditional Greek vinaigrette.",
+
+  "category": "Continental",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "image": "assets/images/continental/greek-salad-horiatiki.png",
+
+  "ingredients": [
+    {
+      "title": "Fresh Vegetables",
+      "items": [
+        "Ripe tomatoes – 3 medium (cut into irregular wedges, not cubes)",
+        "Cucumber – 1 medium (partially peeled, halved lengthwise, and sliced thick on a bias)",
+        "Red onion – ½ medium (thinly sliced into rings)",
+        "Green bell pepper – 1 small (thinly sliced into rings)",
+        "Kalamata olives – 12–15 pcs (whole or pitted)",
+        "Capers – 1 tbsp (optional but adds authentic briny depth)"
+      ]
+    },
+    {
+      "title": "Cheese",
+      "items": [
+        "Greek feta cheese – 150 g (cut into a thick slab, not crumbled)"
+      ]
+    },
+    {
+      "title": "For the Dressing (Classic Greek Vinaigrette)",
+      "items": [
+        "Extra virgin olive oil – ¼ cup (high-quality, fruity)",
+        "Red wine vinegar – 1½ tbsp",
+        "Fresh lemon juice – ½ tbsp",
+        "Dried oregano – ½ tsp (plus extra for garnish)",
+        "Sea salt – to taste",
+        "Freshly ground black pepper – to taste"
+      ]
+    },
+    {
+      "title": "For Garnish (Optional)",
+      "items": [
+        "Fresh oregano or microgreens",
+        "Drizzle of olive oil"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Vegetables",
+      "steps": [
+        "Wash and pat dry all vegetables.",
+        "Slice as directed for visual variety—chunky, rustic cuts that retain texture."
+      ]
+    },
+    {
+      "title": "Step 2 – Assemble the Salad",
+      "steps": [
+        "In a large mixing bowl, combine tomatoes, cucumber, bell pepper, onion, olives, and capers.",
+        "Do not add feta yet."
+      ]
+    },
+    {
+      "title": "Step 3 – Dress the Vegetables",
+      "steps": [
+        "In a small bowl, whisk olive oil, vinegar, lemon juice, oregano, salt, and pepper until emulsified.",
+        "Pour over the vegetables and toss gently to coat evenly.",
+        "Allow it to marinate for 5–10 minutes for flavor absorption."
+      ]
+    },
+    {
+      "title": "Step 4 – Plating (Restaurant Presentation)",
+      "steps": [
+        "Place the tossed vegetables neatly in a chilled shallow bowl or on a flat plate.",
+        "Lay the slab of feta on top of the salad (not mixed in).",
+        "Sprinkle a little oregano and cracked black pepper on the feta.",
+        "Drizzle a touch of extra virgin olive oil over everything for shine."
+      ]
+    },
+    {
+      "title": "Step 5 – Final Touch",
+      "steps": [
+        "Garnish with a few fresh oregano leaves or microgreens for an elegant finish.",
+        "Serve immediately."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as a salad or appetizer.",
+      "Pairs well with grilled meats, seafood, or warm crusty bread.",
+      "Best enjoyed fresh after dressing."
+    ]
+  },
+
+  "chefTips": [
+    "Always use ripe but firm tomatoes and cold, crisp cucumbers.",
+    "Never crumble the feta in an authentic Greek salad—serve it as a slab.",
+    "Chill the serving plate slightly before plating for a refined presentation.",
+    "For an elevated version, use PDO (Protected Designation of Origin) feta and single-estate olive oil."
+  ]
+}
