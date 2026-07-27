@@ -1,0 +1,93 @@
+{
+  "id": "380",
+  "title": "Chicken à la Kiev",
+  "description": "A classic Continental dish featuring tender chicken breast stuffed with herb butter, coated in crisp breadcrumbs, and cooked until golden with a rich molten center.",
+
+  "category": "Continental",
+  "time": "65 min",
+  "difficulty": "Medium",
+  "image": "assets/images/continental/chicken-a-la-kiev.png",
+
+  "ingredients": [
+    {
+      "title": "For the Herb Butter Filling (Beurre Maître d’Hôtel)",
+      "items": [
+        "Unsalted butter – 150 g (softened)",
+        "Fresh parsley – 2 tbsp, finely chopped",
+        "Garlic – 2 cloves, finely minced",
+        "Lemon juice – 1 tsp",
+        "Salt – to taste",
+        "Cracked black pepper – a pinch"
+      ]
+    },
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Chicken breasts – 4 large (skinless, boneless)",
+        "Salt – to taste",
+        "White pepper – a pinch",
+        "All-purpose flour – ½ cup",
+        "Eggs – 2 (beaten)",
+        "Breadcrumbs (fine panko or fresh white) – 1 cup",
+        "Oil (for deep frying) – as needed",
+        "Clarified butter – 1 tbsp (optional, for finishing in oven)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Compound Butter",
+      "steps": [
+        "In a bowl, combine softened butter, parsley, garlic, lemon juice, salt, and pepper.",
+        "Mix until smooth.",
+        "Shape into a log using cling film, roll tightly, and freeze until firm (about 30 minutes)."
+      ]
+    },
+    {
+      "title": "Step 2 – Prepare the Chicken",
+      "steps": [
+        "Butterfly each chicken breast, creating a deep pocket or flatten gently with a mallet between cling films — about 1 cm thick.",
+        "Season lightly with salt and white pepper.",
+        "Slice the chilled butter into thick pieces and place one in the center of each breast.",
+        "Fold the sides inward and roll tightly like a parcel, sealing all edges to prevent leakage.",
+        "Wrap in cling film and freeze for 20–25 minutes to firm up."
+      ]
+    },
+    {
+      "title": "Step 3 – Coat and Crumb",
+      "steps": [
+        "Dredge each chicken roll in flour (shake off excess).",
+        "Dip in beaten egg, then coat evenly with breadcrumbs.",
+        "For an extra-crisp shell, repeat the egg and breadcrumb coating once more.",
+        "Chill for 10 minutes to set the crust."
+      ]
+    },
+    {
+      "title": "Step 4 – Fry and Finish",
+      "steps": [
+        "Heat oil to 170°C (340°F) in a deep fryer or heavy pan.",
+        "Fry each chicken roll until golden brown, about 5–6 minutes, turning occasionally.",
+        "Transfer to a baking tray and finish in a preheated oven (180°C / 350°F) for 7–10 minutes, or until the internal temperature reaches 74°C (165°F).",
+        "Rest for 3 minutes before serving."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with pommes purée (silky mashed potatoes) or truffled potato fondant.",
+      "Pair with French beans almondine or buttered asparagus tips.",
+      "Finish with a light drizzle of herb butter reduction or lemon beurre blanc.",
+      "Garnish with microgreens and a lemon wedge for brightness."
+    ]
+  },
+
+  "chefTips": [
+    "Seal well: Any gaps in the chicken will cause the butter to leak during cooking.",
+    "Freeze before frying: This helps keep the butter intact and ensures a perfect molten center.",
+    "Double-crumbing ensures a crisp, restaurant-style crust.",
+    "Use clarified butter for finishing—it adds richness and a golden sheen."
+  ]
+}
