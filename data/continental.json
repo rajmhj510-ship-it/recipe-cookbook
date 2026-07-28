@@ -839,64 +839,64 @@
   "time": "10 min",
   "difficulty": "Easy"
 },
-{
-  "id": 387,
-  "title": "Béchamel Sauce",
-  "category": "Continental",
-  "file": "data/continental/bechamel-sauce.json",
-  "image": "assets/images/continental/béchamel-sauce.png",
-  "description": "A smooth French white sauce made from milk and white roux, forming the foundation for many classic continental dishes.",
-  "time": "20 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 388,
-  "title": "Velouté Sauce",
-  "category": "Continental",
-  "file": "data/continental/veloute-sauce.json",
-  "image": "assets/images/continental/velouté-sauce.png",
-  "description": "A refined French mother sauce prepared from white stock and blond roux, ideal for poultry, seafood, and delicate meats.",
-  "time": "35 min",
-  "difficulty": "Medium"
-},
-{
-  "id": 389,
-  "title": "Espagnole Sauce",
-  "category": "Continental",
-  "file": "data/continental/espagnole-sauce.json",
-  "image": "assets/images/continental/espagnole-sauce.png",
-  "description": "A rich French brown mother sauce made with brown stock, mirepoix, tomato purée, and brown roux for deep savory flavor.",
-  "time": "1 hr",
-  "difficulty": "Medium"
-},
-{
-  "id": 390,
-  "title": "Tomate Sauce",
-  "category": "Continental",
-  "file": "data/continental/tomate-sauce.json",
-  "image": "assets/images/continental/tomate-sauce.png",
-  "description": "A classic French tomato mother sauce slowly simmered with mirepoix and herbs for a balanced, flavorful finish.",
-  "time": "1 hr",
-  "difficulty": "Easy"
-},
-{
-  "id": 391,
-  "title": "Hollandaise Sauce",
-  "category": "Continental",
-  "file": "data/continental/hollandaise-sauce.json",
-  "image": "assets/images/continental/hollandaise-sauce.png",
-  "description": "A luxurious French emulsified butter sauce with egg yolks and lemon, perfect for fish, vegetables, and Eggs Benedict.",
-  "time": "15 min",
-  "difficulty": "Medium"
-},
-{
-  "id": 392,
-  "title": "Mayonnaise",
-  "category": "Continental",
-  "file": "data/continental/mayonnaise.json",
-  "image": "assets/images/continental/mayonnaise.png",
-  "description": "A classic cold emulsified sauce made from egg yolks, oil, mustard, and lemon juice, serving as the base for many popular dressings.",
-  "time": "10 min",
-  "difficulty": "Easy"
-}
+  {
+    "id": 387,
+    "title": "Béchamel Sauce (White Sauce)",
+    "category": "Continental",
+    "file": "data/continental/bechamel-sauce-white-sauce.json",
+    "image": "assets/images/continental/bechamel-sauce-white-sauce.png",
+    "description": "Classic French white mother sauce made with butter, flour, and milk.",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 388,
+    "title": "Velouté Sauce",
+    "category": "Continental",
+    "file": "data/continental/veloute-sauce.json",
+    "image": "assets/images/continental/veloute-sauce.png",
+    "description": "Classic French mother sauce prepared with a blond roux and white stock.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 389,
+    "title": "Espagnole Sauce (Brown Sauce)",
+    "category": "Continental",
+    "file": "data/continental/espagnole-sauce-brown-sauce.json",
+    "image": "assets/images/continental/espagnole-sauce-brown-sauce.png",
+    "description": "Rich French brown mother sauce made with brown roux, mirepoix, and stock.",
+    "time": "1 hr 15 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 390,
+    "title": "Tomate Sauce",
+    "category": "Continental",
+    "file": "data/continental/tomate-sauce.json",
+    "image": "assets/images/continental/tomato-sauce.png",
+    "description": "Classic French tomato mother sauce with herbs, mirepoix, and stock.",
+    "time": "1 hr 15 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 391,
+    "title": "Hollandaise Sauce",
+    "category": "Continental",
+    "file": "data/continental/hollandaise-sauce.json",
+    "image": "assets/images/continental/hollandaise-sauce.png",
+    "description": "Rich emulsified French mother sauce made with egg yolks, butter, and lemon.",
+    "time": "20 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 392,
+    "title": "Mayonnaise",
+    "category": "Continental",
+    "file": "data/continental/mayonnaise.json",
+    "image": "assets/images/continental/mayonnaise.png",
+    "description": "Classic cold emulsified French mother sauce made with egg yolk and oil.",
+    "time": "10 min",
+    "difficulty": "Easy"
+  }
 ]
