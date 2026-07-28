@@ -1,52 +1,74 @@
 {
   "id": "389",
   "title": "Espagnole Sauce (Brown Sauce)",
-  "category": "Continental",
   "description": "One of the five classic French mother sauces, made with a brown roux, mirepoix, tomato purée, and rich brown stock to create a deep, robust foundation for demi-glace and many traditional meat sauces.",
-  "image": "assets/images/continental/espagnole-sauce-brown-sauce.png",
-  "prepTime": "15 min",
-  "cookTime": "1 hr",
-  "totalTime": "1 hr 15 min",
-  "servings": "500 ml",
+  "category": "Continental",
+  "time": "1 hr 15 min",
   "difficulty": "Medium",
+  "image": "assets/images/continental/espagnole-sauce-brown-sauce.png",
   "ingredients": [
     {
       "title": "For the Espagnole Sauce",
       "items": [
-        "2 tbsp unsalted butter",
-        "2 tbsp all-purpose flour",
-        "1 small carrot, diced",
-        "1 small onion, diced",
-        "1 celery stalk, diced",
-        "1 tbsp tomato purée",
-        "500 ml (2 cups) brown stock (veal or beef)",
-        "1 bouquet garni (thyme, bay leaf, parsley)",
-        "Salt, to taste",
-        "Freshly ground black pepper, to taste"
+        "Unsalted butter – 2 tbsp",
+        "All-purpose flour – 2 tbsp",
+        "Carrot – 1 small, diced",
+        "Onion – 1 small, diced",
+        "Celery stalk – 1, diced",
+        "Tomato purée – 1 tbsp",
+        "Brown stock (veal or beef) – 500 ml (2 cups)",
+        "Bouquet garni (thyme, bay leaf, parsley) – 1",
+        "Salt – to taste",
+        "Freshly ground black pepper – to taste"
       ]
     }
   ],
-  "instructions": [
+  "instruction": [
     {
-      "title": "Instruction",
+      "title": "Step 1 – Preparing the Brown Roux",
       "steps": [
         "Melt the butter in a heavy saucepan over medium heat.",
-        "Add the flour and cook, whisking constantly, until a deep golden-brown roux forms.",
+        "Add the flour and whisk continuously until a deep golden-brown roux forms."
+      ]
+    },
+    {
+      "title": "Step 2 – Building the Flavor Base",
+      "steps": [
         "Add the diced carrot, onion, and celery, then sauté until lightly caramelized.",
-        "Stir in the tomato purée and cook for 2–3 minutes to deepen the flavor and reduce acidity.",
+        "Stir in the tomato purée and cook for 2–3 minutes to deepen the flavor and reduce its acidity."
+      ]
+    },
+    {
+      "title": "Step 3 – Simmering the Sauce",
+      "steps": [
         "Gradually whisk in the hot brown stock until smooth and well combined.",
-        "Add the bouquet garni and bring to a gentle simmer.",
-        "Cook for 45–60 minutes, skimming any impurities from the surface as needed.",
-        "Remove the bouquet garni and strain the sauce through a fine sieve or chinois.",
+        "Add the bouquet garni and bring the sauce to a gentle simmer.",
+        "Cook for 45–60 minutes, skimming any impurities from the surface as needed."
+      ]
+    },
+    {
+      "title": "Step 4 – Finishing",
+      "steps": [
+        "Remove the bouquet garni.",
+        "Strain the sauce through a fine sieve or chinois for a smooth finish.",
         "Adjust seasoning with salt and freshly ground black pepper before serving."
       ]
     }
   ],
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with roasted or grilled beef, lamb, or veal.",
+      "Use as the base for Demi-Glace, Bordelaise, and Chasseur sauces.",
+      "Pair with braised meats and hearty stews.",
+      "Drizzle over steaks, meatloaf, or roasted vegetables for added richness."
+    ]
+  },
   "chefTips": [
-    "Caramelize the roux and mirepoix properly to achieve a rich, complex flavor.",
-    "Use high-quality homemade brown stock for authentic results.",
-    "Simmer gently rather than boiling to maintain a smooth texture.",
-    "Espagnole is the foundation for Demi-Glace, Bordelaise, and Chasseur sauces.",
-    "Ideal for roasted meats, braised dishes, steaks, and hearty stews."
+    "Caramelize both the roux and mirepoix properly to develop a rich, complex flavor.",
+    "Use high-quality homemade brown stock for the most authentic taste.",
+    "Simmer gently rather than boiling to maintain a smooth, velvety texture.",
+    "Skim impurities regularly during cooking for a cleaner, more refined sauce.",
+    "Espagnole is one of the five classic French mother sauces and the essential base for demi-glace."
   ]
 }
