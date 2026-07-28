@@ -1,44 +1,67 @@
 {
   "id": "388",
   "title": "Velouté Sauce",
-  "category": "Continental",
   "description": "A classic French mother sauce prepared with a blond roux and white stock, creating a smooth, delicate sauce that serves as the foundation for many refined poultry, seafood, and veal sauces.",
-  "image": "assets/images/continental/veloute-sauce.png",
-  "prepTime": "5 min",
-  "cookTime": "30 min",
-  "totalTime": "35 min",
-  "servings": "500 ml",
+  "category": "Continental",
+  "time": "35 min",
   "difficulty": "Easy",
+  "image": "assets/images/continental/veloute-sauce.png",
   "ingredients": [
     {
       "title": "For the Velouté Sauce",
       "items": [
-        "2 tbsp unsalted butter",
-        "2 tbsp all-purpose flour",
-        "500 ml (2 cups) hot white stock (chicken, veal, or fish)",
-        "Salt, to taste",
-        "White pepper, to taste"
+        "Unsalted butter – 2 tbsp",
+        "All-purpose flour – 2 tbsp",
+        "Hot white stock (chicken, veal, or fish) – 500 ml (2 cups)",
+        "Salt – to taste",
+        "White pepper – to taste"
       ]
     }
   ],
-  "instructions": [
+  "instruction": [
     {
-      "title": "Instruction",
+      "title": "Step 1 – Preparing the Blond Roux",
       "steps": [
         "Melt the butter in a saucepan over medium heat.",
-        "Add the flour and whisk continuously for 3–4 minutes until a pale blond roux forms without browning deeply.",
-        "Gradually whisk in the hot white stock, adding a little at a time until smooth and lump-free.",
-        "Bring the sauce to a gentle simmer and cook for 20–30 minutes, stirring occasionally until lightly thickened.",
-        "Strain the sauce through a fine sieve or chinois for a silky finish.",
+        "Add the flour and whisk continuously for 3–4 minutes until a pale blond roux forms without allowing it to brown deeply."
+      ]
+    },
+    {
+      "title": "Step 2 – Adding the Stock",
+      "steps": [
+        "Gradually whisk in the hot white stock, adding a little at a time until the mixture is smooth and lump-free.",
+        "Continue whisking until all the stock has been incorporated."
+      ]
+    },
+    {
+      "title": "Step 3 – Simmering the Sauce",
+      "steps": [
+        "Bring the sauce to a gentle simmer.",
+        "Cook for 20–30 minutes, stirring occasionally until the sauce is lightly thickened and smooth."
+      ]
+    },
+    {
+      "title": "Step 4 – Finishing",
+      "steps": [
+        "Strain the sauce through a fine sieve or chinois for a silky texture.",
         "Season lightly with salt and white pepper before serving."
       ]
     }
   ],
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve with roasted or poached chicken.",
+      "Pair with seafood such as fish or shellfish.",
+      "Use as the base for Suprême, Allemande, or Normande sauces.",
+      "Spoon over veal or other delicate white meats."
+    ]
+  },
   "chefTips": [
     "Use a high-quality homemade white stock for the best flavor.",
     "Avoid over-browning the roux to preserve the sauce's light color.",
-    "Whisk continuously while adding stock to prevent lumps.",
-    "Velouté is the base for Suprême, Allemande, and Normande sauces.",
-    "Perfect with poultry, seafood, veal, and other delicate white meats."
+    "Whisk continuously while adding the stock to prevent lumps.",
+    "Strain the finished sauce for a smooth, restaurant-quality texture.",
+    "Velouté is one of the five classic French mother sauces and forms the base for many elegant derivative sauces."
   ]
 }
