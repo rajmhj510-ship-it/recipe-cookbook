@@ -1,38 +1,49 @@
 {
   "id": "384",
   "title": "Bouquet Garni",
+  "description": "A classic French bundle of aromatic herbs used to infuse stocks, soups, sauces, and stews with subtle herbal flavor before being removed prior to serving.",
+
   "category": "Continental",
-  "description": "A classic French bundle of aromatic herbs used to infuse stocks, soups, sauces, and stews with subtle herbal flavor, then removed before serving.",
-  "image": "assets/images/continental/bouquet-garni.png",
-  "prepTime": "5 min",
-  "cookTime": "Varies",
-  "totalTime": "5 min",
-  "servings": "As Required",
+  "time": "5 min",
   "difficulty": "Easy",
+  "image": "assets/images/continental/bouquet-garni.png",
+
   "ingredients": [
     {
-      "section": "Classic Bouquet Garni",
+      "title": "Classic Bouquet Garni",
       "items": [
-        "1 bay leaf",
-        "2–3 sprigs fresh thyme",
-        "4–5 parsley stems",
-        "1 small piece of leek (optional)",
-        "1 small celery stalk (optional)",
-        "1 small sprig rosemary (optional)"
+        "Bay leaf – 1",
+        "Fresh thyme – 2–3 sprigs",
+        "Parsley stems – 4–5",
+        "Leek – 1 small piece (optional)",
+        "Celery – 1 small stalk (optional)",
+        "Fresh rosemary – 1 small sprig (optional)"
       ]
     }
   ],
-  "instructions": [
-    "Gather the bay leaf, thyme, parsley stems, and any optional herbs or vegetables.",
-    "Tie the herbs together securely with kitchen twine, or wrap them in cheesecloth and tie into a small bundle.",
-    "Add the bouquet garni to stocks, soups, sauces, braises, or stews at the beginning of cooking.",
-    "Allow it to simmer gently, releasing its aroma and flavor throughout the cooking process.",
-    "Remove and discard the bouquet garni before serving."
+
+  "instruction": [
+    {
+      "title": "Step 1 – Prepare the Bouquet Garni",
+      "steps": [
+        "Gather the bay leaf, thyme, parsley stems, and any optional herbs or vegetables.",
+        "Tie the herbs together securely with kitchen twine, or wrap them in cheesecloth and tie into a compact bundle."
+      ]
+    },
+    {
+      "title": "Step 2 – Use in Cooking",
+      "steps": [
+        "Add the bouquet garni to stocks, soups, sauces, braises, or stews at the beginning of cooking.",
+        "Allow it to simmer gently, releasing its aromatic flavors throughout the cooking process.",
+        "Remove and discard the bouquet garni before serving."
+      ]
+    }
   ],
+
   "chefTips": [
-    "Use fresh herbs whenever possible for the best aroma.",
-    "Parsley stems contain excellent flavor—don't discard them.",
-    "Customize the bouquet with herbs such as tarragon, rosemary, or savory depending on the dish.",
+    "Use fresh herbs whenever possible for the best aroma and flavor.",
+    "Parsley stems are highly aromatic and should always be included.",
+    "Customize the bouquet with rosemary, tarragon, savory, or leek depending on the dish.",
     "Always remove the bouquet garni before serving."
   ]
 }
