@@ -1,7 +1,7 @@
 {
   "id": "514",
   "title": "Bhature",
-  "description": "Bhature is a soft, fluffy, deep-fried North Indian bread that is traditionally served with chole. Made from a lightly fermented dough, it is known for its airy texture, crisp exterior, and rich flavor.",
+  "description": "Bhature is a soft, fluffy, deep-fried North Indian bread made from a lightly fermented dough. It is traditionally served with chole and is known for its airy texture, crisp golden exterior, and rich flavor.",
 
   "category": "Indian",
   "time": "2 hr 30 min",
@@ -13,14 +13,14 @@
       "title": "Ingredients",
       "items": [
         "All-purpose flour (maida) – 2 cups",
-        "Semolina (sooji/rava) – 2 tbsp (for extra crispiness)",
-        "Plain yogurt (curd) – ¼ cup (helps with softness)",
+        "Semolina (sooji/rava) – 2 tbsp",
+        "Plain yogurt (curd) – ¼ cup",
         "Sugar – 1 tsp",
         "Salt – 1 tsp",
         "Baking powder – ½ tsp",
         "Baking soda – ¼ tsp",
-        "Oil or melted ghee (for dough) – 2 tbsp",
-        "Warm water – as needed (approx. ½ cup)",
+        "Oil or melted ghee – 2 tbsp",
+        "Warm water – as needed (about ½ cup)",
         "Oil – for deep frying"
       ]
     }
@@ -28,60 +28,60 @@
 
   "instruction": [
     {
-      "title": "1. Mix Dry Ingredients",
+      "title": "Step 1 – Mix the Dry Ingredients",
       "steps": [
         "In a large bowl, sift together the all-purpose flour, semolina, baking powder, baking soda, sugar, and salt."
       ]
     },
     {
-      "title": "2. Add Yogurt and Oil",
+      "title": "Step 2 – Add Yogurt and Oil",
       "steps": [
-        "Add the yogurt and oil to the dry mixture. Mix well with your fingers or a spoon until crumbly."
+        "Add the yogurt and oil to the dry ingredients.",
+        "Mix until the mixture becomes crumbly."
       ]
     },
     {
-      "title": "3. Knead the Dough",
+      "title": "Step 3 – Knead the Dough",
       "steps": [
-        "Gradually add warm water little by little and knead to form a smooth, soft, and slightly sticky dough.",
+        "Gradually add warm water and knead into a smooth, soft, slightly sticky dough.",
         "The dough should be softer than regular chapati dough."
       ]
     },
     {
-      "title": "4. Rest the Dough",
+      "title": "Step 4 – Rest the Dough",
       "steps": [
-        "Cover the dough with a damp cloth and let it rest for at least 2 hours at room temperature.",
-        "This fermentation gives bhature its characteristic fluffiness."
+        "Cover the dough with a damp cloth.",
+        "Rest for at least 2 hours at room temperature to allow light fermentation."
       ]
     },
     {
-      "title": "5. Divide and Roll",
+      "title": "Step 5 – Divide and Roll",
       "steps": [
-        "After resting, knead the dough briefly again.",
-        "Divide it into equal-sized balls (about lemon size).",
-        "Roll each ball into a smooth round disc about 5–6 inches in diameter.",
-        "Use minimal flour to dust while rolling."
+        "Knead the dough briefly after resting.",
+        "Divide into equal-sized balls.",
+        "Roll each ball into a round disc about 5–6 inches in diameter using minimal flour."
       ]
     },
     {
-      "title": "6. Heat Oil",
+      "title": "Step 6 – Heat the Oil",
       "steps": [
-        "Heat oil in a deep frying pan or wok over medium-high heat.",
-        "The oil should be hot but not smoking (test by dropping a small piece of dough; it should rise immediately)."
+        "Heat enough oil for deep frying over medium-high heat.",
+        "The oil is ready when a small piece of dough rises immediately to the surface."
       ]
     },
     {
-      "title": "7. Fry the Bhature",
+      "title": "Step 7 – Fry the Bhature",
       "steps": [
-        "Carefully slide the rolled dough into the hot oil.",
+        "Carefully slide one rolled bhatura into the hot oil.",
         "Press gently with a slotted spoon to help it puff up.",
-        "Fry until golden brown on one side, then flip and fry the other side until golden and cooked through."
+        "Flip and fry until both sides are golden brown."
       ]
     },
     {
-      "title": "8. Drain and Serve",
+      "title": "Step 8 – Drain and Serve",
       "steps": [
-        "Remove with a slotted spoon and drain excess oil on paper towels.",
-        "Serve hot with chole or any curry."
+        "Remove the bhature using a slotted spoon.",
+        "Drain on paper towels and serve hot with chole or your favorite curry."
       ]
     }
   ],
@@ -89,14 +89,16 @@
   "servingSuggestions": {
     "title": "Serving Suggestions",
     "items": [
-      "Serve hot with Chole Bhature."
+      "Serve hot with Chole.",
+      "Accompany with sliced onions, green chilies, lemon wedges, and mango pickle.",
+      "Pair with chilled lassi for a traditional North Indian meal."
     ]
   },
 
   "chefTips": [
-    "Resting the dough is essential for softness and puffiness.",
-    "Use fresh yogurt to aid fermentation.",
-    "Maintain consistent oil temperature — too hot burns bhature quickly, too cool makes it oily.",
-    "Press gently after dropping bhature into oil to encourage puffing."
+    "Resting the dough is essential for soft, fluffy bhature.",
+    "Use fresh yogurt to promote gentle fermentation.",
+    "Maintain a consistent oil temperature to achieve even puffing and prevent excess oil absorption.",
+    "Press gently with a slotted spoon while frying to encourage the bhature to puff completely."
   ]
 }
