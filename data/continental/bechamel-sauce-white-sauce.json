@@ -1,49 +1,71 @@
 {
   "id": "387",
   "title": "Béchamel Sauce (White Sauce)",
-  "category": "Continental",
   "description": "One of the five classic French mother sauces, made with a white roux and milk to create a smooth, creamy base for gratins, lasagna, pasta dishes, and numerous derived sauces.",
-  "image": "assets/images/continental/bechamel-sauce-white-sauce.png",
-  "prepTime": "5 min",
-  "cookTime": "15 min",
-  "totalTime": "20 min",
-  "servings": "500 ml",
+  "category": "Continental",
+  "time": "20 min",
   "difficulty": "Easy",
+  "image": "assets/images/continental/bechamel-sauce-white-sauce.png",
   "ingredients": [
     {
       "title": "For the Béchamel Sauce",
       "items": [
-        "2 tbsp unsalted butter",
-        "2 tbsp all-purpose flour",
-        "500 ml (2 cups) hot milk",
-        "Salt, to taste",
-        "White pepper, to taste",
-        "A pinch of ground nutmeg (optional)",
-        "1 bay leaf (optional)",
-        "1 small onion studded with 1 clove (optional)"
+        "Unsalted butter – 2 tbsp",
+        "All-purpose flour – 2 tbsp",
+        "Hot milk – 500 ml (2 cups)",
+        "Salt – to taste",
+        "White pepper – to taste",
+        "Ground nutmeg – a pinch (optional)",
+        "Bay leaf – 1 (optional)",
+        "Small onion studded with 1 clove – 1 (optional)"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Instruction",
+      "title": "Step 1 – Preparing the Roux",
       "steps": [
         "Melt the butter in a saucepan over low heat.",
-        "Add the flour and whisk continuously for 2–3 minutes to form a smooth white roux without allowing it to brown.",
+        "Add the flour and whisk continuously for 2–3 minutes to form a smooth white roux without allowing it to brown."
+      ]
+    },
+    {
+      "title": "Step 2 – Adding the Milk",
+      "steps": [
         "Gradually whisk in the hot milk, adding a little at a time to prevent lumps.",
+        "Continue whisking until the mixture is smooth and well combined."
+      ]
+    },
+    {
+      "title": "Step 3 – Simmering the Sauce",
+      "steps": [
         "Add the bay leaf and clove-studded onion if using.",
-        "Simmer gently for 10–15 minutes, whisking occasionally until the sauce becomes smooth and thick.",
+        "Simmer gently for 10–15 minutes, whisking occasionally until the sauce becomes smooth and thick."
+      ]
+    },
+    {
+      "title": "Step 4 – Seasoning & Finishing",
+      "steps": [
         "Remove the bay leaf and onion.",
-        "Season with salt, white pepper, and a pinch of nutmeg.",
-        "For an ultra-smooth finish, strain through a fine sieve or chinois before serving."
+        "Season with salt, white pepper, and a pinch of ground nutmeg.",
+        "For an ultra-smooth finish, strain the sauce through a fine sieve or chinois before serving."
       ]
     }
   ],
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Use as the base for lasagna and baked pasta dishes.",
+      "Pour over vegetables for gratins.",
+      "Mix with cheese to prepare Mornay sauce.",
+      "Serve as the foundation for macaroni and cheese or Croque Monsieur."
+    ]
+  },
   "chefTips": [
     "Always use hot milk with a warm roux for a lump-free sauce.",
-    "Cook the roux gently without browning to maintain the classic white color.",
-    "Whisk continuously while adding milk for a silky texture.",
-    "Béchamel is the base for Mornay, Soubise, and Crème sauces.",
-    "Ideal for lasagna, gratins, macaroni and cheese, and Croque Monsieur."
+    "Cook the roux gently without browning to preserve the classic white color.",
+    "Whisk continuously while adding the milk for a silky, smooth texture.",
+    "For a restaurant-quality finish, strain the sauce before serving.",
+    "Béchamel is the base for many classic sauces, including Mornay, Soubise, and Crème sauces."
   ]
 }
