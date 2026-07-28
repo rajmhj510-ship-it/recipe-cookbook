@@ -1,45 +1,68 @@
 {
   "id": "392",
   "title": "Mayonnaise",
-  "category": "Continental",
   "description": "A classic French cold emulsified mother sauce made from egg yolk, neutral oil, mustard, and lemon juice or vinegar, forming the base for countless dressings, dips, and derivative sauces.",
-  "image": "assets/images/continental/mayonnaise.png",
-  "prepTime": "10 min",
-  "cookTime": "0 min",
-  "totalTime": "10 min",
-  "servings": "180 ml",
+  "category": "Continental",
+  "time": "10 min",
   "difficulty": "Easy",
+  "image": "assets/images/continental/mayonnaise.png",
   "ingredients": [
     {
       "title": "For the Mayonnaise",
       "items": [
-        "1 large egg yolk (room temperature)",
-        "1 tsp Dijon mustard",
-        "150 ml (⅔ cup) neutral oil (vegetable or grapeseed)",
-        "1–2 tsp fresh lemon juice or white wine vinegar",
-        "Salt, to taste",
-        "White pepper, to taste"
+        "Egg yolk – 1 large (room temperature)",
+        "Dijon mustard – 1 tsp",
+        "Neutral oil (vegetable or grapeseed) – 150 ml (⅔ cup)",
+        "Fresh lemon juice or white wine vinegar – 1–2 tsp",
+        "Salt – to taste",
+        "White pepper – to taste"
       ]
     }
   ],
-  "instructions": [
+  "instruction": [
     {
-      "title": "Instruction",
+      "title": "Step 1 – Preparing the Base",
       "steps": [
-        "Place the egg yolk, Dijon mustard, and a pinch of salt into a mixing bowl and whisk until smooth.",
+        "Place the egg yolk, Dijon mustard, and a pinch of salt into a mixing bowl.",
+        "Whisk until the mixture is smooth and well combined."
+      ]
+    },
+    {
+      "title": "Step 2 – Creating the Emulsion",
+      "steps": [
         "Slowly drizzle in the neutral oil while whisking constantly to create a stable emulsion.",
-        "Once the mixture begins to thicken, continue adding the remaining oil in a thin, steady stream.",
+        "Once the mixture begins to thicken, continue adding the remaining oil in a thin, steady stream."
+      ]
+    },
+    {
+      "title": "Step 3 – Seasoning",
+      "steps": [
         "Whisk in the lemon juice or white wine vinegar until the desired acidity is reached.",
-        "Season with salt and white pepper, adjusting mustard or lemon juice if desired.",
-        "Transfer to a clean container, cover, and refrigerate until ready to use."
+        "Season with salt and white pepper, adjusting the mustard or lemon juice if desired."
+      ]
+    },
+    {
+      "title": "Step 4 – Finishing",
+      "steps": [
+        "Transfer the mayonnaise to a clean container.",
+        "Cover and refrigerate until ready to use."
       ]
     }
   ],
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Spread on sandwiches and burgers.",
+      "Use as the base for Aioli, Tartar Sauce, or Rémoulade.",
+      "Mix into potato salad, coleslaw, or pasta salad.",
+      "Serve as a dip for seafood, fries, or fresh vegetables."
+    ]
+  },
   "chefTips": [
     "Ensure all ingredients are at room temperature for a stable emulsion.",
     "Add the oil very slowly at the beginning to prevent the mayonnaise from splitting.",
     "If the mayonnaise breaks, whisk a fresh egg yolk in a clean bowl and gradually incorporate the split mixture.",
-    "Mayonnaise is the base for Aioli, Tartar Sauce, and Rémoulade.",
-    "Ideal for sandwiches, potato salads, coleslaw, deviled eggs, seafood dips, and cold meat salads."
+    "Use a neutral-flavored oil for a smooth, balanced taste.",
+    "Store refrigerated and use within 2–3 days if made with raw egg."
   ]
 }
