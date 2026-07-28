@@ -1048,7 +1048,7 @@
     "id": 514,
     "title": "Bhature",
     "category": "Indian",
-        "files":"data/indian/bhature.json",
+    "files":"data/indian/bhature.json",
     "image": "assets/images/indian/bhature.png",
     "time": "2 hr 30 min",
     "difficulty": "Medium",
