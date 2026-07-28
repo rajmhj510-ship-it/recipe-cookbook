@@ -1,45 +1,68 @@
 {
   "id": "391",
   "title": "Hollandaise Sauce",
-  "category": "Continental",
   "description": "One of the five classic French mother sauces, made by emulsifying egg yolks with warm clarified butter and brightened with lemon juice, creating a rich, velvety sauce for eggs, fish, and vegetables.",
-  "image": "assets/images/continental/hollandaise-sauce.png",
-  "prepTime": "10 min",
-  "cookTime": "10 min",
-  "totalTime": "20 min",
-  "servings": "300 ml",
+  "category": "Continental",
+  "time": "20 min",
   "difficulty": "Medium",
+  "image": "assets/images/continental/hollandaise-sauce.png",
   "ingredients": [
     {
       "title": "For the Hollandaise Sauce",
       "items": [
-        "3 egg yolks",
-        "150 g (⅔ cup) warm clarified butter",
-        "1 tbsp fresh lemon juice (or white wine vinegar reduction)",
-        "Salt, to taste",
-        "A pinch of cayenne pepper or white pepper"
+        "Egg yolks – 3",
+        "Warm clarified butter – 150 g (⅔ cup)",
+        "Fresh lemon juice (or white wine vinegar reduction) – 1 tbsp",
+        "Salt – to taste",
+        "Cayenne pepper or white pepper – a pinch"
       ]
     }
   ],
-  "instructions": [
+  "instruction": [
     {
-      "title": "Instruction",
+      "title": "Step 1 – Preparing the Bain-Marie",
       "steps": [
         "Fill a saucepan with a small amount of water and bring it to a gentle simmer.",
-        "Place the egg yolks and lemon juice in a heatproof stainless-steel bowl over the bain-marie, ensuring the bowl does not touch the water.",
-        "Whisk continuously until the mixture becomes pale, thick, and forms ribbons.",
-        "Remove the bowl from direct heat and slowly drizzle in the warm clarified butter while whisking constantly to create a smooth emulsion.",
-        "Continue whisking until the sauce is thick, glossy, and silky.",
-        "Season with salt, cayenne pepper or white pepper, and adjust the acidity with additional lemon juice if desired.",
+        "Place the egg yolks and lemon juice in a heatproof stainless-steel bowl over the bain-marie, ensuring the bowl does not touch the simmering water."
+      ]
+    },
+    {
+      "title": "Step 2 – Whisking the Egg Yolks",
+      "steps": [
+        "Whisk the egg yolk mixture continuously until it becomes pale, thick, and forms ribbons.",
+        "Remove the bowl from direct heat once the desired consistency is reached."
+      ]
+    },
+    {
+      "title": "Step 3 – Creating the Emulsion",
+      "steps": [
+        "Slowly drizzle in the warm clarified butter while whisking constantly.",
+        "Continue whisking until the sauce becomes thick, glossy, and silky with a stable emulsion."
+      ]
+    },
+    {
+      "title": "Step 4 – Seasoning & Finishing",
+      "steps": [
+        "Season with salt and a pinch of cayenne pepper or white pepper.",
+        "Adjust the acidity with additional lemon juice if desired.",
         "Serve immediately or keep warm over lukewarm water, avoiding excessive heat to prevent the sauce from splitting."
       ]
     }
   ],
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve over Eggs Benedict for a classic brunch dish.",
+      "Pair with steamed asparagus, broccoli, or other tender vegetables.",
+      "Drizzle over poached or grilled fish.",
+      "Use as the base for Béarnaise, Mousseline, or Maltaise sauces."
+    ]
+  },
   "chefTips": [
     "Maintain gentle heat throughout the process to avoid scrambling the egg yolks.",
-    "Add the clarified butter slowly to achieve a stable emulsion.",
-    "If the sauce becomes too thick, whisk in a teaspoon of warm water.",
-    "Hollandaise is the base for Béarnaise, Mousseline, and Maltaise sauces.",
-    "Best served with Eggs Benedict, steamed fish, asparagus, and other delicate vegetables."
+    "Add the clarified butter slowly to achieve a smooth and stable emulsion.",
+    "If the sauce becomes too thick, whisk in a teaspoon of warm water to loosen it.",
+    "Serve immediately for the best texture and flavor, as Hollandaise does not reheat well.",
+    "Avoid overheating the finished sauce, as excessive heat can cause it to split."
   ]
 }
