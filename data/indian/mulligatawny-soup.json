@@ -2,46 +2,113 @@
   "id": 426,
   "title": "Mulligatawny Soup",
   "category": "Indian",
-  "image": "assets/images/indian/mulligatawny-soup.png",
-  "time": "45 min",
-  "difficulty": "Medium",
-  "servings": "4-6",
+  "image": "assets/images/indian/mulligatawny_soup.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Serves: 6 as a starter or 4 as a main course",
   "ingredients": [
     {
-      "title": "Soup Base",
+      "title": "For the Soup Base",
       "items": [
-        "2 tbsp ghee or vegetable oil",
-        "1 large onion, finely chopped",
-        "2 garlic cloves, minced",
-        "1-inch ginger, minced",
-        "green chilies",
-        "mustard seeds, cumin seeds",
-        "turmeric, coriander, garam masala",
-        "carrot, apple, red lentils",
-        "stock 6 cups",
-        "coconut milk 1/2 cup",
-        "lemon juice",
-        "salt"
+        "Ghee or vegetable oil – 2 tbsp",
+        "Onion – 1 large, finely chopped",
+        "Garlic – 2 cloves, minced",
+        "Fresh ginger – 1-inch piece, minced",
+        "Green chilies – 1–2, finely chopped",
+        "Mustard seeds – 2 tsp",
+        "Cumin seeds – 1 tsp",
+        "Turmeric powder – 1 tsp",
+        "Ground coriander – 2 tsp",
+        "Garam masala – 1 tsp",
+        "Ground cinnamon – ½ tsp",
+        "Ground cloves – ¼ tsp",
+        "Carrot – 1 large, diced",
+        "Green apple – 1, peeled and diced",
+        "Red lentils (masoor dal) – 1 cup, rinsed",
+        "Chicken or vegetable stock – 6 cups",
+        "Coconut milk or cream – ½ cup",
+        "Lemon or lime juice – from 1 lemon or lime",
+        "Salt – to taste",
+        "Fresh coriander leaves – chopped, for garnish"
+      ]
+    },
+    {
+      "title": "Optional Protein",
+      "items": [
+        "Cooked chicken pieces – as needed",
+        "Firm tofu – cubed, as needed"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Sauté the Aromatics",
       "steps": [
-        "Temper spices in oil",
-        "Cook onion, garlic, ginger",
-        "Add spices and toast",
-        "Add vegetables and lentils",
-        "Simmer 25\u201330 minutes",
-        "Blend to texture",
-        "Finish with coconut milk and lemon"
+        "Heat the ghee or oil in a large heavy-bottomed pot over medium heat.",
+        "Add mustard seeds and cumin seeds and allow them to splutter.",
+        "Add the chopped onion and sauté for 8–10 minutes until soft and golden brown.",
+        "Add minced garlic, ginger, and green chilies.",
+        "Cook for 2–3 minutes until fragrant."
+      ]
+    },
+    {
+      "title": "Toast the Spices",
+      "steps": [
+        "Add turmeric powder, ground coriander, garam masala, cinnamon, and cloves.",
+        "Stir well to coat the aromatics.",
+        "Cook for 1–2 minutes over medium heat to gently toast the spices and release their aroma."
+      ]
+    },
+    {
+      "title": "Add the Vegetables & Lentils",
+      "steps": [
+        "Add diced carrot, diced apple, and rinsed red lentils.",
+        "Stir well to combine with the spiced onion mixture."
+      ]
+    },
+    {
+      "title": "Simmer the Soup",
+      "steps": [
+        "Pour in the chicken or vegetable stock.",
+        "Bring the mixture to a boil.",
+        "Reduce the heat and simmer gently for 25–30 minutes.",
+        "Cook until the lentils and vegetables are completely tender."
+      ]
+    },
+    {
+      "title": "Blend the Soup",
+      "steps": [
+        "Use an immersion blender to puree the soup to your preferred consistency.",
+        "Alternatively, carefully blend in batches using a regular blender.",
+        "Keep the soup completely smooth or leave it slightly chunky according to preference."
+      ]
+    },
+    {
+      "title": "Finish the Soup",
+      "steps": [
+        "Stir in the coconut milk or cream.",
+        "Simmer gently for another 5 minutes to heat through.",
+        "Season with salt and fresh lemon or lime juice.",
+        "Taste and adjust the seasoning as needed.",
+        "If using cooked chicken or tofu, add it and warm through before serving."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Ladle the hot soup into serving bowls.",
+        "Garnish with freshly chopped coriander leaves.",
+        "Serve with a lemon or lime wedge on the side.",
+        "Serve with warm naan or crusty bread if desired."
       ]
     }
   ],
   "chefTips": [
-    "Apple adds sweetness",
-    "Toast spices for depth",
-    "Adjust texture as preferred"
+    "Apple: Green apple adds subtle sweetness and balances the spices, so it is worth including.",
+    "Spices: Gently toast the spices with the aromatics to release deeper flavor without burning them.",
+    "Texture: Blend completely smooth for a refined soup or leave slightly chunky for a more rustic texture.",
+    "Extra depth: Add about 1 tsp tamarind paste or mango chutney for an additional sweet-tangy layer.",
+    "Protein: Cooked chicken works well for a non-vegetarian version, while cubed tofu makes a suitable vegetarian option.",
+    "Serving: Warm naan or crusty bread pairs especially well with the rich, aromatic soup."
   ]
 }
