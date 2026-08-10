@@ -1,0 +1,56 @@
+{
+  "id": 227,
+  "title": "Chinese Five-Spice Powder",
+  "category": "Chinese",
+  "time": "5 min",
+  "difficulty": "Easy",
+  "image": "assets/images/chinese/five-spice-powder.png",
+
+  "ingredients": [
+    {
+      "title": "Spice Blend",
+      "items": [
+        "2 tbsp Sichuan peppercorns",
+        "2 tbsp fennel seeds",
+        "2 whole star anise",
+        "1 tsp whole cloves",
+        "1 small piece Chinese cinnamon (cassia), broken into pieces"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Toast the Spices",
+      "steps": [
+        "Place Sichuan peppercorns, fennel seeds, star anise, cloves, and cassia cinnamon in a dry skillet.",
+        "Toast the spices over low heat for 2–3 minutes, stirring frequently, until fragrant.",
+        "Remove from the heat and allow the spices to cool completely."
+      ]
+    },
+    {
+      "title": "Grind the Spices",
+      "steps": [
+        "Transfer the cooled spices to a spice grinder or clean coffee grinder.",
+        "Grind until the mixture becomes a fine powder.",
+        "Sift the powder if a smoother texture is desired."
+      ]
+    },
+    {
+      "title": "Store",
+      "steps": [
+        "Transfer the five-spice powder to an airtight, dry container.",
+        "Store in a cool, dark place away from direct sunlight.",
+        "Use within a few months for the best aroma and flavor."
+      ]
+    }
+  ],
+
+  "chefTips": [
+    "Toast the whole spices gently to release their natural oils and deepen the flavor.",
+    "Use Chinese cinnamon (cassia) rather than regular sweet cinnamon for a more traditional flavor.",
+    "Adjust the Sichuan peppercorns or cloves slightly if you prefer a milder blend.",
+    "A small amount goes a long way because five-spice powder has a strong, concentrated aroma.",
+    "Use it to season roasted meats, marinades, stir-fries, braises, vegetables, and tofu."
+  ]
+}
