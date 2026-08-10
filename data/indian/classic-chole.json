@@ -1,52 +1,113 @@
 {
-  "id": 475,
-  "title": "Classic Chole",
+  "id": 476,
+  "title": "Classic Indian Chole",
   "category": "Indian",
-  "image": "assets/images/indian/classic-chole.png",
+  "image": "assets/images/indian/classic_indian_chole.png",
   "time": "1 hr",
-  "difficulty": "Medium",
-  "servings": 4,
+  "difficulty": "",
+  "servings": "Serves: 4",
   "ingredients": [
     {
-      "title": "Ingredients",
+      "title": "For the Chickpeas",
       "items": [
-        "1 cup dried chickpeas (or 2 cups canned chickpeas, drained and rinsed)",
-        "2 large onions, finely chopped",
-        "2 large tomatoes, pureed",
-        "2-3 green chilies, slit (optional)",
-        "1 tbsp ginger-garlic paste",
-        "2 tbsp oil (vegetable or mustard oil)",
-        "1 tsp cumin seeds",
-        "1 bay leaf",
-        "2 medium dried red chilies (optional)",
-        "1 tsp turmeric powder",
-        "2 tsp coriander powder",
-        "1½ tsp cumin powder",
-        "1½ tsp garam masala",
-        "1 tsp red chili powder (adjust to taste)",
-        "1 tsp amchur (dry mango powder) or 1 tbsp lemon juice",
-        "Salt to taste",
-        "Fresh coriander leaves, chopped (for garnish)",
-        "Water as needed"
+        "Dried chickpeas – 1 cup, or canned chickpeas – 2 cups, drained and rinsed",
+        "Water – as needed",
+        "Salt – 1 tsp for cooking dried chickpeas"
+      ]
+    },
+    {
+      "title": "For the Masala",
+      "items": [
+        "Onions – 2 large, finely chopped",
+        "Tomatoes – 2 large, pureed",
+        "Green chilies – 2–3, slit (optional)",
+        "Ginger-garlic paste – 1 tbsp",
+        "Oil – 2 tbsp, vegetable or mustard oil",
+        "Cumin seeds – 1 tsp",
+        "Bay leaf – 1",
+        "Dried red chilies – 2 medium, broken (optional)",
+        "Turmeric powder – 1 tsp",
+        "Coriander powder – 2 tsp",
+        "Cumin powder – 1½ tsp",
+        "Red chili powder – 1 tsp, adjust to taste",
+        "Garam masala – 1½ tsp",
+        "Amchur (dry mango powder) – 1 tsp, or fresh lemon juice – 1 tbsp",
+        "Salt – to taste",
+        "Fresh coriander leaves – chopped, for garnish"
+      ]
+    },
+    {
+      "title": "For Serving",
+      "items": [
+        "Bhature – as needed",
+        "Puri – as needed",
+        "Steamed basmati rice – as needed"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Instructions",
+      "title": "Prepare the Chickpeas",
       "steps": [
-        "Prepare chickpeas: If using dried chickpeas, soak them overnight (8–10 hours) in enough water. Drain and rinse. Pressure cook with 3 cups water and 1 tsp salt for about 15–20 minutes until soft but not mushy. (Or boil for 1–2 hours until tender.) Reserve cooking liquid.",
-        "Make the base masala: Heat oil in a heavy-bottomed pan over medium heat. Add cumin seeds, bay leaf, and dried red chilies. Sauté until aromatic (~30 seconds). Add chopped onions; cook stirring often until golden brown (about 8–10 minutes). Add ginger-garlic paste; sauté for 2 minutes until raw smell disappears.",
-        "Add spices and tomatoes: Mix in turmeric, coriander powder, cumin powder, red chili powder. Stir well and cook for 30 seconds. Add pureed tomatoes and slit green chilies. Cook on medium heat until oil separates from the masala (~8–10 minutes), stirring occasionally.",
-        "Combine chickpeas with masala: Add cooked chickpeas to the pan along with 1 cup of reserved cooking liquid (add more if you want thinner gravy). Mix well and bring to a gentle simmer. Cover and cook for 10–15 minutes on low heat, allowing flavors to blend.",
-        "Finish the dish: Sprinkle garam masala and amchur powder (or lemon juice). Adjust salt and spice levels. Cook uncovered for 5 more minutes. Garnish with chopped fresh coriander.",
-        "Serve hot with bhature, puri, or steamed basmati rice."
+        "If using dried chickpeas, soak them overnight for 8–10 hours in plenty of water.",
+        "Drain and rinse the soaked chickpeas.",
+        "Pressure cook with about 3 cups water and 1 tsp salt for 15–20 minutes, or boil for 1–2 hours until tender.",
+        "Cook until the chickpeas are soft but still hold their shape.",
+        "Reserve the cooking liquid for the curry."
+      ]
+    },
+    {
+      "title": "Prepare the Masala Base",
+      "steps": [
+        "Heat oil in a heavy-bottomed pan over medium heat.",
+        "Add cumin seeds, bay leaf, and dried red chilies if using.",
+        "Sauté for about 30 seconds until fragrant.",
+        "Add the chopped onions and cook for 8–10 minutes, stirring regularly, until golden brown.",
+        "Add ginger-garlic paste and sauté for about 2 minutes until the raw aroma disappears."
+      ]
+    },
+    {
+      "title": "Cook the Spices & Tomatoes",
+      "steps": [
+        "Add turmeric, coriander powder, cumin powder, and red chili powder.",
+        "Stir well and cook for about 30 seconds to bloom the spices.",
+        "Add the pureed tomatoes and slit green chilies.",
+        "Cook over medium heat for 8–10 minutes, stirring occasionally, until the tomatoes are cooked down and the oil begins to separate from the masala."
+      ]
+    },
+    {
+      "title": "Combine the Chickpeas",
+      "steps": [
+        "Add the cooked chickpeas to the masala.",
+        "Pour in about 1 cup of reserved chickpea cooking liquid.",
+        "Add more cooking liquid if a thinner gravy is desired.",
+        "Mix well and bring to a gentle simmer.",
+        "Cover and cook over low heat for 10–15 minutes so the chickpeas absorb the masala."
+      ]
+    },
+    {
+      "title": "Finish the Chole",
+      "steps": [
+        "Add garam masala and amchur powder, or fresh lemon juice.",
+        "Taste and adjust the salt, spice, and acidity.",
+        "Cook uncovered for another 5 minutes until the gravy reaches the desired consistency.",
+        "Garnish with freshly chopped coriander leaves."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Serve the chole hot with bhature, puri, or steamed basmati rice.",
+        "Add extra lemon juice or amchur at the table for a tangier finish if desired."
       ]
     }
   ],
   "chefTips": [
-    "For an authentic smoky flavor, you can add a small piece of charred dry chili or do a quick 'dhungar' (smoke infusion) at the end using hot charcoal.",
-    "Use freshly ground spices for the best aroma.",
-    "If you like tangier chole, add more amchur or lemon juice at the end."
+    "Chickpeas: Cook dried chickpeas until tender but not mushy so they retain their texture in the curry.",
+    "Cooking liquid: Reserved chickpea water adds body and flavor to the gravy.",
+    "Spices: Freshly ground cumin and coriander provide a noticeably deeper aroma.",
+    "Smoky flavor: Add a small piece of charred dry chili or use a quick dhungar technique with hot charcoal for a smoky finish.",
+    "Tanginess: Amchur provides classic chole-style acidity, while fresh lemon juice gives a brighter finish.",
+    "Masala: Cook the onion-tomato mixture patiently until the oil separates for a richer, deeper curry."
   ]
 }
