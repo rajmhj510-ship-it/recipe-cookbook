@@ -1,88 +1,132 @@
 {
-  "id": 501,
+  "id": 500,
   "title": "Tandoori Chicken",
-  "category": "North Indian",
+  "description": "Tandoori Chicken is a classic North Indian dish featuring chicken marinated in ginger-garlic, Kashmiri chili, hung yogurt, mustard oil, and aromatic spices, then cooked at high heat for a smoky, charred exterior and juicy, flavorful interior.",
+  "category": "Indian",
+  "time": "8 hr 45 min",
+  "difficulty": "Medium",
   "image": "assets/images/indian/tandoori-chicken.png",
-  "servings": "Serves 4",
 
-  "ingredients": {
-    "Chicken": [
-      "1 whole chicken (about 1.2–1.5 kg), cut into 8–10 pieces",
-      "1 ½ tsp salt (or to taste)",
-      "2 tbsp lemon juice"
-    ],
-
-    "First Marinade (for tenderization)": [
-      "2 tbsp ginger–garlic paste (fresh, finely ground)",
-      "1 tsp Kashmiri red chili powder (for color, mild heat)",
-      "1 tsp salt"
-    ],
-
-    "Second Marinade (for depth & flavor)": [
-      "250 g thick hung curd (strained yogurt, creamy texture)",
-      "2 tbsp mustard oil (or vegetable oil, but mustard oil gives authenticity)",
-      "1 tbsp Kashmiri red chili powder (adjust for heat)",
-      "1 tsp cumin powder (roasted, freshly ground)",
-      "1 tsp coriander powder (roasted, freshly ground)",
-      "½ tsp turmeric powder",
-      "½ tsp garam masala",
-      "½ tsp black salt (optional, gives restaurant taste)",
-      "1 tbsp kasuri methi (dry fenugreek leaves, roasted & crushed)",
-      "1 tsp chaat masala",
-      "1–2 green chilies, finely chopped (optional, for spice kick)"
-    ],
-
-    "Finishing": [
-      "2 tbsp melted butter or ghee (for basting)",
-      "Lemon wedges & onion rings (for serving)",
-      "Fresh coriander leaves"
-    ]
-  },
-
-  "Method": [
+  "ingredients": [
     {
-      "title": "Prepare Chicken",
-      "steps": [
-        "Make 2–3 deep slits in each chicken piece (to absorb marinade).",
-        "Rub with salt and lemon juice, rest for 15 minutes."
+      "title": "For the Chicken",
+      "items": [
+        "Whole chicken – 1, about 1.2–1.5 kg, cut into 8–10 pieces",
+        "Salt – 1½ tsp or to taste",
+        "Lemon juice – 2 tbsp"
       ]
     },
     {
-      "title": "First Marinade (Base flavor)",
-      "steps": [
-        "Coat chicken with ginger-garlic paste, chili powder, and salt.",
-        "Rest for 30 minutes (room temperature)."
+      "title": "First Marinade",
+      "items": [
+        "Ginger-garlic paste – 2 tbsp, fresh and finely ground",
+        "Kashmiri red chili powder – 1 tsp",
+        "Salt – 1 tsp"
       ]
     },
     {
-      "title": "Second Marinade (Creamy coating)",
-      "steps": [
-        "Whisk yogurt until smooth. Add all second marinade spices and mustard oil.",
-        "Coat chicken evenly, massaging marinade into the slits.",
-        "Cover and refrigerate 6–8 hours (overnight best)."
+      "title": "Second Marinade",
+      "items": [
+        "Hung curd (strained yogurt) – 250 g",
+        "Mustard oil – 2 tbsp (or vegetable oil)",
+        "Kashmiri red chili powder – 1 tbsp, adjust to taste",
+        "Cumin powder – 1 tsp, roasted and freshly ground",
+        "Coriander powder – 1 tsp, roasted and freshly ground",
+        "Turmeric powder – ½ tsp",
+        "Garam masala – ½ tsp",
+        "Black salt – ½ tsp (optional)",
+        "Kasuri methi – 1 tbsp, roasted and crushed",
+        "Chaat masala – 1 tsp",
+        "Green chilies – 1–2, finely chopped (optional)"
       ]
     },
     {
-      "title": "Cooking (Authentic Tandoor or Alternatives)",
-      "steps": [
-        "Tandoor: Preheat until smoking hot. Skewer chicken and cook 12–15 minutes, basting with butter. Finish with a quick char.",
-        "Oven: Preheat to 250°C (480°F). Place chicken on a rack over a tray. Roast for 18–20 minutes. Then switch to broil/grill mode for 5 minutes to char.",
-        "Grill/BBQ: Medium-high heat, cover grill, cook 15–18 minutes, turning and basting."
-      ]
-    },
-    {
-      "title": "Finishing Touch",
-      "steps": [
-        "Brush with melted butter/ghee just before serving.",
-        "Sprinkle with chaat masala, serve with onion rings, lemon wedges, and mint chutney."
+      "title": "For Finishing",
+      "items": [
+        "Melted butter or ghee – 2 tbsp, for basting",
+        "Lemon wedges – for serving",
+        "Onion rings – for serving",
+        "Fresh coriander leaves – for garnish"
       ]
     }
   ],
 
-  "Chef Tips": [
-    "Mustard oil: Heat it lightly until smoking, then cool before using in marinade — removes raw smell and gives smoky flavor.",
-    "Hung curd: Thick curd ensures marinade clings and doesn’t drip off.",
-    "Kashmiri chili powder: Adds vibrant color without overpowering heat.",
-    "Smoke infusion (Dhungar method): If no tandoor, place a small piece of hot charcoal in a bowl inside the marinated chicken, pour a drop of ghee, cover for 5 minutes — adds smoky restaurant aroma."
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Chicken",
+      "steps": [
+        "Make 2–3 deep slits in each chicken piece so the marinades can penetrate deeply.",
+        "Rub the chicken with salt and lemon juice.",
+        "Let it rest for 15 minutes."
+      ]
+    },
+    {
+      "title": "Step 2 – First Marinade",
+      "steps": [
+        "Coat the chicken thoroughly with ginger-garlic paste, Kashmiri red chili powder, and salt.",
+        "Let the chicken rest for 30 minutes at room temperature."
+      ]
+    },
+    {
+      "title": "Step 3 – Second Marinade",
+      "steps": [
+        "Whisk the hung yogurt until smooth.",
+        "Add mustard oil, Kashmiri red chili powder, cumin powder, coriander powder, turmeric, garam masala, black salt, kasuri methi, chaat masala, and green chilies, if using.",
+        "Coat the chicken evenly with the marinade, massaging it deeply into the slits.",
+        "Cover and refrigerate for 6–8 hours. Overnight marination gives the best flavor."
+      ]
+    },
+    {
+      "title": "Step 4 – Cooking in a Tandoor",
+      "steps": [
+        "Preheat the tandoor until very hot.",
+        "Thread the marinated chicken pieces onto skewers.",
+        "Cook for 12–15 minutes, basting with melted butter or ghee.",
+        "Finish with a quick high-heat char for a smoky, slightly blackened exterior."
+      ]
+    },
+    {
+      "title": "Step 5 – Oven Alternative",
+      "steps": [
+        "Preheat the oven to 250°C (480°F).",
+        "Place the chicken on a rack positioned over a baking tray.",
+        "Roast for 18–20 minutes.",
+        "Switch to broil or grill mode for about 5 minutes to develop a charred exterior."
+      ]
+    },
+    {
+      "title": "Step 6 – Grill or BBQ Alternative",
+      "steps": [
+        "Preheat the grill to medium-high heat.",
+        "Place the marinated chicken on the grill, cover, and cook for 15–18 minutes.",
+        "Turn the chicken periodically and baste with melted butter or ghee while cooking."
+      ]
+    },
+    {
+      "title": "Step 7 – Finishing and Serving",
+      "steps": [
+        "Brush the cooked chicken with melted butter or ghee just before serving.",
+        "Sprinkle with chaat masala.",
+        "Serve with onion rings, lemon wedges, fresh coriander, and mint chutney."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with onion rings, lemon wedges, and mint chutney.",
+      "Garnish with fresh coriander leaves and a light sprinkle of chaat masala.",
+      "Pair with naan, roti, or a fresh Indian salad for a complete meal."
+    ]
+  },
+
+  "chefTips": [
+    "Heat mustard oil lightly until smoking, then cool it before adding it to the marinade to remove its raw smell and enhance its smoky flavor.",
+    "Use thick hung curd so the marinade clings properly to the chicken instead of dripping off.",
+    "Kashmiri red chili powder provides the signature vibrant red color without excessive heat.",
+    "Make deep slits in the chicken so the marinades penetrate beyond the surface.",
+    "For an extra smoky restaurant-style aroma without a tandoor, use the dhungar method with hot charcoal and a drop of ghee.",
+    "Longer marination, preferably overnight, produces more flavorful and tender chicken."
   ]
 }
