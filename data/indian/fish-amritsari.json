@@ -1,79 +1,106 @@
 {
-  "id": 503,
+  "id": 502,
   "title": "Fish Amritsari",
-  "category": "Punjabi",
+  "description": "Fish Amritsari is a classic Punjabi delicacy from Amritsar, featuring tender white fish coated in a crisp, spiced gram flour batter. Aromatic ajwain, coriander, garam masala, and mustard oil give the dish its signature Punjabi flavor and irresistible crunch.",
+  "category": "Indian",
+  "time": "40 min",
+  "difficulty": "Easy",
   "image": "assets/images/indian/fish-amritsari.png",
-  "servings": "Serves 4",
 
-  "ingredients": {
-    "For the Marinade": [
-      "500 g firm white fish fillets (e.g., basa, cod, sole, or tilapia), cut into 2–3 inch pieces",
-      "1 tbsp ginger-garlic paste",
-      "1 tsp red chili powder (adjust to spice preference)",
-      "½ tsp turmeric powder",
-      "1 tsp carom seeds (ajwain) – lightly crushed",
-      "1 tsp coriander powder",
-      "1 tsp garam masala",
-      "1 tbsp lemon juice",
-      "Salt to taste"
-    ],
-    "For the Coating": [
-      "4 tbsp gram flour (besan)",
-      "2 tbsp cornflour",
-      "½ tsp baking soda (for extra crispness)",
-      "2–3 tbsp water (adjust for thick batter)"
-    ],
-    "For Frying": [
-      "Mustard oil or refined oil – enough for deep frying"
-    ],
-    "To Serve": [
-      "Fresh coriander leaves – chopped",
-      "Onion rings – soaked in cold water for crunch",
-      "Lemon wedges",
-      "Mint chutney"
-    ]
-  },
-
-  "Method": [
+  "ingredients": [
     {
-      "title": "1. First Marinade (Base Flavour)",
-      "steps": [
-        "Pat fish pieces dry with kitchen paper.",
-        "Mix ginger-garlic paste, red chili powder, turmeric, lemon juice, and salt in a bowl.",
-        "Coat the fish evenly, cover, and let rest for 15 minutes."
+      "title": "For the Marinade",
+      "items": [
+        "Firm white fish fillets – 500 g, such as basa, cod, sole, or tilapia, cut into 2–3 inch pieces",
+        "Ginger-garlic paste – 1 tbsp",
+        "Red chili powder – 1 tsp, adjust to taste",
+        "Turmeric powder – ½ tsp",
+        "Carom seeds (ajwain) – 1 tsp, lightly crushed",
+        "Coriander powder – 1 tsp",
+        "Garam masala – 1 tsp",
+        "Lemon juice – 1 tbsp",
+        "Salt – to taste"
       ]
     },
     {
-      "title": "2. Second Marinade (Batter & Spice Layer)",
-      "steps": [
-        "In a mixing bowl, combine gram flour, cornflour, coriander powder, garam masala, crushed ajwain, and baking soda.",
-        "Add just enough water to form a thick, clinging batter.",
-        "Toss the pre-marinated fish into this mixture until well-coated.",
-        "Rest for another 10 minutes so the flavors penetrate."
+      "title": "For the Coating",
+      "items": [
+        "Gram flour (besan) – 4 tbsp",
+        "Cornflour – 2 tbsp",
+        "Baking soda – ½ tsp",
+        "Water – 2–3 tbsp, or as required for a thick batter"
       ]
     },
     {
-      "title": "3. Frying",
-      "steps": [
-        "Heat mustard oil until it reaches 180 °C (test: a drop of batter should rise immediately and sizzle).",
-        "Fry fish in small batches to avoid crowding, turning once, until golden brown and crisp (3–4 minutes per batch).",
-        "Drain on paper towels."
+      "title": "For Frying",
+      "items": [
+        "Mustard oil or refined oil – enough for deep frying"
       ]
     },
     {
-      "title": "4. Plating",
-      "steps": [
-        "Arrange on a warm platter with onion rings and lemon wedges.",
-        "Sprinkle fresh coriander.",
-        "Serve hot with mint chutney."
+      "title": "For Serving",
+      "items": [
+        "Fresh coriander leaves – chopped",
+        "Onion rings – soaked in cold water for crunch",
+        "Lemon wedges",
+        "Mint chutney"
       ]
     }
   ],
 
-  "Chef Tips": [
-    "Ajwain is essential—it cuts through the richness and adds a signature aroma.",
-    "For restaurant-style crispness, double fry: first at 160 °C until almost done, rest for 1 min, then fry again at 190 °C for 30–40 seconds.",
-    "Mustard oil adds authentic Punjabi depth—smoke it first to mellow its pungency.",
-    "For plating in fine dining, serve on a banana leaf over a stone platter, with chutney presented in a small katori."
+  "instruction": [
+    {
+      "title": "Step 1 – First Marinade",
+      "steps": [
+        "Pat the fish pieces dry with kitchen paper.",
+        "Mix ginger-garlic paste, red chili powder, turmeric powder, lemon juice, and salt in a bowl.",
+        "Coat the fish pieces evenly with the marinade.",
+        "Cover and let the fish rest for 15 minutes."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Spiced Coating",
+      "steps": [
+        "In a mixing bowl, combine gram flour, cornflour, coriander powder, garam masala, crushed ajwain, and baking soda.",
+        "Add just enough water to form a thick batter that clings to the fish.",
+        "Add the pre-marinated fish and toss until each piece is evenly coated.",
+        "Let the coated fish rest for another 10 minutes so the flavors penetrate."
+      ]
+    },
+    {
+      "title": "Step 3 – Frying the Fish",
+      "steps": [
+        "Heat mustard oil to 180°C. Test the temperature by dropping a little batter into the oil; it should rise immediately and sizzle.",
+        "Fry the fish in small batches to avoid overcrowding the pan.",
+        "Turn the pieces once and fry for about 3–4 minutes per batch, until golden brown and crisp.",
+        "Drain the fried fish on paper towels."
+      ]
+    },
+    {
+      "title": "Step 4 – Plating and Serving",
+      "steps": [
+        "Arrange the hot fish on a warm serving platter.",
+        "Add crisp onion rings and lemon wedges.",
+        "Sprinkle with freshly chopped coriander leaves.",
+        "Serve immediately with mint chutney."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with mint chutney, onion rings, and lemon wedges.",
+      "Garnish with fresh coriander for a bright, aromatic finish.",
+      "For fine-dining presentation, serve on a banana leaf over a stone platter with chutney in a small katori."
+    ]
+  },
+
+  "chefTips": [
+    "Ajwain is essential for the signature Fish Amritsari aroma and helps balance the richness of the fried fish.",
+    "For extra restaurant-style crispness, double-fry the fish: first at 160°C until almost cooked, rest for 1 minute, then fry again at 190°C for 30–40 seconds.",
+    "Mustard oil adds authentic Punjabi depth; heat it until smoking and allow it to cool slightly before frying to mellow its pungency.",
+    "Keep the batter thick enough to cling to the fish and create a crisp, even coating.",
+    "Fry in small batches so the oil temperature stays high and the coating remains crisp."
   ]
 }
