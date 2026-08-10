@@ -2,37 +2,95 @@
   "id": 427,
   "title": "Chicken Sorba",
   "category": "Indian",
-  "image": "assets/images/indian/chicken-sorba.png",
-  "time": "60 min",
-  "difficulty": "Medium",
-  "servings": 4,
+  "image": "assets/images/indian/chicken_sorba.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Serves: 4–6",
   "ingredients": [
     {
-      "title": "Ingredients",
+      "title": "For the Soup",
       "items": [
-        "500g chicken",
-        "6 cups water",
-        "onion, garlic, ginger",
-        "tomatoes",
-        "spices: cumin, turmeric, pepper",
-        "salt",
-        "coriander"
+        "Chicken – 500 g, bone-in pieces preferred",
+        "Water – 6 cups",
+        "Onion – 1 large, thinly sliced",
+        "Garlic – 4 cloves, minced",
+        "Fresh ginger – 1-inch piece, minced",
+        "Green chili – 1, slit (optional)",
+        "Tomatoes – 2 medium, chopped",
+        "Fresh coriander leaves – ½ cup, chopped",
+        "Lemon juice – 1 tbsp",
+        "Black peppercorns – 1 tsp",
+        "Cumin seeds – 1 tsp",
+        "Turmeric powder – ½ tsp",
+        "Red chili powder – ½ tsp (optional)",
+        "Salt – to taste",
+        "Oil or ghee – 2 tbsp"
+      ]
+    },
+    {
+      "title": "For Garnish & Serving",
+      "items": [
+        "Fresh coriander leaves – as needed",
+        "Lemon wedges – as needed",
+        "Crusty bread or steamed rice – optional, for serving"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Prepare the Broth Base",
       "steps": [
-        "Prepare broth with spices",
-        "Cook chicken",
-        "Simmer 40 minutes",
-        "Shred chicken",
-        "Finish with lemon and coriander"
+        "Heat oil or ghee in a heavy-bottomed pot over medium heat.",
+        "Add cumin seeds and whole black peppercorns and let them splutter for a few seconds.",
+        "Add the sliced onion and sauté until golden brown.",
+        "Add minced garlic, ginger, and slit green chili.",
+        "Cook for about 2 minutes until fragrant."
+      ]
+    },
+    {
+      "title": "Cook the Chicken",
+      "steps": [
+        "Add the bone-in chicken pieces to the pot.",
+        "Sear on all sides until the chicken turns white and develops a light golden color.",
+        "Add turmeric powder, red chili powder if using, and salt.",
+        "Stir well to coat the chicken with the spices.",
+        "Add the chopped tomatoes and cook until they soften and the oil begins to separate."
+      ]
+    },
+    {
+      "title": "Simmer the Soup",
+      "steps": [
+        "Pour in 6 cups of water and bring the soup to a boil.",
+        "Reduce the heat to low and simmer gently, uncovered, for about 40 minutes.",
+        "Cook until the chicken is completely cooked through and tender.",
+        "Skim off any foam or impurities that rise to the surface during simmering."
+      ]
+    },
+    {
+      "title": "Shred & Finish",
+      "steps": [
+        "Remove the cooked chicken pieces from the broth.",
+        "Allow them to cool enough to handle, then remove the meat from the bones and shred it.",
+        "Return the shredded chicken to the broth.",
+        "Add chopped fresh coriander and lemon juice.",
+        "Taste and adjust the salt and black pepper as needed."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Ladle the hot chicken sorba into serving bowls.",
+        "Garnish with fresh coriander leaves and lemon wedges.",
+        "Serve hot with crusty bread or steamed rice."
       ]
     }
   ],
   "chefTips": [
-    "Roast spices for deeper flavor"
+    "Chicken: Bone-in chicken adds more depth and body to the broth than boneless pieces.",
+    "Spices: Lightly roast the cumin seeds and peppercorns before adding them to the oil for a deeper aroma.",
+    "Aromatics: Add a small cinnamon stick or a few cloves while simmering for an extra layer of fragrance.",
+    "Broth: Skim the surface during simmering to keep the sorba cleaner and more refined.",
+    "Balance: Add lemon juice at the end so its fresh acidity remains bright.",
+    "Serving: Chicken sorba is best served piping hot with fresh coriander and lemon wedges."
   ]
 }
