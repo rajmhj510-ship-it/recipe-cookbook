@@ -1,44 +1,89 @@
 {
-  "id": 69,
-  "title": "Raita (Yogurt Condiment)",
+  "id": 469,
+  "title": "Raita",
   "category": "Indian",
   "image": "assets/images/indian/raita.png",
   "time": "10 min",
-  "difficulty": "Easy",
-  "servings": 4,
+  "difficulty": "",
+  "servings": "Serves: 4–6",
   "ingredients": [
     {
-      "title": "Ingredients",
+      "title": "For the Yogurt Base",
       "items": [
-        "Thick Yogurt (Dahi) – 500 g (about 2 cups) full-fat, unsweetened, preferably strained for creaminess",
+        "Thick yogurt (dahi) – 500 g (about 2 cups), full-fat and unsweetened",
+        "Chilled water or milk – 2–3 tbsp (optional, for a thinner consistency)"
+      ]
+    },
+    {
+      "title": "For the Vegetables & Herbs",
+      "items": [
         "Cucumber – 1 medium, peeled, deseeded, and finely diced or grated",
-        "Onion – ½ small, very finely minced (optional, adds crunch but use sparingly in fine dining)",
-        "Tomato – ½ medium, deseeded and finely diced (optional for color and freshness)",
-        "Fresh Coriander Leaves – 2 tbsp, finely chopped",
-        "Fresh Mint Leaves – 1 tbsp, finely chopped (or use ½ tsp dried mint powder)",
-        "Roasted Cumin Powder – 1 tsp (roast whole cumin seeds until aromatic, then grind)",
-        "Black Salt (Kala Namak) – ½ tsp (essential for the restaurant-style tang)",
-        "Regular Salt – to taste",
-        "Green Chili – 1 small, deseeded and very finely minced (optional, for heat)",
-        "Chilled Water or Milk – 2–3 tbsp (only if you want a thinner consistency)"
+        "Onion – ½ small, very finely minced (optional)",
+        "Tomato – ½ medium, deseeded and finely diced (optional)",
+        "Fresh coriander leaves – 2 tbsp, finely chopped",
+        "Fresh mint leaves – 1 tbsp, finely chopped",
+        "Green chili – 1 small, deseeded and very finely minced (optional)"
+      ]
+    },
+    {
+      "title": "For Seasoning",
+      "items": [
+        "Roasted cumin powder – 1 tsp",
+        "Black salt (kala namak) – ½ tsp",
+        "Regular salt – to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Roasted cumin powder – a pinch",
+        "Fresh mint sprig – 1, optional"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Prepare the Yogurt Base",
       "steps": [
-        "Prepare the Yogurt Base: Whisk the thick yogurt until smooth and lump-free. If you prefer a lighter consistency, whisk in 2–3 tbsp chilled water or milk.",
-        "Prepare the Vegetables: Peel and deseed cucumber (to avoid excess water), then finely dice or grate. Deseed and finely chop the tomato (if using). Finely mince onion and green chili.",
-        "Season the Raita: Add cucumber, tomato, onion, coriander, and mint to the yogurt. Mix in roasted cumin powder, black salt, and regular salt. Taste and adjust seasoning—restaurant chefs often balance black salt with a pinch of regular salt for depth.",
-        "Chill Before Serving: Cover and refrigerate for at least 30 minutes to allow flavors to meld. Stir once before serving; garnish with a pinch of cumin powder and a sprig of mint."
+        "Place the thick yogurt in a mixing bowl.",
+        "Whisk until completely smooth and lump-free.",
+        "For a lighter consistency, whisk in 2–3 tbsp chilled water or milk."
+      ]
+    },
+    {
+      "title": "Prepare the Vegetables",
+      "steps": [
+        "Peel and deseed the cucumber to reduce excess moisture.",
+        "Finely dice or grate the cucumber.",
+        "Deseed and finely dice the tomato if using.",
+        "Finely mince the onion and green chili if using."
+      ]
+    },
+    {
+      "title": "Combine & Season",
+      "steps": [
+        "Add cucumber, tomato, onion, coriander, and mint to the whisked yogurt.",
+        "Add roasted cumin powder, black salt, and regular salt.",
+        "Mix gently until the vegetables and herbs are evenly distributed.",
+        "Taste and adjust the seasoning as needed."
+      ]
+    },
+    {
+      "title": "Chill & Serve",
+      "steps": [
+        "Cover the raita and refrigerate for at least 30 minutes to allow the flavors to meld.",
+        "Stir gently once before serving.",
+        "Transfer to a chilled serving bowl.",
+        "Garnish with a light dusting of roasted cumin powder and a fresh mint sprig."
       ]
     }
   ],
   "chefTips": [
-    "For Extra Creaminess: Strain the yogurt through muslin cloth for 30 minutes before using.",
-    "Flavor Infusion: Lightly bruise mint leaves before chopping to release oils.",
-    "Presentation: Serve in a chilled bowl with a light dusting of cumin powder on top for visual appeal.",
-    "Pairing: Perfect with biryani, kebabs, or spicy curries to balance heat."
+    "Extra creaminess: Strain the yogurt through muslin cloth for about 30 minutes before whisking.",
+    "Cucumber: Deseed cucumber before adding it to prevent the raita from becoming watery.",
+    "Mint: Lightly bruise the mint leaves before chopping to release their natural oils and aroma.",
+    "Seasoning: Combining black salt with a small amount of regular salt creates a deeper restaurant-style flavor.",
+    "Presentation: Serve chilled with a light cumin dusting and fresh mint for a clean, refined finish.",
+    "Pairing: Raita works especially well with biryani, kebabs, pulao, and spicy curries as a cooling accompaniment."
   ]
 }
