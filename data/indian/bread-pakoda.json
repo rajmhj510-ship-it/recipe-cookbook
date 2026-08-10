@@ -1,53 +1,103 @@
 {
-  "id": 414,
+  "id": 411,
   "title": "Bread Pakoda",
   "category": "Indian",
-  "image": "assets/images/indian/bread-pakoda.png",
+  "image": "assets/images/indian/bread_pakoda.png",
   "time": "",
   "difficulty": "",
-  "servings": "serves about 4",
-  "ingredients": [],
+  "servings": "Yield: 8–10 bread pakodas",
+  "ingredients": [
+    {
+      "title": "For the Filling",
+      "items": [
+        "Potatoes – 3 medium, boiled and mashed",
+        "Green chili – 1–2, finely chopped",
+        "Ginger – 1 tsp, grated",
+        "Mustard seeds – 1 tsp",
+        "Cumin seeds – 1 tsp",
+        "Turmeric powder – ½ tsp",
+        "Red chili powder – ½ tsp",
+        "Garam masala – 1 tsp",
+        "Chaat masala – 1 tsp (optional)",
+        "Fresh coriander leaves – 2 tbsp, finely chopped",
+        "Salt – to taste",
+        "Oil – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Batter",
+      "items": [
+        "Gram flour (besan) – 1 cup",
+        "Turmeric powder – ¼ tsp",
+        "Red chili powder – ½ tsp",
+        "Asafoetida (hing) – a pinch",
+        "Salt – to taste",
+        "Water – as needed to make a smooth, thick batter"
+      ]
+    },
+    {
+      "title": "For Assembly & Frying",
+      "items": [
+        "White bread slices – 16–20 slices",
+        "Neutral oil – as needed for deep frying"
+      ]
+    }
+  ],
   "instruction": [
     {
-      "title": "Prepare the filling:",
+      "title": "Prepare the Filling",
       "steps": [
-        "Heat oil in a pan on medium heat. Add mustard seeds and cumin seeds; let them splutter.",
-        "Add chopped green chilies and grated ginger; sauté for 1 minute.",
-        "Add turmeric, red chili powder, and salt. Mix well.",
-        "Add the mashed potatoes, garam masala, and chaat masala. Mix thoroughly.",
-        "Cook for 2-3 minutes to blend flavors. Add chopped coriander, mix, and remove from heat. Let it cool."
+        "Heat oil in a pan over medium heat.",
+        "Add mustard seeds and cumin seeds; let them splutter.",
+        "Add chopped green chili and grated ginger; sauté for about 1 minute.",
+        "Add turmeric powder, red chili powder, and salt; mix well.",
+        "Add mashed potatoes, garam masala, and chaat masala.",
+        "Cook for 2–3 minutes, stirring well to blend the spices.",
+        "Add chopped coriander leaves, mix, and remove from heat.",
+        "Let the potato filling cool completely."
       ]
     },
     {
-      "title": "Prepare the batter:",
+      "title": "Prepare the Batter",
       "steps": [
-        "In a bowl, combine gram flour, turmeric, chili powder, asafoetida, and salt.",
-        "Gradually add water and whisk to a smooth, thick batter — consistency should be like pancake batter but slightly thicker."
+        "Add gram flour, turmeric powder, red chili powder, asafoetida, and salt to a mixing bowl.",
+        "Gradually add water while whisking to form a smooth, thick batter.",
+        "Adjust the consistency so it is similar to pancake batter but slightly thicker."
       ]
     },
     {
-      "title": "Assemble the Pakodas:",
+      "title": "Assemble the Pakodas",
       "steps": [
-        "Take a bread slice, cut off the edges if desired.",
-        "Spread a generous amount of potato filling on one slice, then cover with another slice (like a sandwich).",
-        "Press lightly to seal the edges."
+        "Take a bread slice and cut off the edges if desired.",
+        "Spread a generous layer of cooled potato filling over the slice.",
+        "Cover with another bread slice to form a sandwich.",
+        "Press lightly to secure the sandwich and seal the edges.",
+        "Repeat with the remaining bread slices and filling."
       ]
     },
     {
-      "title": "Fry:",
+      "title": "Frying",
       "steps": [
-        "Heat oil in a deep pan on medium heat.",
-        "Dip the stuffed bread sandwich into the gram flour batter, coat evenly.",
-        "Carefully drop it into hot oil. Fry on medium heat until golden brown and crisp on both sides.",
+        "Heat oil in a deep pan over medium heat.",
+        "Dip each stuffed bread sandwich into the gram flour batter, coating it evenly.",
+        "Carefully place the coated sandwich into the hot oil.",
+        "Fry over medium heat until golden brown and crisp on both sides.",
         "Remove with a slotted spoon and drain on paper towels."
       ]
     },
     {
-      "title": "Serve:",
+      "title": "Serve",
       "steps": [
-        "Serve hot with green chutney and tamarind chutney or ketchup."
+        "Cut each fried sandwich into halves or desired portions.",
+        "Serve hot with green chutney, tamarind chutney, or ketchup."
       ]
     }
   ],
-  "chefTips": []
+  "chefTips": [
+    "Filling: Cool the potato filling completely before assembling to prevent the bread from becoming soggy.",
+    "Batter texture: Keep the besan batter thick enough to coat the bread evenly without sliding off.",
+    "Frying temperature: Maintain medium heat so the coating becomes crisp and golden without burning.",
+    "Bread: Regular white bread works well; slightly thick slices are easier to handle and hold more filling.",
+    "Serving: Bread pakodas are best served immediately while hot and crisp."
+  ]
 }
