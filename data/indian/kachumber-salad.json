@@ -1,54 +1,80 @@
 {
-  "id": 67,
+  "id": 462,
   "title": "Kachumber Salad",
   "category": "Indian",
-  "image": "assets/images/indian/kachumber-salad.png",
+  "image": "assets/images/indian/kachumber_salad.png",
   "time": "15 min",
-  "difficulty": "Easy",
-  "servings": 4,
+  "difficulty": "",
+  "servings": "Serves: 4",
   "ingredients": [
     {
-      "title": "Vegetables",
+      "title": "For the Salad",
       "items": [
-        "1 cup cucumber – peeled (optional), deseeded, finely diced",
-        "1 cup tomato – firm, deseeded, finely diced",
-        "½ cup red onion – finely diced",
-        "2 tbsp fresh coriander leaves – finely chopped",
-        "1 small green chili – deseeded, finely minced (optional, adjust to heat preference)"
+        "Cucumber – 1 cup, peeled if desired, deseeded and finely diced",
+        "Tomato – 1 cup, firm, deseeded and finely diced",
+        "Red onion – ½ cup, finely diced",
+        "Fresh coriander leaves – 2 tbsp, finely chopped",
+        "Green chili – 1 small, deseeded and finely minced (optional)"
       ]
     },
     {
-      "title": "Dressing",
+      "title": "For the Dressing",
       "items": [
-        "1 tbsp fresh lemon juice",
-        "½ tsp roasted cumin powder",
-        "¼ tsp red chili powder or Kashmiri chili powder (for mild heat and color)",
-        "¼ tsp black salt (kala namak) – optional, for authentic tang",
+        "Fresh lemon juice – 1 tbsp",
+        "Roasted cumin powder – ½ tsp",
+        "Red chili powder or Kashmiri chili powder – ¼ tsp",
+        "Black salt (kala namak) – ¼ tsp (optional)",
         "Salt – to taste",
         "Freshly ground black pepper – to taste"
       ]
     },
     {
-      "title": "Optional Garnish",
+      "title": "For Garnish (Optional)",
       "items": [
-        "Few coriander sprigs",
-        "A dusting of chaat masala"
+        "Fresh coriander sprigs – as needed",
+        "Chaat masala – a light dusting"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Prepare the Vegetables",
       "steps": [
-        "Prep the vegetables: Wash all vegetables thoroughly. For cucumber and tomato, deseed to avoid excess moisture. Dice evenly to about 5 mm cubes for a refined presentation. Combine in a mixing bowl. Add cucumber, tomato, onion, coriander leaves, and chili.",
-        "Prepare the dressing: In a small bowl, whisk lemon juice, roasted cumin powder, chili powder, black salt, regular salt, and pepper until combined. Toss and serve immediately. Pour dressing over vegetables just before serving. Toss gently with a spoon to coat evenly without mashing the vegetables.",
-        "Plating (Chef’s Touch): Serve in a chilled white bowl or plate for color contrast. Garnish with a coriander sprig and a light dusting of chaat masala on top."
+        "Wash all the vegetables thoroughly.",
+        "Deseed the cucumber and tomato to reduce excess moisture.",
+        "Dice the cucumber, tomato, and red onion into even pieces, approximately 5 mm cubes.",
+        "Add cucumber, tomato, onion, chopped coriander, and green chili to a mixing bowl."
+      ]
+    },
+    {
+      "title": "Prepare the Dressing",
+      "steps": [
+        "In a small bowl, combine lemon juice, roasted cumin powder, chili powder, black salt if using, regular salt, and freshly ground black pepper.",
+        "Whisk until the dressing is evenly combined."
+      ]
+    },
+    {
+      "title": "Toss & Serve",
+      "steps": [
+        "Pour the dressing over the vegetables immediately before serving.",
+        "Toss gently with a spoon until the vegetables are evenly coated.",
+        "Avoid overmixing so the diced vegetables retain their shape and crunch."
+      ]
+    },
+    {
+      "title": "Plating",
+      "steps": [
+        "Serve the salad in a chilled bowl or on a chilled plate.",
+        "Garnish with a fresh coriander sprig.",
+        "Finish with a light dusting of chaat masala if desired."
       ]
     }
   ],
   "chefTips": [
-    "Timing is key: Mix dressing and vegetables only right before serving to maintain crunch.",
-    "Roasted cumin powder: Dry roast cumin seeds on medium heat until aromatic, then grind — this makes a big flavor difference.",
-    "Variations: Add grated carrot, diced radish, or pomegranate seeds for extra texture and visual appeal."
+    "Timing: Add the dressing immediately before serving to keep the vegetables crisp and prevent excess liquid.",
+    "Cumin: For the best flavor, dry roast whole cumin seeds over medium heat until aromatic, then grind into a powder.",
+    "Vegetables: Use firm tomatoes and fresh, crisp cucumbers for the best texture.",
+    "Presentation: Uniform 5 mm dice creates a clean, refined restaurant-style appearance.",
+    "Variations: Add grated carrot, diced radish, or pomegranate seeds for extra texture, color, and freshness."
   ]
 }
