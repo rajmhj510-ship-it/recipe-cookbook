@@ -2,36 +2,113 @@
   "id": 428,
   "title": "Paya Sorba",
   "category": "Indian",
-  "image": "assets/images/indian/paya-sorba.png",
-  "time": "4 hrs",
-  "difficulty": "Hard",
-  "servings": 4,
+  "image": "assets/images/indian/paya_sorba.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Serves: 4",
   "ingredients": [
     {
-      "title": "Ingredients",
+      "title": "For the Soup",
       "items": [
-        "goat/lamb trotters",
-        "onions, tomatoes",
-        "ginger garlic paste",
-        "whole spices",
-        "water 6-8 cups",
-        "salt"
+        "Goat or lamb trotters (paya) – 4 pieces, cleaned thoroughly",
+        "Onions – 2 large, finely chopped",
+        "Tomatoes – 2 medium, chopped",
+        "Ginger-garlic paste – 2 tbsp",
+        "Green chilies – 2, slit",
+        "Turmeric powder – ½ tsp",
+        "Red chili powder – 1 tsp",
+        "Coriander powder – 2 tsp",
+        "Garam masala powder – 1 tsp",
+        "Salt – to taste",
+        "Oil or ghee – 3 tbsp",
+        "Water – 6–8 cups, or enough to cover the trotters"
+      ]
+    },
+    {
+      "title": "For the Whole Spice Tempering",
+      "items": [
+        "Bay leaf – 1",
+        "Cinnamon stick – 1 inch",
+        "Green cardamom – 3",
+        "Cloves – 3",
+        "Black peppercorns – 6–8"
+      ]
+    },
+    {
+      "title": "For Garnish & Serving",
+      "items": [
+        "Fresh coriander leaves – a handful, chopped",
+        "Lemon wedges – as needed",
+        "Fresh ginger – julienned, optional",
+        "Ghee – a drizzle, optional",
+        "Black pepper powder – optional"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Prepare the Trotters",
       "steps": [
-        "Parboil trotters",
-        "Cook masala base",
-        "Add spices and trotters",
-        "Slow cook 3\u20134 hours",
-        "Finish seasoning"
+        "Clean the goat or lamb trotters thoroughly under running water.",
+        "Parboil the trotters in water with a pinch of salt for 10–15 minutes.",
+        "Drain the trotters and set them aside."
+      ]
+    },
+    {
+      "title": "Prepare the Masala Base",
+      "steps": [
+        "Heat oil or ghee in a heavy-bottomed pot or pressure cooker over medium heat.",
+        "Add bay leaf, cinnamon, cardamom, cloves, and black peppercorns.",
+        "Sauté the whole spices for about 30 seconds until fragrant.",
+        "Add chopped onions and sauté until golden brown.",
+        "Add ginger-garlic paste and slit green chilies.",
+        "Cook for 2–3 minutes until the raw aroma disappears.",
+        "Add chopped tomatoes and cook until soft and the oil begins to separate."
+      ]
+    },
+    {
+      "title": "Add the Spices",
+      "steps": [
+        "Add turmeric powder, red chili powder, coriander powder, and salt.",
+        "Stir well to coat the masala.",
+        "Cook the spices for about 2 minutes over medium heat."
+      ]
+    },
+    {
+      "title": "Cook the Trotters",
+      "steps": [
+        "Add the parboiled trotters to the masala and mix well.",
+        "Pour in 6–8 cups of water, or enough to fully cover the trotters.",
+        "If using a pressure cooker, cook for about 45–50 minutes or until the trotters are very tender and the broth becomes gelatinous.",
+        "If using a regular pot, cover partially and simmer gently for 3–4 hours, adding water as needed.",
+        "Skim off any foam or excess fat that rises to the surface during cooking."
+      ]
+    },
+    {
+      "title": "Final Seasoning",
+      "steps": [
+        "Once the trotters are tender and the broth has reached the desired consistency, add garam masala.",
+        "Add chopped fresh coriander leaves.",
+        "Simmer for another 5 minutes to allow the flavors to blend.",
+        "Taste and adjust salt and black pepper as needed."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Ladle the hot Paya Sorba into serving bowls.",
+        "Garnish with fresh coriander and optional julienned ginger.",
+        "Drizzle lightly with ghee if desired.",
+        "Serve with lemon wedges, naan, roti, or steamed rice."
       ]
     }
   ],
   "chefTips": [
-    "Slow cooking is key for gelatinous texture"
+    "Slow cooking: Low-and-slow cooking develops a rich, gelatinous broth and makes the trotters exceptionally tender.",
+    "Cleaning: Clean and parboil the trotters thoroughly before cooking for a cleaner-tasting broth.",
+    "Broth: Skim foam and excess fat during cooking for a cleaner, more refined soup.",
+    "Flavor: Add a small amount of freshly ground black pepper at the end for extra warmth.",
+    "Pressure cooking: Use enough water to cover the trotters and allow sufficient cooking time for the connective tissue to become tender and gelatinous.",
+    "Serving: Fresh lemon, coriander, and ginger brighten the rich broth just before serving."
   ]
 }
