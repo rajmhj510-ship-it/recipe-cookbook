@@ -258,5 +258,15 @@
     "description": "",
     "time": "35",
     "difficulty": "Medium"
+  },
+    {
+    "id": 227,
+    "title": "Chinese Five-Spice Powder",
+    "category": "Chinese",
+    "file": "data/chinese/five-spice-powder.json",
+    "image": "assets/images/chinese/five-spice-powder.png",
+    "description": "",
+    "time": "5",
+    "difficulty": "Easy"
   }
 ]
