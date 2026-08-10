@@ -1,18 +1,18 @@
 {
-  "id": 476,
+  "id": 477,
   "title": "Rajma Masala",
   "category": "Indian",
   "image": "assets/images/indian/rajma-masala.png",
-  "time": "1 hr",
-  "difficulty": "Medium",
-  "servings": 4,
+  "time": "1 hr 15 min",
+  "difficulty": "",
+  "servings": "Serves: 4",
   "ingredients": [
     {
       "title": "For the Rajma",
       "items": [
-        "Red kidney beans (Rajma) – 1½ cups (about 300 g), dried",
-        "Water – for soaking and boiling",
-        "Salt – 1 tsp (for boiling water)",
+        "Red kidney beans (rajma) – 1½ cups (about 300 g), dried",
+        "Water – as needed for soaking and boiling",
+        "Salt – 1 tsp, for boiling",
         "Bay leaf – 1 large",
         "Cinnamon stick – 1 small (2–3 cm)",
         "Green cardamom – 2"
@@ -21,48 +21,78 @@
     {
       "title": "For the Masala Base",
       "items": [
-        "Ghee – 2 tbsp (or oil for vegan)",
-        "Onions – 2 medium, finely chopped (about 200 g)",
+        "Ghee – 2 tbsp (or vegetable oil for vegan preparation)",
+        "Onions – 2 medium (about 200 g), finely chopped",
         "Ginger-garlic paste – 1½ tbsp",
-        "Tomatoes – 3 medium, finely chopped (about 250 g) or pureed for smoother gravy",
+        "Tomatoes – 3 medium (about 250 g), finely chopped or pureed",
         "Green chilies – 1–2, slit",
         "Coriander powder – 2 tsp",
         "Cumin powder – 1 tsp",
-        "Red chili powder – 1–1½ tsp (adjust to spice level)",
+        "Red chili powder – 1–1½ tsp, adjust to taste",
         "Turmeric powder – ½ tsp",
         "Garam masala – 1 tsp",
-        "Kasuri methi (dried fenugreek leaves) – 1 tsp, lightly crushed",
+        "Kasuri methi – 1 tsp, lightly crushed",
         "Salt – to taste"
       ]
     },
     {
       "title": "For Garnish",
       "items": [
-        "Fresh coriander leaves – handful, chopped",
-        "Fresh cream – 1–2 tbsp (optional, for richness)"
+        "Fresh coriander leaves – a handful, chopped",
+        "Fresh cream – 1–2 tbsp (optional)"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Soak & Cook the Rajma",
       "steps": [
-        "Prep the Rajma: Wash rajma thoroughly, soak in plenty of water for 8–10 hours or overnight. Drain and rinse. Pressure cook with fresh water, salt, bay leaf, cinnamon, and cardamom until soft but intact. Pressure cooker: 5–6 whistles on medium heat. Instant Pot: High pressure, 35–40 min. Drain and reserve the cooking liquid (do not discard).",
-        "Build the Masala: Heat ghee in a heavy-bottom pan. Add onions; sauté until deep golden-brown (this step is crucial for depth of flavor). Add ginger-garlic paste; cook until raw smell disappears (1–2 min). Add green chilies, followed by tomatoes; cook until tomatoes break down and ghee separates from the sides. Add coriander, cumin, chili powder, and turmeric; sauté for 30–45 seconds to bloom the spices.",
-        "Simmer with Rajma: Add cooked rajma and about 1½ cups of the reserved cooking liquid. Mash a few rajma beans against the side of the pan to naturally thicken the gravy. Simmer on low heat for 20–25 min, stirring occasionally to avoid sticking. Finish with garam masala and kasuri methi; stir well.",
-        "Final Touch: Adjust salt and consistency — the gravy should be thick and coating, not watery. Optional: swirl in fresh cream for restaurant-style richness. Garnish with chopped coriander."
+        "Wash the rajma thoroughly and soak in plenty of water for 8–10 hours or overnight.",
+        "Drain and rinse the soaked beans.",
+        "Add fresh water, 1 tsp salt, bay leaf, cinnamon stick, and green cardamom.",
+        "Pressure cook until the rajma is soft but still intact: about 5–6 whistles on medium heat, or use an Instant Pot on high pressure for 35–40 minutes.",
+        "Drain the cooked rajma and reserve the cooking liquid."
       ]
     },
     {
-      "title": "Serving Suggestions",
+      "title": "Build the Masala",
       "steps": [
-        "Traditionally served with steamed basmati rice (Rajma Chawal).",
-        "Can also be paired with jeera rice, naan, or paratha.",
-        "Accompany with sliced onions, lemon wedges, and green chilies."
+        "Heat ghee in a heavy-bottomed pan over medium heat.",
+        "Add chopped onions and sauté until deeply golden brown.",
+        "Add ginger-garlic paste and cook for 1–2 minutes until the raw aroma disappears.",
+        "Add slit green chilies and tomatoes.",
+        "Cook until the tomatoes break down completely and the ghee begins to separate from the masala.",
+        "Add coriander powder, cumin powder, red chili powder, and turmeric.",
+        "Sauté for 30–45 seconds to bloom the spices."
+      ]
+    },
+    {
+      "title": "Simmer with Rajma",
+      "steps": [
+        "Add the cooked rajma to the masala.",
+        "Pour in about 1½ cups of the reserved rajma cooking liquid.",
+        "Lightly mash a few rajma beans against the side of the pan to naturally thicken the gravy.",
+        "Simmer uncovered on low heat for 20–25 minutes, stirring occasionally to prevent sticking.",
+        "Add garam masala and crushed kasuri methi during the final few minutes."
+      ]
+    },
+    {
+      "title": "Finish & Serve",
+      "steps": [
+        "Adjust salt and consistency; the finished gravy should be thick and coating rather than watery.",
+        "Swirl in fresh cream if using for extra richness.",
+        "Garnish with freshly chopped coriander leaves.",
+        "Serve hot with steamed basmati rice, jeera rice, naan, or paratha."
       ]
     }
   ],
   "chefTips": [
-    "For a deeper, smokier flavor, you can give the rajma a dhungar (smoke infusion) with a piece of hot charcoal before serving."
+    "Soaking: Overnight soaking helps the rajma cook evenly and gives a creamier final texture.",
+    "Onions: Cook the onions until deeply golden for maximum depth and sweetness in the masala.",
+    "Gravy: Mashing a few beans into the sauce naturally thickens the rajma without adding flour or cream.",
+    "Consistency: Rajma gravy thickens as it rests, so keep it slightly looser if serving later.",
+    "Flavor: Kasuri methi added near the end provides a subtle restaurant-style aroma.",
+    "Serving: Rajma pairs especially well with steamed basmati rice, traditionally served as rajma chawal.",
+    "Smoky finish: For extra depth, use a dhungar technique with hot charcoal immediately before serving."
   ]
 }
