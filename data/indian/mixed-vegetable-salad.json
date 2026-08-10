@@ -1,55 +1,92 @@
 {
-  "id": 68,
+  "id": 468,
   "title": "Mixed Vegetable Salad",
   "category": "Indian",
-  "image": "assets/images/indian/mixed-vegetable-salad.png",
-  "time": "15 min",
-  "difficulty": "Easy",
-  "servings": 4,
+  "image": "assets/images/indian/mixed_vegetable_salad.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Serves: 4",
   "ingredients": [
     {
-      "title": "Vegetables",
+      "title": "For the Salad",
       "items": [
-        "1 medium cucumber, finely chopped or diced",
-        "1 medium carrot, grated or finely chopped",
-        "1 medium tomato, finely chopped",
-        "1 small onion, finely chopped (optional)",
-        "1/2 cup boiled green peas",
-        "1 small boiled potato, diced (optional)",
-        "1/2 capsicum (bell pepper), finely chopped",
-        "1 small raw mango (optional), finely chopped (for tanginess)"
+        "Cucumber – 1 medium, finely chopped or diced",
+        "Carrot – 1 medium, grated or finely chopped",
+        "Tomato – 1 medium, finely chopped",
+        "Onion – 1 small, finely chopped (optional)",
+        "Green peas – ½ cup, boiled",
+        "Potato – 1 small, boiled and diced (optional)",
+        "Capsicum (bell pepper) – ½, finely chopped",
+        "Raw mango – 1 small, finely chopped (optional)"
       ]
     },
     {
       "title": "For Dressing & Seasoning",
       "items": [
-        "1-2 green chilies, finely chopped (adjust to taste)",
-        "1 tablespoon fresh coriander leaves, finely chopped",
-        "1 tablespoon lemon juice (freshly squeezed)",
-        "1/2 teaspoon roasted cumin powder (bhuna jeera)",
-        "1/2 teaspoon chaat masala",
-        "1/4 teaspoon black salt (kala namak) or regular salt, to taste",
-        "Freshly ground black pepper, to taste"
+        "Green chilies – 1–2, finely chopped",
+        "Fresh coriander leaves – 1 tbsp, finely chopped",
+        "Fresh lemon juice – 1 tbsp",
+        "Roasted cumin powder (bhuna jeera) – ½ tsp",
+        "Chaat masala – ½ tsp",
+        "Black salt (kala namak) or regular salt – ¼ tsp, or to taste",
+        "Freshly ground black pepper – to taste"
+      ]
+    },
+    {
+      "title": "Optional Garnishes",
+      "items": [
+        "Pomegranate seeds – as needed",
+        "Roasted peanuts – as needed"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Prepare the Vegetables",
       "steps": [
-        "Prepare Vegetables: Wash and chop all vegetables as mentioned. Boil the peas and potato if using. Drain and cool them.",
-        "Mix Ingredients: In a large mixing bowl, combine cucumber, carrot, tomato, onion, peas, potato, capsicum, and mango (if using).",
-        "Add Seasonings: Add finely chopped green chilies, coriander leaves, lemon juice, roasted cumin powder, chaat masala, black salt, and black pepper.",
-        "Toss Well: Gently toss the salad until all ingredients are well combined and coated with the spices and lemon juice.",
-        "Taste and Adjust: Check seasoning and adjust salt, lemon juice, or chaat masala if needed.",
-        "Serve: Serve fresh as a side with Indian meals or as a healthy snack."
+        "Wash all the vegetables thoroughly.",
+        "Finely chop or dice the cucumber, carrot, tomato, onion, capsicum, and raw mango if using.",
+        "Boil the green peas and potato if using.",
+        "Drain the peas and potato thoroughly and allow them to cool before adding to the salad."
+      ]
+    },
+    {
+      "title": "Combine the Vegetables",
+      "steps": [
+        "Add cucumber, carrot, tomato, onion, green peas, potato, capsicum, and raw mango if using to a large mixing bowl.",
+        "Toss gently to distribute the vegetables evenly."
+      ]
+    },
+    {
+      "title": "Add the Seasoning",
+      "steps": [
+        "Add chopped green chilies and fresh coriander.",
+        "Pour in the fresh lemon juice.",
+        "Add roasted cumin powder, chaat masala, black salt, and freshly ground black pepper."
+      ]
+    },
+    {
+      "title": "Toss & Adjust",
+      "steps": [
+        "Gently toss the salad until all the vegetables are evenly coated with the lemon juice and seasonings.",
+        "Taste and adjust salt, lemon juice, or chaat masala according to preference."
+      ]
+    },
+    {
+      "title": "Chill & Serve",
+      "steps": [
+        "Serve the salad immediately for maximum freshness.",
+        "Alternatively, refrigerate for 15–20 minutes before serving for a refreshing chilled salad.",
+        "Garnish with pomegranate seeds or roasted peanuts if desired."
       ]
     }
   ],
   "chefTips": [
-    "Use fresh, crisp vegetables for best texture.",
-    "Roasting cumin seeds before grinding adds a wonderful aroma.",
-    "You can add pomegranate seeds or roasted peanuts for crunch and a burst of flavor.",
-    "This salad can be chilled for 15-20 minutes before serving for a refreshing taste."
+    "Vegetables: Use fresh, crisp vegetables for the best texture and flavor.",
+    "Cumin: Dry roast whole cumin seeds until fragrant, then grind them for a more aromatic bhuna jeera.",
+    "Crunch: Add pomegranate seeds or roasted peanuts for extra texture and flavor.",
+    "Mango: Raw mango adds a naturally tangy element and can be adjusted according to its sourness.",
+    "Serving: Dress the salad shortly before serving to prevent the vegetables from becoming watery.",
+    "Chilling: A brief 15–20 minute chill makes the salad especially refreshing while keeping the vegetables crisp."
   ]
 }
