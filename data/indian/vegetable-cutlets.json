@@ -2,11 +2,105 @@
   "id": 415,
   "title": "Vegetable Cutlets",
   "category": "Indian",
-  "image": "assets/images/indian/vegetable-cutlets.png",
+  "image": "assets/images/indian/vegetable_cutlets.png",
   "time": "",
   "difficulty": "",
-  "servings": "serves about 4 to 6",
-  "ingredients": [],
-  "instruction": [],
-  "chefTips": []
+  "servings": "Yield: 12–15 medium cutlets",
+  "ingredients": [
+    {
+      "title": "For the Vegetable Mixture",
+      "items": [
+        "Potatoes – 2 medium, boiled and mashed",
+        "Carrots – 1 cup, grated",
+        "Green peas – ½ cup, boiled and lightly mashed",
+        "Green beans – ½ cup, finely chopped and boiled (optional)",
+        "Onion – 1 small, finely chopped",
+        "Green chili – 2, finely chopped",
+        "Fresh coriander leaves – ¼ cup, finely chopped",
+        "Corn kernels – ½ cup, boiled (optional)",
+        "Ginger-garlic paste – 1 tsp",
+        "Cumin seeds – ½ tsp",
+        "Garam masala – ½ tsp",
+        "Red chili powder – ½ tsp",
+        "Chaat masala – ½ tsp (optional)",
+        "Black pepper powder – ½ tsp",
+        "Salt – to taste",
+        "Oil – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For Binding & Coating",
+      "items": [
+        "Bread crumbs – ¼ cup, for mixing",
+        "Bread crumbs – extra, for coating",
+        "All-purpose flour or cornflour – 2 tbsp",
+        "Water – as needed to make a thin coating batter"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Vegetable or mustard oil – as needed for shallow frying"
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "title": "Prepare the Vegetable Mixture",
+      "steps": [
+        "Heat 1 tbsp oil in a pan over medium heat.",
+        "Add cumin seeds and let them splutter.",
+        "Add chopped onion, green chili, and ginger-garlic paste; sauté until the onions turn translucent.",
+        "Add grated carrots, green peas, beans, and corn kernels.",
+        "Cook for 3–4 minutes over medium heat, stirring occasionally.",
+        "Add red chili powder, garam masala, black pepper powder, and salt.",
+        "Mix well and cook briefly to combine the spices.",
+        "Remove from heat and let the mixture cool slightly."
+      ]
+    },
+    {
+      "title": "Combine and Shape",
+      "steps": [
+        "In a large bowl, combine the sautéed vegetable mixture with mashed potatoes.",
+        "Add chopped coriander leaves and ¼ cup bread crumbs.",
+        "Mix thoroughly and adjust salt or spices to taste.",
+        "Knead or mix until the mixture forms a dough-like consistency.",
+        "If the mixture feels too wet or soft, add more bread crumbs as needed.",
+        "Divide into small portions and shape each portion into a flat, round patty."
+      ]
+    },
+    {
+      "title": "Prepare the Coating",
+      "steps": [
+        "Mix all-purpose flour or cornflour with enough water to make a smooth, thin batter.",
+        "Dip each cutlet into the flour batter, coating it evenly.",
+        "Transfer immediately to the bread crumbs and coat all sides evenly.",
+        "Repeat with the remaining cutlets."
+      ]
+    },
+    {
+      "title": "Fry the Cutlets",
+      "steps": [
+        "Heat oil in a frying pan over medium heat.",
+        "Place the coated cutlets in the hot oil without overcrowding the pan.",
+        "Shallow fry for about 3–4 minutes per side until golden brown and crisp.",
+        "Turn carefully and fry the other side evenly.",
+        "Remove and drain on paper towels."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Serve the vegetable cutlets hot with green chutney, tamarind chutney, or ketchup.",
+        "Garnish with lemon wedges and fresh coriander leaves."
+      ]
+    }
+  ],
+  "chefTips": [
+    "Moisture control: Cook the vegetables until excess moisture evaporates so the cutlets hold their shape.",
+    "Binding: Add extra bread crumbs gradually if the mixture feels too soft or sticky.",
+    "Coating: Coat the cutlets evenly with bread crumbs for a crisp exterior.",
+    "Frying: Maintain medium heat so the cutlets become golden and crisp without browning too quickly.",
+    "Make-ahead: Shape and coat the cutlets in advance, refrigerate, and fry just before serving."
+  ]
 }
