@@ -1,48 +1,93 @@
 {
-  "id": 66,
+  "id": 461,
   "title": "Tomato Chutney",
   "category": "Indian",
-  "image": "assets/images/indian/tomato-chutney.png",
-  "time": "30 min",
-  "difficulty": "Easy",
+  "image": "assets/images/indian/tomato_chutney.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Yield: about 500 g chutney",
   "ingredients": [
     {
-      "title": "Ingredients",
+      "title": "For the Chutney",
       "items": [
         "Ripe tomatoes – 800 g, chopped",
         "Onion – 150 g, finely sliced",
-        "Ginger – 15 g, grated",
+        "Fresh ginger – 15 g, grated",
         "Garlic – 15 g, minced",
-        "Green chilies – 2 (adjust to heat preference), slit",
+        "Green chilies – 2, slit",
         "Mustard seeds – 1 tsp",
         "Fenugreek seeds – ¼ tsp",
         "Dry red chilies – 2, broken",
         "Curry leaves – 10–12",
         "Turmeric powder – ½ tsp",
-        "Kashmiri red chili powder – 1½ tsp (for color and mild heat)",
-        "Jaggery – 25 g (adjust to taste)",
-        "Tamarind pulp – 1 tbsp (optional for tang depth)",
-        "Salt – 1½ tsp (adjust to taste)",
+        "Kashmiri red chili powder – 1½ tsp",
+        "Jaggery – 25 g, adjust to taste",
+        "Tamarind pulp – 1 tbsp (optional)",
+        "Salt – 1½ tsp, adjust to taste",
         "Refined oil – 3 tbsp"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Prepare the Tomatoes",
       "steps": [
-        "Prepare the tomatoes: Blanch tomatoes in boiling water for 2–3 minutes until skins split. Remove, cool slightly, peel, and chop finely (this gives a smooth, rich chutney base).",
-        "Temper the spices: Heat oil in a heavy-bottom pan over medium heat. Add mustard seeds and let them crackle. Add fenugreek seeds, dry red chilies, and curry leaves — fry for 5–7 seconds (avoid burning fenugreek; it turns bitter).",
-        "Build the flavor base: Add onions, sauté until soft and golden. Stir in ginger, garlic, and green chilies; cook until raw aroma disappears.",
-        "Cook the chutney: Add turmeric powder and Kashmiri chili powder, stir briefly. Add blanched tomatoes, salt, and cook on medium heat until they soften and release oil (10–12 minutes). Add jaggery and tamarind pulp, stir well, and cook 3–4 more minutes until chutney thickens to a glossy consistency.",
-        "Finishing: Taste and balance salt, sweetness, and tang. Cool completely before storing in sterilized jars."
+        "Bring a pot of water to a boil.",
+        "Blanch the tomatoes for 2–3 minutes until their skins begin to split.",
+        "Remove the tomatoes and allow them to cool slightly.",
+        "Peel off the skins and chop the tomatoes finely."
+      ]
+    },
+    {
+      "title": "Temper the Spices",
+      "steps": [
+        "Heat the refined oil in a heavy-bottomed pan over medium heat.",
+        "Add mustard seeds and allow them to crackle.",
+        "Add fenugreek seeds, broken dry red chilies, and curry leaves.",
+        "Fry for 5–7 seconds, taking care not to burn the fenugreek seeds."
+      ]
+    },
+    {
+      "title": "Build the Flavor Base",
+      "steps": [
+        "Add the sliced onions and sauté until soft and lightly golden.",
+        "Add grated ginger, minced garlic, and slit green chilies.",
+        "Cook until the raw aroma disappears and the aromatics become fragrant."
+      ]
+    },
+    {
+      "title": "Cook the Chutney",
+      "steps": [
+        "Add turmeric powder and Kashmiri red chili powder.",
+        "Stir briefly to bloom the spices without burning them.",
+        "Add the blanched chopped tomatoes and salt.",
+        "Cook over medium heat for 10–12 minutes until the tomatoes soften and the oil begins to separate.",
+        "Add jaggery and tamarind pulp if using.",
+        "Stir well and cook for another 3–4 minutes until the chutney thickens to a glossy consistency."
+      ]
+    },
+    {
+      "title": "Finish & Store",
+      "steps": [
+        "Taste and adjust the salt, sweetness, and tang as needed.",
+        "Allow the chutney to cool completely before transferring it to clean, sterilized jars.",
+        "Refrigerate for up to 2 weeks."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Serve with dosa, idli, chapati, or pakoras.",
+        "Use as a tangy spread for sandwiches and wraps."
       ]
     }
   ],
   "chefTips": [
-    "Oil separation is the key sign your chutney is ready — it means the spices are fully cooked and shelf-stable.",
-    "Fenugreek caution: Too much will overpower the chutney; toast lightly for balance.",
-    "Storage: Refrigerate up to 2 weeks, or store in sterilized airtight jars for up to 3 months if oil layer covers the top.",
-    "Serving: Pairs beautifully with dosa, idli, chapati, pakora, or as a tangy sandwich spread."
+    "Tomatoes: Blanching and peeling the tomatoes creates a smoother, richer chutney texture.",
+    "Oil separation: Visible oil separation is a useful sign that the tomatoes and spices have cooked down properly.",
+    "Fenugreek: Use fenugreek sparingly and fry it only briefly, as burnt or excessive fenugreek can make the chutney bitter.",
+    "Balance: Adjust jaggery and tamarind according to the natural acidity of the tomatoes.",
+    "Storage: Refrigerate in a clean airtight container for up to 2 weeks. For longer storage, use properly sterilized jars and ensure an oil layer covers the surface.",
+    "Serving: The chutney works especially well as an accompaniment to South Indian breakfasts and as a spicy-tangy sandwich spread."
   ]
 }
