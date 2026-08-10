@@ -1,31 +1,31 @@
 {
-  "id": 478,
+  "id": 479,
   "title": "Dal Makhani",
   "category": "Indian",
   "image": "assets/images/indian/dal-makhani.png",
-  "time": "3 hrs",
-  "difficulty": "Medium",
-  "servings": 6,
+  "time": "2 hr 30 min",
+  "difficulty": "",
+  "servings": "Serves: 4–6",
   "ingredients": [
     {
       "title": "For the Dal",
       "items": [
         "Whole black urad dal (sabut urad) – 1 cup (200 g)",
         "Red kidney beans (rajma) – ¼ cup (50 g)",
-        "Water – 4–5 cups (for cooking)",
-        "Salt – 1½ tsp (adjust to taste)",
+        "Water – 4–5 cups, for cooking",
+        "Salt – 1½ tsp, adjust to taste",
         "Turmeric powder – ½ tsp"
       ]
     },
     {
       "title": "For the Masala",
       "items": [
-        "Ghee (clarified butter) – 3 tbsp (or 2 tbsp ghee + 1 tbsp butter for flavor)",
+        "Ghee – 3 tbsp, or 2 tbsp ghee + 1 tbsp butter",
         "Onion – 1 medium, finely chopped",
-        "Ginger-garlic paste – 2 tbsp (fresh, smooth paste preferred)",
-        "Tomatoes – 3 medium, pureed (or 1 cup tomato purée)",
-        "Green chili – 1, slit (optional for mild heat)",
-        "Kashmiri red chili powder – 1 tsp (for color, mild heat)",
+        "Ginger-garlic paste – 2 tbsp",
+        "Tomatoes – 3 medium, pureed, or 1 cup tomato puree",
+        "Green chili – 1, slit (optional)",
+        "Kashmiri red chili powder – 1 tsp",
         "Coriander powder – 1 tsp",
         "Garam masala – ½ tsp"
       ]
@@ -34,26 +34,62 @@
       "title": "For the Finish",
       "items": [
         "Fresh cream – ½ cup",
-        "Butter – 2–3 tbsp (unsalted, for richness)",
-        "Kasuri methi (dried fenugreek leaves) – 1 tsp, crushed between palms",
+        "Unsalted butter – 2–3 tbsp",
+        "Kasuri methi – 1 tsp, crushed",
         "Fresh coriander leaves – for garnish"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Soak & Cook the Dal",
       "steps": [
-        "Soak & Cook the Dal: Wash the dal and rajma thoroughly, then soak them overnight (8–12 hrs). Drain, rinse, and cook in a pressure cooker or heavy pot with 4–5 cups water, turmeric, and salt until soft (in a pressure cooker: ~8–10 whistles; in a pot: 1.5–2 hrs slow simmering). The lentils should be creamy and mash easily between fingers.",
-        "Prepare the Masala Base: In a heavy-bottomed pan, heat ghee. Add onions and sauté until light golden. Add ginger-garlic paste; cook until raw smell disappears. Add tomato purée and cook down until the ghee separates (important for restaurant-style depth). Stir in red chili powder, coriander powder, garam masala, and green chili.",
-        "Combine & Slow Cook: Add the cooked dal-rajma mix (with some cooking liquid) into the masala. Stir well and simmer on low heat for 45–60 min, stirring occasionally. The longer and slower the simmer, the creamier the dal becomes. Add water if it thickens too much.",
-        "Finish with Cream & Butter: Gently mash some of the lentils with the back of a spoon to thicken the texture. Stir in cream, butter, and kasuri methi. Simmer for another 10 min. Adjust seasoning with salt if needed."
+        "Wash the urad dal and rajma thoroughly.",
+        "Soak both overnight for 8–12 hours.",
+        "Drain and rinse the soaked legumes.",
+        "Add them to a pressure cooker or heavy-bottomed pot with 4–5 cups water, turmeric, and salt.",
+        "Pressure cook for about 8–10 whistles, or simmer in a heavy pot for 1½–2 hours until completely soft.",
+        "The lentils should be creamy and mash easily between your fingers."
+      ]
+    },
+    {
+      "title": "Prepare the Masala Base",
+      "steps": [
+        "Heat ghee in a heavy-bottomed pan over medium heat.",
+        "Add chopped onion and sauté until light golden.",
+        "Add ginger-garlic paste and cook until the raw aroma disappears.",
+        "Add tomato puree and cook patiently until it thickens and the ghee begins to separate.",
+        "Add Kashmiri red chili powder, coriander powder, garam masala, and slit green chili.",
+        "Stir well and cook briefly to bloom the spices."
+      ]
+    },
+    {
+      "title": "Combine & Slow Cook",
+      "steps": [
+        "Add the cooked urad dal and rajma mixture along with some of its cooking liquid to the masala.",
+        "Mix thoroughly and bring to a gentle simmer.",
+        "Cook on very low heat for 45–60 minutes, stirring occasionally to prevent sticking.",
+        "Add small amounts of water if the dal becomes too thick.",
+        "Gently mash some of the lentils against the side of the pan to create a naturally creamy texture."
+      ]
+    },
+    {
+      "title": "Finish with Cream & Butter",
+      "steps": [
+        "Stir in the fresh cream, butter, and crushed kasuri methi.",
+        "Simmer gently for another 10 minutes.",
+        "Taste and adjust the salt and consistency.",
+        "Garnish with fresh coriander leaves and serve hot."
       ]
     }
   ],
   "chefTips": [
-    "Slow cooking: Traditional dal makhani is simmered for 3–4 hours (or overnight on tandoor embers in old Delhi). Use a heavy pot or slow cooker for best results.",
-    "Balance: Cream should enrich, not overpower — use about ½ cup for restaurant-style, more for luxury dining.",
-    "Smoky touch (dhungar method): Place a small bowl with hot charcoal in the dal, drizzle a little ghee over it, cover tightly for 1–2 minutes, then remove. This gives an authentic smoky restaurant flavor."
+    "Slow cooking: Traditional dal makhani benefits from several hours of gentle simmering; a heavy pot or slow cooker gives the best creamy texture.",
+    "Texture: The dal should become naturally thick and silky from the slow breakdown of the urad and rajma, not from added flour or starch.",
+    "Cream: Use enough cream to enrich the dal without overpowering its earthy lentil flavor.",
+    "Butter: Adding butter toward the end gives the dish its characteristic rich, glossy finish.",
+    "Kasuri methi: Crush the dried fenugreek leaves between your palms before adding to release their aroma.",
+    "Smoky finish: For restaurant-style depth, use the dhungar method with a small piece of hot charcoal, a little ghee, and a tightly covered pot for 1–2 minutes.",
+    "Resting: Let the finished dal rest for a few minutes before serving; the flavors deepen and the consistency becomes richer."
   ]
 }
