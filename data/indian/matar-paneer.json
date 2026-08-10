@@ -1,18 +1,19 @@
 {
-  "id": 486,
-  "title": "Matar Paneer",
+  "id": "486",
+  "title": "Matar Paneer (Peas and Cottage Cheese Curry)",
+  "description": "Matar Paneer is a classic North Indian curry made with soft paneer cubes and green peas simmered in a rich, spiced tomato-onion gravy. It is comforting, flavorful, and pairs beautifully with naan, roti, or steamed basmati rice.",
   "category": "Indian",
-  "image": "assets/images/indian/matar-paneer.png",
   "time": "45 min",
-  "difficulty": "",
-  "servings": "Serves: 4",
+  "difficulty": "Easy",
+  "image": "assets/images/indian/matar-paneer.png",
+
   "ingredients": [
     {
-      "title": "For the Paneer & Peas",
+      "title": "For the Paneer and Peas",
       "items": [
         "Paneer (cottage cheese) – 250 g, cut into 1-inch cubes",
         "Green peas – 1 cup, fresh or frozen",
-        "Oil or ghee – 1–2 tsp, for sautéing"
+        "Oil or ghee – 1–2 tsp for sautéing"
       ]
     },
     {
@@ -22,78 +23,81 @@
         "Tomatoes – 2 medium, pureed",
         "Green chilies – 1–2, slit",
         "Ginger-garlic paste – 1 tsp",
-        "Oil or ghee – 2 tsp",
-        "Water – 1 cup, or as needed"
+        "Oil or ghee – 2 tsp"
       ]
     },
     {
-      "title": "For the Spices",
+      "title": "Spices",
       "items": [
         "Cumin seeds – 1 tsp",
         "Turmeric powder – ½ tsp",
         "Coriander powder – 1 tsp",
         "Garam masala – 1 tsp",
-        "Red chili powder – 1 tsp, adjust to taste",
+        "Red chili powder – 1 tsp (adjust to taste)",
         "Cumin powder – ½ tsp",
-        "Kasuri methi – ½ tsp, crushed",
+        "Kasuri methi (dried fenugreek leaves) – ½ tsp",
         "Salt – to taste"
       ]
     },
     {
-      "title": "For Finishing",
+      "title": "Other",
       "items": [
-        "Fresh cream – ½ cup, or yogurt – 2 tbsp (optional)",
+        "Fresh cream – ½ cup or yogurt – 2 tbsp (optional, for richness)",
+        "Water – 1 cup or as required",
         "Fresh coriander leaves – chopped, for garnish"
       ]
     }
   ],
+
   "instruction": [
     {
-      "title": "Prepare the Paneer & Peas",
+      "title": "Step 1 – Preparing the Paneer and Peas",
       "steps": [
-        "Heat 1–2 tsp oil or ghee in a pan over medium heat.",
-        "Lightly sauté the paneer cubes until golden on all sides, if desired.",
-        "Remove the paneer and set aside.",
-        "If using fresh peas, blanch them in boiling water for 2–3 minutes and drain. Frozen peas can be added directly."
+        "Heat 1–2 tsp oil in a pan over medium heat.",
+        "Lightly sauté the paneer cubes until golden brown on all sides, if desired. Set aside.",
+        "Blanch fresh peas in boiling water for 2–3 minutes. Frozen peas can be added directly to the curry."
       ]
     },
     {
-      "title": "Prepare the Masala Base",
+      "title": "Step 2 – Making the Masala Base",
       "steps": [
-        "Heat 2 tsp oil or ghee in the same pan.",
-        "Add cumin seeds and let them crackle.",
+        "In the same pan, heat 2 tsp oil. Add cumin seeds and let them splutter.",
         "Add chopped onions and sauté until golden brown.",
-        "Add ginger-garlic paste and sauté for 1–2 minutes until the raw aroma disappears.",
-        "Add tomato puree, turmeric, red chili powder, coriander powder, and cumin powder.",
-        "Cook until the tomatoes are fully reduced and the oil begins to separate from the masala."
+        "Stir in ginger-garlic paste and sauté for 1–2 minutes until the raw aroma disappears.",
+        "Add tomato puree, turmeric powder, red chili powder, coriander powder, and cumin powder.",
+        "Cook the masala until the oil separates from the mixture."
       ]
     },
     {
-      "title": "Cook the Curry",
+      "title": "Step 3 – Cooking the Curry",
       "steps": [
-        "Add about 1 cup water and stir to form a smooth gravy.",
-        "Add the green peas and sautéed paneer cubes.",
-        "Simmer over low-medium heat for 5–7 minutes so the peas cook and the paneer absorbs the gravy.",
-        "Add garam masala and crushed kasuri methi.",
-        "Stir gently to avoid breaking the paneer.",
-        "For a richer curry, stir in fresh cream or whisked yogurt.",
-        "Adjust the consistency with additional water if needed."
+        "Add 1 cup water to the masala and stir to make a smooth gravy.",
+        "Add the peas and paneer cubes. Simmer for 5–7 minutes over low-medium heat.",
+        "Add garam masala and kasuri methi, then mix gently.",
+        "For a richer curry, stir in fresh cream or yogurt. Adjust the consistency with additional water if needed."
       ]
     },
     {
-      "title": "Garnish & Serve",
+      "title": "Step 4 – Garnishing and Serving",
       "steps": [
-        "Turn off the heat and garnish with freshly chopped coriander leaves.",
+        "Garnish with freshly chopped coriander leaves.",
         "Serve hot with naan, roti, or steamed basmati rice."
       ]
     }
   ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with naan or roti.",
+      "Pair with steamed basmati rice for a comforting meal.",
+      "Garnish lightly with fresh coriander leaves before serving."
+    ]
+  },
+
   "chefTips": [
-    "Paneer: Use fresh, soft paneer for the best creamy texture.",
-    "Paneer texture: Avoid over-frying the cubes, as prolonged frying can make paneer firm and chewy.",
-    "Kasuri methi: Crush the dried fenugreek leaves between your palms before adding to release their aroma.",
-    "Spices: Lightly roasting whole spices before grinding can add extra depth to the masala.",
-    "Yogurt: If using yogurt instead of cream, whisk it well and add over low heat to reduce the chance of curdling.",
-    "Gravy: Adjust the water according to whether you prefer a thick restaurant-style curry or a lighter gravy."
+    "Use fresh, soft paneer for the best creamy texture.",
+    "Crush kasuri methi between your palms before adding it to release its aroma.",
+    "For extra depth of flavor, lightly roast the spices before adding them to the masala."
   ]
 }
