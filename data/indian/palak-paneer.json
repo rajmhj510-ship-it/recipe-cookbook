@@ -1,76 +1,110 @@
 {
-  "id": 484,
+  "id": "487",
   "title": "Palak Paneer (Spinach with Cottage Cheese)",
+  "description": "Palak Paneer is an iconic North Indian dish featuring soft paneer cubes simmered in a creamy, vibrant spinach sauce. Fresh spinach, aromatic spices, and a touch of cream or yogurt create a comforting and flavorful curry.",
   "category": "Indian",
-  "image": "assets/images/indian/palak-paneer.png",
   "time": "40 min",
-  "difficulty": "Medium",
-  "servings": 4,
+  "difficulty": "Easy",
+  "image": "assets/images/indian/palak-paneer.png",
+
   "ingredients": [
     {
       "title": "For the Paneer",
       "items": [
-        "250 g paneer (Indian cottage cheese), cut into cubes",
-        "1 tsp ghee or oil (optional, for lightly sautéing)"
+        "Paneer (Indian cottage cheese) – 250 g, cut into cubes",
+        "Ghee or oil – 1 tsp (optional, for lightly sautéing)"
       ]
     },
     {
       "title": "For the Spinach Gravy",
       "items": [
-        "500 g fresh spinach leaves, washed and chopped",
-        "2 medium onions, finely chopped",
-        "2 medium tomatoes, chopped",
-        "1–2 green chilies, chopped",
-        "1-inch piece ginger, chopped",
-        "3–4 garlic cloves",
-        "1/4 cup water (for grinding)"
+        "Fresh spinach leaves – 500 g, washed and chopped",
+        "Onions – 2 medium, finely chopped",
+        "Tomatoes – 2 medium, chopped",
+        "Green chilies – 1–2, chopped",
+        "Ginger – 1-inch piece, chopped",
+        "Garlic – 3–4 cloves",
+        "Water – ¼ cup, for grinding"
       ]
     },
     {
       "title": "Spices",
       "items": [
-        "1/2 tsp cumin seeds",
-        "1/4 tsp turmeric powder",
-        "1/2 tsp red chili powder",
-        "1 tsp garam masala",
-        "Salt to taste"
+        "Cumin seeds – ½ tsp",
+        "Turmeric powder – ¼ tsp",
+        "Red chili powder – ½ tsp",
+        "Garam masala – 1 tsp",
+        "Salt – to taste"
       ]
     },
     {
-      "title": "Finishing Touch",
+      "title": "For Finishing",
       "items": [
-        "2 tbsp fresh cream or yogurt (optional for richness)",
-        "1 tsp butter or ghee",
-        "Lemon juice, to taste"
+        "Fresh cream – 2 tbsp or yogurt – 2 tbsp (optional, for richness)",
+        "Butter or ghee – 1 tsp",
+        "Lemon juice – to taste"
       ]
     }
   ],
+
   "instruction": [
     {
-      "title": "Method",
+      "title": "Step 1 – Blanching the Spinach",
       "steps": [
-        "Blanch the Spinach: Boil water in a large pan. Add a pinch of salt.",
-        "Add spinach leaves and blanch for 2 minutes.",
-        "Drain and immediately transfer to ice-cold water to retain the green color.",
-        "Blend spinach into a smooth puree using a little water.",
-        "Prepare the Masala: Heat 1 tbsp oil in a pan. Add cumin seeds and let them splutter.",
-        "Add onions, sauté until golden brown.",
-        "Add ginger, garlic, and green chilies; sauté for 1–2 minutes.",
-        "Add tomatoes, turmeric, red chili powder, and salt. Cook until tomatoes are soft and oil starts separating.",
-        "Let the mixture cool slightly, then blend into a smooth paste (optional for a silky texture).",
-        "Cook the Palak Gravy: In a pan, combine the spinach puree and the onion-tomato paste.",
-        "Simmer for 5–7 minutes on low heat.",
-        "Add garam masala and adjust salt.",
-        "Add Paneer: Lightly sauté paneer cubes in ghee or oil for a minute to keep them soft (optional).",
-        "Add paneer cubes to the spinach gravy. Cook for 2–3 minutes.",
-        "Stir in cream or yogurt for richness.",
-        "Finish: Check seasoning and add a few drops of lemon juice to balance flavors.",
-        "Garnish with a small dollop of butter or cream.",
-        "Serve hot with roti, naan, or jeera rice."
+        "Bring water to a boil in a large pan and add a pinch of salt.",
+        "Add the spinach leaves and blanch for 2 minutes.",
+        "Drain the spinach and immediately transfer it to ice-cold water to preserve its vibrant green color.",
+        "Blend the spinach into a smooth puree using a little water."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Masala",
+      "steps": [
+        "Heat 1 tbsp oil in a pan. Add cumin seeds and let them splutter.",
+        "Add chopped onions and sauté until golden brown.",
+        "Add ginger, garlic, and green chilies. Sauté for 1–2 minutes.",
+        "Add tomatoes, turmeric powder, red chili powder, and salt. Cook until the tomatoes soften and the oil begins to separate.",
+        "Let the mixture cool slightly, then blend into a smooth paste for a silkier texture, if desired."
+      ]
+    },
+    {
+      "title": "Step 3 – Cooking the Palak Gravy",
+      "steps": [
+        "Combine the spinach puree and onion-tomato paste in a pan.",
+        "Simmer for 5–7 minutes over low heat.",
+        "Add garam masala and adjust the salt to taste."
+      ]
+    },
+    {
+      "title": "Step 4 – Adding the Paneer",
+      "steps": [
+        "Lightly sauté the paneer cubes in ghee or oil for about 1 minute to keep them soft, if desired.",
+        "Add the paneer cubes to the spinach gravy and cook for 2–3 minutes.",
+        "Stir in fresh cream or yogurt for added richness."
+      ]
+    },
+    {
+      "title": "Step 5 – Finishing Touches",
+      "steps": [
+        "Check the seasoning and add a few drops of lemon juice to balance the flavors.",
+        "Garnish with a small dollop of butter or cream."
       ]
     }
   ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with roti or naan.",
+      "Pair with jeera rice for a flavorful rice-based meal."
+    ]
+  },
+
   "chefTips": [
-    "Serve hot with roti, naan, or jeera rice."
+    "Blanch the spinach briefly and transfer it immediately to ice-cold water to retain its bright green color.",
+    "Avoid overcooking the spinach gravy to preserve its fresh flavor and vibrant color.",
+    "For a silky-smooth restaurant-style texture, blend the cooked onion-tomato masala before combining it with the spinach puree.",
+    "Use soft, fresh paneer and avoid overcooking it so the cubes remain tender.",
+    "Add lemon juice at the end to balance the richness of the gravy."
   ]
 }
