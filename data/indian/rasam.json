@@ -3,38 +3,123 @@
   "title": "Rasam",
   "category": "Indian",
   "image": "assets/images/indian/rasam.png",
-  "time": "30 min",
-  "difficulty": "Easy",
-  "servings": 4,
+  "time": "",
+  "difficulty": "",
+  "servings": "Serves: 3–4",
   "ingredients": [
     {
-      "title": "Ingredients",
+      "title": "For the Rasam",
       "items": [
-        "tamarind pulp",
-        "tomato",
-        "toor dal",
-        "rasam powder",
-        "mustard seeds, cumin seeds",
-        "curry leaves",
-        "garlic",
-        "salt"
+        "Tamarind pulp – 2 tbsp, soaked in 1 cup warm water and strained",
+        "Tomato – 1 medium, chopped",
+        "Toor dal (split pigeon peas) – ¼ cup, cooked and mashed",
+        "Water – 3 cups",
+        "Rasam powder – 2 tsp",
+        "Turmeric powder – ¼ tsp",
+        "Salt – to taste",
+        "Jaggery or sugar – 1 tsp (optional)"
+      ]
+    },
+    {
+      "title": "For Tempering",
+      "items": [
+        "Ghee or oil – 1 tbsp",
+        "Mustard seeds – 1 tsp",
+        "Cumin seeds – 1 tsp",
+        "Dry red chilies – 2, broken",
+        "Asafoetida (hing) – a pinch",
+        "Curry leaves – 1 sprig",
+        "Garlic – 3 cloves, crushed (optional)",
+        "Fresh coriander leaves – a handful, chopped"
+      ]
+    },
+    {
+      "title": "For Homemade Rasam Powder (Optional)",
+      "items": [
+        "Coriander seeds – 2 tbsp",
+        "Cumin seeds – 1 tbsp",
+        "Black peppercorns – 1 tsp",
+        "Dry red chilies – 3–4",
+        "Toor dal – 1 tsp"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Cook the Toor Dal",
       "steps": [
-        "Cook dal",
-        "Prepare tamarind water",
-        "Simmer base",
-        "Add rasam powder",
-        "Temper spices",
-        "Finish and serve"
+        "Rinse the toor dal thoroughly.",
+        "Pressure cook with enough water until completely soft, about 3–4 whistles.",
+        "Mash the cooked dal until smooth and set aside."
+      ]
+    },
+    {
+      "title": "Prepare the Tamarind Water",
+      "steps": [
+        "Soak tamarind in 1 cup warm water for about 10 minutes.",
+        "Squeeze the soaked tamarind thoroughly to extract the pulp.",
+        "Strain the liquid and discard the fibrous solids."
+      ]
+    },
+    {
+      "title": "Prepare the Rasam Base",
+      "steps": [
+        "Add tamarind water, chopped tomato, turmeric powder, and salt to a pot.",
+        "Bring the mixture to a boil.",
+        "Reduce the heat and simmer for 5–7 minutes until the tomatoes soften and the raw tamarind aroma mellows."
+      ]
+    },
+    {
+      "title": "Add Dal & Spices",
+      "steps": [
+        "Add the mashed toor dal and rasam powder.",
+        "Add the remaining water and adjust the quantity according to the desired consistency.",
+        "Stir well and simmer gently for about 5 minutes.",
+        "Avoid prolonged boiling after adding the dal so the rasam retains its light, aromatic character."
+      ]
+    },
+    {
+      "title": "Prepare the Tempering",
+      "steps": [
+        "Heat ghee or oil in a small pan over medium heat.",
+        "Add mustard seeds and allow them to splutter.",
+        "Add cumin seeds, broken dry red chilies, crushed garlic, curry leaves, and asafoetida.",
+        "Sauté until aromatic and the garlic turns lightly golden."
+      ]
+    },
+    {
+      "title": "Finish the Rasam",
+      "steps": [
+        "Pour the hot tempering over the simmering rasam.",
+        "Add jaggery or sugar if using to balance the tang.",
+        "Adjust salt to taste.",
+        "Turn off the heat.",
+        "Garnish with freshly chopped coriander leaves."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Serve the rasam hot with steamed rice.",
+        "Alternatively, serve it on its own as a spicy, tangy South Indian-style soup."
+      ]
+    },
+    {
+      "title": "Make Homemade Rasam Powder",
+      "steps": [
+        "Dry roast coriander seeds, cumin seeds, black peppercorns, dry red chilies, and toor dal separately until fragrant.",
+        "Allow the roasted spices to cool completely.",
+        "Grind them together into a fine or slightly coarse powder.",
+        "Store the rasam powder in an airtight container and use as needed."
       ]
     }
   ],
   "chefTips": [
-    "Fresh rasam powder improves flavor"
+    "Tamarind: Strain the tamarind water well for a smooth rasam without fibrous pieces.",
+    "Balance: A small amount of jaggery or sugar can soften excessive sourness without making the rasam sweet.",
+    "Tempering: Freshly tempered mustard, cumin, curry leaves, and garlic provide much of the rasam's characteristic aroma.",
+    "Dal: Use well-cooked and mashed toor dal for a smooth, lightly creamy body.",
+    "Boiling: Avoid vigorously boiling the rasam for too long after adding the dal and spices; gentle simmering preserves the aroma.",
+    "Serving: Rasam is best served piping hot with steamed rice or enjoyed as a light, spicy soup."
   ]
 }
