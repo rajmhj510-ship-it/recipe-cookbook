@@ -1,43 +1,88 @@
 {
-  "id": 65,
+  "id": 460,
   "title": "Dhaniya Chutney (Coriander Chutney)",
   "category": "Indian",
-  "image": "assets/images/indian/dhaniya-chutney.png",
-  "time": "10 min",
-  "difficulty": "Easy",
+  "image": "assets/images/indian/dhaniya_chutney.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Yield: about 1 cup",
   "ingredients": [
     {
-      "title": "Ingredients",
+      "title": "For the Chutney",
       "items": [
-        "Fresh coriander leaves (dhania) – 2 cups, tightly packed",
-        "Green chilies – 2 to 3 (adjust to taste)",
-        "Ginger – 1-inch piece, peeled and chopped",
-        "Garlic – 2 cloves (optional, but recommended for extra flavor)",
-        "Lemon juice – 1 to 2 tbsp (freshly squeezed)",
+        "Fresh coriander leaves (dhania) – 2 tightly packed cups, roughly chopped",
+        "Green chilies – 2–3",
+        "Fresh ginger – 1-inch piece, peeled and chopped",
+        "Garlic – 2 cloves (optional)",
+        "Fresh lemon juice – 1–2 tbsp",
         "Roasted cumin seeds – 1 tsp",
         "Salt – to taste",
-        "Sugar – ½ tsp (optional, balances flavors)",
-        "Water – 2 to 3 tbsp (adjust for desired consistency)",
-        "Yogurt (optional) – 2 tbsp (for creaminess, can be added if desired)"
+        "Sugar – ½ tsp (optional)",
+        "Water – 2–3 tbsp, or as needed",
+        "Plain yogurt – 2 tbsp (optional, for a creamy variation)"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Instructions",
+      "title": "Prepare the Coriander",
       "steps": [
-        "Prepare coriander: Wash coriander leaves thoroughly under running water to remove any dirt. Roughly chop the leaves with stems.",
-        "Roast cumin seeds: Heat a small pan on medium flame. Dry roast cumin seeds until fragrant (about 1 minute), then let them cool.",
-        "Blend chutney: In a blender or food processor, add coriander leaves, green chilies, ginger, garlic, roasted cumin seeds, salt, sugar, and lemon juice.",
-        "Add water: Add 2 tbsp of water to start and blend to a smooth paste. Add more water little by little if needed to reach your desired consistency.",
-        "Optional yogurt: For a creamier chutney, add 2 tbsp plain yogurt and blend again until smooth.",
-        "Adjust seasoning: Taste and adjust salt, lemon juice, or green chili as per your preference."
+        "Wash the coriander leaves thoroughly under running water to remove dirt and grit.",
+        "Trim away any thick stems and roughly chop the coriander, keeping tender stems if desired."
+      ]
+    },
+    {
+      "title": "Roast the Cumin",
+      "steps": [
+        "Heat a small dry pan over medium heat.",
+        "Add the cumin seeds and dry roast for about 1 minute until fragrant.",
+        "Remove from the heat and allow the cumin seeds to cool."
+      ]
+    },
+    {
+      "title": "Blend the Chutney",
+      "steps": [
+        "Add coriander leaves, green chilies, ginger, garlic if using, roasted cumin seeds, salt, sugar, and lemon juice to a blender or food processor.",
+        "Add about 2 tbsp water to begin blending.",
+        "Blend until smooth, scraping down the sides as needed."
+      ]
+    },
+    {
+      "title": "Adjust the Consistency",
+      "steps": [
+        "Add more water a little at a time if needed.",
+        "Blend until the chutney reaches the desired smooth and spreadable consistency."
+      ]
+    },
+    {
+      "title": "Add Optional Yogurt",
+      "steps": [
+        "For a creamier and milder chutney, add 2 tbsp plain yogurt.",
+        "Blend again until completely smooth and well combined."
+      ]
+    },
+    {
+      "title": "Taste & Adjust",
+      "steps": [
+        "Taste the chutney and adjust salt, lemon juice, or green chili according to preference.",
+        "Balance the flavors so the chutney is fresh, tangy, mildly spicy, and aromatic."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Serve fresh with samosas, pakoras, or other Indian snacks.",
+        "Use as a spread for sandwiches, wraps, and rolls.",
+        "Serve alongside grilled meats or vegetables for a fresh, zesty accompaniment."
       ]
     }
   ],
   "chefTips": [
-    "Serve fresh with samosas, pakoras, or any Indian snacks.",
-    "Use as a spread for sandwiches or wraps.",
-    "Pair with grilled meats or vegetables for a zesty kick."
+    "Coriander: Use fresh, vibrant coriander with tender stems for the best flavor and color.",
+    "Water: Add water gradually to prevent the chutney from becoming too thin.",
+    "Cumin: Dry roasting the cumin seeds releases their aroma and adds earthy depth.",
+    "Balance: Fresh lemon juice provides brightness while a small amount of sugar balances the chili and acidity.",
+    "Creamy variation: Add yogurt just before serving if you want a milder, creamy version.",
+    "Freshness: Coriander chutney tastes best when served immediately after blending."
   ]
 }
