@@ -1,26 +1,26 @@
 {
-  "id": 477,
+  "id": 478,
   "title": "Dal Tadka",
   "category": "Indian",
   "image": "assets/images/indian/dal-tadka.png",
-  "time": "40 min",
-  "difficulty": "Easy",
-  "servings": 5,
+  "time": "45–55 min",
+  "difficulty": "",
+  "servings": "Serves: 4–5",
   "ingredients": [
     {
       "title": "For the Dal",
       "items": [
         "Toor dal (split pigeon peas) – 1 cup (200 g)",
-        "Masoor dal (red lentils) – ¼ cup (50 g) (optional for richer flavor)",
+        "Masoor dal (red lentils) – ¼ cup (50 g), optional",
         "Turmeric powder – ½ tsp",
         "Salt – to taste",
         "Water – 4 cups (1 L)"
       ]
     },
     {
-      "title": "For the Tadka (Tempering)",
+      "title": "For the Tadka",
       "items": [
-        "Ghee (clarified butter) – 3 tbsp (substitute with oil for vegan)",
+        "Ghee – 3 tbsp (or vegetable oil for vegan preparation)",
         "Cumin seeds – 1 tsp",
         "Mustard seeds – ½ tsp",
         "Dried red chilies – 2–3",
@@ -33,12 +33,12 @@
         "Red chili powder – 1 tsp",
         "Coriander powder – 1 tsp",
         "Garam masala – ½ tsp",
-        "Kasuri methi (dried fenugreek leaves) – 1 tsp, crushed between palms",
+        "Kasuri methi – 1 tsp, lightly roasted and crushed",
         "Fresh coriander leaves – 2 tbsp, chopped"
       ]
     },
     {
-      "title": "For the Finishing Tadka (Optional but Restaurant-Style)",
+      "title": "For the Finishing Tadka",
       "items": [
         "Ghee – 1 tbsp",
         "Garlic – 3–4 cloves, sliced",
@@ -46,25 +46,74 @@
       ]
     },
     {
-      "title": "Serving Suggestions",
+      "title": "For Serving",
       "items": [
-        "Serve hot with steamed basmati rice, jeera rice, or butter naan, accompanied by onion salad and lemon wedges."
+        "Steamed basmati rice – as needed",
+        "Jeera rice – as needed",
+        "Butter naan – as needed",
+        "Onion salad – as needed",
+        "Lemon wedges – as needed"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Cook the Dal",
       "steps": [
-        "Step 1 – Cook the Dal: Rinse toor dal and masoor dal together until water runs clear. In a pressure cooker or heavy pot, combine dals, turmeric, salt, and water. Pressure cook for 3–4 whistles (medium flame) or simmer until soft and mushy. Mash slightly with the back of a ladle for a creamy consistency. Keep aside.",
-        "Step 2 – First Tadka (Base Flavor): Heat 3 tbsp ghee in a deep pan. Add cumin seeds and mustard seeds; let them crackle. Add dried red chilies and hing; sauté briefly. Add onion, sauté until translucent. Add garlic, ginger, and green chilies; cook until lightly golden. Add tomatoes, cook until soft and oil begins to separate. Mix in red chili powder, coriander powder, and garam masala. Add cooked dal, adjust water for consistency, and simmer 5–7 minutes.",
-        "Step 3 – Finishing Tadka (Signature Touch): Heat 1 tbsp ghee in a small pan. Add sliced garlic; sauté until golden. Turn off heat, add Kashmiri red chili powder for vibrant color. Pour immediately over simmering dal. Sprinkle kasuri methi and fresh coriander leaves."
+        "Rinse the toor dal and optional masoor dal together until the water runs mostly clear.",
+        "Combine the dals, turmeric, salt, and water in a pressure cooker or heavy-bottomed pot.",
+        "Pressure cook for 3–4 whistles over medium heat, or simmer in a pot until the lentils are completely soft and mushy.",
+        "Mash the cooked dal lightly with the back of a ladle until creamy.",
+        "Keep the cooked dal aside."
+      ]
+    },
+    {
+      "title": "Prepare the First Tadka",
+      "steps": [
+        "Heat 3 tbsp ghee in a deep pan over medium heat.",
+        "Add cumin seeds and mustard seeds and allow them to crackle.",
+        "Add dried red chilies and hing and sauté briefly.",
+        "Add chopped onion and sauté until translucent.",
+        "Add garlic, ginger, and green chilies and cook until lightly golden and fragrant.",
+        "Add chopped tomatoes and cook until soft and the oil begins to separate.",
+        "Add red chili powder, coriander powder, and garam masala.",
+        "Stir well and cook briefly to bloom the spices."
+      ]
+    },
+    {
+      "title": "Combine & Simmer",
+      "steps": [
+        "Add the cooked dal to the prepared tadka.",
+        "Add water as needed to reach a smooth, pourable consistency.",
+        "Mix thoroughly and simmer for 5–7 minutes over low heat.",
+        "Taste and adjust salt and spices as needed."
+      ]
+    },
+    {
+      "title": "Prepare the Finishing Tadka",
+      "steps": [
+        "Heat 1 tbsp ghee in a small pan.",
+        "Add sliced garlic and sauté until golden brown.",
+        "Turn off the heat and immediately stir in Kashmiri red chili powder.",
+        "Pour the hot finishing tadka directly over the simmering dal."
+      ]
+    },
+    {
+      "title": "Finish & Serve",
+      "steps": [
+        "Sprinkle roasted and crushed kasuri methi over the dal.",
+        "Garnish with freshly chopped coriander leaves.",
+        "Serve hot with steamed basmati rice, jeera rice, or butter naan.",
+        "Accompany with onion salad and lemon wedges."
       ]
     }
   ],
   "chefTips": [
-    "Always roast kasuri methi lightly before crushing — it intensifies aroma.",
-    "Use Kashmiri red chili powder for rich color without excessive heat.",
-    "For a smoky dhaba-style flavor, finish with dhungar method (place hot coal in a small bowl inside the dal pot, drizzle ghee, cover for 2 minutes)."
+    "Dal texture: Mash the cooked lentils lightly for a creamy consistency while retaining some texture.",
+    "Kasuri methi: Lightly roast the dried fenugreek leaves before crushing to intensify their aroma.",
+    "Chili powder: Kashmiri red chili powder gives the finishing tadka a vibrant red color without excessive heat.",
+    "Ghee: Using ghee in both tadkas provides the characteristic rich, buttery aroma of restaurant-style dal.",
+    "Consistency: Dal thickens as it sits, so adjust with hot water immediately before serving if needed.",
+    "Dhaba-style flavor: For a smoky finish, use the dhungar method with a hot charcoal piece, a little ghee, and a covered pot for about 2 minutes."
   ]
 }
