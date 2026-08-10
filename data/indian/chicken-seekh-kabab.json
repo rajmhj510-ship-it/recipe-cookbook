@@ -1,53 +1,121 @@
 {
-  "id": 422,
+  "id": 421,
   "title": "Chicken Seekh Kabab",
   "category": "Indian",
-  "image": "assets/images/indian/chicken-seekh-kabab.png",
+  "image": "assets/images/indian/chicken_seekh_kabab.png",
   "time": "",
   "difficulty": "",
-  "servings": "",
-  "ingredients": [],
+  "servings": "Yield: 8–10 kababs",
+  "ingredients": [
+    {
+      "title": "For the Kababs",
+      "items": [
+        "Chicken mince – 500 g, finely minced, thigh preferred",
+        "Onion – 1 medium, finely grated and moisture squeezed out",
+        "Ginger-garlic paste – 2 tbsp",
+        "Green chilies – 2, finely chopped",
+        "Fresh coriander leaves – 3 tbsp, finely chopped",
+        "Fresh mint leaves – 2 tbsp, finely chopped",
+        "Cumin seeds – 1 tsp, toasted and ground",
+        "Coriander seeds – 1 tsp, toasted and ground",
+        "Garam masala powder – 1 tsp",
+        "Kashmiri red chili powder – 1 tsp",
+        "Black pepper powder – ½ tsp",
+        "Chaat masala – 1 tsp",
+        "Lemon juice – 1 tbsp",
+        "Salt – to taste",
+        "Egg – 1",
+        "Roasted gram flour (besan) – 2 tbsp, lightly dry-roasted"
+      ]
+    },
+    {
+      "title": "For Cooking & Basting",
+      "items": [
+        "Butter or oil – as needed for basting"
+      ]
+    },
+    {
+      "title": "For Optional Smoky Finish",
+      "items": [
+        "Charcoal – 1 small piece",
+        "Ghee or oil – a few drops"
+      ]
+    }
+  ],
   "instruction": [
     {
       "title": "Prepare the Mixture",
       "steps": [
-        "In a large bowl, combine chicken mince, squeezed onion, ginger-garlic paste, green chili, coriander, and mint.",
-        "Add all the powdered spices, lemon juice, egg, and roasted besan.",
-        "Mix well for 8–10 minutes with your hand (this makes the mince sticky and helps bind it).",
-        "Cover and refrigerate for at least 1 hour (or overnight for best results)."
+        "Place the finely minced chicken in a large mixing bowl.",
+        "Add squeezed grated onion, ginger-garlic paste, green chilies, coriander leaves, and mint leaves.",
+        "Add toasted and ground cumin seeds, toasted and ground coriander seeds, garam masala, Kashmiri red chili powder, black pepper, chaat masala, lemon juice, and salt.",
+        "Add the egg and roasted gram flour.",
+        "Mix and knead thoroughly with your hand for 8–10 minutes until the chicken mixture becomes sticky and cohesive.",
+        "Cover and refrigerate for at least 1 hour, or overnight for deeper flavor."
       ]
     },
     {
-      "title": "Shaping the Kababs",
+      "title": "Shape the Kababs",
       "steps": [
-        "Wet your palms with water or oil.",
-        "Take a portion of the mixture and press it evenly onto a greased seekh (skewer), forming a long cylindrical shape (about 6–7 inches).",
-        "If using wooden skewers, soak them in water for 30 minutes before use."
+        "Lightly grease the seekh skewers and wet your hands with water or oil.",
+        "Take a portion of the chilled chicken mixture and press it evenly around a skewer.",
+        "Shape it into a long, even cylinder approximately 6–7 inches long.",
+        "If using wooden skewers, soak them in water for 30 minutes before shaping.",
+        "Repeat with the remaining chicken mixture."
       ]
     },
     {
-      "title": "Cooking Options",
+      "title": "Cook – Tandoor or Grill",
       "steps": [
-        "Tandoor / Grill: Place kababs in a hot tandoor or on a barbecue grill. Cook on high heat until golden with charred spots, basting with butter/oil occasionally.",
-        "Oven: Preheat oven to 220°C (425°F). Place skewers on a rack over a tray. Cook for 12–15 minutes, turning once, then broil for 2–3 minutes for char.",
-        "Pan: Heat a grill pan, grease lightly, and cook kababs on medium-high heat until evenly browned, basting with butter."
+        "Preheat the tandoor or barbecue grill to high heat.",
+        "Place the chicken seekh kababs over the heat.",
+        "Cook until golden and cooked through with lightly charred spots.",
+        "Turn regularly and baste occasionally with butter or oil to keep the kababs juicy."
       ]
     },
     {
-      "title": "Finishing Touch (Smoky Flavor)",
+      "title": "Cook – Oven Method",
       "steps": [
-        "Heat a piece of charcoal till red-hot.",
-        "Place a small steel bowl inside your cooked kababs tray, put the hot charcoal in it, drizzle with a drop of ghee/oil, and cover immediately with a lid/foil for 2 minutes.",
-        "This gives the kababs an authentic smoky restaurant aroma.",
-        "Serve hot with mint chutney, onion rings, and lemon wedges.",
-        "For an upscale presentation: sprinkle chaat masala lightly and garnish with microgreens."
+        "Preheat the oven to 220°C / 425°F.",
+        "Place the skewers on a greased rack positioned over a baking tray.",
+        "Cook for 12–15 minutes, turning once halfway through.",
+        "Broil for 2–3 minutes at the end to develop a lightly charred exterior.",
+        "Baste with butter or oil during cooking as needed."
+      ]
+    },
+    {
+      "title": "Cook – Pan Method",
+      "steps": [
+        "Heat a grill pan over medium-high heat and lightly grease it.",
+        "Place the shaped chicken seekh kababs in the pan.",
+        "Cook while turning occasionally until evenly browned and cooked through.",
+        "Baste with butter or oil during cooking for added richness."
+      ]
+    },
+    {
+      "title": "Optional Smoky Finish",
+      "steps": [
+        "Heat a small piece of charcoal until red-hot.",
+        "Place a small heatproof steel bowl inside the tray with the cooked kababs.",
+        "Put the hot charcoal into the bowl and drizzle a few drops of ghee or oil over it.",
+        "Immediately cover the tray with a lid or foil and let the smoke infuse for about 2 minutes.",
+        "Remove the charcoal before serving."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Serve the hot chicken seekh kababs with mint chutney, onion rings, and lemon wedges.",
+        "For an upscale presentation, sprinkle lightly with chaat masala and garnish with microgreens."
       ]
     }
   ],
   "chefTips": [
-    "Use chicken thigh mince for juiciness (breast tends to dry out).",
-    "Ensure the onion water is squeezed out, or the kababs will break.",
-    "Kneading the mince properly is key – it develops binding and prevents the kababs from falling off the skewers.",
-    "Resting the marinated mixture allows spices to infuse deeply."
+    "Chicken: Use thigh mince for juicier kababs; lean breast mince tends to dry out more quickly.",
+    "Moisture control: Squeeze the grated onion thoroughly to prevent excess moisture from making the kababs fall apart.",
+    "Binding: Knead the chicken mixture for 8–10 minutes until sticky and cohesive for secure skewer binding.",
+    "Resting: Chilling the mixture allows the flavors to develop and makes shaping easier.",
+    "Cooking: Avoid overcooking chicken seekh kababs, as they can become dry.",
+    "Skewers: If using wooden skewers, soak them in water for 30 minutes before cooking to reduce the risk of burning."
   ]
 }
