@@ -2,50 +2,85 @@
   "id": 425,
   "title": "Tomato Shorba",
   "category": "Indian",
-  "image": "assets/images/indian/tomato-shorba.png",
-  "time": "15 min",
-  "difficulty": "Easy",
-  "servings": "2-3",
+  "image": "assets/images/indian/tomato_shorba.png",
+  "time": "",
+  "difficulty": "",
+  "servings": "Serves: 2–3",
   "ingredients": [
     {
-      "title": "Ingredients",
+      "title": "For the Shorba",
       "items": [
-        "300 g ripe tomatoes (about 2\u20133 medium) \u2014 pureed",
-        "\u00bd tbsp neutral oil (sunflower or canola)",
-        "\u00bd tsp cumin seeds",
-        "1 bay leaf (tej patta)",
-        "\u00bd tsp ginger\u2013garlic paste",
-        "2 cups water or vegetable stock",
-        "Salt, to taste",
-        "Fresh coriander (cilantro), chopped, for garnish"
+        "Ripe tomatoes – 300 g (about 2–3 medium), pureed",
+        "Neutral oil – ½ tbsp",
+        "Cumin seeds – ½ tsp",
+        "Bay leaf (tej patta) – 1",
+        "Ginger-garlic paste – ½ tsp",
+        "Water or vegetable stock – 2 cups",
+        "Salt – to taste",
+        "Fresh coriander leaves – chopped, for garnish"
       ]
     },
     {
-      "title": "Spice powders",
+      "title": "For the Spice Blend",
       "items": [
-        "\u215b tsp turmeric",
-        "\u00bc tsp red chili powder",
-        "\u00bc tsp coriander powder",
-        "\u00bc tsp garam masala",
-        "\u00bc tsp black pepper powder"
+        "Turmeric powder – ⅛ tsp",
+        "Red chili powder – ¼ tsp",
+        "Coriander powder – ¼ tsp",
+        "Garam masala – ¼ tsp",
+        "Black pepper powder – ¼ tsp"
       ]
     }
   ],
   "instruction": [
     {
-      "title": "Method",
+      "title": "Blend the Tomatoes",
       "steps": [
-        "Blend tomatoes into smooth puree",
-        "Temper cumin seeds and bay leaf in oil, add ginger\u2013garlic paste",
-        "Add tomato puree and spices, simmer briefly",
-        "Add water/stock and cook 4\u20135 minutes",
-        "Finish with coriander and serve hot"
+        "Wash and roughly chop the ripe tomatoes.",
+        "Blend the tomatoes into a smooth puree without adding water.",
+        "Set the puree aside."
+      ]
+    },
+    {
+      "title": "Temper the Spices",
+      "steps": [
+        "Heat the oil in a saucepan over medium heat.",
+        "Add cumin seeds and let them splutter.",
+        "Add the bay leaf.",
+        "Add ginger-garlic paste and sauté until fragrant."
+      ]
+    },
+    {
+      "title": "Build the Flavor",
+      "steps": [
+        "Pour the tomato puree into the pan.",
+        "Cook briefly while stirring occasionally.",
+        "Add turmeric powder, red chili powder, coriander powder, garam masala, and black pepper powder.",
+        "Mix well and cook until the spices are evenly incorporated."
+      ]
+    },
+    {
+      "title": "Simmer & Season",
+      "steps": [
+        "Add water or vegetable stock and stir well.",
+        "Bring the shorba to a gentle simmer.",
+        "Cook for about 4–5 minutes to allow the flavors to blend.",
+        "Season with salt and adjust the spices to taste."
+      ]
+    },
+    {
+      "title": "Finish & Serve",
+      "steps": [
+        "Remove the bay leaf before serving.",
+        "Stir in chopped fresh coriander leaves.",
+        "Serve hot as a light soup or alongside pulao, jeera rice, or other rice dishes."
       ]
     }
   ],
   "chefTips": [
-    "Use ripe tomatoes for natural sweetness",
-    "No cream is traditional; optional cream can be added",
-    "Roasted tomatoes give deeper flavor"
+    "Tomatoes: Use ripe, flavorful tomatoes for natural sweetness and depth; avoid underripe or excessively sour tomatoes.",
+    "Classic style: Traditional tomato shorba does not require cream, keeping the soup light and aromatic.",
+    "Richness: For a creamier variation, add a small splash of fresh cream just before serving.",
+    "Roasted variation: Roast tomatoes with red pepper and garlic before blending for a deeper, more complex flavor.",
+    "Mughlai touch: Add whole spices such as a small piece of cinnamon or a cardamom pod while simmering for additional aromatic depth."
   ]
 }
