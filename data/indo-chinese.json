@@ -12,7 +12,7 @@
     {
     "id": 1002,
     "title": "Chicken Manchow Soup",
-    "category": "Chinese",
+    "category": "Indo-Chinese",
     "file": "data/chinese/chicken-manchow-soup.json",
     "image": "assets/images/chinese/chicken-manchow-soup.png",
     "time": "35 min",
@@ -21,7 +21,7 @@
   {
     "id": 1003,
     "title": "Vegetable Manchow Soup",
-    "category": "Chinese",
+    "category": "Indo-Chinese",
     "file": "data/chinese/vegetable-manchow-soup.json",
     "image": "assets/images/chinese/vegetable-manchow-soup.png",
     "time": "45 min",
