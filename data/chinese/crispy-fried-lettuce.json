@@ -1,0 +1,109 @@
+{
+  "id": "236",
+  "title": "Crispy Fried Lettuce",
+  "description": "Crispy Fried Lettuce is a delicate Chinese-style appetizer featuring fresh romaine or iceberg lettuce lightly coated in seasoned cornstarch and quickly deep-fried until crisp on the outside while remaining tender inside. A fragrant garlic and chili finish, with optional soy, oyster sauce, and sesame oil, adds savory depth without overpowering the fresh character of the lettuce.",
+
+  "category": "Chinese",
+  "time": "20 min",
+  "difficulty": "Medium",
+  "image": "assets/images/chinese/crispy-fried-lettuce.png",
+
+  "ingredients": [
+    {
+      "title": "For the Lettuce",
+      "items": [
+        "Romaine or iceberg lettuce – 1 medium head, firm and fresh",
+        "Cornstarch – ½ cup",
+        "All-purpose flour – 2 tbsp (optional)",
+        "Salt – ½ tsp",
+        "White pepper – ¼ tsp"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Vegetable oil or peanut oil – 2–3 cups for deep-frying"
+      ]
+    },
+    {
+      "title": "For the Aromatic Finish",
+      "items": [
+        "Garlic – 2 cloves, finely minced",
+        "Sesame oil – ½ tsp (optional)",
+        "Light soy sauce – 1 tsp (optional)",
+        "Oyster sauce – 1 tsp (optional)",
+        "Chili flakes or fresh chili – ½ tsp (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Lettuce",
+      "steps": [
+        "Wash the lettuce thoroughly and shake off any excess water.",
+        "Pat the lettuce completely dry with paper towels, as moisture can cause dangerous oil splattering.",
+        "Cut the lettuce into halves or quarters depending on its size, keeping the pieces reasonably intact for presentation."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Crispy Coating",
+      "steps": [
+        "In a bowl, combine cornstarch, all-purpose flour if using, salt, and white pepper.",
+        "Lightly dust the lettuce pieces with the coating mixture.",
+        "Shake off excess coating so the lettuce remains light rather than heavily coated."
+      ]
+    },
+    {
+      "title": "Step 3 – Heating the Oil",
+      "steps": [
+        "Heat the vegetable or peanut oil in a wok or deep pan to 180°C (350°F).",
+        "Test the oil with a small piece of lettuce; it should sizzle immediately when added."
+      ]
+    },
+    {
+      "title": "Step 4 – Frying the Lettuce",
+      "steps": [
+        "Carefully place the coated lettuce pieces into the hot oil.",
+        "Fry in batches if necessary to prevent overcrowding.",
+        "Fry for approximately 10–15 seconds per side until lightly golden and crisp.",
+        "Remove the lettuce with a slotted spoon and drain on paper towels."
+      ]
+    },
+    {
+      "title": "Step 5 – Aromatic Finish",
+      "steps": [
+        "Heat 1 tsp oil in a small pan over medium heat.",
+        "Add minced garlic and chili if using and cook briefly until fragrant.",
+        "Drizzle the aromatic mixture over the fried lettuce immediately.",
+        "Add a light drizzle of soy sauce, oyster sauce, or sesame oil if desired."
+      ]
+    },
+    {
+      "title": "Step 6 – Serving",
+      "steps": [
+        "Arrange the fried lettuce on a serving platter while hot and crisp.",
+        "Garnish with sesame seeds or finely sliced scallions if desired.",
+        "Serve immediately to preserve the crisp texture."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately as a crispy appetizer or side dish.",
+      "Pair with fried rice, noodles, or other Chinese stir-fried dishes.",
+      "Serve on a wide platter and garnish lightly with scallions or sesame seeds for an elegant presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Make sure the lettuce is completely dry before frying, as moisture can cause oil splattering and reduce crispness.",
+    "Use a high-smoke-point oil such as peanut or sunflower oil for quick, controlled frying.",
+    "Fry the lettuce very briefly; over-frying can make the leaves overly dark and lose their delicate texture.",
+    "Use only a light coating of cornstarch so the fried lettuce remains crisp and delicate rather than heavy.",
+    "Season lightly and allow the natural freshness of the lettuce to remain prominent.",
+    "Serve immediately because fried lettuce loses its crispness quickly after frying."
+  ]
+}
