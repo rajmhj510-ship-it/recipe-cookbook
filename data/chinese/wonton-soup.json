@@ -1,0 +1,115 @@
+{
+  "id": "243",
+  "title": "Wonton Soup",
+  "description": "Wonton Soup is a classic Chinese comfort dish featuring delicate handmade wontons filled with savory pork, sweet shrimp, ginger, and spring onions, served in a clear aromatic chicken broth. The combination of tender dumplings, fragrant broth, and fresh garnishes creates a refined restaurant-style soup that is light yet deeply satisfying.",
+
+  "category": "Chinese",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/chinese/wonton-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Wontons",
+      "items": [
+        "Ground pork – 250 g (½ lb), preferably around 20% fat",
+        "Shrimp – 100 g, peeled, deveined, and finely chopped",
+        "Spring onions – 2, finely chopped",
+        "Fresh ginger – 1 tsp, finely grated",
+        "Soy sauce – 1 tsp",
+        "Sesame oil – 1 tsp",
+        "Salt – ½ tsp",
+        "White pepper – ¼ tsp",
+        "Wonton wrappers – 30–40"
+      ]
+    },
+    {
+      "title": "For the Soup Broth",
+      "items": [
+        "Chicken stock – 1 liter (4 cups), preferably homemade",
+        "Fresh ginger – 2 slices",
+        "Garlic – 2 cloves, smashed",
+        "Light soy sauce – 1 tbsp",
+        "Sesame oil – ½ tsp",
+        "Salt – to taste",
+        "Dried shiitake mushrooms – 2, soaked and sliced (optional)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Spring onions – chopped",
+        "Fresh cilantro – as needed",
+        "Chili oil – a few drops (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Wonton Filling",
+      "steps": [
+        "In a mixing bowl, combine ground pork, chopped shrimp, spring onions, grated ginger, soy sauce, sesame oil, salt, and white pepper.",
+        "Mix thoroughly until the filling becomes sticky and cohesive, which helps it hold together inside the wrappers."
+      ]
+    },
+    {
+      "title": "Step 2 – Folding the Wontons",
+      "steps": [
+        "Place approximately 1 tsp of filling in the center of each wonton wrapper.",
+        "Moisten the wrapper edges lightly with water.",
+        "Fold the wrapper into a triangle and press firmly to seal.",
+        "Bring the two outer corners together and press lightly to create the traditional wonton shape.",
+        "Repeat until all the filling has been used."
+      ]
+    },
+    {
+      "title": "Step 3 – Preparing the Broth",
+      "steps": [
+        "Place the chicken stock in a large pot and bring it to a gentle simmer.",
+        "Add ginger slices, smashed garlic, light soy sauce, sesame oil, and shiitake mushrooms if using.",
+        "Simmer gently for 10–15 minutes to infuse the broth with the aromatics.",
+        "Taste and adjust the seasoning with salt as needed."
+      ]
+    },
+    {
+      "title": "Step 4 – Cooking the Wontons",
+      "steps": [
+        "Bring a separate pot of water to a gentle boil.",
+        "Add the wontons in batches to prevent them from sticking together.",
+        "Cook for approximately 3–4 minutes, or until the wontons float and the filling is completely cooked.",
+        "Remove the cooked wontons with a slotted spoon and transfer them directly to warmed serving bowls."
+      ]
+    },
+    {
+      "title": "Step 5 – Assembling the Soup",
+      "steps": [
+        "Strain the broth if desired to remove the ginger, garlic, and mushrooms.",
+        "Pour the hot broth gently over the cooked wontons.",
+        "Garnish with chopped spring onions and fresh cilantro.",
+        "Add a few drops of chili oil for optional heat.",
+        "Serve immediately while the wontons and broth are hot."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately as a light Chinese appetizer or main course.",
+      "Pair with steamed rice, fried rice, or stir-fried noodles for a more substantial meal.",
+      "Add extra spring onions, cilantro, or chili oil at the table according to preference.",
+      "For a noodle variation, serve the wontons over thin egg noodles with the aromatic broth."
+    ]
+  },
+
+  "chefTips": [
+    "Use a clear, flavorful homemade chicken stock whenever possible for superior depth and clarity.",
+    "Do not overfill the wonton wrappers, as excessive filling can cause them to split during cooking.",
+    "Mix the pork and shrimp filling until sticky to create a cohesive texture that stays inside the wrapper.",
+    "Keep unused wonton wrappers covered with a slightly damp towel so they do not dry out while folding.",
+    "Cook wontons separately from the broth to keep the soup clear and prevent excess starch from clouding it.",
+    "The pork and shrimp combination provides a balanced blend of savory richness, sweetness, and tenderness.",
+    "Serve immediately after assembly because freshly cooked wontons have the best texture."
+  ]
+}
