@@ -1,0 +1,113 @@
+{
+  "id": "233",
+  "title": "Julienne Carrot Salad",
+  "description": "Julienne Carrot Salad is a fresh, vibrant Chinese-style salad featuring finely cut carrots, crisp cucumber, red bell pepper, and scallions tossed in a fragrant sesame-soy dressing. Rice vinegar, ginger, garlic, and a touch of sugar create a balanced sweet, tangy, and savory profile, while toasted sesame seeds and peanuts add aroma and crunch.",
+
+  "category": "Chinese",
+  "time": "20 min",
+  "difficulty": "Medium",
+  "image": "assets/images/chinese/julienne-carrot-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Vegetables",
+      "items": [
+        "Carrots – 4 large, peeled",
+        "Cucumber – 1 small, peeled and deseeded (optional)",
+        "Red bell pepper – 1 small, julienned",
+        "Scallions (spring onions) – 2–3, thinly sliced",
+        "Fresh chili – 1 small, finely julienned (optional)"
+      ]
+    },
+    {
+      "title": "For the Dressing",
+      "items": [
+        "Rice vinegar – 2 tbsp",
+        "Light soy sauce – 1 tbsp",
+        "Toasted sesame oil – 1 tsp",
+        "Sugar or honey – 1 tsp",
+        "Salt – ½ tsp, adjusted to taste",
+        "Fresh ginger – 1 tsp, finely grated",
+        "Garlic – 1 clove, minced",
+        "Neutral oil – 1 tbsp (canola or peanut oil)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Toasted sesame seeds – 1 tbsp",
+        "Fresh cilantro leaves – optional",
+        "Crushed roasted peanuts – optional"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Vegetables",
+      "steps": [
+        "Julienne the carrots, cucumber, and red bell pepper into thin, uniform matchsticks approximately 2–3 inches long.",
+        "Thinly slice the scallions and finely julienne the fresh chili if using.",
+        "Place all prepared vegetables in a large mixing bowl."
+      ]
+    },
+    {
+      "title": "Step 2 – Blanching the Carrots",
+      "steps": [
+        "Bring a pot of water to a boil.",
+        "Add the julienned carrots and blanch for 30–45 seconds for slight softness while retaining their crunch.",
+        "Immediately transfer the carrots to ice water to stop cooking and preserve their vibrant color.",
+        "Drain thoroughly before adding to the salad."
+      ]
+    },
+    {
+      "title": "Step 3 – Preparing the Dressing",
+      "steps": [
+        "In a small bowl, whisk together rice vinegar, light soy sauce, sesame oil, sugar or honey, salt, grated ginger, and minced garlic.",
+        "Heat the neutral oil in a small pan until shimmering.",
+        "Drizzle the hot oil into the dressing while whisking continuously to bloom the aromatics and intensify their fragrance."
+      ]
+    },
+    {
+      "title": "Step 4 – Combining the Salad",
+      "steps": [
+        "Add the prepared vegetables to the dressing.",
+        "Toss thoroughly until every vegetable is evenly coated.",
+        "Taste and adjust the seasoning with additional soy sauce, vinegar, or sugar as needed."
+      ]
+    },
+    {
+      "title": "Step 5 – Presentation",
+      "steps": [
+        "Arrange the salad neatly on a chilled serving plate.",
+        "Sprinkle with toasted sesame seeds, fresh cilantro leaves, and crushed roasted peanuts if using.",
+        "For a restaurant-style finish, add a few drops of high-quality toasted sesame oil just before serving."
+      ]
+    },
+    {
+      "title": "Step 6 – Serving",
+      "steps": [
+        "Serve immediately to preserve the fresh crunch and vibrant color.",
+        "Alternatively, chill the salad for 15–20 minutes before serving for a cooler, more refreshing presentation."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled or immediately as a refreshing appetizer or side dish.",
+      "Pair with fried rice, noodles, dumplings, or Chinese stir-fried dishes.",
+      "Garnish with toasted sesame seeds and crushed peanuts for additional texture and visual appeal."
+    ]
+  },
+
+  "chefTips": [
+    "Use precise, uniform julienne cuts so the vegetables have consistent texture and are evenly coated with dressing.",
+    "Balance rice vinegar and sugar carefully to achieve the ideal sweet, tangy, and savory flavor.",
+    "Blooming the aromatics with hot neutral oil intensifies the garlic, ginger, and sesame fragrance.",
+    "Blanch the carrots briefly rather than fully cooking them to soften the raw bite while preserving their crunch.",
+    "Drain all vegetables thoroughly before dressing to prevent the salad from becoming watery.",
+    "Keep the salad chilled and serve soon after dressing for the best texture and presentation."
+  ]
+}
