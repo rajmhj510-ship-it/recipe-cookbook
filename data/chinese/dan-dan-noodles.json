@@ -1,0 +1,118 @@
+{
+  "id": "245",
+  "title": "Dan Dan Noodles",
+  "description": "Dan Dan Noodles are a classic Sichuan dish featuring springy Chinese wheat noodles coated in a rich, spicy, nutty sauce made with sesame paste, Sichuan chili oil, black vinegar, and fragrant Sichuan pepper. Topped with savory crispy ground pork, spring onions, peanuts, and sesame seeds, this restaurant-style preparation delivers a layered balance of heat, umami, acidity, and aromatic richness.",
+
+  "category": "Sichuan, China",
+  "time": "35 min",
+  "difficulty": "Professional",
+  "image": "assets/images/chinese/dan-dan-noodles.png",
+
+  "ingredients": [
+    {
+      "title": "For the Dan Dan Sauce",
+      "items": [
+        "Sichuan chili oil – 3 tbsp, preferably with chili sediment",
+        "Sesame paste – 2 tbsp (tahini may be used as a substitute)",
+        "Soy sauce – 2 tbsp",
+        "Chinese black vinegar – 1 tbsp",
+        "Shaoxing wine – 1 tsp",
+        "Sugar – 1 tsp",
+        "White pepper – ½ tsp",
+        "Sichuan peppercorns – 1 tsp, toasted and ground",
+        "Garlic – 1 clove, finely minced",
+        "Fresh ginger – 1 tsp, finely minced"
+      ]
+    },
+    {
+      "title": "For the Spicy Meat Topping",
+      "items": [
+        "Ground pork – 200 g (7 oz), or ground beef",
+        "Vegetable oil – 1 tbsp",
+        "Soy sauce – 1 tbsp",
+        "Shaoxing wine – 1 tbsp",
+        "Sugar – 1 tsp",
+        "Chili flakes – 1 tsp (optional, for extra heat)"
+      ]
+    },
+    {
+      "title": "For the Noodles",
+      "items": [
+        "Fresh Chinese wheat noodles – 400 g (14 oz), thin or medium"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Spring onions – 2–3, finely chopped",
+        "Roasted peanuts – 1 tbsp, crushed",
+        "Sesame seeds – 1 tsp",
+        "Bok choy or spinach – blanched (optional)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Dan Dan Sauce",
+      "steps": [
+        "Add sesame paste, soy sauce, black vinegar, Sichuan chili oil, sugar, ground Sichuan pepper, garlic, ginger, and white pepper to a small bowl.",
+        "Whisk thoroughly until the sauce becomes smooth and emulsified.",
+        "If the sauce is too thick, gradually whisk in 1–2 tbsp hot water until it reaches a pourable consistency.",
+        "Taste and adjust the balance of heat, acidity, saltiness, and sesame richness."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Spicy Meat Topping",
+      "steps": [
+        "Heat vegetable oil in a wok or skillet over medium heat.",
+        "Add the ground pork and break it apart with a spatula.",
+        "Cook until the meat begins to brown.",
+        "Add soy sauce, Shaoxing wine, sugar, and chili flakes if using.",
+        "Continue cooking for approximately 5–6 minutes until the pork is deeply browned and slightly crisp around the edges.",
+        "Remove from the heat and keep warm."
+      ]
+    },
+    {
+      "title": "Step 3 – Cooking the Noodles",
+      "steps": [
+        "Bring a large pot of water to a rolling boil.",
+        "Add the fresh Chinese wheat noodles and cook according to their thickness until al dente.",
+        "Drain thoroughly and rinse briefly under warm water to remove excess surface starch.",
+        "Shake off excess water so the sauce remains concentrated when the noodles are assembled."
+      ]
+    },
+    {
+      "title": "Step 4 – Assembling the Dan Dan Noodles",
+      "steps": [
+        "Divide the prepared sauce between serving bowls.",
+        "Place the hot cooked noodles directly over the sauce.",
+        "Top each portion with the spicy ground pork.",
+        "Add chopped spring onions, crushed roasted peanuts, and sesame seeds.",
+        "Add blanched bok choy or spinach if desired.",
+        "Toss the noodles thoroughly just before eating so the sauce coats every strand evenly."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately in warm bowls while the noodles are hot.",
+      "Pair with Chinese cucumber salad, steamed greens, or vegetable dumplings.",
+      "Add pickled mustard greens for extra acidity, texture, and traditional Sichuan character.",
+      "Serve with additional Sichuan chili oil at the table for guests who prefer more heat."
+    ]
+  },
+
+  "chefTips": [
+    "Use homemade Sichuan chili oil when possible; infusing the oil with chili flakes, garlic, and Sichuan peppercorns gives superior depth.",
+    "Toast Sichuan peppercorns lightly before grinding to maximize their citrusy aroma and characteristic numbing sensation.",
+    "Taste the sauce before combining it with the noodles and adjust heat, vinegar, salt, or sesame paste as needed.",
+    "Fresh Chinese wheat noodles provide the best chewy texture and absorb the sauce particularly well.",
+    "Cook noodles only until al dente so they retain enough structure to carry the rich sauce.",
+    "Cook the ground pork until slightly crisp to create a textural contrast against the soft, coated noodles.",
+    "For a more authentic texture, use chili oil containing visible chili sediment rather than completely strained oil.",
+    "Serve immediately after assembly because the noodles absorb the sauce quickly and are best enjoyed hot."
+  ]
+}
