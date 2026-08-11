@@ -1,0 +1,137 @@
+{
+  "id": "242",
+  "title": "Vegetable Manchow Soup",
+  "description": "Vegetable Manchow Soup is a vibrant Indo-Chinese soup packed with crisp vegetables, aromatic seasoning, and a lightly thickened savory broth. Finished with fresh bean sprouts, spring onions, and crunchy fried noodles, it delivers the signature combination of silky soup and crisp textures found in restaurant-style Manchow Soup.",
+
+  "category": "Indo-Chinese",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indo-chinese/vegetable-manchow-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Soup Base",
+      "items": [
+        "Vegetable stock – 6 cups",
+        "Water – 1 cup",
+        "Soy sauce – 1 tbsp",
+        "White pepper – 1 tsp",
+        "Salt – 1 tsp, adjusted to taste",
+        "Sesame oil – 1 tsp",
+        "Sugar – 1 tsp"
+      ]
+    },
+    {
+      "title": "For the Vegetables",
+      "items": [
+        "Carrots – ½ cup, julienned",
+        "Cabbage – ½ cup, shredded",
+        "Bean sprouts – ½ cup",
+        "Spring onions – ½ cup, chopped",
+        "Bell peppers – ½ cup, thinly sliced (optional)",
+        "Mushrooms – ½ cup, sliced (shiitake or button)"
+      ]
+    },
+    {
+      "title": "For Thickening",
+      "items": [
+        "Cornstarch – 2 tbsp",
+        "Water – 3 tbsp"
+      ]
+    },
+    {
+      "title": "For the Optional Egg Finish",
+      "items": [
+        "Eggs – 2, lightly beaten"
+      ]
+    },
+    {
+      "title": "For the Signature Topping",
+      "items": [
+        "Thin crispy fried noodles – 1 cup"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Vegetables",
+      "steps": [
+        "Wash and prepare all vegetables thoroughly.",
+        "Julienne the carrots and thinly slice the remaining vegetables for even cooking.",
+        "Keep the bean sprouts and spring onions separate, as they will be added toward the end."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Soup Base",
+      "steps": [
+        "Add the vegetable stock and water to a large wok or saucepan.",
+        "Bring the liquid to a gentle boil.",
+        "Add soy sauce, white pepper, salt, sesame oil, and sugar.",
+        "Taste the broth and adjust the seasoning as needed."
+      ]
+    },
+    {
+      "title": "Step 3 – Cooking the Vegetables",
+      "steps": [
+        "Add carrots, cabbage, bell peppers if using, and sliced mushrooms to the simmering broth.",
+        "Cook over medium heat for 3–4 minutes.",
+        "Keep the vegetables slightly crisp rather than fully soft for the characteristic Manchow texture."
+      ]
+    },
+    {
+      "title": "Step 4 – Thickening the Soup",
+      "steps": [
+        "Mix the cornstarch with 3 tbsp water until completely smooth.",
+        "Slowly pour the slurry into the simmering soup while stirring continuously.",
+        "Cook for approximately 2 minutes until the soup becomes lightly thickened and velvety."
+      ]
+    },
+    {
+      "title": "Step 5 – Adding the Optional Egg",
+      "steps": [
+        "Reduce the heat to low.",
+        "Slowly drizzle the beaten eggs into the soup while stirring gently in one direction.",
+        "Allow thin egg ribbons to form without vigorously stirring the broth.",
+        "Skip this step for a vegetarian preparation without egg."
+      ]
+    },
+    {
+      "title": "Step 6 – Final Touches",
+      "steps": [
+        "Add the bean sprouts and chopped spring onions.",
+        "Turn off the heat immediately to preserve their freshness and crunch.",
+        "Drizzle with sesame oil for a final aromatic finish."
+      ]
+    },
+    {
+      "title": "Step 7 – Serving",
+      "steps": [
+        "Ladle the hot soup into warmed serving bowls.",
+        "Top generously with crispy fried noodles for the signature Manchow presentation.",
+        "Garnish with additional chopped spring onions if desired.",
+        "Serve immediately while the soup is hot and the noodles remain crisp."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as an Indo-Chinese appetizer.",
+      "Top with crispy fried noodles immediately before serving for maximum crunch.",
+      "Pair with vegetable fried rice, Hakka noodles, spring rolls, or other Indo-Chinese dishes.",
+      "Offer chili sauce or chili oil on the side for guests who prefer additional heat."
+    ]
+  },
+
+  "chefTips": [
+    "Use fresh, colorful vegetables for better flavor, texture, and visual appeal.",
+    "Keep the vegetables slightly crunchy rather than overcooking them.",
+    "Do not over-thicken the broth; it should be silky and velvety rather than gelatinous.",
+    "Add bean sprouts and spring onions near the end so they retain freshness and crunch.",
+    "For deeper flavor, add a few drops of rice wine or a small amount of mushroom soy sauce.",
+    "Add fried noodles only when serving so they remain crisp and provide the signature Manchow texture contrast.",
+    "For a fully vegan version, omit the egg and verify that the soy sauce, noodles, and other packaged ingredients are vegan."
+  ]
+}
