@@ -1,0 +1,98 @@
+{
+  "id": "234",
+  "title": "Chinese Cucumber Salad",
+  "description": "Chinese Cucumber Salad is a refreshing Sichuan-style cold dish made with smashed cucumbers tossed in a bright, aromatic dressing of fresh garlic, light soy sauce, Chinese black vinegar, sesame oil, sugar, and chili oil. The smashed cucumber technique creates a rustic texture with plenty of cracks for the savory, tangy, and spicy dressing to cling to.",
+
+  "category": "Chinese",
+  "time": "30 min",
+  "difficulty": "Easy",
+  "image": "assets/images/chinese/chinese-cucumber-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Cucumbers",
+      "items": [
+        "Kirby or English cucumbers – 2 large",
+        "Salt – 1–2 tsp"
+      ]
+    },
+    {
+      "title": "For the Dressing",
+      "items": [
+        "Garlic – 2 cloves, finely minced",
+        "Light soy sauce – 1 tbsp",
+        "Chinese black vinegar – 1 tsp (or rice vinegar)",
+        "Sesame oil – 1 tsp",
+        "Sugar – 1 tsp",
+        "Chili oil – ½ tsp, adjusted to taste"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Toasted sesame seeds – 1 tsp",
+        "Fresh cilantro – optional",
+        "Scallions – optional, chopped"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Cucumbers",
+      "steps": [
+        "Wash the cucumbers thoroughly.",
+        "Place each cucumber on a cutting board and gently smash it with the flat side of a knife or a rolling pin to create cracks along the flesh.",
+        "Cut the smashed cucumbers into bite-sized pieces."
+      ]
+    },
+    {
+      "title": "Step 2 – Salting the Cucumbers",
+      "steps": [
+        "Place the cucumber pieces in a bowl and sprinkle evenly with salt.",
+        "Let them sit for 10–15 minutes to draw out excess water.",
+        "Drain the released liquid and gently pat the cucumbers dry with paper towels."
+      ]
+    },
+    {
+      "title": "Step 3 – Preparing the Dressing",
+      "steps": [
+        "In a small bowl, combine minced garlic, light soy sauce, Chinese black vinegar, sesame oil, sugar, and chili oil.",
+        "Mix thoroughly until the sugar dissolves and the dressing is well balanced."
+      ]
+    },
+    {
+      "title": "Step 4 – Assembling the Salad",
+      "steps": [
+        "Add the prepared cucumbers to the dressing.",
+        "Toss gently but thoroughly until the dressing coats all the cucumber pieces.",
+        "Sprinkle toasted sesame seeds over the salad and add chopped cilantro or scallions if desired."
+      ]
+    },
+    {
+      "title": "Step 5 – Chilling & Serving",
+      "steps": [
+        "Refrigerate the dressed cucumber salad for 15–20 minutes to allow the flavors to meld.",
+        "Serve cold on a chilled shallow plate."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled as a refreshing appetizer or cold side dish.",
+      "Pair with fried rice, noodles, dumplings, or spicy Chinese dishes.",
+      "Serve on a chilled shallow plate and garnish immediately before serving for a professional presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Smashing the cucumbers instead of thinly slicing them creates a rustic texture and provides more surface area for the dressing to cling to.",
+    "Taste the dressing before combining and adjust the sweetness, saltiness, acidity, and heat for a balanced flavor.",
+    "Use freshly minced garlic for the brightest and most aromatic result.",
+    "Drizzle chili oil lightly for a more controlled level of heat and an attractive presentation.",
+    "Salting the cucumbers before dressing helps remove excess water and prevents the finished salad from becoming watery.",
+    "Keep the salad chilled and add the final sesame seeds and fresh herbs just before serving."
+  ]
+}
