@@ -1,0 +1,128 @@
+{
+  "id": "230",
+  "title": "Hot Garlic with Chinese Vegetables",
+  "description": "Hot Garlic with Chinese Vegetables is a vibrant restaurant-style stir-fry combining crisp bok choy, Chinese broccoli, snow peas, shiitake mushrooms, and carrots with an aromatic hot garlic sauce. Fresh garlic, ginger, and chilies provide bold heat, while soy and oyster sauces create a rich savory glaze that coats the vegetables while keeping them tender-crisp.",
+
+  "category": "Chinese",
+  "time": "25 min",
+  "difficulty": "Medium",
+  "image": "assets/images/chinese/hot-garlic-chinese-vegetables.png",
+
+  "ingredients": [
+    {
+      "title": "For the Vegetables",
+      "items": [
+        "Bok choy – 1 cup, cut into halves or quarters",
+        "Chinese broccoli (gai lan) – 1 cup, trimmed",
+        "Snow peas or sugar snap peas – 1 cup",
+        "Shiitake mushrooms – 1 cup, sliced",
+        "Carrot – 1 medium, julienned"
+      ]
+    },
+    {
+      "title": "For the Aromatics",
+      "items": [
+        "Garlic – 6–8 cloves, finely minced",
+        "Fresh red chilies – 1–2, sliced (optional)",
+        "Fresh ginger – 1 tsp, finely minced"
+      ]
+    },
+    {
+      "title": "For the Sauce",
+      "items": [
+        "Light soy sauce – 2 tbsp",
+        "Oyster sauce – 1 tbsp",
+        "Dark soy sauce – 1 tsp",
+        "Sugar – 1 tsp",
+        "White pepper – ½ tsp",
+        "Vegetable stock or water – 2–3 tbsp",
+        "Cornstarch – 1 tsp (optional, for slight thickening)"
+      ]
+    },
+    {
+      "title": "For Cooking & Finishing",
+      "items": [
+        "Vegetable oil – 2 tbsp (or peanut oil)",
+        "Sesame oil – ½ tsp"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Vegetables",
+      "steps": [
+        "Wash and drain all vegetables thoroughly.",
+        "Slice the shiitake mushrooms, julienne the carrot, and slice the fresh chilies.",
+        "Keep the bok choy and Chinese broccoli whole or cut them into halves or quarters depending on size."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Sauce",
+      "steps": [
+        "In a small bowl, combine light soy sauce, oyster sauce, dark soy sauce, sugar, white pepper, vegetable stock or water, and cornstarch if using.",
+        "Stir thoroughly until the sugar dissolves and the sauce is evenly combined."
+      ]
+    },
+    {
+      "title": "Step 3 – Blanching the Vegetables",
+      "steps": [
+        "Bring a pot of water to a boil.",
+        "Blanch the leafy vegetables and snow peas or sugar snap peas for 30–40 seconds.",
+        "Drain immediately and plunge the vegetables into ice water to preserve their vibrant color and crisp texture."
+      ]
+    },
+    {
+      "title": "Step 4 – Stir-Frying the Aromatics",
+      "steps": [
+        "Heat a wok or large skillet over high heat until very hot.",
+        "Add the vegetable or peanut oil.",
+        "Add minced garlic, ginger, and fresh chilies.",
+        "Stir-fry for 20–30 seconds until fragrant, taking care not to burn the garlic."
+      ]
+    },
+    {
+      "title": "Step 5 – Stir-Frying the Vegetables",
+      "steps": [
+        "Add the harder vegetables, starting with the carrots and shiitake mushrooms.",
+        "Stir-fry for 1–2 minutes over high heat.",
+        "Add the blanched leafy vegetables and snow peas or sugar snap peas.",
+        "Toss quickly to combine while keeping the vegetables tender-crisp."
+      ]
+    },
+    {
+      "title": "Step 6 – Adding the Sauce",
+      "steps": [
+        "Pour the prepared sauce over the vegetables.",
+        "Stir-fry quickly until all the vegetables are evenly coated.",
+        "Cook for 1–2 minutes until the sauce slightly thickens and clings to the vegetables."
+      ]
+    },
+    {
+      "title": "Step 7 – Finishing & Serving",
+      "steps": [
+        "Drizzle sesame oil over the stir-fried vegetables.",
+        "Toss gently to distribute the aroma and glaze.",
+        "Transfer immediately to a warm serving plate and serve hot."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately as a vegetable side dish with steamed jasmine rice.",
+      "Pair with fried rice, noodles, or other Chinese stir-fried dishes.",
+      "Add tofu, baby corn, or bell peppers for a more substantial vegetarian meal."
+    ]
+  },
+
+  "chefTips": [
+    "Use a very hot wok and keep the vegetables moving to develop the characteristic smoky wok hei flavor.",
+    "Avoid overcooking the vegetables; tender-crisp texture, vibrant color, and fresh flavor are key.",
+    "Blanching the leafy vegetables and peas before stir-frying helps them cook evenly while retaining their color.",
+    "For an extra garlic-forward flavor, lightly smash several garlic cloves and sauté them gently before adding the minced garlic.",
+    "Add the sauce near the end of cooking so the vegetables remain crisp and the sauce forms a light glossy coating.",
+    "Adjust the fresh chilies according to the desired level of heat."
+  ]
+}
