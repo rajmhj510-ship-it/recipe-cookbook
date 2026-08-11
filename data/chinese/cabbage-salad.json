@@ -1,0 +1,99 @@
+{
+  "id": "246",
+  "title": "Cabbage Salad",
+  "description": "Cabbage Salad is a fresh and colorful Chinese-inspired salad combining finely shredded green and purple cabbage, crisp carrots, bell peppers, and spring onions with a savory, tangy, lightly spicy sesame dressing. Toasted sesame seeds and roasted nuts add an elegant crunch, making it a refreshing restaurant-style side dish.",
+
+  "category": "Chinese",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "image": "assets/images/chinese/cabbage-salad.png",
+
+  "ingredients": [
+    {
+      "title": "For the Salad",
+      "items": [
+        "Green cabbage – ½ small head, finely shredded",
+        "Purple cabbage – ½ small head, finely shredded",
+        "Carrots – 2 medium, julienned",
+        "Green onions – 4, thinly sliced diagonally",
+        "Red bell pepper – ½, thinly sliced",
+        "Fresh cilantro leaves – ¼ cup (optional)",
+        "Toasted sesame seeds – 2 tbsp",
+        "Crushed roasted peanuts or cashews – 2 tbsp (optional)"
+      ]
+    },
+    {
+      "title": "For the Dressing",
+      "items": [
+        "Soy sauce – 3 tbsp",
+        "Rice vinegar – 1 tbsp",
+        "Sesame oil – 1 tbsp",
+        "Sugar – 1 tsp (or honey for subtle sweetness)",
+        "Fresh ginger – 1 tsp, grated",
+        "Garlic – 1 small clove, finely minced",
+        "Chili oil – 1 tsp, or red chili flakes to taste",
+        "Neutral oil – 1–2 tbsp, such as vegetable or canola oil",
+        "Fish sauce – 1 tsp (optional, for extra umami)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Vegetables",
+      "steps": [
+        "Remove any tough outer leaves from the cabbages.",
+        "Finely shred the green and purple cabbage into uniform strips.",
+        "Julienne the carrots and thinly slice the red bell pepper and green onions.",
+        "Combine all prepared vegetables in a large mixing bowl.",
+        "Add cilantro if using and toss gently to distribute the ingredients."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Dressing",
+      "steps": [
+        "In a small bowl, whisk together soy sauce, rice vinegar, sesame oil, sugar, ginger, garlic, chili oil, and fish sauce if using.",
+        "Taste the dressing and adjust the sweet, salty, tangy, and spicy elements.",
+        "Slowly drizzle in the neutral oil while whisking continuously to create a light emulsion."
+      ]
+    },
+    {
+      "title": "Step 3 – Combining the Salad",
+      "steps": [
+        "Pour the dressing evenly over the prepared vegetables.",
+        "Toss thoroughly but gently until every vegetable is lightly coated.",
+        "Allow the salad to rest for 5–10 minutes so the flavors can meld while the cabbage remains crisp."
+      ]
+    },
+    {
+      "title": "Step 4 – Garnishing & Serving",
+      "steps": [
+        "Transfer the salad to a shallow serving bowl or plate.",
+        "Sprinkle toasted sesame seeds over the top.",
+        "Add crushed roasted peanuts or cashews immediately before serving for maximum crunch.",
+        "Garnish with fresh cilantro leaves if desired.",
+        "Serve immediately for maximum freshness, or chill for 15–20 minutes for a more developed flavor."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled or slightly cool as a refreshing Chinese-inspired side dish.",
+      "Pair with fried rice, stir-fried noodles, dumplings, or hot and sour soup.",
+      "Serve alongside grilled or stir-fried chicken, beef, shrimp, or tofu.",
+      "Add the nuts just before serving so they retain their crisp texture."
+    ]
+  },
+
+  "chefTips": [
+    "Use a sharp knife or mandoline to achieve fine, uniform cabbage and carrot slices for better texture and presentation.",
+    "Taste the dressing before combining it with the vegetables; it should have a balanced salty, sweet, tangy, and spicy profile.",
+    "Do not overdress the salad, as excess liquid can make the cabbage watery.",
+    "Letting the dressed salad rest briefly softens the cabbage slightly while preserving its natural crunch.",
+    "Add toasted sesame seeds and nuts at the last moment to maintain their aroma and crispness.",
+    "Use a shallow bowl and arrange the purple cabbage, carrots, and bell peppers visibly for a professional restaurant presentation.",
+    "For a vegetarian version, omit the optional fish sauce."
+  ]
+}
