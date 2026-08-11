@@ -1,98 +1,117 @@
 {
-  "id": 202,
+  "id": "202",
   "title": "Kung Pao Chicken",
+  "description": "Kung Pao Chicken is a classic Sichuan dish featuring tender diced chicken tossed with dried red chilies, fragrant Sichuan peppercorns, roasted peanuts, and scallions in a glossy sweet, savory, and tangy sauce. High-heat wok cooking creates an aromatic, smoky finish characteristic of professional restaurant-style preparation.",
+
   "category": "Chinese",
-  "time": "",
-  "difficulty": "",
+  "time": "35 min",
+  "difficulty": "Professional",
+
   "image": "assets/images/chinese/kung-pao-chicken.png",
 
   "ingredients": [
     {
-      "title": "Chicken Marinade",
+      "title": "For the Chicken Marinade",
       "items": [
-        "500 g (1 lb) boneless, skinless chicken thighs, diced into 1.5 cm cubes",
-        "1 tbsp Shaoxing wine (or dry sherry)",
-        "1 tbsp light soy sauce",
-        "1 tsp dark soy sauce (for color)",
-        "1 tsp cornstarch",
-        "1 tsp sesame oil"
+        "Boneless, skinless chicken thighs – 500 g (1 lb), diced into 1.5 cm cubes",
+        "Shaoxing wine – 1 tbsp (or dry sherry)",
+        "Light soy sauce – 1 tbsp",
+        "Dark soy sauce – 1 tsp",
+        "Cornstarch – 1 tsp",
+        "Sesame oil – 1 tsp"
       ]
     },
     {
-      "title": "Sauce",
+      "title": "For the Sauce",
       "items": [
-        "2 tbsp light soy sauce",
-        "1 tbsp dark soy sauce",
-        "1 tbsp Chinkiang black vinegar",
-        "2 tsp Shaoxing wine",
-        "1 tbsp sugar (rock sugar preferred)",
-        "1 tsp cornstarch, mixed with 2 tsp water (slurry)"
+        "Light soy sauce – 2 tbsp",
+        "Dark soy sauce – 1 tbsp",
+        "Chinkiang black vinegar – 1 tbsp",
+        "Shaoxing wine – 2 tsp",
+        "Sugar – 1 tbsp (rock sugar preferred)",
+        "Cornstarch – 1 tsp, mixed with 2 tsp water"
       ]
     },
     {
-      "title": "Aromatics & Main Dish",
+      "title": "For the Aromatics & Main Dish",
       "items": [
-        "8–10 dried red chilies (facing heaven chilies preferred), deseeded for milder heat",
-        "1 tbsp Sichuan peppercorns, lightly toasted",
-        "3 cloves garlic, finely chopped",
-        "2 tsp fresh ginger, finely chopped",
-        "4 scallions, white and green parts separated (white chopped into 2 cm pieces)",
-        "½ cup roasted peanuts (unsalted, skinless)",
-        "3 tbsp neutral oil (peanut or grapeseed oil recommended)"
+        "Dried red chilies – 8–10 (facing heaven chilies preferred)",
+        "Sichuan peppercorns – 1 tbsp, lightly toasted",
+        "Garlic – 3 cloves, finely chopped",
+        "Fresh ginger – 2 tsp, finely chopped",
+        "Scallions – 4, white and green parts separated",
+        "Roasted peanuts – ½ cup, unsalted and skinless",
+        "Neutral oil – 3 tbsp (peanut or grapeseed oil recommended)"
       ]
     }
   ],
 
   "instruction": [
     {
-      "title": "Step 1: Marinate the Chicken",
+      "title": "Step 1 – Marinating the Chicken",
       "steps": [
-        "Mix chicken with Shaoxing wine, soy sauces, cornstarch, and sesame oil.",
-        "Let rest 15–20 minutes for flavor absorption."
+        "Place the diced chicken in a bowl.",
+        "Add Shaoxing wine, light soy sauce, dark soy sauce, cornstarch, and sesame oil.",
+        "Mix thoroughly until evenly coated and let rest for 15–20 minutes."
       ]
     },
     {
-      "title": "Step 2: Prepare the Sauce",
+      "title": "Step 2 – Preparing the Sauce",
       "steps": [
-        "In a small bowl, whisk soy sauces, vinegar, Shaoxing wine, and sugar.",
-        "Set aside the cornstarch slurry separately for thickening at the end."
+        "In a small bowl, whisk together light soy sauce, dark soy sauce, Chinkiang black vinegar, Shaoxing wine, and sugar.",
+        "Set the cornstarch slurry aside separately for thickening the sauce during the final stage."
       ]
     },
     {
-      "title": "Step 3: Aromatic Oil Infusion",
+      "title": "Step 3 – Aromatic Oil Infusion",
       "steps": [
-        "Heat wok over medium-high until just smoking.",
-        "Add oil, then chilies and Sichuan peppercorns. Stir-fry until fragrant (10–15 seconds), being careful not to burn."
+        "Heat a wok over medium-high heat until just smoking.",
+        "Add the neutral oil, followed by dried red chilies and Sichuan peppercorns.",
+        "Stir-fry for 10–15 seconds until fragrant, taking care not to burn the chilies or peppercorns."
       ]
     },
     {
-      "title": "Step 4: Stir-Fry the Chicken",
+      "title": "Step 4 – Stir-Frying the Chicken",
       "steps": [
-        "Add marinated chicken. Stir-fry 3–4 minutes until browned and nearly cooked.",
-        "Push chicken to the sides; add garlic, ginger, and scallion whites. Stir until aromatic."
+        "Add the marinated chicken to the wok.",
+        "Stir-fry for 3–4 minutes until browned and nearly cooked through.",
+        "Push the chicken toward the sides of the wok.",
+        "Add garlic, ginger, and chopped scallion whites to the center and stir-fry briefly until aromatic."
       ]
     },
     {
-      "title": "Step 5: Sauce & Finish",
+      "title": "Step 5 – Sauce & Finishing",
       "steps": [
-        "Pour in sauce mixture. Toss until chicken is fully coated.",
-        "Stir in cornstarch slurry to thicken glaze (30–60 seconds).",
-        "Add peanuts and scallion greens, tossing everything quickly."
+        "Pour the prepared sauce mixture into the wok.",
+        "Toss vigorously until the chicken is evenly coated.",
+        "Stir in the cornstarch slurry and cook for 30–60 seconds until the sauce thickens into a glossy glaze.",
+        "Add the roasted peanuts and scallion greens, tossing quickly to combine."
       ]
     },
     {
-      "title": "Step 6: Serve",
+      "title": "Step 6 – Serving",
       "steps": [
-        "Transfer immediately to a heated serving plate.",
-        "Serve with steamed jasmine rice or hand-pulled noodles."
+        "Transfer the Kung Pao Chicken immediately to a heated serving plate.",
+        "Serve hot with steamed jasmine rice or hand-pulled noodles."
       ]
     }
   ],
 
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve traditionally with steamed jasmine rice.",
+      "Pair with hand-pulled noodles for a more substantial Sichuan-style meal.",
+      "Serve immediately while the sauce is glossy and the peanuts remain crisp."
+    ]
+  },
+
   "chefTips": [
-    "Chili Control: For a true Sichuan kick, leave chili seeds in. For balance, remove them.",
-    "Peanuts: Roast fresh for best flavor; cashews may substitute for a more delicate crunch.",
-    "Wok Hei: Use high heat and quick motions to achieve that smoky, restaurant-level finish.",
-    "Balance: Adjust sugar and vinegar for your preferred sweet-sour ratio."
+    "For a stronger Sichuan kick, leave the chili seeds intact; remove them for milder heat.",
+    "Roast peanuts fresh whenever possible for maximum aroma and crunch.",
+    "Cashews can be substituted for peanuts when a more delicate nutty texture is desired.",
+    "Use high heat and quick wok movements to develop wok hei and achieve a restaurant-quality finish.",
+    "Adjust the sugar and Chinkiang vinegar to achieve the preferred sweet-sour balance.",
+    "Add peanuts only at the end so they retain their characteristic crunch."
   ]
 }
