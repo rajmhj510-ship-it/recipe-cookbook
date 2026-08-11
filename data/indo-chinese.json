@@ -26,5 +26,14 @@
     "image": "assets/images/chinese/vegetable-manchow-soup.png",
     "time": "45 min",
     "difficulty": "Medium"
+  },
+    {
+    "id": 1004,
+    "title": "Manchow Soup",
+    "category": "Indo-Chinese",
+    "file": "data/chinese/manchow-soup.json",
+    "image": "assets/images/chinese/manchow-soup.png",
+    "time": "35 min",
+    "difficulty": "Medium"
   }
 ]
