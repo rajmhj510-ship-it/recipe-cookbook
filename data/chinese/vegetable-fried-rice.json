@@ -1,0 +1,127 @@
+{
+  "id": "231",
+  "title": "Vegetable Fried Rice",
+  "description": "Vegetable Fried Rice is a classic Chinese-style wok dish made with fluffy, separate grains of jasmine or basmati rice tossed with colorful vegetables, aromatic garlic, ginger, onions, and savory soy sauce. High-heat cooking creates a lightly smoky wok hei character while sesame oil adds a fragrant finish.",
+
+  "category": "Chinese",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/chinese/vegetable-fried-rice.png",
+
+  "ingredients": [
+    {
+      "title": "For the Rice",
+      "items": [
+        "Long-grain jasmine rice or basmati rice – 2 cups",
+        "Water – 2½ cups",
+        "Salt – 1 tsp",
+        "Oil – 1 tsp"
+      ]
+    },
+    {
+      "title": "For the Vegetables",
+      "items": [
+        "Carrot – 1 medium, finely diced",
+        "Peas – ½ cup, fresh or frozen",
+        "Red bell pepper – ½, finely diced",
+        "Green bell pepper – ½, finely diced",
+        "Spring onions (scallions) – 4–5, finely chopped",
+        "Onion – 1 small, finely chopped",
+        "Garlic – 2–3 cloves, minced",
+        "Fresh ginger – 1-inch piece, finely grated"
+      ]
+    },
+    {
+      "title": "For the Sauce & Seasoning",
+      "items": [
+        "Soy sauce – 2–3 tbsp (light soy for flavor and dark soy for color)",
+        "Oyster sauce – 1 tbsp (optional)",
+        "White pepper or black pepper – ½ tsp",
+        "Sesame oil – 1 tsp",
+        "Salt – to taste",
+        "Vegetable oil – 2–3 tbsp for frying"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Fresh coriander (cilantro) – as needed",
+        "Fried shallots – as needed",
+        "Toasted sesame seeds – as needed"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Rice",
+      "steps": [
+        "Rinse the rice several times until the water runs mostly clear.",
+        "Cook the rice with water, salt, and 1 tsp oil until tender.",
+        "Spread the cooked rice out and allow it to cool completely.",
+        "For the best fried rice texture, refrigerate the cooked rice overnight before stir-frying."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Vegetables",
+      "steps": [
+        "Dice the carrot, bell peppers, and onion uniformly for even cooking.",
+        "Finely chop the spring onions and keep the white and green portions ready.",
+        "Prepare the minced garlic and grated ginger before heating the wok."
+      ]
+    },
+    {
+      "title": "Step 3 – Stir-Frying the Vegetables",
+      "steps": [
+        "Heat 2–3 tbsp vegetable oil in a wok or large skillet over high heat.",
+        "Add garlic, ginger, and chopped onion and stir-fry for about 30 seconds until fragrant.",
+        "Add carrots, peas, and bell peppers.",
+        "Stir-fry for 2–3 minutes until the vegetables are crisp-tender."
+      ]
+    },
+    {
+      "title": "Step 4 – Adding the Rice",
+      "steps": [
+        "Push the vegetables toward the sides of the wok.",
+        "Add a small amount of oil to the center and add the cold cooked rice.",
+        "Break up any clumps with a spatula and stir-fry over high heat for 2–3 minutes.",
+        "Toss the rice and vegetables together until evenly combined."
+      ]
+    },
+    {
+      "title": "Step 5 – Seasoning & Finishing",
+      "steps": [
+        "Add soy sauce, oyster sauce if using, and white or black pepper.",
+        "Toss quickly over high heat until the rice is evenly seasoned.",
+        "Taste and adjust the salt if necessary.",
+        "Drizzle with sesame oil and give the fried rice one final quick toss."
+      ]
+    },
+    {
+      "title": "Step 6 – Garnishing & Serving",
+      "steps": [
+        "Sprinkle chopped spring onions over the fried rice.",
+        "Add optional fried shallots, toasted sesame seeds, or fresh coriander.",
+        "Serve immediately while hot as a main dish or side dish."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as a main vegetarian dish.",
+      "Pair with Chinese-style chili chicken, hot garlic vegetables, or other stir-fried dishes.",
+      "Garnish with spring onions, fried shallots, toasted sesame seeds, or fresh coriander for extra texture and freshness."
+    ]
+  },
+
+  "chefTips": [
+    "Use day-old refrigerated rice whenever possible; cold, dry grains remain separate and prevent soggy fried rice.",
+    "Cook over high heat to develop the signature smoky wok hei flavor.",
+    "Avoid constant stirring; use quick tossing motions to encourage light searing and crispness.",
+    "Keep the vegetables crisp-tender rather than soft for better texture and color.",
+    "Add soy sauce gradually to prevent the rice from becoming overly salty or wet.",
+    "Build flavor in layers with garlic, ginger, onion, soy sauce, and sesame oil for a balanced restaurant-style finish."
+  ]
+}
