@@ -1,0 +1,139 @@
+{
+  "id": "241",
+  "title": "Chicken Manchow Soup",
+  "description": "Chicken Manchow Soup is a bold Indo-Chinese restaurant-style soup combining tender chicken, finely chopped vegetables, aromatic garlic, ginger, green chilies, soy sauce, and chili sauce in a rich chicken broth. Lightly thickened for a silky texture and finished with crispy fried noodles, garlic, and chicken, it delivers a satisfying contrast of heat, crunch, and savory depth.",
+
+  "category": "Indo-Chinese",
+  "time": "35 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indo-chinese/chicken-manchow-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Soup Base",
+      "items": [
+        "Garlic – 1 tbsp, finely chopped",
+        "Ginger – 1 tbsp, finely chopped",
+        "Green chilies – 2–3, finely chopped",
+        "Onion – 1 medium, finely chopped",
+        "Cabbage – 1 cup, finely shredded",
+        "Carrot – ½ cup, julienned",
+        "Bell peppers – ½ cup, finely chopped",
+        "Mushrooms – ½ cup, finely chopped (optional)",
+        "Spring onions – 3–4, white and green parts separated",
+        "Cooked chicken – 1 cup, shredded or finely diced",
+        "Chicken stock – 4 cups",
+        "Soy sauce – 2 tbsp",
+        "Chili sauce – 1 tbsp",
+        "Black pepper powder – 1 tsp",
+        "Salt – to taste",
+        "Cornstarch – 1 tbsp",
+        "Water – 2 tbsp"
+      ]
+    },
+    {
+      "title": "For Crispy Garlic & Chicken Garnish",
+      "items": [
+        "Garlic – 2 cloves, finely sliced",
+        "Oil – 1 tbsp",
+        "Chicken breast – 2–3 small pieces, lightly fried or sautéed"
+      ]
+    },
+    {
+      "title": "For the Fried Noodle Garnish",
+      "items": [
+        "Thin crispy fried noodles – ½ cup"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Vegetables & Chicken",
+      "steps": [
+        "Finely chop and slice all vegetables into small, uniform pieces.",
+        "Shred or finely dice the cooked chicken so it distributes evenly throughout the soup.",
+        "Separate the white and green portions of the spring onions."
+      ]
+    },
+    {
+      "title": "Step 2 – Building the Soup Base",
+      "steps": [
+        "Heat 1–2 tbsp oil in a wok over medium-high heat.",
+        "Add garlic, ginger, green chilies, and the white parts of the spring onions.",
+        "Sauté until fragrant without allowing the garlic to brown.",
+        "Add the chopped onion and cook until translucent.",
+        "Add carrots, cabbage, bell peppers, and mushrooms.",
+        "Stir-fry for 2–3 minutes while keeping the vegetables slightly crisp.",
+        "Add the cooked chicken and toss for approximately 1 minute to combine the flavors."
+      ]
+    },
+    {
+      "title": "Step 3 – Adding the Chicken Broth",
+      "steps": [
+        "Pour the chicken stock into the wok.",
+        "Add soy sauce, chili sauce, black pepper, and salt.",
+        "Bring the soup to a gentle boil and allow the flavors to meld."
+      ]
+    },
+    {
+      "title": "Step 4 – Thickening the Soup",
+      "steps": [
+        "Mix the cornstarch with 2 tbsp cold water until completely smooth.",
+        "Slowly pour the slurry into the boiling soup while stirring continuously.",
+        "Cook for 2–3 minutes until the soup becomes lightly thickened but remains pourable."
+      ]
+    },
+    {
+      "title": "Step 5 – Preparing Crispy Garnishes",
+      "steps": [
+        "Heat 1 tbsp oil in a small pan over medium heat.",
+        "Add the sliced garlic and fry until evenly golden and crisp.",
+        "Remove the garlic immediately and drain to prevent burning.",
+        "Lightly pan-fry the small chicken pieces until golden on the outside for an optional crunchy garnish."
+      ]
+    },
+    {
+      "title": "Step 6 – Finishing the Soup",
+      "steps": [
+        "Stir the green parts of the spring onions into the hot soup.",
+        "Taste and adjust the soy sauce, chili sauce, salt, or black pepper as needed.",
+        "Keep the soup hot until ready to plate."
+      ]
+    },
+    {
+      "title": "Step 7 – Restaurant-Style Plating",
+      "steps": [
+        "Use a wide, shallow white ceramic bowl to showcase the colors of the soup and garnishes.",
+        "Ladle the hot soup into the bowl.",
+        "Arrange shredded or pan-fried chicken neatly in the center.",
+        "Sprinkle crispy fried noodles over the top.",
+        "Scatter fried garlic slices and a few spring onion greens strategically around the garnish.",
+        "Add a few finely chopped red bell peppers or a tiny drizzle of chili oil for visual contrast if desired.",
+        "Finish with freshly cracked black pepper or a few drops of sesame oil for aroma.",
+        "Serve immediately while hot, optionally accompanied by a small bowl of chili sauce."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately as a hot Indo-Chinese appetizer.",
+      "Top with crispy fried noodles just before serving to preserve their crunch.",
+      "Pair with chicken fried rice, Hakka noodles, chili chicken, or other Indo-Chinese dishes.",
+      "Offer additional chili sauce or chili oil on the side for guests who prefer extra heat."
+    ]
+  },
+
+  "chefTips": [
+    "Keep the vegetables slightly crunchy rather than fully soft for the characteristic Manchow Soup texture.",
+    "Use homemade chicken stock whenever possible for greater depth and richness.",
+    "Build the flavor in layers by sautéing garlic, ginger, chilies, and spring onion whites before adding the vegetables.",
+    "Add the cornstarch slurry gradually so the soup remains silky and pourable instead of becoming overly thick.",
+    "Fry garlic carefully and remove it as soon as it turns golden, as it can burn quickly.",
+    "Keep crispy noodles separate until plating so they retain maximum crunch.",
+    "For a spicier restaurant-style version, replace or supplement the chili sauce with Schezwan sauce.",
+    "For professional presentation, use a wide white bowl and arrange the chicken and garnishes centrally rather than scattering them randomly."
+  ]
+}
