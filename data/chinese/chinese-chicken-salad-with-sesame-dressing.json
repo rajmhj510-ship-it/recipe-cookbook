@@ -1,0 +1,132 @@
+{
+  "id": "247",
+  "title": "Chinese Chicken Salad with Sesame Dressing",
+  "description": "Chinese Chicken Salad with Sesame Dressing is a fresh, colorful restaurant-style salad featuring tender poached chicken, crisp mixed greens, shredded cabbage, carrots, cucumber, and bell peppers. A fragrant sesame dressing brings together savory soy sauce, tangy rice vinegar, toasted sesame oil, ginger, garlic, and a touch of sweetness, while toasted nuts and sesame seeds add satisfying crunch.",
+
+  "category": "Chinese",
+  "time": "35 min",
+  "difficulty": "Easy",
+  "image": "assets/images/chinese/chinese-chicken-salad-with-sesame-dressing.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Boneless, skinless chicken breasts – 2",
+        "Salt – 1 tsp",
+        "White pepper – ½ tsp",
+        "Sesame oil – 1 tsp",
+        "Water – 2 cups, for poaching"
+      ]
+    },
+    {
+      "title": "For the Salad",
+      "items": [
+        "Mixed greens – 4 cups (romaine, napa cabbage, frisée)",
+        "Red cabbage – 1 cup, shredded",
+        "Carrots – 1 cup, shredded",
+        "Cucumber – 1 small, julienned",
+        "Red bell pepper – 1, thinly sliced",
+        "Green onions – 2, finely sliced",
+        "Fresh cilantro – ¼ cup, chopped (optional)",
+        "Toasted sliced almonds or cashews – ¼ cup",
+        "Toasted sesame seeds – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Sesame Dressing",
+      "items": [
+        "Soy sauce – 3 tbsp",
+        "Rice vinegar – 2 tbsp",
+        "Sesame oil – 1 tbsp, toasted if available",
+        "Vegetable or neutral oil – 1 tbsp",
+        "Honey or sugar – 1 tbsp",
+        "Fresh ginger – 1 tsp, grated",
+        "Garlic – 1 clove, minced",
+        "Chili oil – 1 tsp (optional)",
+        "Mayonnaise or Greek yogurt – 2 tbsp (optional, for a creamy version)"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Poaching the Chicken",
+      "steps": [
+        "Add 2 cups water, salt, and white pepper to a small pot.",
+        "Bring the water to a gentle simmer rather than a vigorous boil.",
+        "Add the chicken breasts and poach for 12–15 minutes, or until fully cooked and the internal temperature reaches 165°F (74°C).",
+        "Remove the chicken from the poaching liquid and allow it to cool.",
+        "Once cooled, shred or thinly slice the chicken.",
+        "Drizzle with 1 tsp sesame oil to keep the chicken moist and aromatic."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Salad Base",
+      "steps": [
+        "Combine mixed greens, shredded red cabbage, shredded carrots, julienned cucumber, sliced bell pepper, and green onions in a large mixing bowl.",
+        "Add chopped cilantro if using.",
+        "Toss gently to distribute the vegetables evenly.",
+        "For extra crunch, soak the shredded cabbage and carrots in ice water for 5 minutes, then drain thoroughly before mixing."
+      ]
+    },
+    {
+      "title": "Step 3 – Preparing the Sesame Dressing",
+      "steps": [
+        "Whisk together soy sauce, rice vinegar, sesame oil, neutral oil, honey or sugar, grated ginger, and minced garlic.",
+        "Add chili oil if a spicy finish is desired.",
+        "For the creamy variation, whisk in mayonnaise or Greek yogurt until completely smooth.",
+        "Taste and adjust the balance with additional honey for sweetness, vinegar for acidity, or seasoning as needed."
+      ]
+    },
+    {
+      "title": "Step 4 – Toasting the Garnishes",
+      "steps": [
+        "Place the sesame seeds and sliced almonds or cashews in a dry pan.",
+        "Toast lightly over medium heat for 2–3 minutes until fragrant and golden.",
+        "Remove from the pan immediately and allow them to cool slightly."
+      ]
+    },
+    {
+      "title": "Step 5 – Assembling the Salad",
+      "steps": [
+        "Add the shredded or sliced chicken to the prepared salad base.",
+        "Drizzle approximately 3–4 tbsp of sesame dressing over the salad.",
+        "Toss gently until the chicken and vegetables are evenly coated.",
+        "Reserve additional dressing on the side for serving.",
+        "Sprinkle toasted almonds or cashews and sesame seeds over the top.",
+        "Garnish with fresh cilantro if using."
+      ]
+    },
+    {
+      "title": "Step 6 – Plating & Serving",
+      "steps": [
+        "Arrange the salad neatly in a shallow serving bowl or wide plate.",
+        "Position several slices of chicken prominently on top for an elegant presentation.",
+        "Finish with a light sprinkle of sesame seeds and toasted nuts.",
+        "Serve immediately while the vegetables remain crisp."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve chilled or slightly cool as a light appetizer or main course.",
+      "Pair with vegetable fried rice, steamed dumplings, spring rolls, or noodle dishes.",
+      "Serve extra sesame dressing on the side for guests who prefer a richer coating.",
+      "For a more substantial meal, add crispy wonton strips or extra roasted cashews."
+    ]
+  },
+
+  "chefTips": [
+    "Poach the chicken at a gentle simmer rather than a rolling boil to keep the meat tender and juicy.",
+    "Use an instant-read thermometer to ensure the chicken reaches 165°F (74°C) without overcooking.",
+    "Soaking shredded cabbage and carrots briefly in ice water gives the salad an especially crisp restaurant-style texture.",
+    "Toast sesame seeds and nuts lightly in a dry pan to intensify their aroma and flavor.",
+    "Keep the dressing separate until shortly before serving if preparing the salad in advance.",
+    "Balance the dressing carefully; the ideal profile combines salty, sweet, tangy, nutty, and lightly spicy flavors.",
+    "For professional plating, use a shallow wide plate and arrange the chicken slices over the colorful vegetables rather than mixing everything completely.",
+    "For a lighter dressing, omit the mayonnaise or Greek yogurt; for a richer creamy version, whisk either one in until smooth."
+  ]
+}
