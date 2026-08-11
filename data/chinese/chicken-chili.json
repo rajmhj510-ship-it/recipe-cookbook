@@ -1,0 +1,131 @@
+{
+  "id": "228",
+  "title": "Chicken Chili",
+  "description": "Chicken Chili is a vibrant Indo-Chinese stir-fry featuring tender, marinated chicken tossed with crisp bell peppers, onions, aromatic ginger and garlic, and dried red chilies in a glossy, balanced sauce. High-heat wok cooking gives the dish a smoky, savory character with layers of spicy, sweet, tangy, and umami flavors.",
+
+  "category": "Chinese",
+  "time": "40 min",
+  "difficulty": "Medium",
+  "image": "assets/images/chinese/chicken-chili.png",
+
+  "ingredients": [
+    {
+      "title": "For the Chicken",
+      "items": [
+        "Boneless chicken breast or thigh – 500 g (1 lb), cut into 1-inch cubes",
+        "Light soy sauce – 2 tsp",
+        "Shaoxing wine – 1 tsp (or dry sherry)",
+        "White pepper powder – ½ tsp",
+        "Cornstarch – 1 tsp",
+        "Sesame oil – 1 tsp"
+      ]
+    },
+    {
+      "title": "For the Sauce",
+      "items": [
+        "Light soy sauce – 2 tbsp",
+        "Dark soy sauce – 1 tbsp",
+        "Rice vinegar – 1 tbsp (or Chinese black vinegar)",
+        "Chili paste – 1 tbsp (Doubanjiang or Sichuan chili bean paste)",
+        "Tomato ketchup – 1 tbsp",
+        "Sugar – 2 tsp",
+        "Chicken stock – ¼ cup"
+      ]
+    },
+    {
+      "title": "For the Stir-Fry",
+      "items": [
+        "Peanut oil – 2 tbsp (or neutral oil with a high smoke point)",
+        "Garlic – 1 tbsp, finely chopped",
+        "Ginger – 1 tbsp, finely chopped",
+        "Dried red chilies – 6–8, cut into halves",
+        "Onion – 1 medium, diced into large cubes",
+        "Green bell pepper – 1, diced into large cubes",
+        "Red bell pepper – 1, diced into large cubes",
+        "Scallions – 2, cut into 2-inch strips"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Toasted sesame seeds – as needed",
+        "Fresh cilantro leaves – as needed"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Marinating the Chicken",
+      "steps": [
+        "In a bowl, combine chicken with light soy sauce, Shaoxing wine, white pepper, cornstarch, and sesame oil.",
+        "Mix thoroughly until the chicken is evenly coated.",
+        "Set aside to marinate for at least 20 minutes to tenderize and flavor the chicken."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Sauce",
+      "steps": [
+        "In a small bowl, whisk together light soy sauce, dark soy sauce, rice vinegar, chili paste, tomato ketchup, sugar, and chicken stock.",
+        "Taste and adjust the sweetness and heat according to preference."
+      ]
+    },
+    {
+      "title": "Step 3 – Cooking the Chicken",
+      "steps": [
+        "Heat 1 tbsp peanut oil in a wok over high heat until smoking.",
+        "Add the marinated chicken and stir-fry for about 4–5 minutes until lightly golden and almost cooked through.",
+        "Remove the chicken from the wok and set aside."
+      ]
+    },
+    {
+      "title": "Step 4 – Building the Aromatics",
+      "steps": [
+        "Add the remaining 1 tbsp oil to the same wok.",
+        "Add chopped garlic, ginger, and dried red chilies.",
+        "Stir-fry for 10–15 seconds until fragrant, taking care not to burn the aromatics."
+      ]
+    },
+    {
+      "title": "Step 5 – Stir-Frying the Vegetables",
+      "steps": [
+        "Add the diced onion and bell peppers to the wok.",
+        "Toss quickly over high heat for 1–2 minutes, keeping the vegetables vibrant and slightly crisp."
+      ]
+    },
+    {
+      "title": "Step 6 – Combining Everything",
+      "steps": [
+        "Return the cooked chicken to the wok.",
+        "Pour in the prepared sauce and toss continuously until the chicken and vegetables are evenly coated in a glossy sauce.",
+        "Add the scallions and stir-fry briefly to combine."
+      ]
+    },
+    {
+      "title": "Step 7 – Finishing & Serving",
+      "steps": [
+        "Remove the wok from the heat and transfer the chicken chili to a shallow serving bowl or wide-rim plate.",
+        "Garnish with toasted sesame seeds and fresh cilantro leaves.",
+        "Serve immediately with steamed jasmine rice or Hakka-style fried rice."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately with steamed jasmine rice.",
+      "Pair with Hakka-style fried rice for a heartier Indo-Chinese meal.",
+      "Present in a wide-rim white plate or shallow bowl for an elegant restaurant-style appearance."
+    ]
+  },
+
+  "chefTips": [
+    "Use high heat throughout the stir-frying process to develop wok hei, the characteristic smoky aroma of wok cooking.",
+    "Balance the sauce carefully between spicy, savory, sweet, and tangy flavors.",
+    "Do not overcrowd the wok when cooking the chicken, as this can cause it to steam instead of sear.",
+    "Keep the vegetables slightly crisp and vibrant to create a contrast with the tender chicken.",
+    "For the best texture, the chicken should be tender inside with a lightly crisp, seared exterior.",
+    "For an elegant presentation, use a shallow bowl or wide-rim white plate and place the garnish precisely."
+  ]
+}
