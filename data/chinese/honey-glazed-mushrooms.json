@@ -1,0 +1,115 @@
+{
+  "id": "235",
+  "title": "Honey Glazed Mushrooms",
+  "description": "Honey Glazed Mushrooms are a glossy Chinese-style appetizer or side dish featuring golden-seared mushrooms coated in a sweet, savory, tangy glaze. Fragrant garlic and ginger combine with honey, soy sauce, oyster sauce, and rice vinegar, while sesame oil adds a rich aromatic finish.",
+
+  "category": "Chinese",
+  "time": "20 min",
+  "difficulty": "Easy",
+  "image": "assets/images/chinese/honey-glazed-mushrooms.png",
+
+  "ingredients": [
+    {
+      "title": "For the Mushrooms",
+      "items": [
+        "Button mushrooms – 250 g, cleaned and trimmed",
+        "Vegetable oil – 2 tbsp (or peanut oil)"
+      ]
+    },
+    {
+      "title": "For the Aromatics",
+      "items": [
+        "Garlic – 2 cloves, finely minced",
+        "Ginger – 1 tsp, finely minced"
+      ]
+    },
+    {
+      "title": "For the Honey Glaze",
+      "items": [
+        "Honey – 2 tbsp",
+        "Light soy sauce – 1 tbsp",
+        "Oyster sauce – 1 tsp",
+        "Rice vinegar – 1 tsp",
+        "White pepper – ¼ tsp"
+      ]
+    },
+    {
+      "title": "For Finishing & Garnish",
+      "items": [
+        "Sesame oil – 1 tsp",
+        "Spring onions – 1–2, finely sliced",
+        "Toasted sesame seeds – optional"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Mushrooms",
+      "steps": [
+        "Clean and trim the mushrooms thoroughly.",
+        "Slice large mushrooms into bite-sized pieces, while small mushrooms can be left whole.",
+        "Pat the mushrooms completely dry to ensure they sear rather than steam."
+      ]
+    },
+    {
+      "title": "Step 2 – Searing the Mushrooms",
+      "steps": [
+        "Heat a wok or heavy-bottomed skillet over high heat.",
+        "Add the vegetable or peanut oil and heat until hot but not smoking.",
+        "Add the mushrooms and stir-fry for 3–4 minutes until they begin to turn golden.",
+        "Avoid overcrowding the pan; cook in batches if necessary."
+      ]
+    },
+    {
+      "title": "Step 3 – Adding the Aromatics",
+      "steps": [
+        "Reduce the heat to medium.",
+        "Add minced garlic and ginger.",
+        "Stir-fry for 30–45 seconds until fragrant, taking care not to burn them."
+      ]
+    },
+    {
+      "title": "Step 4 – Preparing the Honey Glaze",
+      "steps": [
+        "In a small bowl, combine honey, light soy sauce, oyster sauce, rice vinegar, and white pepper.",
+        "Pour the glaze over the mushrooms.",
+        "Toss thoroughly to coat the mushrooms evenly.",
+        "Cook for another 2–3 minutes until the sauce thickens slightly and becomes glossy."
+      ]
+    },
+    {
+      "title": "Step 5 – Finishing & Garnishing",
+      "steps": [
+        "Drizzle sesame oil over the glazed mushrooms.",
+        "Give the mushrooms a final quick toss.",
+        "Garnish with sliced spring onions and toasted sesame seeds if using."
+      ]
+    },
+    {
+      "title": "Step 6 – Serving",
+      "steps": [
+        "Serve hot as an appetizer or side dish.",
+        "Alternatively, spoon the mushrooms over steamed rice for a satisfying vegetarian main course."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as a Chinese-style appetizer or side dish.",
+      "Spoon over steamed jasmine rice for a simple vegetarian main course.",
+      "Pair with fried rice, noodles, or other Chinese stir-fried dishes."
+    ]
+  },
+
+  "chefTips": [
+    "Use a heavy-bottomed wok or skillet to maintain even heat and achieve a deep golden sear.",
+    "Do not overcrowd the pan, as mushrooms release moisture and can steam instead of browning.",
+    "Adjust the honey according to the natural sweetness of the mushrooms; the finished glaze should be balanced rather than overly sweet.",
+    "For extra depth, add a small splash of Shaoxing wine during the glazing stage.",
+    "Pat mushrooms thoroughly dry before cooking to maximize browning and prevent excess water from diluting the glaze.",
+    "Add sesame oil only at the end to preserve its delicate aroma."
+  ]
+}
