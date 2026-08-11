@@ -1,0 +1,146 @@
+{
+  "id": "237",
+  "title": "Hot and Sour Soup (Suān Là Tāng)",
+  "description": "Hot and Sour Soup is a classic Chinese soup known for its bold contrast of sourness, peppery heat, savory broth, tender mushrooms, bamboo shoots, tofu, and delicate egg ribbons. A rich clear stock combined with Chinkiang black vinegar and white pepper creates the characteristic balanced flavor, while cornstarch gives the soup a silky restaurant-style texture.",
+
+  "category": "Chinese",
+  "time": "45 min",
+  "difficulty": "Professional",
+  "image": "assets/images/chinese/hot-and-sour-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Broth Base",
+      "items": [
+        "High-quality chicken stock – 6 cups, unsalted, clear, and rich",
+        "Dried shiitake mushrooms – 3, rehydrated in hot water, stems removed and thinly sliced",
+        "Bamboo shoots – ½ cup, julienned",
+        "Wood ear mushrooms – ½ cup, rehydrated and thinly sliced",
+        "Firm tofu – 100 g, cut into thin strips",
+        "Lean pork tenderloin or chicken breast – 100 g, julienned"
+      ]
+    },
+    {
+      "title": "For the Aromatics & Seasoning",
+      "items": [
+        "Light soy sauce – 2 tbsp",
+        "Dark soy sauce – 1 tbsp",
+        "Shaoxing wine – 1 tbsp",
+        "White pepper – ½ tsp, freshly ground, plus more to taste",
+        "Ground Sichuan pepper – ½ tsp (optional)",
+        "Chinese black vinegar – 3 tbsp (Chinkiang preferred, adjusted to taste)",
+        "Sesame oil – ½ tsp"
+      ]
+    },
+    {
+      "title": "For the Thickening",
+      "items": [
+        "Cornstarch – 2½ tbsp",
+        "Cold water – 3 tbsp"
+      ]
+    },
+    {
+      "title": "For the Egg Finish",
+      "items": [
+        "Large eggs – 2, beaten"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Green onions – 2, finely sliced",
+        "Fresh cilantro leaves – optional",
+        "Extra Chinese black vinegar – optional",
+        "Chili oil – optional"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Protein",
+      "steps": [
+        "Place the julienned pork or chicken in a bowl.",
+        "Lightly marinate with 1 tsp soy sauce, ½ tsp cornstarch, and ½ tsp Shaoxing wine.",
+        "Mix well and set aside while preparing the broth."
+      ]
+    },
+    {
+      "title": "Step 2 – Building the Broth",
+      "steps": [
+        "Pour the chicken stock into a large wok or soup pot and bring it to a gentle simmer.",
+        "Add the rehydrated shiitake mushrooms, wood ear mushrooms, bamboo shoots, and tofu.",
+        "Simmer gently for approximately 5 minutes to allow the flavors to develop."
+      ]
+    },
+    {
+      "title": "Step 3 – Cooking the Protein",
+      "steps": [
+        "Add the marinated pork or chicken strips to the simmering broth.",
+        "Stir gently to separate the strips.",
+        "Cook for 2–3 minutes, or until the protein is just cooked through."
+      ]
+    },
+    {
+      "title": "Step 4 – Seasoning the Soup",
+      "steps": [
+        "Add light soy sauce, dark soy sauce, Shaoxing wine, white pepper, and ground Sichuan pepper if using.",
+        "Add the Chinese black vinegar and stir thoroughly.",
+        "Taste the soup and adjust the vinegar and white pepper until it has a bold sour flavor with a pronounced peppery kick."
+      ]
+    },
+    {
+      "title": "Step 5 – Thickening the Broth",
+      "steps": [
+        "In a small bowl, mix the cornstarch with cold water until completely smooth.",
+        "Stir the slurry again immediately before adding it to the soup.",
+        "Slowly drizzle the slurry into the simmering broth while stirring continuously.",
+        "Cook briefly until the soup becomes glossy and lightly thickened."
+      ]
+    },
+    {
+      "title": "Step 6 – Creating the Egg Ribbons",
+      "steps": [
+        "Reduce the heat to low and create a gentle circular swirl in the soup.",
+        "Slowly drizzle the beaten eggs into the moving broth in a thin, steady stream.",
+        "Continue stirring gently in one direction to form delicate egg ribbons.",
+        "Avoid vigorous stirring, which can break the eggs into small flakes."
+      ]
+    },
+    {
+      "title": "Step 7 – Final Touch",
+      "steps": [
+        "Stir in the sesame oil just before removing the soup from the heat.",
+        "Taste once more and adjust the vinegar or white pepper if necessary."
+      ]
+    },
+    {
+      "title": "Step 8 – Garnishing & Serving",
+      "steps": [
+        "Ladle the hot soup into warmed serving bowls.",
+        "Top with finely sliced green onions and fresh cilantro if using.",
+        "Serve immediately with additional black vinegar or chili oil on the side if desired."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as an appetizer before a Chinese meal.",
+      "Offer extra Chinkiang black vinegar or chili oil at the table for guests to adjust the flavor.",
+      "Pair with fried rice, noodles, dumplings, or other Chinese dishes.",
+      "For a vegetarian version, replace chicken stock and meat with vegetable stock and additional tofu or mushrooms."
+    ]
+  },
+
+  "chefTips": [
+    "Use a rich, clear stock for the best foundation; chicken bones simmered with ginger and scallions can produce an excellent homemade stock.",
+    "Adjust sourness primarily with black vinegar and heat primarily with white pepper for a traditional flavor profile.",
+    "The finished soup should be glossy and silky rather than overly thick; add cornstarch slurry gradually to control the consistency.",
+    "Stir the cornstarch slurry immediately before adding because it settles quickly.",
+    "For delicate egg ribbons, keep the soup at a gentle simmer and stir slowly in one direction while adding the beaten egg.",
+    "Add sesame oil at the very end so its fragrance remains fresh.",
+    "For a vegetarian or vegan version, use vegetable stock, omit the pork or chicken, and replace the egg with additional tofu or another plant-based protein."
+  ]
+}
