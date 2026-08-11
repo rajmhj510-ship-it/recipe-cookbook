@@ -1,0 +1,96 @@
+{
+  "id": "229",
+  "title": "Potato Chili",
+  "description": "Potato Chili is a crispy and flavorful Indo-Chinese style dish featuring golden potatoes tossed in a spicy, tangy, savory chili sauce. Fragrant dried chilies, Sichuan peppercorns, garlic, ginger, and fermented chili bean paste create layers of heat and umami, while vinegar and sugar provide a balanced sweet-sour finish.",
+
+  "category": "Indo-Chinese",
+  "time": "50 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indo-chinese/potato-chili.png",
+
+  "ingredients": [
+    {
+      "title": "For the Potato",
+      "items": [
+        "Potatoes (Yukon Gold or Russet) – 500 g, peeled and cut into thin strips or bite-sized cubes",
+        "Cornstarch – 2 tbsp",
+        "Salt – 1 tsp",
+        "Vegetable oil – 2–3 tbsp for pan-frying, or as needed for deep-frying"
+      ]
+    },
+    {
+      "title": "For the Chili Sauce",
+      "items": [
+        "Dried red chilies – 2–3, broken in half",
+        "Sichuan peppercorns – 1 tsp (optional)",
+        "Garlic – 3 cloves, finely minced",
+        "Ginger – 1-inch piece, finely minced",
+        "Spring onions – 2, white and green parts separated and chopped",
+        "Doubanjiang (fermented chili bean paste) – 1 tbsp (optional but recommended)",
+        "Soy sauce – 1 tbsp",
+        "Chinese black vinegar or rice vinegar – 1 tbsp",
+        "Sugar – 1 tsp",
+        "Water or chicken/vegetable stock – 2 tbsp",
+        "Sesame oil – 1 tsp"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Potatoes",
+      "steps": [
+        "Wash and peel the potatoes, then cut them into thin strips or small cubes for a restaurant-style presentation.",
+        "Soak the cut potatoes in cold water for 20–30 minutes to remove excess starch.",
+        "Drain and pat the potatoes completely dry.",
+        "Toss the potatoes evenly with cornstarch and salt."
+      ]
+    },
+    {
+      "title": "Step 2 – Frying the Potatoes",
+      "steps": [
+        "For deep-frying, heat oil to 180°C (350°F) and fry the potatoes until golden and crispy. Drain on paper towels.",
+        "For pan-frying, heat 2–3 tbsp vegetable oil in a non-stick pan and shallow-fry the potatoes, turning frequently, until golden and crisp.",
+        "For an extra-crispy texture, double-fry the potatoes or briefly fry them again before tossing with the sauce."
+      ]
+    },
+    {
+      "title": "Step 3 – Preparing the Chili Sauce",
+      "steps": [
+        "Heat a wok or large pan over medium heat and add a small amount of oil.",
+        "Add the dried red chilies and Sichuan peppercorns and toast for 20–30 seconds until fragrant, taking care not to burn them.",
+        "Add minced garlic, ginger, and the white parts of the spring onions. Stir-fry for about 30 seconds until aromatic.",
+        "Add doubanjiang and fry for another 20–30 seconds to release its flavor.",
+        "Stir in soy sauce, vinegar, sugar, and water or stock. Bring the mixture to a gentle simmer."
+      ]
+    },
+    {
+      "title": "Step 4 – Combining & Finishing",
+      "steps": [
+        "Add the crispy potatoes to the chili sauce.",
+        "Toss quickly over high heat until the potatoes are evenly coated while retaining as much crispness as possible.",
+        "Drizzle with sesame oil and sprinkle with the green parts of the spring onions.",
+        "Serve immediately while the potatoes are hot and crisp."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve immediately as a spicy appetizer or side dish.",
+      "Garnish with toasted sesame seeds or finely chopped coriander for extra flavor and visual appeal.",
+      "Pair with steamed rice or other Indo-Chinese dishes for a complete meal.",
+      "For a protein-rich version, add thinly sliced chicken, beef, or tofu."
+    ]
+  },
+
+  "chefTips": [
+    "Double-frying the potatoes, or frying them and briefly tossing them in a very hot pan, helps maintain their crisp texture after adding the sauce.",
+    "Balance the sweet, sour, spicy, and umami flavors carefully by adjusting the sugar, vinegar, soy sauce, and chili paste.",
+    "Make sure the potatoes are thoroughly dry before coating with cornstarch to achieve better browning and crispness.",
+    "Do not overcook the potatoes after adding the sauce, as prolonged cooking will make them soft.",
+    "Use Sichuan peppercorns for an authentic numbing, aromatic character, but omit them if a cleaner chili flavor is preferred.",
+    "Add garnishes just before serving to preserve their freshness and presentation."
+  ]
+}
