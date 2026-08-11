@@ -1,0 +1,121 @@
+{
+  "id": "239",
+  "title": "Vegetable Noodle Soup",
+  "description": "Vegetable Noodle Soup is a comforting Chinese-style bowl featuring springy noodles, crisp seasonal vegetables, and a fragrant vegetable broth infused with ginger, garlic, green onion, soy sauce, and sesame oil. Light yet deeply savory, the soup balances tender vegetables with fresh garnishes and optional chili oil for a warm, aromatic finish.",
+
+  "category": "Chinese",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/chinese/vegetable-noodle-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Broth",
+      "items": [
+        "Vegetable stock – 6 cups",
+        "Water – 2 cups",
+        "Fresh ginger – 3 slices",
+        "Garlic – 3 cloves, smashed",
+        "Green onion – 2 stalks, cut into 2-inch pieces",
+        "Soy sauce – 1 tbsp",
+        "Shaoxing wine – 1 tbsp (optional)",
+        "Sesame oil – 1 tsp",
+        "White pepper – ½ tsp"
+      ]
+    },
+    {
+      "title": "For the Vegetables",
+      "items": [
+        "Bok choy – 1 cup, halved lengthwise",
+        "Shiitake mushrooms – 1 cup, sliced",
+        "Carrot – 1 medium, julienned",
+        "Snow peas – ½ cup",
+        "Baby corn – ½ cup, halved",
+        "Zucchini – 1 small, julienned",
+        "Bean sprouts – ½ cup (optional)"
+      ]
+    },
+    {
+      "title": "For the Noodles",
+      "items": [
+        "Chinese egg noodles or rice noodles – 200 g",
+        "Sesame oil – 1 tsp, for tossing noodles"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Green onions – chopped, as needed",
+        "Fresh cilantro – as needed",
+        "Chili oil – optional",
+        "Toasted sesame seeds – as needed"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Broth",
+      "steps": [
+        "Add vegetable stock, water, ginger, garlic, and green onion to a large pot.",
+        "Bring the mixture to a gentle simmer over medium heat.",
+        "Add soy sauce, Shaoxing wine if using, sesame oil, and white pepper.",
+        "Simmer gently for 15–20 minutes to allow the aromatics to infuse the broth.",
+        "Strain the broth into a clean pot and keep it warm."
+      ]
+    },
+    {
+      "title": "Step 2 – Cooking the Noodles",
+      "steps": [
+        "Cook the Chinese egg noodles or rice noodles according to the package instructions.",
+        "Drain thoroughly and toss lightly with 1 tsp sesame oil to prevent sticking.",
+        "Set the noodles aside until ready to assemble."
+      ]
+    },
+    {
+      "title": "Step 3 – Preparing the Vegetables",
+      "steps": [
+        "Heat a small pan with a teaspoon of oil.",
+        "Quickly sauté the shiitake mushrooms and carrots for 2–3 minutes until slightly tender.",
+        "Set the sautéed vegetables aside.",
+        "Blanch the bok choy, snow peas, and baby corn briefly in the hot broth for 1–2 minutes to retain their vibrant color and crunch."
+      ]
+    },
+    {
+      "title": "Step 4 – Assembling the Soup",
+      "steps": [
+        "Divide the cooked noodles evenly among warmed serving bowls.",
+        "Pour the hot infused broth over the noodles.",
+        "Arrange the prepared vegetables neatly on top.",
+        "Add the bean sprouts last to preserve their freshness and crunch."
+      ]
+    },
+    {
+      "title": "Step 5 – Garnishing & Serving",
+      "steps": [
+        "Sprinkle with chopped green onions, fresh cilantro, and toasted sesame seeds.",
+        "Drizzle with chili oil if desired.",
+        "Serve immediately while the broth is hot and the vegetables remain crisp."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as a light vegetarian main course.",
+      "Pair with vegetable dumplings, spring rolls, or Chinese-style fried rice.",
+      "Offer chili oil at the table for guests who prefer additional heat.",
+      "Serve in pre-warmed bowls to maintain the soup's temperature."
+    ]
+  },
+
+  "chefTips": [
+    "Use homemade vegetable stock whenever possible for greater depth and natural sweetness.",
+    "Cut all vegetables uniformly for even cooking and a polished restaurant-style presentation.",
+    "Blanch vegetables briefly rather than fully cooking them to preserve their vibrant color and crisp texture.",
+    "Keep the broth gently simmering rather than boiling aggressively to maintain a clean, clear flavor.",
+    "For an upscale variation, add a few drops of white truffle oil or a small amount of mushroom powder just before serving.",
+    "Pre-warm the serving bowls so the hot broth stays at an ideal temperature throughout the meal."
+  ]
+}
