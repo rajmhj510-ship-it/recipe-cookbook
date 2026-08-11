@@ -241,5 +241,167 @@
     "image": "assets/images/chinese/five-spice-powder.png",
     "time": "5",
     "difficulty": "Easy"
+  },
+  {
+    "id": 228,
+    "title": "Kung Pao Chicken",
+    "category": "Chinese",
+    "file": "data/chinese/kung-pao-chicken.json",
+    "image": "assets/images/chinese/kung-pao-chicken.png",
+    "time": "35 min",
+    "difficulty": "Professional"
+  },
+  {
+    "id": 229,
+    "title": "Potato Chili",
+    "category": "Chinese",
+    "file": "data/chinese/potato-chili.json",
+    "image": "assets/images/chinese/potato-chili.png",
+    "time": "40 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 230,
+    "title": "Hot Garlic with Chinese Vegetables",
+    "category": "Chinese",
+    "file": "data/chinese/hot-garlic-chinese-vegetables.json",
+    "image": "assets/images/chinese/hot-garlic-chinese-vegetables.png",
+    "time": "25 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 231,
+    "title": "Vegetable Fried Rice",
+    "category": "Chinese",
+    "file": "data/chinese/vegetable-fried-rice.json",
+    "image": "assets/images/chinese/vegetable-fried-rice.png",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 232,
+    "title": "Premium Vegetable Fried Rice",
+    "category": "Chinese",
+    "file": "data/chinese/premium-vegetable-fried-rice.json",
+    "image": "assets/images/chinese/premium-vegetable-fried-rice.png",
+    "time": "30 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 233,
+    "title": "Julienne Carrot Salad",
+    "category": "Chinese",
+    "file": "data/chinese/julienne-carrot-salad.json",
+    "image": "assets/images/chinese/julienne-carrot-salad.png",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 234,
+    "title": "Chinese Cucumber Salad",
+    "category": "Chinese",
+    "file": "data/chinese/chinese-cucumber-salad.json",
+    "image": "assets/images/chinese/chinese-cucumber-salad.png",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 235,
+    "title": "Honey Glazed Mushrooms",
+    "category": "Chinese",
+    "file": "data/chinese/honey-glazed-mushrooms.json",
+    "image": "assets/images/chinese/honey-glazed-mushrooms.png",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 236,
+    "title": "Crispy Fried Lettuce",
+    "category": "Chinese",
+    "file": "data/chinese/crispy-fried-lettuce.json",
+    "image": "assets/images/chinese/crispy-fried-lettuce.png",
+    "time": "25 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 237,
+    "title": "Hot and Sour Soup",
+    "category": "Chinese",
+    "file": "data/chinese/hot-and-sour-soup.json",
+    "image": "assets/images/chinese/hot-and-sour-soup.png",
+    "time": "45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 238,
+    "title": "Vegetarian / Vegan Hot and Sour Soup",
+    "category": "Chinese",
+    "file": "data/chinese/vegetarian-vegan-hot-and-sour-soup.json",
+    "image": "assets/images/chinese/vegetarian-vegan-hot-and-sour-soup.png",
+    "time": "45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 239,
+    "title": "Vegetable Noodle Soup",
+    "category": "Chinese",
+    "file": "data/chinese/vegetable-noodle-soup.json",
+    "image": "assets/images/chinese/vegetable-noodle-soup.png",
+    "time": "40 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 240,
+    "title": "Manchow Soup",
+    "category": "Chinese",
+    "file": "data/chinese/manchow-soup.json",
+    "image": "assets/images/chinese/manchow-soup.png",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 243,
+    "title": "Wonton Soup",
+    "category": "Chinese",
+    "file": "data/chinese/wonton-soup.json",
+    "image": "assets/images/chinese/wonton-soup.png",
+    "time": "45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 244,
+    "title": "Homemade Chinese Noodles with Stir-Fried Vegetables",
+    "category": "Chinese",
+    "file": "data/chinese/homemade-chinese-noodles-stir-fried-vegetables.json",
+    "image": "assets/images/chinese/homemade-chinese-noodles-stir-fried-vegetables.png",
+    "time": "60 min",
+    "difficulty": "Professional"
+  },
+  {
+    "id": 245,
+    "title": "Dan Dan Noodles",
+    "category": "Chinese",
+    "file": "data/chinese/dan-dan-noodles.json",
+    "image": "assets/images/chinese/dan-dan-noodles.png",
+    "time": "35 min",
+    "difficulty": "Professional"
+  },
+  {
+    "id": 246,
+    "title": "Cabbage Salad",
+    "category": "Chinese",
+    "file": "data/chinese/cabbage-salad.json",
+    "image": "assets/images/chinese/cabbage-salad.png",
+    "time": "20 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 247,
+    "title": "Chinese Chicken Salad with Sesame Dressing",
+    "category": "Chinese",
+    "file": "data/chinese/chinese-chicken-salad-with-sesame-dressing.json",
+    "image": "assets/images/chinese/chinese-chicken-salad-with-sesame-dressing.png",
+    "time": "35 min",
+    "difficulty": "Easy"
   }
 ]
