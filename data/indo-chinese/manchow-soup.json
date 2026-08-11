@@ -1,0 +1,130 @@
+{
+  "id": "1004",
+  "title": "Manchow Soup",
+  "description": "Manchow Soup is a popular Indo-Chinese restaurant-style soup packed with finely chopped vegetables, aromatic garlic, ginger, green chilies, soy sauce, and chili sauce. A lightly thickened savory broth is finished with spring onions, crispy fried garlic, and crunchy fried noodles for the signature contrast of textures and flavors.",
+
+  "category": "Indo-Chinese",
+  "time": "30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indo-chinese/manchow-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Soup Base",
+      "items": [
+        "Garlic – 1 tbsp, finely chopped",
+        "Ginger – 1 tbsp, finely chopped",
+        "Green chilies – 2–3, finely chopped",
+        "Onion – 1 medium, finely chopped",
+        "Cabbage – 1 cup, finely shredded",
+        "Carrot – ½ cup, julienned",
+        "Bell peppers – ½ cup, finely chopped",
+        "Mushrooms – 4–5, finely chopped (optional)",
+        "Spring onions – 3–4, white and green parts separated",
+        "Vegetable or chicken stock – 4 cups",
+        "Soy sauce – 2 tbsp",
+        "Chili sauce – 1 tbsp",
+        "Black pepper powder – 1 tsp",
+        "Salt – to taste",
+        "Cornstarch – 1 tbsp",
+        "Water – 2 tbsp"
+      ]
+    },
+    {
+      "title": "For the Crispy Garlic Garnish",
+      "items": [
+        "Garlic – 2–3 cloves, finely sliced",
+        "Oil – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For the Fried Noodle Garnish",
+      "items": [
+        "Thin crispy fried noodles – ½ cup"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Vegetables",
+      "steps": [
+        "Finely chop and slice all vegetables into small, uniform pieces.",
+        "Keep the mushrooms and cabbage prepared separately for easy addition during stir-frying.",
+        "Separate the white and green portions of the spring onions."
+      ]
+    },
+    {
+      "title": "Step 2 – Building the Soup Base",
+      "steps": [
+        "Heat 1–2 tbsp oil in a wok over medium-high heat.",
+        "Add chopped garlic, ginger, green chilies, and the white parts of the spring onions.",
+        "Sauté briefly until aromatic without allowing the garlic to brown.",
+        "Add the chopped onion and sauté until translucent.",
+        "Add carrots, cabbage, bell peppers, and mushrooms.",
+        "Stir-fry for 2–3 minutes, keeping the vegetables slightly crisp."
+      ]
+    },
+    {
+      "title": "Step 3 – Adding the Broth & Seasoning",
+      "steps": [
+        "Pour the vegetable or chicken stock into the wok.",
+        "Add soy sauce, chili sauce, black pepper, and salt.",
+        "Bring the soup to a gentle boil and allow the flavors to combine."
+      ]
+    },
+    {
+      "title": "Step 4 – Thickening the Soup",
+      "steps": [
+        "In a small bowl, mix the cornstarch with 2 tbsp water until smooth.",
+        "Slowly pour the slurry into the boiling soup while stirring continuously.",
+        "Cook briefly until the soup reaches a lightly thickened, silky consistency."
+      ]
+    },
+    {
+      "title": "Step 5 – Preparing Crispy Garlic",
+      "steps": [
+        "Heat 1 tbsp oil in a small pan over medium heat.",
+        "Add the sliced garlic and fry until evenly golden.",
+        "Remove immediately and drain once crisp to prevent the garlic from burning."
+      ]
+    },
+    {
+      "title": "Step 6 – Finishing the Soup",
+      "steps": [
+        "Add the green parts of the spring onions to the soup.",
+        "Taste and adjust the soy sauce, chili sauce, salt, or black pepper as needed.",
+        "Keep the soup hot until ready to serve."
+      ]
+    },
+    {
+      "title": "Step 7 – Restaurant-Style Serving",
+      "steps": [
+        "Ladle the hot soup into serving bowls.",
+        "Top generously with crispy fried noodles and fried garlic.",
+        "Sprinkle with additional black pepper for extra aroma.",
+        "Serve immediately while the garnish remains crisp."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve piping hot as an Indo-Chinese appetizer.",
+      "Top with crispy fried noodles immediately before serving for maximum crunch.",
+      "Pair with vegetable fried rice, Hakka noodles, chili chicken, or other Indo-Chinese dishes.",
+      "Serve in warm bowls to maintain the soup's temperature."
+    ]
+  },
+
+  "chefTips": [
+    "Keep the vegetables slightly crunchy; overcooking will make the soup lose its characteristic texture.",
+    "Use a flavorful homemade stock instead of water whenever possible for greater depth.",
+    "Build the aroma by sautéing garlic, ginger, chilies, and spring onion whites before adding the vegetables.",
+    "Add the cornstarch slurry gradually so the soup becomes silky and lightly thickened rather than gummy.",
+    "Fry the garlic carefully and remove it as soon as it turns golden, as it continues cooking briefly after removal.",
+    "Add crispy noodles only at the time of serving so they retain their texture.",
+    "For a spicier restaurant-style version, replace or supplement the chili sauce with Schezwan sauce."
+  ]
+}
