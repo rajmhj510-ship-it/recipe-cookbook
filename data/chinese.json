@@ -243,15 +243,6 @@
     "difficulty": "Easy"
   },
   {
-    "id": 228,
-    "title": "Kung Pao Chicken",
-    "category": "Chinese",
-    "file": "data/chinese/kung-pao-chicken.json",
-    "image": "assets/images/chinese/kung-pao-chicken.png",
-    "time": "35 min",
-    "difficulty": "Professional"
-  },
-  {
     "id": 229,
     "title": "Potato Chili",
     "category": "Chinese",
@@ -364,7 +355,7 @@
     "title": "Homemade Chinese Noodles with Stir-Fried Vegetables",
     "category": "Chinese",
     "file": "data/chinese/homemade-chinese-noodles-stir-fried-vegetables.json",
-    "image": "assets/images/chinese/homemade-chinese-noodles-with-stir-fried-vegetables.png,
+    "image": "assets/images/chinese/homemade-chinese-noodles-with-stir-fried-vegetables.png",
     "time": "60 min",
     "difficulty": "Professional"
   },
