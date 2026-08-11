@@ -1,0 +1,147 @@
+{
+  "id": "238",
+  "title": "Vegetarian / Vegan Hot and Sour Soup",
+  "description": "Vegetarian and Vegan Hot and Sour Soup is a rich, aromatic plant-based interpretation of the classic Chinese soup. A deeply savory kombu and shiitake stock is combined with wood ear mushrooms, shiitake, bamboo shoots, and tofu, then balanced with black vinegar, white pepper, soy sauce, and optional chili oil. A soy milk and cornstarch mixture can create delicate vegan egg-style ribbons while maintaining a silky restaurant-quality texture.",
+
+  "category": "Chinese",
+  "time": "45 min",
+  "difficulty": "Professional",
+  "image": "assets/images/chinese/vegetarian-vegan-hot-and-sour-soup.png",
+
+  "ingredients": [
+    {
+      "title": "For the Mushroom & Kombu Stock",
+      "items": [
+        "Water – 6 cups",
+        "Kombu – 1 piece, approximately 10 cm",
+        "Dried shiitake mushrooms – 5"
+      ]
+    },
+    {
+      "title": "For the Broth Base",
+      "items": [
+        "Mushroom & kombu stock – 6 cups",
+        "Wood ear mushrooms – ½ cup, rehydrated and thinly sliced",
+        "Shiitake mushrooms – ½ cup, fresh or reconstituted and thinly sliced",
+        "Bamboo shoots – ½ cup, julienned",
+        "Silken or medium tofu – 200 g, cut into thin strips"
+      ]
+    },
+    {
+      "title": "For the Aromatics & Seasoning",
+      "items": [
+        "Light soy sauce – 2 tbsp (or tamari for gluten-free preparation)",
+        "Dark soy sauce – 1 tbsp",
+        "Shaoxing wine – 1 tbsp (or dry sherry, optional)",
+        "White pepper – ½ tsp, freshly ground, adjusted to taste",
+        "Chinese black vinegar – 3 tbsp (Chinkiang preferred, adjusted to taste)",
+        "Sesame oil – ½ tsp",
+        "Chili oil – ½ tsp (optional)"
+      ]
+    },
+    {
+      "title": "For the Thickening",
+      "items": [
+        "Cornstarch – 2½ tbsp",
+        "Cold water – 3 tbsp"
+      ]
+    },
+    {
+      "title": "For the Vegan Egg Ribbons",
+      "items": [
+        "Unsweetened soy milk – 3 tbsp",
+        "Cornstarch – 1 tbsp"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Green onions – 2, finely sliced",
+        "Fresh cilantro leaves – as needed",
+        "Extra Chinese black vinegar – optional",
+        "Extra chili oil – optional"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Mushroom & Kombu Stock",
+      "steps": [
+        "Place 6 cups water, kombu, and dried shiitake mushrooms in a pot.",
+        "Simmer gently for 30 minutes.",
+        "Remove the kombu after approximately 20 minutes to prevent bitterness.",
+        "Strain the stock and reserve the shiitake mushrooms for slicing."
+      ]
+    },
+    {
+      "title": "Step 2 – Building the Broth",
+      "steps": [
+        "Bring the prepared mushroom and kombu stock to a gentle simmer.",
+        "Add the wood ear mushrooms, sliced shiitake mushrooms, bamboo shoots, and tofu.",
+        "Simmer for approximately 5 minutes to allow the flavors to develop."
+      ]
+    },
+    {
+      "title": "Step 3 – Seasoning the Soup",
+      "steps": [
+        "Stir in light soy sauce, dark soy sauce, Shaoxing wine if using, white pepper, and Chinese black vinegar.",
+        "Taste and adjust the vinegar and white pepper until the soup has a bold, lively sweet-sour and peppery character."
+      ]
+    },
+    {
+      "title": "Step 4 – Thickening the Broth",
+      "steps": [
+        "Combine the cornstarch with cold water and stir until completely smooth.",
+        "Stir the slurry again immediately before adding it to the soup.",
+        "Slowly drizzle the slurry into the simmering soup while stirring continuously.",
+        "Cook briefly until the broth becomes slightly thickened, glossy, and silky."
+      ]
+    },
+    {
+      "title": "Step 5 – Creating Vegan Egg Ribbons",
+      "steps": [
+        "For the optional vegan egg-style finish, whisk together unsweetened soy milk and 1 tbsp cornstarch.",
+        "Reduce the soup to a gentle swirl.",
+        "Slowly drizzle the soy milk mixture into the soup while stirring lightly in one direction to create delicate ribbon-like strands.",
+        "Alternatively, omit the mixture and serve the soup without egg-style ribbons."
+      ]
+    },
+    {
+      "title": "Step 6 – Final Flavor Finish",
+      "steps": [
+        "Stir in sesame oil just before serving.",
+        "Add chili oil if using and adjust the seasoning one final time.",
+        "Add a small splash of additional black vinegar if more acidity is desired."
+      ]
+    },
+    {
+      "title": "Step 7 – Garnishing & Serving",
+      "steps": [
+        "Ladle the hot soup into serving bowls.",
+        "Top with finely sliced green onions and fresh cilantro.",
+        "Serve immediately with additional black vinegar and chili oil at the table."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as a vegetarian or vegan appetizer.",
+      "Offer extra Chinkiang black vinegar and chili oil at the table so guests can customize the flavor.",
+      "Pair with vegetable fried rice, noodles, dumplings, or other Chinese dishes.",
+      "For a fully vegan preparation, ensure the soy sauce, Shaoxing wine, and all other packaged ingredients are confirmed vegan."
+    ]
+  },
+
+  "chefTips": [
+    "The kombu and shiitake stock provides deep natural umami and is the foundation of the soup's flavor.",
+    "Remove the kombu after about 20 minutes to prevent the stock from becoming bitter.",
+    "Adjust the black vinegar at the end because prolonged cooking can soften its sharp acidity.",
+    "White pepper is essential for the characteristic hot flavor and provides a different heat profile from chili oil.",
+    "Add cornstarch slurry gradually so the soup becomes glossy and lightly thickened rather than gummy.",
+    "For the vegan egg ribbons, maintain a gentle swirl and drizzle the soy milk mixture slowly for delicate strands.",
+    "Add sesame oil and chili oil near the end to preserve their aroma and flavor."
+  ]
+}
