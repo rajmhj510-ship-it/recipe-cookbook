@@ -1,0 +1,146 @@
+{
+  "id": "244",
+  "title": "Homemade Chinese Noodles with Stir-Fried Vegetables",
+  "description": "Homemade Chinese Noodles with Stir-Fried Vegetables combines fresh hand-cut noodles with crisp colorful vegetables tossed in a savory soy and oyster sauce glaze. The noodles are kneaded, rested, rolled, and cut by hand before being quickly stir-fried over high heat for a glossy restaurant-style finish with authentic wok hei.",
+
+  "category": "Chinese",
+  "time": "60 min",
+  "difficulty": "Professional",
+  "image": "assets/images/chinese/homemade-chinese-noodles-stir-fried-vegetables.png",
+
+  "ingredients": [
+    {
+      "title": "For the Homemade Noodles",
+      "items": [
+        "All-purpose flour – 300 g (2½ cups), high-protein flour preferred",
+        "Water – 120 ml (½ cup), room temperature",
+        "Salt – 1 tsp",
+        "Vegetable oil – 1 tsp"
+      ]
+    },
+    {
+      "title": "For the Stir-Fried Vegetables",
+      "items": [
+        "Vegetable oil – 2 tbsp (peanut oil preferred)",
+        "Garlic – 2 cloves, finely chopped",
+        "Fresh ginger – 1 tsp, julienned",
+        "Carrot – 1 medium, julienned",
+        "Red bell pepper – ½, thinly sliced",
+        "Yellow bell pepper – ½, thinly sliced",
+        "Snow peas – 100 g, trimmed",
+        "Shiitake mushrooms – 100 g, sliced",
+        "Spring onions – 3, cut into 5 cm strips"
+      ]
+    },
+    {
+      "title": "For the Stir-Fry Sauce",
+      "items": [
+        "Light soy sauce – 3 tbsp",
+        "Dark soy sauce – 1 tbsp",
+        "Oyster sauce – 1 tbsp",
+        "Sugar – 1 tsp",
+        "Sesame oil – 1 tsp",
+        "Vegetable stock – 60 ml (¼ cup)"
+      ]
+    },
+    {
+      "title": "For Garnish",
+      "items": [
+        "Toasted sesame seeds – as needed",
+        "Fresh coriander leaves – as needed",
+        "Chili oil – a few drops, optional"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Making the Noodle Dough",
+      "steps": [
+        "Combine the flour and salt in a large mixing bowl.",
+        "Gradually add the room-temperature water and vegetable oil while mixing.",
+        "Knead until a dough forms.",
+        "Continue kneading for approximately 10 minutes until the dough becomes smooth and elastic.",
+        "Cover with a damp cloth and rest the dough for 30 minutes."
+      ]
+    },
+    {
+      "title": "Step 2 – Rolling & Cutting the Noodles",
+      "steps": [
+        "Transfer the rested dough to a lightly floured work surface.",
+        "Roll it into a thin sheet approximately 1–2 mm thick.",
+        "Dust the surface generously with flour to prevent sticking.",
+        "Fold the dough loosely and cut into thin strips approximately 3–4 mm wide.",
+        "Separate the noodles gently and dust lightly with flour if necessary."
+      ]
+    },
+    {
+      "title": "Step 3 – Cooking the Noodles",
+      "steps": [
+        "Bring a large pot of salted water to a rolling boil.",
+        "Add the fresh noodles and cook for approximately 2–3 minutes until al dente.",
+        "Drain immediately and rinse briefly under cold water to stop the cooking process.",
+        "Toss lightly with a small amount of sesame oil to prevent sticking."
+      ]
+    },
+    {
+      "title": "Step 4 – Preparing the Sauce",
+      "steps": [
+        "Combine light soy sauce, dark soy sauce, oyster sauce, sugar, sesame oil, and vegetable stock in a small bowl.",
+        "Whisk until the sugar is dissolved and the sauce is evenly combined.",
+        "Set aside until ready to stir-fry."
+      ]
+    },
+    {
+      "title": "Step 5 – Stir-Frying the Vegetables",
+      "steps": [
+        "Heat a wok over high heat until very hot and lightly smoking.",
+        "Add the vegetable or peanut oil.",
+        "Add garlic and ginger and stir-fry for approximately 10 seconds until fragrant.",
+        "Add carrots, red and yellow bell peppers, and shiitake mushrooms.",
+        "Stir-fry for 1–2 minutes while keeping the vegetables crisp.",
+        "Add snow peas and spring onions and toss quickly to combine."
+      ]
+    },
+    {
+      "title": "Step 6 – Combining Noodles & Sauce",
+      "steps": [
+        "Add the cooked noodles to the hot wok.",
+        "Pour the prepared sauce evenly over the noodles and vegetables.",
+        "Toss and stir-fry for 1–2 minutes until the noodles are evenly coated and glossy.",
+        "Keep the wok moving to develop a smoky wok hei character without overcooking the vegetables."
+      ]
+    },
+    {
+      "title": "Step 7 – Presentation & Serving",
+      "steps": [
+        "Use tongs to twirl the noodles into a neat mound on a warm serving plate.",
+        "Arrange the colorful vegetables naturally around and over the noodles.",
+        "Garnish with toasted sesame seeds and fresh coriander leaves.",
+        "Finish with a few drops of chili oil for color and optional heat.",
+        "Serve immediately while hot."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot as a vegetarian Chinese main course.",
+      "Pair with vegetable spring rolls, dumplings, or hot and sour soup.",
+      "Add tofu, chicken, beef, or shrimp for a protein-rich variation.",
+      "Serve immediately after stir-frying to preserve the glossy noodles and crisp vegetables."
+    ]
+  },
+
+  "chefTips": [
+    "Use high-protein flour when possible for noodles with a pleasantly chewy, elastic texture.",
+    "Resting the dough is essential because it relaxes the gluten and makes rolling and cutting easier.",
+    "Cook fresh noodles only until al dente; overcooking makes them soft and difficult to stir-fry.",
+    "Keep the wok extremely hot and work quickly to achieve authentic smoky wok hei.",
+    "Do not overcrowd the wok, as excess moisture can cause the vegetables and noodles to steam instead of searing.",
+    "Maintain a balance between crisp vegetables and chewy noodles by avoiding prolonged stir-frying.",
+    "For additional depth, add a small splash of Shaoxing wine immediately after stir-frying the vegetables.",
+    "Serve on a warm plate and garnish immediately for the best restaurant-style presentation."
+  ]
+}
