@@ -243,15 +243,6 @@
     "difficulty": "Easy"
   },
   {
-    "id": 229,
-    "title": "Potato Chili",
-    "category": "Chinese",
-    "file": "data/chinese/potato-chili.json",
-    "image": "assets/images/chinese/potato-chili.png",
-    "time": "40 min",
-    "difficulty": "Medium"
-  },
-  {
     "id": 230,
     "title": "Hot Garlic with Chinese Vegetables",
     "category": "Chinese",
