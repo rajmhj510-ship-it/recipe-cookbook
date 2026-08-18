@@ -4,7 +4,7 @@
     "title": "Fried Fish with Tartar Sauce",
     "category": "Continental",
     "file": "data/continental/fried-fish-with-tartar-sauce.json",
-    "image": "assets/images/continental/fried-fish-with-tartar-sauce.png",
+    "image": "assets/images/continental/fried-fish-with-tartar-sauce.jpg",
     "description": "Crispy golden fried fish served with a creamy homemade tartar sauce, delivering a classic continental seafood favorite with a light, flaky interior.",
     "time": "40 min",
     "difficulty": "Medium"
@@ -14,7 +14,7 @@
     "title": "Pancakes",
     "category": "Continental",
     "file": "data/continental/pancakes.json",
-    "image": "assets/images/continental/pancakes.png",
+    "image": "assets/images/continental/pancakes.jpg",
     "description": "Light, fluffy pancakes with a tender crumb, perfect for breakfast and served with butter, maple syrup, fresh fruits, or whipped cream.",
     "time": "40 min",
     "difficulty": "Medium"
@@ -24,7 +24,7 @@
     "title": "Poached Egg",
     "category": "Continental",
     "file": "data/continental/poached-egg.json",
-    "image": "assets/images/continental/poached-egg.png",
+    "image": "assets/images/continental/poached-egg.jpg",
     "description": "A perfectly poached egg with delicate, tender whites and a rich, silky runny yolk, prepared using classic continental culinary techniques.",
     "time": "10 min",
     "difficulty": "Easy"
@@ -34,7 +34,7 @@
     "title": "Scrambled Eggs",
     "category": "Continental",
     "file": "data/continental/scrambled-eggs.json",
-    "image": "assets/images/continental/scrambled-eggs.png",
+    "image": "assets/images/continental/scrambled-eggs.jpg",
     "description": "Creamy, soft scrambled eggs cooked gently over low heat with butter for a luxurious restaurant-quality breakfast.",
     "time": "10 min",
     "difficulty": "Easy"
@@ -44,7 +44,7 @@
     "title": "Omelet",
     "category": "Continental",
     "file": "data/continental/omelet.json",
-    "image": "assets/images/continental/omelet.png",
+    "image": "assets/images/continental/omelet.jpg",
     "description": "A light and fluffy omelet filled with premium ingredients, delivering a classic continental breakfast with a tender, creamy texture.",
     "time": "15 min",
     "difficulty": "Easy"
@@ -54,7 +54,7 @@
     "title": "Classic French-style Omelet",
     "category": "Continental",
     "file": "data/continental/classic-french-style-omelet.json",
-    "image": "assets/images/continental/classic-french-style-omelet.png",
+    "image": "assets/images/continental/classic-french-style-omelet.jpg",
     "description": "An authentic French-style omelet featuring a silky, pale-yellow exterior and a soft, creamy center prepared with classic culinary precision.",
     "time": "10 min",
     "difficulty": "Easy"
@@ -64,7 +64,7 @@
     "title": "Fried Eggs",
     "category": "Continental",
     "file": "data/continental/fried-eggs.json",
-    "image": "assets/images/continental/fried-eggs.png",
+    "image": "assets/images/continental/fried-eggs.jpg",
     "description": "Perfectly fried eggs with tender whites and rich golden yolks, cooked gently for a classic continental breakfast.",
     "time": "10 min",
     "difficulty": "Easy"
@@ -74,7 +74,7 @@
     "title": "Eggs Benedict",
     "category": "Continental",
     "file": "data/continental/eggs-benedict.json",
-    "image": "assets/images/continental/eggs-benedict.png",
+    "image": "assets/images/continental/eggs-benedict.jpg",
     "description": "A luxurious Eggs Benedict featuring toasted English muffins, poached eggs, Canadian bacon, and silky homemade Hollandaise sauce.",
     "time": "35 min",
     "difficulty": "Advanced"
@@ -84,7 +84,7 @@
     "title": "Boiled Eggs",
     "category": "Continental",
     "file": "data/continental/boiled-eggs.json",
-    "image": "assets/images/continental/boiled-eggs.png",
+    "image": "assets/images/continental/boiled-eggs.jpg",
     "description": "Perfectly boiled eggs with precise cooking times for soft, medium, or hard centers, ideal for breakfast or elegant brunch dishes.",
     "time": "15 min",
     "difficulty": "Easy"
@@ -94,7 +94,7 @@
     "title": "Classic French Toast (Pain Perdu)",
     "category": "Continental",
     "file": "data/continental/classic-french-toast.json",
-    "image": "assets/images/continental/classic-french-toast.png",
+    "image": "assets/images/continental/classic-french-toast.jpg",
     "description": "Classic French Pain Perdu featuring buttery brioche soaked in rich vanilla custard and pan-fried until golden with a creamy interior.",
     "time": "20 min",
     "difficulty": "Easy"
@@ -104,7 +104,7 @@
     "title": "Hash Brown Potato",
     "category": "Continental",
     "file": "data/continental/hash-brown-potato.json",
-    "image": "assets/images/continental/hash-brown-potato.png",
+    "image": "assets/images/continental/hash-brown-potato.jpg",
     "description": "Golden, crispy hash browns with a tender potato center, prepared using professional techniques for maximum crunch and flavor.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -114,7 +114,7 @@
     "title": "Grilled Chicken & Avocado Club Sandwich",
     "category": "Continental",
     "file": "data/continental/grilled-chicken-avocado-club-sandwich.json",
-    "image": "assets/images/continental/grilled-chicken-&-avocado-club-sandwich.png",
+    "image": "assets/images/continental/grilled-chicken-&-avocado-club-sandwich.jpg",
     "description": "A premium grilled chicken and avocado club sandwich layered with fresh vegetables, artisan bread, and creamy garlic aioli.",
     "time": "30 min",
     "difficulty": "Medium"
@@ -124,7 +124,7 @@
     "title": "Club Sandwich",
     "category": "Continental",
     "file": "data/continental/club-sandwich.json",
-    "image": "assets/images/continental/club-sandwich.png",
+    "image": "assets/images/continental/club-sandwich.jpg",
     "description": "A classic triple-layer club sandwich filled with grilled chicken, crispy bacon, fresh vegetables, and creamy mayonnaise.",
     "time": "20 min",
     "difficulty": "Easy"
@@ -134,7 +134,7 @@
     "title": "Hamburger",
     "category": "Continental",
     "file": "data/continental/hamburger.json",
-    "image": "assets/images/continental/hamburger.png",
+    "image": "assets/images/continental/hamburger.jpg",
     "description": "A gourmet hamburger featuring a juicy handcrafted beef patty, brioche bun, aged cheese, and fresh premium toppings.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -144,7 +144,7 @@
     "title": "Classic Hamburger",
     "category": "Continental",
     "file": "data/continental/classic-hamburger.json",
-    "image": "assets/images/continental/classic-hamburger.png",
+    "image": "assets/images/continental/classic-hamburger.jpg",
     "description": "A classic beef hamburger served on toasted brioche with melted cheese, crispy bacon, caramelized onions, and homemade aioli.",
     "time": "30 min",
     "difficulty": "Medium"
@@ -154,7 +154,7 @@
     "title": "Pan-Seared Seabass with Lemon Butter Sauce",
     "category": "Continental",
     "file": "data/continental/pan-seared-seabass-with-lemon-butter-sauce.json",
-    "image": "assets/images/continental/pan-seared-seabass-with-lemon-butter-sauce.png",
+    "image": "assets/images/continental/pan-seared-seabass-with-lemon-butter-sauce.jpg",
     "description": "Pan-seared seabass with crisp golden skin, served alongside a silky lemon butter sauce for an elegant restaurant-quality seafood dish.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -164,7 +164,7 @@
     "title": "Pan-Seared Seabass with Lemon Butter Beurre Blanc",
     "category": "Continental",
     "file": "data/continental/pan-seared-seabass-with-lemon-butter-beurre-blanc.json",
-    "image": "assets/images/continental/pan-seared-seabass-with-lemon-butter-beurre-blanc.png",
+    "image": "assets/images/continental/pan-seared-seabass-with-lemon-butter-beurre-blanc.jpg",
     "description": "Perfectly pan-seared seabass paired with a rich, velvety lemon butter beurre blanc, finished with refined continental presentation.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -174,7 +174,7 @@
     "title": "Baked Fish with Orange-Ginger Gel",
     "category": "Continental",
     "file": "data/continental/baked-fish-with-orange-ginger-gel.json",
-    "image": "assets/images/continental/baked-fish-with-orange-ginger-gel.png",
+    "image": "assets/images/continental/baked-fish-with-orange-ginger-gel.jpg",
     "description": "Oven-baked white fish complemented by a vibrant orange-ginger gel and delicate beurre blanc, creating a refined modern seafood plate.",
     "time": "45 min",
     "difficulty": "Medium"
@@ -184,7 +184,7 @@
     "title": "Roasted White Fish with Orange–Ginger Gel",
     "category": "Continental",
     "file": "data/continental/roasted-white-fish-with-orange-ginger-gel.json",
-    "image": "assets/images/continental/roasted-white-fish-with-orange-ginger-gel.png",
+    "image": "assets/images/continental/roasted-white-fish-with-orange-ginger-gel.jpg",
     "description": "Roasted premium white fish served with a smooth orange–ginger gel, citrus accents, and elegant fine-dining presentation.",
     "time": "50 min",
     "difficulty": "Medium"
@@ -194,7 +194,7 @@
     "title": "Meatballs with Tomato Sauce",
     "category": "Continental",
     "file": "data/continental/meatballs-with-tomato-sauce.json",
-    "image": "assets/images/continental/meatballs-with-tomato-sauce.png",
+    "image": "assets/images/continental/meatballs-with-tomato-sauce.jpg",
     "description": "Tender homemade meatballs gently simmered in a rich tomato sauce, finished with Parmesan and fresh herbs for classic comfort.",
     "time": "45 min",
     "difficulty": "Medium"
@@ -204,7 +204,7 @@
     "title": "Meat Balls (Deep-Fried, Ketchup-Glazed)",
     "category": "Continental",
     "file": "data/continental/meat-balls-deep-fried-ketchup-glazed.json",
-    "image": "assets/images/continental/meat-balls (deep-fried- ketchup-glazed).png",
+    "image": "assets/images/continental/meat-balls (deep-fried- ketchup-glazed).jpg",
     "description": "Golden deep-fried meatballs glazed with warm tomato ketchup, featuring a crisp exterior and juicy, flavorful center.",
     "time": "40 min",
     "difficulty": "Medium"
@@ -214,17 +214,17 @@
     "title": "Waldorf Salad",
     "category": "Continental",
     "file": "data/continental/waldorf-salad.json",
-    "image": "assets/images/continental/waldorf-salad.png",
+    "image": "assets/images/continental/waldorf-salad.jpg",
     "description": "A timeless Waldorf salad combining crisp apples, celery, grapes, toasted walnuts, and creamy mayonnaise over fresh lettuce.",
     "time": "20 min",
     "difficulty": "Easy"
   },
-    {
+  {
     "id": 323,
     "title": "Supreme of Chicken with Mushroom Velouté & Truffle Mash",
     "category": "Continental",
     "file": "data/continental/supreme-of-chicken-with-mushroom-veloute-and-truffle-mash.json",
-    "image": "assets/images/continental/supreme-of-chicken-with-mushroom-velouté-&-Truffle-mash.png",
+    "image": "assets/images/continental/supreme-of-chicken-with-mushroom-velouté-&-Truffle-mash.jpg",
     "description": "Pan-seared chicken supreme served with silky mushroom velouté, truffle mashed potatoes, and glazed seasonal vegetables.",
     "time": "45 min",
     "difficulty": "Medium"
@@ -234,7 +234,7 @@
     "title": "Pomme Purée (Joël Robuchon Style)",
     "category": "Continental",
     "file": "data/continental/pomme-puree-french-mashed-potatoes.json",
-    "image": "assets/images/continental/pomme-puree-french-mashed-potatoes.png",
+    "image": "assets/images/continental/pomme-puree-french-mashed-potatoes.jpg",
     "description": "Classic French mashed potatoes enriched with butter and warm milk for an ultra-silky texture.",
     "time": "40 min",
     "difficulty": "Medium"
@@ -244,7 +244,7 @@
     "title": "Pineapple, Cheese & Cherry Sticks",
     "category": "Continental",
     "file": "data/continental/pineapple-cheese-cherry-sticks.json",
-    "image": "assets/images/continental/pineapple-cheese-&-cherry-sticks.png",
+    "image": "assets/images/continental/pineapple-cheese-&-cherry-sticks.jpg",
     "description": "Simple continental canapé made with pineapple, cheese cubes, and maraschino cherries.",
     "time": "15 min",
     "difficulty": "Easy"
@@ -254,7 +254,7 @@
     "title": "Chicken Hawaii Salad",
     "category": "Continental",
     "file": "data/continental/chicken-hawaii-salad.json",
-    "image": "assets/images/continental/chicken-hawaii-salad.png",
+    "image": "assets/images/continental/chicken-hawaii-salad.jpg",
     "description": "Fresh salad with grilled chicken, pineapple, crisp vegetables, and creamy Hawaiian dressing.",
     "time": "35 min",
     "difficulty": "Easy"
@@ -264,7 +264,7 @@
     "title": "Cream of Green Peas Soup",
     "category": "Continental",
     "file": "data/continental/cream-of-green-peas-soup.json",
-    "image": "assets/images/continental/cream-of-green-peas-soup.png",
+    "image": "assets/images/continental/cream-of-green-peas-soup.jpg",
     "description": "Smooth and creamy green peas soup finished with fresh cream and herbs.",
     "time": "35 min",
     "difficulty": "Easy"
@@ -274,7 +274,7 @@
     "title": "Pan-Seared Pork Chops with Mustard Cream Sauce",
     "category": "Continental",
     "file": "data/continental/pan-seared-pork-chops-with-mustard-cream-sauce.json",
-    "image": "assets/images/continental/pan-seared-pork-chops-with-mustard-cream-sauce.png",
+    "image": "assets/images/continental/pan-seared-pork-chops-with-mustard-cream-sauce.jpg",
     "description": "Juicy pork chops served with a rich Dijon mustard cream sauce.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -284,7 +284,7 @@
     "title": "Grilled Pork Chops with Mustard & Sage",
     "category": "Continental",
     "file": "data/continental/grilled-pork-chops-with-mustard-and-sage.json",
-    "image": "assets/images/continental/grilled-pork-chops-with-mustard-&-sage.png",
+    "image": "assets/images/continental/grilled-pork-chops-with-mustard-&-sage.jpg",
     "description": "Herb-marinated grilled pork chops with Dijon mustard and fresh sage.",
     "time": "2 hr 30 min",
     "difficulty": "Medium"
@@ -294,7 +294,7 @@
     "title": "Cheese & Potato Balls",
     "category": "Continental",
     "file": "data/continental/cheese-and-potato-balls.json",
-    "image": "assets/images/continental/cheese-&-potato balls.png",
+    "image": "assets/images/continental/cheese-&-potato balls.jpg",
     "description": "Golden crispy potato balls stuffed with melted cheese and coated in crunchy breadcrumbs.",
     "time": "45 min",
     "difficulty": "Medium"
@@ -304,7 +304,7 @@
     "title": "Potato Egg Salad",
     "category": "Continental",
     "file": "data/continental/potato-egg-salad.json",
-    "image": "assets/images/continental/potato-egg-salad.png",
+    "image": "assets/images/continental/potato-egg-salad.jpg",
     "description": "Creamy potato and egg salad with Dijon dressing and fresh herbs.",
     "time": "30 min",
     "difficulty": "Easy"
@@ -314,7 +314,7 @@
     "title": "Creamy Cauliflower Soup",
     "category": "Continental",
     "file": "data/continental/creamy-cauliflower-soup.json",
-    "image": "assets/images/continental/creamy-cauliflower-soup.png",
+    "image": "assets/images/continental/creamy-cauliflower-soup.jpg",
     "description": "Velvety cauliflower soup enriched with cream and aromatic vegetables.",
     "time": "40 min",
     "difficulty": "Easy"
@@ -324,7 +324,7 @@
     "title": "Cilantro Yogurt Chicken",
     "category": "Continental",
     "file": "data/continental/cilantro-yogurt-chicken.json",
-    "image": "assets/images/continental/cilantro-yogurt-chicken.png",
+    "image": "assets/images/continental/cilantro-yogurt-chicken.jpg",
     "description": "Tender yogurt-marinated chicken infused with cilantro and herbs.",
     "time": "3 hr",
     "difficulty": "Medium"
@@ -334,7 +334,7 @@
     "title": "Onion Rings",
     "category": "Continental",
     "file": "data/continental/onion-rings.json",
-    "image": "assets/images/continental/onion-rings.png",
+    "image": "assets/images/continental/onion-rings.jpg",
     "description": "Classic crispy onion rings coated with a light batter and panko breadcrumbs.",
     "time": "30 min",
     "difficulty": "Easy"
@@ -344,7 +344,7 @@
     "title": "Russian Salad",
     "category": "Continental",
     "file": "data/continental/russian-salad.json",
-    "image": "assets/images/continental/russian-salad.png",
+    "image": "assets/images/continental/russian-salad.jpg",
     "description": "Traditional Russian salad with vegetables, creamy dressing, and optional chicken.",
     "time": "40 min",
     "difficulty": "Easy"
@@ -354,7 +354,7 @@
     "title": "Mutton Broth",
     "category": "Continental",
     "file": "data/continental/mutton-broth.json",
-    "image": "assets/images/continental/mutton-broth.png",
+    "image": "assets/images/continental/mutton-broth.jpg",
     "description": "Clear and flavorful mutton broth simmered with aromatic vegetables and herbs.",
     "time": "2 hr 30 min",
     "difficulty": "Medium"
@@ -364,7 +364,7 @@
     "title": "Lamb Stew Printanière",
     "category": "Continental",
     "file": "data/continental/lamb-stew-printaniere.json",
-    "image": "assets/images/continental/lamb-stew-printanière.png",
+    "image": "assets/images/continental/lamb-stew-printanière.jpg",
     "description": "Slow-braised lamb stew with spring vegetables in a rich aromatic sauce.",
     "time": "2 hr 30 min",
     "difficulty": "Medium"
@@ -374,7 +374,7 @@
     "title": "Fish Fingers",
     "category": "Continental",
     "file": "data/continental/fish-fingers.json",
-    "image": "assets/images/continental/fish-fingers.png",
+    "image": "assets/images/continental/fish-fingers.jpg",
     "description": "Golden crispy fish fingers served with tartar sauce and lemon wedges.",
     "time": "35 min",
     "difficulty": "Easy"
@@ -384,7 +384,7 @@
     "title": "Mixed Green Julienne Salad",
     "category": "Continental",
     "file": "data/continental/mixed-green-julienne-salad.json",
-    "image": "assets/images/continental/mixed-green-julienne-salad.png",
+    "image": "assets/images/continental/mixed-green-julienne-salad.jpg",
     "description": "Elegant mixed greens and julienned vegetables with classic continental vinaigrette.",
     "time": "20 min",
     "difficulty": "Easy"
@@ -394,7 +394,7 @@
     "title": "Cream of Spinach Soup",
     "category": "Continental",
     "file": "data/continental/cream-of-spinach-soup.json",
-    "image": "assets/images/continental/cream-of-spinach-soup.png",
+    "image": "assets/images/continental/cream-of-spinach-soup.jpg",
     "description": "Smooth spinach soup finished with cream, nutmeg, and fresh herbs.",
     "time": "35 min",
     "difficulty": "Easy"
@@ -404,7 +404,7 @@
     "title": "Potato Croquettes",
     "category": "Continental",
     "file": "data/continental/potato-croquettes.json",
-    "image": "assets/images/continental/potato-croquettes.png",
+    "image": "assets/images/continental/potato-croquettes.jpg",
     "description": "Crispy golden potato croquettes with Parmesan and herb filling.",
     "time": "50 min",
     "difficulty": "Medium"
@@ -414,7 +414,7 @@
     "title": "Vegetable Rice Salad",
     "category": "Continental",
     "file": "data/continental/vegetable-rice-salad.json",
-    "image": "assets/images/continental/vegetable-rice-salad.png",
+    "image": "assets/images/continental/vegetable-rice-salad.jpg",
     "description": "Colorful rice salad with fresh vegetables and a light Dijon vinaigrette.",
     "time": "40 min",
     "difficulty": "Easy"
@@ -424,7 +424,7 @@
     "title": "Chicken Broth",
     "category": "Continental",
     "file": "data/continental/chicken-broth.json",
-    "image": "assets/images/continental/chicken-broth.png",
+    "image": "assets/images/continental/chicken-broth.jpg",
     "description": "Classic clear chicken broth slowly simmered with aromatic vegetables and herbs.",
     "time": "3 hr",
     "difficulty": "Medium"
@@ -434,7 +434,7 @@
     "title": "Grilled Chicken Sizzler",
     "category": "Continental",
     "file": "data/continental/grilled-chicken-sizzler.json",
-    "image": "assets/images/continental/grilled-chicken-sizzler.png",
+    "image": "assets/images/continental/grilled-chicken-sizzler.jpg",
     "description": "Grilled chicken served on a sizzling platter with vegetables, mashed potatoes, and demi-glace sauce.",
     "time": "3 hr",
     "difficulty": "Medium"
@@ -444,7 +444,7 @@
     "title": "Mini Chicken Sashlics",
     "category": "Continental",
     "file": "data/continental/mini-chicken-sashlics.json",
-    "image": "assets/images/continental/mini-chicken-sashlics.png",
+    "image": "assets/images/continental/mini-chicken-sashlics.jpg",
     "description": "Mini grilled chicken skewers with colorful vegetables and balsamic glaze.",
     "time": "2 hr 30 min",
     "difficulty": "Medium"
@@ -454,7 +454,7 @@
     "title": "Mexican Corn Salad",
     "category": "Continental",
     "file": "data/continental/mexican-corn-salad.json",
-    "image": "assets/images/continental/mexican-corn-salad (esquites-style).png",
+    "image": "assets/images/continental/mexican-corn-salad (esquites-style).jpg",
     "description": "Charred corn salad with Cotija cheese, lime, cilantro, and creamy dressing.",
     "time": "30 min",
     "difficulty": "Easy"
@@ -464,7 +464,7 @@
     "title": "Potato & Leek Soup",
     "category": "Continental",
     "file": "data/continental/potato-leek-soup.json",
-    "image": "assets/images/continental/potato-&-leek-soup.png",
+    "image": "assets/images/continental/potato-&-leek-soup.jpg",
     "description": "Classic creamy potato and leek soup finished with herbs and optional truffle oil.",
     "time": "45 min",
     "difficulty": "Easy"
@@ -474,17 +474,17 @@
     "title": "Potato & Leek Soup",
     "category": "Continental",
     "file": "data/continental/potato-and-leek-soup-potage-parmentier.json",
-    "image": "assets/images/continental/potato-and-leek-soup(potage-parmentier).png",
+    "image": "assets/images/continental/potato-and-leek-soup(potage-parmentier).jpg",
     "description": "Classic creamy potato and leek soup finished with herbs and optional truffle oil.",
     "time": "45 min",
     "difficulty": "Easy"
   },
-    {
+  {
     "id": 350,
     "title": "Kentucky Fried Chicken",
     "category": "Continental",
     "file": "data/continental/kentucky-fried-chicken.json",
-    "image": "assets/images/continental/kentucky-fried-chicken.png",
+    "image": "assets/images/continental/kentucky-fried-chicken.jpg",
     "description": "Classic Continental-style crispy fried chicken marinated in buttermilk, coated in seasoned flour, and fried until golden brown.",
     "time": "50 min (plus marination)",
     "difficulty": "Medium"
@@ -494,27 +494,27 @@
     "title": "Cornflakes Coated Chicken",
     "category": "Continental",
     "file": "data/continental/cornflakes-coated-chicken.json",
-    "image": "assets/images/continental/cornflakes-coated-chicken.png",
+    "image": "assets/images/continental/cornflakes-coated-chicken.jpg",
     "description": "Crispy chicken breast coated with crunchy cornflakes and served with garlic aioli and fresh greens.",
     "time": "55 min",
     "difficulty": "Easy"
   },
   {
-  "id": 352,
-  "title": "Steam Fish with Hollandaise Sauce",
-  "category": "Continental",
-  "file": "data/continental/steam-fish-with-hollandaise-sauce.json",
-  "image": "assets/images/continental/steam-fish-with-hollandaise-sauce.png",
-  "description": "Delicately steamed white fish served with silky Hollandaise sauce and seasonal vegetables for an elegant continental seafood dish.",
-  "time": "35 min",
-  "difficulty": "Medium"
-},
-    {
+    "id": 352,
+    "title": "Steam Fish with Hollandaise Sauce",
+    "category": "Continental",
+    "file": "data/continental/steam-fish-with-hollandaise-sauce.json",
+    "image": "assets/images/continental/steam-fish-with-hollandaise-sauce.jpg",
+    "description": "Delicately steamed white fish served with silky Hollandaise sauce and seasonal vegetables for an elegant continental seafood dish.",
+    "time": "35 min",
+    "difficulty": "Medium"
+  },
+  {
     "id": 353,
     "title": "Grilled Eggplant Salad",
     "category": "Continental",
     "file": "data/continental/grilled-eggplant-salad.json",
-    "image": "assets/images/continental/grilled-eggplant-salad.png",
+    "image": "assets/images/continental/grilled-eggplant-salad.jpg",
     "description": "Fresh grilled eggplant salad with vegetables, feta cheese, and chef's vinaigrette.",
     "time": "35 min",
     "difficulty": "Easy"
@@ -524,7 +524,7 @@
     "title": "French Onion Soup (Soupe à l’Oignon Gratinée)",
     "category": "Continental",
     "file": "data/continental/french-onion-soup.json",
-    "image": "assets/images/continental/french-onion-soup.png",
+    "image": "assets/images/continental/french-onion-soup.jpg",
     "description": "Classic French onion soup topped with toasted baguette and melted Gruyère cheese.",
     "time": "1 hr 30 min",
     "difficulty": "Medium"
@@ -534,7 +534,7 @@
     "title": "Fish Florentine",
     "category": "Continental",
     "file": "data/continental/fish-florentine.json",
-    "image": "assets/images/continental/fish-florentine.png",
+    "image": "assets/images/continental/fish-florentine.jpg",
     "description": "Pan-seared white fish served over creamy Florentine spinach and baked with Mornay sauce.",
     "time": "45 min",
     "difficulty": "Medium"
@@ -544,7 +544,7 @@
     "title": "Poached Fish Florentine",
     "category": "Continental",
     "file": "data/continental/poached-fish-florentine.json",
-    "image": "assets/images/continental/poached-fish-florentine.png",
+    "image": "assets/images/continental/poached-fish-florentine.jpg",
     "description": "Delicately poached white fish served on Florentine spinach with rich Mornay sauce.",
     "time": "55 min",
     "difficulty": "Medium"
@@ -554,7 +554,7 @@
     "title": "Court Bouillon (for Poaching Fish)",
     "category": "Continental",
     "file": "data/continental/court-bouillon-for-poaching-fish.json",
-    "image": "assets/images/continental/court-bouillon (for poaching fish).png",
+    "image": "assets/images/continental/court-bouillon (for poaching fish).jpg",
     "description": "Classic aromatic poaching liquid for fish made with white wine, vegetables, herbs, and spices.",
     "time": "25 min",
     "difficulty": "Easy"
@@ -564,7 +564,7 @@
     "title": "Fried Ravioli",
     "category": "Continental",
     "file": "data/continental/fried-ravioli.json",
-    "image": "assets/images/continental/fried-ravioli.png",
+    "image": "assets/images/continental/fried-ravioli.jpg",
     "description": "Breaded and deep-fried ravioli served with roasted tomato coulis or truffle aioli.",
     "time": "1 hr 10 min",
     "difficulty": "Medium"
@@ -574,7 +574,7 @@
     "title": "Minestrone Soup",
     "category": "Continental",
     "file": "data/continental/minestrone-soup.json",
-    "image": "assets/images/continental/minestrone-soup.png",
+    "image": "assets/images/continental/minestrone-soup.jpg",
     "description": "Classic Continental soup featuring seasonal vegetables, beans, pasta, and a flavorful vegetable broth.",
     "time": "50 min",
     "difficulty": "Medium"
@@ -584,7 +584,7 @@
     "title": "Pasta Salad",
     "category": "Continental",
     "file": "data/continental/pasta-salad.json",
-    "image": "assets/images/continental/pasta-salad.png",
+    "image": "assets/images/continental/pasta-salad.jpg",
     "description": "A refreshing Mediterranean-style pasta salad featuring al dente pasta, crisp vegetables, creamy feta cheese, and a light homemade vinaigrette. Perfect as a side dish or a satisfying main course with optional protein additions.",
     "time": "25 min",
     "difficulty": "Easy"
@@ -594,7 +594,7 @@
     "title": "Spaghetti Bolognese",
     "category": "Continental",
     "file": "data/continental/spaghetti-bolognese.json",
-    "image": "assets/images/continental/spaghetti-bolognese.png",
+    "image": "assets/images/continental/spaghetti-bolognese.jpg",
     "description": "Classic Italian-style spaghetti served with a slow-cooked Bolognese sauce made with beef, pork, tomatoes, red wine, and herbs, finished with freshly grated Parmigiano Reggiano.",
     "time": "3 hr 30 min",
     "difficulty": "Hard"
@@ -604,7 +604,7 @@
     "title": "Prawn Cocktail",
     "category": "Continental",
     "file": "data/continental/prawn-shrimp-cocktail.json",
-    "image": "assets/images/continental/prawn-shrimp-cocktail.png",
+    "image": "assets/images/continental/prawn-shrimp-cocktail.jpg",
     "description": "Poached prawns served with a classic Marie Rose sauce over crisp lettuce, finished with fresh herbs and lemon for a timeless continental appetizer.",
     "time": "25 min",
     "difficulty": "Easy"
@@ -614,7 +614,7 @@
     "title": "Prawn Bisque",
     "category": "Continental",
     "file": "data/continental/prawn-bisque.json",
-    "image": "assets/images/continental/prawn-bisque.png",
+    "image": "assets/images/continental/prawn-bisque.jpg",
     "description": "A rich and velvety French-style prawn bisque prepared from roasted prawn shells, aromatic vegetables, cream, and finished with buttery seared prawns.",
     "time": "2 hr",
     "difficulty": "Hard"
@@ -624,7 +624,7 @@
     "title": "Grilled Steaks with Hollandaise Sauce",
     "category": "Continental",
     "file": "data/continental/grilled-steaks-with-hollandaise-sauce.json",
-    "image": "assets/images/continental/grilled-steaks-with-hollandaise-sauce.png",
+    "image": "assets/images/continental/grilled-steaks-with-hollandaise-sauce.jpg",
     "description": "Perfectly grilled premium beef steaks paired with silky homemade Hollandaise sauce and classic continental accompaniments.",
     "time": "45 min",
     "difficulty": "Hard"
@@ -634,7 +634,7 @@
     "title": "Pineapple Gazpacho",
     "category": "Continental",
     "file": "data/continental/pineapple-gazpacho.json",
-    "image": "assets/images/continental/pineapple-gazpacho.png",
+    "image": "assets/images/continental/pineapple-gazpacho.jpg",
     "description": "A refreshing chilled pineapple and vegetable gazpacho with bright tropical flavors, finished with elegant fine-dining garnishes.",
     "time": "2 hr 20 min",
     "difficulty": "Medium"
@@ -644,7 +644,7 @@
     "title": "Classic Chicken Ballotine",
     "category": "Continental",
     "file": "data/continental/classic-chicken-ballotine.json",
-    "image": "assets/images/continental/classic-chicken-ballotine.png",
+    "image": "assets/images/continental/classic-chicken-ballotine.jpg",
     "description": "Tender chicken thighs stuffed with a delicate chicken mousse, gently poached, pan-seared, and served with a rich velouté or jus.",
     "time": "1 hr 30 min",
     "difficulty": "Hard"
@@ -654,7 +654,7 @@
     "title": "Classic Caesar Salad",
     "category": "Continental",
     "file": "data/continental/classic-caesar-salad.json",
-    "image": "assets/images/continental/cassic-caesar-salad.png",
+    "image": "assets/images/continental/cassic-caesar-salad.jpg",
     "description": "Crisp romaine lettuce tossed with authentic Caesar dressing, homemade croutons, and freshly shaved Parmesan cheese.",
     "time": "30 min",
     "difficulty": "Medium"
@@ -664,7 +664,7 @@
     "title": "Chilled Watermelon & Feta Soup",
     "category": "Continental",
     "file": "data/continental/chilled-watermelon-feta-soup.json",
-    "image": "assets/images/continental/chilled-watermelon-&-feta-soup.png",
+    "image": "assets/images/continental/chilled-watermelon-&-feta-soup.jpg",
     "description": "A refreshing chilled watermelon soup balanced with cucumber, feta cheese, herbs, and elegant fine-dining garnishes.",
     "time": "3 hr",
     "difficulty": "Medium"
@@ -674,7 +674,7 @@
     "title": "Chicken Cordon Bleu",
     "category": "Continental",
     "file": "data/continental/chicken-cordon-bleu.json",
-    "image": "assets/images/continental/chicken-cordon-bleu.png",
+    "image": "assets/images/continental/chicken-cordon-bleu.jpg",
     "description": "Golden breaded chicken breast stuffed with premium ham and Swiss cheese, served with a creamy Dijon or Mornay sauce.",
     "time": "1 hr",
     "difficulty": "Medium"
@@ -684,7 +684,7 @@
     "title": "Greek Salad",
     "category": "Continental",
     "file": "data/continental/greek-salad.json",
-    "image": "assets/images/continental/greek-salad.png",
+    "image": "assets/images/continental/greek-salad.jpg",
     "description": "A traditional Mediterranean salad featuring ripe tomatoes, cucumber, olives, crisp vegetables, and a slab of authentic feta cheese.",
     "time": "20 min",
     "difficulty": "Easy"
@@ -694,7 +694,7 @@
     "title": "Chicken Schnitzel",
     "category": "Continental",
     "file": "data/continental/chicken-schnitzel.json",
-    "image": "assets/images/continental/chicken-schnitzel.png",
+    "image": "assets/images/continental/chicken-schnitzel.jpg",
     "description": "Crispy golden chicken schnitzel coated in seasoned breadcrumbs and served with classic continental side dishes.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -704,7 +704,7 @@
     "title": "Chicken Goulash",
     "category": "Continental",
     "file": "data/continental/chicken-goulash.json",
-    "image": "assets/images/continental/chicken-goulash.png",
+    "image": "assets/images/continental/chicken-goulash.jpg",
     "description": "Tender chicken simmered in a rich paprika-infused goulash sauce with peppers, onions, tomatoes, and sour cream.",
     "time": "1 hr 45 min",
     "difficulty": "Medium"
@@ -714,7 +714,7 @@
     "title": "Grilled Chicken with Tuscan Potatoes, Buttered Vegetables & Chicken Jus",
     "category": "Continental",
     "file": "data/continental/grilled-chicken-tuscan-potatoes-buttered-vegetables-chicken-jus.json",
-    "image": "assets/images/continental/grilled-chicken-with-tuscan-potatoes-buttered-vegetables-&-chicken-jus.png",
+    "image": "assets/images/continental/grilled-chicken-with-tuscan-potatoes-buttered-vegetables-&-chicken-jus.jpg",
     "description": "Juicy grilled chicken breast served with crispy Tuscan potatoes, buttered seasonal vegetables, and a classic chicken jus.",
     "time": "2 hr 30 min",
     "difficulty": "Medium"
@@ -724,7 +724,7 @@
     "title": "Grilled Chicken Breast with Hasselback Potato, Glazed Carrot & Savoury Beetroot Purée",
     "category": "Continental",
     "file": "data/continental/grilled-chicken-breast-hasselback-potato-glazed-carrot-beetroot-puree.json",
-    "image": "assets/images/continental/grilled-chicken-breast-with-hasselback-potato-glazed-carrot-&-savoury-beetroot-purée.png",
+    "image": "assets/images/continental/grilled-chicken-breast-with-hasselback-potato-glazed-carrot-&-savoury-beetroot-purée.jpg",
     "description": "Grilled chicken breast plated with crispy Hasselback potato, honey-glazed carrots, and smooth savoury beetroot purée.",
     "time": "1 hr 15 min",
     "difficulty": "Medium"
@@ -734,7 +734,7 @@
     "title": "Chicken à la King",
     "category": "Continental",
     "file": "data/continental/chicken-a-la-king.json",
-    "image": "assets/images/continental/chicken-à-la-king.png",
+    "image": "assets/images/continental/chicken-à-la-king.jpg",
     "description": "Tender chicken in a creamy velouté sauce with mushrooms, peppers, and herbs, served in a classic continental style.",
     "time": "50 min",
     "difficulty": "Medium"
@@ -744,7 +744,7 @@
     "title": "Buffalo Wings",
     "category": "Continental",
     "file": "data/continental/buffalo-wings.json",
-    "image": "assets/images/continental/buffalo-wings.png",
+    "image": "assets/images/continental/buffalo-wings.jpg",
     "description": "Extra crispy fried chicken wings tossed in a classic buttery Buffalo sauce and served with blue cheese dressing and fresh vegetables.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -754,7 +754,7 @@
     "title": "Cream of Mushroom Soup",
     "category": "Continental",
     "file": "data/continental/cream-of-mushroom-soup.json",
-    "image": "assets/images/continental/cream-of-mushroom-soup.png",
+    "image": "assets/images/continental/cream-of-mushroom-soup.jpg",
     "description": "A smooth and creamy mushroom soup prepared with sautéed mushrooms, herbs, stock, and fresh cream.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -764,7 +764,7 @@
     "title": "Egg Mayonnaise",
     "category": "Continental",
     "file": "data/continental/egg-mayonnaise.json",
-    "image": "assets/images/continental/egg-mayonnaise.png",
+    "image": "assets/images/continental/egg-mayonnaise.jpg",
     "description": "Perfectly cooked eggs served with silky homemade mayonnaise, capers, herbs, and elegant continental garnishes.",
     "time": "25 min",
     "difficulty": "Easy"
@@ -774,7 +774,7 @@
     "title": "Chicken Soup",
     "category": "Continental",
     "file": "data/continental/chicken-soup.json",
-    "image": "assets/images/continental/chicken-soup.png",
+    "image": "assets/images/continental/chicken-soup.jpg",
     "description": "A comforting European-style chicken soup prepared with clarified homemade stock, tender chicken, vegetables, and fresh herbs.",
     "time": "1 hr 35 min",
     "difficulty": "Medium"
@@ -784,7 +784,7 @@
     "title": "Chicken à la Kiev",
     "category": "Continental",
     "file": "data/continental/chicken-a-la-kiev.json",
-    "image": "assets/images/continental/chicken-a-la-kiev.png",
+    "image": "assets/images/continental/chicken-a-la-kiev.jpg",
     "description": "Classic breaded chicken breast filled with garlic-herb butter that melts into a rich, flavorful center when sliced.",
     "time": "1 hr 5 min",
     "difficulty": "Hard"
@@ -794,7 +794,7 @@
     "title": "Niçoise Salad",
     "category": "Continental",
     "file": "data/continental/nicoise-salad.json",
-    "image": "assets/images/continental/niçoise-salad.png",
+    "image": "assets/images/continental/niçoise-salad.jpg",
     "description": "A classic French salad featuring seared tuna, potatoes, green beans, olives, eggs, tomatoes, and a Dijon vinaigrette.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -804,7 +804,7 @@
     "title": "Crispy Chicken Strips with Garlic-Herb Aioli",
     "category": "Continental",
     "file": "data/continental/crispy-chicken-strips-with-garlic-herb-aioli.json",
-    "image": "assets/images/continental/crispy-chicken-strips-with-garlic-herb-aioli.png",
+    "image": "assets/images/continental/crispy-chicken-strips-with-garlic-herb-aioli.jpg",
     "description": "Golden crispy chicken strips served with a creamy roasted garlic and herb aioli for a restaurant-style appetizer or main.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -814,37 +814,37 @@
     "title": "Waffle",
     "category": "Continental",
     "file": "data/continental/waffle.json",
-    "image": "assets/images/continental/waffle.png",
+    "image": "assets/images/continental/waffle.jpg",
     "description": "Light, fluffy, and crisp homemade waffles served with classic toppings like maple syrup, berries, whipped cream, or chocolate sauce.",
     "time": "25 min",
     "difficulty": "Easy"
   },
   {
-  "id": 384,
-  "title": "Bouquet Garni",
-  "category": "Continental",
-  "file": "data/continental/bouquet-garni.json",
-  "image": "assets/images/continental/bouquet-garni.png",
-  "description": "A classic bundle of fresh herbs used to infuse stocks, soups, sauces, and stews with delicate aromatic flavor in French cuisine.",
-  "time": "5 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 385,
-  "title": "Mirepoix",
-  "category": "Continental",
-  "file": "data/continental/mirepoix.json",
-  "image": "assets/images/continental/mirepoix.png",
-  "description": "The traditional French aromatic vegetable base of onion, carrot, and celery, essential for building depth in stocks, soups, sauces, and braises.",
-  "time": "10 min",
-  "difficulty": "Easy"
-},
+    "id": 384,
+    "title": "Bouquet Garni",
+    "category": "Continental",
+    "file": "data/continental/bouquet-garni.json",
+    "image": "assets/images/continental/bouquet-garni.jpg",
+    "description": "A classic bundle of fresh herbs used to infuse stocks, soups, sauces, and stews with delicate aromatic flavor in French cuisine.",
+    "time": "5 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 385,
+    "title": "Mirepoix",
+    "category": "Continental",
+    "file": "data/continental/mirepoix.json",
+    "image": "assets/images/continental/mirepoix.jpg",
+    "description": "The traditional French aromatic vegetable base of onion, carrot, and celery, essential for building depth in stocks, soups, sauces, and braises.",
+    "time": "10 min",
+    "difficulty": "Easy"
+  },
   {
     "id": 387,
     "title": "Béchamel Sauce (White Sauce)",
     "category": "Continental",
     "file": "data/continental/bechamel-sauce-white-sauce.json",
-    "image": "assets/images/continental/béchamel-sauce.png",
+    "image": "assets/images/continental/béchamel-sauce.jpg",
     "description": "Classic French white mother sauce made with butter, flour, and milk.",
     "time": "20 min",
     "difficulty": "Easy"
@@ -854,7 +854,7 @@
     "title": "Velouté Sauce",
     "category": "Continental",
     "file": "data/continental/veloute-sauce.json",
-    "image": "assets/images/continental/velouté-sauce.png",
+    "image": "assets/images/continental/velouté-sauce.jpg",
     "description": "Classic French mother sauce prepared with a blond roux and white stock.",
     "time": "35 min",
     "difficulty": "Easy"
@@ -864,7 +864,7 @@
     "title": "Espagnole Sauce (Brown Sauce)",
     "category": "Continental",
     "file": "data/continental/espagnole-sauce-brown-sauce.json",
-    "image": "assets/images/continental/espagnole-sauce.png",
+    "image": "assets/images/continental/espagnole-sauce.jpg",
     "description": "Rich French brown mother sauce made with brown roux, mirepoix, and stock.",
     "time": "1 hr 15 min",
     "difficulty": "Medium"
@@ -874,7 +874,7 @@
     "title": "Tomate Sauce",
     "category": "Continental",
     "file": "data/continental/tomato-sauce.json",
-    "image": "assets/images/continental/tomate-sauce.png",
+    "image": "assets/images/continental/tomate-sauce.jpg",
     "description": "Classic French tomato mother sauce with herbs, mirepoix, and stock.",
     "time": "1 hr 15 min",
     "difficulty": "Easy"
@@ -884,7 +884,7 @@
     "title": "Hollandaise Sauce",
     "category": "Continental",
     "file": "data/continental/hollandaise-sauce.json",
-    "image": "assets/images/continental/hollandaise-sauce.png",
+    "image": "assets/images/continental/hollandaise-sauce.jpg",
     "description": "Rich emulsified French mother sauce made with egg yolks, butter, and lemon.",
     "time": "20 min",
     "difficulty": "Medium"
@@ -894,7 +894,7 @@
     "title": "Mayonnaise",
     "category": "Continental",
     "file": "data/continental/mayonnaise.json",
-    "image": "assets/images/continental/mayonnaise.png",
+    "image": "assets/images/continental/mayonnaise.jpg",
     "description": "Classic cold emulsified French mother sauce made with egg yolk and oil.",
     "time": "10 min",
     "difficulty": "Easy"
