@@ -4,7 +4,7 @@
     "title": "Chicken Chettinad",
     "category": "Indian",
     "file": "data/indian/chicken-chettinad.json",
-    "image": "assets/images/indian/chicken-chettinad.png",
+    "image": "assets/images/indian/chicken-chettinad.jpg",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -13,7 +13,7 @@
     "title": "Ven Pongal",
     "category": "Indian",
     "file": "data/indian/ven-pongal.json",
-    "image": "assets/images/indian/ven-pongal.png",
+    "image": "assets/images/indian/ven-pongal.jpg",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -22,7 +22,7 @@
     "title": "Puri",
     "category": "Indian",
     "file": "data/indian/puri.json",
-    "image": "assets/images/indian/puri.png",
+    "image": "assets/images/indian/puri.jpg",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -31,7 +31,7 @@
     "title": "Brown Gravy",
     "category": "Indian",
     "file": "data/indian/brown-gravy.json",
-    "image": "assets/images/indian/brown-gravy.png",
+    "image": "assets/images/indian/brown-gravy.jpg",
     "time": "90 min",
     "difficulty": ""
   },
@@ -40,7 +40,7 @@
     "title": "Red Gravy",
     "category": "Indian",
     "file": "data/indian/red-gravy.json",
-    "image": "assets/images/indian/red-gravy.png",
+    "image": "assets/images/indian/red-gravy.jpg",
     "time": "90 min",
     "difficulty": ""
   },
@@ -49,7 +49,7 @@
     "title": "Makhani Gravy",
     "category": "Indian",
     "file": "data/indian/makhani-gravy.json",
-    "image": "assets/images/indian/makhani-gravy.png",
+    "image": "assets/images/indian/makhani-gravy.jpg",
     "time": "90 min",
     "difficulty": ""
   },
@@ -58,7 +58,7 @@
     "title": "White Gravy",
     "category": "Indian",
     "file": "data/indian/white-gravy.json",
-    "image": "assets/images/indian/white-gravy.png",
+    "image": "assets/images/indian/white-gravy.jpg",
     "time": "90 min",
     "difficulty": ""
   },
@@ -67,7 +67,7 @@
     "title": "Aloo Tikki",
     "category": "Indian",
     "file": "data/indian/aloo-tikki.json",
-    "image": "assets/images/indian/aloo-tikki.png",
+    "image": "assets/images/indian/aloo-tikki.jpg",
     "time": "20 min",
     "difficulty": "Easy"
   },
@@ -76,7 +76,7 @@
     "title": "Aloo Chaat",
     "category": "Indian",
     "file": "data/indian/aloo-chaat.json",
-    "image": "assets/images/indian/aloo-chaat.png",
+    "image": "assets/images/indian/aloo-chaat.jpg",
     "time": "35 min",
     "difficulty": "Easy"
   },
@@ -85,7 +85,7 @@
     "title": "Samosa",
     "category": "Indian",
     "file": "data/indian/samosa.json",
-    "image": "assets/images/indian/samosa.png",
+    "image": "assets/images/indian/samosa.jpg",
     "time": "45 min",
     "difficulty": "Medium"
   },
@@ -94,7 +94,7 @@
     "title": "Pakoda (Onion Base)",
     "category": "Indian",
     "file": "data/indian/pakoda-onion-base.json",
-    "image": "assets/images/indian/pakoda-onion-base.png",
+    "image": "assets/images/indian/pakoda-onion-base.jpg",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -103,7 +103,7 @@
     "title": "Vegetable Pakoda",
     "category": "Indian",
     "file": "data/indian/vegetable-pakoda-fritters.json",
-    "image": "assets/images/indian/vegetable-pakoda-fritters.png",
+    "image": "assets/images/indian/vegetable-pakoda-fritters.jpg",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -112,7 +112,7 @@
     "title": "Veg-Pakoda",
     "category": "Indian",
     "file": "data/indian/vegetable-pakoda.json",
-    "image": "assets/images/indian/vegetable-pakoda.png",
+    "image": "assets/images/indian/vegetable-pakoda.jpg",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -121,7 +121,7 @@
     "title": "Bread Pakoda",
     "category": "Indian",
     "file": "data/indian/bread-pakoda.json",
-    "image": "assets/images/indian/bread-pakoda.png",
+    "image": "assets/images/indian/bread-pakoda.jpg",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -130,7 +130,7 @@
     "title": "Vegetable Cutlets",
     "category": "Indian",
     "file": "data/indian/vegetable-cutlets.json",
-    "image": "assets/images/indian/vegetable-cutlets.png",
+    "image": "assets/images/indian/vegetable-cutlets.jpg",
     "time": "40 min",
     "difficulty": "Easy"
   },
@@ -139,7 +139,7 @@
     "title": "Hara Bhara Kebab",
     "category": "Indian",
     "file": "data/indian/hara-bhara-kebab.json",
-    "image": "assets/images/indian/hara-bhara-kebab.png",
+    "image": "assets/images/indian/hara-bhara-kebab.jpg",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -148,7 +148,7 @@
     "title": "Aloo Chop",
     "category": "Indian",
     "file": "data/indian/aloo-chop.json",
-    "image": "assets/images/indian/aloo-chop.png",
+    "image": "assets/images/indian/aloo-chop.jpg",
     "time": "45 min",
     "difficulty": "Medium"
   },
@@ -157,7 +157,7 @@
     "title": "Paneer Tikka",
     "category": "Indian",
     "file": "data/indian/paneer-tikka.json",
-    "image": "assets/images/indian/paneer-tikka.png",
+    "image": "assets/images/indian/paneer-tikka.jpg",
     "time": "20 min",
     "difficulty": "Medium"
   },
@@ -166,7 +166,7 @@
     "title": "Chicken Tikka",
     "category": "Indian",
     "file": "data/indian/chicken-tikka.json",
-    "image": "assets/images/indian/chicken-tikka.png",
+    "image": "assets/images/indian/chicken-tikka.jpg",
     "time": "20 min",
     "difficulty": "Medium"
   },
@@ -175,7 +175,7 @@
     "title": "Seekh Kebab",
     "category": "Indian",
     "file": "data/indian/seekh-kebab.json",
-    "image": "assets/images/indian/seekh-kebab.png",
+    "image": "assets/images/indian/seekh-kebab.jpg",
     "time": "25 min",
     "difficulty": "Medium"
   },
@@ -184,7 +184,7 @@
     "title": "Chicken Seekh Kabab",
     "category": "Indian",
     "file": "data/indian/chicken-seekh-kabab.json",
-    "image": "assets/images/indian/chicken-seekh-kabab.png",
+    "image": "assets/images/indian/chicken-seekh-kabab.jpg",
     "time": "25 min",
     "difficulty": "Medium"
   },
@@ -193,7 +193,7 @@
     "title": "Reshmi Kabab",
     "category": "Indian",
     "file": "data/indian/reshmi-kabab.json",
-    "image": "assets/images/indian/reshmi-kabab.png",
+    "image": "assets/images/indian/reshmi-kabab.jpg",
     "time": "20 min",
     "difficulty": "Medium"
   },
@@ -202,7 +202,7 @@
     "title": "Chicken Boti Kabab",
     "category": "Indian",
     "file": "data/indian/chicken-boti-kabab.json",
-    "image": "assets/images/indian/chicken-boti-kabab.png",
+    "image": "assets/images/indian/chicken-boti-kabab.jpg",
     "time": "20 min",
     "difficulty": "Medium"
   },
@@ -211,7 +211,7 @@
     "title": "Paneer Shami Kebab",
     "category": "Indian",
     "file": "data/indian/paneer-shami-kebab.json",
-    "image": "assets/images/indian/paneer-shami-kebab.png",
+    "image": "assets/images/indian/paneer-shami-kebab.jpg",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -220,7 +220,7 @@
     "title": "Tomato Shorba",
     "category": "Indian",
     "file": "data/indian/tomato-shorba.json",
-    "image": "assets/images/indian/tomato-shorba.png",
+    "image": "assets/images/indian/tomato-shorba.jpg",
     "time": "15 min",
     "difficulty": "Easy"
   },
@@ -229,7 +229,7 @@
     "title": "Mulligatawny Soup",
     "category": "Indian",
     "file": "data/indian/mulligatawny-soup.json",
-    "image": "assets/images/indian/mulligatawny-soup.png",
+    "image": "assets/images/indian/mulligatawny-soup.jpg",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -238,7 +238,7 @@
     "title": "Chicken Sorba",
     "category": "Indian",
     "file": "data/indian/chicken-sorba.json",
-    "image": "assets/images/indian/chicken-sorba.png",
+    "image": "assets/images/indian/chicken-sorba.jpg",
     "time": "50 min",
     "difficulty": "Medium"
   },
@@ -247,7 +247,7 @@
     "title": "Paya Sorba",
     "category": "Indian",
     "file": "data/indian/paya-sorba.json",
-    "image": "assets/images/indian/paya-sorba.png",
+    "image": "assets/images/indian/paya-sorba.jpg",
     "time": "3–4 hrs",
     "difficulty": "Hard"
   },
@@ -256,7 +256,7 @@
     "title": "Rasam",
     "category": "Indian",
     "file": "data/indian/rasam.json",
-    "image": "assets/images/indian/rasam.png",
+    "image": "assets/images/indian/rasam.jpg",
     "time": "25 min",
     "difficulty": "Easy"
   },
@@ -265,7 +265,7 @@
     "title": "Pani Puri",
     "category": "Indian",
     "file": "data/indian/pani-puri-golgappa.json",
-    "image": "assets/images/indian/pani-puri-golgappa.png",
+    "image": "assets/images/indian/pani-puri-golgappa.jpg",
     "time": "1 hr 30 mins",
     "difficulty": "Medium"
   },
@@ -274,7 +274,7 @@
     "title": "Pani Puri Masala",
     "category": "Indian",
     "file": "data/indian/pani-puri-masala.json",
-    "image": "assets/images/indian/pani-puri-masala.png",
+    "image": "assets/images/indian/pani-puri-masala.jpg",
     "time": "30 mins + 1 hr chilling",
     "difficulty": "Easy"
   },
@@ -283,7 +283,7 @@
     "title": "Rava Kesari",
     "category": "Indian",
     "file": "data/indian/rava-kesari.json",
-    "image": "assets/images/indian/rava-kesari.png",
+    "image": "assets/images/indian/rava-kesari.jpg",
     "time": "35 min",
     "difficulty": "Easy"
   },
@@ -292,7 +292,7 @@
     "title": "Sandesh",
     "category": "Indian",
     "file": "data/indian/sandesh.json",
-    "image": "assets/images/indian/sandesh.png",
+    "image": "assets/images/indian/sandesh.jpg",
     "time": "60 min",
     "difficulty": "Medium"
   },
@@ -301,7 +301,7 @@
     "title": "Bengali Chenna Rasgulla (Angoor)",
     "category": "Indian",
     "file": "data/indian/bengali-chenna-rasgulla.json",
-    "image": "assets/images/indian/bengali-chenna-rasgulla.png",
+    "image": "assets/images/indian/bengali-chenna-rasgulla.jpg",
     "time": "70 min",
     "difficulty": "Medium"
   },
@@ -310,7 +310,7 @@
     "title": "Peda",
     "category": "Indian",
     "file": "data/indian/peda.json",
-    "image": "assets/images/indian/peda.png",
+    "image": "assets/images/indian/peda.jpg",
     "time": "40 min",
     "difficulty": "Easy"
   },
@@ -319,7 +319,7 @@
     "title": "Motichoor Ladoo",
     "category": "Indian",
     "file": "data/indian/motichoor-ladoo.json",
-    "image": "assets/images/indian/motichoor-ladoo.png",
+    "image": "assets/images/indian/motichoor-ladoo.jpg",
     "time": "60 min",
     "difficulty": "Medium"
   },
@@ -328,7 +328,7 @@
     "title": "Jalebi",
     "category": "Indian",
     "file": "data/indian/jalebi.json",
-    "image": "assets/images/indian/jalebi.png",
+    "image": "assets/images/indian/jalebi.jpg",
     "time": "12 hr",
     "difficulty": "Medium"
   },
@@ -337,7 +337,7 @@
     "title": "Kulfi",
     "category": "Indian",
     "file": "data/indian/kulfi.json",
-    "image": "assets/images/indian/kulfi.png",
+    "image": "assets/images/indian/kulfi.jpg",
     "time": "8 hr",
     "difficulty": "Easy"
   },
@@ -346,7 +346,7 @@
     "title": "Badam Barfi",
     "category": "Indian",
     "file": "data/indian/badam-barfi.json",
-    "image": "assets/images/indian/badam-barfi.png",
+    "image": "assets/images/indian/badam-barfi.jpg",
     "time": "60 min",
     "difficulty": "Medium"
   },
@@ -355,7 +355,7 @@
     "title": "Doodh Barfi",
     "category": "Indian",
     "file": "data/indian/doodh-barfi.json",
-    "image": "assets/images/indian/doodh-barfi.png",
+    "image": "assets/images/indian/doodh-barfi.jpg",
     "time": "90 min",
     "difficulty": "Medium"
   },
@@ -364,7 +364,7 @@
     "title": "Kaju Katli",
     "category": "Indian",
     "file": "data/indian/kaju-katli.json",
-    "image": "assets/images/indian/kajukatli.png",
+    "image": "assets/images/indian/kajukatli.jpg",
     "time": "45 min",
     "difficulty": "Medium"
   },
@@ -373,7 +373,7 @@
     "title": "Classic Bengali Sandesh",
     "category": "Indian",
     "file": "data/indian/classic-bengali-sandesh.json",
-    "image": "assets/images/indian/classic-bengali-sandesh.png",
+    "image": "assets/images/indian/classic-bengali-sandesh.jpg",
     "time": "60 min",
     "difficulty": "Medium"
   },
@@ -382,7 +382,7 @@
     "title": "Kalakand",
     "category": "Indian",
     "file": "data/indian/kalakand.json",
-    "image": "assets/images/indian/kalakand.png",
+    "image": "assets/images/indian/kalakand.jpg",
     "time": "90 min",
     "difficulty": "Medium"
   },
@@ -391,7 +391,7 @@
     "title": "Besan Barfi",
     "category": "Indian",
     "file": "data/indian/besan-barfi.json",
-    "image": "assets/images/indian/besan-barfi.png",
+    "image": "assets/images/indian/besan-barfi.jpg",
     "time": "50 min",
     "difficulty": "Medium"
   },
@@ -400,7 +400,7 @@
     "title": "Kopra Paak",
     "category": "Indian",
     "file": "data/indian/kopra-paak.json",
-    "image": "assets/images/indian/kopra-paak.png",
+    "image": "assets/images/indian/kopra-paak.jpg",
     "time": "50 min",
     "difficulty": "Medium"
   },
@@ -409,7 +409,7 @@
     "title": "Suji Halwa",
     "category": "Indian",
     "file": "data/indian/suji-halawa.json",
-    "image": "assets/images/indian/suji-halawa.png",
+    "image": "assets/images/indian/suji-halawa.jpg",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -418,7 +418,7 @@
     "title": "Rasmalai",
     "category": "Indian",
     "file": "data/indian/rasmalai.json",
-    "image": "assets/images/indian/rasmalai.png",
+    "image": "assets/images/indian/rasmalai.jpg",
     "time": "90 min",
     "difficulty": "Medium"
   },
@@ -427,7 +427,7 @@
     "title": "Gulab Jamun",
     "category": "Indian",
     "file": "data/indian/gulab-jamun.json",
-    "image": "assets/images/indian/gulab-jamun.png",
+    "image": "assets/images/indian/gulab-jamun.jpg",
     "time": "60 min",
     "difficulty": "Medium"
   },
@@ -436,7 +436,7 @@
     "title": "Churma Ladoo",
     "category": "Indian",
     "file": "data/indian/churma-ladoo.json",
-    "image": "assets/images/indian/churmaladoo.png",
+    "image": "assets/images/indian/churmaladoo.jpg",
     "time": "60 min",
     "difficulty": "Medium"
   },
@@ -445,7 +445,7 @@
     "title": "Rava Coconut Laddu",
     "category": "Indian",
     "file": "data/indian/rava-coconut-laddu.json",
-    "image": "assets/images/indian/rava-coconut-laddu.png",
+    "image": "assets/images/indian/rava-coconut-laddu.jpg",
     "time": "35 min",
     "difficulty": "Easy"
   },
@@ -454,7 +454,7 @@
     "title": "Mysore Pak",
     "category": "Indian",
     "file": "data/indian/mysore-pak.json",
-    "image": "assets/images/indian/mysore-pak.png",
+    "image": "assets/images/indian/mysore-pak.jpg",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -463,7 +463,7 @@
     "title": "Gajar Ka Halwa",
     "category": "Indian",
     "file": "data/indian/gajar-ka-halwa.json",
-    "image": "assets/images/indian/gajar-ka-halwa.png",
+    "image": "assets/images/indian/gajar-ka-halwa.jpg",
     "time": "100 min",
     "difficulty": "Medium"
   },
@@ -472,7 +472,7 @@
     "title": "Kheer",
     "category": "Indian",
     "file": "data/indian/kheer.json",
-    "image": "assets/images/indian/kheer.png",
+    "image": "assets/images/indian/kheer.jpg",
     "time": "60 min",
     "difficulty": "Easy"
   },
@@ -481,7 +481,7 @@
     "title": "Shahi Tukda",
     "category": "Indian",
     "file": "data/indian/shahi-tukda.json",
-    "image": "assets/images/indian/shahi-tukda.png",
+    "image": "assets/images/indian/shahi-tukda.jpg",
     "time": "60 min",
     "difficulty": "Medium"
   },
@@ -490,7 +490,7 @@
     "title": "Medu Vada",
     "category": "Indian",
     "file": "data/indian/medu-vada.json",
-    "image": "assets/images/indian/medu-vada.png",
+    "image": "assets/images/indian/medu-vada.jpg",
     "time": "5 hr",
     "difficulty": "Medium"
   },
@@ -499,7 +499,7 @@
     "title": "Mint Chutney",
     "category": "Indian",
     "file": "data/indian/mint-chutney.json",
-    "image": "assets/images/indian/mint-chutney.png",
+    "image": "assets/images/indian/mint-chutney.jpg",
     "time": "10 min",
     "difficulty": "Easy"
   },
@@ -508,7 +508,7 @@
     "title": "Dhaniya Chutney",
     "category": "Indian",
     "file": "data/indian/dhaniya-chutney.json",
-    "image": "assets/images/indian/dhaniya-chutney.png",
+    "image": "assets/images/indian/dhaniya-chutney.jpg",
     "time": "10 min",
     "difficulty": "Easy"
   },
@@ -517,7 +517,7 @@
     "title": "Tomato Chutney",
     "category": "Indian",
     "file": "data/indian/tomato-chutney.json",
-    "image": "assets/images/indian/tomato-chutney.png",
+    "image": "assets/images/indian/tomato-chutney.jpg",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -526,7 +526,7 @@
     "title": "Kachumber Salad",
     "category": "Indian",
     "file": "data/indian/kachumber-salad.json",
-    "image": "assets/images/indian/kachumber-salad.png",
+    "image": "assets/images/indian/kachumber-salad.jpg",
     "time": "10 min",
     "difficulty": "Easy"
   },
@@ -535,7 +535,7 @@
     "title": "Mixed Vegetable Salad",
     "category": "Indian",
     "file": "data/indian/mixed-vegetable-salad.json",
-    "image": "assets/images/indian/mixed-vegetable-salad.png",
+    "image": "assets/images/indian/mixed-vegetable-salad.jpg",
     "time": "15 min",
     "difficulty": "Easy"
   },
@@ -544,7 +544,7 @@
     "title": "Raita",
     "category": "Indian",
     "file": "data/indian/raita.json",
-    "image": "assets/images/indian/raita.png",
+    "image": "assets/images/indian/raita.jpg",
     "time": "10 min",
     "difficulty": "Easy"
   },
@@ -553,7 +553,7 @@
     "title": "Boondi Raita",
     "category": "Indian",
     "file": "data/indian/boondi-raita.json",
-    "image": "assets/images/indian/boondi-raita.png",
+    "image": "assets/images/indian/boondi-raita.jpg",
     "time": "20 min",
     "difficulty": "Easy"
   },
@@ -562,7 +562,7 @@
     "title": "Fried Green Chili",
     "category": "Indian",
     "file": "data/indian/fried-green-chili.json",
-    "image": "assets/images/indian/fried-green-chili.png",
+    "image": "assets/images/indian/fried-green-chili.jpg",
     "time": "25 min",
     "difficulty": "Medium"
   },
@@ -571,7 +571,7 @@
     "title": "Coconut Chutney",
     "category": "Indian",
     "file": "data/indian/coconut-chutney.json",
-    "image": "assets/images/indian/coconut-chutney.png",
+    "image": "assets/images/indian/coconut-chutney.jpg",
     "time": "15 min",
     "difficulty": "Easy"
   },
@@ -580,7 +580,7 @@
     "title": "Poriyal",
     "category": "Indian",
     "file": "data/indian/poriyal.json",
-    "image": "assets/images/indian/poriyal.png",
+    "image": "assets/images/indian/poriyal.jpg",
     "time": "20 min",
     "difficulty": "Medium"
   },
@@ -589,7 +589,7 @@
     "title": "Poriyal (Michelin-Style)",
     "category": "Indian",
     "file": "data/indian/poriyal-michelin-style.json",
-    "image": "assets/images/indian/poriyal-michelin-style.png",
+    "image": "assets/images/indian/poriyal-michelin-style.jpg",
     "time": "25 min",
     "difficulty": "Medium"
   },
@@ -598,7 +598,7 @@
     "title": "Aloo Matar Bhaji (Dry Potato & Peas Curry)",
     "category": "Indian",
     "file": "data/indian/aloo-matar-bhaji.json",
-    "image": "assets/images/indian/aloo-matar-bhaji.png",
+    "image": "assets/images/indian/aloo-matar-bhaji.jpg",
     "time": "40 min",
     "difficulty": "Easy",
     "servings": 4
@@ -608,7 +608,7 @@
     "title": "Classic Chole (Chickpea Curry)",
     "category": "Indian",
     "file": "data/indian/classic-chole.json",
-    "image": "assets/images/indian/classic-chole.png",
+    "image": "assets/images/indian/classic-chole.jpg",
     "time": "1 hr",
     "difficulty": "Medium",
     "servings": 4
@@ -618,7 +618,7 @@
     "title": "Rajma Masala",
     "category": "Indian",
     "file": "data/indian/rajma-masala.json",
-    "image": "assets/images/indian/rajma-masala.png",
+    "image": "assets/images/indian/rajma-masala.jpg",
     "time": "1 hr",
     "difficulty": "Medium",
     "servings": 4
@@ -628,7 +628,7 @@
     "title": "Dal Tadka",
     "category": "Indian",
     "file": "data/indian/dal-tadka.json",
-    "image": "assets/images/indian/dal-tadka.png",
+    "image": "assets/images/indian/dal-tadka.jpg",
     "time": "55 min",
     "difficulty": "Easy",
     "servings": 5
@@ -638,7 +638,7 @@
     "title": "Dal Makhani",
     "category": "Indian",
     "file": "data/indian/dal-makhani.json",
-    "image": "assets/images/indian/dal-makhani.png",
+    "image": "assets/images/indian/dal-makhani.jpg",
     "time": "3 hrs",
     "difficulty": "Medium",
     "servings": 6
@@ -648,7 +648,7 @@
     "title": "Chana Masala",
     "category": "Indian",
     "file": "data/indian/chana-masala.json",
-    "image": "assets/images/indian/chana-masala.png",
+    "image": "assets/images/indian/chana-masala.jpg",
     "time": "1 hr 20 min",
     "difficulty": "Medium",
     "servings": 4
@@ -658,7 +658,7 @@
     "title": "Aloo Dum (Spicy Potato Curry)",
     "category": "Indian",
     "file": "data/indian/aloo-dum.json",
-    "image": "assets/images/indian/aloo-dum.png",
+    "image": "assets/images/indian/aloo-dum.jpg",
     "time": "45 min",
     "difficulty": "Medium",
     "servings": 4
@@ -668,7 +668,7 @@
     "title": "Dahi Aloo",
     "category": "Indian",
     "file": "data/indian/dahi-aloo.json",
-    "image": "assets/images/indian/dahi-aloo.png",
+    "image": "assets/images/indian/dahi-aloo.jpg",
     "time": "40 min",
     "difficulty": "Medium",
     "servings": 3
@@ -678,7 +678,7 @@
     "title": "Baingan Bharta (Smoky Mashed Eggplant)",
     "category": "Indian",
     "file": "data/indian/baingan-bharta.json",
-    "image": "assets/images/indian/baingan-bharta.png",
+    "image": "assets/images/indian/baingan-bharta.jpg",
     "time": "45 min",
     "difficulty": "Medium",
     "servings": 4
@@ -688,7 +688,7 @@
     "title": "Gobi Masala (Cauliflower Masala)",
     "category": "Indian",
     "file": "data/indian/gobi-masala.json",
-    "image": "assets/images/indian/gobi-masala.png",
+    "image": "assets/images/indian/gobi-masala.jpg",
     "time": "40 min",
     "difficulty": "Medium",
     "servings": 4
@@ -698,7 +698,7 @@
     "title": "Aloo Gobi (Potato & Cauliflower Curry)",
     "category": "Indian",
     "file": "data/indian/aloo-gobi.json",
-    "image": "assets/images/indian/aloo-gobi.png",
+    "image": "assets/images/indian/aloo-gobi.jpg",
     "time": "40 min",
     "difficulty": "Medium",
     "servings": 4
@@ -708,7 +708,7 @@
     "title": "Matar Paneer (Peas and Cottage Cheese Curry)",
     "category": "Indian",
     "file": "data/indian/matar-paneer.json",
-    "image": "assets/images/indian/matar-paneer.png",
+    "image": "assets/images/indian/matar-paneer.jpg",
     "time": "45 min",
     "difficulty": "Medium",
     "servings": 4
@@ -718,7 +718,7 @@
     "title": "Palak Paneer (Spinach with Cottage Cheese)",
     "category": "Indian",
     "file": "data/indian/palak-paneer.json",
-    "image": "assets/images/indian/palak-paneer.png",
+    "image": "assets/images/indian/palak-paneer.jpg",
     "time": "40 min",
     "difficulty": "Medium",
     "servings": 4
@@ -728,7 +728,7 @@
     "title": "Paneer Butter Masala",
     "category": "Indian",
     "file": "data/indian/paneer-butter-masala.json",
-    "image": "assets/images/indian/paneer-butter-masala.png",
+    "image": "assets/images/indian/paneer-butter-masala.jpg",
     "time": "45 min",
     "difficulty": "Medium",
     "servings": 4
@@ -738,7 +738,7 @@
     "title": "Vegetable Korma",
     "category": "Indian",
     "file": "data/indian/vegetable-korma.json",
-    "image": "assets/images/indian/vegetable-korma.png",
+    "image": "assets/images/indian/vegetable-korma.jpg",
     "time": "35 min",
     "difficulty": ""
   },
@@ -747,7 +747,7 @@
     "title": "Vegetable Jhalfrezi",
     "category": "Indian",
     "file": "data/indian/vegetable-jhalfrezi.json",
-    "image": "assets/images/indian/vegetable-jhalfrezi.png",
+    "image": "assets/images/indian/vegetable-jhalfrezi.jpg",
     "time": "25 min",
     "difficulty": ""
   },
@@ -756,7 +756,7 @@
     "title": "Malai Kofta Curry",
     "category": "Indian",
     "file": "data/indian/malai-kofta-curry.json",
-    "image": "assets/images/indian/malai-kofta-curry.png",
+    "image": "assets/images/indian/malai-kofta-curry.jpg",
     "time": "45 min",
     "difficulty": ""
   },
@@ -765,7 +765,7 @@
     "title": "Chicken Shahi Korma",
     "category": "Indian",
     "file": "data/indian/chicken-shahi-korma.json",
-    "image": "assets/images/indian/chicken-shahi-korma.png",
+    "image": "assets/images/indian/chicken-shahi-korma.jpg",
     "time": "60 min",
     "difficulty": ""
   },
@@ -774,7 +774,7 @@
     "title": "Chicken Curry",
     "category": "Indian",
     "file": "data/indian/chicken-curry.json",
-    "image": "assets/images/indian/chicken-curry.png",
+    "image": "assets/images/indian/chicken-curry.jpg",
     "time": "60 min",
     "difficulty": ""
   },
@@ -783,7 +783,7 @@
     "title": "Chicken Tikka Masala",
     "category": "Indian",
     "file": "data/indian/chicken-tikka-masala.json",
-    "image": "assets/images/indian/chicken-tikka-masala.png",
+    "image": "assets/images/indian/chicken-tikka-masala.jpg",
     "time": "45 min",
     "difficulty": ""
   },
@@ -792,7 +792,7 @@
     "title": "Kori Gassi (Mangalorean Chicken Curry)",
     "category": "Indian",
     "file": "data/indian/kori-gassi.json",
-    "image": "assets/images/indian/kori-gassi.png",
+    "image": "assets/images/indian/kori-gassi.jpg",
     "time": "50 min",
     "difficulty": ""
   },
@@ -801,7 +801,7 @@
     "title": "Hyderabadi Dum Biryani (Chicken)",
     "category": "Indian",
     "file": "data/indian/hyderabadi-dum-biryani.json",
-    "image": "assets/images/indian/hyderabadi-dum-biryani.png",
+    "image": "assets/images/indian/hyderabadi-dum-biryani.jpg",
     "time": "1–1.5 hr",
     "difficulty": ""
   },
@@ -810,7 +810,7 @@
     "title": "Chicken Biryani",
     "category": "Indian",
     "file": "data/indian/chicken-biryani.json",
-    "image": "assets/images/indian/chicken-biryani.png",
+    "image": "assets/images/indian/chicken-biryani.jpg",
     "time": "60 min",
     "difficulty": ""
   },
@@ -819,7 +819,7 @@
     "title": "Chicken Vindaloo (Goan-Style)",
     "category": "Indian",
     "file": "data/indian/chicken-vindaloo.json",
-    "image": "assets/images/indian/chicken-vindaloo.png",
+    "image": "assets/images/indian/chicken-vindaloo.jpg",
     "time": "1 hr",
     "difficulty": ""
   },
@@ -828,7 +828,7 @@
     "title": "Chicken Tandoori",
     "category": "Indian",
     "file": "data/indian/chicken-tandoori.json",
-    "image": "assets/images/indian/chicken-tandoori.png",
+    "image": "assets/images/indian/chicken-tandoori.jpg",
     "time": "45 min",
     "difficulty": ""
   },
@@ -837,7 +837,7 @@
     "title": "Tandoori Chicken",
     "category": "Indian",
     "file": "data/indian/tandoori-chicken.json",
-    "image": "assets/images/indian/tandoori-chicken.png",
+    "image": "assets/images/indian/tandoori-chicken.jpg",
     "time": "6–8 hr",
     "difficulty": ""
   },
@@ -846,7 +846,7 @@
     "title": "Pork Vindaloo",
     "category": "Indian",
     "file": "data/indian/pork-vindaloo.json",
-    "image": "assets/images/indian/pork-vindaloo.png",
+    "image": "assets/images/indian/pork-vindaloo.jpg",
     "time": "1 hr 15 min",
     "difficulty": ""
   },
@@ -855,7 +855,7 @@
     "title": "Fish Amritsari",
     "category": "Indian",
     "file": "data/indian/fish-amritsari.json",
-    "image": "assets/images/indian/fish-amritsari.png",
+    "image": "assets/images/indian/fish-amritsari.jpg",
     "time": "25 min",
     "difficulty": ""
   },
@@ -864,7 +864,7 @@
     "title": "Chicken 65",
     "category": "Indian",
     "file": "data/indian/chicken-65.json",
-    "image": "assets/images/indian/chicken-65.png",
+    "image": "assets/images/indian/chicken-65.jpg",
     "time": "45 min",
     "difficulty": ""
   },
@@ -873,7 +873,7 @@
     "title": "Fish Curry",
     "category": "Indian",
     "file": "data/indian/fish-curry.json",
-    "image": "assets/images/indian/fish-curry.png",
+    "image": "assets/images/indian/fish-curry.jpg",
     "time": "25 min",
     "difficulty": ""
   },
@@ -882,7 +882,7 @@
     "title": "Special Masala Fish Curry",
     "category": "Indian",
     "file": "data/indian/special-fish-curry.json",
-    "image": "assets/images/indian/special-fish-curry.png",
+    "image": "assets/images/indian/special-fish-curry.jpg",
     "time": "30 min",
     "difficulty": ""
   },
@@ -891,7 +891,7 @@
     "title": "Mutton Rogan Josh",
     "category": "Indian",
     "file": "data/indian/mutton-rogan-josh.json",
-    "image": "assets/images/indian/mutton-rogan-josh.png",
+    "image": "assets/images/indian/mutton-rogan-josh.jpg",
     "time": "1.5 hr",
     "difficulty": ""
   },
@@ -900,7 +900,7 @@
     "title": "Nargisi Kofta (Egg-Stuffed Meatballs)",
     "category": "Indian",
     "file": "data/indian/nargisi-kofta.json",
-    "image": "assets/images/indian/nargisi-kofta.png",
+    "image": "assets/images/indian/nargisi-kofta.jpg",
     "time": "45 min",
     "difficulty": ""
   },
@@ -909,7 +909,7 @@
     "title": "Ragi Mudde (Finger Millet Balls)",
     "category": "Indian",
     "file": "data/indian/ragi-mudde.json",
-    "image": "assets/images/indian/ragi-mudde.png",
+    "image": "assets/images/indian/ragi-mudde.jpg",
     "time": "20 min",
     "difficulty": "Medium"
   },
@@ -918,7 +918,7 @@
     "title": "Idli",
     "category": "Indian",
     "file": "data/indian/idli.json",
-    "image": "assets/images/indian/idli.png",
+    "image": "assets/images/indian/idli.jpg",
     "time": "12 hr 30 min",
     "difficulty": "Medium"
   },
@@ -927,7 +927,7 @@
     "title": "Idiyappam (String Hoppers)",
     "category": "Indian",
     "file": "data/indian/idiyappam.json",
-    "image": "assets/images/indian/idiyappam.png",
+    "image": "assets/images/indian/idiyappam.jpg",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -936,7 +936,7 @@
     "title": "Goan Sannas",
     "category": "Indian",
     "file": "data/indian/goan-sannas.json",
-    "image": "assets/images/indian/goan-sannas.png",
+    "image": "assets/images/indian/goan-sannas.jpg",
     "time": "8 hr 30 min",
     "difficulty": "Medium"
   },
@@ -945,7 +945,7 @@
     "title": "Neer Dosa",
     "category": "Indian",
     "file": "data/indian/neer-dosa.json",
-    "image": "assets/images/indian/neer-dosa.png",
+    "image": "assets/images/indian/neer-dosa.jpg",
     "time": "5 hr 15 min",
     "difficulty": "Easy"
   },
@@ -954,7 +954,7 @@
     "title": "Masala Dosa",
     "category": "Indian",
     "file": "data/indian/masala-dosa.json",
-    "image": "assets/images/indian/masala-dosa.png",
+    "image": "assets/images/indian/masala-dosa.jpg",
     "time": "14 hr",
     "difficulty": "Medium"
   },
@@ -963,7 +963,7 @@
     "title": "Dosa",
     "category": "Indian",
     "file": "data/indian/dosa.json",
-    "image": "assets/images/indian/dosa.png",
+    "image": "assets/images/indian/dosa.jpg",
     "time": "9 hr 30 min",
     "difficulty": "Medium"
   },
@@ -972,7 +972,7 @@
     "title": "Bhature",
     "category": "Indian",
     "file": "data/indian/bhature.json",
-    "image": "assets/images/indian/bhature.png",
+    "image": "assets/images/indian/bhature.jpg",
     "time": "2 hr 30 min",
     "difficulty": "Medium",
     "servings": 4
@@ -982,7 +982,7 @@
     "title": "Chole Bhature",
     "category": "Indian",
     "file": "data/indian/chole-bhature.json",
-    "image": "assets/images/indian/chole-bhature.png",
+    "image": "assets/images/indian/chole-bhature.jpg",
     "time": "1 hr",
     "difficulty": "Medium",
     "servings": 4
@@ -992,7 +992,7 @@
     "title": "Aloo Paratha",
     "category": "Indian",
     "file": "data/indian/aloo-paratha.json",
-    "image": "assets/images/indian/aloo-paratha.png",
+    "image": "assets/images/indian/aloo-paratha.jpg",
     "time": "50 min",
     "difficulty": "Easy",
     "servings": 4
@@ -1002,7 +1002,7 @@
     "title": "Puri Bhaji",
     "category": "Indian",
     "file": "data/indian/puri-bhaji.json",
-    "image": "assets/images/indian/puri-bhaji.png",
+    "image": "assets/images/indian/puri-bhaji.jpg",
     "time": "45 min",
     "difficulty": "Easy",
     "servings": 4
@@ -1012,7 +1012,7 @@
     "title": "Sambar",
     "category": "Indian",
     "file": "data/indian/sambar.json",
-    "image": "assets/images/indian/sambar.png",
+    "image": "assets/images/indian/sambar.jpg",
     "time": "45 min",
     "difficulty": "Medium",
     "servings": 6
@@ -1022,7 +1022,7 @@
     "title": "Curd Rice (Thayir Sadam)",
     "category": "Indian",
     "file": "data/indian/curd-rice.json",
-    "image": "assets/images/indian/curd-rice.png",
+    "image": "assets/images/indian/curd-rice.jpg",
     "time": "30 min",
     "difficulty": "Easy",
     "servings": 4
@@ -1032,7 +1032,7 @@
     "title": "Tomato Rice",
     "category": "Indian",
     "file": "data/indian/tomato-rice.json",
-    "image": "assets/images/indian/tomato-rice.png",
+    "image": "assets/images/indian/tomato-rice.jpg",
     "time": "45 min",
     "difficulty": "Medium",
     "servings": 4
@@ -1042,7 +1042,7 @@
     "title": "Lemon Rice",
     "category": "Indian",
     "file": "data/indian/lemon-rice.json",
-    "image": "assets/images/indian/lemon-rice.png",
+    "image": "assets/images/indian/lemon-rice.jpg",
     "time": "30 min",
     "difficulty": "Easy",
     "servings": 4
@@ -1052,7 +1052,7 @@
     "title": "Kashmiri Pulao",
     "category": "Indian",
     "file": "data/indian/kashmiri-pulao.json",
-    "image": "assets/images/indian/kashmiri-pulao.png",
+    "image": "assets/images/indian/kashmiri-pulao.jpg",
     "time": "45 min",
     "difficulty": "Medium",
     "servings": 4
@@ -1062,7 +1062,7 @@
     "title": "Vegetable Pulao",
     "category": "Indian",
     "file": "data/indian/vegetable-pulao.json",
-    "image": "assets/images/indian/vegetable-pulao.png",
+    "image": "assets/images/indian/vegetable-pulao.jpg",
     "time": "45 min",
     "difficulty": "Easy",
     "servings": 4
@@ -1072,7 +1072,7 @@
     "title": "Jeera Rice",
     "category": "Indian",
     "file": "data/indian/jeera-rice.json",
-    "image": "assets/images/indian/jeera-rice.png",
+    "image": "assets/images/indian/jeera-rice.jpg",
     "time": "25 min",
     "difficulty": "Easy",
     "servings": 4
@@ -1082,7 +1082,7 @@
     "title": "Plain Rice",
     "category": "Indian",
     "file": "data/indian/plain-rice.json",
-    "image": "assets/images/indian/plain-rice.png",
+    "image": "assets/images/indian/plain-rice.jpg",
     "time": "30 min",
     "difficulty": "Easy",
     "servings": 4
@@ -1092,7 +1092,7 @@
     "title": "Yellow Gravy",
     "category": "Indian",
     "file": "data/indian/yellow-gravy.json",
-    "image": "assets/images/indian/yellow-gravy.png",
+    "image": "assets/images/indian/yellow-gravy.jpg",
     "time": "30 min",
     "difficulty": "Easy",
     "servings": 4
@@ -1102,7 +1102,7 @@
     "title": "South Indian Coconut-Based Gravy",
     "category": "Indian",
     "file": "data/indian/south-indian-cbg.json",
-    "image": "assets/images/indian/south-indian-cbg.png",
+    "image": "assets/images/indian/south-indian-cbg.jpg",
     "time": "35 min",
     "difficulty": "Easy",
     "servings": 4
@@ -1112,7 +1112,7 @@
     "title": "White Gravy for Paneer or Chicken",
     "category": "Indian",
     "file": "data/indian/white-gravy-for-paneer-or-chicken.json",
-    "image": "assets/images/indian/white-gravy-for-paneer-or-chicken.png",
+    "image": "assets/images/indian/white-gravy-for-paneer-or-chicken.jpg",
     "time": "55 min",
     "difficulty": "Medium",
     "servings": 5
@@ -1122,7 +1122,7 @@
     "title": "Green Gravy (Hariyali Gravy)",
     "category": "Indian",
     "file": "data/indian/green-gravy.json",
-    "image": "assets/images/indian/green-gravy.png",
+    "image": "assets/images/indian/green-gravy.jpg",
     "time": "35 min",
     "difficulty": "Easy",
     "servings": 4
@@ -1132,7 +1132,7 @@
     "title": "Advanced Kitchen King Masala",
     "category": "Indian",
     "file": "data/indian/advanced-kitchen-king-masala.json",
-    "image": "assets/images/indian/advanced-kitchen-king-masala.png",
+    "image": "assets/images/indian/advanced-kitchen-king-masala.jpg",
     "time": "75 min",
     "difficulty": "Medium",
     "servings": ""
@@ -1142,7 +1142,7 @@
     "title": "Signature Curry Formula",
     "category": "Indian",
     "file": "data/indian/signature-curry-formula.json",
-    "image": "assets/images/indian/signature-curry-formula.png",
+    "image": "assets/images/indian/signature-curry-formula.jpg",
     "time": "45–60 min",
     "difficulty": "Medium",
     "servings": ""
