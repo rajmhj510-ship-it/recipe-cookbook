@@ -1,0 +1,144 @@
+{
+  "id": "525",
+  "title": "Balushahi",
+  "description": "Balushahi is a classic North Indian halwai-style mithai known for its crisp, flaky layers, rich ghee flavor, soft interior, and delicate sugar glaze. The authentic texture comes from a short, lightly mixed dough, slow frying at a controlled temperature, and coating in properly cooked one-string sugar syrup.",
+
+  "category": "Indian",
+  "time": "90 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/balushahi.png",
+
+  "ingredients": [
+    {
+      "title": "For the Balushahi Dough",
+      "items": [
+        "Maida (all-purpose flour) – 500 g",
+        "Desi ghee – 125 g",
+        "Plain yogurt/curd – 30 g",
+        "Cold or room-temperature water – approximately 150–175 ml, as required",
+        "Baking powder – 2 g (about ½ tsp)",
+        "Baking soda – 1 g (about ¼ tsp)",
+        "Salt – 1 g (small pinch)"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Ghee – 50% combined with neutral cooking oil, or pure ghee for a premium halwai-style version",
+        "Frying temperature – approximately 140–150°C"
+      ]
+    },
+    {
+      "title": "For the Sugar Syrup",
+      "items": [
+        "Sugar – 500 g",
+        "Water – 200–225 ml",
+        "Lemon juice – ½ tsp (2–3 ml), used sparingly",
+        "Green cardamom – 3–4 pods, lightly crushed",
+        "Rose water – ½–1 tsp (optional)"
+      ]
+    },
+    {
+      "title": "For Garnishing",
+      "items": [
+        "Pistachios – finely sliced, as required",
+        "Almonds – finely sliced, as required",
+        "Saffron strands – a few, optional"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Dough",
+      "steps": [
+        "Sift maida, baking powder, baking soda, and salt into a wide mixing bowl.",
+        "Add 125 g desi ghee and rub it thoroughly into the flour with your fingertips until the mixture resembles coarse, damp sand.",
+        "Check the moyan by squeezing a handful of the flour mixture; it should hold its shape when compressed.",
+        "Mix the yogurt with approximately 150 ml water and gradually add it to the flour.",
+        "Bring the mixture together into a very soft, slightly rough dough. Do not knead or develop the gluten.",
+        "Add a little more water only if necessary. The dough should remain soft and loose rather than smooth and elastic.",
+        "Cover and rest the dough for 20–30 minutes."
+      ]
+    },
+    {
+      "title": "Step 2 – Shaping the Balushahi",
+      "steps": [
+        "After resting, gently bring the dough together once or twice without kneading.",
+        "Divide the dough into approximately 35–40 g portions for uniform pieces.",
+        "Gently roll each portion into a ball without applying excessive pressure.",
+        "Flatten each ball slightly with the palm of your hand.",
+        "Press the center with your thumb to create a shallow depression. Do not make a complete hole through the dough.",
+        "Keep the shaped Balushahi covered while preparing the frying fat."
+      ]
+    },
+    {
+      "title": "Step 3 – Slow Frying",
+      "steps": [
+        "Heat the ghee or ghee-oil mixture to approximately 140–150°C. The fat should be warm rather than very hot.",
+        "Carefully place the Balushahi into the frying fat without overcrowding the kadai.",
+        "Allow the pieces to cook slowly; they will initially sink and gradually rise as they fry.",
+        "Maintain a low, steady temperature and gently move the pieces occasionally for even cooking.",
+        "Fry for approximately 12–18 minutes, depending on size, until deeply golden, crisp, and evenly cooked.",
+        "Avoid high-temperature frying, as it can brown the exterior too quickly while leaving the center undercooked.",
+        "Remove the Balushahi and allow excess fat to drain."
+      ]
+    },
+    {
+      "title": "Step 4 – Preparing the Sugar Syrup",
+      "steps": [
+        "Combine 500 g sugar and 200–225 ml water in a heavy-bottomed pan.",
+        "Heat gently until the sugar dissolves completely, then bring the syrup to a steady boil.",
+        "Add ½ tsp lemon juice once the syrup has begun boiling. Use lemon juice sparingly so the syrup can still develop the characteristic Balushahi sugar coating.",
+        "Cook until one-string consistency (ek taar) is reached, approximately 105–110°C.",
+        "Test by taking a small amount of syrup between your thumb and index finger after cooling it enough to handle safely; it should form one continuous thin thread.",
+        "Add lightly crushed cardamom and optional rose water, then remove from the heat."
+      ]
+    },
+    {
+      "title": "Step 5 – Sugar Coating",
+      "steps": [
+        "Allow the fried Balushahi to cool and drain for several minutes before coating.",
+        "Keep the prepared syrup warm but not boiling, approximately 50–60°C.",
+        "Place the Balushahi into the warm syrup and gently turn each piece to coat it evenly.",
+        "Allow the pieces to remain in the syrup for approximately 3–5 minutes rather than soaking them for a prolonged period.",
+        "Remove and arrange the Balushahi on a clean tray without stacking.",
+        "Allow the sugar coating to cool and crystallize naturally on the surface.",
+        "For a thicker halwai-style coating, apply a second light coating after the first layer has begun to set."
+      ]
+    },
+    {
+      "title": "Step 6 – Finishing",
+      "steps": [
+        "Garnish lightly with finely sliced pistachios or almonds while the glaze is still slightly tacky.",
+        "Optional: finish with a few strands of saffron for a premium presentation.",
+        "Allow the Balushahi to rest until the sugar coating is completely set.",
+        "Serve at room temperature."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve at room temperature as a traditional Indian mithai.",
+      "Pair with masala chai, cardamom tea, or unsweetened Indian tea.",
+      "For festive presentation, arrange in individual paper cups or on a mithai platter.",
+      "Balushahi is best enjoyed after the sugar coating has fully set and the exterior has become crisp."
+    ]
+  },
+
+  "chefTips": [
+    "Do not knead the dough. Overworking develops gluten and produces a hard, bready Balushahi instead of a flaky halwai-style texture.",
+    "The correct moyan is essential. The flour and ghee mixture should hold together when squeezed before adding the liquid.",
+    "Keep the dough soft and slightly rough; a smooth, elastic dough indicates excessive mixing.",
+    "Fry slowly at approximately 140–150°C. Low-temperature frying cooks the center while developing the characteristic flaky exterior.",
+    "Do not overcrowd the kadai, as this lowers the frying temperature and can make the Balushahi greasy.",
+    "Use bone-dry, properly measured ingredients and consistent 35–40 g portions for uniform commercial batches.",
+    "For the sugar syrup, use only a small amount of lemon juice. Excess acid can make the coating sticky and interfere with the desired crystallization.",
+    "Cook the syrup to one-string consistency. Thin syrup produces a wet glaze, while excessively thick syrup creates an overly heavy sugar shell.",
+    "Keep the syrup warm rather than boiling when coating the fried Balushahi.",
+    "The finished Balushahi should have a crisp, flaky outer shell, irregular layers inside, a tender center, and a delicate sugar coating.",
+    "For a premium halwai version, use desi ghee for both the dough and frying, or a controlled ghee-oil blend for a more economical commercial batch."
+  ]
+}
