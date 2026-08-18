@@ -1,10 +1,10 @@
 [
-    {
+  {
     "id": 701,
     "title": "Jhol Mo:Mo",
     "category": "Nepali",
     "file": "data/nepali/jhol-momo.json",
-    "image": "assets/images/nepali/jhol-momo.png",
+    "image": "assets/images/nepali/jhol-momo.jpg",
     "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
@@ -14,7 +14,7 @@
     "title": "Buff Steamed Mo:Mo",
     "category": "Nepali",
     "file": "data/nepali/buff-steamed-momo.json",
-    "image": "assets/images/nepali/buff-steamed-momo.png",
+    "image": "assets/images/nepali/buff-steamed-momo.jpg",
     "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
@@ -24,7 +24,7 @@
     "title": "Chicken Kurkure",
     "category": "Nepali",
     "file": "data/nepali/chicke-kurkure.json",
-    "image": "assets/images/nepali/chicken-kurkure.png",
+    "image": "assets/images/nepali/chicken-kurkure.jpg",
     "description": "",
     "time": "",
     "difficulty": ""
@@ -34,17 +34,17 @@
     "title": "Ultimate-Chicken Kurkure",
     "category": "Nepali",
     "file": "data/nepali/ultimate-restaurant-style-chicken-kurkure.json",
-    "image": "assets/images/nepali/ultimate-restaurant-style-chicken-kurkure.png",
+    "image": "assets/images/nepali/ultimate-restaurant-style-chicken-kurkure.jpg",
     "description": "",
     "time": "",
     "difficulty": ""
   },
-    {
+  {
     "id": 705,
     "title": "Lal Mohan",
     "category": "Nepali",
     "file": "data/nepali/lal-mohan.json",
-    "image": "assets/images/nepali/lal-mohan.png",
+    "image": "assets/images/nepali/lal-mohan.jpg",
     "description": "",
     "time": "50 min",
     "difficulty": "Medium"
@@ -54,27 +54,27 @@
     "title": "Malpua",
     "category": "Nepali",
     "file": "data/nepali/malpuwa.json",
-    "image": "assets/images/nepali/malpuwa.png",
+    "image": "assets/images/nepali/malpuwa.jpg",
     "description": "",
     "time": "60 min",
     "difficulty": "Easy"
   },
-      {
+  {
     "id": 707,
     "title": "Jeri",
     "category": "Nepali",
     "file": "data/nepali/jeri.json",
-    "image": "assets/images/nepali/jeri.png",
+    "image": "assets/images/nepali/jeri.jpg",
     "description": "",
     "time": "16 hrs",
     "difficulty": "Easy"
   },
-          {
+  {
     "id": 708,
     "title": "Mustang Aloo",
     "category": "Nepali",
     "file": "data/nepali/mustang-aloo.json",
-    "image": "assets/images/nepali/mustang-aloo.png",
+    "image": "assets/images/nepali/mustang-aloo.jpg",
     "description": "",
     "time": "40 min",
     "difficulty": "Easy"
