@@ -1,10 +1,10 @@
 [
-    {
+  {
     "id": 601,
     "title": "Chimichanga",
     "category": "Mexican",
     "file": "data/mexican/chimichanga.json",
-    "image": "assets/images/mexican/chimichanga.png",
+    "image": "assets/images/mexican/chimichanga.jpg",
     "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
@@ -14,7 +14,7 @@
     "title": "Salsa Roja",
     "category": "Mexican",
     "file": "data/mexican/salsa-roja.json",
-    "image": "assets/images/mexican/salsa-roja.png",
+    "image": "assets/images/mexican/salsa-roja.jpg",
     "description": "",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
@@ -24,7 +24,7 @@
     "title": "Salsa Verde",
     "category": "Mexican",
     "file": "data/mexican/salsa-verde.json",
-    "image": "assets/images/mexican/salsa-verde.png",
+    "image": "assets/images/mexican/salsa-verde.jpg",
     "description": "",
     "time": "20 min",
     "difficulty": "Easy"
@@ -34,7 +34,7 @@
     "title": "Guacamole",
     "category": "Mexican",
     "file": "data/mexican/guacamole.json",
-    "image": "assets/images/mexican/guacamole.png",
+    "image": "assets/images/mexican/guacamole.jpg",
     "description": "",
     "time": "15 min",
     "difficulty": "Easy"
@@ -44,199 +44,199 @@
     "title": "Mexican Sour Cream",
     "category": "Mexican",
     "file": "data/mexican/sour-cream.json",
-    "image": "assets/images/mexican/sour-cream.png",
+    "image": "assets/images/mexican/sour-cream.jpg",
     "description": "",
     "time": "12–24 hrs",
     "difficulty": "Medium"
   },
-    {
-  "id": 606,
-  "title": "Flour Tortillas (Soft & Chewy)",
-  "category": "Mexican",
-  "file": "data/mexican/flour-tortillas.json",
-  "image": "assets/images/mexican/flour-tortillas.png",
-  "description": "Soft homemade flour tortillas with a tender, chewy texture perfect for tacos, burritos, and quesadillas.",
-  "time": "70 min",
-  "difficulty": "Medium"
-},
-{
-  "id": 607,
-  "title": "Corn Tortillas (Gluten-Free)",
-  "category": "Mexican",
-  "file": "data/mexican/corn-tortillas-.json",
-  "image": "assets/images/mexican/corn-tortillas.png",
-  "description": "Authentic gluten-free corn tortillas made with masa harina, soft, pliable, and perfect for traditional Mexican dishes.",
-  "time": "50 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 608,
-  "title": "Homemade Tortilla Chips (Totopos)",
-  "category": "Mexican",
-  "file": "data/mexican/tortilla-chips.json",
-  "image": "assets/images/mexican/tortilla-chips.png",
-  "description": "Golden crispy tortilla chips made from fresh corn tortillas, ideal for dipping or serving with Mexican appetizers.",
-  "time": "35 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 609,
-  "title": "Nachos with Fresh Tomato Salsa",
-  "category": "Mexican",
-  "file": "data/mexican/nachos-with-fresh-tomato-salsa.json",
-  "image": "assets/images/mexican/nachos-with-Fresh-tomato-salsa.png",
-  "description": "Crispy nachos topped with melted cheese and fresh roasted tomato salsa for a vibrant Mexican appetizer.",
-  "time": "35 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 610,
-  "title": "Classic Loaded Nachos",
-  "category": "Mexican",
-  "file": "data/mexican/classic-loaded-nachos.json",
-  "image": "assets/images/mexican/classic-loaded-nachos.png",
-  "description": "Restaurant-style loaded nachos layered with seasoned beef, melted cheese, beans, and fresh toppings.",
-  "time": "35 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 611,
-  "title": "Fully Loaded Nachos",
-  "category": "Mexican",
-  "file": "data/mexican/fully-loaded-nachos.json",
-  "image": "assets/images/mexican/loaded-nachos.png",
-  "description": "Ultimate loaded nachos stacked with seasoned meat, cheese, beans, vegetables, and flavorful sauces.",
-  "time": "35 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 612,
-  "title": "Nachos with Corn Salsa",
-  "category": "Mexican",
-  "file": "data/mexican/nachos-with-corn-salsa.json",
-  "image": "assets/images/mexican/nachos-with-corn-salsa.png",
-  "description": "Crunchy nachos topped with melted cheese and a fresh roasted corn salsa bursting with flavor.",
-  "time": "30 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 613,
-  "title": "Mexican Chopped Salad",
-  "category": "Mexican",
-  "file": "data/mexican/mexican-chopped-salad.json",
-  "image": "assets/images/mexican/mexican-chopped-salad.png",
-  "description": "A colorful chopped salad packed with crisp vegetables, beans, corn, Cotija cheese, and zesty lime dressing.",
-  "time": "30 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 614,
-  "title": "Mexican Chicken Salad",
-  "category": "Mexican",
-  "file": "data/mexican/mexican-chicken-salad.json",
-  "image": "assets/images/mexican/mexican-chicken-salad.png",
-  "description": "Fresh mixed greens topped with seasoned chicken, vegetables, black beans, and creamy lime dressing.",
-  "time": "35 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 615,
-  "title": "Spicy Beans with Tortilla Chips",
-  "category": "Mexican",
-  "file": "data/mexican/spicy-beans-with-tortilla-chips.json",
-  "image": "assets/images/mexican/spicy-beans-with-tortilla-chips.png",
-  "description": "Creamy spicy black beans served with crispy homemade tortilla chips and fresh Mexican toppings.",
-  "time": "30 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 616,
-  "title": "Chicken Tacos",
-  "category": "Mexican",
-  "file": "data/mexican/chicken-tacos.json",
-  "image": "assets/images/mexican/chicken-tacos.png",
-  "description": "Juicy marinated chicken tacos served with fresh salsa, cabbage, queso fresco, and warm corn tortillas.",
-  "time": "35 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 617,
-  "title": "Chicken Quesadillas",
-  "category": "Mexican",
-  "file": "data/mexican/chicken-quesadillas.json",
-  "image": "assets/images/mexican/chicken-quesadillas.png",
-  "description": "Golden grilled flour tortillas filled with seasoned chicken, vegetables, and melted cheese.",
-  "time": "40 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 618,
-  "title": "Chicken Fajitas",
-  "category": "Mexican",
-  "file": "data/mexican/chicken-fajitas.json",
-  "image": "assets/images/mexican/chicken-fajitas.png",
-  "description": "Sizzling marinated chicken with colorful peppers and onions served with warm tortillas and classic toppings.",
-  "time": "50 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 619,
-  "title": "Mexican Rice (Arroz Rojo)",
-  "category": "Mexican",
-  "file": "data/mexican/mexican-rice.json",
-  "image": "assets/images/mexican/mexican-rice.png",
-  "description": "Traditional Mexican tomato rice cooked with aromatic spices and fluffy long-grain rice.",
-  "time": "40 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 620,
-  "title": "Chicken Enchiladas (Enchiladas de Pollo)",
-  "category": "Mexican",
-  "file": "data/mexican/chicken-enchiladas.json",
-  "image": "assets/images/mexican/chicken-enchiladas.png",
-  "description": "Soft corn tortillas filled with shredded chicken, covered in homemade red enchilada sauce and melted cheese.",
-  "time": "60 min",
-  "difficulty": "Medium"
-},
-{
-  "id": 621,
-  "title": "Paneer Enchiladas",
-  "category": "Mexican",
-  "file": "data/mexican/paneer-enchiladas.json",
-  "image": "assets/images/mexican/paneer-enchiladas.png",
-  "description": "A vegetarian fusion of Mexican enchiladas filled with flavorful paneer and baked in rich enchilada sauce.",
-  "time": "50 min",
-  "difficulty": "Medium"
-},
-{
-  "id": 622,
-  "title": "Mushroom Burrito",
-  "category": "Mexican",
-  "file": "data/mexican/mushroom-burrito.json",
-  "image": "assets/images/mexican/mushroom-burrito.png",
-  "description": "Large flour tortillas wrapped around seasoned mushrooms, vegetables, and optional beans for a hearty meal.",
-  "time": "35 min",
-  "difficulty": "Easy"
-},
-{
-  "id": 623,
-  "title": "Entomatado de Pollo (Pollo en Salsa de Tomate)",
-  "category": "Mexican",
-  "file": "data/mexican/entomatado-de-pollo.json",
-  "image": "assets/images/mexican/entomatado-de-pollo.png",
-  "description": "Traditional Mexican chicken slowly simmered in a rich tomato sauce with garlic, onion, and aromatic spices.",
-  "time": "60 min",
-  "difficulty": "Medium"
-},
-{
-  "id": 624,
-  "title": "Mushroom Tostadas",
-  "category": "Mexican",
-  "file": "data/mexican/mushroom-tostadas.json",
-  "image": "assets/images/mexican/mushroom-tostadas.png",
-  "description": "Crispy tostadas topped with savory sautéed mushrooms, creamy lime topping, queso fresco, and fresh garnishes.",
-  "time": "35 min",
-  "difficulty": "Easy"
-}
+  {
+    "id": 606,
+    "title": "Flour Tortillas (Soft & Chewy)",
+    "category": "Mexican",
+    "file": "data/mexican/flour-tortillas.json",
+    "image": "assets/images/mexican/flour-tortillas.jpg",
+    "description": "Soft homemade flour tortillas with a tender, chewy texture perfect for tacos, burritos, and quesadillas.",
+    "time": "70 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 607,
+    "title": "Corn Tortillas (Gluten-Free)",
+    "category": "Mexican",
+    "file": "data/mexican/corn-tortillas-.json",
+    "image": "assets/images/mexican/corn-tortillas.jpg",
+    "description": "Authentic gluten-free corn tortillas made with masa harina, soft, pliable, and perfect for traditional Mexican dishes.",
+    "time": "50 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 608,
+    "title": "Homemade Tortilla Chips (Totopos)",
+    "category": "Mexican",
+    "file": "data/mexican/tortilla-chips.json",
+    "image": "assets/images/mexican/tortilla-chips.jpg",
+    "description": "Golden crispy tortilla chips made from fresh corn tortillas, ideal for dipping or serving with Mexican appetizers.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 609,
+    "title": "Nachos with Fresh Tomato Salsa",
+    "category": "Mexican",
+    "file": "data/mexican/nachos-with-fresh-tomato-salsa.json",
+    "image": "assets/images/mexican/nachos-with-Fresh-tomato-salsa.jpg",
+    "description": "Crispy nachos topped with melted cheese and fresh roasted tomato salsa for a vibrant Mexican appetizer.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 610,
+    "title": "Classic Loaded Nachos",
+    "category": "Mexican",
+    "file": "data/mexican/classic-loaded-nachos.json",
+    "image": "assets/images/mexican/classic-loaded-nachos.jpg",
+    "description": "Restaurant-style loaded nachos layered with seasoned beef, melted cheese, beans, and fresh toppings.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 611,
+    "title": "Fully Loaded Nachos",
+    "category": "Mexican",
+    "file": "data/mexican/fully-loaded-nachos.json",
+    "image": "assets/images/mexican/loaded-nachos.jpg",
+    "description": "Ultimate loaded nachos stacked with seasoned meat, cheese, beans, vegetables, and flavorful sauces.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 612,
+    "title": "Nachos with Corn Salsa",
+    "category": "Mexican",
+    "file": "data/mexican/nachos-with-corn-salsa.json",
+    "image": "assets/images/mexican/nachos-with-corn-salsa.jpg",
+    "description": "Crunchy nachos topped with melted cheese and a fresh roasted corn salsa bursting with flavor.",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 613,
+    "title": "Mexican Chopped Salad",
+    "category": "Mexican",
+    "file": "data/mexican/mexican-chopped-salad.json",
+    "image": "assets/images/mexican/mexican-chopped-salad.jpg",
+    "description": "A colorful chopped salad packed with crisp vegetables, beans, corn, Cotija cheese, and zesty lime dressing.",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 614,
+    "title": "Mexican Chicken Salad",
+    "category": "Mexican",
+    "file": "data/mexican/mexican-chicken-salad.json",
+    "image": "assets/images/mexican/mexican-chicken-salad.jpg",
+    "description": "Fresh mixed greens topped with seasoned chicken, vegetables, black beans, and creamy lime dressing.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 615,
+    "title": "Spicy Beans with Tortilla Chips",
+    "category": "Mexican",
+    "file": "data/mexican/spicy-beans-with-tortilla-chips.json",
+    "image": "assets/images/mexican/spicy-beans-with-tortilla-chips.jpg",
+    "description": "Creamy spicy black beans served with crispy homemade tortilla chips and fresh Mexican toppings.",
+    "time": "30 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 616,
+    "title": "Chicken Tacos",
+    "category": "Mexican",
+    "file": "data/mexican/chicken-tacos.json",
+    "image": "assets/images/mexican/chicken-tacos.jpg",
+    "description": "Juicy marinated chicken tacos served with fresh salsa, cabbage, queso fresco, and warm corn tortillas.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 617,
+    "title": "Chicken Quesadillas",
+    "category": "Mexican",
+    "file": "data/mexican/chicken-quesadillas.json",
+    "image": "assets/images/mexican/chicken-quesadillas.jpg",
+    "description": "Golden grilled flour tortillas filled with seasoned chicken, vegetables, and melted cheese.",
+    "time": "40 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 618,
+    "title": "Chicken Fajitas",
+    "category": "Mexican",
+    "file": "data/mexican/chicken-fajitas.json",
+    "image": "assets/images/mexican/chicken-fajitas.jpg",
+    "description": "Sizzling marinated chicken with colorful peppers and onions served with warm tortillas and classic toppings.",
+    "time": "50 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 619,
+    "title": "Mexican Rice (Arroz Rojo)",
+    "category": "Mexican",
+    "file": "data/mexican/mexican-rice.json",
+    "image": "assets/images/mexican/mexican-rice.jpg",
+    "description": "Traditional Mexican tomato rice cooked with aromatic spices and fluffy long-grain rice.",
+    "time": "40 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 620,
+    "title": "Chicken Enchiladas (Enchiladas de Pollo)",
+    "category": "Mexican",
+    "file": "data/mexican/chicken-enchiladas.json",
+    "image": "assets/images/mexican/chicken-enchiladas.jpg",
+    "description": "Soft corn tortillas filled with shredded chicken, covered in homemade red enchilada sauce and melted cheese.",
+    "time": "60 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 621,
+    "title": "Paneer Enchiladas",
+    "category": "Mexican",
+    "file": "data/mexican/paneer-enchiladas.json",
+    "image": "assets/images/mexican/paneer-enchiladas.jpg",
+    "description": "A vegetarian fusion of Mexican enchiladas filled with flavorful paneer and baked in rich enchilada sauce.",
+    "time": "50 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 622,
+    "title": "Mushroom Burrito",
+    "category": "Mexican",
+    "file": "data/mexican/mushroom-burrito.json",
+    "image": "assets/images/mexican/mushroom-burrito.jpg",
+    "description": "Large flour tortillas wrapped around seasoned mushrooms, vegetables, and optional beans for a hearty meal.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 623,
+    "title": "Entomatado de Pollo (Pollo en Salsa de Tomate)",
+    "category": "Mexican",
+    "file": "data/mexican/entomatado-de-pollo.json",
+    "image": "assets/images/mexican/entomatado-de-pollo.jpg",
+    "description": "Traditional Mexican chicken slowly simmered in a rich tomato sauce with garlic, onion, and aromatic spices.",
+    "time": "60 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 624,
+    "title": "Mushroom Tostadas",
+    "category": "Mexican",
+    "file": "data/mexican/mushroom-tostadas.json",
+    "image": "assets/images/mexican/mushroom-tostadas.jpg",
+    "description": "Crispy tostadas topped with savory sautéed mushrooms, creamy lime topping, queso fresco, and fresh garnishes.",
+    "time": "35 min",
+    "difficulty": "Easy"
+  }
 ]
