@@ -1,11 +1,10 @@
 [
-
   {
     "id": 801,
     "title": "Pad Thai",
     "category": "Thai",
     "file": "data/thai/pad-thai.json",
-    "image": "assets/images/thai/pad-thai.png",
+    "image": "assets/images/thai/pad-thai.jpg",
     "description": "Thailand's iconic stir-fried rice noodles tossed with shrimp, tofu, eggs, peanuts, and tamarind sauce.",
     "time": "1 hr 20 min",
     "difficulty": "Medium"
@@ -15,7 +14,7 @@
     "title": "Gaeng Garee",
     "category": "Thai",
     "file": "data/thai/gaeng-garee.json",
-    "image": "assets/images/thai/gaeng-garee.png",
+    "image": "assets/images/thai/gaeng-garee.jpg",
     "description": "Mild and creamy Thai yellow curry paste made with aromatic spices and fragrant herbs.",
     "time": "15 min",
     "difficulty": "Easy"
@@ -25,7 +24,7 @@
     "title": "Nam Prik Gaeng Kiew Wan",
     "category": "Thai",
     "file": "data/thai/nam-prik-gaeng-kiew-wan.json",
-    "image": "assets/images/thai/nam-prik-gaeng-kiew-wan.png",
+    "image": "assets/images/thai/nam-prik-gaeng-kiew-wan.jpg",
     "description": "Traditional Thai green curry paste bursting with fresh herbs, chilies, and aromatic spices.",
     "time": "15 min",
     "difficulty": "Easy"
@@ -35,7 +34,7 @@
     "title": "Chicken Satay with Peanut Sauce",
     "category": "Thai",
     "file": "data/thai/chicken-satay-with-peanut-sauce.json",
-    "image": "assets/images/thai/thai-chicken-satay-with-peanut-sauce.png",
+    "image": "assets/images/thai/thai-chicken-satay-with-peanut-sauce.jpg",
     "description": "Grilled marinated chicken skewers served with a rich, creamy, and flavorful peanut dipping sauce.",
     "time": "40 min",
     "difficulty": "Medium"
@@ -45,7 +44,7 @@
     "title": "Tom Yam Kai",
     "category": "Thai",
     "file": "data/thai/tom-yam-kai.json",
-    "image": "assets/images/thai/tom-yam-kai.png",
+    "image": "assets/images/thai/tom-yam-kai.jpg",
     "description": "Spicy and sour Thai chicken soup infused with lemongrass, lime leaves, and fresh herbs.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -55,7 +54,7 @@
     "title": "Sweet Eggplant and Oyster Mushroom Stir-Fry",
     "category": "Thai",
     "file": "data/thai/sweet-eggplant-and-oyster-mushroom-stir-fry.json",
-    "image": "assets/images/thai/thai-sweet-eggplant-and-oyster-mushroom-stir-fry.png",
+    "image": "assets/images/thai/thai-sweet-eggplant-and-oyster-mushroom-stir-fry.jpg",
     "description": "Tender eggplant and oyster mushrooms stir-fried in a sweet, savory, and aromatic sauce.",
     "time": "25 min",
     "difficulty": "Easy"
@@ -65,7 +64,7 @@
     "title": "Tom Kha Gai",
     "category": "Thai",
     "file": "data/thai/tom-kha-gai.json",
-    "image": "assets/images/thai/tom-kha-gai.png",
+    "image": "assets/images/thai/tom-kha-gai.jpg",
     "description": "Creamy coconut chicken soup flavored with galangal, lemongrass, lime leaves, and mushrooms.",
     "time": "35 min",
     "difficulty": "Medium"
@@ -75,7 +74,7 @@
     "title": "Por Pia Tod",
     "category": "Thai",
     "file": "data/thai/por-pia-tod.json",
-    "image": "assets/images/thai/por-pia-tod.png",
+    "image": "assets/images/thai/por-pia-tod.jpg",
     "description": "Crispy deep-fried Thai spring rolls filled with vegetables, glass noodles, and savory seasonings.",
     "time": "45 min",
     "difficulty": "Medium"
@@ -85,7 +84,7 @@
     "title": "Fresh Thai Spring Rolls",
     "category": "Thai",
     "file": "data/thai/fresh-thai-spring-rolls.json",
-    "image": "assets/images/thai/fresh-thai-spring-rolls.png",
+    "image": "assets/images/thai/fresh-thai-spring-rolls.jpg",
     "description": "Fresh rice paper rolls packed with crisp vegetables, herbs, and served with flavorful dipping sauce.",
     "time": "35 min",
     "difficulty": "Easy"
@@ -95,7 +94,7 @@
     "title": "Hokkien Mee",
     "category": "Thai",
     "file": "data/thai/hokkien-mee.json",
-    "image": "assets/images/thai/hokkien-mee.png",
+    "image": "assets/images/thai/hokkien-mee.jpg",
     "description": "Thick yellow noodles stir-fried with seafood, vegetables, and a rich savory soy-based sauce.",
     "time": "25 min",
     "difficulty": "Medium"
@@ -105,7 +104,7 @@
     "title": "Tofu Larb",
     "category": "Thai",
     "file": "data/thai/tofu-larb.json",
-    "image": "assets/images/thai/tofu-larb.png",
+    "image": "assets/images/thai/tofu-larb.jpg",
     "description": "A vibrant Thai salad featuring seasoned tofu, fresh herbs, lime juice, and toasted rice.",
     "time": "20 min",
     "difficulty": "Easy"
@@ -115,9 +114,9 @@
     "title": "Khao Soi Kai",
     "category": "Thai",
     "file": "data/thai/khao-soi-kai.json",
-    "image": "assets/images/thai/khao-soi-kai.png",
+    "image": "assets/images/thai/khao-soi-kai.jpg",
     "description": "Northern Thai coconut curry noodle soup topped with tender chicken and crispy fried noodles.",
     "time": "60 min",
     "difficulty": "Medium"
   }
-  ]
+]
