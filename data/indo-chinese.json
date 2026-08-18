@@ -4,7 +4,7 @@
   "title": "Butter Garlic Chicken",
   "category": "Indo-Chinese",
   "file": "data/indo-chinese/butter-garlic-chicken.json",
-  "image": "assets/images/indo-chinese/butter-garlic-chicken.png",
+  "image": "assets/images/indo-chinese/butter-garlic-chicken.jpg",
   "description": "Crispy fried chicken tossed in a rich buttery garlic sauce with green chilies, herbs, and black pepper, delivering a bold restaurant-style Indo-Chinese classic.",
   "time": "50 min",
   "difficulty": "Medium"
@@ -14,7 +14,7 @@
     "title": "Chicken Manchow Soup",
     "category": "Indo-Chinese",
     "file": "data/indo-chinese/chicken-manchow-soup.json",
-    "image": "assets/images/indo-chinese/chicken-manchow-soup.png",
+    "image": "assets/images/indo-chinese/chicken-manchow-soup.jpg",
     "time": "35 min",
     "difficulty": "Medium"
   },
@@ -23,7 +23,7 @@
     "title": "Vegetable Manchow Soup",
     "category": "Indo-Chinese",
     "file": "data/indo-chinese/vegetable-manchow-soup.json",
-    "image": "assets/images/indo-chinese/vegetable-manchow-soup.png",
+    "image": "assets/images/indo-chinese/vegetable-manchow-soup.jpg",
     "time": "45 min",
     "difficulty": "Medium"
   },
@@ -32,7 +32,7 @@
     "title": "Manchow Soup",
     "category": "Indo-Chinese",
     "file": "data/indo-chinese/manchow-soup.json",
-    "image": "assets/images/indo-chinese/manchow-soup.png",
+    "image": "assets/images/indo-chinese/manchow-soup.jpg",
     "time": "35 min",
     "difficulty": "Medium"
   },
@@ -41,7 +41,7 @@
     "title": "Potato Chili",
     "category": "Indo-Chinese",
     "file": "data/indo-chinese/potato-chili.json",
-    "image": "assets/images/indo-chinese/potato-chili.png",
+    "image": "assets/images/indo-chinese/potato-chili.jpg",
     "time": "40 min",
     "difficulty": "Medium"
   }
