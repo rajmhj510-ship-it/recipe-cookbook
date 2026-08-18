@@ -4,7 +4,7 @@
     "title": "Szechuan Fish",
     "category": "Chinese",
     "file": "data/chinese/szechuan-fish.json",
-    "image": "assets/images/chinese/fish-szechuan-sauce.png",
+    "image": "assets/images/chinese/fish-szechuan-sauce.jpg",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -13,7 +13,7 @@
     "title": "Kung Pao Chicken",
     "category": "Chinese",
     "file": "data/chinese/kung-pao-chicken.json",
-    "image": "assets/images/chinese/kung-pao-chicken.png",
+    "image": "assets/images/chinese/kung-pao-chicken.jpg",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -22,7 +22,7 @@
     "title": "Chili Oil",
     "category": "Chinese",
     "file": "data/chinese/chili-oil.json",
-    "image": "assets/images/chinese/chili-oil.png",
+    "image": "assets/images/chinese/chili-oil.jpg",
     "time": "40 min",
     "difficulty": "Medium"
   },
@@ -31,7 +31,7 @@
     "title": "Mala Chili Oil",
     "category": "Chinese",
     "file": "data/chinese/mala-chili-oil.json",
-    "image": "assets/images/chinese/mala-chili-oil.png",
+    "image": "assets/images/chinese/mala-chili-oil.jpg",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -40,7 +40,7 @@
     "title": "Hot Chili Sauce",
     "category": "Chinese",
     "file": "data/chinese/hot-chili-sauce.json",
-    "image": "assets/images/chinese/hot-chili-sauce.png",
+    "image": "assets/images/chinese/hot-chili-sauce.jpg",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -49,7 +49,7 @@
     "title": "Hot Garlic Sauce",
     "category": "Chinese",
     "file": "data/chinese/hot-garlic-sauce.json",
-    "image": "assets/images/chinese/hot-garlic-sauce.png",
+    "image": "assets/images/chinese/hot-garlic-sauce.jpg",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -58,7 +58,7 @@
     "title": "Sichuan Chicken Chili",
     "category": "Chinese",
     "file": "data/chinese/sichuan-chicken-chili.json",
-    "image": "assets/images/chinese/sichuan-chicken-chili.png",
+    "image": "assets/images/chinese/sichuan-chicken-chili.jpg",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -67,7 +67,7 @@
     "title": "Thenthuk (Tibetan Soup)",
     "category": "Chinese",
     "file": "data/chinese/thenthuk.json",
-    "image": "assets/images/chinese/thenthuk.png",
+    "image": "assets/images/chinese/thenthuk.jpg",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -76,7 +76,7 @@
     "title": "Mantou",
     "category": "Chinese",
     "file": "data/chinese/mantou.json",
-    "image": "assets/images/chinese/mantou.png",
+    "image": "assets/images/chinese/mantou.jpg",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -85,7 +85,7 @@
     "title": "Spring Rolls",
     "category": "Chinese",
     "file": "data/chinese/spring-rolls.json",
-    "image": "assets/images/chinese/spring-rolls.png",
+    "image": "assets/images/chinese/spring-rolls.jpg",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -94,7 +94,7 @@
     "title": "Bean Curd Soup",
     "category": "Chinese",
     "file": "data/chinese/bean-curd-soup.json",
-    "image": "assets/images/chinese/bean-curd-soup.png",
+    "image": "assets/images/chinese/bean-curd-soup.jpg",
     "time": "15 min + 25 min",
     "difficulty": "Medium"
   },
@@ -103,7 +103,7 @@
     "title": "Tomato Egg Drop Soup",
     "category": "Chinese",
     "file": "data/chinese/tomato-egg-drop-soup.json",
-    "image": "assets/images/chinese/tomato-egg-drop-soup.png",
+    "image": "assets/images/chinese/tomato-egg-drop-soup.jpg",
     "time": "25 min",
     "difficulty": "Medium"
   },
@@ -112,7 +112,7 @@
     "title": "Hot Garlic Chicken",
     "category": "Chinese",
     "file": "data/chinese/hot-garlic-chicken.json",
-    "image": "assets/images/chinese/hot-garlic-chicken.png",
+    "image": "assets/images/chinese/hot-garlic-chicken.jpg",
     "time": "35 min",
     "difficulty": "Medium"
   },
@@ -121,7 +121,7 @@
     "title": "Chicken Fried Rice",
     "category": "Chinese",
     "file": "data/chinese/chicken-fried-rice.json",
-    "image": "assets/images/chinese/chicken-fried-rice.png",
+    "image": "assets/images/chinese/chicken-fried-rice.jpg",
     "time": "",
     "difficulty": ""
   },
@@ -130,7 +130,7 @@
     "title": "Sweet and Sour Chicken",
     "category": "Chinese",
     "file": "data/chinese/sweet-and-sour-chicken.json",
-    "image": "assets/images/chinese/sweet-and-sour-chicken.png",
+    "image": "assets/images/chinese/sweet-and-sour-chicken.jpg",
     "time": "",
     "difficulty": ""
   },
@@ -139,7 +139,7 @@
     "title": "Braised Chicken Drumsticks",
     "category": "Chinese",
     "file": "data/chinese/braised-chicken-drumsticks.json",
-    "image": "assets/images/chinese/braised-chicken-drumsticks.png",
+    "image": "assets/images/chinese/braised-chicken-drumsticks.jpg",
     "time": "",
     "difficulty": ""
   },
@@ -148,7 +148,7 @@
     "title": "Fried Chicken with Hot Bean Sauce",
     "category": "Chinese",
     "file": "data/chinese/soft-fried-chicken-with-hot-bean-sauce.json",
-    "image": "assets/images/chinese/soft-fried-chicken-with-hot-bean-sauce.png",
+    "image": "assets/images/chinese/soft-fried-chicken-with-hot-bean-sauce.jpg",
     "time": "",
     "difficulty": ""
   },
@@ -157,7 +157,7 @@
     "title": "Shredded Chicken with Black Bean Sauce",
     "category": "Chinese",
     "file": "data/chinese/shredded-chicken-with-black-bean-sauce.json",
-    "image": "assets/images/chinese/shredded-chicken-with-black-bean-sauce.png",
+    "image": "assets/images/chinese/shredded-chicken-with-black-bean-sauce.jpg",
     "time": "",
     "difficulty": ""
   },
@@ -166,7 +166,7 @@
     "title": "Chicken Bao",
     "category": "Chinese",
     "file": "data/chinese/chicken-bao.json",
-    "image": "assets/images/chinese/chicken-bao.png",
+    "image": "assets/images/chinese/chicken-bao.jpg",
     "time": "",
     "difficulty": "Advanced"
   },
@@ -175,7 +175,7 @@
     "title": "Fish-Flavored Eggplant",
     "category": "Chinese",
     "file": "data/chinese/fish-flavored-eggplant.json",
-    "image": "assets/images/chinese/fish-flavored-eggplant.png",
+    "image": "assets/images/chinese/fish-flavored-eggplant.jpg",
     "time": "",
     "difficulty": ""
   },
@@ -184,7 +184,7 @@
     "title": "Potato Chili",
     "category": "Chinese",
     "file": "data/chinese/potato-chili.json",
-    "image": "assets/images/chinese/potato-chili.png",
+    "image": "assets/images/chinese/potato-chili.jpg",
     "time": "",
     "difficulty": ""
   },
@@ -193,7 +193,7 @@
     "title": "Vegetables with Oyster Sauce & Noodles",
     "category": "Chinese",
     "file": "data/chinese/stir-fried-vegetables-oyster-noodles.json",
-    "image": "assets/images/chinese/stir-fried-vegetables-oyster-noodles.png",
+    "image": "assets/images/chinese/stir-fried-vegetables-oyster-noodles.jpg",
     "time": "",
     "difficulty": ""
   },
@@ -202,7 +202,7 @@
     "title": "Bok Choy with Black Mushrooms",
     "category": "Chinese",
     "file": "data/chinese/bok-choy-black-mushrooms.json",
-    "image": "assets/images/chinese/bok-choy-black-mushrooms.png",
+    "image": "assets/images/chinese/bok-choy-black-mushrooms.jpg",
     "time": "",
     "difficulty": ""
   },
@@ -211,7 +211,7 @@
     "title": "Honey Chili Vegetable Balls",
     "category": "Chinese",
     "file": "data/chinese/honey-chili-vegetable-balls.json",
-    "image": "assets/images/chinese/honey-chili-vegetable-balls.png",
+    "image": "assets/images/chinese/honey-chili-vegetable-balls.jpg",
     "time": "",
     "difficulty": ""
   },
@@ -220,7 +220,7 @@
     "title": "Glass Noodle Salad",
     "category": "Chinese",
     "file": "data/chinese/glass-noodle-salad.json",
-    "image": "assets/images/chinese/glass-noodle-salad.png",
+    "image": "assets/images/chinese/glass-noodle-salad.jpg",
     "time": "30",
     "difficulty": "Easy"
   },
@@ -229,7 +229,7 @@
     "title": "Vegetable Manchurian",
     "category": "Chinese",
     "file": "data/chinese/vegetable-manchurian.json",
-    "image": "assets/images/chinese/vegetable-manchurian.png",
+    "image": "assets/images/chinese/vegetable-manchurian.jpg",
     "time": "35",
     "difficulty": "Medium"
   },
@@ -238,7 +238,7 @@
     "title": "Five-Spice Powder",
     "category": "Chinese",
     "file": "data/chinese/five-spice-powder.json",
-    "image": "assets/images/chinese/five-spice-powder.png",
+    "image": "assets/images/chinese/five-spice-powder.jpg",
     "time": "5",
     "difficulty": "Easy"
   },
@@ -247,7 +247,7 @@
     "title": "Hot Garlic with Chinese Vegetables",
     "category": "Chinese",
     "file": "data/chinese/hot-garlic-chinese-vegetables.json",
-    "image": "assets/images/chinese/hot-garlic-with-chinese-vegetables.png",
+    "image": "assets/images/chinese/hot-garlic-with-chinese-vegetables.jpg",
     "time": "25 min",
     "difficulty": "Easy"
   },
@@ -256,7 +256,7 @@
     "title": "Vegetable Fried Rice",
     "category": "Chinese",
     "file": "data/chinese/vegetable-fried-rice.json",
-    "image": "assets/images/chinese/vegetable-fried-rice.png",
+    "image": "assets/images/chinese/vegetable-fried-rice.jpg",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -265,7 +265,7 @@
     "title": "Premium Vegetable Fried Rice",
     "category": "Chinese",
     "file": "data/chinese/premium-vegetable-fried-rice.json",
-    "image": "assets/images/chinese/premium-vegetable-fried-rice.png",
+    "image": "assets/images/chinese/premium-vegetable-fried-rice.jpg",
     "time": "30 min",
     "difficulty": "Medium"
   },
@@ -274,7 +274,7 @@
     "title": "Julienne Carrot Salad",
     "category": "Chinese",
     "file": "data/chinese/julienne-carrot-salad.json",
-    "image": "assets/images/chinese/julienne-carrot-salad.png",
+    "image": "assets/images/chinese/julienne-carrot-salad.jpg",
     "time": "20 min",
     "difficulty": "Easy"
   },
@@ -283,7 +283,7 @@
     "title": "Chinese Cucumber Salad",
     "category": "Chinese",
     "file": "data/chinese/chinese-cucumber-salad.json",
-    "image": "assets/images/chinese/chinese-cucumber-salad.png",
+    "image": "assets/images/chinese/chinese-cucumber-salad.jpg",
     "time": "30 min",
     "difficulty": "Easy"
   },
@@ -292,7 +292,7 @@
     "title": "Honey Glazed Mushrooms",
     "category": "Chinese",
     "file": "data/chinese/honey-glazed-mushrooms.json",
-    "image": "assets/images/chinese/honey-glazed-mushrooms.png",
+    "image": "assets/images/chinese/honey-glazed-mushrooms.jpg",
     "time": "20 min",
     "difficulty": "Easy"
   },
@@ -301,7 +301,7 @@
     "title": "Crispy Fried Lettuce",
     "category": "Chinese",
     "file": "data/chinese/crispy-fried-lettuce.json",
-    "image": "assets/images/chinese/crispy-fried-lettuce.png",
+    "image": "assets/images/chinese/crispy-fried-lettuce.jpg",
     "time": "25 min",
     "difficulty": "Medium"
   },
@@ -310,7 +310,7 @@
     "title": "Hot and Sour Soup",
     "category": "Chinese",
     "file": "data/chinese/hot-and-sour-soup.json",
-    "image": "assets/images/chinese/hot-and-sour-soup.png",
+    "image": "assets/images/chinese/hot-and-sour-soup.jpg",
     "time": "45 min",
     "difficulty": "Medium"
   },
@@ -319,7 +319,7 @@
     "title": "Vegetarian / Vegan Hot and Sour Soup",
     "category": "Chinese",
     "file": "data/chinese/vegetarian-vegan-hot-and-sour-soup.json",
-    "image": "assets/images/chinese/vegetarian-vegan-hot-and-sour-soup.png",
+    "image": "assets/images/chinese/vegetarian-vegan-hot-and-sour-soup.jpg",
     "time": "45 min",
     "difficulty": "Medium"
   },
@@ -328,7 +328,7 @@
     "title": "Vegetable Noodle Soup",
     "category": "Chinese",
     "file": "data/chinese/vegetable-noodle-soup.json",
-    "image": "assets/images/chinese/vegetable-noodle-soup.png",
+    "image": "assets/images/chinese/vegetable-noodle-soup.jpg",
     "time": "40 min",
     "difficulty": "Easy"
   },
@@ -337,7 +337,7 @@
     "title": "Wonton Soup",
     "category": "Chinese",
     "file": "data/chinese/wonton-soup.json",
-    "image": "assets/images/chinese/wonton-soup.png",
+    "image": "assets/images/chinese/wonton-soup.jpg",
     "time": "45 min",
     "difficulty": "Medium"
   },
@@ -346,7 +346,7 @@
     "title": "Homemade Chinese Noodles with Stir-Fried Vegetables",
     "category": "Chinese",
     "file": "data/chinese/homemade-chinese-noodles-stir-fried-vegetables.json",
-    "image": "assets/images/chinese/homemade-chinese-noodles-with-stir-fried-vegetables.png",
+    "image": "assets/images/chinese/homemade-chinese-noodles-with-stir-fried-vegetables.jpg",
     "time": "60 min",
     "difficulty": "Professional"
   },
@@ -355,7 +355,7 @@
     "title": "Dan Dan Noodles",
     "category": "Chinese",
     "file": "data/chinese/dan-dan-noodles.json",
-    "image": "assets/images/chinese/dan-dan-noodles.png",
+    "image": "assets/images/chinese/dan-dan-noodles.jpg",
     "time": "35 min",
     "difficulty": "Professional"
   },
@@ -364,7 +364,7 @@
     "title": "Cabbage Salad",
     "category": "Chinese",
     "file": "data/chinese/cabbage-salad.json",
-    "image": "assets/images/chinese/cabbage-salad.png",
+    "image": "assets/images/chinese/cabbage-salad.jpg",
     "time": "20 min",
     "difficulty": "Easy"
   },
@@ -373,7 +373,7 @@
     "title": "Chinese Chicken Salad with Sesame Dressing",
     "category": "Chinese",
     "file": "data/chinese/chinese-chicken-salad-with-sesame-dressing.json",
-    "image": "assets/images/chinese/chinese-chicken-salad-with-sesame-dressing.png",
+    "image": "assets/images/chinese/chinese-chicken-salad-with-sesame-dressing.jpg",
     "time": "35 min",
     "difficulty": "Easy"
   }
