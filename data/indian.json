@@ -1146,5 +1146,15 @@
     "time": "45–60 min",
     "difficulty": "Medium",
     "servings": ""
+  },
+    {
+    "id": 525,
+    "title": "Balushahi",
+    "category": "Indian",
+    "file": "data/indian/balushahi.json",
+    "image": "assets/images/indian/balushahi.jpg",
+    "time": "90 min",
+    "difficulty": "Medium",
+    "servings": ""
   }
 ]
