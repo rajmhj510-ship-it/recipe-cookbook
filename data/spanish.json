@@ -1,1 +1,11 @@
-
+[
+    {
+    "id": 2001,
+    "title": "Churros",
+    "category": "Spanish",
+    "file": "data/spanish/churros.json",
+    "image": "assets/images/spanish/churros.jpg",
+    "time": "60 min",
+    "difficulty": "Medium"
+  }
+]
