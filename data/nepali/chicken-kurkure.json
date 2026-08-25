@@ -1,57 +1,122 @@
 {
-  "id": 703,
+  "id": "703",
   "title": "Chicken Kurkure",
-  "category": "Nepali",
-  "image": "assets/images/nepali/chicken-kurkure.jpg",
-  "time": "",
-  "difficulty": "",
-  "servings": "",
-  "ingredients": [],
+  "description": "Chicken Kurkure is a crispy, restaurant-style chicken appetizer celebrated for its super crunchy cornflake coating, juicy flavorful chicken, and perfectly balanced seasoning. Golden and crunchy on the outside with tender chicken inside, it is served with dips, lemon, and fresh garnish for a stylish presentation.",
+
+  "category": "Indian",
+  "time": "90 min",
+  "difficulty": "Medium",
+  "image": "assets/images/indian/chicken-kurkure.jpg",
+
+  "ingredients": [
+    {
+      "title": "For Marination",
+      "items": [
+        "Chicken breast or thigh strips – 500 g, cut into finger-sized strips",
+        "Ginger-garlic paste – 1 tbsp",
+        "Green chili paste – 1 tsp (optional, for heat)",
+        "Red chili powder – 1 tsp",
+        "Kashmiri chili powder – ½ tsp (for color)",
+        "Coriander powder – 1 tsp",
+        "Cumin powder – ½ tsp",
+        "Garam masala – ½ tsp",
+        "Black pepper powder – ¼ tsp",
+        "Lemon juice – 1 tbsp",
+        "Salt – to taste",
+        "Fresh coriander & mint – 2 tbsp, chopped",
+        "Egg – 1 large"
+      ]
+    },
+    {
+      "title": "For Coating",
+      "items": [
+        "Cornflakes – 2 cups, crushed coarsely",
+        "Rice flour – 2 tbsp",
+        "Cornflour – 2 tbsp",
+        "Refined flour (maida) – 2 tbsp",
+        "Black pepper – ½ tsp",
+        "Salt – ½ tsp"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Oil – enough for deep frying (mustard oil + refined oil mix for restaurant flavor, or use neutral oil)"
+      ]
+    },
+    {
+      "title": "For Garnish & Serving",
+      "items": [
+        "Chaat masala – for sprinkling",
+        "Fresh coriander – for garnish",
+        "Lemon wedges – for serving",
+        "Mint mayo or spicy Schezwan dip – for serving",
+        "Microgreens – for restaurant-style presentation"
+      ]
+    }
+  ],
+
   "instruction": [
     {
-      "title": "Step 1: Marinate the Chicken",
+      "title": "Step 1 – Marinating the Chicken",
       "steps": [
-        "In a bowl, mix chicken strips with ginger-garlic paste, chili powders, spices, lemon juice, and salt.",
-        "Add chopped coriander & mint. Mix well.",
-        "Beat in one egg. Cover and marinate at least 1 hour (overnight in fridge for best flavor)."
+        "In a bowl, mix chicken strips with ginger-garlic paste, green chili paste, red chili powder, Kashmiri chili powder, coriander powder, cumin powder, garam masala, black pepper, lemon juice, and salt.",
+        "Add chopped coriander and mint. Mix well.",
+        "Beat in one egg and coat the chicken evenly.",
+        "Cover and marinate for at least 1 hour. For best flavor, marinate overnight in the refrigerator."
       ]
     },
     {
-      "title": "Step 2: Prepare the Coating",
+      "title": "Step 2 – Preparing the Coating",
       "steps": [
-        "Crush cornflakes lightly (not powder, keep it flaky for crunch).",
-        "Mix with rice flour, cornflour, refined flour, salt, and pepper."
+        "Crush the cornflakes lightly, keeping them coarse and flaky rather than turning them into a fine powder.",
+        "Mix the crushed cornflakes with rice flour, cornflour, refined flour, salt, and black pepper."
       ]
     },
     {
-      "title": "Step 3: Coat the Chicken",
+      "title": "Step 3 – Coating the Chicken",
       "steps": [
-        "Take each marinated chicken strip.",
-        "Roll in the dry cornflakes mixture, press gently so flakes stick well.",
-        "Keep coated pieces on a tray. Rest 10 mins (helps coating set)."
+        "Take each marinated chicken strip and roll it in the dry cornflake mixture.",
+        "Press gently so the flakes stick well to the chicken.",
+        "Keep the coated pieces on a tray and rest for 10 minutes to help the coating set.",
+        "(Optional chef's touch: dip the coated chicken once more in beaten egg and re-coat with cornflakes for extra crunch.)"
       ]
     },
     {
-      "title": "Step 4: Frying",
+      "title": "Step 4 – Frying",
       "steps": [
-        "Heat oil to 170–175°C (medium-high, not smoking).",
-        "Fry chicken strips in batches, do not overcrowd.",
-        "Fry until golden brown & crispy (about 4–5 minutes per batch).",
+        "Heat the oil to 170–175°C (medium-high, not smoking).",
+        "Fry the chicken strips in batches without overcrowding the pan.",
+        "Fry until golden brown and crispy, about 4–5 minutes per batch, or until the chicken is fully cooked.",
         "Drain on a wire rack or kitchen paper."
       ]
     },
     {
-      "title": "Step 5: Finishing Touch",
+      "title": "Step 5 – Finishing Touch",
       "steps": [
         "Sprinkle chaat masala immediately after frying.",
-        "Plate with mint mayo, lemon wedges, and microgreens (for a restaurant-style look)."
+        "Serve with mint mayo or spicy Schezwan dip and lemon wedges.",
+        "For a restaurant-style look, plate with fresh coriander and microgreens and drizzle the dip in a zigzag pattern."
       ]
     }
   ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve hot with mint mayo or spicy Schezwan dip.",
+      "Pair with lemon wedges and fresh coriander for a refreshing balance.",
+      "In restaurants, it can be served on a black slate or white plate with a zigzag dip drizzle and microgreens.",
+      "Best served immediately after frying to maintain the super crispy coating."
+    ]
+  },
+
   "chefTips": [
-    "Double coating trick: Dip once more in beaten egg and re-coat in cornflakes for extra crunch.",
-    "Texture balance: Use both cornflakes & rice flour; cornflakes give crunch, rice flour keeps it light.",
-    "Oil control: Maintain oil temperature – too hot burns coating, too low makes it soggy.",
-    "Plating: Serve on a black slate/white plate, drizzle dip in zigzag, and add micro herbs for fine-dining effect."
+    "Double coating trick – dip once more in beaten egg and re-coat in cornflakes for extra crunch.",
+    "Texture balance – use both cornflakes and rice flour; cornflakes give crunch while rice flour keeps the coating light.",
+    "Oil control – maintain the oil temperature at 170–175°C; too hot burns the coating, while too low makes it soggy.",
+    "For juicy chicken – use thigh strips for a naturally tender result, or avoid overcooking breast strips.",
+    "Keep the cornflakes coarse – larger flakes create the signature Kurkure-style crunchy texture.",
+    "Plating – serve on a black slate or white plate, drizzle dip in zigzag, and add micro herbs for a fine-dining effect."
   ]
 }
