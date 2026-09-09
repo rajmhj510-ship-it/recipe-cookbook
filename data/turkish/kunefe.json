@@ -1,0 +1,101 @@
+{
+  "title": "Künefe",
+  "category": "Turkish",
+  "description": "A spectacular Turkish dessert of crisp golden kadayıf pastry surrounding stretchy melted cheese, finished with fragrant syrup and premium pistachios.",
+  "time": "45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/turkish/kunefe.jpg",
+
+  "ingredients": [
+    {
+      "title": "Künefe",
+      "items": [
+        "400 g fresh kadayıf pastry",
+        "250 g unsalted mozzarella or künefe cheese",
+        "150 g clarified butter",
+        "2 tablespoons sugar",
+        "50 g pistachios, finely ground"
+      ]
+    },
+    {
+      "title": "Syrup",
+      "items": [
+        "250 g granulated sugar",
+        "200 ml water",
+        "1 tablespoon lemon juice",
+        "1 teaspoon rose water"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Syrup",
+      "steps": [
+        "Combine sugar and water in a saucepan.",
+        "Bring to a boil and simmer for 8 minutes.",
+        "Add lemon juice and simmer for another 2 minutes.",
+        "Stir in rose water and remove from the heat.",
+        "Allow the syrup to cool."
+      ]
+    },
+    {
+      "title": "Prepare the Kadayıf",
+      "steps": [
+        "Separate the kadayıf strands gently with your fingers.",
+        "Melt the clarified butter and mix it thoroughly through the pastry.",
+        "Make sure every strand is lightly coated."
+      ]
+    },
+    {
+      "title": "Build the Künefe",
+      "steps": [
+        "Butter a 24 cm heavy ovenproof pan or künefe dish.",
+        "Press half of the buttered kadayıf firmly into the bottom.",
+        "Spread the cheese evenly across the center, leaving a small border.",
+        "Cover completely with the remaining kadayıf.",
+        "Press the surface firmly and evenly."
+      ]
+    },
+    {
+      "title": "Cook Until Golden",
+      "steps": [
+        "Cook over medium-low heat until the bottom becomes deeply golden and crisp.",
+        "Rotate the pan regularly for even browning.",
+        "Place under a hot broiler briefly to finish the top.",
+        "Continue until the surface is intensely golden and the cheese is completely melted."
+      ]
+    },
+    {
+      "title": "Finish and Serve",
+      "steps": [
+        "Immediately pour the cooled syrup evenly over the hot künefe.",
+        "Allow it to absorb for 1 to 2 minutes.",
+        "Scatter finely ground pistachios over the surface.",
+        "Cut into portions and serve immediately while the cheese remains molten and stretchy."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Restaurant-Style Presentation",
+    "items": [
+      "Serve immediately in individual portions.",
+      "Finish generously with finely ground pistachios.",
+      "Present while the cheese is still molten.",
+      "Serve with a small portion of kaymak or clotted cream.",
+      "Pair with Turkish tea or strong Turkish coffee."
+    ]
+  },
+
+  "chefTips": [
+    "Use fresh kadayıf whenever possible for the best texture.",
+    "Butter the pastry thoroughly so every strand becomes crisp.",
+    "Press both layers firmly to create a compact, even dessert.",
+    "Cook slowly over medium-low heat so the base browns without burning.",
+    "Use a mild, low-salt cheese that melts and stretches well.",
+    "The key contrast is a deeply crisp exterior with molten cheese inside.",
+    "Pour cool syrup over hot künefe for maximum crispness.",
+    "Serve immediately; künefe loses its signature texture as it cools."
+  ]
+}
