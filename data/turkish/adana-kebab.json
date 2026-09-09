@@ -1,0 +1,106 @@
+{
+  "title": "Adana Kebab",
+  "category": "Turkish",
+  "description": "A legendary charcoal-grilled kebab from southern Turkey made with finely minced lamb, traditional pepper, paprika, and tail fat for an intensely juicy and smoky finish.",
+  "time": "1 hr 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/turkish/adana-kebab.jpg",
+
+  "ingredients": [
+    {
+      "title": "Kebab Mixture",
+      "items": [
+        "700 g lamb shoulder, finely minced",
+        "100 g lamb tail fat, finely minced",
+        "2 tablespoons Turkish red pepper paste",
+        "1 teaspoon sweet paprika",
+        "1 teaspoon Aleppo pepper",
+        "1/2 teaspoon ground cumin",
+        "1 teaspoon salt",
+        "1/2 teaspoon black pepper"
+      ]
+    },
+    {
+      "title": "To Serve",
+      "items": [
+        "4 Turkish lavash breads",
+        "2 red onions, thinly sliced",
+        "1 tablespoon sumac",
+        "Fresh parsley",
+        "4 green peppers",
+        "2 tomatoes",
+        "Lemon wedges"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Mixture",
+      "steps": [
+        "Combine the minced lamb and finely minced tail fat.",
+        "Add pepper paste, paprika, Aleppo pepper, cumin, salt, and black pepper.",
+        "Knead firmly for 5 to 7 minutes until the mixture becomes sticky and cohesive.",
+        "Cover and refrigerate for at least 1 hour."
+      ]
+    },
+    {
+      "title": "Shape the Kebabs",
+      "steps": [
+        "Wet your hands lightly with cold water.",
+        "Divide the mixture into four portions.",
+        "Press each portion firmly around a wide flat metal skewer.",
+        "Shape into long, even kebabs with shallow ridges along the surface."
+      ]
+    },
+    {
+      "title": "Grill Over Charcoal",
+      "steps": [
+        "Prepare a very hot charcoal grill.",
+        "Place the kebabs over high heat.",
+        "Grill for approximately 3 to 4 minutes per side.",
+        "Turn frequently enough to cook evenly while developing deep char.",
+        "Grill the green peppers and tomatoes alongside the kebabs."
+      ]
+    },
+    {
+      "title": "Prepare the Onion Garnish",
+      "steps": [
+        "Combine sliced red onion with sumac and chopped parsley.",
+        "Massage gently until the onion softens slightly.",
+        "Set aside until serving."
+      ]
+    },
+    {
+      "title": "Serve",
+      "steps": [
+        "Warm the lavash briefly over the grill.",
+        "Place the kebabs over the lavash.",
+        "Add grilled peppers and tomatoes.",
+        "Finish with the sumac onion salad and lemon wedges.",
+        "Serve immediately."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Traditional Grill Presentation",
+    "items": [
+      "Serve directly over warm lavash.",
+      "Add sumac onions beside the kebab.",
+      "Serve blistered peppers and tomatoes.",
+      "Finish with fresh parsley and lemon.",
+      "Pair with ayran or a fresh Turkish salad."
+    ]
+  },
+
+  "chefTips": [
+    "Use lamb with enough natural fat for a juicy kebab.",
+    "Traditional tail fat provides exceptional flavor and texture.",
+    "Kneading is essential because it creates the characteristic cohesive texture.",
+    "Keep the grill extremely hot to achieve proper charcoal char.",
+    "Do not press the kebab repeatedly while grilling or valuable juices will be lost.",
+    "Shape the kebabs evenly so they cook at the same rate.",
+    "Serve immediately while the kebab is smoky and juicy."
+  ]
+}
