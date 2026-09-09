@@ -38,5 +38,9 @@
     {
     "category": "Spanish",
     "file": "data/spanish.json"
+  },
+  {
+    "category": "Turkish",
+    "file": "data/turkish.json"
   }
 ]
