@@ -7,5 +7,14 @@
     "image": "assets/images/turkish/tulumba.jpg",
     "time": "90 min",
     "difficulty": "Professional"
+  },
+    {
+    "id": 3002,
+    "title": "Hünkar Beğendi",
+    "category": "Turkish",
+    "file": "data/turkish/tulumba.json",
+    "image": "assets/images/turkish/hunkar-begendi.jpg",
+    "time": "2 hrs 15 min",
+    "difficulty": "Medium"
   }
 ]
