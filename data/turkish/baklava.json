@@ -1,0 +1,99 @@
+{
+  "title": "Pistachio Baklava",
+  "category": "Turkish",
+  "description": "An exquisite Turkish pastry made with delicate layers of filo, premium pistachios, clarified butter, and fragrant syrup, baked until deeply golden and irresistibly crisp.",
+  "time": "1 hr 45 min",
+  "difficulty": "Medium",
+  "image": "assets/images/turkish/baklava.jpg",
+
+  "ingredients": [
+    {
+      "title": "Baklava",
+      "items": [
+        "400 g premium filo pastry",
+        "300 g unsalted pistachios, finely chopped",
+        "250 g clarified butter or ghee",
+        "2 tablespoons sugar"
+      ]
+    },
+    {
+      "title": "Syrup",
+      "items": [
+        "300 g granulated sugar",
+        "250 ml water",
+        "1 tablespoon lemon juice",
+        "1 teaspoon rose water"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Syrup",
+      "steps": [
+        "Combine sugar and water in a saucepan.",
+        "Bring to a gentle boil and simmer for 8 to 10 minutes.",
+        "Add lemon juice and simmer for another 2 minutes.",
+        "Remove from the heat and stir in rose water.",
+        "Cool the syrup completely."
+      ]
+    },
+    {
+      "title": "Prepare the Pastry",
+      "steps": [
+        "Preheat the oven to 175°C.",
+        "Brush a baking tray generously with clarified butter.",
+        "Lay one filo sheet into the tray and brush lightly with butter.",
+        "Repeat for approximately 8 to 10 layers."
+      ]
+    },
+    {
+      "title": "Add the Pistachios",
+      "steps": [
+        "Spread a thin, even layer of chopped pistachios over the filo.",
+        "Add several more buttered filo sheets.",
+        "Repeat the pistachio and filo layers until the ingredients are used.",
+        "Finish with 8 to 10 buttered filo sheets on top."
+      ]
+    },
+    {
+      "title": "Cut and Bake",
+      "steps": [
+        "Using a sharp knife, cut the baklava into diamonds or rectangles before baking.",
+        "Pour the remaining clarified butter evenly across the surface.",
+        "Bake for approximately 40 to 50 minutes until deeply golden and crisp.",
+        "Rotate the tray halfway through baking if necessary."
+      ]
+    },
+    {
+      "title": "Finish With Syrup",
+      "steps": [
+        "Remove the hot baklava from the oven.",
+        "Immediately pour the completely cooled syrup evenly over the pastry.",
+        "Allow the baklava to rest for at least 4 hours.",
+        "Garnish each piece with finely ground pistachios before serving."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Luxury Dessert Presentation",
+    "items": [
+      "Serve individual diamond-shaped pieces.",
+      "Garnish with finely ground premium pistachios.",
+      "Serve at room temperature.",
+      "Pair with strong Turkish coffee.",
+      "Add a small scoop of plain kaymak for an elevated presentation."
+    ]
+  },
+
+  "chefTips": [
+    "Keep filo covered with a slightly damp towel while working so it does not dry out.",
+    "Use clarified butter for a cleaner, richer flavor and crispier layers.",
+    "Brush each layer lightly rather than flooding it with butter.",
+    "Cool the syrup completely before pouring it over the hot baklava.",
+    "Allow several hours of resting time for the syrup to distribute properly.",
+    "Premium pistachios make a major difference in flavor and appearance.",
+    "Bake until deeply golden; pale baklava will lack the desired caramelized flavor."
+  ]
+}
