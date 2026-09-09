@@ -1,0 +1,119 @@
+{
+  "title": "İskender Kebab",
+  "category": "Turkish",
+  "description": "A legendary Bursa specialty featuring thinly sliced seasoned lamb and beef over toasted pide, rich tomato sauce, silky garlic yogurt, and sizzling browned butter.",
+  "time": "1 hr 30 min",
+  "difficulty": "Medium",
+  "image": "assets/images/turkish/iskender-kebab.jpg",
+
+  "ingredients": [
+    {
+      "title": "Kebab Meat",
+      "items": [
+        "600 g lamb shoulder, thinly sliced",
+        "300 g beef sirloin, thinly sliced",
+        "1 small onion, finely grated",
+        "2 cloves garlic, grated",
+        "2 tablespoons olive oil",
+        "1 teaspoon ground cumin",
+        "1 teaspoon sweet paprika",
+        "1/2 teaspoon black pepper",
+        "1 teaspoon salt"
+      ]
+    },
+    {
+      "title": "Tomato Sauce",
+      "items": [
+        "2 tablespoons butter",
+        "2 tablespoons tomato paste",
+        "300 ml tomato passata",
+        "100 ml water",
+        "1/2 teaspoon sweet paprika",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon black pepper"
+      ]
+    },
+    {
+      "title": "Garlic Yogurt",
+      "items": [
+        "300 g thick strained yogurt",
+        "1 garlic clove, finely grated",
+        "1/4 teaspoon salt"
+      ]
+    },
+    {
+      "title": "To Serve",
+      "items": [
+        "2 Turkish pide breads",
+        "60 g butter",
+        "2 grilled green peppers",
+        "2 grilled tomatoes",
+        "Fresh parsley"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Marinate the Meat",
+      "steps": [
+        "Combine onion, garlic, olive oil, cumin, paprika, black pepper, and salt.",
+        "Coat the sliced meat thoroughly with the marinade.",
+        "Cover and refrigerate for at least 2 hours, preferably overnight."
+      ]
+    },
+    {
+      "title": "Prepare the Tomato Sauce",
+      "steps": [
+        "Melt the butter in a saucepan over medium heat.",
+        "Add tomato paste and paprika and cook for 1 minute.",
+        "Add passata and water and simmer for 12 to 15 minutes.",
+        "Reduce until glossy and concentrated, then season to taste.",
+        "Keep warm."
+      ]
+    },
+    {
+      "title": "Cook the Kebab",
+      "steps": [
+        "Heat a heavy skillet or grill plate until extremely hot.",
+        "Cook the meat in small batches to prevent steaming.",
+        "Sear until deeply caramelized while keeping the center tender.",
+        "Rest briefly before slicing into serving pieces."
+      ]
+    },
+    {
+      "title": "Assemble",
+      "steps": [
+        "Cut the pide into small pieces and toast lightly.",
+        "Arrange the warm pide across a heated serving plate.",
+        "Spoon tomato sauce over the bread.",
+        "Arrange the hot kebab meat on top.",
+        "Add garlic yogurt beside the meat.",
+        "Pour additional tomato sauce over the kebab.",
+        "Brown the butter until fragrant and lightly golden.",
+        "Pour the sizzling butter over the meat immediately before serving.",
+        "Finish with grilled peppers, tomatoes, and parsley."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Restaurant-Style Presentation",
+    "items": [
+      "Serve on a preheated wide ceramic plate.",
+      "Keep yogurt separate from the hot tomato sauce.",
+      "Pour browned butter tableside immediately before serving.",
+      "Serve with blistered green peppers and roasted tomatoes.",
+      "Use freshly toasted pide so it absorbs the sauce without becoming soggy."
+    ]
+  },
+
+  "chefTips": [
+    "Partially freeze the meat for 20 to 30 minutes before slicing for ultra-thin pieces.",
+    "Never overcrowd the pan when searing.",
+    "The tomato sauce should be intense, glossy, and slightly acidic.",
+    "Use thick strained yogurt for a luxurious texture.",
+    "Brown the butter gently; burnt butter will overpower the dish.",
+    "Warm the plates before assembly to maintain the restaurant-quality presentation."
+  ]
+}
