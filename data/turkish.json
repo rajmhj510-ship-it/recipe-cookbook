@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": 3001,
     "title": "Tulumba",
     "category": "Turkish",
@@ -8,13 +8,49 @@
     "time": "90 min",
     "difficulty": "Professional"
   },
-    {
+  {
     "id": 3002,
     "title": "Hünkar Beğendi",
     "category": "Turkish",
     "file": "data/turkish/hunkar-begendi.json",
     "image": "assets/images/turkish/hunkar-begendi.jpg",
     "time": "2 hrs 15 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3003,
+    "title": "İskender Kebab",
+    "category": "Turkish",
+    "file": "data/turkish/iskender-kebab.json",
+    "image": "assets/images/turkish/iskender-kebab.jpg",
+    "time": "1 hr 30 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3004,
+    "title": "Adana Kebab",
+    "category": "Turkish",
+    "file": "data/turkish/adana-kebab.json",
+    "image": "assets/images/turkish/adana-kebab.jpg",
+    "time": "1 hr 30 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3005,
+    "title": "Pistachio Baklava",
+    "category": "Turkish",
+    "file": "data/turkish/baklava.json",
+    "image": "assets/images/turkish/baklava.jpg",
+    "time": "1 hr 45 min",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3006,
+    "title": "Künefe",
+    "category": "Turkish",
+    "file": "data/turkish/kunefe.json",
+    "image": "assets/images/turkish/kunefe.jpg",
+    "time": "45 min",
     "difficulty": "Medium"
   }
 ]
