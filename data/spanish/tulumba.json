@@ -1,0 +1,152 @@
+{
+  "id": "3001",
+  "title": "Tulumba",
+  "description": "Traditional Turkish Tulumba is a classic syrup-soaked fried pastry celebrated for its deeply golden, crisp ridges and light, slightly chewy center. Hot, freshly fried tulumba are soaked briefly in cold syrup, creating the characteristic contrast of crisp exterior and sweet, well-absorbed syrup.",
+  
+  "category": "Turkish",
+  "time": "90 min",
+  "difficulty": "Professional",
+  "image": "assets/images/turkish/tulumba.jpg",
+
+  "ingredients": [
+    {
+      "title": "For the Syrup",
+      "items": [
+        "Granulated sugar – 500 g",
+        "Water – 400 ml",
+        "Fresh lemon juice – 10 g (approximately 2 tsp)",
+        "Lemon peel – 1 small strip (optional)"
+      ]
+    },
+    {
+      "title": "For the Tulumba Dough",
+      "items": [
+        "Water – 250 ml",
+        "Unsalted butter – 50 g",
+        "Sunflower oil – 15 ml",
+        "Granulated sugar – 5 g",
+        "Sea salt – 2 g",
+        "All-purpose flour – 150 g",
+        "Fine semolina – 20 g",
+        "Cornstarch – 10 g",
+        "Eggs – 3 large (approximately 150 g without shells)"
+      ]
+    },
+    {
+      "title": "For Frying",
+      "items": [
+        "Neutral high-smoke-point oil (sunflower or canola) – approximately 1.5–2 L"
+      ]
+    },
+    {
+      "title": "Garnishes & Accompaniments",
+      "items": [
+        "Ground pistachios – optional",
+        "Turkish tea or coffee – to serve",
+        "Lemon slices – optional"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Step 1 – Preparing the Syrup",
+      "steps": [
+        "Combine the sugar and water in a saucepan.",
+        "Bring to a boil over medium-high heat, stirring only until the sugar has dissolved.",
+        "Add the lemon juice and lemon peel.",
+        "Reduce slightly and boil for approximately 10–12 minutes, until the syrup reaches 106–108°C (223–226°F).",
+        "Remove from the heat and allow the syrup to cool completely.",
+        "Cover and refrigerate until thoroughly chilled.",
+        "Keep the syrup cold; the contrast between cold syrup and hot tulumba is essential for proper absorption while maintaining a crisp exterior."
+      ]
+    },
+    {
+      "title": "Step 2 – Preparing the Tulumba Dough",
+      "steps": [
+        "Place water, butter, sunflower oil, sugar, and salt in a heavy saucepan.",
+        "Bring the mixture to a full simmer.",
+        "Add the flour and semolina all at once.",
+        "Stir vigorously with a wooden spoon until a smooth, firm dough forms.",
+        "Continue cooking over medium-low heat for 2–3 minutes, stirring continuously, until a light film forms on the bottom of the pan.",
+        "Transfer the dough to a stand mixer fitted with a paddle attachment.",
+        "Mix for 3–5 minutes on low speed to release excess heat.",
+        "Allow the dough to cool until warm rather than hot."
+      ]
+    },
+    {
+      "title": "Step 3 – Incorporating the Eggs",
+      "steps": [
+        "Lightly whisk the eggs in a separate bowl.",
+        "With the mixer running on low-medium speed, gradually add the eggs.",
+        "Allow each addition to incorporate completely before adding more.",
+        "Add the cornstarch and mix until smooth.",
+        "The finished dough should be thick, elastic, smooth, and capable of holding its ridges when piped.",
+        "Do not automatically add all the egg if the dough reaches the correct consistency before the entire quantity is incorporated."
+      ]
+    },
+    {
+      "title": "Step 4 – Preparing for Frying",
+      "steps": [
+        "Fill a piping bag fitted with a large open star nozzle, approximately 12–15 mm.",
+        "Heat the frying oil to approximately 150–160°C (302–320°F).",
+        "Pipe the dough directly into the oil in pieces approximately 4–5 cm long.",
+        "Cut each piece cleanly with scissors or a knife.",
+        "Avoid overcrowding the fryer or saucepan."
+      ]
+    },
+    {
+      "title": "Step 5 – Frying the Tulumba",
+      "steps": [
+        "Fry initially at 150–160°C (302–320°F), allowing the tulumba to cook gradually and develop a firm structure.",
+        "Once the tulumba become firm and begin to color, gradually increase the oil temperature to approximately 170–175°C (338–347°F).",
+        "Continue frying for approximately 8–12 minutes, depending on size.",
+        "Fry until deeply golden brown, crisp, and firm.",
+        "Remove with a slotted spoon and drain briefly.",
+        "Avoid starting at very high heat, as excessive heat can brown the exterior too quickly while leaving the interior undercooked."
+      ]
+    },
+    {
+      "title": "Step 6 – Syruping",
+      "steps": [
+        "Immediately transfer the hot, freshly fried tulumba into the chilled syrup.",
+        "Allow them to soak for approximately 1–2 minutes.",
+        "Turn gently once or twice to ensure even absorption.",
+        "Remove with a slotted spoon and place on a wire rack.",
+        "Allow excess syrup to drain before plating."
+      ]
+    },
+    {
+      "title": "Step 7 – Plating",
+      "steps": [
+        "Arrange the tulumba neatly on a serving plate.",
+        "Garnish lightly with finely ground pistachios if desired.",
+        "Serve at room temperature.",
+        "Accompany with Turkish tea or strong Turkish coffee."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Serving Suggestions",
+    "items": [
+      "Serve at room temperature after syruping and draining.",
+      "Garnish lightly with finely ground pistachios for an elegant finish.",
+      "Pair with traditional Turkish tea or strong Turkish coffee.",
+      "Optional lemon slices can be served alongside."
+    ]
+  },
+
+  "chefTips": [
+    "Use cold syrup and hot tulumba for the best texture and syrup absorption.",
+    "Cook the flour and semolina mixture properly before incorporating the eggs to develop the dough structure.",
+    "Add the eggs gradually because the exact quantity required can vary slightly depending on flour and egg size.",
+    "Use a large star nozzle to create the characteristic ridges and maximize crispness.",
+    "Maintain a moderate frying temperature initially rather than frying at high heat from the beginning.",
+    "Fry in small batches to prevent the oil temperature from dropping excessively.",
+    "Tulumba should be deep golden, crisp, and firm before entering the syrup.",
+    "Do not leave the fried tulumba submerged in syrup for too long; approximately 1–2 minutes is sufficient.",
+    "Always drain syruped tulumba on a wire rack rather than paper towels to preserve their crisp exterior.",
+    "For extra refinement, garnish with a very small amount of finely ground pistachio immediately before service."
+  ]
+}
