@@ -1,0 +1,123 @@
+{
+  "title": "Hünkar Beğendi",
+  "category": "Turkish",
+  "description": "A luxurious Ottoman-era Turkish dish featuring slow-braised tender lamb served over a silky smoky eggplant purée enriched with butter, milk, and cheese.",
+  "time": "2 hrs 15 min",
+  "difficulty": "Medium",
+  "image": "assets/images/turkish/hunkar-begendi.jpg",
+
+  "ingredients": [
+    {
+      "title": "Lamb Stew",
+      "items": [
+        "750 g lamb shoulder, cut into 3 cm cubes",
+        "2 tablespoons olive oil",
+        "1 large onion, finely chopped",
+        "3 cloves garlic, minced",
+        "2 medium tomatoes, finely chopped",
+        "1 tablespoon tomato paste",
+        "250 ml beef or lamb stock",
+        "1 teaspoon sweet paprika",
+        "1/2 teaspoon ground black pepper",
+        "1 teaspoon salt",
+        "1 bay leaf",
+        "1 tablespoon butter"
+      ]
+    },
+    {
+      "title": "Eggplant Purée",
+      "items": [
+        "3 large eggplants",
+        "2 tablespoons butter",
+        "2 tablespoons all-purpose flour",
+        "300 ml whole milk, warm",
+        "100 g Kashar cheese or mild cheddar, finely grated",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon black pepper",
+        "1/4 teaspoon freshly grated nutmeg"
+      ]
+    },
+    {
+      "title": "To Finish",
+      "items": [
+        "Fresh parsley, finely chopped",
+        "Extra melted butter",
+        "Freshly ground black pepper"
+      ]
+    }
+  ],
+
+  "instruction": [
+    {
+      "title": "Prepare the Eggplant",
+      "steps": [
+        "Pierce the eggplants several times with a knife and roast them over an open flame, grill, or under a very hot broiler until the skins are completely charred and the flesh is soft.",
+        "Turn the eggplants regularly so they cook evenly and develop a deep smoky flavor.",
+        "Place the cooked eggplants in a bowl, cover briefly, then peel away the charred skins.",
+        "Drain the flesh thoroughly in a fine sieve to remove excess liquid."
+      ]
+    },
+    {
+      "title": "Cook the Lamb",
+      "steps": [
+        "Heat the olive oil in a heavy-bottomed pot over medium-high heat.",
+        "Season the lamb with salt and black pepper, then sear in batches until deeply browned.",
+        "Remove the lamb and set aside.",
+        "Add the chopped onion to the same pot and cook until soft and lightly golden.",
+        "Add the garlic and cook for 30 seconds.",
+        "Stir in the tomato paste and paprika and cook for 1 minute.",
+        "Add the chopped tomatoes and cook until they begin to break down.",
+        "Return the browned lamb to the pot and add the stock and bay leaf.",
+        "Cover and simmer gently for about 1 1/2 hours, or until the lamb is exceptionally tender.",
+        "Stir occasionally and reduce the sauce until rich and glossy."
+      ]
+    },
+    {
+      "title": "Make the Eggplant Purée",
+      "steps": [
+        "Finely chop or mash the drained roasted eggplant flesh until smooth but slightly textured.",
+        "Melt the butter in a saucepan over medium heat.",
+        "Add the flour and whisk continuously for about 1 minute without allowing it to brown.",
+        "Gradually add the warm milk while whisking until smooth and creamy.",
+        "Add the roasted eggplant and stir continuously until fully incorporated.",
+        "Add the grated Kashar cheese and continue stirring until melted and silky.",
+        "Season with salt, black pepper, and a small amount of nutmeg.",
+        "Cook gently for another 3 to 5 minutes until the purée is thick, glossy, and spoonable."
+      ]
+    },
+    {
+      "title": "Restaurant-Style Assembly",
+      "steps": [
+        "Warm the serving plates before plating.",
+        "Spoon a generous layer of the silky eggplant purée onto each plate.",
+        "Create a shallow well in the center of the purée.",
+        "Place the tender lamb and its rich tomato sauce over the center.",
+        "Drizzle with a small amount of melted butter.",
+        "Finish with freshly chopped parsley and freshly ground black pepper.",
+        "Serve immediately while the eggplant purée and lamb are hot."
+      ]
+    }
+  ],
+
+  "servingSuggestions": {
+    "title": "Ottoman-Style Presentation",
+    "items": [
+      "Serve the lamb directly over the eggplant purée for the classic presentation.",
+      "Use warmed wide plates to create a refined restaurant-style appearance.",
+      "Garnish lightly with parsley rather than overwhelming the dish.",
+      "Serve with warm Turkish pide or crusty bread to absorb the sauce.",
+      "A simple shepherd salad with tomato, cucumber, onion, and herbs makes a refreshing accompaniment."
+    ]
+  },
+
+  "chefTips": [
+    "Char the eggplant thoroughly—the smoky flavor is the defining character of the dish.",
+    "Drain the roasted eggplant well before making the purée so it does not become watery.",
+    "Brown the lamb deeply before braising to develop a rich, restaurant-quality flavor.",
+    "Cook the lamb slowly until it is tender enough to cut with a spoon.",
+    "Use warm milk when making the eggplant purée for a smoother texture.",
+    "Add the cheese gradually and stir continuously to create a silky, glossy purée.",
+    "Do not overpower the eggplant with spices; its smoky flavor should remain the star.",
+    "Serve immediately after plating for the best contrast between the hot lamb and creamy eggplant."
+  ]
+}
