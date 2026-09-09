@@ -7,5 +7,14 @@
     "image": "assets/images/spanish/churros.jpg",
     "time": "60 min",
     "difficulty": "Medium"
+  },
+    {
+    "id": 3001,
+    "title": "Tulumba",
+    "category": "Turkish",
+    "file": "data/turkish/tulumba.json",
+    "image": "assets/images/turkish/tulumba.jpg",
+    "time": "90 min",
+    "difficulty": "Professional"
   }
 ]
