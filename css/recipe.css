@@ -246,3 +246,241 @@ body {
 		margin-top: 25px;
 	}
 }
+
+/* =====================================================
+   WHATSAPP STYLE RECIPE HEADER
+===================================================== */
+
+/* HERO */
+#hero {
+    height: 520px;
+    min-height: 520px;
+    position: relative;
+    overflow: hidden;
+    background-image: none !important;
+    background-color: #111;
+}
+
+/* HERO OVERLAY */
+.hero-overlay {
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.85)
+        );
+
+    transition: background 0.4s ease;
+}
+
+/* HERO CONTENT */
+.hero-content {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+
+    display: flex;
+    align-items: flex-end;
+
+    padding: 40px;
+}
+
+/* IMAGE + INFORMATION */
+.recipe-identity {
+    display: flex;
+    align-items: flex-end;
+    gap: 25px;
+    width: 100%;
+}
+
+/* RECIPE IMAGE */
+.recipe-image-wrapper {
+    width: 330px;
+    height: 390px;
+
+    flex-shrink: 0;
+
+    border-radius: 22px;
+    overflow: hidden;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, 0.45);
+
+    transition:
+        width 0.25s ease,
+        height 0.25s ease,
+        border-radius 0.25s ease;
+}
+
+.recipe-image-wrapper img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+/* RECIPE INFORMATION */
+.recipe-title-area {
+    padding-bottom: 25px;
+
+    transition:
+        transform 0.25s ease;
+}
+
+/* =====================================================
+   COMPACT HEADER AFTER SCROLL
+===================================================== */
+
+#hero.recipe-scrolled {
+    height: 100px;
+    min-height: 100px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 900;
+
+    background: rgba(255, 255, 255, 0.97);
+
+    box-shadow:
+        0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+#hero.recipe-scrolled .hero-overlay {
+    background: transparent;
+}
+
+#hero.recipe-scrolled .hero-content {
+    padding: 10px 25px;
+
+    align-items: center;
+}
+
+#hero.recipe-scrolled .recipe-identity {
+    align-items: center;
+    gap: 14px;
+}
+
+/* SMALL IMAGE */
+#hero.recipe-scrolled .recipe-image-wrapper {
+    width: 78px;
+    height: 78px;
+
+    border-radius: 50%;
+
+    box-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.22);
+}
+
+/* SMALL TITLE AREA */
+#hero.recipe-scrolled .recipe-title-area {
+    padding: 0;
+}
+
+/* SMALL TITLE */
+#hero.recipe-scrolled #title {
+    color: #222;
+
+    font-size: 1.25rem;
+
+    margin: 0;
+}
+
+/* HIDE CATEGORY */
+#hero.recipe-scrolled .recipe-category {
+    display: none;
+}
+
+/* HIDE DESCRIPTION */
+#hero.recipe-scrolled .recipe-description {
+    display: none;
+}
+
+/* SMALL META */
+#hero.recipe-scrolled .recipe-meta {
+    margin-top: 3px;
+
+    color: #777;
+
+    font-size: 0.8rem;
+}
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 900px) {
+
+    #hero {
+        height: 430px;
+        min-height: 430px;
+    }
+
+    .hero-content {
+        padding: 25px;
+    }
+
+    .recipe-image-wrapper {
+        width: 250px;
+        height: 300px;
+    }
+
+    .recipe-identity {
+        gap: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #hero {
+        height: 430px;
+        min-height: 430px;
+    }
+
+    .recipe-identity {
+        display: block;
+    }
+
+    .recipe-image-wrapper {
+        width: 100%;
+        height: 300px;
+
+        border-radius: 18px;
+    }
+
+    .recipe-title-area {
+        padding-top: 15px;
+    }
+
+    /* COMPACT MOBILE HEADER */
+
+    #hero.recipe-scrolled {
+        height: 75px;
+        min-height: 75px;
+    }
+
+    #hero.recipe-scrolled .hero-content {
+        padding: 8px 15px;
+    }
+
+    /* SMALL MOBILE IMAGE */
+
+    #hero.recipe-scrolled .recipe-image-wrapper {
+        width: 58px;
+        height: 58px;
+    }
+
+    /* SMALL MOBILE TITLE */
+
+    #hero.recipe-scrolled #title {
+        font-size: 1rem;
+    }
+
+    #hero.recipe-scrolled .recipe-meta {
+        font-size: 0.7rem;
+    }
+}
