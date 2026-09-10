@@ -149,3 +149,22 @@ if (
 }
 
 loadRecipe();
+/* =====================================================
+   WHATSAPP STYLE SCROLL HEADER
+===================================================== */
+
+const recipeHero = document.getElementById("hero");
+
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 80) {
+
+        recipeHero.classList.add("recipe-scrolled");
+
+    } else {
+
+        recipeHero.classList.remove("recipe-scrolled");
+
+    }
+
+});
