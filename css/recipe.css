@@ -26,6 +26,7 @@ body {
 
 .back-btn {
     position: fixed;
+
     top: 20px;
     left: 20px;
 
@@ -36,10 +37,10 @@ body {
     border: none;
     border-radius: 999px;
 
-    background: rgba(255,255,255,0.95);
+    background: rgba(255, 255, 255, 0.95);
 
     box-shadow:
-        0 4px 15px rgba(0,0,0,0.15);
+        0 4px 12px rgba(0, 0, 0, 0.15);
 
     cursor: pointer;
 
@@ -48,7 +49,7 @@ body {
 
 
 /* =====================================================
-   HERO / WHATSAPP CONTACT STYLE
+   HERO
 ===================================================== */
 
 #hero {
@@ -57,44 +58,51 @@ body {
     height: 620px;
     min-height: 620px;
 
-    background: #111;
-
     overflow: hidden;
+
+    background: #111;
 }
 
 
-/* Background image */
+/* =====================================================
+   BLURRED HERO BACKGROUND
+===================================================== */
 
 .hero-background {
     position: absolute;
 
-    inset: 0;
+    inset: -30px;
 
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 
     filter: blur(25px);
 
-    transform: scale(1.15);
+    transform: scale(1.12);
 
     opacity: 0.55;
+
+    z-index: 0;
 }
 
 
-/* Dark overlay */
+/* =====================================================
+   HERO OVERLAY
+===================================================== */
 
-.hero-background::after {
-    content: "";
-
+.hero-overlay {
     position: absolute;
 
     inset: 0;
 
+    z-index: 1;
+
     background:
         linear-gradient(
             to bottom,
-            rgba(0,0,0,0.15),
-            rgba(0,0,0,0.85)
+            rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.82)
         );
 }
 
@@ -108,7 +116,14 @@ body {
 
     z-index: 2;
 
+    width: 100%;
     height: 100%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 40px;
 
     display: flex;
 
@@ -118,11 +133,9 @@ body {
 
     align-items: center;
 
-    padding: 40px 20px;
+    text-align: center;
 
     color: white;
-
-    text-align: center;
 }
 
 
@@ -134,32 +147,36 @@ body {
     width: 330px;
     height: 330px;
 
-    border-radius: 50%;
+    flex-shrink: 0;
 
     overflow: hidden;
 
-    flex-shrink: 0;
+    border-radius: 50%;
+
+    background: #ddd;
 
     box-shadow:
-        0 20px 60px rgba(0,0,0,0.45);
+        0 20px 60px rgba(0, 0, 0, 0.45);
 
-    transform: translateY(0) scale(1);
+    transform:
+        translate3d(0, 0, 0)
+        scale(1);
 
-    transition:
-        transform 0.55s cubic-bezier(.22,.61,.36,1),
-        width 0.55s ease,
-        height 0.55s ease,
-        border-radius 0.55s ease,
-        box-shadow 0.55s ease;
+    transform-origin: center center;
+
+    will-change: transform;
 }
 
+
+/* Recipe image */
+
 .recipe-photo img {
+    display: block;
+
     width: 100%;
     height: 100%;
 
     object-fit: cover;
-
-    display: block;
 }
 
 
@@ -170,53 +187,101 @@ body {
 .recipe-info {
     margin-top: 25px;
 
-    max-width: 800px;
+    max-width: 850px;
 
-    transition:
-        transform 0.55s cubic-bezier(.22,.61,.36,1);
+    will-change: transform, opacity;
+
+    transform:
+        translate3d(0, 0, 0)
+        scale(1);
+
+    transform-origin: center bottom;
 }
 
+
+/* =====================================================
+   CATEGORY
+===================================================== */
 
 .recipe-category {
     display: inline-block;
 
     padding: 6px 14px;
 
+    margin-bottom: 12px;
+
     border-radius: 999px;
 
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
 
     backdrop-filter: blur(8px);
 
     font-size: 0.85rem;
-
-    margin-bottom: 10px;
 }
 
+
+/* =====================================================
+   TITLE
+===================================================== */
 
 .recipe-info h1 {
     margin: 0;
 
     font-size: 3rem;
 
+    line-height: 1.1;
+
     font-weight: 900;
 
-    line-height: 1.1;
+    color: white;
+
+    will-change: transform;
 }
 
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
 
 .recipe-description {
     max-width: 750px;
 
     margin: 15px auto 0;
 
-    font-size: 1rem;
+    padding-left: 12px;
 
-    line-height: 1.7;
+    border-left:
+        3px solid rgba(255, 255, 255, 0.4);
 
-    color: rgba(255,255,255,0.88);
+    font-size: 1.05rem;
+
+    line-height: 1.8;
+
+    color: rgba(255, 255, 255, 0.88);
+
+    animation:
+        fadeIn 0.5s ease;
 }
 
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =====================================================
+   META
+===================================================== */
 
 .recipe-meta {
     display: flex;
@@ -232,154 +297,23 @@ body {
 
 
 /* =====================================================
-   SCROLLING STATE
-===================================================== */
-
-/*
-   When scrolling:
-
-   Large photo
-        ↓
-   moves upward
-        ↓
-   becomes small
-        ↓
-   compact header
-*/
-
-
-#hero.scrolled {
-    height: 110px;
-
-    min-height: 110px;
-
-    position: sticky;
-
-    top: 0;
-
-    z-index: 1500;
-
-    background: white;
-
-    box-shadow:
-        0 3px 15px rgba(0,0,0,0.15);
-}
-
-
-/* Remove blurred background */
-
-#hero.scrolled .hero-background {
-    display: none;
-}
-
-
-/* Compact hero */
-
-#hero.scrolled .hero-content {
-
-    height: 110px;
-
-    padding: 10px 25px;
-
-    flex-direction: row;
-
-    justify-content: flex-start;
-
-    align-items: center;
-
-    text-align: left;
-}
-
-
-/* Small photo */
-
-#hero.scrolled .recipe-photo {
-
-    width: 70px;
-    height: 70px;
-
-    border-radius: 50%;
-
-    margin: 0;
-
-    box-shadow:
-        0 3px 12px rgba(0,0,0,0.25);
-
-    transform: scale(1);
-}
-
-
-/* Small information */
-
-#hero.scrolled .recipe-info {
-
-    margin: 0 0 0 15px;
-
-    max-width: none;
-
-    transform: none;
-}
-
-
-/* Hide category */
-
-#hero.scrolled .recipe-category {
-    display: none;
-}
-
-
-/* Small title */
-
-#hero.scrolled .recipe-info h1 {
-
-    color: #222;
-
-    font-size: 1.25rem;
-
-    margin: 0;
-}
-
-
-/* Hide description */
-
-#hero.scrolled .recipe-description {
-    display: none;
-}
-
-
-/* Small metadata */
-
-#hero.scrolled .recipe-meta {
-
-    justify-content: flex-start;
-
-    margin-top: 3px;
-
-    color: #777;
-
-    font-size: 0.75rem;
-
-    gap: 10px;
-}
-
-
-/* =====================================================
    RECIPE CONTENT
 ===================================================== */
 
 .recipe-layout {
+    width: 100%;
 
     max-width: 1200px;
 
     margin: auto;
+
+    padding: 25px;
 
     display: grid;
 
     grid-template-columns: 340px 1fr;
 
     gap: 25px;
-
-    padding: 25px;
 }
 
 
@@ -388,7 +322,6 @@ body {
 ===================================================== */
 
 .section {
-
     background: white;
 
     border-radius: 16px;
@@ -396,29 +329,27 @@ body {
     padding: 20px;
 
     box-shadow:
-        0 6px 18px rgba(0,0,0,0.06);
+        0 6px 18px rgba(0, 0, 0, 0.06);
 }
 
 
 .section h3 {
-
     margin: 0 0 15px;
+
+    padding-bottom: 10px;
+
+    border-bottom:
+        2px solid #eef2f8;
 
     font-size: 1.5rem;
 
     font-weight: 800;
 
     color: #082a7b;
-
-    border-bottom:
-        2px solid #eef2f8;
-
-    padding-bottom: 10px;
 }
 
 
 .section h4 {
-
     margin: 15px 0 8px;
 
     color: #082a7b;
@@ -430,17 +361,15 @@ body {
 ===================================================== */
 
 .ingredients-panel {
-
     position: sticky;
 
-    top: 130px;
+    top: 20px;
 
     height: fit-content;
 }
 
 
 .ingredients-panel ul {
-
     list-style: none;
 
     padding: 0;
@@ -450,7 +379,6 @@ body {
 
 
 .ingredients-panel li {
-
     padding: 10px 0;
 
     border-bottom:
@@ -459,11 +387,10 @@ body {
 
 
 /* =====================================================
-   INGREDIENT CHECKBOX
+   CHECKABLE INGREDIENTS
 ===================================================== */
 
 .ingredient-item {
-
     list-style: none;
 
     padding: 10px 0;
@@ -474,7 +401,6 @@ body {
 
 
 .ingredient-item label {
-
     display: flex;
 
     align-items: center;
@@ -488,7 +414,6 @@ body {
 
 
 .ingredient-check {
-
     width: 18px;
     height: 18px;
 
@@ -497,17 +422,17 @@ body {
 
 
 .ingredient-item span {
-
     transition:
-        0.25s ease;
+        opacity 0.25s ease,
+        text-decoration 0.25s ease;
 }
 
 
 .ingredient-check:checked + span {
-
     opacity: 0.5;
 
-    text-decoration: line-through;
+    text-decoration:
+        line-through;
 }
 
 
@@ -516,38 +441,40 @@ body {
 ===================================================== */
 
 .step {
+    margin-bottom: 12px;
 
-    background: #fafbff;
+    padding: 15px;
 
     border-left:
         4px solid #082a7b;
 
-    padding: 15px;
-
-    margin-bottom: 12px;
-
     border-radius: 10px;
+
+    background: #fafbff;
 
     cursor: pointer;
 
     transition:
-        0.25s ease;
+        transform 0.25s ease,
+        background 0.25s ease,
+        opacity 0.25s ease;
 }
 
 
 .step:hover {
+    transform:
+        translateX(4px);
 
-    transform: translateX(4px);
-
-    background: #eef3ff;
+    background:
+        #eef3ff;
 }
 
 
 .step.done {
-
     opacity: 0.5;
 
-    text-decoration: line-through;
+    text-decoration:
+        line-through;
 }
 
 
@@ -556,8 +483,14 @@ body {
 ===================================================== */
 
 #servingsuggestions {
-
     margin-top: 30px;
+}
+
+
+#servingsuggestions ul {
+    margin: 0;
+
+    padding-left: 20px;
 }
 
 
@@ -566,17 +499,22 @@ body {
 ===================================================== */
 
 #tips {
-
     margin-top: 30px;
 }
 
 
 #tips .section {
-
     background: #fff8e6;
 
     border-left:
         6px solid #ffb300;
+}
+
+
+#tips ul {
+    margin: 0;
+
+    padding-left: 20px;
 }
 
 
@@ -587,19 +525,24 @@ body {
 @media (max-width: 900px) {
 
     .recipe-layout {
-
         grid-template-columns: 1fr;
     }
 
-    .ingredients-panel {
 
+    .ingredients-panel {
         position: static;
     }
 
-    .recipe-info h1 {
 
-        font-size: 2.3rem;
+    .hero-content {
+        padding: 30px;
     }
+
+
+    .recipe-info h1 {
+        font-size: 2.4rem;
+    }
+
 }
 
 
@@ -610,40 +553,47 @@ body {
 @media (max-width: 600px) {
 
     #hero {
+        height: 520px;
 
-        height: 500px;
-
-        min-height: 500px;
+        min-height: 520px;
     }
 
 
     .hero-content {
-
-        padding: 30px 15px;
+        padding: 25px 15px;
     }
 
 
+    /* -----------------------------
+       Mobile recipe photo
+    ----------------------------- */
+
     .recipe-photo {
-
         width: 250px;
-
         height: 250px;
     }
 
 
-    .recipe-info {
+    /* -----------------------------
+       Mobile title
+    ----------------------------- */
 
+    .recipe-info {
         margin-top: 18px;
     }
 
 
     .recipe-info h1 {
-
         font-size: 2rem;
     }
 
 
+    /* -----------------------------
+       Mobile description
+    ----------------------------- */
+
     .recipe-description {
+        margin-top: 12px;
 
         font-size: 0.9rem;
 
@@ -651,56 +601,24 @@ body {
     }
 
 
-    /* =========================
-       MOBILE COMPACT HEADER
-    ========================= */
+    /* -----------------------------
+       Mobile meta
+    ----------------------------- */
 
-    #hero.scrolled {
+    .recipe-meta {
+        gap: 12px;
 
-        height: 75px;
+        margin-top: 12px;
 
-        min-height: 75px;
+        font-size: 0.8rem;
     }
 
 
-    #hero.scrolled .hero-content {
-
-        height: 75px;
-
-        padding: 8px 15px;
-    }
-
-
-    #hero.scrolled .recipe-photo {
-
-        width: 58px;
-
-        height: 58px;
-    }
-
-
-    #hero.scrolled .recipe-info {
-
-        margin-left: 12px;
-    }
-
-
-    #hero.scrolled .recipe-info h1 {
-
-        font-size: 1rem;
-    }
-
-
-    #hero.scrolled .recipe-meta {
-
-        font-size: 0.65rem;
-    }
-
-
-    /* Recipe content */
+    /* -----------------------------
+       Recipe content
+    ----------------------------- */
 
     .recipe-layout {
-
         padding: 15px;
 
         gap: 15px;
@@ -708,10 +626,21 @@ body {
 
 
     .section {
-
         padding: 16px;
 
         border-radius: 13px;
     }
+
+
+    .section h3 {
+        font-size: 1.3rem;
+    }
+
+
+    #servingsuggestions,
+    #tips {
+        margin-top: 20px;
+    }
+
 }
 ```
