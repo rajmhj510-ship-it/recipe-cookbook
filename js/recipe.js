@@ -38,10 +38,9 @@ async function loadRecipe() {
 		document.getElementById("time").textContent = data.time || "";
 		document.getElementById("difficulty").textContent = data.difficulty || "";
 
-		if (data.image) {
-			document.getElementById("hero").style.backgroundImage =
-				`url(${data.image})`;
-		}
+if (data.image) {
+    document.getElementById("recipeImage").src = data.image;
+}
 
 		/* INGREDIENTS */
 		const ingEl = document.getElementById("ingredients");
