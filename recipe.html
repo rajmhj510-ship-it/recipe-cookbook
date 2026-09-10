@@ -3,56 +3,92 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>Recipe</title>
 
-    <link rel="stylesheet" href="css/recipe.css">
+    <link
+        rel="stylesheet"
+        href="css/recipe.css"
+    >
+
 </head>
+
 
 <body>
 
-    <!-- ================= BACK BUTTON ================= -->
 
-    <button class="back-btn" onclick="history.back()">
+    <!-- =====================================================
+         BACK BUTTON
+    ====================================================== -->
+
+    <button
+        class="back-btn"
+        onclick="history.back()"
+    >
         ← Back
     </button>
 
 
-    <!-- ================= RECIPE HERO ================= -->
+
+    <!-- =====================================================
+         RECIPE HERO
+    ====================================================== -->
 
     <header id="hero">
 
-        <!-- Background image used for the large hero -->
+
+        <!-- Blurred background image -->
+
         <div class="hero-background"></div>
 
 
-        <!-- Main recipe information -->
+        <!-- Dark overlay -->
+
+        <div class="hero-overlay"></div>
+
+
+        <!-- Main hero content -->
 
         <div class="hero-content">
 
-            <!-- Recipe photo -->
+
+            <!-- =================================================
+                 RECIPE PHOTO
+            ================================================== -->
 
             <div class="recipe-photo">
+
                 <img
                     id="recipeImage"
                     src=""
                     alt="Recipe"
                 >
+
             </div>
 
 
-            <!-- Recipe information -->
+
+            <!-- =================================================
+                 RECIPE INFORMATION
+            ================================================== -->
 
             <div class="recipe-info">
+
 
                 <!-- Category -->
 
                 <span
                     class="recipe-category"
-                    id="category">
-                </span>
+                    id="category"
+                ></span>
+
 
 
                 <!-- Recipe name -->
@@ -62,15 +98,17 @@
                 </h1>
 
 
+
                 <!-- Description -->
 
                 <p
                     class="recipe-description"
-                    id="description">
-                </p>
+                    id="description"
+                ></p>
 
 
-                <!-- Time + difficulty -->
+
+                <!-- Time + Difficulty -->
 
                 <div class="recipe-meta">
 
@@ -80,20 +118,27 @@
 
                 </div>
 
+
             </div>
 
+
         </div>
+
 
     </header>
 
 
 
-    <!-- ================= RECIPE CONTENT ================= -->
+    <!-- =====================================================
+         MAIN RECIPE CONTENT
+    ====================================================== -->
 
     <main class="recipe-layout">
 
 
-        <!-- ================= INGREDIENTS ================= -->
+        <!-- =================================================
+             INGREDIENTS
+        ================================================== -->
 
         <aside class="ingredients-panel">
 
@@ -103,31 +148,45 @@
 
 
 
-        <!-- ================= INSTRUCTIONS ================= -->
+        <!-- =================================================
+             INSTRUCTIONS
+        ================================================== -->
 
         <section class="instructions-panel">
+
 
             <div id="instructions"></div>
 
 
-            <!-- ================= SERVING SUGGESTIONS ================= -->
+
+            <!-- =================================================
+                 SERVING SUGGESTIONS
+            ================================================== -->
 
             <div id="servingsuggestions"></div>
 
 
-            <!-- ================= CHEF TIPS ================= -->
+
+            <!-- =================================================
+                 CHEF TIPS
+            ================================================== -->
 
             <div id="tips"></div>
 
+
         </section>
+
 
     </main>
 
 
 
-    <!-- ================= JAVASCRIPT ================= -->
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
 
     <script src="js/recipe.js"></script>
+
 
 </body>
 
