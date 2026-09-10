@@ -1,111 +1,56 @@
-```html
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Recipe</title>
-
     <link rel="stylesheet" href="css/recipe.css">
 </head>
 
 <body>
 
-    <!-- Back Button -->
-    <button
-        class="back-btn"
-        type="button"
-        onclick="history.back()"
-        aria-label="Go back to the previous page"
-    >
-        ← Back
-    </button>
 
+<!-- BACK BUTTON -->
+<button class="back-btn" onclick="history.back()">← Back</button>
 
-    <!-- Hero Section -->
-    <header id="hero">
+<!-- HERO -->
+<header id="hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <span class="recipe-category" id="category"></span>
+            <h1 id="title">Loading Recipe...</h1>
 
-        <div class="hero-overlay">
+            <!-- INTRO DESCRIPTION -->
+            <p class="recipe-description" id="description"></p>
 
-            <div class="hero-content">
-
-                <!-- Recipe Category -->
-                <span
-                    class="recipe-category"
-                    id="category"
-                ></span>
-
-                <!-- Recipe Title -->
-                <h1 id="title">
-                    Loading Recipe...
-                </h1>
-
-                <!-- Recipe Description -->
-                <p
-                    class="recipe-description"
-                    id="description"
-                ></p>
-
-                <!-- Recipe Information -->
-                <div class="recipe-meta">
-
-                    <span id="time"></span>
-
-                    <span id="difficulty"></span>
-
-                </div>
-
+            <div class="recipe-meta">
+                <span id="time"></span>
+                <span id="difficulty"></span>
             </div>
-
         </div>
+    </div>
+</header>
 
-    </header>
+<!-- MAIN LAYOUT -->
+<main class="recipe-layout">
 
+    <!-- INGREDIENTS -->
+    <aside class="ingredients-panel">
+        <div id="ingredients"></div>
+    </aside>
 
-    <!-- Main Recipe Content -->
-    <main class="recipe-layout">
+    <!-- INSTRUCTIONS + TIPS -->
+    <section class="instructions-panel">
+        <div id="instructions"></div>
+        <div id="servingsuggestions"></div>
+        <div id="tips"></div>
+    </section>
 
-        <!-- Ingredients Section -->
-        <aside class="ingredients-panel">
+</main>
 
-            <div id="ingredients">
-                <!-- Ingredients will be loaded here -->
-            </div>
+<script src="js/recipe.js"></script>
 
-        </aside>
-
-
-        <!-- Instructions and Additional Information -->
-        <section class="instructions-panel">
-
-            <!-- Cooking Instructions -->
-            <div id="instructions">
-                <!-- Instructions will be loaded here -->
-            </div>
-
-
-            <!-- Serving Suggestions -->
-            <div id="servingsuggestions">
-                <!-- Serving suggestions will be loaded here -->
-            </div>
-
-
-            <!-- Cooking Tips -->
-            <div id="tips">
-                <!-- Tips will be loaded here -->
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- JavaScript -->
-    <script src="js/recipe.js"></script>
 
 </body>
-
 </html>
-```
