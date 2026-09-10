@@ -1,168 +1,142 @@
-document.addEventListener("DOMContentLoaded", () => {
-// =========================
-// GET RECIPE FILE
-// =========================
-
+```js
 const params = new URLSearchParams(window.location.search);
-const file = params.get("file") || "";
-
-// =========================
-// BASE URL
-// =========================
+const file = decodeURIComponent(params.get("file") || "");
 
 const BASE_URL = window.location.pathname.includes("recipe-cookbook")
-? "/recipe-cookbook/"
-: "./";
+  ? "/recipe-cookbook/"
+  : "./";
 
-// =========================
-// SAFE TEXT
-// =========================
+/* =========================================================
+   SAFE TEXT
+========================================================= */
 
 function safeText(value) {
-if (typeof value === "string") {
-return value;
-}
+  if (typeof value === "string") {
+    return value;
+  }
 
-```
-if (typeof value === "number") {
-  return String(value);
-}
+  if (typeof value === "number") {
+    return String(value);
+  }
 
-if (value && typeof value === "object") {
-  return (
-    value.text ||
-    value.step ||
-    value.name ||
-    value.description ||
-    ""
-  );
-}
-
-return "";
-```
-
-}
-
-// =========================
-// HTML ESCAPE
-// =========================
-
-function escapeHTML(value) {
-return safeText(value)
-.replace(/&/g, "&")
-.replace(/</g, "<")
-.replace(/>/g, ">")
-.replace(/"/g, """)
-.replace(/'/g, "'");
-}
-
-// =========================
-// LOAD RECIPE
-// =========================
-
-async function loadRecipe() {
-try {
-if (!file) {
-throw new Error("Recipe file is missing.");
-}
-
-```
-  // Build recipe URL
-  const url = file.startsWith("http")
-    ? file
-    : BASE_URL + file;
-
-
-  // Fetch recipe JSON
-  const response = await fetch(url);
-
-  if (!response.ok) {
-    throw new Error(
-      `Failed to load recipe: HTTP ${response.status}`
+  if (value && typeof value === "object") {
+    return (
+      value.text ||
+      value.step ||
+      value.name ||
+      value.description ||
+      ""
     );
   }
 
-
-  const data = await response.json();
-
-
-  // =========================
-  // HERO CONTENT
-  // =========================
-
-  const hero = document.getElementById("hero");
-  const title = document.getElementById("title");
-  const category = document.getElementById("category");
-  const description = document.getElementById("description");
-  const time = document.getElementById("time");
-  const difficulty = document.getElementById("difficulty");
+  return "";
+}
 
 
-  if (title) {
-    title.textContent = data.title || "Recipe";
-  }
+/* =========================================================
+   ESCAPE HTML
+========================================================= */
 
-  if (category) {
-    category.textContent = data.category || "";
-  }
-
-  if (description) {
-    description.textContent = data.description || "";
-  }
-
-  if (time) {
-    time.textContent = data.time || "";
-  }
-
-  if (difficulty) {
-    difficulty.textContent = data.difficulty || "";
-  }
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
 
 
-  // =========================
-  // HERO IMAGE
-  // =========================
+/* =========================================================
+   LOAD RECIPE
+========================================================= */
 
-  if (hero && data.image) {
-    hero.style.backgroundImage =
-      `url("${data.image}")`;
-  }
+async function loadRecipe() {
+  try {
+    /* -------------------------------------------------------
+       CHECK RECIPE FILE
+    ------------------------------------------------------- */
 
-
-  // =========================
-  // INGREDIENTS
-  // =========================
-
-  const ingredientsElement =
-    document.getElementById("ingredients");
+    if (!file) {
+      throw new Error("Recipe file missing");
+    }
 
 
-  if (
-    ingredientsElement &&
-    Array.isArray(data.ingredients)
-  ) {
-    ingredientsElement.innerHTML = `
-      <div class="section">
+    /* -------------------------------------------------------
+       BUILD RECIPE URL
+    ------------------------------------------------------- */
 
-        <h3>Ingredients</h3>
+    const url = file.startsWith("http")
+      ? file
+      : BASE_URL + file;
 
-        ${data.ingredients
-          .map((group) => {
 
-            const groupTitle = group?.title
-              ? `<h4>${escapeHTML(group.title)}</h4>`
-              : "";
+    /* -------------------------------------------------------
+       FETCH RECIPE
+    ------------------------------------------------------- */
 
-            const items = Array.isArray(group?.items)
-              ? group.items
-              : [];
+    const response = await fetch(url);
 
-            return `
-              ${groupTitle}
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
 
-              <ul>
-                ${items
-                  .map((item) => `
+    const data = await response.json();
+
+
+    /* =======================================================
+       HERO SECTION
+    ======================================================= */
+
+    document.getElementById("title").textContent =
+      data.title || "Recipe";
+
+    document.getElementById("category").textContent =
+      data.category || "";
+
+    document.getElementById("description").textContent =
+      data.description || "";
+
+    document.getElementById("time").textContent =
+      data.time || "";
+
+    document.getElementById("difficulty").textContent =
+      data.difficulty || "";
+
+
+    /* -------------------------------------------------------
+       HERO IMAGE
+    ------------------------------------------------------- */
+
+    if (data.image) {
+      document.getElementById("hero").style.backgroundImage =
+        `url("${data.image}")`;
+    }
+
+
+    /* =======================================================
+       INGREDIENTS
+    ======================================================= */
+
+    const ingredientsElement =
+      document.getElementById("ingredients");
+
+    if (Array.isArray(data.ingredients)) {
+      ingredientsElement.innerHTML = `
+        <div class="section">
+
+          <h3>Ingredients</h3>
+
+          ${data.ingredients
+            .map((group) => {
+
+              const groupTitle = group.title
+                ? `<h4>${escapeHtml(safeText(group.title))}</h4>`
+                : "";
+
+              const items = (group.items || [])
+                .map((item) => {
+                  return `
                     <li class="ingredient-item">
                       <label>
                         <input
@@ -171,292 +145,214 @@ throw new Error("Recipe file is missing.");
                         >
 
                         <span>
-                          ${escapeHTML(item)}
+                          ${escapeHtml(safeText(item))}
                         </span>
                       </label>
                     </li>
-                  `)
-                  .join("")}
-              </ul>
-            `;
-          })
-          .join("")}
+                  `;
+                })
+                .join("");
 
-      </div>
-    `;
-  }
+              return `
+                ${groupTitle}
 
-
-  // =========================
-  // INSTRUCTIONS
-  // =========================
-
-  const instructionsElement =
-    document.getElementById("instructions");
-
-
-  if (
-    instructionsElement &&
-    Array.isArray(data.instruction)
-  ) {
-    instructionsElement.innerHTML = `
-      <div class="section">
-
-        <h3>Instructions</h3>
-
-        ${data.instruction
-          .map((block) => {
-
-            const blockTitle = block?.title
-              ? `<h4>${escapeHTML(block.title)}</h4>`
-              : "";
-
-            const steps = Array.isArray(block?.steps)
-              ? block.steps
-              : [];
-
-            return `
-              ${blockTitle}
-
-              ${steps
-                .map(
-                  (step, index) => `
-                    <div
-                      class="step"
-                      data-step="${index + 1}"
-                      tabindex="0"
-                      role="button"
-                      aria-label="Mark step ${index + 1} as complete"
-                    >
-                      ${escapeHTML(step)}
-                    </div>
-                  `
-                )
-                .join("")}
-            `;
-          })
-          .join("")}
-
-      </div>
-    `;
-  }
-
-
-  // =========================
-  // FALLBACK STEPS
-  // =========================
-
-  else if (
-    instructionsElement &&
-    Array.isArray(data.steps)
-  ) {
-    instructionsElement.innerHTML = `
-      <div class="section">
-
-        <h3>Instructions</h3>
-
-        ${data.steps
-          .map(
-            (step, index) => `
-              <div
-                class="step"
-                data-step="${index + 1}"
-                tabindex="0"
-                role="button"
-                aria-label="Mark step ${index + 1} as complete"
-              >
-                ${escapeHTML(step)}
-              </div>
-            `
-          )
-          .join("")}
-
-      </div>
-    `;
-  }
-
-
-  // =========================
-  // SERVING SUGGESTIONS
-  // =========================
-
-  const servingElement =
-    document.getElementById("servingsuggestions");
-
-
-  const servingSuggestions =
-    data.servingSuggestions;
-
-
-  if (
-    servingElement &&
-    servingSuggestions &&
-    Array.isArray(servingSuggestions.items) &&
-    servingSuggestions.items.length > 0
-  ) {
-    const servingTitle =
-      servingSuggestions.title ||
-      "Serving Suggestions";
-
-    servingElement.innerHTML = `
-      <div class="section">
-
-        <h3>
-          ${escapeHTML(servingTitle)}
-        </h3>
-
-        <ul>
-          ${servingSuggestions.items
-            .map(
-              (item) => `
-                <li>
-                  ${escapeHTML(item)}
-                </li>
-              `
-            )
+                <ul>
+                  ${items}
+                </ul>
+              `;
+            })
             .join("")}
-        </ul>
 
-      </div>
-    `;
-  }
-
-
-  // =========================
-  // CHEF TIPS
-  // =========================
-
-  const tipsElement =
-    document.getElementById("tips");
-
-
-  if (
-    tipsElement &&
-    Array.isArray(data.chefTips) &&
-    data.chefTips.length > 0
-  ) {
-    tipsElement.innerHTML = `
-      <div class="section">
-
-        <h3>Chef Tips</h3>
-
-        <ul>
-          ${data.chefTips
-            .map(
-              (tip) => `
-                <li>
-                  ${escapeHTML(tip)}
-                </li>
-              `
-            )
-            .join("")}
-        </ul>
-
-      </div>
-    `;
-  }
-
-
-  // =========================
-  // STEP INTERACTION
-  // =========================
-
-  setupStepInteractions();
-
-} catch (error) {
-  console.error("Recipe loading error:", error);
-
-  showRecipeError();
-}
-```
-
-}
-
-// =========================
-// STEP CLICK / KEYBOARD
-// =========================
-
-function setupStepInteractions() {
-const steps =
-document.querySelectorAll(".step");
-
-```
-steps.forEach((step) => {
-
-  // Mouse / touch
-  step.addEventListener("click", () => {
-    toggleStep(step);
-  });
-
-
-  // Keyboard
-  step.addEventListener("keydown", (event) => {
-    if (
-      event.key === "Enter" ||
-      event.key === " "
-    ) {
-      event.preventDefault();
-      toggleStep(step);
+        </div>
+      `;
     }
-  });
 
-});
-```
 
+    /* =======================================================
+       INSTRUCTIONS
+    ======================================================= */
+
+    const instructionsElement =
+      document.getElementById("instructions");
+
+
+    /* -------------------------------------------------------
+       GROUPED INSTRUCTIONS
+    ------------------------------------------------------- */
+
+    if (Array.isArray(data.instruction)) {
+      instructionsElement.innerHTML = `
+        <div class="section">
+
+          <h3>Instructions</h3>
+
+          ${data.instruction
+            .map((block) => {
+
+              const blockTitle = block.title
+                ? `<h4>${escapeHtml(safeText(block.title))}</h4>`
+                : "";
+
+              const steps = (block.steps || [])
+                .map((step) => {
+                  return `
+                    <div class="step">
+                      ${escapeHtml(safeText(step))}
+                    </div>
+                  `;
+                })
+                .join("");
+
+              return `
+                ${blockTitle}
+                ${steps}
+              `;
+            })
+            .join("")}
+
+        </div>
+      `;
+    }
+
+
+    /* -------------------------------------------------------
+       SIMPLE STEPS FORMAT
+    ------------------------------------------------------- */
+
+    else if (Array.isArray(data.steps)) {
+      instructionsElement.innerHTML = `
+        <div class="section">
+
+          <h3>Instructions</h3>
+
+          ${data.steps
+            .map((step) => {
+              return `
+                <div class="step">
+                  ${escapeHtml(safeText(step))}
+                </div>
+              `;
+            })
+            .join("")}
+
+        </div>
+      `;
+    }
+
+
+    /* =======================================================
+       SERVING SUGGESTIONS
+    ======================================================= */
+
+    const servingElement =
+      document.getElementById("servingsuggestions");
+
+    if (
+      data.servingSuggestions &&
+      Array.isArray(data.servingSuggestions.items) &&
+      data.servingSuggestions.items.length > 0
+    ) {
+      servingElement.innerHTML = `
+        <div class="section">
+
+          <h3>
+            ${escapeHtml(
+              safeText(
+                data.servingSuggestions.title ||
+                "Serving Suggestions"
+              )
+            )}
+          </h3>
+
+          <ul>
+
+            ${data.servingSuggestions.items
+              .map((item) => {
+                return `
+                  <li>
+                    ${escapeHtml(safeText(item))}
+                  </li>
+                `;
+              })
+              .join("")}
+
+          </ul>
+
+        </div>
+      `;
+    }
+
+
+    /* =======================================================
+       CHEF TIPS
+    ======================================================= */
+
+    const tipsElement =
+      document.getElementById("tips");
+
+    if (
+      Array.isArray(data.chefTips) &&
+      data.chefTips.length > 0
+    ) {
+      tipsElement.innerHTML = `
+        <div class="section">
+
+          <h3>Chef Tips</h3>
+
+          <ul>
+
+            ${data.chefTips
+              .map((tip) => {
+                return `
+                  <li>
+                    ${escapeHtml(safeText(tip))}
+                  </li>
+                `;
+              })
+              .join("")}
+
+          </ul>
+
+        </div>
+      `;
+    }
+
+
+    /* =======================================================
+       STEP CLICK / COMPLETION
+    ======================================================= */
+
+    document.querySelectorAll(".step").forEach((step) => {
+      step.addEventListener("click", () => {
+        step.classList.toggle("done");
+      });
+    });
+
+  } catch (error) {
+
+    /* =======================================================
+       ERROR HANDLING
+    ======================================================= */
+
+    console.error("Recipe loading error:", error);
+
+    document.body.innerHTML = `
+      <h2
+        style="
+          padding: 40px;
+          font-family: Arial, sans-serif;
+        "
+      >
+        Recipe failed to load ❌
+      </h2>
+    `;
+  }
 }
 
-// =========================
-// TOGGLE STEP
-// =========================
 
-function toggleStep(step) {
-step.classList.toggle("done");
-
-```
-const completed =
-  step.classList.contains("done");
-
-step.setAttribute(
-  "aria-pressed",
-  String(completed)
-);
-```
-
-}
-
-// =========================
-// ERROR MESSAGE
-// =========================
-
-function showRecipeError() {
-document.body.innerHTML = ` <main class="recipe-error-page">
-
-```
-    <h2>
-      Recipe failed to load ❌
-    </h2>
-
-    <p>
-      The recipe could not be loaded.
-      Please go back and try again.
-    </p>
-
-    <button
-      type="button"
-      onclick="history.back()"
-    >
-      ← Back to Recipes
-    </button>
-
-  </main>
-`;
-```
-
-}
-
-// =========================
-// START
-// =========================
+/* =========================================================
+   START
+========================================================= */
 
 loadRecipe();
-});
+```
