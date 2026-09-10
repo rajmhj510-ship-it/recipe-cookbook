@@ -1,171 +1,84 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe Cookbook</title>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/carousel.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/home.css" />
 </head>
 
 <body>
 
-    <!-- =====================================================
-         HERO SECTION
-    ====================================================== -->
+    <!-- ================= HERO ================= -->
     <section id="hero">
+        <h1 class="about-title">COOK LIKE A CHEF</h1>
 
-        <h1 class="about-title">
-            COOK LIKE A CHEF
-        </h1>
-
-        <!-- Recipe Carousel -->
         <div class="carousel-container">
-
-            <button class="nav-arrow left" aria-label="Previous recipe">
-                ‹
-            </button>
+            <button class="nav-arrow left">‹</button>
 
             <div class="carousel-track"></div>
 
-            <button class="nav-arrow right" aria-label="Next recipe">
-                ›
-            </button>
-
+            <button class="nav-arrow right">›</button>
         </div>
 
-        <!-- Selected Recipe Information -->
         <div class="recipe-info">
-
             <h2 class="hero-recipe-title"></h2>
-
             <p class="recipe-meta"></p>
-
         </div>
 
-        <!-- Scroll to Recipes -->
-        <button class="scroll-down">
-            ↓ Explore Recipes
-        </button>
-
+        <button class="scroll-down">↓ Explore Recipes</button>
     </section>
 
 
-    <!-- =====================================================
-         EXPLORE RECIPES SECTION
-    ====================================================== -->
+    <!-- ================= EXPLORE ================= -->
     <section id="explore">
 
-        <!-- =================================================
-             STICKY HEADER
-        ================================================== -->
+        <!-- SINGLE STICKY BLOCK -->
         <div class="sticky-block">
 
-            <!-- Explore Header -->
             <div class="explore-header">
-
                 <div class="brand-small">
-
-                    <img
-                        src="logo.png"
-                        class="logo"
-                        alt="Recipe Cookbook Logo"
-                    >
-
+                    <img src="logo.png" class="logo" alt="logo">
                     <h2>Recipes</h2>
-
                 </div>
-
             </div>
 
-
-            <!-- Search -->
             <div class="search-wrapper">
-
                 <input
                     type="text"
                     id="searchInput"
                     placeholder="Search recipes..."
-                    aria-label="Search recipes"
-                >
-
+                />
             </div>
 
-
-            <!-- Cuisine Filters -->
             <div class="filters">
-
-                <button class="active" data-cat="all">
-                    All
-                </button>
-
-                <button data-cat="Arabic">
-                    Arabic
-                </button>
-
-                <button data-cat="Chinese">
-                    Chinese
-                </button>
-
-                <button data-cat="Indian">
-                    Indian
-                </button>
-
-                <button data-cat="Continental">
-                    Continental
-                </button>
-
-                <button data-cat="Mexican">
-                    Mexican
-                </button>
-
-                <button data-cat="Nepali">
-                    Nepali
-                </button>
-
-                <button data-cat="Thai">
-                    Thai
-                </button>
-
-                <button data-cat="Italian">
-                    Italian
-                </button>
-
-                <button data-cat="Indo-Chinese">
-                    Indo-Chinese
-                </button>
-
-                <button data-cat="Spanish">
-                    Spanish
-                </button>
-
-                <button data-cat="Turkish">
-                    Turkish
-                </button>
-
+                <button class="active" data-cat="all">All</button>
+                <button data-cat="Arabic">Arabic</button>
+                <button data-cat="Chinese">Chinese</button>
+                <button data-cat="Indian">Indian</button>
+                <button data-cat="Continental">Continental</button>
+                <button data-cat="Mexican">Mexican</button>
+                <button data-cat="Nepali">Nepali</button>
+                <button data-cat="Thai">Thai</button>
+                <button data-cat="Italian">Italian</button>
+                <button data-cat="Indo-Chinese">Indo-Chinese</button>
+                <button data-cat="Spanish">Spanish</button>
+                <button data-cat="Turkish">Turkish</button>
             </div>
 
         </div>
 
 
-        <!-- =================================================
-             RECIPE LIST
-        ================================================== -->
+        <!-- SCROLLING CONTENT -->
         <div id="recipeList"></div>
 
     </section>
 
 
-    <!-- =====================================================
-         JAVASCRIPT
-    ====================================================== -->
     <script src="js/carousel.js"></script>
     <script src="js/home.js"></script>
 
 </body>
 </html>
-```
