@@ -1,358 +1,174 @@
-```js
 const params = new URLSearchParams(window.location.search);
 const file = decodeURIComponent(params.get("file") || "");
 
 const BASE_URL = window.location.pathname.includes("recipe-cookbook")
-  ? "/recipe-cookbook/"
-  : "./";
+	? "/recipe-cookbook/"
+	: "./";
 
-/* =========================================================
-   SAFE TEXT
-========================================================= */
+/* ================= SAFE TEXT ================= */
 
-function safeText(value) {
-  if (typeof value === "string") {
-    return value;
-  }
+function safeText(val) {
+	if (typeof val === "string") return val;
+	if (typeof val === "number") return String(val);
 
-  if (typeof value === "number") {
-    return String(value);
-  }
+	if (val && typeof val === "object") {
+		return val.text || val.step || val.name || val.description || "";
+	}
 
-  if (value && typeof value === "object") {
-    return (
-      value.text ||
-      value.step ||
-      value.name ||
-      value.description ||
-      ""
-    );
-  }
-
-  return "";
+	return "";
 }
 
-
-/* =========================================================
-   ESCAPE HTML
-========================================================= */
-
-function escapeHtml(value) {
-  return String(value)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-}
-
-
-/* =========================================================
-   LOAD RECIPE
-========================================================= */
+/* ================= LOAD RECIPE ================= */
 
 async function loadRecipe() {
-  try {
-    /* -------------------------------------------------------
-       CHECK RECIPE FILE
-    ------------------------------------------------------- */
-
-    if (!file) {
-      throw new Error("Recipe file missing");
-    }
-
-
-    /* -------------------------------------------------------
-       BUILD RECIPE URL
-    ------------------------------------------------------- */
-
-    const url = file.startsWith("http")
-      ? file
-      : BASE_URL + file;
-
-
-    /* -------------------------------------------------------
-       FETCH RECIPE
-    ------------------------------------------------------- */
-
-    const response = await fetch(url);
-
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
-
-    const data = await response.json();
-
-
-    /* =======================================================
-       HERO SECTION
-    ======================================================= */
-
-    document.getElementById("title").textContent =
-      data.title || "Recipe";
-
-    document.getElementById("category").textContent =
-      data.category || "";
-
-    document.getElementById("description").textContent =
-      data.description || "";
-
-    document.getElementById("time").textContent =
-      data.time || "";
-
-    document.getElementById("difficulty").textContent =
-      data.difficulty || "";
-
-
-    /* -------------------------------------------------------
-       HERO IMAGE
-    ------------------------------------------------------- */
-
-    if (data.image) {
-      document.getElementById("hero").style.backgroundImage =
-        `url("${data.image}")`;
-    }
-
-
-    /* =======================================================
-       INGREDIENTS
-    ======================================================= */
-
-    const ingredientsElement =
-      document.getElementById("ingredients");
-
-    if (Array.isArray(data.ingredients)) {
-      ingredientsElement.innerHTML = `
-        <div class="section">
-
-          <h3>Ingredients</h3>
-
-          ${data.ingredients
-            .map((group) => {
-
-              const groupTitle = group.title
-                ? `<h4>${escapeHtml(safeText(group.title))}</h4>`
-                : "";
-
-              const items = (group.items || [])
-                .map((item) => {
-                  return `
-                    <li class="ingredient-item">
-                      <label>
-                        <input
-                          type="checkbox"
-                          class="ingredient-check"
-                        >
-
-                        <span>
-                          ${escapeHtml(safeText(item))}
-                        </span>
-                      </label>
-                    </li>
-                  `;
-                })
-                .join("");
-
-              return `
-                ${groupTitle}
-
-                <ul>
-                  ${items}
-                </ul>
-              `;
-            })
-            .join("")}
-
-        </div>
-      `;
-    }
-
-
-    /* =======================================================
-       INSTRUCTIONS
-    ======================================================= */
-
-    const instructionsElement =
-      document.getElementById("instructions");
-
-
-    /* -------------------------------------------------------
-       GROUPED INSTRUCTIONS
-    ------------------------------------------------------- */
-
-    if (Array.isArray(data.instruction)) {
-      instructionsElement.innerHTML = `
-        <div class="section">
-
-          <h3>Instructions</h3>
-
-          ${data.instruction
-            .map((block) => {
-
-              const blockTitle = block.title
-                ? `<h4>${escapeHtml(safeText(block.title))}</h4>`
-                : "";
-
-              const steps = (block.steps || [])
-                .map((step) => {
-                  return `
-                    <div class="step">
-                      ${escapeHtml(safeText(step))}
-                    </div>
-                  `;
-                })
-                .join("");
-
-              return `
-                ${blockTitle}
-                ${steps}
-              `;
-            })
-            .join("")}
-
-        </div>
-      `;
-    }
-
-
-    /* -------------------------------------------------------
-       SIMPLE STEPS FORMAT
-    ------------------------------------------------------- */
-
-    else if (Array.isArray(data.steps)) {
-      instructionsElement.innerHTML = `
-        <div class="section">
-
-          <h3>Instructions</h3>
-
-          ${data.steps
-            .map((step) => {
-              return `
-                <div class="step">
-                  ${escapeHtml(safeText(step))}
-                </div>
-              `;
-            })
-            .join("")}
-
-        </div>
-      `;
-    }
-
-
-    /* =======================================================
-       SERVING SUGGESTIONS
-    ======================================================= */
-
-    const servingElement =
-      document.getElementById("servingsuggestions");
-
-    if (
-      data.servingSuggestions &&
-      Array.isArray(data.servingSuggestions.items) &&
-      data.servingSuggestions.items.length > 0
-    ) {
-      servingElement.innerHTML = `
-        <div class="section">
-
-          <h3>
-            ${escapeHtml(
-              safeText(
-                data.servingSuggestions.title ||
-                "Serving Suggestions"
-              )
-            )}
-          </h3>
-
-          <ul>
-
-            ${data.servingSuggestions.items
-              .map((item) => {
-                return `
-                  <li>
-                    ${escapeHtml(safeText(item))}
-                  </li>
-                `;
-              })
-              .join("")}
-
-          </ul>
-
-        </div>
-      `;
-    }
-
-
-    /* =======================================================
-       CHEF TIPS
-    ======================================================= */
-
-    const tipsElement =
-      document.getElementById("tips");
-
-    if (
-      Array.isArray(data.chefTips) &&
-      data.chefTips.length > 0
-    ) {
-      tipsElement.innerHTML = `
-        <div class="section">
-
-          <h3>Chef Tips</h3>
-
-          <ul>
-
-            ${data.chefTips
-              .map((tip) => {
-                return `
-                  <li>
-                    ${escapeHtml(safeText(tip))}
-                  </li>
-                `;
-              })
-              .join("")}
-
-          </ul>
-
-        </div>
-      `;
-    }
-
-
-    /* =======================================================
-       STEP CLICK / COMPLETION
-    ======================================================= */
-
-    document.querySelectorAll(".step").forEach((step) => {
-      step.addEventListener("click", () => {
-        step.classList.toggle("done");
-      });
-    });
-
-  } catch (error) {
-
-    /* =======================================================
-       ERROR HANDLING
-    ======================================================= */
-
-    console.error("Recipe loading error:", error);
-
-    document.body.innerHTML = `
-      <h2
-        style="
-          padding: 40px;
-          font-family: Arial, sans-serif;
-        "
-      >
-        Recipe failed to load ❌
-      </h2>
-    `;
-  }
+	try {
+		if (!file) throw new Error("Recipe file missing");
+
+		const url = file.startsWith("http")
+			? file
+			: BASE_URL + file;
+
+		const res = await fetch(url);
+
+		if (!res.ok) throw new Error("HTTP " + res.status);
+
+		const data = await res.json();
+
+		/* HERO */
+
+		document.getElementById("title").textContent = data.title || "Recipe";
+		document.getElementById("category").textContent = data.category || "";
+		document.getElementById("description").textContent = data.description || "";
+		document.getElementById("time").textContent = data.time || "";
+		document.getElementById("difficulty").textContent = data.difficulty || "";
+
+		if (data.image) {
+			document.getElementById("hero").style.backgroundImage =
+				`url(${data.image})`;
+		}
+
+		/* INGREDIENTS */
+
+		const ingEl = document.getElementById("ingredients");
+
+		if (Array.isArray(data.ingredients)) {
+			ingEl.innerHTML = `
+				<div class="section">
+					<h3>Ingredients</h3>
+
+					${data.ingredients.map(group => `
+						${group.title ? `<h4>${group.title}</h4>` : ""}
+
+						<ul>
+							${(group.items || [])
+								.map(i => `
+									<li class="ingredient-item">
+										<label>
+											<input type="checkbox" class="ingredient-check">
+											<span>${safeText(i)}</span>
+										</label>
+									</li>
+								`)
+								.join("")}
+						</ul>
+					`).join("")}
+				</div>
+			`;
+		}
+
+		/* INSTRUCTIONS */
+
+		const insEl = document.getElementById("instructions");
+
+		if (Array.isArray(data.instruction)) {
+			insEl.innerHTML = `
+				<div class="section">
+					<h3>Instructions</h3>
+
+					${data.instruction.map(block => `
+						${block.title ? `<h4>${block.title}</h4>` : ""}
+
+						${(block.steps || [])
+							.map(step => `
+								<div class="step">${safeText(step)}</div>
+							`)
+							.join("")}
+					`).join("")}
+				</div>
+			`;
+		}
+
+		else if (Array.isArray(data.steps)) {
+			insEl.innerHTML = `
+				<div class="section">
+					<h3>Instructions</h3>
+
+					${data.steps.map(step =>
+						`<div class="step">${safeText(step)}</div>`
+					).join("")}
+				</div>
+			`;
+		}
+
+		/* SERVING SECTION */
+
+		const servingEl = document.getElementById("servingsuggestions");
+
+		if (
+			data.servingSuggestions &&
+			Array.isArray(data.servingSuggestions.items) &&
+			data.servingSuggestions.items.length
+		) {
+			servingEl.innerHTML = `
+				<div class="section">
+					<h3>${safeText(
+						data.servingSuggestions.title || "Serving Suggestions"
+					)}</h3>
+
+					<ul>
+						${data.servingSuggestions.items
+							.map(item => `<li>${safeText(item)}</li>`)
+							.join("")}
+					</ul>
+				</div>
+			`;
+		}
+
+		/* TIPS */
+
+		const tipsEl = document.getElementById("tips");
+
+		if (Array.isArray(data.chefTips) && data.chefTips.length) {
+			tipsEl.innerHTML = `
+				<div class="section">
+					<h3>Chef Tips</h3>
+
+					<ul>
+						${data.chefTips.map(t =>
+							`<li>${safeText(t)}</li>`
+						).join("")}
+					</ul>
+				</div>
+			`;
+		}
+
+		/* STEP CLICK */
+
+		document.querySelectorAll(".step").forEach(step => {
+			step.addEventListener("click", () => {
+				step.classList.toggle("done");
+			});
+		});
+
+	} catch (err) {
+		console.error(err);
+
+		document.body.innerHTML = `
+			<h2 style="padding:40px;font-family:Arial;">
+				Recipe failed to load ❌
+			</h2>
+		`;
+	}
 }
 
-
-/* =========================================================
-   START
-========================================================= */
-
 loadRecipe();
-```
